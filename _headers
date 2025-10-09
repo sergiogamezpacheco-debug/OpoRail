@@ -1,0 +1,4 @@
+/* 
+  Content Security Policy: permite el uso de eval() solo en scripts del CMS
+*/
+  Content-Security-Policy: script-src 'self' 'unsafe-eval' https://identity.netlify.com https://unpkg.com;
