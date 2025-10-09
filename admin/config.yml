@@ -6,19 +6,21 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "paginas"
-    label: "Páginas"
-    files:
-      - file: "index.html"
-        label: "Página principal"
-        name: "inicio"
-        fields:
-          - { label: "Título principal", name: "titulo", widget: "string" }
-          - { label: "Descripción", name: "descripcion", widget: "text" }
-      - file: "cursos.html"
-        label: "Cursos"
-        name: "cursos"
-        fields:
-          - { label: "Título", name: "titulo", widget: "string" }
-          - { label: "Descripción", name: "descripcion", widget: "text" }
+  - name: "noticias"
+    label: "Noticias"
+    folder: "content/noticias"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
 
+  - name: "cursos"
+    label: "Cursos"
+    folder: "content/cursos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descripción", name: "body", widget: "markdown" }
