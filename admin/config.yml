@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "site"
+    label: "Configuración del sitio"
+    files:
+      - file: "data/site.json"
+        label: "Site"
+        name: "site"
+        fields:
+          - { label: "Título del Hero", name: "heroTitle", widget: "string" }
+          - { label: "Subtítulo del Hero", name: "heroSubtitle", widget: "text" }
+          - { label: "Texto CTA", name: "heroCtaText", widget: "string" }
+          - { label: "Enlace CTA", name: "heroCtaLink", widget: "string" }
+          - { label: "Logo Opo", name: "logoOpo", widget: "string" }
+          - { label: "Logo Rail", name: "logoRail", widget: "string" }
+          - { label: "Menú", name: "nav", widget: "list", fields:
+              - { label: "Texto", name: "text", widget: "string" }
+              - { label: "Enlace", name: "href", widget: "string" }
+            }
+  - name: "courses"
+    label: "Cursos"
+    files:
+      - file: "data/courses.json"
+        label: "Lista de cursos"
+        name: "courses"
+        fields:
+          - { label: "Cursos", name: "courses", widget: "list", fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Link (ej: curso.html?id=tu-id)", name: "link", widget: "string" }
+            }
+  - name: "news"
+    label: "Noticias"
+    files:
+      - file: "data/news.json"
+        label: "Noticias (lista)"
+        name: "news"
+        fields:
+          - { label: "Artículos", name: "articles", widget: "list", fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "datetime" }
+              - { label: "Resumen", name: "summary", widget: "text" }
+              - { label: "Imagen", name: "image", widget: "image" }
+            }
+  - name: "planes"
+    label: "Planes"
+    files:
+      - file: "data/planes.json"
+        label: "Planes"
+        name: "planes"
+        fields:
+          - { label: "Planes", name: "plans", widget: "list", fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Precio", name: "price", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+            }

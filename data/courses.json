@@ -1,0 +1,9 @@
+{
+  "courses": [
+    { "id": "ajustador-montador", "title": "Ajustador Montador", "description": "Test por especialidad, simulacros y teoría.", "link": "curso.html?id=ajustador-montador" },
+    { "id": "electrico", "title": "Eléctrico", "description": "Prácticas sobre instalaciones eléctricas de trenes.", "link": "curso.html?id=electrico" },
+    { "id": "soldadores", "title": "Soldadores", "description": "Tests sobre técnicas y normativa.", "link": "curso.html?id=soldadores" },
+    { "id": "torneros", "title": "Torneros", "description": "Mecanizado, tolerancias y lectura de planos.", "link": "curso.html?id=torneros" },
+    { "id": "suministros", "title": "Suministros", "description": "Gestión, logística y aprovisionamiento.", "link": "curso.html?id=suministros" }
+  ]
+}

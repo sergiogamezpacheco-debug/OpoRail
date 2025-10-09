@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OpoRail | Preparación Renfe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+  <!-- Header (se rellenará desde data/site.json) -->
+  <div id="site-header"></div>
+
+  <!-- Hero -->
+  <section id="hero" class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
+    <div class="container mx-auto px-4">
+      <h1 id="hero-title" class="text-4xl md:text-5xl font-bold">Prepárate para trabajar en Renfe con OpoRail</h1>
+      <p id="hero-subtitle" class="mt-4 text-lg">Noticias, test por especialidad y planes de estudio adaptados.</p>
+      <a id="hero-cta" href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos de Preparación</a>
+    </div>
+  </section>
+
+  <!-- Noticias -->
+  <section class="py-12 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Noticias y Novedades</h2>
+    <div id="noticias-lista" class="grid md:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="benefits" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6 text-center">Beneficios de entrar en Renfe</h2>
+      <div id="benefits-list" class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="site-footer" class="mt-8"></div>
+
+  <script src="js/load-data.js"></script>
+</body>
+</html>

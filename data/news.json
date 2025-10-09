@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "title": "Nueva convocatoria de plazas de Mantenimiento 2025",
+      "date": "2025-06-01",
+      "summary": "Resumen breve de la noticia...",
+      "image": "/img/uploads/convocatoria.jpg"
+    },
+    {
+      "title": "Renfe lanza un nuevo Plan Estratégico 2025",
+      "date": "2025-04-15",
+      "summary": "Resumen breve de la noticia...",
+      "image": "/img/uploads/plan2025.jpg"
+    }
+  ]
+}

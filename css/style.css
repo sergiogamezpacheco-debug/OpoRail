@@ -1,0 +1,36 @@
+:root{
+  --adif-green: #007A33;
+  --renfe-purple: #800080;
+  --text-gray: #1f2937;
+}
+
+body { font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: var(--text-gray); }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
+
+/* Header styles */
+.header {
+  display:flex; justify-content:space-between; align-items:center; padding:1rem;
+}
+
+/* Reusable card */
+.card {
+  border-radius: 0.6rem; box-shadow: 0 6px 18px rgba(0,0,0,0.06); overflow: hidden;
+}
+
+/* Card specifically purple (Renfe) */
+.card-rail {
+  background: var(--renfe-purple); color: #fff; padding:1.25rem; border-radius:0.6rem;
+}
+
+/* Button */
+.btn-rail {
+  background: var(--renfe-purple);
+  color: #fff;
+  padding: .6rem 1rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a { text-decoration: none; }

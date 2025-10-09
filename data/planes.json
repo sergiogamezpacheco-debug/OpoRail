@@ -1,0 +1,7 @@
+{
+  "plans": [
+    { "name": "Gratis", "price": "0€/mes", "description": "Acceso limitado con demos" },
+    { "name": "Normal", "price": "9,99€/mes", "description": "Acceso completo a test y recursos" },
+    { "name": "Business", "price": "19,99€/mes", "description": "Acceso total + formación personalizada" }
+  ]
+}
