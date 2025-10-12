@@ -1,22 +1,21 @@
 backend:
   name: github
-  repo: sergiogamezpacheco-debug/OpoRail
-  branch: master
+  repo: sergiogamezpacheco-debug/OpoRail  # 👈 nombre exacto del repositorio
+  branch: master                           # o main, según tu caso
+  base_url: https://sergiogamezpacheco-debug.github.io/OpoRail
+  auth_endpoint: /admin/auth.html
+  site_domain: sergiogamezpacheco-debug.github.io
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
-publish_mode: editorial_workflow
-
-site_url: "https://sergiogamezpacheco-debug.github.io/OpoRail/"
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "noticias"
     label: "Noticias"
     folder: "content/noticias"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Fecha", name: "date", widget: "datetime" }
-      - { label: "Contenido", name: "body", widget: "markdown" }
+      - { label: "Cuerpo", name: "body", widget: "markdown" }
