@@ -1,9 +1,14 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: sergiogamezpacheco-debug/OpoRail
+  branch: master
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
+
+publish_mode: editorial_workflow
+
+site_url: "https://sergiogamezpacheco-debug.github.io/OpoRail/"
 
 collections:
   - name: "noticias"
@@ -15,12 +20,3 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Fecha", name: "date", widget: "datetime" }
       - { label: "Contenido", name: "body", widget: "markdown" }
-
-  - name: "cursos"
-    label: "Cursos"
-    folder: "content/cursos"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descripción", name: "body", widget: "markdown" }
