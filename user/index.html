@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panel de usuario — OpoRail</title>
+  <link rel="stylesheet" href="/css/panel.css">
+</head>
+<body>
+<header class="panel-header">
+  <div class="brand"><span class="opo">OpoRail</span></div>
+  <nav>
+    <a href="/index.html">Inicio</a>
+    <a href="profile.html">Perfil</a>
+    <a href="#/logout" id="logoutBtn">Cerrar sesión</a>
+  </nav>
+</header>
+
+<main class="panel-grid">
+  <aside class="panel-aside">
+    <div class="profile-card">
+      <div class="avatar" id="avatar"></div>
+      <h3 id="userName">Usuario Invitado</h3>
+      <p id="userEmail">Sin iniciar sesión</p>
+    </div>
+    <ul class="menu">
+      <li><a href="#dashboard" data-view="dashboard" class="active">Panel</a></li>
+      <li><a href="#courses" data-view="courses">Mis Cursos</a></li>
+      <li><a href="#progress" data-view="progress">Progreso</a></li>
+    </ul>
+  </aside>
+
+  <section class="panel-content" id="content">
+    <!-- Vistas cargadas dinámicamente por js/panel.js -->
+  </section>
+</main>
+
+<script src="/js/panel.js"></script>
+</body>
+</html>
