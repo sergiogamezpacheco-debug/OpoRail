@@ -5,26 +5,76 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Panel de Usuario | OpoRail</title>
   <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 min-h-screen flex flex-col">
-
-  <header class="bg-purple-700 text-white p-4 flex justify-between items-center">
-    <h1 class="text-xl font-bold">Panel OpoRail</h1>
-    <button id="logout-btn" class="bg-white text-purple-700 font-semibold px-4 py-2 rounded-lg hover:bg-gray-100">
-      Cerrar sesión
-    </button>
-  </header>
-
-  <main class="flex-grow container mx-auto p-6">
-    <h2 id="user-info" class="text-2xl font-semibold text-gray-800 mb-4"></h2>
-    <p class="text-gray-600">Bienvenido a tu panel de usuario. Aquí podrás gestionar tus cursos y progreso.</p>
-  </main>
-
-  <footer class="bg-gray-200 text-center py-4">
-    <p class="text-gray-600 text-sm">© 2025 OpoRail. Todos los derechos reservados.</p>
-  </footer>
-
+  <link rel="stylesheet" href="../css/user-panel.css">
   <script type="module" src="../js/firebase-config.js"></script>
   <script type="module" src="../js/auth.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <!-- Barra superior -->
+  <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white py-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">OpoRail - Panel</h1>
+      <button id="logout-btn" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">
+        Cerrar sesión
+      </button>
+    </div>
+  </header>
+
+  <!-- Contenido del panel -->
+  <main class="flex-1 container mx-auto px-4 py-10">
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">Bienvenido, <span id="user-name">Usuario</span></h2>
+      <p class="text-gray-700 mb-4">Estás conectado a tu cuenta de OpoRail. Aquí podrás ver tus cursos, progreso y más.</p>
+
+      <div id="user-info" class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+        <img id="user-photo" class="w-24 h-24 rounded-full shadow-md border-2 border-purple-700" src="" alt="Foto de usuario">
+        <div>
+          <p><strong>Email:</strong> <span id="user-email"></span></p>
+          <p><strong>Último acceso:</strong> <span id="last-login"></span></p>
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <a href="../index.html" class="bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition">
+          Volver a la página principal
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-4 text-center text-gray-600">
+    &copy; 2025 OpoRail. Todos los derechos reservados.
+  </footer>
+
+  <!-- Script -->
+  <script type="module">
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+    import { app } from "../js/firebase-config.js";
+
+    const auth = getAuth(app);
+    const logoutBtn = document.getElementById("logout-btn");
+
+    // Detectar usuario actual
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // Mostrar info del usuario
+        document.getElementById("user-name").textContent = user.displayName || "Usuario sin nombre";
+        document.getElementById("user-email").textContent = user.email;
+        document.getElementById("user-photo").src = user.photoURL || "../img/default-user.png";
+        document.getElementById("last-login").textContent = new Date(user.metadata.lastSignInTime).toLocaleString();
+      } else {
+        // Si no hay sesión activa, redirigir al login
+        window.location.href = "index.html";
+      }
+    });
+
+    // Cerrar sesión
+    logoutBtn.addEventListener("click", async () => {
+      await signOut(auth);
+      window.location.href = "../index.html";
+    });
+  </script>
 </body>
 </html>
