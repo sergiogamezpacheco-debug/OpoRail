@@ -1,20 +1,41 @@
 <!doctype html>
 <html lang="es">
-<head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Perfil — OpoRail</title> <link rel="stylesheet" href="/css/panel.css"> </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Perfil - OpoRail</title>
+  <link rel="stylesheet" href="../css/user-panel.css">
+</head>
 <body>
-<div class="wrap-small">
-  <h1>Editar Perfil</h1>
-  <form id="profileForm">
-    <label>Nombre</label>
-    <input type="text" id="inputName" />
-    <label>Email</label>
-    <input type="email" id="inputEmail" />
-    <label>Avatar URL (opcional)</label>
-    <input type="text" id="inputAvatar" />
-    <button type="submit" class="btn">Guardar</button>
-  </form>
-</div>
-<script src="/js/panel.js"></script>
+  <header class="panel-header">
+    <div class="brand"><span class="opo">Opo</span><span class="rail">Rail</span></div>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="index.html">Panel</a>
+      <a href="profile.html" class="active">Perfil</a>
+      <a href="settings.html">Ajustes</a>
+    </nav>
+  </header>
+
+  <main class="wrap-small">
+    <h1>Editar Perfil</h1>
+    <form id="profileForm">
+      <label>Nombre</label>
+      <input id="inputName" type="text" placeholder="Tu nombre">
+
+      <label>Email</label>
+      <input id="inputEmail" type="email" placeholder="tu@ejemplo.com">
+
+      <label>Avatar (URL)</label>
+      <input id="inputAvatar" type="text" placeholder="https://...">
+
+      <div style="margin-top:12px">
+        <button type="submit" class="btn">Guardar perfil</button>
+        <a href="index.html" class="btn-ghost">Volver</a>
+      </div>
+    </form>
+  </main>
+
+  <script src="../js/user-panel.js"></script>
 </body>
 </html>

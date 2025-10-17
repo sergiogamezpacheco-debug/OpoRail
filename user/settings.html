@@ -1,12 +1,36 @@
 <!doctype html>
 <html lang="es">
-<head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ajustes — OpoRail</title> <link rel="stylesheet" href="/css/panel.css"> </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ajustes - OpoRail</title>
+  <link rel="stylesheet" href="../css/user-panel.css">
+</head>
 <body>
-<div class="wrap-small">
-  <h1>Ajustes</h1>
-  <label><input type="checkbox" id="darkMode" /> Modo oscuro</label>
-</div>
-<script src="/js/panel.js"></script>
+  <header class="panel-header">
+    <div class="brand"><span class="opo">Opo</span><span class="rail">Rail</span></div>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="index.html">Panel</a>
+      <a href="profile.html">Perfil</a>
+      <a href="settings.html" class="active">Ajustes</a>
+    </nav>
+  </header>
+
+  <main class="wrap-small">
+    <h1>Ajustes</h1>
+
+    <label class="toggle">
+      <input type="checkbox" id="darkMode">
+      <span>Modo oscuro</span>
+    </label>
+
+    <p style="margin-top:14px">Restablecer datos de usuario (local)</p>
+    <button id="btn-reset" class="btn-danger">Borrar datos locales</button>
+
+    <div style="margin-top:12px"><a href="index.html" class="btn-ghost">Volver al panel</a></div>
+  </main>
+
+  <script src="../js/user-panel.js"></script>
 </body>
 </html>

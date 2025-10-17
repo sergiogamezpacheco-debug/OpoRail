@@ -1,0 +1,51 @@
+:root{
+  --green: #007A33;
+  --purple: #800080;
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --muted:#6b7280;
+}
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;background:var(--bg);color:var(--text)}
+.panel-header{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#fff;border-bottom:1px solid #e6e7eb}
+.brand{font-weight:800}
+.brand .opo{color:var(--green)}
+.brand .rail{color:var(--purple);margin-left:6px}
+.panel-header nav a{margin-left:12px;color:var(--muted);text-decoration:none}
+.panel-header nav a.active{color:var(--purple);font-weight:600}
+
+.panel-grid{display:grid;grid-template-columns:260px 1fr;gap:20px;padding:24px}
+.panel-aside{padding:12px}
+.profile-card{background:#fff;padding:16px;border-radius:8px;text-align:center;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+.avatar{width:84px;height:84px;border-radius:50%;background:#d1d5db;margin:0 auto 10px;background-size:cover;background-position:center}
+.profile-card h3{margin:8px 0 2px}
+.profile-card p{margin:0;color:var(--muted);font-size:0.95rem}
+.menu{list-style:none;padding:8px;margin-top:12px}
+.menu li{margin:8px 0}
+.menu a{display:block;padding:8px;border-radius:6px;color:#111;text-decoration:none}
+.menu a.active{background:linear-gradient(90deg,var(--purple),#a855f7);color:white}
+
+.panel-content{background:white;padding:18px;border-radius:10px;min-height:320px;box-shadow:0 6px 18px rgba(2,6,23,0.04)}
+
+.auth-wrap{max-width:640px;margin:24px 0}
+.auth-form{display:flex;flex-direction:column;gap:8px;max-width:420px}
+.auth-form label{font-size:0.9rem;color:var(--muted)}
+.auth-form input{padding:10px;border-radius:6px;border:1px solid #e6e7eb}
+.or{text-align:center;margin:12px 0;color:var(--muted)}
+.guest-area p{margin:0 0 8px}
+
+.wrap-small{max-width:760px;margin:24px auto;background:#fff;padding:18px;border-radius:8px;box-shadow:0 8px 30px rgba(2,6,23,0.04)}
+
+.btn{background:var(--purple);color:white;padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+.btn-ghost{background:transparent;border:1px solid #e6e7eb;padding:8px 12px;border-radius:6px;cursor:pointer}
+.btn-danger{background:#ef4444;color:white;padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+
+label.toggle{display:flex;align-items:center;gap:10px;cursor:pointer}
+label.toggle input{width:18px;height:18px}
+
+@media(max-width:860px){
+  .panel-grid{grid-template-columns:1fr}
+  .panel-aside{order:2}
+  .panel-content{order:1}
+}
