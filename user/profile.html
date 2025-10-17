@@ -3,39 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Perfil - OpoRail</title>
+  <title>Perfil | OpoRail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../css/user-panel.css">
+  <script type="module" src="../js/firebase-config.js"></script>
 </head>
-<body>
-  <header class="panel-header">
-    <div class="brand"><span class="opo">Opo</span><span class="rail">Rail</span></div>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="index.html">Panel</a>
-      <a href="profile.html" class="active">Perfil</a>
-      <a href="settings.html">Ajustes</a>
-    </nav>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Perfil de Usuario</h1>
+      <a href="dashboard.html" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200">Volver</a>
+    </div>
   </header>
 
-  <main class="wrap-small">
-    <h1>Editar Perfil</h1>
-    <form id="profileForm">
-      <label>Nombre</label>
-      <input id="inputName" type="text" placeholder="Tu nombre">
-
-      <label>Email</label>
-      <input id="inputEmail" type="email" placeholder="tu@ejemplo.com">
-
-      <label>Avatar (URL)</label>
-      <input id="inputAvatar" type="text" placeholder="https://...">
-
-      <div style="margin-top:12px">
-        <button type="submit" class="btn">Guardar perfil</button>
-        <a href="index.html" class="btn-ghost">Volver</a>
+  <main class="flex-1 container mx-auto px-4 py-10">
+    <div class="bg-white rounded-xl shadow-md p-6 max-w-lg mx-auto">
+      <div class="flex flex-col items-center mb-6">
+        <img id="user-photo" class="w-24 h-24 rounded-full shadow-md border-2 border-purple-700 mb-3" src="">
+        <h2 id="user-name" class="text-xl font-bold text-purple-700"></h2>
+        <p id="user-email" class="text-gray-600"></p>
       </div>
-    </form>
-  </main>
 
-  <script src="../js/user-panel.js"></script>
+      <p class="text-center text-gray-700">Aquí podrás editar tus datos y preferencias próximamente.</p>
+    </div>
+  </main>
 </body>
 </html>

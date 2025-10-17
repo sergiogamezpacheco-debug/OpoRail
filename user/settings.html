@@ -3,34 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ajustes - OpoRail</title>
+  <title>Ajustes | OpoRail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../css/user-panel.css">
 </head>
-<body>
-  <header class="panel-header">
-    <div class="brand"><span class="opo">Opo</span><span class="rail">Rail</span></div>
-    <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="index.html">Panel</a>
-      <a href="profile.html">Perfil</a>
-      <a href="settings.html" class="active">Ajustes</a>
-    </nav>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold">Ajustes</h1>
+      <a href="dashboard.html" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200">Volver</a>
+    </div>
   </header>
 
-  <main class="wrap-small">
-    <h1>Ajustes</h1>
-
-    <label class="toggle">
-      <input type="checkbox" id="darkMode">
-      <span>Modo oscuro</span>
-    </label>
-
-    <p style="margin-top:14px">Restablecer datos de usuario (local)</p>
-    <button id="btn-reset" class="btn-danger">Borrar datos locales</button>
-
-    <div style="margin-top:12px"><a href="index.html" class="btn-ghost">Volver al panel</a></div>
+  <main class="flex-1 container mx-auto px-4 py-10">
+    <div class="bg-white rounded-xl shadow-md p-6 max-w-lg mx-auto text-center">
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">Configuraciones de la cuenta</h2>
+      <p class="text-gray-700 mb-6">Aquí podrás modificar tus preferencias, notificaciones y más (próximamente).</p>
+    </div>
   </main>
-
-  <script src="../js/user-panel.js"></script>
 </body>
 </html>
