@@ -1,36 +1,123 @@
-:root{
-  --adif-green: #007A33;
-  --renfe-purple: #800080;
-  --text-gray: #1f2937;
+/* === OpoRail Estilos Generales === */
+
+/* Fuente general */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding-top: 80px; /* deja espacio para el header fijo */
 }
 
-body { font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: var(--text-gray); }
-
-.container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
-
-/* Header styles */
-.header {
-  display:flex; justify-content:space-between; align-items:center; padding:1rem;
+/* === HEADER === */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #166534, #6b21a8);
+  color: white;
+  z-index: 50;
+  transition: background-color 0.3s ease;
 }
 
-/* Reusable card */
-.card {
-  border-radius: 0.6rem; box-shadow: 0 6px 18px rgba(0,0,0,0.06); overflow: hidden;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Card specifically purple (Renfe) */
-.card-rail {
-  background: var(--renfe-purple); color: #fff; padding:1.25rem; border-radius:0.6rem;
-}
-
-/* Button */
-.btn-rail {
-  background: var(--renfe-purple);
-  color: #fff;
-  padding: .6rem 1rem;
-  border-radius: .5rem;
+header nav a {
+  color: white;
   text-decoration: none;
-  font-weight: 600;
+  transition: color 0.3s;
 }
 
-a { text-decoration: none; }
+header nav a:hover {
+  color: #d1d5db; /* gris claro */
+}
+
+header ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* === HERO === */
+#hero {
+  background: linear-gradient(to right, #166534, #6b21a8);
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+#hero a {
+  background: white;
+  color: #6b21a8;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#hero a:hover {
+  background: #f3f4f6;
+  color: #4c1d95;
+}
+
+/* === SECCIONES === */
+section {
+  padding: 4rem 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* === CURSOS GRID === */
+#courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
