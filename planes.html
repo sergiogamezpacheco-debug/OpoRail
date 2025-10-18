@@ -7,23 +7,30 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="antialiased bg-white">
+
+  <!-- Header común -->
   <div id="site-header"></div>
+  <script src="/js/load-header.js"></script>
 
-  <section class="text-center py-12 bg-gray-50">
-    <h1 class="text-3xl font-bold mb-2">Planes de Suscripción</h1>
-    <p class="text-gray-600">Elige el plan que mejor se adapte a ti</p>
+  <!-- Hero de Planes -->
+  <section class="text-center py-16 bg-gradient-to-r from-purple-700 to-green-700 text-white">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold mb-3">Planes de Estudio OpoRail</h1>
+      <p class="text-lg text-gray-100">Encuentra el plan de formación que mejor se adapte a tu nivel y objetivos</p>
+    </div>
   </section>
 
+  <!-- Lista de planes -->
   <section class="py-12 px-4 container mx-auto">
-    <div id="planes-list" class="grid md:grid-cols-3 gap-6"></div>
+    <h2 class="text-2xl font-bold mb-6 text-gray-800 text-center">Nuestros planes</h2>
+    <div id="planes-list" class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
   </section>
 
-  <div id="site-footer"></div>
+  <!-- Footer -->
+  <div id="site-footer" class="mt-8"></div>
 
+  <!-- Scripts -->
   <script src="js/load-data.js"></script>
 </body>
 </html>
-<!-- Header global -->
-<div id="site-header"></div>
-<script src="/js/load-header.js"></script>
