@@ -1,43 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OpoRail | Preparación Renfe</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="antialiased bg-white">
-
-  <!-- Header común -->
-  <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
-
-  <!-- Hero -->
-  <section id="hero" class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
-    <div class="container mx-auto px-4">
-      <h1 class="text-4xl md:text-5xl font-bold">Prepárate para trabajar en Renfe con OpoRail</h1>
-      <p class="mt-4 text-lg">Noticias, test por especialidad y planes de estudio adaptados.</p>
-      <a href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos de Preparación</a>
+<body class="text-gray-800 font-sans">
+  <!-- 🧩 Barra Superior -->
+  <header class="flex justify-between items-center px-8 py-4 shadow-md">
+    <div class="text-2xl font-bold">
+      <span class="text-green-700">Opo</span><span class="text-purple-700">Rail</span>
     </div>
+    <nav class="space-x-6 text-gray-700">
+      <a href="index.html" class="hover:text-purple-700">Inicio</a>
+      <a href="planes.html" class="hover:text-purple-700">Planes</a>
+      <a href="cursos.html" class="hover:text-purple-700">Cursos</a>
+      <a href="#" class="hover:text-purple-700">Noticias</a>
+    </nav>
+    <div class="w-8 h-8 bg-gray-300 rounded-full"></div>
+  </header>
+
+  <!-- 🌈 Hero principal -->
+  <section class="bg-gradient-to-r from-green-700 to-purple-700 text-white text-center py-20">
+    <h1 class="text-4xl font-bold mb-4">Prepárate para trabajar en Renfe con OpoRail</h1>
+    <a href="cursos.html" class="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos de Preparación</a>
   </section>
 
-  <!-- Noticias -->
-  <section class="py-12 px-4 container mx-auto">
+  <!-- 📰 Noticias -->
+  <section id="noticias" class="py-12 px-8 max-w-6xl mx-auto">
     <h2 class="text-2xl font-bold mb-6">Noticias y Novedades</h2>
-    <div id="noticias-lista" class="grid md:grid-cols-3 gap-6"></div>
-  </section>
-
-  <!-- Beneficios -->
-  <section id="benefits" class="bg-gray-100 py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-6 text-center">Beneficios de entrar en Renfe</h2>
-      <div id="benefits-list" class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center"></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="noticias-lista">
+      <!-- Noticias se cargarán aquí desde CMS -->
     </div>
   </section>
 
-  <!-- Footer común -->
-  <div id="site-footer" class="mt-8"></div>
-  <script src="js/load-data.js"></script>
+  <!-- 💎 Beneficios -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-8">
+      <h2 class="text-2xl font-bold mb-6 text-center">Beneficios de entrar en Renfe</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div><p class="text-purple-700 text-3xl mb-2">🛡️</p><p>Estabilidad laboral</p></div>
+        <div><p class="text-purple-700 text-3xl mb-2">💰</p><p>Buen salario</p></div>
+        <div><p class="text-purple-700 text-3xl mb-2">🔧</p><p>Trabajo técnico especializado</p></div>
+        <div><p class="text-purple-700 text-3xl mb-2">🎓</p><p>Formación continua</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⚙️ Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500">
+    © 2025 OpoRail. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
