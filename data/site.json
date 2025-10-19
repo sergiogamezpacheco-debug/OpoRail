@@ -1,66 +1,18 @@
 {
-  "site": {
-    "name": "OpoRail",
-    "logo": "/img/logo.png",
-    "nav": [
-      { "name": "Inicio", "url": "/" },
-      { "name": "Cursos", "url": "/cursos.html" },
-      { "name": "Planes", "url": "/planes.html" },
-      { "name": "Noticias", "url": "/noticias.html" },
-      { "name": "Contacto", "url": "/contacto.html" }
-    ],
-    "cta": {
-      "text": "Acceder",
-      "url": "/admin/auth.html"
-    }
-  },
-
-  "hero": {
-    "title": "Prepárate para trabajar en Renfe con OpoRail",
-    "subtitle": "Noticias, test por especialidad y planes de estudio adaptados.",
-    "ctaText": "Ver Cursos de Preparación",
-    "ctaUrl": "/cursos.html"
-  },
-
-  "noticias": [
-    {
-      "title": "Convocatoria 2025 abierta",
-      "content": "Renfe abre la convocatoria para nuevos puestos técnicos y de mantenimiento.",
-      "url": "https://renfe.com/ofertas"
-    },
-    {
-      "title": "Nueva plataforma OpoRail",
-      "content": "Ya disponible la nueva versión de OpoRail con planes personalizados y tests en línea.",
-      "url": "/planes.html"
-    },
-    {
-      "title": "Consejos para aprobar tu examen",
-      "content": "Descubre cómo organizarte mejor con los recursos gratuitos de OpoRail.",
-      "url": "/noticias.html"
-    }
+  "title": "OpoRail",
+  "logo": "/img/logo-oporail.png",
+  "description": "Academia online especializada en oposiciones ferroviarias. Prepara tu plaza en Renfe con planes personalizados y cursos gratuitos.",
+  "menu": [
+    { "name": "Inicio", "link": "/index.html" },
+    { "name": "Cursos", "link": "/cursos.html" },
+    { "name": "Planes", "link": "/planes.html" },
+    { "name": "Noticias", "link": "/noticias.html" },
+    { "name": "Contacto", "link": "/contacto.html" }
   ],
-
-  "benefits": [
-    { "title": "Estabilidad laboral", "icon": "fa-solid fa-shield-halved" },
-    { "title": "Sueldo competitivo", "icon": "fa-solid fa-euro-sign" },
-    { "title": "Beneficios sociales", "icon": "fa-solid fa-briefcase" },
-    { "title": "Formación continua", "icon": "fa-solid fa-graduation-cap" }
-  ],
-
-  "footer": {
-    "title": "OpoRail",
-    "description": "Academia online gratuita y premium para preparar las oposiciones ferroviarias de Renfe.",
-    "links": [
-      { "name": "Inicio", "url": "/" },
-      { "name": "Cursos", "url": "/cursos.html" },
-      { "name": "Planes", "url": "/planes.html" },
-      { "name": "Noticias", "url": "/noticias.html" },
-      { "name": "Contacto", "url": "/contacto.html" }
-    ],
-    "social": [
-      { "icon": "fa-brands fa-telegram", "url": "https://t.me/OpoRail" },
-      { "icon": "fa-brands fa-x-twitter", "url": "https://x.com/OpoRail" },
-      { "icon": "fa-brands fa-youtube", "url": "https://youtube.com/@OpoRail" }
-    ]
+  "social": {
+    "telegram": "https://t.me/OpoRail",
+    "x-twitter": "https://x.com/OpoRail",
+    "instagram": "https://instagram.com/OpoRail"
   }
 }
+

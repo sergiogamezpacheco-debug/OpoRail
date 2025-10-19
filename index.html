@@ -8,16 +8,16 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="antialiased bg-white">
-  <!-- Header común -->
+
+  <!-- Header -->
   <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
 
   <!-- Hero -->
-  <section id="hero">
+  <section id="hero" class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
     <div class="container mx-auto px-4">
-      <h1 class="text-4xl md:text-5xl font-bold">Prepárate para trabajar en Renfe con OpoRail</h1>
-      <p class="mt-4 text-lg">Noticias, test por especialidad y planes de estudio adaptados.</p>
-      <a href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos de Preparación</a>
+      <h1 id="hero-title" class="text-4xl md:text-5xl font-bold">Prepárate para trabajar en Renfe con OpoRail</h1>
+      <p id="hero-subtitle" class="mt-4 text-lg">Noticias, test por especialidad y planes de estudio adaptados.</p>
+      <a id="hero-cta" href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos de Preparación</a>
     </div>
   </section>
 
@@ -35,8 +35,11 @@
     </div>
   </section>
 
-  <!-- Footer común -->
+  <!-- Footer -->
   <div id="site-footer"></div>
-  <script src="js/load-data.js"></script>
+
+  <script src="/js/load-header.js"></script>
+  <script src="/js/load-footer.js"></script>
+  <script src="/js/load-data.js"></script>
 </body>
 </html>

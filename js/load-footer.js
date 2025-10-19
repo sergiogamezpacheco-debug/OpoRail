@@ -1,46 +1,44 @@
 // /js/load-footer.js
-document.addEventListener("DOMContentLoaded", async () => {
-  const footerContainer = document.getElementById("site-footer");
-  if (!footerContainer) return;
-
-  try {
-    const response = await fetch("/data/site.json");
-    const data = await response.json();
-    const footer = data.footer;
+fetch('/data/site.json')
+  .then(response => response.json())
+  .then(data => {
+    const footerContainer = document.getElementById('site-footer');
+    if (!footerContainer) return;
 
     footerContainer.innerHTML = `
-      <footer class="bg-gradient-to-r from-purple-700 to-indigo-800 text-white mt-12 py-10">
-        <div class="container mx-auto px-4 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <footer class="bg-gray-900 text-gray-300 py-10 mt-16">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+          
           <div>
-            <h2 class="font-bold text-lg mb-2">${footer.title}</h2>
-            <p class="text-sm">${footer.description}</p>
+            <h3 class="text-white text-lg font-semibold mb-3">${data.title}</h3>
+            <p class="text-sm leading-relaxed">${data.description}</p>
           </div>
 
           <div>
-            <h2 class="font-bold text-lg mb-2">Enlaces rápidos</h2>
-            <ul class="space-y-2">
-              ${footer.links.map(link => `<li><a href="${link.url}" class="hover:underline">${link.name}</a></li>`).join('')}
+            <h3 class="text-white text-lg font-semibold mb-3">Enlaces útiles</h3>
+            <ul class="space-y-2 text-sm">
+              ${data.menu.map(item => `
+                <li><a href="${item.link}" class="hover:text-white transition">${item.name}</a></li>
+              `).join('')}
             </ul>
           </div>
 
           <div>
-            <h2 class="font-bold text-lg mb-2">Síguenos</h2>
-            <div class="flex justify-center md:justify-start gap-4">
-              ${footer.social.map(s => `
-                <a href="${s.url}" target="_blank" rel="noopener" class="hover:text-purple-300">
-                  <i class="${s.icon} text-xl"></i>
+            <h3 class="text-white text-lg font-semibold mb-3">Síguenos</h3>
+            <div class="flex space-x-4">
+              ${Object.entries(data.social || {}).map(([name, link]) => `
+                <a href="${link}" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+                  <i class="fab fa-${name}"></i>
                 </a>
               `).join('')}
             </div>
           </div>
-        </div>
 
-        <div class="text-center text-xs mt-8 border-t border-purple-500 pt-4">
-          © ${new Date().getFullYear()} OpoRail. Todos los derechos reservados.
+        </div>
+        <div class="text-center text-gray-500 text-sm mt-10 border-t border-gray-800 pt-4">
+          &copy; ${new Date().getFullYear()} ${data.title}. Todos los derechos reservados.
         </div>
       </footer>
     `;
-  } catch (error) {
-    console.error("Error al cargar el footer:", error);
-  }
-});
+  })
+  .catch(err => console.error("Error cargando el footer:", err));
