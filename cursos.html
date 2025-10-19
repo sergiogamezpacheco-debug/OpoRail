@@ -1,54 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Cursos | OpoRail</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="font-sans text-gray-800">
-  <header class="flex justify-between items-center px-8 py-4 shadow-md">
-    <div class="text-2xl font-bold">
-      <span class="text-green-700">Opo</span><span class="text-purple-700">Rail</span>
-    </div>
-    <nav class="space-x-6">
-      <a href="index.html">Inicio</a>
-      <a href="planes.html">Planes</a>
-      <a href="cursos.html" class="text-purple-700 font-semibold">Cursos</a>
-    </nav>
-    <div class="w-8 h-8 bg-gray-300 rounded-full"></div>
-  </header>
+<body class="antialiased">
+  <div id="site-header"></div>
 
-  <section class="text-center py-12 bg-gray-50">
-    <h1 class="text-3xl font-bold mb-2">Cursos de Preparación Renfe</h1>
-    <p class="text-gray-600">Selecciona tu especialidad:</p>
-  </section>
-
-  <section class="py-12 px-8 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-    <div class="bg-purple-700 text-white rounded-lg p-6 text-center shadow-md">
-      <h3 class="text-xl font-semibold mb-2">Ajustador Montador</h3>
-      <a href="#" class="bg-white text-purple-700 px-4 py-2 rounded-md font-semibold">Entrar</a>
-    </div>
-    <div class="bg-purple-700 text-white rounded-lg p-6 text-center shadow-md">
-      <h3 class="text-xl font-semibold mb-2">Eléctrico</h3>
-      <a href="#" class="bg-white text-purple-700 px-4 py-2 rounded-md font-semibold">Entrar</a>
-    </div>
-    <div class="bg-purple-700 text-white rounded-lg p-6 text-center shadow-md">
-      <h3 class="text-xl font-semibold mb-2">Soldadores</h3>
-      <a href="#" class="bg-white text-purple-700 px-4 py-2 rounded-md font-semibold">Entrar</a>
-    </div>
-    <div class="bg-purple-700 text-white rounded-lg p-6 text-center shadow-md">
-      <h3 class="text-xl font-semibold mb-2">Torneros</h3>
-      <a href="#" class="bg-white text-purple-700 px-4 py-2 rounded-md font-semibold">Entrar</a>
-    </div>
-    <div class="bg-purple-700 text-white rounded-lg p-6 text-center shadow-md">
-      <h3 class="text-xl font-semibold mb-2">Suministros</h3>
-      <a href="#" class="bg-white text-purple-700 px-4 py-2 rounded-md font-semibold">Entrar</a>
+  <section class="text-white text-center py-16 bg-gradient-to-r from-green-700 to-purple-700">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold mb-2">Cursos de Preparación Renfe</h1>
+      <p class="text-lg">Selecciona tu especialidad:</p>
     </div>
   </section>
 
-  <footer class="text-center py-6 text-sm text-gray-500">
-    © 2025 OpoRail. Todos los derechos reservados.
-  </footer>
+  <section class="py-12 px-4 container mx-auto">
+    <div id="courses-list" class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="js/load-data.js"></script>
+  <script src="js/load-header.js"></script>
 </body>
 </html>
