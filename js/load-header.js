@@ -28,10 +28,10 @@ fetch('/data/site.json')
             </ul>
           </nav>
 
-          <!-- ICONO PERFIL -->
+          <!-- ICONO PERFIL GRIS (CSS) -->
           <div>
             <a href="/user/index.html" title="Acceder al panel de usuario">
-              <img src="/images/avatar-icon.png" alt="Usuario" class="h-10 w-10 rounded-full border border-white cursor-pointer hover:ring-2 hover:ring-white transition">
+              <div class="h-10 w-10 rounded-full border border-white bg-gray-400 cursor-pointer hover:ring-2 hover:ring-white transition"></div>
             </a>
           </div>
 
