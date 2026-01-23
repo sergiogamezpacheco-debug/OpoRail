@@ -1,50 +1,34 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Panel de Usuario | OpoRail</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/css/user-panel.css">
+  <link rel="stylesheet" href="../css/user-panel.css">
 </head>
-<body class="bg-gray-50">
+<body>
 
-  <!-- HEADER COMÚN -->
-  <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
-
-  <!-- PANEL DE USUARIO -->
-  <div class="flex min-h-screen">
-
-    <!-- MENÚ LATERAL -->
-    <aside class="w-64 bg-white shadow-md p-4 hidden md:block">
-      <div class="mb-6 text-center">
-        <div id="avatar" class="w-20 h-20 mx-auto rounded-full bg-gray-200 bg-center bg-cover mb-2"></div>
-        <h3 id="userName" class="font-semibold"></h3>
-        <p id="userEmail" class="text-sm text-gray-500"></p>
+  <div class="panel-grid">
+    <!-- ASIDE -->
+    <aside class="panel-aside">
+      <div class="profile-card">
+        <div id="avatar" class="avatar"></div>
+        <h3 id="userName">Usuario</h3>
+        <p id="userEmail">email@example.com</p>
       </div>
-
-      <nav class="menu space-y-2">
-        <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100 active" data-view="dashboard">Dashboard</a>
-        <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100" data-view="courses">Mis Cursos</a>
-        <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100" data-view="progress">Progreso</a>
-        <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100" data-view="profile">Perfil</a>
-        <a href="#" id="btn-logout" class="block px-3 py-2 rounded hover:bg-gray-100 text-red-600">Cerrar sesión</a>
-      </nav>
+      <ul class="menu">
+        <li><a href="#" data-view="dashboard" class="active">Dashboard</a></li>
+        <li><a href="#" data-view="courses">Mis Cursos</a></li>
+        <li><a href="#" data-view="progress">Progreso</a></li>
+        <li><a href="#" id="btn-logout">Cerrar sesión</a></li>
+      </ul>
     </aside>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main class="flex-1 p-6" id="content">
-      <!-- Aquí se renderizan dashboard, cursos, progreso o perfil -->
-    </main>
+    <!-- CONTENT -->
+    <div class="panel-content" id="content"></div>
   </div>
 
-  <!-- FOOTER COMÚN -->
-  <div id="site-footer"></div>
-  <script src="/js/load-footer.js"></script>
-
-  <!-- SCRIPTS PANEL -->
-  <script src="/js/user-panel.js"></script>
-
+  <script src="../js/user-panel.js"></script>
 </body>
 </html>
