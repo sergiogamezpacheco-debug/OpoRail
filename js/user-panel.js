@@ -1,4 +1,9 @@
 // user-panel.js
+<<<<<<< HEAD
+=======
+// Login simulado y panel con localStorage
+
+>>>>>>> parent of 203681b (mo)
 const STORAGE_KEY = 'oporail_user_v1';
 
 const state = {
@@ -38,6 +43,10 @@ function loadView(view){
   const content = document.getElementById('content');
   if(!content) return;
 
+<<<<<<< HEAD
+=======
+  // if not logged in, show auth area
+>>>>>>> parent of 203681b (mo)
   if(!state.user){
     content.innerHTML = document.getElementById('auth-area')?.outerHTML || `
       <div class="auth-wrap">
@@ -50,11 +59,15 @@ function loadView(view){
         <div class="or">ó</div>
         <div class="guest-area"><p>O entrar como invitado.</p><button id="btn-guest" class="btn-ghost">Entrar como invitado</button></div>
       </div>`;
-    attachAuthHandlers();
+    attachAuthHandlers(); // attach handlers to new DOM
     return;
   }
 
+<<<<<<< HEAD
   // Logged in views
+=======
+  // logged in views
+>>>>>>> parent of 203681b (mo)
   if(view === 'dashboard'){
     content.innerHTML = `<h2>Bienvenido, ${state.user.name}</h2>
       <p>Selecciona una opción en el menú lateral para gestionar tu perfil y progresos.</p>
@@ -62,6 +75,10 @@ function loadView(view){
         <a class="btn" href="profile.html">Ir a Perfil</a>
       </div>`;
   } else if(view === 'courses'){
+<<<<<<< HEAD
+=======
+    // sample course list: could be loaded from data/courses.json
+>>>>>>> parent of 203681b (mo)
     content.innerHTML = `<h2>Mis Cursos</h2>
       <ul>
         <li>Ajustador Montador — <em>Sin iniciar</em></li>
@@ -73,7 +90,11 @@ function loadView(view){
   }
 }
 
+<<<<<<< HEAD
 // Auth handlers
+=======
+// Auth handlers (attach events after DOM build)
+>>>>>>> parent of 203681b (mo)
 function attachAuthHandlers(){
   const authForm = document.getElementById('authForm');
   if(authForm){
@@ -85,9 +106,17 @@ function attachAuthHandlers(){
       state.user = { name, email, avatar: '' };
       saveUserLocal(state.user);
       renderProfileCard();
+      // re-render dashboard
       loadView('dashboard');
+<<<<<<< HEAD
       document.querySelectorAll('.menu a').forEach(a=>a.classList.remove('active'));
       document.querySelector('.menu a[data-view="dashboard"]')?.classList.add('active');
+=======
+      // update menu active
+      document.querySelectorAll('.menu a').forEach(a=>a.classList.remove('active'));
+      const dashLink = document.querySelector('.menu a[data-view="dashboard"]');
+      if(dashLink) dashLink.classList.add('active');
+>>>>>>> parent of 203681b (mo)
     });
   }
 
@@ -102,7 +131,11 @@ function attachAuthHandlers(){
   }
 }
 
+<<<<<<< HEAD
 // Profile page
+=======
+// Profile page behaviour
+>>>>>>> parent of 203681b (mo)
 function initProfileForm(){
   const pf = document.getElementById('profileForm');
   if(!pf) return;
@@ -116,16 +149,22 @@ function initProfileForm(){
 
   pf.addEventListener('submit', function(e){
     e.preventDefault();
+    state.user = state.user || {};
     state.user.name = nameI.value.trim() || state.user.name;
     state.user.email = emailI.value.trim() || state.user.email;
     state.user.avatar = avI.value.trim() || state.user.avatar;
     saveUserLocal(state.user);
     alert('Perfil actualizado');
+    // update profile card in case user returns to panel
     renderProfileCard();
   });
 }
 
+<<<<<<< HEAD
 // Settings
+=======
+// Settings handlers
+>>>>>>> parent of 203681b (mo)
 function initSettings(){
   const dm = document.getElementById('darkMode');
   if(!dm) return;
@@ -155,7 +194,11 @@ function initSettings(){
   }
 }
 
+<<<<<<< HEAD
 // Menu
+=======
+// Menu wiring
+>>>>>>> parent of 203681b (mo)
 function initMenuLinks(){
   document.querySelectorAll('.menu a').forEach(a=>{
     a.addEventListener('click', function(e){
@@ -175,26 +218,35 @@ function initLogout(){
       if(confirm('Cerrar sesión?')) {
         clearUserLocal();
         state.user = null;
+        // reload to root or show auth
         location.href = '/';
       }
     });
   }
 }
 
+<<<<<<< HEAD
 // Init
+=======
+// Initialization
+>>>>>>> parent of 203681b (mo)
 document.addEventListener('DOMContentLoaded', function(){
   state.user = loadUserLocal();
   renderProfileCard();
   initMenuLinks();
   initLogout();
 
+  // If we are on profile page, initialize profile form
   if(document.getElementById('profileForm')) initProfileForm();
   if(document.getElementById('darkMode') || document.getElementById('btn-reset')) initSettings();
 
+  // If we are on dashboard (user/index.html)
   if(document.getElementById('content')){
     if(state.user){
+      // render default logged in view
       loadView('dashboard');
     } else {
+      // show auth area
       loadView('auth');
     }
     attachAuthHandlers();
