@@ -1,14 +1,14 @@
-// user-panel.js
-// Login simulado y panel con localStorage
+// /js/user-panel.js
+// Panel de usuario completo con login, perfil, cursos y progreso
 
 const STORAGE_KEY = 'oporail_user_v1';
-
 const state = {
   user: null,
-  view: 'dashboard'
+  view: 'dashboard',
+  courses: []
 };
 
-// Utilidades
+// -------------------- UTILIDADES --------------------
 function saveUserLocal(user){
   localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
 }
@@ -22,7 +22,7 @@ function clearUserLocal(){
   localStorage.removeItem(STORAGE_KEY);
 }
 
-// Render UI
+// -------------------- RENDER PROFILE --------------------
 function renderProfileCard(){
   const user = state.user;
   const nameEl = document.getElementById('userName');
@@ -40,50 +40,120 @@ function renderProfileCard(){
   }
 }
 
-// Views
+// -------------------- CARGA DE CURSOS --------------------
+async function loadCourses(){
+  try {
+    const res = await fetch('/data/courses.json');
+    state.courses = await res.json();
+  } catch(e){
+    console.warn('No se pudieron cargar los cursos:', e);
+    state.courses = [];
+  }
+}
+
+// -------------------- VIEWS --------------------
 function loadView(view){
   state.view = view || 'dashboard';
   const content = document.getElementById('content');
   if(!content) return;
 
-  // if not logged in, show auth area
+  // Si no hay usuario logueado, mostramos auth
   if(!state.user){
     content.innerHTML = document.getElementById('auth-area') ? document.getElementById('auth-area').outerHTML : `
       <div class="auth-wrap">
-        <h2>Accede a tu panel</h2>
-        <form id="authForm" class="auth-form">
-          <label>Nombre</label><input id="authName" required>
-          <label>Email</label><input id="authEmail" type="email" required>
-          <button class="btn">Iniciar sesión</button>
+        <h2 class="text-2xl font-bold mb-4">Accede a tu panel</h2>
+        <form id="authForm" class="auth-form space-y-3">
+          <div>
+            <label>Nombre</label>
+            <input id="authName" required class="border rounded px-2 py-1 w-full">
+          </div>
+          <div>
+            <label>Email</label>
+            <input id="authEmail" type="email" required class="border rounded px-2 py-1 w-full">
+          </div>
+          <button class="btn bg-purple-700 text-white px-4 py-2 rounded">Iniciar sesión</button>
         </form>
-        <div class="or">ó</div>
-        <div class="guest-area"><p>O entrar como invitado.</p><button id="btn-guest" class="btn-ghost">Entrar como invitado</button></div>
+        <div class="or my-2 text-center text-gray-500">ó</div>
+        <div class="guest-area text-center">
+          <button id="btn-guest" class="btn-ghost px-4 py-2 border rounded">Entrar como invitado</button>
+        </div>
       </div>`;
-    attachAuthHandlers(); // attach handlers to new DOM
+    attachAuthHandlers();
     return;
   }
 
-  // logged in views
+  // -------------------- VIEWS LOGUEADO --------------------
   if(view === 'dashboard'){
-    content.innerHTML = `<h2>Bienvenido, ${state.user.name}</h2>
+    content.innerHTML = `
+      <h2 class="text-2xl font-bold mb-4">Bienvenido, ${state.user.name}</h2>
       <p>Selecciona una opción en el menú lateral para gestionar tu perfil y progresos.</p>
-      <div style="margin-top:16px">
-        <a class="btn" href="profile.html">Ir a Perfil</a>
-      </div>`;
-  } else if(view === 'courses'){
-    // sample course list: could be loaded from data/courses.json
-    content.innerHTML = `<h2>Mis Cursos</h2>
-      <ul>
-        <li>Ajustador Montador — <em>Sin iniciar</em></li>
-        <li>Eléctrico — <em>Sin iniciar</em></li>
-        <li>Soldadores — <em>Sin iniciar</em></li>
-      </ul>`;
-  } else if(view === 'progress'){
-    content.innerHTML = `<h2>Progreso</h2><p>No tienes progreso guardado todavía.</p>`;
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-4 bg-white rounded shadow">
+          <h3 class="font-semibold">Mis Cursos</h3>
+          <p>Visualiza tus cursos activos y tu progreso.</p>
+          <button class="btn mt-2" data-view="courses">Ir a Mis Cursos</button>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <h3 class="font-semibold">Progreso</h3>
+          <p>Revisa tu avance en cada curso.</p>
+          <button class="btn mt-2" data-view="progress">Ver Progreso</button>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <h3 class="font-semibold">Perfil</h3>
+          <p>Modifica tus datos personales y avatar.</p>
+          <button class="btn mt-2" data-view="profile">Editar Perfil</button>
+        </div>
+      </div>
+    `;
+    initMenuLinks(); // los botones internos funcionan
+  }
+  else if(view === 'courses'){
+    const list = state.courses.map(c => `
+      <li class="p-2 border-b flex justify-between items-center">
+        <span>${c.name}</span>
+        <span class="text-gray-500">${c.status || 'Sin iniciar'}</span>
+      </li>
+    `).join('');
+    content.innerHTML = `
+      <h2 class="text-2xl font-bold mb-4">Mis Cursos</h2>
+      <ul class="bg-white rounded shadow divide-y">${list}</ul>
+    `;
+  }
+  else if(view === 'progress'){
+    const list = state.courses.map(c => `
+      <li class="p-2 border-b">
+        <span>${c.name} — ${c.progress || 0}% completado</span>
+      </li>
+    `).join('');
+    content.innerHTML = `
+      <h2 class="text-2xl font-bold mb-4">Progreso</h2>
+      <ul class="bg-white rounded shadow divide-y">${list}</ul>
+    `;
+  }
+  else if(view === 'profile'){
+    content.innerHTML = `
+      <h2 class="text-2xl font-bold mb-4">Mi Perfil</h2>
+      <form id="profileForm" class="space-y-3">
+        <div>
+          <label>Nombre</label>
+          <input id="inputName" class="border rounded px-2 py-1 w-full">
+        </div>
+        <div>
+          <label>Email</label>
+          <input id="inputEmail" type="email" class="border rounded px-2 py-1 w-full">
+        </div>
+        <div>
+          <label>Avatar (URL)</label>
+          <input id="inputAvatar" class="border rounded px-2 py-1 w-full">
+        </div>
+        <button class="btn bg-purple-700 text-white px-4 py-2 rounded">Guardar</button>
+      </form>
+    `;
+    initProfileForm();
   }
 }
 
-// Auth handlers (attach events after DOM build)
+// -------------------- AUTH HANDLERS --------------------
 function attachAuthHandlers(){
   const authForm = document.getElementById('authForm');
   if(authForm){
@@ -95,12 +165,7 @@ function attachAuthHandlers(){
       state.user = { name, email, avatar: '' };
       saveUserLocal(state.user);
       renderProfileCard();
-      // re-render dashboard
       loadView('dashboard');
-      // update menu active
-      document.querySelectorAll('.menu a').forEach(a=>a.classList.remove('active'));
-      const dashLink = document.querySelector('.menu a[data-view="dashboard"]');
-      if(dashLink) dashLink.classList.add('active');
     });
   }
 
@@ -115,7 +180,7 @@ function attachAuthHandlers(){
   }
 }
 
-// Profile page behaviour
+// -------------------- PROFILE --------------------
 function initProfileForm(){
   const pf = document.getElementById('profileForm');
   if(!pf) return;
@@ -129,18 +194,16 @@ function initProfileForm(){
 
   pf.addEventListener('submit', function(e){
     e.preventDefault();
-    state.user = state.user || {};
     state.user.name = nameI.value.trim() || state.user.name;
     state.user.email = emailI.value.trim() || state.user.email;
     state.user.avatar = avI.value.trim() || state.user.avatar;
     saveUserLocal(state.user);
     alert('Perfil actualizado');
-    // update profile card in case user returns to panel
     renderProfileCard();
   });
 }
 
-// Settings handlers
+// -------------------- SETTINGS --------------------
 function initSettings(){
   const dm = document.getElementById('darkMode');
   if(!dm) return;
@@ -170,12 +233,12 @@ function initSettings(){
   }
 }
 
-// Menu wiring
+// -------------------- MENU --------------------
 function initMenuLinks(){
-  document.querySelectorAll('.menu a').forEach(a=>{
+  document.querySelectorAll('.menu a, .btn[data-view]').forEach(a=>{
     a.addEventListener('click', function(e){
       e.preventDefault();
-      document.querySelectorAll('.menu a').forEach(x=>x.classList.remove('active'));
+      document.querySelectorAll('.menu a, .btn[data-view]').forEach(x=>x.classList.remove('active'));
       a.classList.add('active');
       const v = a.getAttribute('data-view');
       loadView(v);
@@ -183,7 +246,7 @@ function initMenuLinks(){
   });
 }
 
-// Logout
+// -------------------- LOGOUT --------------------
 function initLogout(){
   const btn = document.getElementById('btn-logout');
   if(btn){
@@ -191,31 +254,27 @@ function initLogout(){
       if(confirm('Cerrar sesión?')) {
         clearUserLocal();
         state.user = null;
-        // reload to root or show auth
         location.href = '/';
       }
     });
   }
 }
 
-// Initialization
-document.addEventListener('DOMContentLoaded', function(){
+// -------------------- INIT --------------------
+document.addEventListener('DOMContentLoaded', async function(){
   state.user = loadUserLocal();
   renderProfileCard();
+  await loadCourses();  // cargamos cursos antes de mostrar dashboard
   initMenuLinks();
   initLogout();
 
-  // If we are on profile page, initialize profile form
   if(document.getElementById('profileForm')) initProfileForm();
   if(document.getElementById('darkMode') || document.getElementById('btn-reset')) initSettings();
 
-  // If we are on dashboard (user/index.html)
   if(document.getElementById('content')){
     if(state.user){
-      // render default logged in view
       loadView('dashboard');
     } else {
-      // show auth area
       loadView('auth');
     }
     attachAuthHandlers();
