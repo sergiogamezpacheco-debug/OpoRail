@@ -1,3 +1,4 @@
+// /js/load-footer.js
 fetch('/data/site.json')
   .then(res => res.json())
   .then(data => {
