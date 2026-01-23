@@ -8,8 +8,8 @@
   "nav": [
     { "text": "Inicio", "href": "index.html" },
     { "text": "Planes", "href": "planes.html" },
-    { "text": "Cursos de Preparación", "href": "cursos.html" },
-    { "text": "Noticias", "href": "index.html#noticias" }
+    { "text": "Cursos de Preparación", "href": "cursos.html" }
+    
   ],
   "footerText": "© 2025 OpoRail. Todos los derechos reservados.",
   "benefits": [
