@@ -3,93 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>OpoRail | Academia de Oposiciones Renfe</title>
+  <title>OpoRail | Preparación Renfe</title>
 
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="antialiased">
 
-  <!-- HEADER -->
+  <!-- HEADER COMÚN -->
   <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
 
   <!-- HERO / INTRO -->
-  <section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
-    <div class="container mx-auto px-4 max-w-5xl">
-      <h1 class="text-4xl font-bold mb-4">
-        Academia online de oposiciones Renfe
+  <section class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Academia online de preparación para Renfe
       </h1>
-      <p class="text-lg opacity-90">
-        Prepárate para trabajar en Renfe con una formación clara, práctica y enfocada a las convocatorias reales.
+      <p class="text-lg max-w-3xl mx-auto">
+        OpoRail es una academia online especializada en la preparación de oposiciones
+        y pruebas de acceso a Renfe, con contenidos enfocados en mantenimiento,
+        ingeniería y oficios ferroviarios.
       </p>
-    </div>
-  </section>
-
-  <!-- PRESENTACIÓN -->
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 max-w-5xl">
-      <h2 class="text-3xl font-bold mb-6">
-        ¿Qué es OpoRail?
-      </h2>
-
-      <p class="text-gray-600 leading-relaxed mb-4">
-        OpoRail es una academia online especializada en la preparación de oposiciones de Renfe Operadora y Renfe Mercancías.
-        Nuestro enfoque se basa en contenidos actualizados, explicación clara del temario oficial y orientación práctica
-        para superar las pruebas con garantías.
-      </p>
-
-      <p class="text-gray-600 leading-relaxed">
-        Nos centramos en perfiles técnicos e industriales como mantenimiento, electricidad, ajustador-montador,
-        suministros, soldadura, pintura industrial y tornería.
-      </p>
+      <a href="cursos.html"
+         class="mt-8 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+        Ver cursos de preparación
+      </a>
     </div>
   </section>
 
   <!-- BENEFICIOS RENFE -->
-  <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 max-w-5xl">
-      <h2 class="text-3xl font-bold mb-8">
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-10">
         Beneficios de trabajar en Renfe
       </h2>
 
-      <div class="grid md:grid-cols-2 gap-6">
-        <ul class="space-y-3 text-gray-700">
-          <li>✔ Empleo estable mediante oposición</li>
-          <li>✔ Salarios competitivos y progresión profesional</li>
-          <li>✔ Turnos regulados y conciliación familiar</li>
-          <li>✔ Formación interna continua</li>
-        </ul>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Empleo estable</h3>
+          <p class="text-gray-600">
+            Puesto fijo en una de las empresas públicas más sólidas de España.
+          </p>
+        </div>
 
-        <ul class="space-y-3 text-gray-700">
-          <li>✔ Empresa pública estratégica</li>
-          <li>✔ Buen clima laboral</li>
-          <li>✔ Derechos laborales consolidados</li>
-          <li>✔ Proyección a largo plazo</li>
-        </ul>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Buen salario y condiciones</h3>
+          <p class="text-gray-600">
+            Retribuciones competitivas, turnos regulados y conciliación laboral.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Proyección profesional</h3>
+          <p class="text-gray-600">
+            Formación continua, ascensos internos y movilidad dentro del grupo Renfe.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- NOTICIAS Y NOVEDADES (SE MANTIENE) -->
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 max-w-5xl">
-      <h2 class="text-3xl font-bold mb-6">
-        Noticias y novedades
-      </h2>
+  <!-- NOTICIAS Y NOVEDADES (SOLO EN INICIO) -->
+  <section class="py-16 container mx-auto px-4">
+    <h2 class="text-2xl font-bold mb-8">
+      Noticias y novedades sobre oposiciones Renfe
+    </h2>
 
-      <div id="news-list" class="space-y-4">
-        <!-- Se carga dinámicamente -->
-      </div>
+    <div id="news-list" class="grid md:grid-cols-3 gap-6">
+      <!-- Se rellena automáticamente desde news.json -->
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- FOOTER COMÚN -->
   <div id="site-footer"></div>
 
+  <!-- SCRIPTS -->
+  <script src="/js/load-header.js"></script>
   <script src="/js/load-data.js"></script>
-  <script src="/js/load-footer.js"></script>
 
 </body>
 </html>
