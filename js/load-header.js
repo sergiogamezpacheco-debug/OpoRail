@@ -1,4 +1,3 @@
-// /js/load-header.js
 fetch('/data/site.json')
   .then(response => response.json())
   .then(data => {
@@ -10,14 +9,14 @@ fetch('/data/site.json')
     headerContainer.innerHTML = `
       <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white shadow-lg">
         <div class="container mx-auto flex justify-between items-center p-4">
-          
+
           <!-- LOGO + TITULO -->
           <div class="flex items-center space-x-3">
             <img src="${logo}" alt="${title}" class="h-10 w-10 rounded-full border border-white">
             <span class="text-xl font-semibold">${title}</span>
           </div>
 
-          <!-- MENU PRINCIPAL -->
+          <!-- MENU -->
           <nav>
             <ul class="flex space-x-6 text-sm font-medium">
               ${menu.map(item => `
@@ -28,7 +27,7 @@ fetch('/data/site.json')
             </ul>
           </nav>
 
-          <!-- ICONO PERFIL GRIS (CSS) -->
+          <!-- ICONO GRIS PERFIL -->
           <div>
             <a href="/user/index.html" title="Acceder al panel de usuario">
               <div class="h-10 w-10 rounded-full border border-white bg-gray-400 cursor-pointer hover:ring-2 hover:ring-white transition"></div>
