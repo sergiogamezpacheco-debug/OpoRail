@@ -13,5 +13,20 @@
     "titulo": "Suministros",
     "descripcion": "Gestión de almacenes y logística ferroviaria.",
     "estado": "Próximamente"
+  },
+  {
+    "titulo": "Pintura",
+    "descripcion": "Preparación en pintura de vagones y materiales ferroviarios.",
+    "estado": "Disponible"
+  },
+  {
+    "titulo": "Soldadores",
+    "descripcion": "Curso especializado en soldadura aplicada al sector ferroviario.",
+    "estado": "Disponible"
+  },
+  {
+    "titulo": "Torneros",
+    "descripcion": "Mantenimiento y reparación de piezas metálicas en ferrocarriles.",
+    "estado": "Próximamente"
   }
 ]
