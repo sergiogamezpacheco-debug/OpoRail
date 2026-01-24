@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // ===== CURSOS =====
   const coursesContainer = document.getElementById('courses-list');
   if (coursesContainer) {
-    fetch('/data/cursos.json')
-      .then(r => r.json())
-      .then(cursos => {
-        coursesContainer.innerHTML = cursos.map(c => `
+    fetch('/data/courses.json')
+      .then(res => res.json())
+      .then(courses => {
+        coursesContainer.innerHTML = courses.map(c => `
           <div class="bg-purple-700 text-white rounded-xl p-6 shadow-lg">
             <h3 class="text-xl font-bold mb-2">${c.titulo}</h3>
             <p class="text-purple-100 mb-4">${c.descripcion}</p>
@@ -15,14 +15,15 @@ document.addEventListener('DOMContentLoaded', () => {
             </span>
           </div>
         `).join('');
-      });
+      })
+      .catch(err => console.error('Error cargando cursos:', err));
   }
 
   // ===== PLANES =====
   const planesContainer = document.getElementById('planes-list');
   if (planesContainer) {
     fetch('/data/planes.json')
-      .then(r => r.json())
+      .then(res => res.json())
       .then(planes => {
         planesContainer.innerHTML = planes.map(p => `
           <div class="bg-purple-700 text-white rounded-xl p-6 shadow-lg text-center">
@@ -33,7 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         `).join('');
-      });
+      })
+      .catch(err => console.error('Error cargando planes:', err));
   }
 
 });
