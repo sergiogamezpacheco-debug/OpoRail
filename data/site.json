@@ -1,21 +1,8 @@
 {
-  "heroTitle": "Prepárate para trabajar en Renfe con OpoRail",
-  "heroSubtitle": "Noticias, test por especialidad y planes de estudio adaptados.",
-  "heroCtaText": "Ver Cursos de Preparación",
-  "heroCtaLink": "cursos.html",
-  "logoOpo": "Opo",
-  "logoRail": "Rail",
-  "nav": [
-    { "text": "Inicio", "href": "index.html" },
-    { "text": "Planes", "href": "planes.html" },
-    { "text": "Cursos de Preparación", "href": "cursos.html" }
-    
-  ],
-  "footerText": "© 2025 OpoRail. Todos los derechos reservados.",
-  "benefits": [
-    { "icon": "🛡️", "title": "Estabilidad laboral" },
-    { "icon": "💰", "title": "Buen salario" },
-    { "icon": "🔧", "title": "Trabajo técnico especializado" },
-    { "icon": "🎓", "title": "Formación continua" }
+  "title": "OpoRail",
+  "menu": [
+    { "name": "Inicio", "link": "index.html" },
+    { "name": "Cursos", "link": "cursos.html" },
+    { "name": "Planes", "link": "planes.html" }
   ]
 }

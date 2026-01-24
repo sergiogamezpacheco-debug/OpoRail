@@ -1,42 +1,50 @@
 // /js/load-header.js
-fetch('/data/site.json')
-  .then(response => response.json())
-  .then(data => {
-    const headerContainer = document.getElementById('site-header');
-    if (!headerContainer) return;
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('data/site.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('No se pudo cargar data/site.json');
+      }
+      return response.json();
+    })
+    .then(data => {
+      const headerContainer = document.getElementById('site-header');
+      if (!headerContainer) return;
 
-    const { title, logo, menu } = data;
+      const { title, menu } = data;
 
-    headerContainer.innerHTML = `
-      <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white shadow-lg">
-        <div class="container mx-auto flex justify-between items-center p-4">
-          
-          <!-- LOGO + TITULO -->
-          <div class="flex items-center space-x-3">
-            <img src="${logo}" alt="${title}" class="h-10 w-10 rounded-full border border-white">
-            <span class="text-xl font-semibold">${title}</span>
-          </div>
+      headerContainer.innerHTML = `
+        <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white shadow-lg">
+          <div class="container mx-auto flex justify-between items-center p-4">
 
-          <!-- MENU PRINCIPAL -->
-          <nav>
-            <ul class="flex space-x-6 text-sm font-medium">
-              ${menu.map(item => `
-                <li>
-                  <a href="${item.link}" class="hover:text-gray-200 transition">${item.name}</a>
-                </li>
-              `).join('')}
-            </ul>
-          </nav>
+            <!-- LOGO / TITULO -->
+            <div class="flex items-center space-x-3">
+              <span class="text-xl font-semibold">${title}</span>
+            </div>
 
-          <!-- ICONO PERFIL GRIS (CSS) -->
-          <div>
-            <a href="/user/index.html" title="Acceder al panel de usuario">
-              <div class="h-10 w-10 rounded-full border border-white bg-gray-400 cursor-pointer hover:ring-2 hover:ring-white transition"></div>
+            <!-- MENU -->
+            <nav>
+              <ul class="flex space-x-6 text-sm font-medium">
+                ${menu.map(item => `
+                  <li>
+                    <a href="${item.link}" class="hover:text-gray-200 transition">
+                      ${item.name}
+                    </a>
+                  </li>
+                `).join('')}
+              </ul>
+            </nav>
+
+            <!-- ICONO PANEL USUARIO (CIRCULO GRIS) -->
+            <a href="user/index.html" title="Panel de usuario">
+              <div class="h-10 w-10 rounded-full bg-gray-400 border border-white cursor-pointer hover:ring-2 hover:ring-white transition"></div>
             </a>
-          </div>
 
-        </div>
-      </header>
-    `;
-  })
-  .catch(err => console.error("Error cargando el header:", err));
+          </div>
+        </header>
+      `;
+    })
+    .catch(err => {
+      console.error('ERROR cargando el header:', err);
+    });
+});
