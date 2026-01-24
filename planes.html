@@ -4,34 +4,29 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Planes | OpoRail</title>
-
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="antialiased bg-white">
+<body class="antialiased bg-gray-50">
 
-  <!-- Header -->
+  <!-- HEADER -->
   <div id="site-header"></div>
   <script src="/js/load-header.js"></script>
 
-  <!-- Hero -->
-  <section class="text-white text-center py-16 bg-gradient-to-r from-green-700 to-purple-700">
-    <div class="container mx-auto px-4">
-      <h1 class="text-4xl font-bold mb-3">Planes de Estudio</h1>
-      <p class="text-lg">Elige tu plan y accede a todo el contenido.</p>
-    </div>
+  <!-- PLANES -->
+  <section class="text-center py-12 bg-gray-50">
+    <h1 class="text-3xl font-bold mb-2">Planes de Suscripción</h1>
+    <p class="text-gray-600">Elige el plan que más se adapte a ti.</p>
   </section>
 
-  <!-- Planes -->
   <section class="py-12 px-4 container mx-auto">
     <div id="planes-list" class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
   </section>
 
-  <!-- Footer -->
-  <div id="site-footer" class="mt-8"></div>
+  <!-- FOOTER -->
+  <div id="site-footer"></div>
   <script src="/js/load-footer.js"></script>
   <script src="/js/load-data.js"></script>
+
 </body>
 </html>
