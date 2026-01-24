@@ -1,8 +1,10 @@
 {
   "title": "OpoRail",
+  "logo": "/img/logo.png",
   "menu": [
-    { "name": "Inicio", "link": "index.html" },
-    { "name": "Cursos", "link": "cursos.html" },
-    { "name": "Planes", "link": "planes.html" }
+    { "name": "Inicio", "link": "/index.html" },
+    { "name": "Cursos", "link": "/cursos.html" },
+    { "name": "Planes", "link": "/planes.html" },
+    { "name": "Acceder", "link": "/user/index.html" }
   ]
 }
