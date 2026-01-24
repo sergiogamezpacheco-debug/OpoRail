@@ -1,17 +1,32 @@
 [
   {
-    "nombre": "Plan Básico",
-    "descripcion": "Incluye acceso a los cursos esenciales y materiales introductorios.",
-    "precio": "49€"
+    "nombre": "Plan Gratuito",
+    "descripcion": "Acceso a contenidos básicos y demos.",
+    "precio": "0 €",
+    "caracteristicas": [
+      "Acceso limitado",
+      "Demos de cursos",
+      "Canal de Telegram"
+    ]
   },
   {
-    "nombre": "Plan Avanzado",
-    "descripcion": "Incluye cursos avanzados, materiales extra y tests de práctica.",
-    "precio": "99€"
+    "nombre": "Plan Normal",
+    "descripcion": "Preparación completa para una especialidad.",
+    "precio": "19,99 €/mes",
+    "caracteristicas": [
+      "Acceso completo a un curso",
+      "Simulacros de examen",
+      "Soporte básico"
+    ]
   },
   {
-    "nombre": "Plan Premium",
-    "descripcion": "Acceso a todos los cursos, tests, simuladores y tutorías personalizadas.",
-    "precio": "149€"
+    "nombre": "Plan Business",
+    "descripcion": "Preparación avanzada y personalizada.",
+    "precio": "39,99 €/mes",
+    "caracteristicas": [
+      "Todos los cursos",
+      "Tutor personal",
+      "Soporte prioritario"
+    ]
   }
 ]
