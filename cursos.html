@@ -1,17 +1,30 @@
-[
-  {
-    "titulo": "Ajustador-Montador",
-    "descripcion": "Preparación completa para oposiciones de ajustador-montador en Renfe.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Eléctrico",
-    "descripcion": "Curso específico para mantenimiento eléctrico ferroviario.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Suministros",
-    "descripcion": "Gestión de almacenes y logística ferroviaria.",
-    "estado": "Próximamente"
-  }
-]
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cursos | OpoRail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- HEADER (el que ya tienes funcionando) -->
+  <header id="main-header"></header>
+
+  <!-- CONTENIDO -->
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-8 text-center">Cursos disponibles</h1>
+
+    <div id="courses-list" class="grid md:grid-cols-3 gap-6"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="main-footer"></footer>
+
+  <!-- SCRIPTS -->
+  <script src="/js/header.js"></script>
+  <script src="/js/footer.js"></script>
+  <script src="/js/load-data.js"></script>
+
+</body>
+</html>

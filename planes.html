@@ -1,17 +1,26 @@
-[
-  {
-    "nombre": "Plan Gratuito",
-    "precio": "0€",
-    "descripcion": "Acceso a demos y contenido introductorio."
-  },
-  {
-    "nombre": "Plan Normal",
-    "precio": "19€/mes",
-    "descripcion": "Acceso completo a un curso."
-  },
-  {
-    "nombre": "Plan Business",
-    "precio": "49€/mes",
-    "descripcion": "Acceso total a todos los cursos y soporte prioritario."
-  }
-]
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planes | OpoRail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <header id="main-header"></header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-8 text-center">Planes de suscripción</h1>
+
+    <div id="planes-list" class="grid md:grid-cols-3 gap-6"></div>
+  </main>
+
+  <footer id="main-footer"></footer>
+
+  <script src="/js/header.js"></script>
+  <script src="/js/footer.js"></script>
+  <script src="/js/load-data.js"></script>
+
+</body>
+</html>
