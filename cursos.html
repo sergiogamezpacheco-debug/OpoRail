@@ -1,29 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Cursos | OpoRail</title>
+
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-gray-100">
+<body class="antialiased bg-gray-100">
 
-  <!-- HEADER (el que ya tienes funcionando) -->
-  <header id="main-header"></header>
+  <!-- HEADER (EL TUYO) -->
+  <div id="site-header"></div>
 
   <!-- CONTENIDO -->
-  <main class="max-w-6xl mx-auto px-6 py-12">
-    <h1 class="text-3xl font-bold mb-8 text-center">Cursos disponibles</h1>
+  <section class="py-12 px-4 container mx-auto">
+    <h1 class="text-3xl font-bold mb-8">Cursos disponibles</h1>
 
     <div id="courses-list" class="grid md:grid-cols-3 gap-6"></div>
-  </main>
+  </section>
 
-  <!-- FOOTER -->
-  <footer id="main-footer"></footer>
+  <!-- FOOTER (si lo usas) -->
+  <div id="site-footer"></div>
 
   <!-- SCRIPTS -->
-  <script src="/js/header.js"></script>
-  <script src="/js/footer.js"></script>
+  <script src="/js/load-header.js"></script>
   <script src="/js/load-data.js"></script>
 
 </body>
