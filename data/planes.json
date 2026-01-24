@@ -1,7 +1,17 @@
-{
-  "plans": [
-    { "name": "Gratis", "price": "0€/mes", "description": "Acceso limitado con demos" },
-    { "name": "Normal", "price": "9,99€/mes", "description": "Acceso completo a test y recursos" },
-    { "name": "Business", "price": "19,99€/mes", "description": "Acceso total + formación personalizada" }
-  ]
-}
+[
+  {
+    "nombre": "Plan Básico",
+    "descripcion": "Incluye acceso a los cursos esenciales y materiales introductorios.",
+    "precio": "49€"
+  },
+  {
+    "nombre": "Plan Avanzado",
+    "descripcion": "Incluye cursos avanzados, materiales extra y tests de práctica.",
+    "precio": "99€"
+  },
+  {
+    "nombre": "Plan Premium",
+    "descripcion": "Acceso a todos los cursos, tests, simuladores y tutorías personalizadas.",
+    "precio": "149€"
+  }
+]
