@@ -4,21 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Panel de Usuario | OpoRail</title>
-
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../css/user-panel.css">
-
-  <!-- Firebase -->
   <script type="module" src="../js/firebase-config.js"></script>
-  <script type="module" src="../js/auth.js"></script>
 </head>
 
 <body class="bg-gray-100 min-h-screen flex flex-col">
 
-  <!-- HEADER -->
+  <!-- Barra superior -->
   <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white py-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center px-4">
-      <h1 class="text-2xl font-bold">OpoRail · Panel de Usuario</h1>
+      <h1 class="text-2xl font-bold">OpoRail - Panel</h1>
       <button id="logout-btn"
         class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">
         Cerrar sesión
@@ -26,96 +22,69 @@
     </div>
   </header>
 
-  <!-- MAIN -->
-  <main class="flex-1 container mx-auto px-4 py-10 space-y-10">
+  <!-- Contenido -->
+  <main class="flex-1 container mx-auto px-4 py-10">
 
-    <!-- BIENVENIDA -->
-    <section class="bg-white rounded-xl shadow-md p-6">
-      <h2 class="text-2xl font-bold text-purple-700 mb-2">
-        Bienvenido, <span id="user-name">Usuario</span>
-      </h2>
-      <p class="text-gray-700">
-        Desde aquí podrás gestionar tus cursos, ver tu progreso y acceder a los contenidos de OpoRail.
-      </p>
-    </section>
+    <h2 class="text-2xl font-bold text-purple-700 mb-6">
+      Bienvenido, <span id="user-name">Usuario</span>
+    </h2>
 
-    <!-- INFO USUARIO -->
-    <section class="bg-white rounded-xl shadow-md p-6 flex flex-col sm:flex-row items-center gap-6">
-      <img id="user-photo"
-        class="w-24 h-24 rounded-full border-2 border-purple-700 shadow-md"
-        src=""
-        alt="Foto de usuario">
+    <p class="text-gray-700 mb-8">
+      Estos son los cursos que tienes disponibles actualmente.
+    </p>
 
-      <div class="text-gray-700">
-        <p><strong>Email:</strong> <span id="user-email"></span></p>
-        <p><strong>Último acceso:</strong> <span id="last-login"></span></p>
-      </div>
-    </section>
-
-    <!-- PLAN ACTIVO -->
-    <section class="bg-gradient-to-r from-purple-700 to-purple-900 text-white rounded-xl shadow-md p-6">
-      <h3 class="text-xl font-bold mb-2">Plan activo</h3>
-      <p class="text-purple-100">Plan Normal</p>
-      <p class="mt-2 text-sm text-purple-200">
-        Acceso a cursos y contenidos básicos.
-      </p>
-    </section>
-
-    <!-- MIS CURSOS -->
-    <section>
-      <h3 class="text-xl font-bold text-purple-700 mb-4">Mis cursos</h3>
-
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-purple-700 text-white rounded-xl p-5 shadow-md">
-          <h4 class="font-bold text-lg mb-2">Ajustador-Montador</h4>
-          <p class="text-purple-100 text-sm">Curso activo</p>
-        </div>
-
-        <div class="bg-purple-700 text-white rounded-xl p-5 shadow-md">
-          <h4 class="font-bold text-lg mb-2">Eléctrico</h4>
-          <p class="text-purple-100 text-sm">Curso activo</p>
-        </div>
-
-        <div class="bg-purple-400 text-white rounded-xl p-5 shadow-md opacity-70">
-          <h4 class="font-bold text-lg mb-2">Suministros</h4>
-          <p class="text-purple-100 text-sm">Próximamente</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROGRESO -->
-    <section class="bg-white rounded-xl shadow-md p-6">
-      <h3 class="text-xl font-bold text-purple-700 mb-4">Progreso general</h3>
-      <div class="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
-        <div class="bg-purple-700 h-4" style="width: 35%;"></div>
-      </div>
-      <p class="text-sm text-gray-600 mt-2">Progreso aproximado: 35%</p>
-    </section>
-
-    <!-- VOLVER -->
-    <section>
-      <a href="../index.html"
-        class="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-800 transition">
-        Volver a la página principal
-      </a>
-    </section>
+    <!-- Cursos -->
+    <div id="courses-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
   </main>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="bg-gray-200 py-4 text-center text-gray-600">
     &copy; 2025 OpoRail. Todos los derechos reservados.
   </footer>
 
-  <!-- SCRIPT -->
+  <!-- Script -->
   <script type="module">
     import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
     import { app } from "../js/firebase-config.js";
 
     const auth = getAuth(app);
-
     const logoutBtn = document.getElementById("logout-btn");
+    const coursesGrid = document.getElementById("courses-grid");
 
+    // Cursos existentes (simulación controlada)
+    const userCourses = [
+      "Ajustador-Montador",
+      "Eléctrico",
+      "Suministros",
+      "Pintura",
+      "Soldadores",
+      "Torneros"
+    ];
+
+    // Renderizar cursos
+    function renderCourses() {
+      coursesGrid.innerHTML = "";
+      userCourses.forEach(course => {
+        const card = document.createElement("div");
+        card.className =
+          "bg-purple-700 text-white rounded-xl p-6 shadow-lg hover:scale-[1.02] transition";
+
+        card.innerHTML = `
+          <h3 class="text-xl font-bold mb-2">${course}</h3>
+          <p class="text-purple-100 text-sm mb-4">
+            Preparación específica para oposiciones de ${course}.
+          </p>
+          <button class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold">
+            Acceder al curso
+          </button>
+        `;
+
+        coursesGrid.appendChild(card);
+      });
+    }
+
+    // Sesión
     onAuthStateChanged(auth, (user) => {
       if (!user) {
         window.location.href = "index.html";
@@ -125,15 +94,10 @@
       document.getElementById("user-name").textContent =
         user.displayName || "Usuario";
 
-      document.getElementById("user-email").textContent = user.email;
-
-      document.getElementById("user-photo").src =
-        user.photoURL || "../img/default-user.png";
-
-      document.getElementById("last-login").textContent =
-        new Date(user.metadata.lastSignInTime).toLocaleString();
+      renderCourses();
     });
 
+    // Logout
     logoutBtn.addEventListener("click", async () => {
       await signOut(auth);
       window.location.href = "../index.html";
