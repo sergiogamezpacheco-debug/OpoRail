@@ -3,36 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>OpoRail | Inicio</title>
+  <title>OpoRail | Preparación Renfe</title>
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Estilos propios -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="antialiased bg-gray-50">
 
-  <!-- HEADER -->
+<body class="antialiased">
+
+  <!-- HEADER COMÚN -->
   <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
 
-  <!-- HERO -->
-  <section id="hero" class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
+  <!-- HERO / INTRO -->
+  <section class="text-white text-center py-20 bg-gradient-to-r from-green-700 to-purple-700">
     <div class="container mx-auto px-4">
-      <h1 id="hero-title" class="text-4xl md:text-5xl font-bold">Academia online de personal de Renfe</h1>
-      <p id="hero-subtitle" class="mt-4 text-lg">Prepárate para oposiciones y descubre los beneficios de trabajar en Renfe.</p>
-      <a id="hero-cta" href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold">Ver Cursos</a>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Academia online de preparación para Renfe
+      </h1>
+      <p class="text-lg max-w-3xl mx-auto">
+        OpoRail es una academia online especializada en la preparación de oposiciones
+        y pruebas de acceso a Renfe, con contenidos enfocados en mantenimiento,
+        ingeniería y oficios ferroviarios.
+      </p>
+      <a href="cursos.html"
+         class="mt-8 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+        Ver cursos de preparación
+      </a>
     </div>
   </section>
 
-  <!-- BENEFICIOS -->
-  <section id="benefits" class="bg-gray-100 py-12">
+  <!-- BENEFICIOS RENFE -->
+  <section class="py-16 bg-gray-100">
     <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-6 text-center">Beneficios de trabajar en Renfe</h2>
-      <div id="benefits-list" class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center"></div>
+      <h2 class="text-2xl font-bold text-center mb-10">
+        Beneficios de trabajar en Renfe
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Empleo estable</h3>
+          <p class="text-gray-600">
+            Puesto fijo en una de las empresas públicas más sólidas de España.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Buen salario y condiciones</h3>
+          <p class="text-gray-600">
+            Retribuciones competitivas, turnos regulados y conciliación laboral.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg mb-2">Proyección profesional</h3>
+          <p class="text-gray-600">
+            Formación continua, ascensos internos y movilidad dentro del grupo Renfe.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- NOTICIAS Y NOVEDADES (SOLO EN INICIO) -->
+  <section class="py-16 container mx-auto px-4">
+    <h2 class="text-2xl font-bold mb-8">
+      Noticias y novedades sobre oposiciones Renfe
+    </h2>
+
+    <div id="news-list" class="grid md:grid-cols-3 gap-6">
+      <!-- Se rellena automáticamente desde news.json -->
+    </div>
+  </section>
+
+  <!-- FOOTER COMÚN -->
   <div id="site-footer"></div>
-  <script src="/js/load-footer.js"></script>
+
+  <!-- SCRIPTS -->
+  <script src="/js/load-header.js"></script>
+  <script src="/js/load-data.js"></script>
 
 </body>
 </html>
