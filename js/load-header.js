@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </nav>
 
             <!-- ICONO PANEL USUARIO (CIRCULO GRIS) -->
-            <a href="user/index.html" title="Panel de usuario">
+            <a href="/user/index.html" title="Panel de usuario">
               <div class="h-10 w-10 rounded-full bg-gray-400 border border-white cursor-pointer hover:ring-2 hover:ring-white transition"></div>
             </a>
 
