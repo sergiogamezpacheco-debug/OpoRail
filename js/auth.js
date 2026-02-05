@@ -12,17 +12,23 @@ import { app } from "./firebase-config.js";
 const auth = getAuth(app);
 
 const panelBtn = document.getElementById("panel-btn");
-if (panelBtn) {
-  onAuthStateChanged(auth, (user) => {
-    if (user) {
-      panelBtn.textContent = "Mi Panel";
-      panelBtn.href = "/user/dashboard.html";
-    } else {
-      panelBtn.textContent = "Acceder";
-      panelBtn.href = "/user/index.html";
-    }
-  });
-}
+onAuthStateChanged(auth, (user) => {
+  if (user?.uid) {
+    localStorage.setItem("oporail_active_uid", user.uid);
+  } else {
+    localStorage.removeItem("oporail_active_uid");
+  }
+
+  if (!panelBtn) return;
+
+  if (user) {
+    panelBtn.textContent = "Mi Panel";
+    panelBtn.href = "/user/dashboard.html";
+  } else {
+    panelBtn.textContent = "Acceder";
+    panelBtn.href = "/user/index.html";
+  }
+});
 
 export async function loginWithGoogle() {
   const provider = new GoogleAuthProvider();
