@@ -20,14 +20,6 @@ fetch('/data/site.json')
             `,
               )
               .join('')}
-
-            <a
-              id="panel-btn"
-              href="/user/index.html"
-              class="bg-white text-purple-700 px-6 py-3 rounded-xl font-semibold shadow-sm hover:bg-gray-100 transition"
-            >
-              Cerrar sesión
-            </a>
           </nav>
         </div>
       </header>

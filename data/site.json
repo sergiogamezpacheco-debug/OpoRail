@@ -4,7 +4,7 @@
   "menu": [
     { "name": "Inicio", "link": "/index.html" },
     { "name": "Cursos", "link": "/cursos.html" },
-    { "name": "Noticias", "link": "/index.html#noticias" },
-    { "name": "Contacto", "link": "/index.html#contacto" }
+    { "name": "Planes", "link": "/planes.html" },
+    { "name": "Acceder", "link": "/user/index.html" }
   ]
 }
