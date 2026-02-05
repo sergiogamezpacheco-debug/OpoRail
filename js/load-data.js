@@ -12,9 +12,6 @@ function escapeHtml(text = '') {
     .replaceAll("'", '&#39;');
 }
 
-<<<<<<< HEAD
-// ---------- CURSOS (listado) ----------
-=======
 function getActiveUserId() {
   const raw = localStorage.getItem('oporail_active_uid');
   return raw || null;
@@ -152,7 +149,6 @@ function renderCourseContentBlocks(blueprint) {
   `;
 }
 
->>>>>>> 7dbc22b (Externalizar estructura de contenido de cursos en JSON)
 const coursesContainer = document.getElementById('courses-list');
 if (coursesContainer) {
   fetch(resolveDataPath('courses.json'))
@@ -200,9 +196,9 @@ if (courseDetailContainer) {
     })
     .then(async (cursos) => {
       const fallbackCourse = cursos[0];
-      const course = Number.isNaN(selectedId) || selectedId < 1 || selectedId > cursos.length
-        ? fallbackCourse
-        : cursos[selectedId - 1];
+      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > cursos.length;
+      const courseId = isInvalidId ? 1 : selectedId;
+      const course = isInvalidId ? fallbackCourse : cursos[selectedId - 1];
 
       if (!course) {
         courseDetailContainer.innerHTML = '<p class="text-red-600">No se encontró el curso solicitado.</p>';
@@ -212,7 +208,7 @@ if (courseDetailContainer) {
       const blueprint = await getCourseBlueprint(course.titulo);
 
       courseDetailContainer.innerHTML = `
-        <article class="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
+        <article class="max-w-5xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
           <p class="text-sm font-semibold text-purple-700 mb-2">Curso OpoRail</p>
           <h1 class="text-4xl font-extrabold text-gray-900 mb-4">${escapeHtml(course.titulo)}</h1>
           <p class="text-lg text-gray-700 mb-6">${escapeHtml(course.descripcion)}</p>
@@ -227,7 +223,12 @@ if (courseDetailContainer) {
             <a href="/user/index.html" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Acceder al panel
             </a>
+            <button id="enroll-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">
+              Añadir a mi panel
+            </button>
           </div>
+
+          <p id="enroll-feedback" class="text-sm text-gray-600 -mt-4 mb-6"></p>
 
           <section class="grid md:grid-cols-3 gap-4">
             <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
@@ -243,13 +244,27 @@ if (courseDetailContainer) {
               <p class="text-base font-semibold text-gray-800">Semanales en directo</p>
             </div>
           </section>
-<<<<<<< HEAD
-=======
 
           ${renderCourseContentBlocks(blueprint)}
->>>>>>> 7dbc22b (Externalizar estructura de contenido de cursos en JSON)
         </article>
       `;
+
+      const enrollBtn = document.getElementById('enroll-course-btn');
+      const enrollFeedback = document.getElementById('enroll-feedback');
+
+      if (enrollBtn && enrollFeedback) {
+        enrollBtn.addEventListener('click', () => {
+          const id = Number(enrollBtn.dataset.courseId);
+          const result = addEnrollment(id);
+
+          if (!result.ok) {
+            enrollFeedback.textContent = 'Inicia sesión para añadir este curso a tu panel.';
+            return;
+          }
+
+          enrollFeedback.textContent = 'Curso añadido correctamente. Lo verás en tu panel de usuario.';
+        });
+      }
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
