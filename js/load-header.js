@@ -10,7 +10,7 @@ fetch('/data/site.json')
             <span class="${isHome ? 'text-white' : 'text-green-700'}">Opo</span><span class="${isHome ? 'text-white' : 'text-purple-700'}">Rail</span>
           </a>
 
-          <nav class="ml-auto pl-20 flex items-center gap-8 font-medium ${isHome ? 'text-white' : 'text-gray-700'}">
+          <nav class="ml-auto pl-32 flex items-center gap-8 font-medium ${isHome ? 'text-white' : 'text-gray-700'}">
             ${site.menu
               .map(
                 (item) => `
