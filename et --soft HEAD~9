@@ -1,0 +1,57 @@
+[33m3a686fc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m load header
+[33m8cde260[m load header
+[33m11a707a[m repair load header
+[33m98c875b[m user-panel
+[33ma892bb1[m revert userpanel
+[33me33fb34[m update user-panel.js
+[33m117cbd1[m Update dashboard.html
+[33m229902e[m Update dashboard.html
+[33md0d1649[m update dashboard
+[33m0730cfc[m Hasta aquí funciona todo y se añade dashboard para funciones usuario
+[33m8dd673f[m revert paso anterior
+[33mfa0c186[m Ya está, ahora optimizacion en courses.json planes.json data.js y header.js
+[33mc9c2e16[m Modificacion varios para arreglar planes y cursos
+[33m69e7fac[m Update load-data.js
+[33m3625f35[m m
+[33m2c0b682[m Update load-data.js
+[33m5e98bcc[m a ver...
+[33mc1c6953[m Update load-data.js
+[33m78939db[m crusos y planes
+[33mf37799b[m hasta aqui bien pero sin cursos y planes
+[33mae393a0[m a ver si se repara
+[33mb6a97bb[m Update load-header.js
+[33m3adfe8b[m k
+[33m8ded661[m Merge branch 'master' of https://github.com/sergiogamezpacheco-debug/OpoRail
+[33md70aa59[m modificacion git reset
+[33m24a9490[m OpoRail
+[33m2b2725d[m haber si se arregla
+[33m0d3bb17[m leader roto
+[33md0b19af[m user panel repair 2
+[33m4019c62[m user repair
+[33m8d3d2db[m Load-header
+[33ma664da2[m user index
+[33m203681b[m mo
+[33m2a40687[m Eliminacion noticias
+[33m47fcbd5[m Update index.html
+[33m98bcbf6[m Update index.html
+[33mdc1292a[m modi1
+[33m8b31f23[m goo mas correo
+[33m226fef5[m goo
+[33m2c09d5f[m log
+[33mba31347[m panel usuer
+[33mc459984[m Update config.yml
+[33m310fc24[m Create auth.html
+[33m55a0aeb[m Merge branch 'master' of https://github.com/sergiogamezpacheco-debug/OpoRail
+[33mf7648ce[m Update index.html
+[33m02eb90a[m Update index.html
+[33m84ca775[m Update config.yml
+[33me5b4d44[m OpoRail
+[33m5ab0eca[m Add files via upload
+[33mdb9d069[m Delete _headers
+[33me1e725e[m Update _headers
+[33mb15a255[m Add files via upload
+[33m2f3f07e[m Update index.html
+[33mf580cf6[m Update config.yml
+[33mdcafe49[m Update index.html
+[33m566cab0[m Update config.yml
+[33m1470f07[m OpoRail
