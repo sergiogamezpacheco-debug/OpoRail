@@ -1,31 +1,40 @@
-fetch("/data/site.json")
-  .then(res => res.json())
-  .then(site => {
+fetch('/data/site.json')
+  .then((res) => res.json())
+  .then((site) => {
+    const isHome = window.location.pathname.endsWith('/') || window.location.pathname.endsWith('/index.html');
+
     const header = `
-      <header class="bg-white shadow">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="/index.html" class="text-2xl font-bold">
-            <span class="text-green-700">Opo</span><span class="text-purple-700">Rail</span>
+      <header class="${isHome ? 'absolute top-0 left-0 right-0 z-20 text-white' : 'bg-white shadow'}">
+        <div class="max-w-[1200px] mx-auto px-6 py-5 flex justify-between items-center">
+          <a href="/index.html" class="text-5xl md:text-4xl font-extrabold tracking-tight ${isHome ? 'text-white' : 'text-gray-900'}">
+            OpoRail
           </a>
 
-          <nav class="flex items-center gap-6">
-            ${site.menu.map(item => `
-              <a href="${item.link}" class="text-gray-700 hover:text-purple-700 font-medium">
+          <nav class="flex items-center gap-8 text-xl md:text-lg font-semibold ${isHome ? 'text-white' : 'text-gray-700'}">
+            ${site.menu
+              .map(
+                (item) => `
+              <a href="${item.link}" class="hover:opacity-80 transition">
                 ${item.name}
               </a>
-            `).join("")}
+            `,
+              )
+              .join('')}
 
-            <!-- ICONO USUARIO -->
-            <a href="/user/index.html" title="Panel de usuario">
-              <div class="h-10 w-10 rounded-full bg-gray-400 border border-white hover:ring-2 hover:ring-purple-600 transition"></div>
+            <a
+              id="panel-btn"
+              href="/user/index.html"
+              class="bg-white text-purple-700 px-6 py-3 rounded-xl font-semibold shadow-sm hover:bg-gray-100 transition"
+            >
+              Cerrar sesión
             </a>
           </nav>
         </div>
       </header>
     `;
 
-    document.getElementById("site-header").innerHTML = header;
+    document.getElementById('site-header').innerHTML = header;
   })
-  .catch(err => {
-    console.error("Error cargando header:", err);
+  .catch((err) => {
+    console.error('Error cargando header:', err);
   });
