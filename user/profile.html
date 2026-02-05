@@ -10,23 +10,29 @@
 </head>
 
 <body class="bg-gray-100 min-h-screen flex flex-col">
-  <header class="bg-gradient-to-r from-green-700 to-purple-700 text-white py-4">
-    <div class="container mx-auto flex justify-between items-center px-4">
+  <header class="bg-gradient-to-r from-[#0b5a2a] to-purple-700 text-white py-4">
+    <div class="max-w-[1200px] mx-auto flex justify-between items-center px-6">
       <h1 class="text-2xl font-bold">Perfil de Usuario</h1>
-      <a href="dashboard.html" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200">Volver</a>
+      <a href="dashboard.html" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200">Volver al panel</a>
     </div>
   </header>
 
-  <main class="flex-1 container mx-auto px-4 py-10">
-    <div class="bg-white rounded-xl shadow-md p-6 max-w-lg mx-auto">
+  <main class="flex-1 max-w-[1200px] mx-auto w-full px-6 py-10">
+    <div class="bg-white rounded-xl shadow-md p-6 max-w-xl mx-auto">
       <div class="flex flex-col items-center mb-6">
-        <img id="user-photo" class="w-24 h-24 rounded-full shadow-md border-2 border-purple-700 mb-3" src="">
+        <img id="user-photo" class="w-24 h-24 rounded-full shadow-md border-2 border-purple-700 mb-3" src="" alt="Foto de usuario">
         <h2 id="user-name" class="text-xl font-bold text-purple-700"></h2>
         <p id="user-email" class="text-gray-600"></p>
       </div>
 
-      <p class="text-center text-gray-700">Aquí podrás editar tus datos y preferencias próximamente.</p>
+      <div class="space-y-2 text-gray-700">
+        <p><strong>Proveedor de acceso:</strong> <span id="user-provider">-</span></p>
+        <p><strong>UID:</strong> <span id="user-uid">-</span></p>
+        <p><strong>Último acceso:</strong> <span id="user-last-login">-</span></p>
+      </div>
     </div>
   </main>
+
+  <script type="module" src="../js/user-panel.js"></script>
 </body>
 </html>
