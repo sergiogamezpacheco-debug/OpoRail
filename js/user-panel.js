@@ -1,136 +1,168 @@
-/* ===============================
-   DATOS SIMULADOS DEL USUARIO
-   =============================== */
+import { logout, onUserChanged, requireAuth } from "./auth.js";
 
-const userData = {
-  name: "Usuario",
-  email: "email@example.com",
-  avatar: null,
-  courses: [
-    { title: "Ajustador-Montador", progress: 65 },
-    { title: "Eléctrico", progress: 40 },
-    { title: "Suministros", progress: 0 },
-    { title: "Pintura", progress: 0 },
-    { title: "Soldadores", progress: 20 },
-    { title: "Torneros", progress: 0 }
-  ]
-};
+requireAuth();
 
-/* ===============================
-   ELEMENTOS BASE
-   =============================== */
+const FALLBACK_COURSES = [
+  { titulo: "Ajustador-Montador", estado: "Disponible" },
+  { titulo: "Eléctrico", estado: "Disponible" },
+  { titulo: "Suministros", estado: "Próximamente" },
+];
 
-const content = document.getElementById("content");
-const menuLinks = document.querySelectorAll(".menu a");
-
-/* ===============================
-   VISTAS
-   =============================== */
-
-function loadDashboard() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Dashboard</h2>
-    <p class="mb-6 text-gray-600">
-      Bienvenido <strong>${userData.name}</strong>. Estos son tus cursos activos.
-    </p>
-
-    <div class="grid md:grid-cols-2 gap-6">
-      ${userData.courses.map(course => `
-        <div class="bg-white rounded-xl shadow-md p-4">
-          <h3 class="text-lg font-semibold text-purple-700 mb-2">
-            ${course.title}
-          </h3>
-
-          <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-            <div
-              class="bg-purple-700 h-3 rounded-full"
-              style="width: ${course.progress}%">
-            </div>
-          </div>
-
-          <p class="text-sm text-gray-600">
-            Progreso: ${course.progress}%
-          </p>
-        </div>
-      `).join("")}
-    </div>
-  `;
+function resolveDataPath(fileName) {
+  return window.location.pathname.includes('/user/') ? `../data/${fileName}` : `/data/${fileName}`;
 }
 
-function loadCourses() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Mis Cursos</h2>
-
-    <div class="grid md:grid-cols-2 gap-6">
-      ${userData.courses.map(course => `
-        <div class="bg-white rounded-xl shadow-md p-4">
-          <h3 class="text-lg font-semibold text-purple-700 mb-2">
-            ${course.title}
-          </h3>
-          <p class="text-gray-600 text-sm">
-            Accede al contenido y continúa tu progreso.
-          </p>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-function loadProgress() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Progreso General</h2>
-
-    <div class="space-y-4">
-      ${userData.courses.map(course => `
-        <div>
-          <div class="flex justify-between mb-1">
-            <span class="text-sm font-medium">${course.title}</span>
-            <span class="text-sm">${course.progress}%</span>
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-3">
-            <div
-              class="bg-purple-700 h-3 rounded-full"
-              style="width: ${course.progress}%">
-            </div>
-          </div>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-/* ===============================
-   NAVEGACIÓN
-   =============================== */
-
-menuLinks.forEach(link => {
-  link.addEventListener("click", e => {
-    e.preventDefault();
-
-    menuLinks.forEach(l => l.classList.remove("active"));
-    link.classList.add("active");
-
-    const view = link.dataset.view;
-
-    if (view === "dashboard") loadDashboard();
-    if (view === "courses") loadCourses();
-    if (view === "progress") loadProgress();
+function bindLogout() {
+  const logoutBtn = document.getElementById("logout-btn");
+  if (!logoutBtn) return;
+  logoutBtn.addEventListener("click", async () => {
+    await logout();
   });
+}
+
+function getEnrollments(userId) {
+  const raw = localStorage.getItem(`oporail_enrollments_${userId}`);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function getProgressMap(userId) {
+  const raw = localStorage.getItem(`oporail_progress_${userId}`);
+  if (!raw) return {};
+  try {
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function createProgressIfMissing(userId, courseId) {
+  const progressMap = getProgressMap(userId);
+  if (typeof progressMap[courseId] !== 'number') {
+    const seededValue = 20 + ((courseId * 13) % 61);
+    progressMap[courseId] = seededValue;
+    localStorage.setItem(`oporail_progress_${userId}`, JSON.stringify(progressMap));
+  }
+}
+
+async function getCourseCatalog() {
+  try {
+    const res = await fetch(resolveDataPath('courses.json'));
+    if (!res.ok) throw new Error('No se pudo cargar courses.json');
+    const courses = await res.json();
+    return Array.isArray(courses) ? courses : FALLBACK_COURSES;
+  } catch (error) {
+    console.error('Error cargando catálogo de cursos:', error);
+    return FALLBACK_COURSES;
+  }
+}
+
+async function renderDashboard(user) {
+  const grid = document.getElementById("courses-grid");
+  const emptyState = document.getElementById('courses-empty-state');
+  if (!grid) return;
+
+  const allCourses = await getCourseCatalog();
+  const enrollments = getEnrollments(user.uid);
+
+  const selectedCourses = (enrollments.length
+    ? allCourses.filter((_, index) => enrollments.includes(index + 1))
+    : allCourses.slice(0, 3));
+
+  if (!selectedCourses.length) {
+    grid.innerHTML = '';
+    if (emptyState) emptyState.classList.remove('hidden');
+    updateGlobalProgress([]);
+    return;
+  }
+
+  if (emptyState) emptyState.classList.add('hidden');
+
+  selectedCourses.forEach((_, index) => {
+    const courseId = enrollments.length ? enrollments[index] : index + 1;
+    createProgressIfMissing(user.uid, courseId);
+  });
+
+  const progressMap = getProgressMap(user.uid);
+  const normalizedCourses = selectedCourses.map((course, index) => {
+    const id = enrollments.length ? enrollments[index] : index + 1;
+    return {
+      id,
+      title: course.titulo,
+      active: course.estado === 'Disponible',
+      progress: progressMap[id] ?? 0,
+    };
+  });
+
+  grid.innerHTML = normalizedCourses
+    .map(
+      (course) => `
+      <article class="${course.active ? 'bg-purple-700' : 'bg-purple-400 opacity-80'} text-white rounded-xl p-5 shadow-md">
+        <h4 class="font-bold text-lg mb-2">${course.title}</h4>
+        <p class="text-purple-100 text-sm mb-3">${course.active ? 'Curso activo' : 'Próximamente'}</p>
+        <div class="w-full bg-white/30 rounded-full h-2.5 overflow-hidden">
+          <div class="bg-white h-2.5" style="width:${course.progress}%"></div>
+        </div>
+        <p class="text-xs mt-2 text-purple-100">Progreso: ${course.progress}%</p>
+      </article>
+    `,
+    )
+    .join("");
+
+  updateGlobalProgress(normalizedCourses);
+}
+
+function updateGlobalProgress(courses) {
+  const bar = document.getElementById("global-progress-bar");
+  const text = document.getElementById("global-progress-text");
+
+  if (!courses.length) {
+    if (bar) bar.style.width = '0%';
+    if (text) text.textContent = '0%';
+    return;
+  }
+
+  const avg = Math.round(courses.reduce((acc, c) => acc + c.progress, 0) / courses.length);
+  if (bar) bar.style.width = `${avg}%`;
+  if (text) text.textContent = `${avg}%`;
+}
+
+function fillUserInfo(user) {
+  const name = user.displayName || "Usuario";
+  const email = user.email || "-";
+  const photo = user.photoURL || "https://ui-avatars.com/api/?name=Usuario&background=7c3aed&color=fff";
+  const lastLogin = user.metadata?.lastSignInTime
+    ? new Date(user.metadata.lastSignInTime).toLocaleString("es-ES")
+    : "-";
+
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+  };
+
+  setText("user-name", name);
+  setText("user-email", email);
+  setText("last-login", lastLogin);
+  setText("user-last-login", lastLogin);
+  setText("user-uid", user.uid || "-");
+  setText("user-provider", user.providerData?.[0]?.providerId || "-");
+
+  const photoEls = document.querySelectorAll("#user-photo");
+  photoEls.forEach((el) => {
+    el.src = photo;
+  });
+}
+
+onUserChanged((user) => {
+  if (!user) return;
+  fillUserInfo(user);
+  renderDashboard(user);
 });
 
-/* ===============================
-   LOGOUT (SIMULADO)
-   =============================== */
-
-const logoutBtn = document.getElementById("btn-logout");
-if (logoutBtn) {
-  logoutBtn.addEventListener("click", () => {
-    window.location.href = "index.html";
-  });
-}
-
-/* ===============================
-   INICIO
-   =============================== */
-
-loadDashboard();
+bindLogout();
