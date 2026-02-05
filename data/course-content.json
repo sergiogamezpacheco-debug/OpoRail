@@ -1,0 +1,87 @@
+{
+  "default": {
+    "intro": "Estructura recomendada para este curso: preparada para que puedas cargar contenido progresivamente (tests, explicaciones y recursos).",
+    "blocks": [
+      {
+        "id": "test-comun",
+        "title": "Test · Temario común",
+        "description": "Cuestionarios sobre legislación básica, prevención y marco general ferroviario. Recomendado para cimentar la base común.",
+        "items": [
+          "Bloques de 25/50 preguntas con corrección inmediata",
+          "Modo repaso por temas y modo examen cronometrado",
+          "Registro de errores frecuentes para reforzar estudio"
+        ]
+      },
+      {
+        "id": "test-especifico",
+        "title": "Test · Temario específico",
+        "description": "Banco específico por especialidad de mantenimiento con dificultad progresiva.",
+        "items": [
+          "Preguntas técnicas por subtema",
+          "Mini-simulacros por especialidad",
+          "Indicadores de acierto por bloque"
+        ]
+      },
+      {
+        "id": "psicotecnicos",
+        "title": "Psicotécnicos (bloques habituales en OEP de mantenimiento)",
+        "description": "Estructura propuesta según tipologías frecuentes en procesos selectivos de perfil mantenimiento.",
+        "items": [
+          "Omnibus",
+          "Sinónimos y antónimos",
+          "Series numéricas",
+          "Razonamiento abstracto",
+          "Razonamiento verbal",
+          "Atención y percepción"
+        ]
+      },
+      {
+        "id": "temario",
+        "title": "Temario",
+        "description": "Espacio para teoría en formato guía: explicación, esquemas, fichas y recursos descargables.",
+        "items": [
+          "Tema 1: fundamentos y contexto",
+          "Tema 2: procedimientos y normativa aplicada",
+          "Tema 3: casos prácticos y resolución guiada"
+        ]
+      },
+      {
+        "id": "simulacros",
+        "title": "Simulacros OEP",
+        "description": "Sección preparada para simulacros completos por convocatoria (ej. 2022, 2023, 2024, 2025).",
+        "items": [
+          "Simulacro por año y especialidad",
+          "Informe de resultados y ranking de áreas a mejorar",
+          "Reintento inteligente centrado en errores"
+        ]
+      }
+    ]
+  },
+  "byCourseTitle": {
+    "Ajustador-Montador": {
+      "intro": "Ruta base para Ajustador-Montador. Puedes cargar contenido técnico de mecánica, ajuste y montaje por bloques.",
+      "blocks": [
+        {
+          "id": "test-comun",
+          "title": "Test · Temario común",
+          "description": "Cuestionarios base para la parte común de la OEP.",
+          "items": [
+            "Legislación y prevención",
+            "Normativa ferroviaria general",
+            "Repasos por errores"
+          ]
+        },
+        {
+          "id": "test-especifico",
+          "title": "Test · Específico Ajustador-Montador",
+          "description": "Bloques técnicos orientados a mantenimiento mecánico.",
+          "items": [
+            "Elementos mecánicos y ajuste",
+            "Montaje/desmontaje",
+            "Interpretación de planos"
+          ]
+        }
+      ]
+    }
+  }
+}
