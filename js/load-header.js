@@ -5,12 +5,12 @@ fetch('/data/site.json')
 
     const header = `
       <header class="${isHome ? 'absolute top-0 left-0 right-0 z-20 text-white' : 'bg-white shadow'}">
-        <div class="max-w-[1200px] mx-auto px-6 py-5 flex justify-between items-center">
-          <a href="/index.html" class="text-2xl font-bold ${isHome ? 'text-white' : 'text-gray-900'}">
+        <div class="max-w-[1200px] mx-auto px-6 py-3 relative flex items-center">
+          <a href="/index.html" class="absolute left-1/2 -translate-x-1/2 text-3xl font-bold ${isHome ? 'text-white' : 'text-gray-900'}">
             <span class="${isHome ? 'text-white' : 'text-green-700'}">Opo</span><span class="${isHome ? 'text-white' : 'text-purple-700'}">Rail</span>
           </a>
 
-          <nav class="flex items-center gap-6 font-medium ${isHome ? 'text-white' : 'text-gray-700'}">
+          <nav class="ml-auto flex items-center gap-7 font-medium ${isHome ? 'text-white' : 'text-gray-700'}">
             ${site.menu
               .map(
                 (item) => `
