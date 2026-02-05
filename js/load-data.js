@@ -8,7 +8,7 @@ function escapeHtml(text = '') {
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
-    .replaceAll('\"', '&quot;')
+    .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
 }
 
@@ -38,6 +38,99 @@ function addEnrollment(courseId) {
   }
 
   return { ok: true };
+}
+
+function getCourseContentBlueprint(courseTitle) {
+  return {
+    intro:
+      `Estructura recomendada para ${courseTitle}: preparada para que puedas cargar contenido progresivamente (tests, explicaciones y recursos).`,
+    blocks: [
+      {
+        id: 'test-comun',
+        title: 'Test · Temario común',
+        description:
+          'Cuestionarios sobre legislación básica, prevención y marco general ferroviario. Recomendado para cimentar la base común.',
+        items: [
+          'Bloques de 25/50 preguntas con corrección inmediata',
+          'Modo repaso por temas y modo examen cronometrado',
+          'Registro de errores frecuentes para reforzar estudio',
+        ],
+      },
+      {
+        id: 'test-especifico',
+        title: 'Test · Temario específico',
+        description:
+          'Banco específico por especialidad de mantenimiento (mecánica, eléctrica, suministros, etc.) con dificultad progresiva.',
+        items: [
+          'Preguntas técnicas por subtema',
+          'Mini-simulacros por especialidad',
+          'Indicadores de acierto por bloque',
+        ],
+      },
+      {
+        id: 'psicotecnicos',
+        title: 'Psicotécnicos (bloques habituales en OEP de mantenimiento)',
+        description:
+          'Estructura propuesta según tipologías frecuentes en procesos selectivos de perfil mantenimiento.',
+        items: [
+          'Omnibus',
+          'Sinónimos y antónimos',
+          'Series numéricas',
+          'Razonamiento abstracto',
+          'Razonamiento verbal',
+          'Atención y percepción',
+        ],
+      },
+      {
+        id: 'temario',
+        title: 'Temario',
+        description:
+          'Espacio para teoría en formato guía: explicación, esquemas, fichas y recursos descargables.',
+        items: [
+          'Tema 1: fundamentos y contexto',
+          'Tema 2: procedimientos y normativa aplicada',
+          'Tema 3: casos prácticos y resolución guiada',
+        ],
+      },
+      {
+        id: 'simulacros',
+        title: 'Simulacros OEP',
+        description:
+          'Sección preparada para simulacros completos por convocatoria (ej. 2022, 2023, 2024, 2025).',
+        items: [
+          'Simulacro por año y especialidad',
+          'Informe de resultados y ranking de áreas a mejorar',
+          'Reintento inteligente centrado en errores',
+        ],
+      },
+    ],
+  };
+}
+
+function renderCourseContentBlocks(courseTitle) {
+  const blueprint = getCourseContentBlueprint(courseTitle);
+  return `
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">Apartados del curso</h2>
+      <p class="text-gray-600 mb-6">${escapeHtml(blueprint.intro)}</p>
+
+      <div class="grid md:grid-cols-2 gap-4">
+        ${blueprint.blocks
+          .map(
+            (block) => `
+          <article id="${block.id}" class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+            <h3 class="text-lg font-bold text-purple-700 mb-2">${escapeHtml(block.title)}</h3>
+            <p class="text-sm text-gray-700 mb-3">${escapeHtml(block.description)}</p>
+            <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              ${block.items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}
+            </ul>
+          </article>
+        `,
+          )
+          .join('')}
+      </div>
+    </section>
+  `;
 }
 
 // ---------- CURSOS (listado) ----------
@@ -99,7 +192,7 @@ if (courseDetailContainer) {
       }
 
       courseDetailContainer.innerHTML = `
-        <article class="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
+        <article class="max-w-5xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
           <p class="text-sm font-semibold text-purple-700 mb-2">Curso OpoRail</p>
           <h1 class="text-4xl font-extrabold text-gray-900 mb-4">${escapeHtml(course.titulo)}</h1>
           <p class="text-lg text-gray-700 mb-6">${escapeHtml(course.descripcion)}</p>
@@ -135,6 +228,8 @@ if (courseDetailContainer) {
               <p class="text-base font-semibold text-gray-800">Semanales en directo</p>
             </div>
           </section>
+
+          ${renderCourseContentBlocks(course.titulo)}
         </article>
       `;
 
