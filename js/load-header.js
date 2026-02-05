@@ -6,11 +6,11 @@ fetch('/data/site.json')
     const header = `
       <header class="${isHome ? 'absolute top-0 left-0 right-0 z-20 text-white' : 'bg-white shadow'}">
         <div class="max-w-[1200px] mx-auto px-6 py-5 flex justify-between items-center">
-          <a href="/index.html" class="text-5xl md:text-4xl font-extrabold tracking-tight ${isHome ? 'text-white' : 'text-gray-900'}">
-            OpoRail
+          <a href="/index.html" class="text-2xl font-bold ${isHome ? 'text-white' : 'text-gray-900'}">
+            <span class="${isHome ? 'text-white' : 'text-green-700'}">Opo</span><span class="${isHome ? 'text-white' : 'text-purple-700'}">Rail</span>
           </a>
 
-          <nav class="flex items-center gap-8 text-xl md:text-lg font-semibold ${isHome ? 'text-white' : 'text-gray-700'}">
+          <nav class="flex items-center gap-6 font-medium ${isHome ? 'text-white' : 'text-gray-700'}">
             ${site.menu
               .map(
                 (item) => `
@@ -20,6 +20,10 @@ fetch('/data/site.json')
             `,
               )
               .join('')}
+
+            <a href="/user/index.html" title="Panel de usuario" aria-label="Panel de usuario">
+              <div class="h-10 w-10 rounded-full bg-gray-400 border ${isHome ? 'border-white' : 'border-gray-200'} hover:ring-2 hover:ring-purple-600 transition"></div>
+            </a>
           </nav>
         </div>
       </header>
