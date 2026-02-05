@@ -1,136 +1,73 @@
-/* ===============================
-   DATOS SIMULADOS DEL USUARIO
-   =============================== */
+import { logout, onUserChanged, requireAuth } from "./auth.js";
 
-const userData = {
-  name: "Usuario",
-  email: "email@example.com",
-  avatar: null,
-  courses: [
-    { title: "Ajustador-Montador", progress: 65 },
-    { title: "Eléctrico", progress: 40 },
-    { title: "Suministros", progress: 0 },
-    { title: "Pintura", progress: 0 },
-    { title: "Soldadores", progress: 20 },
-    { title: "Torneros", progress: 0 }
-  ]
-};
+const courses = [
+  { title: "Ajustador-Montador", progress: 65, active: true },
+  { title: "Eléctrico", progress: 40, active: true },
+  { title: "Suministros", progress: 0, active: false },
+];
 
-/* ===============================
-   ELEMENTOS BASE
-   =============================== */
+requireAuth();
 
-const content = document.getElementById("content");
-const menuLinks = document.querySelectorAll(".menu a");
-
-/* ===============================
-   VISTAS
-   =============================== */
-
-function loadDashboard() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Dashboard</h2>
-    <p class="mb-6 text-gray-600">
-      Bienvenido <strong>${userData.name}</strong>. Estos son tus cursos activos.
-    </p>
-
-    <div class="grid md:grid-cols-2 gap-6">
-      ${userData.courses.map(course => `
-        <div class="bg-white rounded-xl shadow-md p-4">
-          <h3 class="text-lg font-semibold text-purple-700 mb-2">
-            ${course.title}
-          </h3>
-
-          <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-            <div
-              class="bg-purple-700 h-3 rounded-full"
-              style="width: ${course.progress}%">
-            </div>
-          </div>
-
-          <p class="text-sm text-gray-600">
-            Progreso: ${course.progress}%
-          </p>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-function loadCourses() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Mis Cursos</h2>
-
-    <div class="grid md:grid-cols-2 gap-6">
-      ${userData.courses.map(course => `
-        <div class="bg-white rounded-xl shadow-md p-4">
-          <h3 class="text-lg font-semibold text-purple-700 mb-2">
-            ${course.title}
-          </h3>
-          <p class="text-gray-600 text-sm">
-            Accede al contenido y continúa tu progreso.
-          </p>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-function loadProgress() {
-  content.innerHTML = `
-    <h2 class="text-2xl font-bold mb-4">Progreso General</h2>
-
-    <div class="space-y-4">
-      ${userData.courses.map(course => `
-        <div>
-          <div class="flex justify-between mb-1">
-            <span class="text-sm font-medium">${course.title}</span>
-            <span class="text-sm">${course.progress}%</span>
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-3">
-            <div
-              class="bg-purple-700 h-3 rounded-full"
-              style="width: ${course.progress}%">
-            </div>
-          </div>
-        </div>
-      `).join("")}
-    </div>
-  `;
-}
-
-/* ===============================
-   NAVEGACIÓN
-   =============================== */
-
-menuLinks.forEach(link => {
-  link.addEventListener("click", e => {
-    e.preventDefault();
-
-    menuLinks.forEach(l => l.classList.remove("active"));
-    link.classList.add("active");
-
-    const view = link.dataset.view;
-
-    if (view === "dashboard") loadDashboard();
-    if (view === "courses") loadCourses();
-    if (view === "progress") loadProgress();
+function bindLogout() {
+  const logoutBtn = document.getElementById("logout-btn");
+  if (!logoutBtn) return;
+  logoutBtn.addEventListener("click", async () => {
+    await logout();
   });
+}
+
+function renderDashboard() {
+  const grid = document.getElementById("courses-grid");
+  if (!grid) return;
+
+  grid.innerHTML = courses
+    .map(
+      (course) => `
+      <div class="${course.active ? 'bg-purple-700' : 'bg-purple-400 opacity-70'} text-white rounded-xl p-5 shadow-md">
+        <h4 class="font-bold text-lg mb-2">${course.title}</h4>
+        <p class="text-purple-100 text-sm">${course.active ? 'Curso activo' : 'Próximamente'}</p>
+      </div>
+    `,
+    )
+    .join("");
+
+  const avg = Math.round(courses.reduce((acc, c) => acc + c.progress, 0) / courses.length);
+  const bar = document.getElementById("global-progress-bar");
+  const text = document.getElementById("global-progress-text");
+  if (bar) bar.style.width = `${avg}%`;
+  if (text) text.textContent = `${avg}%`;
+}
+
+function fillUserInfo(user) {
+  const name = user.displayName || "Usuario";
+  const email = user.email || "-";
+  const photo = user.photoURL || "https://ui-avatars.com/api/?name=Usuario&background=7c3aed&color=fff";
+  const lastLogin = user.metadata?.lastSignInTime
+    ? new Date(user.metadata.lastSignInTime).toLocaleString("es-ES")
+    : "-";
+
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+  };
+
+  setText("user-name", name);
+  setText("user-email", email);
+  setText("last-login", lastLogin);
+  setText("user-last-login", lastLogin);
+  setText("user-uid", user.uid || "-");
+  setText("user-provider", user.providerData?.[0]?.providerId || "-");
+
+  const photoEls = document.querySelectorAll("#user-photo");
+  photoEls.forEach((el) => {
+    el.src = photo;
+  });
+}
+
+onUserChanged((user) => {
+  if (!user) return;
+  fillUserInfo(user);
+  renderDashboard();
 });
 
-/* ===============================
-   LOGOUT (SIMULADO)
-   =============================== */
-
-const logoutBtn = document.getElementById("btn-logout");
-if (logoutBtn) {
-  logoutBtn.addEventListener("click", () => {
-    window.location.href = "index.html";
-  });
-}
-
-/* ===============================
-   INICIO
-   =============================== */
-
-loadDashboard();
+bindLogout();
