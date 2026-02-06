@@ -401,15 +401,24 @@ if (planesContainer) {
     })
     .then((planes) => {
       planesContainer.innerHTML = planes
-        .map(
-          (p) => `
+        .map((p) => {
+          const features = Array.isArray(p.features) ? p.features : [];
+          return `
         <article class="bg-purple-700 text-white rounded-xl p-6 shadow-lg hover:scale-[1.02] transition">
           <h3 class="text-xl font-bold mb-2">${escapeHtml(p.nombre)}</h3>
           <p class="text-sm mb-4">${escapeHtml(p.descripcion)}</p>
-          <p class="text-2xl font-bold">${escapeHtml(p.precio)}</p>
+          <ul class="text-sm text-purple-100 space-y-1 mb-4">
+            ${features.map((feature) => `<li>• ${escapeHtml(feature)}</li>`).join('')}
+          </ul>
+          <div class="flex items-center justify-between gap-4">
+            <p class="text-2xl font-bold">${escapeHtml(p.precio)}</p>
+            <a href="/user/index.html" class="inline-flex items-center bg-white text-purple-700 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition">
+              Elegir plan
+            </a>
+          </div>
         </article>
-      `,
-        )
+      `;
+        })
         .join('');
     })
     .catch((err) => {
