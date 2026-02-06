@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "instructions": "Plantilla para que puedas añadir preguntas por curso y bloque. Duplica preguntas y edita los campos.",
+  "default": {
+    "test-comun": [
+      {
+        "id": "comun-001",
+        "oepYear": 2025,
+        "source": "elaboracion-propia",
+        "difficulty": "media",
+        "question": "¿Qué documento recoge las normas básicas de prevención en el entorno de trabajo?",
+        "options": [
+          "Manual de identidad corporativa",
+          "Plan de prevención de riesgos laborales",
+          "Calendario de turnos",
+          "Catálogo comercial"
+        ],
+        "correctIndex": 1,
+        "explanation": "El plan de prevención reúne la política, organización y procedimientos preventivos.",
+        "tags": ["prevencion", "normativa"]
+      }
+    ],
+    "test-especifico": [
+      {
+        "id": "esp-001",
+        "oepYear": 2024,
+        "source": "elaboracion-propia",
+        "difficulty": "media",
+        "question": "En mantenimiento, ¿qué acción debe realizarse antes de intervenir en un equipo energizado?",
+        "options": [
+          "Limpiar la herramienta",
+          "Aplicar procedimiento de consignación",
+          "Comunicar al departamento comercial",
+          "Actualizar la web"
+        ],
+        "correctIndex": 1,
+        "explanation": "La consignación garantiza que no exista energía peligrosa durante la intervención.",
+        "tags": ["consignacion", "seguridad"]
+      }
+    ],
+    "psicotecnicos": {
+      "omnibus": [
+        {
+          "id": "psi-omni-001",
+          "oepYear": 2023,
+          "source": "simulacion",
+          "difficulty": "media",
+          "question": "Selecciona la opción correcta según el enunciado del bloque ómnibus.",
+          "options": ["A", "B", "C", "D"],
+          "correctIndex": 2,
+          "explanation": "Ejemplo de estructura para completar más adelante.",
+          "tags": ["omnibus"]
+        }
+      ],
+      "sinonimosAntonimos": [],
+      "seriesNumericas": [],
+      "razonamientoAbstracto": [],
+      "razonamientoVerbal": [],
+      "atencionPercepcion": []
+    }
+  },
+  "byCourseTitle": {
+    "Ajustador-Montador": {
+      "test-especifico": [],
+      "psicotecnicos": {
+        "seriesNumericas": []
+      }
+    }
+  }
+}

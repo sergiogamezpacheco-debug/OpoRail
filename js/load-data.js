@@ -149,6 +149,104 @@ function renderCourseContentBlocks(blueprint) {
   `;
 }
 
+function getFallbackQuestionBank() {
+  return {
+    'test-comun': [],
+    'test-especifico': [],
+    psicotecnicos: {
+      omnibus: [],
+      sinonimosAntonimos: [],
+      seriesNumericas: [],
+      razonamientoAbstracto: [],
+      razonamientoVerbal: [],
+      atencionPercepcion: [],
+    },
+  };
+}
+
+function mergeQuestionBank(base, override = {}) {
+  return {
+    'test-comun': Array.isArray(override['test-comun']) ? override['test-comun'] : base['test-comun'],
+    'test-especifico': Array.isArray(override['test-especifico']) ? override['test-especifico'] : base['test-especifico'],
+    psicotecnicos: {
+      omnibus: Array.isArray(override.psicotecnicos?.omnibus) ? override.psicotecnicos.omnibus : base.psicotecnicos.omnibus,
+      sinonimosAntonimos: Array.isArray(override.psicotecnicos?.sinonimosAntonimos)
+        ? override.psicotecnicos.sinonimosAntonimos
+        : base.psicotecnicos.sinonimosAntonimos,
+      seriesNumericas: Array.isArray(override.psicotecnicos?.seriesNumericas)
+        ? override.psicotecnicos.seriesNumericas
+        : base.psicotecnicos.seriesNumericas,
+      razonamientoAbstracto: Array.isArray(override.psicotecnicos?.razonamientoAbstracto)
+        ? override.psicotecnicos.razonamientoAbstracto
+        : base.psicotecnicos.razonamientoAbstracto,
+      razonamientoVerbal: Array.isArray(override.psicotecnicos?.razonamientoVerbal)
+        ? override.psicotecnicos.razonamientoVerbal
+        : base.psicotecnicos.razonamientoVerbal,
+      atencionPercepcion: Array.isArray(override.psicotecnicos?.atencionPercepcion)
+        ? override.psicotecnicos.atencionPercepcion
+        : base.psicotecnicos.atencionPercepcion,
+    },
+  };
+}
+
+async function getQuestionBankForCourse(courseTitle) {
+  const fallback = getFallbackQuestionBank();
+
+  try {
+    const res = await fetch(resolveDataPath('test-bank-template.json'));
+    if (!res.ok) throw new Error('No se encontró test-bank-template.json');
+
+    const payload = await res.json();
+    const base = mergeQuestionBank(fallback, payload.default || {});
+    const custom = payload?.byCourseTitle?.[courseTitle];
+
+    return custom ? mergeQuestionBank(base, custom) : base;
+  } catch (error) {
+    console.error('Error cargando plantilla de test:', error);
+    return fallback;
+  }
+}
+
+function renderQuestionBankSummary(questionBank) {
+  const commonCount = questionBank['test-comun'].length;
+  const specificCount = questionBank['test-especifico'].length;
+
+  const psychoMap = [
+    ['Omnibus', questionBank.psicotecnicos.omnibus.length],
+    ['Sinónimos y antónimos', questionBank.psicotecnicos.sinonimosAntonimos.length],
+    ['Series numéricas', questionBank.psicotecnicos.seriesNumericas.length],
+    ['Razonamiento abstracto', questionBank.psicotecnicos.razonamientoAbstracto.length],
+    ['Razonamiento verbal', questionBank.psicotecnicos.razonamientoVerbal.length],
+    ['Atención y percepción', questionBank.psicotecnicos.atencionPercepcion.length],
+  ];
+
+  return `
+    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-2">Banco de preguntas (plantilla)</h2>
+      <p class="text-sm text-gray-600 mb-4">Esta sección lee <code>/data/test-bank-template.json</code>. Puedes ampliar preguntas sin tocar JavaScript.</p>
+
+      <div class="grid sm:grid-cols-2 gap-4 text-sm">
+        <article class="bg-purple-50 rounded-lg p-4 border border-purple-100">
+          <h3 class="font-bold text-purple-700 mb-2">Temario común</h3>
+          <p class="text-gray-700">Preguntas cargadas: <strong>${commonCount}</strong></p>
+        </article>
+
+        <article class="bg-purple-50 rounded-lg p-4 border border-purple-100">
+          <h3 class="font-bold text-purple-700 mb-2">Temario específico</h3>
+          <p class="text-gray-700">Preguntas cargadas: <strong>${specificCount}</strong></p>
+        </article>
+      </div>
+
+      <article class="mt-4 bg-gray-50 rounded-lg p-4 border border-gray-100">
+        <h3 class="font-bold text-purple-700 mb-2">Psicotécnicos</h3>
+        <ul class="grid sm:grid-cols-2 gap-2 text-sm text-gray-700">
+          ${psychoMap.map(([name, count]) => `<li>${escapeHtml(name)}: <strong>${count}</strong></li>`).join('')}
+        </ul>
+      </article>
+    </section>
+  `;
+}
+
 const coursesContainer = document.getElementById('courses-list');
 if (coursesContainer) {
   fetch(resolveDataPath('courses.json'))
@@ -205,7 +303,10 @@ if (courseDetailContainer) {
         return;
       }
 
-      const blueprint = await getCourseBlueprint(course.titulo);
+      const [blueprint, questionBank] = await Promise.all([
+        getCourseBlueprint(course.titulo),
+        getQuestionBankForCourse(course.titulo),
+      ]);
 
       courseDetailContainer.innerHTML = `
         <article class="max-w-5xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
@@ -246,6 +347,7 @@ if (courseDetailContainer) {
           </section>
 
           ${renderCourseContentBlocks(blueprint)}
+          ${renderQuestionBankSummary(questionBank)}
         </article>
       `;
 
