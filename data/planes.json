@@ -2,16 +2,31 @@
   {
     "nombre": "Plan Básico",
     "descripcion": "Incluye acceso a los cursos esenciales y materiales introductorios.",
-    "precio": "49€"
+    "precio": "49€",
+    "features": [
+      "Acceso a cursos clave",
+      "Materiales introductorios",
+      "Actualizaciones periódicas"
+    ]
   },
   {
     "nombre": "Plan Avanzado",
     "descripcion": "Incluye cursos avanzados, materiales extra y tests de práctica.",
-    "precio": "99€"
+    "precio": "99€",
+    "features": [
+      "Cursos avanzados",
+      "Tests de práctica",
+      "Soporte de tutores"
+    ]
   },
   {
     "nombre": "Plan Premium",
     "descripcion": "Acceso a todos los cursos, tests, simuladores y tutorías personalizadas.",
-    "precio": "149€"
+    "precio": "149€",
+    "features": [
+      "Acceso total",
+      "Simulacros completos",
+      "Tutorías personalizadas"
+    ]
   }
 ]
