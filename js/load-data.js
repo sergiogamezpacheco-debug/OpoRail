@@ -128,6 +128,21 @@ function renderCourseContentBlocks(blueprint) {
       <h2 class="text-2xl font-bold text-gray-900 mb-2">Apartados del curso</h2>
       <p class="text-gray-600 mb-6">${escapeHtml(blueprint.intro || '')}</p>
 
+      <div class="bg-white border border-purple-100 rounded-xl p-4 mb-6">
+        <h3 class="text-sm font-semibold text-purple-700 mb-2">Índice rápido</h3>
+        <ul class="grid sm:grid-cols-2 gap-2 text-sm text-gray-700">
+          ${blueprint.blocks
+            .map(
+              (block) => `
+            <li>
+              <a class="text-purple-700 hover:underline" href="#${escapeHtml(block.id || 'bloque')}">${escapeHtml(block.title || 'Apartado')}</a>
+            </li>
+          `,
+            )
+            .join('')}
+        </ul>
+      </div>
+
       <div class="grid md:grid-cols-2 gap-4">
         ${blueprint.blocks
           .map(
@@ -223,7 +238,10 @@ function renderQuestionBankSummary(questionBank) {
   return `
     <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
       <h2 class="text-2xl font-bold text-purple-700 mb-2">Banco de preguntas (plantilla)</h2>
-      <p class="text-sm text-gray-600 mb-4">Esta sección lee <code>/data/test-bank-template.json</code>. Puedes ampliar preguntas sin tocar JavaScript.</p>
+      <p class="text-sm text-gray-600 mb-4">
+        Esta sección lee <code>/data/test-bank-template.json</code>. Puedes ampliar preguntas sin tocar JavaScript.
+        <a class="text-purple-700 hover:underline ml-1" href="/data/test-bank-template.json" target="_blank" rel="noreferrer">Abrir plantilla</a>
+      </p>
 
       <div class="grid sm:grid-cols-2 gap-4 text-sm">
         <article class="bg-purple-50 rounded-lg p-4 border border-purple-100">
