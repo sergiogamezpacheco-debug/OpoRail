@@ -356,110 +356,98 @@ function getPsychotechnicalMeta() {
   ];
 }
 
-function getCommonTests() {
+function getFallbackQuestion() {
+  return {
+    question: 'Pregunta de ejemplo pendiente de configurar.',
+    options: ['Opción A', 'Opción B', 'Opción C', 'Opción D'],
+    correctAnswer: 'Opción A',
+    explanation: 'Añade preguntas reales en data/test-bank-template.json.',
+  };
+}
+
+function normalizeQuestion(question) {
+  if (!question || !Array.isArray(question.options)) return getFallbackQuestion();
+  const correctAnswer = question.options?.[question.correctIndex] || question.options?.[0] || 'Respuesta';
+  return {
+    question: question.question || 'Pregunta sin título',
+    options: question.options,
+    correctAnswer,
+    explanation: question.explanation || '',
+  };
+}
+
+function getCommonTests(questionBank) {
+  const commonQuestion = normalizeQuestion(questionBank['test-comun']?.[0]);
   return [
     {
       id: 'comunes-general',
       title: 'Test Materias Comunes (General)',
       duration: '12 min',
       info: 'Test global para repasar los conceptos comunes.',
-      sample: {
-        question: '¿Cuál es el objetivo principal de la formación básica en mantenimiento ferroviario?',
-        options: [
-          'Optimizar tiempos de descanso del personal.',
-          'Garantizar seguridad y fiabilidad del material.',
-          'Reducir el consumo de combustible.',
-          'Ampliar la red de líneas.',
-        ],
-        answer: 'Garantizar seguridad y fiabilidad del material.',
-      },
+      sample: commonQuestion,
     },
     {
       id: 'comunes-ftv-intro',
       title: 'Formación Técnica de Vehículos – Introducción',
       duration: '14 min',
       info: 'Bloque inicial sobre fundamentos técnicos de vehículos.',
-      sample: {
-        question: '¿Qué subsistema se encarga de transmitir la potencia al movimiento?',
-        options: ['Sistema eléctrico', 'Sistema de tracción', 'Sistema hidráulico', 'Sistema neumático'],
-        answer: 'Sistema de tracción',
-      },
+      sample: commonQuestion,
     },
     {
       id: 'comunes-mantenimiento-avanzado',
       title: 'El Mantenimiento en Vehículos de Última Generación',
       duration: '16 min',
       info: 'Bloque sobre tecnologías modernas y protocolos de mantenimiento.',
-      sample: {
-        question: '¿Qué ventaja aporta el mantenimiento predictivo?',
-        options: ['Aumenta paradas imprevistas', 'Reduce incidencias críticas', 'Elimina revisiones periódicas', 'Evita la inspección visual'],
-        answer: 'Reduce incidencias críticas',
-      },
+      sample: commonQuestion,
     },
   ];
 }
 
-function getSpecificTests() {
+function getSpecificTests(questionBank) {
+  const specificQuestion = normalizeQuestion(questionBank['test-especifico']?.[0]);
   return [
     {
       id: 'ajustador-general',
       title: 'Test Especialidad Ajustador-Montador',
       duration: '15 min',
       info: 'Cuestionario general de la especialidad.',
-      sample: {
-        question: '¿Qué herramienta se usa para comprobar el par de apriete?',
-        options: ['Calibrador', 'Torquímetro', 'Micrómetro', 'Galgas'],
-        answer: 'Torquímetro',
-      },
+      sample: specificQuestion,
     },
     {
       id: 'traccion-diesel',
       title: 'Tracción Diésel, Motores térmicos',
       duration: '13 min',
       info: 'Bloque sobre motorización y sistemas diésel.',
-      sample: {
-        question: '¿Qué componente comprime el aire en un motor diésel?',
-        options: ['Turbina', 'Cilindro', 'Intercooler', 'Inyector'],
-        answer: 'Cilindro',
-      },
+      sample: specificQuestion,
     },
     {
       id: 'ftv-neumatica',
       title: 'FTV Básico Neumática y Freno',
       duration: '12 min',
       info: 'Fundamentos del sistema neumático y frenos.',
-      sample: {
-        question: '¿Qué función tiene el compresor en el sistema neumático?',
-        options: ['Refrigerar el motor', 'Generar presión de aire', 'Reducir vibraciones', 'Regular la velocidad'],
-        answer: 'Generar presión de aire',
-      },
+      sample: specificQuestion,
     },
     {
       id: 'bogies',
       title: 'Bogies, Tracción y Choque',
       duration: '14 min',
       info: 'Elementos de rodadura, tracción y seguridad.',
-      sample: {
-        question: '¿Cuál es la función principal del bogie?',
-        options: ['Transmitir corriente', 'Soportar el vehículo y guiarlo', 'Almacenar combustible', 'Ventilar el motor'],
-        answer: 'Soportar el vehículo y guiarlo',
-      },
+      sample: specificQuestion,
     },
   ];
 }
 
-function getPsychotechnicalTests() {
-  return getPsychotechnicalMeta().map((item) => ({
-    id: `psy-${item.id}`,
-    title: item.label,
-    duration: item.time,
-    info: item.description,
-    sample: {
-      question: `Ejemplo rápido de ${item.label}.`,
-      options: ['Opción A', 'Opción B', 'Opción C', 'Opción D'],
-      answer: 'Opción B',
-    },
-  }));
+function getPsychotechnicalTests(questionBank) {
+  return getPsychotechnicalMeta().map((item) => {
+    const question = normalizeQuestion(questionBank.psicotecnicos?.[item.id]?.[0]);
+    return {
+      id: `psy-${item.id}`,
+      title: item.label,
+      duration: item.time,
+      info: item.description,
+      sample: question,
+    };
+  });
 }
 
 function renderTestSection(title, tests) {
@@ -484,13 +472,17 @@ function renderTestSection(title, tests) {
               <ul class="list-disc pl-5 mt-2 space-y-1">
                 ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
               </ul>
-              <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.answer}</p>
+              <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
+              ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
             <button class="btn w-full test-start-btn" data-test-start="${test.id}">Comenzar test</button>
             <div id="test-start-${test.id}" class="hidden text-sm text-gray-700 bg-gray-50 border border-gray-200 rounded-lg p-3">
               <p class="font-semibold">Test iniciado</p>
               <p>Tiempo disponible: ${test.duration}</p>
-              <p class="text-xs text-gray-500 mt-2">Aquí cargaremos las preguntas reales cuando estén disponibles.</p>
+              <p class="mt-2 font-semibold">${test.sample.question}</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
+              </ul>
             </div>
           </article>
         `,
@@ -699,6 +691,9 @@ if (courseDetailContainer) {
             <a href="/user/index.html" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Acceder al panel
             </a>
+            <a href="/tests.html?id=${courseId}" class="inline-flex bg-white border border-emerald-600 text-emerald-700 px-4 py-2 rounded-lg font-semibold hover:bg-emerald-50 transition">
+              Ir a tests
+            </a>
             <button id="enroll-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">
               Añadir a mi panel
             </button>
@@ -723,10 +718,6 @@ if (courseDetailContainer) {
 
           ${renderCourseContentBlocks(blueprint)}
           ${renderPsychotechnicalSection(questionBank)}
-          ${renderTestSection('Test · Materias comunes', getCommonTests())}
-          ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests())}
-          ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests())}
-          ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
       `;
@@ -757,7 +748,6 @@ if (courseDetailContainer) {
       }
 
       bindPsychotechnicalSection(questionBank);
-      bindTestInfoToggles();
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
@@ -799,6 +789,59 @@ if (planesContainer) {
     .catch((err) => {
       console.error('Error cargando planes:', err);
       planesContainer.innerHTML = '<p class="text-red-600">Error cargando planes</p>';
+    });
+}
+
+const testHub = document.getElementById('test-hub');
+if (testHub) {
+  const params = new URLSearchParams(window.location.search);
+  const selectedId = Number(params.get('id'));
+
+  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
+    .then(async ([coursesRes, testRes]) => {
+      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
+      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
+      const coursesPayload = await coursesRes.json();
+      const testPayload = await testRes.json();
+
+      const list = Array.isArray(coursesPayload)
+        ? coursesPayload
+        : Array.isArray(coursesPayload?.courses)
+          ? coursesPayload.courses
+          : [];
+      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > list.length;
+      const courseId = isInvalidId ? 1 : selectedId;
+      const course = isInvalidId ? list[0] : list[selectedId - 1];
+
+      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
+      const custom = testPayload?.byCourseTitle?.[course?.titulo];
+      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
+      const planStatus = getPlanStatus(getActiveUserId());
+
+      testHub.innerHTML = `
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <h1 class="text-3xl font-bold text-purple-700">Tests ${course ? `· ${escapeHtml(course.titulo)}` : ''}</h1>
+              <p class="text-sm text-gray-600">Selecciona un test para comenzar.</p>
+            </div>
+            <a href="/curso.html?id=${courseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al curso
+            </a>
+          </div>
+        </section>
+
+        ${renderTestSection('Test · Materias comunes', getCommonTests(questionBank))}
+        ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests(questionBank))}
+        ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests(questionBank))}
+        ${renderExamSimulationSection(planStatus)}
+      `;
+
+      bindTestInfoToggles();
+    })
+    .catch((error) => {
+      console.error('Error cargando tests:', error);
+      testHub.innerHTML = '<p class="text-red-600">Error cargando tests</p>';
     });
 }
 
