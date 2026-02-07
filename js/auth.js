@@ -66,12 +66,11 @@ export function onUserChanged(cb) {
 export function initAuthPage() {
   const googleBtn = document.getElementById("google-login-btn");
   const form = document.getElementById("login-form");
-  const registerBtn = document.getElementById("register-btn");
   const feedback = document.getElementById("auth-feedback");
   const emailInput = document.getElementById("email");
   const passwordInput = document.getElementById("password");
 
-  if (!googleBtn || !form || !registerBtn || !feedback || !emailInput || !passwordInput) return;
+  if (!googleBtn || !form || !feedback || !emailInput || !passwordInput) return;
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
@@ -97,8 +96,34 @@ export function initAuthPage() {
       feedback.textContent = `Error al iniciar sesión: ${error.message}`;
     }
   });
+}
 
-  registerBtn.addEventListener("click", async () => {
+export function initRegisterPage() {
+  const googleBtn = document.getElementById("google-register-btn");
+  const form = document.getElementById("register-form");
+  const feedback = document.getElementById("register-feedback");
+  const emailInput = document.getElementById("register-email");
+  const passwordInput = document.getElementById("register-password");
+
+  if (!googleBtn || !form || !feedback || !emailInput || !passwordInput) return;
+
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      window.location.href = "/user/dashboard.html";
+    }
+  });
+
+  googleBtn.addEventListener("click", async () => {
+    feedback.textContent = "Abriendo Google...";
+    try {
+      await loginWithGoogle();
+    } catch (error) {
+      feedback.textContent = `Error con Google: ${error.message}`;
+    }
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
     feedback.textContent = "Creando cuenta...";
     try {
       await registerWithEmail(emailInput.value.trim(), passwordInput.value);
