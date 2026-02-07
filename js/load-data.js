@@ -53,6 +53,10 @@ function getPlanStatus(uid) {
   }
 }
 
+function isAdminUser() {
+  return localStorage.getItem('oporail_is_admin') === 'true';
+}
+
 function addEnrollment(courseId) {
   const uid = getActiveUserId();
   if (!uid) return { ok: false, reason: 'not-authenticated' };
@@ -352,6 +356,177 @@ function getPsychotechnicalMeta() {
   ];
 }
 
+function getCommonTests() {
+  return [
+    {
+      id: 'comunes-general',
+      title: 'Test Materias Comunes (General)',
+      duration: '12 min',
+      info: 'Test global para repasar los conceptos comunes.',
+      sample: {
+        question: '¿Cuál es el objetivo principal de la formación básica en mantenimiento ferroviario?',
+        options: [
+          'Optimizar tiempos de descanso del personal.',
+          'Garantizar seguridad y fiabilidad del material.',
+          'Reducir el consumo de combustible.',
+          'Ampliar la red de líneas.',
+        ],
+        answer: 'Garantizar seguridad y fiabilidad del material.',
+      },
+    },
+    {
+      id: 'comunes-ftv-intro',
+      title: 'Formación Técnica de Vehículos – Introducción',
+      duration: '14 min',
+      info: 'Bloque inicial sobre fundamentos técnicos de vehículos.',
+      sample: {
+        question: '¿Qué subsistema se encarga de transmitir la potencia al movimiento?',
+        options: ['Sistema eléctrico', 'Sistema de tracción', 'Sistema hidráulico', 'Sistema neumático'],
+        answer: 'Sistema de tracción',
+      },
+    },
+    {
+      id: 'comunes-mantenimiento-avanzado',
+      title: 'El Mantenimiento en Vehículos de Última Generación',
+      duration: '16 min',
+      info: 'Bloque sobre tecnologías modernas y protocolos de mantenimiento.',
+      sample: {
+        question: '¿Qué ventaja aporta el mantenimiento predictivo?',
+        options: ['Aumenta paradas imprevistas', 'Reduce incidencias críticas', 'Elimina revisiones periódicas', 'Evita la inspección visual'],
+        answer: 'Reduce incidencias críticas',
+      },
+    },
+  ];
+}
+
+function getSpecificTests() {
+  return [
+    {
+      id: 'ajustador-general',
+      title: 'Test Especialidad Ajustador-Montador',
+      duration: '15 min',
+      info: 'Cuestionario general de la especialidad.',
+      sample: {
+        question: '¿Qué herramienta se usa para comprobar el par de apriete?',
+        options: ['Calibrador', 'Torquímetro', 'Micrómetro', 'Galgas'],
+        answer: 'Torquímetro',
+      },
+    },
+    {
+      id: 'traccion-diesel',
+      title: 'Tracción Diésel, Motores térmicos',
+      duration: '13 min',
+      info: 'Bloque sobre motorización y sistemas diésel.',
+      sample: {
+        question: '¿Qué componente comprime el aire en un motor diésel?',
+        options: ['Turbina', 'Cilindro', 'Intercooler', 'Inyector'],
+        answer: 'Cilindro',
+      },
+    },
+    {
+      id: 'ftv-neumatica',
+      title: 'FTV Básico Neumática y Freno',
+      duration: '12 min',
+      info: 'Fundamentos del sistema neumático y frenos.',
+      sample: {
+        question: '¿Qué función tiene el compresor en el sistema neumático?',
+        options: ['Refrigerar el motor', 'Generar presión de aire', 'Reducir vibraciones', 'Regular la velocidad'],
+        answer: 'Generar presión de aire',
+      },
+    },
+    {
+      id: 'bogies',
+      title: 'Bogies, Tracción y Choque',
+      duration: '14 min',
+      info: 'Elementos de rodadura, tracción y seguridad.',
+      sample: {
+        question: '¿Cuál es la función principal del bogie?',
+        options: ['Transmitir corriente', 'Soportar el vehículo y guiarlo', 'Almacenar combustible', 'Ventilar el motor'],
+        answer: 'Soportar el vehículo y guiarlo',
+      },
+    },
+  ];
+}
+
+function getPsychotechnicalTests() {
+  return getPsychotechnicalMeta().map((item) => ({
+    id: `psy-${item.id}`,
+    title: item.label,
+    duration: item.time,
+    info: item.description,
+    sample: {
+      question: `Ejemplo rápido de ${item.label}.`,
+      options: ['Opción A', 'Opción B', 'Opción C', 'Opción D'],
+      answer: 'Opción B',
+    },
+  }));
+}
+
+function renderTestSection(title, tests) {
+  return `
+    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-2">${title}</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        ${tests
+          .map(
+            (test) => `
+          <article class="border border-gray-200 rounded-lg p-4 space-y-3">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
+                <p class="text-sm text-gray-600">Tiempo disponible: ${test.duration}</p>
+              </div>
+              <button class="test-info-btn w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold" data-test-info="${test.id}">i</button>
+            </div>
+            <p class="text-sm text-gray-600">${test.info}</p>
+            <div id="test-info-${test.id}" class="hidden text-sm text-gray-700">
+              <p class="font-semibold">${test.sample.question}</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
+              </ul>
+              <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.answer}</p>
+            </div>
+            <button class="btn w-full">Comenzar test</button>
+          </article>
+        `,
+          )
+          .join('')}
+      </div>
+    </section>
+  `;
+}
+
+function renderExamSimulationSection(planStatus) {
+  if (!planStatus || !['basic', 'advanced'].includes(planStatus.planId)) {
+    return `
+      <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold text-purple-700 mb-2">Simulación de examen</h2>
+        <p class="text-sm text-gray-600">Disponible solo para planes Básico y Avanzado.</p>
+        <a href="/planes.html" class="inline-flex mt-3 text-purple-700 font-semibold hover:underline">Mejorar plan</a>
+      </section>
+    `;
+  }
+
+  return `
+    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-2">Simulación de examen</h2>
+      <p class="text-sm text-gray-600 mb-4">Simulacro completo con tiempo real y corrección automática.</p>
+      <button class="btn">Iniciar simulacro</button>
+    </section>
+  `;
+}
+
+function bindTestInfoToggles() {
+  document.querySelectorAll('.test-info-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      const target = document.getElementById(`test-info-${button.dataset.testInfo}`);
+      if (target) {
+        target.classList.toggle('hidden');
+      }
+    });
+  });
+}
+
 function renderPsychotechnicalSection(questionBank) {
   const items = getPsychotechnicalMeta();
   const first = items[0];
@@ -533,8 +708,12 @@ if (courseDetailContainer) {
           </section>
 
           ${renderCourseContentBlocks(blueprint)}
-          ${renderQuestionBankSummary(questionBank)}
           ${renderPsychotechnicalSection(questionBank)}
+          ${renderTestSection('Test · Materias comunes', getCommonTests())}
+          ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests())}
+          ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests())}
+          ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
+          ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
       `;
 
@@ -564,6 +743,7 @@ if (courseDetailContainer) {
       }
 
       bindPsychotechnicalSection(questionBank);
+      bindTestInfoToggles();
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);

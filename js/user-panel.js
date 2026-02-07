@@ -601,6 +601,7 @@ onUserChanged((user) => {
   getAdminList().then((admins) => {
     const isAdmin = admins.includes(user.email);
     setAdminSectionVisible(isAdmin);
+    localStorage.setItem('oporail_is_admin', isAdmin ? 'true' : 'false');
   });
   handlePaymentReturn(user);
 });
