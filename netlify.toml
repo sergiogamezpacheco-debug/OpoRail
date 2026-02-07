@@ -2,3 +2,6 @@
   for = "/admin/*"
   [headers.values]
     Content-Security-Policy = "default-src 'self' https://identity.netlify.com https://unpkg.com blob: data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://identity.netlify.com https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:;"
+
+[functions]
+  directory = "netlify/functions"

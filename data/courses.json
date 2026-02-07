@@ -1,32 +1,34 @@
-[
-  {
-    "titulo": "Ajustador-Montador",
-    "descripcion": "Preparación completa para oposiciones de ajustador-montador en Renfe.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Eléctrico",
-    "descripcion": "Curso específico para mantenimiento eléctrico ferroviario.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Suministros",
-    "descripcion": "Gestión de almacenes y logística ferroviaria.",
-    "estado": "Próximamente"
-  },
-  {
-    "titulo": "Pintura",
-    "descripcion": "Preparación en pintura de vagones y materiales ferroviarios.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Soldadores",
-    "descripcion": "Curso especializado en soldadura aplicada al sector ferroviario.",
-    "estado": "Disponible"
-  },
-  {
-    "titulo": "Torneros",
-    "descripcion": "Mantenimiento y reparación de piezas metálicas en ferrocarriles.",
-    "estado": "Próximamente"
-  }
-]
+{
+  "courses": [
+    {
+      "titulo": "Ajustador-Montador",
+      "descripcion": "Preparación completa para oposiciones de ajustador-montador en Renfe.",
+      "estado": "Disponible"
+    },
+    {
+      "titulo": "Eléctrico",
+      "descripcion": "Curso específico para mantenimiento eléctrico ferroviario.",
+      "estado": "Disponible"
+    },
+    {
+      "titulo": "Suministros",
+      "descripcion": "Gestión de almacenes y logística ferroviaria.",
+      "estado": "Próximamente"
+    },
+    {
+      "titulo": "Pintura",
+      "descripcion": "Preparación en pintura de vagones y materiales ferroviarios.",
+      "estado": "Disponible"
+    },
+    {
+      "titulo": "Soldadores",
+      "descripcion": "Curso especializado en soldadura aplicada al sector ferroviario.",
+      "estado": "Disponible"
+    },
+    {
+      "titulo": "Torneros",
+      "descripcion": "Mantenimiento y reparación de piezas metálicas en ferrocarriles.",
+      "estado": "Próximamente"
+    }
+  ]
+}

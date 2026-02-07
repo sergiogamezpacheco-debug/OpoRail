@@ -5,6 +5,13 @@ import {
   saveReminderConfig,
   updateLastActive,
 } from "./reminders.js";
+import {
+  capturePayPalOrder,
+  createPayPalOrder,
+  createStripeCheckout,
+  getPaymentConfig,
+  verifyStripeSession,
+} from "./payments.js";
 
 requireAuth();
 
@@ -67,6 +74,24 @@ function savePlanStatus(userId, status) {
   localStorage.setItem(`oporail_plan_${userId}`, JSON.stringify(status));
 }
 
+function getPaymentPending(userId) {
+  const raw = localStorage.getItem(`oporail_payment_pending_${userId}`);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function setPaymentPending(userId, payload) {
+  localStorage.setItem(`oporail_payment_pending_${userId}`, JSON.stringify(payload));
+}
+
+function clearPaymentPending(userId) {
+  localStorage.removeItem(`oporail_payment_pending_${userId}`);
+}
+
 async function getPlanCatalog() {
   try {
     const res = await fetch(resolveDataPath('planes.json'));
@@ -103,7 +128,9 @@ async function getCourseCatalog() {
     const res = await fetch(resolveDataPath('courses.json'));
     if (!res.ok) throw new Error('No se pudo cargar courses.json');
     const courses = await res.json();
-    return Array.isArray(courses) ? courses : FALLBACK_COURSES;
+    if (Array.isArray(courses)) return courses;
+    if (Array.isArray(courses?.courses)) return courses.courses;
+    return FALLBACK_COURSES;
   } catch (error) {
     console.error('Error cargando catálogo de cursos:', error);
     return FALLBACK_COURSES;
@@ -258,6 +285,11 @@ async function fillPlanInfo(user) {
     planPrice.textContent = priceText || '0€';
   }
   if (planNotice) {
+    const pending = getPaymentPending(user.uid);
+    if (pending) {
+      planNotice.textContent = `Pago pendiente de verificación (${pending.method}).`;
+      return;
+    }
     if (plan?.requierePago && !status.paid) {
       planNotice.textContent = 'Plan pendiente de pago. Actívalo desde Ajustes para añadir cursos.';
     } else if (plan?.maxCursos === 1) {
@@ -332,12 +364,58 @@ async function renderPlanSettings(user) {
   });
 }
 
-function renderPaymentMethods(user) {
+async function handlePaymentReturn(user) {
+  const params = new URLSearchParams(window.location.search);
+  const paymentStatus = params.get('payment');
+
+  if (!paymentStatus) return;
+
+  if (paymentStatus === 'stripe_success') {
+    const sessionId = params.get('session_id');
+    if (!sessionId) return;
+    const result = await verifyStripeSession(sessionId);
+    if (result?.paid) {
+      const planStatus = getPlanStatus(user.uid);
+      planStatus.paid = true;
+      savePlanStatus(user.uid, planStatus);
+      clearPaymentPending(user.uid);
+      fillPlanInfo(user);
+    }
+  }
+
+  if (paymentStatus === 'paypal_success') {
+    const orderId = params.get('token') || localStorage.getItem(`oporail_paypal_order_${user.uid}`);
+    if (!orderId) return;
+    const result = await capturePayPalOrder(orderId);
+    if (result?.status === 'COMPLETED') {
+      const planStatus = getPlanStatus(user.uid);
+      planStatus.paid = true;
+      savePlanStatus(user.uid, planStatus);
+      clearPaymentPending(user.uid);
+      fillPlanInfo(user);
+      localStorage.removeItem(`oporail_paypal_order_${user.uid}`);
+    }
+  }
+
+  if (paymentStatus.endsWith('_cancel')) {
+    const feedback = document.getElementById('payment-feedback');
+    if (feedback) {
+      feedback.textContent = 'Pago cancelado. Puedes intentarlo de nuevo.';
+    }
+  }
+
+  window.history.replaceState({}, document.title, window.location.pathname);
+}
+
+async function renderPaymentMethods(user) {
   const container = document.getElementById('payment-methods');
+  const billingCycleSelect = document.getElementById('billing-cycle');
   const referenceInput = document.getElementById('payment-reference');
   const saveButton = document.getElementById('save-payment');
+  const payButton = document.getElementById('start-payment');
   const feedback = document.getElementById('payment-feedback');
-  if (!container || !referenceInput || !saveButton || !feedback) return;
+  const instructions = document.getElementById('payment-instructions');
+  if (!container || !billingCycleSelect || !referenceInput || !saveButton || !payButton || !feedback || !instructions) return;
 
   const methods = [
     { id: 'stripe', label: 'Stripe' },
@@ -370,6 +448,42 @@ function renderPaymentMethods(user) {
 
   referenceInput.value = paymentStatus.reference || '';
 
+  const config = await getPaymentConfig();
+
+  const renderInstructions = () => {
+    const selected = container.querySelector('input[name="payment-method"]:checked');
+    if (!selected) return;
+
+    if (selected.value === 'transfer') {
+      instructions.innerHTML = `
+        <div class="border border-gray-200 rounded-lg p-3">
+          <p><strong>Beneficiario:</strong> ${config.transfer.beneficiary}</p>
+          <p><strong>IBAN:</strong> ${config.transfer.iban}</p>
+          <p><strong>Banco:</strong> ${config.transfer.bank}</p>
+          <p><strong>Concepto:</strong> ${config.transfer.concept}</p>
+        </div>
+      `;
+      return;
+    }
+
+    if (selected.value === 'bizum') {
+      instructions.innerHTML = `
+        <div class="border border-gray-200 rounded-lg p-3">
+          <p><strong>Beneficiario:</strong> ${config.bizum.beneficiary}</p>
+          <p><strong>Teléfono Bizum:</strong> ${config.bizum.phone}</p>
+        </div>
+      `;
+      return;
+    }
+
+    instructions.innerHTML = '';
+  };
+
+  renderInstructions();
+  container.querySelectorAll('input[name="payment-method"]').forEach((input) => {
+    input.addEventListener('change', renderInstructions);
+  });
+
   saveButton.addEventListener('click', () => {
     const selected = container.querySelector('input[name="payment-method"]:checked');
     if (!selected) {
@@ -381,15 +495,72 @@ function renderPaymentMethods(user) {
       `oporail_payment_${user.uid}`,
       JSON.stringify({ method: selected.value, reference, updatedAt: new Date().toISOString() }),
     );
+    feedback.textContent = 'Método guardado correctamente.';
+  });
 
-    const planStatus = getPlanStatus(user.uid);
-    if (planStatus.planId !== 'free') {
-      planStatus.paid = true;
-      savePlanStatus(user.uid, planStatus);
-      fillPlanInfo(user);
+  payButton.addEventListener('click', async () => {
+    const selected = container.querySelector('input[name="payment-method"]:checked');
+    if (!selected) {
+      feedback.textContent = 'Selecciona un método de pago.';
+      return;
     }
 
-    feedback.textContent = 'Pago registrado (simulado). Ya puedes añadir cursos según tu plan.';
+    const planStatus = getPlanStatus(user.uid);
+    if (planStatus.planId === 'free') {
+      feedback.textContent = 'El Plan Gratuito no requiere pago.';
+      return;
+    }
+
+    const billingCycle = billingCycleSelect.value;
+    const reference = referenceInput.value.trim();
+    const baseOrigin = window.location.origin;
+
+    if (selected.value === 'stripe' || selected.value === 'card') {
+      const payload = {
+        planId: planStatus.planId,
+        billingCycle,
+        successUrl: new URL(config.stripe.successUrl, baseOrigin).toString(),
+        cancelUrl: new URL(config.stripe.cancelUrl, baseOrigin).toString(),
+        customerEmail: user.email || '',
+      };
+      feedback.textContent = 'Redirigiendo a Stripe...';
+      const response = await createStripeCheckout(payload);
+      if (response?.url) {
+        window.location.href = response.url;
+      } else {
+        feedback.textContent = response?.error || 'No se pudo iniciar el pago con Stripe.';
+      }
+      return;
+    }
+
+    if (selected.value === 'paypal') {
+      const payload = {
+        planId: planStatus.planId,
+        billingCycle,
+        returnUrl: new URL(config.paypal.returnUrl, baseOrigin).toString(),
+        cancelUrl: new URL(config.paypal.cancelUrl, baseOrigin).toString(),
+      };
+      feedback.textContent = 'Redirigiendo a PayPal...';
+      const response = await createPayPalOrder(payload);
+      if (response?.url) {
+        localStorage.setItem(`oporail_paypal_order_${user.uid}`, response.id);
+        window.location.href = response.url;
+      } else {
+        feedback.textContent = response?.error || 'No se pudo iniciar el pago con PayPal.';
+      }
+      return;
+    }
+
+    if (selected.value === 'transfer' || selected.value === 'bizum') {
+      setPaymentPending(user.uid, {
+        method: selected.value,
+        reference,
+        createdAt: new Date().toISOString(),
+      });
+      feedback.textContent = 'Pago marcado como pendiente. Verificaremos la operación en 24-48h.';
+      fillPlanInfo(user);
+      return;
+    }
   });
 }
 
@@ -431,6 +602,7 @@ onUserChanged((user) => {
     const isAdmin = admins.includes(user.email);
     setAdminSectionVisible(isAdmin);
   });
+  handlePaymentReturn(user);
 });
 
 bindLogout();

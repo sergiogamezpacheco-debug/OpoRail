@@ -10,6 +10,69 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
+  - name: "configuracion"
+    label: "Configuración"
+    files:
+      - label: "Menú y sitio"
+        name: "site"
+        file: "data/site.json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "string" }
+          - label: "Menú"
+            name: "menu"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Enlace", name: "link", widget: "string" }
+      - label: "Cursos"
+        name: "courses"
+        file: "data/courses.json"
+        fields:
+          - label: "Cursos"
+            name: "courses"
+            widget: "list"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Descripción", name: "descripcion", widget: "string" }
+              - { label: "Estado", name: "estado", widget: "string" }
+      - label: "Estructura de cursos"
+        name: "course-content"
+        file: "data/course-content.json"
+        fields:
+          - label: "Por defecto"
+            name: "default"
+            widget: "object"
+            fields:
+              - { label: "Intro", name: "intro", widget: "string" }
+              - label: "Bloques"
+                name: "blocks"
+                widget: "list"
+                fields:
+                  - { label: "ID", name: "id", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descripción", name: "description", widget: "string" }
+                  - { label: "Items", name: "items", widget: "list" }
+      - label: "Tests"
+        name: "test-bank"
+        file: "data/test-bank-template.json"
+        fields:
+          - label: "Temario común"
+            name: "test-comun"
+            widget: "list"
+          - label: "Temario específico"
+            name: "test-especifico"
+            widget: "list"
+          - label: "Psicotécnicos"
+            name: "psicotecnicos"
+            widget: "object"
+            fields:
+              - { label: "Omnibus", name: "omnibus", widget: "list" }
+              - { label: "Sinónimos y antónimos", name: "sinonimosAntonimos", widget: "list" }
+              - { label: "Series numéricas", name: "seriesNumericas", widget: "list" }
+              - { label: "Razonamiento abstracto", name: "razonamientoAbstracto", widget: "list" }
+              - { label: "Razonamiento verbal", name: "razonamientoVerbal", widget: "list" }
+              - { label: "Atención y percepción", name: "atencionPercepcion", widget: "list" }
   - name: "noticias"
     label: "Noticias"
     folder: "content/noticias"

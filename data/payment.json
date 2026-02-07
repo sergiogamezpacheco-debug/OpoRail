@@ -1,0 +1,22 @@
+{
+  "stripe": {
+    "publishableKey": "pk_test_reemplazar",
+    "successUrl": "/user/dashboard.html?payment=stripe_success&session_id={CHECKOUT_SESSION_ID}",
+    "cancelUrl": "/user/settings.html?payment=stripe_cancel"
+  },
+  "paypal": {
+    "clientId": "PAYPAL_CLIENT_ID",
+    "returnUrl": "/user/dashboard.html?payment=paypal_success",
+    "cancelUrl": "/user/settings.html?payment=paypal_cancel"
+  },
+  "transfer": {
+    "beneficiary": "OpoRail",
+    "iban": "ES00 0000 0000 0000 0000 0000",
+    "bank": "Banco Ejemplo",
+    "concept": "Suscripción OpoRail"
+  },
+  "bizum": {
+    "beneficiary": "OpoRail",
+    "phone": "+34 600 000 000"
+  }
+}
