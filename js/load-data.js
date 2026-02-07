@@ -311,6 +311,126 @@ function renderQuestionBankSummary(questionBank) {
   `;
 }
 
+function getPsychotechnicalMeta() {
+  return [
+    {
+      id: 'omnibus',
+      label: 'Omnibus',
+      time: '12 min',
+      description: 'Ejercicios combinados de comprensión, razonamiento y agilidad mental.',
+    },
+    {
+      id: 'sinonimosAntonimos',
+      label: 'Sinónimos y antónimos',
+      time: '10 min',
+      description: 'Evaluación de vocabulario, precisión léxica y rapidez verbal.',
+    },
+    {
+      id: 'seriesNumericas',
+      label: 'Matemáticas (series numéricas)',
+      time: '15 min',
+      description: 'Secuencias numéricas para medir razonamiento lógico-matemático.',
+    },
+    {
+      id: 'razonamientoAbstracto',
+      label: 'Razonamiento abstracto',
+      time: '14 min',
+      description: 'Patrones visuales para evaluar pensamiento lógico y espacial.',
+    },
+    {
+      id: 'razonamientoVerbal',
+      label: 'Razonamiento verbal',
+      time: '12 min',
+      description: 'Comprensión de textos breves y relaciones entre conceptos.',
+    },
+    {
+      id: 'atencionPercepcion',
+      label: 'Atención y percepción',
+      time: '9 min',
+      description: 'Foco, rapidez y precisión ante estímulos visuales.',
+    },
+  ];
+}
+
+function renderPsychotechnicalSection(questionBank) {
+  const items = getPsychotechnicalMeta();
+  const first = items[0];
+  return `
+    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-2">Psicotécnicos</h2>
+      <p class="text-sm text-gray-600 mb-4">Selecciona un tipo para ver la explicación y el tiempo disponible.</p>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="space-y-3">
+          ${items
+            .map((item) => {
+              const count = questionBank.psicotecnicos?.[item.id]?.length ?? 0;
+              return `
+              <button class="psycho-item w-full text-left border border-gray-200 rounded-lg p-3 hover:border-purple-500 transition" data-psycho-id="${item.id}">
+                <div class="flex items-center justify-between gap-3">
+                  <div>
+                    <p class="font-semibold text-gray-900">${item.label}</p>
+                    <p class="text-xs text-gray-500">Preguntas disponibles: ${count}</p>
+                  </div>
+                  <span class="text-xs font-semibold text-purple-700">${item.time}</span>
+                </div>
+              </button>
+            `;
+            })
+            .join('')}
+        </div>
+
+        <div class="border border-gray-200 rounded-lg p-4">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 id="psycho-title" class="text-lg font-bold text-purple-700">${first.label}</h3>
+              <p id="psycho-time" class="text-sm text-gray-600">Tiempo disponible: ${first.time}</p>
+            </div>
+            <button id="psycho-info-btn" class="w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold">i</button>
+          </div>
+          <div id="psycho-info" class="mt-3 text-sm text-gray-700 hidden"></div>
+          <div id="psycho-description" class="mt-3 text-sm text-gray-700">${first.description}</div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function bindPsychotechnicalSection(questionBank) {
+  const items = getPsychotechnicalMeta();
+  const buttons = document.querySelectorAll('.psycho-item');
+  const title = document.getElementById('psycho-title');
+  const time = document.getElementById('psycho-time');
+  const description = document.getElementById('psycho-description');
+  const infoBox = document.getElementById('psycho-info');
+  const infoBtn = document.getElementById('psycho-info-btn');
+
+  if (!buttons.length || !title || !time || !description || !infoBox || !infoBtn) return;
+
+  const updatePanel = (item) => {
+    const count = questionBank.psicotecnicos?.[item.id]?.length ?? 0;
+    title.textContent = item.label;
+    time.textContent = `Tiempo disponible: ${item.time}`;
+    description.textContent = item.description;
+    infoBox.textContent = `En esta sección tendrás ${count} ejercicios preparados.`;
+    infoBox.classList.add('hidden');
+  };
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const targetId = button.dataset.psychoId;
+      const item = items.find((entry) => entry.id === targetId) || items[0];
+      updatePanel(item);
+    });
+  });
+
+  infoBtn.addEventListener('click', () => {
+    infoBox.classList.toggle('hidden');
+  });
+
+  updatePanel(items[0]);
+}
+
 const coursesContainer = document.getElementById('courses-list');
 if (coursesContainer) {
   fetch(resolveDataPath('courses.json'))
@@ -414,6 +534,7 @@ if (courseDetailContainer) {
 
           ${renderCourseContentBlocks(blueprint)}
           ${renderQuestionBankSummary(questionBank)}
+          ${renderPsychotechnicalSection(questionBank)}
         </article>
       `;
 
@@ -441,6 +562,8 @@ if (courseDetailContainer) {
           enrollFeedback.textContent = 'Curso añadido correctamente. Lo verás en tu panel de usuario.';
         });
       }
+
+      bindPsychotechnicalSection(questionBank);
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
