@@ -486,7 +486,12 @@ function renderTestSection(title, tests) {
               </ul>
               <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.answer}</p>
             </div>
-            <button class="btn w-full">Comenzar test</button>
+            <button class="btn w-full test-start-btn" data-test-start="${test.id}">Comenzar test</button>
+            <div id="test-start-${test.id}" class="hidden text-sm text-gray-700 bg-gray-50 border border-gray-200 rounded-lg p-3">
+              <p class="font-semibold">Test iniciado</p>
+              <p>Tiempo disponible: ${test.duration}</p>
+              <p class="text-xs text-gray-500 mt-2">Aquí cargaremos las preguntas reales cuando estén disponibles.</p>
+            </div>
           </article>
         `,
           )
@@ -520,6 +525,15 @@ function bindTestInfoToggles() {
   document.querySelectorAll('.test-info-btn').forEach((button) => {
     button.addEventListener('click', () => {
       const target = document.getElementById(`test-info-${button.dataset.testInfo}`);
+      if (target) {
+        target.classList.toggle('hidden');
+      }
+    });
+  });
+
+  document.querySelectorAll('.test-start-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      const target = document.getElementById(`test-start-${button.dataset.testStart}`);
       if (target) {
         target.classList.toggle('hidden');
       }

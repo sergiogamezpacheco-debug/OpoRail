@@ -3,7 +3,7 @@ fetch('/data/site.json')
   .then((site) => {
     const isCoursePage = window.location.pathname.includes('curso.html');
     const headerClass = isCoursePage
-      ? 'relative z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700'
+      ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700 shadow-md'
       : 'absolute top-0 left-0 right-0 z-20 text-white';
 
     const header = `
