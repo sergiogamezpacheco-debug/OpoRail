@@ -475,9 +475,9 @@ function renderTestSection(title, tests, courseId) {
               <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
               ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
-            <button class="btn w-full text-center test-launch-btn" data-test-id="${test.id}" data-course-id="${courseId}">
+            <a class="btn w-full text-center" href="/test-info.html?course=${courseId}&test=${test.id}">
               Ver historial / Intentar test
-            </button>
+            </a>
           </article>
         `,
           )
@@ -513,76 +513,6 @@ function bindTestInfoToggles() {
       const target = document.getElementById(`test-info-${button.dataset.testInfo}`);
       if (target) {
         target.classList.toggle('hidden');
-      }
-    });
-  });
-}
-
-function getTestHistory(userId, testId) {
-  if (!userId) return [];
-  const raw = localStorage.getItem(`oporail_test_history_${userId}`);
-  if (!raw) return [];
-  try {
-    const parsed = JSON.parse(raw);
-    const list = Array.isArray(parsed) ? parsed : [];
-    return list.filter((item) => item.testId === testId);
-  } catch {
-    return [];
-  }
-}
-
-function openTestHistoryModal({ test, courseId }) {
-  const modal = document.getElementById('test-history-modal');
-  const title = document.getElementById('test-history-title');
-  const list = document.getElementById('test-history-list');
-  const attemptBtn = document.getElementById('test-history-attempt');
-  if (!modal || !title || !list || !attemptBtn) return;
-
-  const userId = getActiveUserId();
-  const history = getTestHistory(userId, test.id);
-
-  title.textContent = test.title;
-  list.innerHTML = history.length
-    ? history
-      .map(
-        (item) => `
-        <li class="border border-gray-200 rounded-lg p-3">
-          <p class="text-sm text-gray-600">${new Date(item.completedAt).toLocaleString('es-ES')}</p>
-          <p class="font-semibold text-gray-900">Puntuación: ${item.score}%</p>
-        </li>
-      `,
-      )
-      .join('')
-    : '<li class="text-sm text-gray-600">Aún no has realizado este test.</li>';
-
-  attemptBtn.onclick = () => {
-    window.open(`/test-run.html?course=${courseId}&test=${test.id}`, '_blank', 'noopener,noreferrer');
-  };
-
-  modal.classList.remove('hidden');
-}
-
-function bindTestHistoryModal(tests, courseId) {
-  const modal = document.getElementById('test-history-modal');
-  const closeBtn = document.getElementById('test-history-close');
-  if (!modal || !closeBtn) return;
-
-  closeBtn.addEventListener('click', () => {
-    modal.classList.add('hidden');
-  });
-
-  modal.addEventListener('click', (event) => {
-    if (event.target === modal) {
-      modal.classList.add('hidden');
-    }
-  });
-
-  document.querySelectorAll('.test-launch-btn').forEach((button) => {
-    button.addEventListener('click', () => {
-      const testId = button.dataset.testId;
-      const test = tests.find((item) => item.id === testId);
-      if (test) {
-        openTestHistoryModal({ test, courseId });
       }
     });
   });
@@ -776,20 +706,6 @@ if (courseDetailContainer) {
           ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
-
-        <div id="test-history-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center p-4">
-          <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-6">
-            <div class="flex items-start justify-between gap-4">
-              <div>
-                <h3 id="test-history-title" class="text-xl font-bold text-purple-700">Historial del test</h3>
-                <p class="text-sm text-gray-600">Resultados anteriores y acceso rápido.</p>
-              </div>
-              <button id="test-history-close" class="text-gray-500 hover:text-gray-700">✕</button>
-            </div>
-            <ul id="test-history-list" class="mt-4 space-y-2"></ul>
-            <button id="test-history-attempt" class="btn w-full mt-4">Intentar test</button>
-          </div>
-        </div>
       `;
 
       const enrollBtn = document.getElementById('enroll-course-btn');
@@ -819,10 +735,6 @@ if (courseDetailContainer) {
 
       bindPsychotechnicalSection(questionBank);
       bindTestInfoToggles();
-      bindTestHistoryModal(
-        [...getCommonTests(questionBank), ...getSpecificTests(questionBank), ...getPsychotechnicalTests(questionBank)],
-        courseId,
-      );
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
@@ -912,15 +824,64 @@ if (testRunner) {
 
       const normalizedQuestions = testQuestions.length
         ? testQuestions.map((question) => normalizeQuestion(question))
-        : [getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion()];
+        : [];
+      while (normalizedQuestions.length < 20) {
+        const fallback = getFallbackQuestion();
+        fallback.question = `Pregunta de ejemplo ${normalizedQuestions.length + 1}`;
+        normalizedQuestions.push(fallback);
+      }
+      const totalQuestions = 20;
+      const trimmedQuestions = normalizedQuestions.slice(0, totalQuestions);
 
       const questionsPerPage = 5;
       let currentPage = 0;
-      let currentScore = 0;
+      const answers = Array(totalQuestions).fill(null);
+      let remainingSeconds = 30 * 60;
+      let timerId;
+
+      const formatTime = (seconds) => {
+        const mins = String(Math.floor(seconds / 60)).padStart(2, '0');
+        const secs = String(seconds % 60).padStart(2, '0');
+        return `${mins}:${secs}`;
+      };
+
+      const finishTest = () => {
+        if (timerId) clearInterval(timerId);
+        let correct = 0;
+        trimmedQuestions.forEach((question, index) => {
+          const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
+          if (answers[index] === correctIndex) {
+            correct += 1;
+          }
+        });
+        const score = Math.round((correct / totalQuestions) * 100);
+
+        const userId = getActiveUserId();
+        if (userId) {
+          const raw = localStorage.getItem(`oporail_test_history_${userId}`);
+          const history = raw ? JSON.parse(raw) : [];
+          const entry = {
+            testId: activeTest.id,
+            score,
+            completedAt: new Date().toISOString(),
+          };
+          localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
+        }
+
+        testRunner.innerHTML = `
+          <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+            <h1 class="text-3xl font-bold text-purple-700">Test finalizado</h1>
+            <p class="text-sm text-gray-600 mt-2">Puntuación final: <strong>${score}%</strong></p>
+            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al curso
+            </a>
+          </section>
+        `;
+      };
 
       const renderPage = () => {
         const start = currentPage * questionsPerPage;
-        const pageQuestions = normalizedQuestions.slice(start, start + questionsPerPage);
+        const pageQuestions = trimmedQuestions.slice(start, start + questionsPerPage);
 
         testRunner.innerHTML = `
           <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
@@ -933,6 +894,8 @@ if (testRunner) {
                 Volver al curso
               </a>
             </div>
+            <p class="mt-3 text-sm text-gray-600">Tiempo restante: <span id="test-timer" class="font-semibold text-purple-700">${formatTime(remainingSeconds)}</span></p>
+            <p class="text-sm text-gray-600">Preguntas: ${totalQuestions} · Página ${currentPage + 1} / ${Math.ceil(totalQuestions / questionsPerPage)}</p>
           </section>
 
           <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
@@ -948,7 +911,7 @@ if (testRunner) {
                       .map(
                         (option, optIndex) => `
                       <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
-                        <input type="radio" name="answer-${start + index}" value="${optIndex}" class="accent-purple-600">
+                        <input type="radio" name="answer-${start + index}" value="${optIndex}" class="accent-purple-600" ${answers[start + index] === optIndex ? 'checked' : ''}>
                         <span>${option}</span>
                       </label>
                     `,
@@ -961,8 +924,9 @@ if (testRunner) {
                 .join('')}
               <div class="flex flex-wrap gap-3">
                 <button type="button" id="prev-page" class="btn-ghost" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
-                <button type="submit" class="btn">Enviar respuestas</button>
+                <button type="submit" class="btn">Guardar página</button>
                 <button type="button" id="next-page" class="btn-ghost">Siguiente</button>
+                <button type="button" id="finish-test" class="btn">Finalizar test</button>
               </div>
               <p id="test-feedback" class="text-sm text-gray-600"></p>
             </form>
@@ -973,6 +937,7 @@ if (testRunner) {
         const feedback = document.getElementById('test-feedback');
         const prevBtn = document.getElementById('prev-page');
         const nextBtn = document.getElementById('next-page');
+        const finishBtn = document.getElementById('finish-test');
 
         if (prevBtn) {
           prevBtn.addEventListener('click', () => {
@@ -985,48 +950,137 @@ if (testRunner) {
 
         if (nextBtn) {
           nextBtn.addEventListener('click', () => {
-            if ((currentPage + 1) * questionsPerPage < normalizedQuestions.length) {
+            if ((currentPage + 1) * questionsPerPage < trimmedQuestions.length) {
               currentPage += 1;
               renderPage();
             }
           });
         }
 
+        if (finishBtn) {
+          finishBtn.addEventListener('click', finishTest);
+        }
+
         if (form && feedback) {
           form.addEventListener('submit', (event) => {
             event.preventDefault();
-            let correct = 0;
-            pageQuestions.forEach((question, index) => {
+            pageQuestions.forEach((_, index) => {
               const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
-              const selectedIndex = selected ? Number(selected.value) : -1;
-              const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
-              if (selectedIndex === correctIndex) {
-                correct += 1;
-              }
+              const selectedIndex = selected ? Number(selected.value) : null;
+              answers[start + index] = selectedIndex;
             });
-            currentScore = Math.round((correct / pageQuestions.length) * 100);
-            feedback.textContent = `Puntuación de esta página: ${currentScore}%`;
-
-            const userId = getActiveUserId();
-            if (userId) {
-              const raw = localStorage.getItem(`oporail_test_history_${userId}`);
-              const history = raw ? JSON.parse(raw) : [];
-              const entry = {
-                testId: activeTest.id,
-                score: currentScore,
-                completedAt: new Date().toISOString(),
-              };
-              localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
-            }
+            feedback.textContent = 'Respuestas guardadas en esta página.';
           });
         }
       };
 
       renderPage();
+      timerId = setInterval(() => {
+        remainingSeconds -= 1;
+        const timerEl = document.getElementById('test-timer');
+        if (timerEl) timerEl.textContent = formatTime(remainingSeconds);
+        if (remainingSeconds <= 0) {
+          finishTest();
+        }
+      }, 1000);
     })
     .catch((error) => {
       console.error('Error cargando test:', error);
       testRunner.innerHTML = '<p class="text-red-600">Error cargando el test</p>';
+    });
+}
+
+const testInfo = document.getElementById('test-info');
+if (testInfo) {
+  const params = new URLSearchParams(window.location.search);
+  const courseId = Number(params.get('course'));
+  const testId = params.get('test');
+
+  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
+    .then(async ([coursesRes, testRes]) => {
+      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
+      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
+      const coursesPayload = await coursesRes.json();
+      const testPayload = await testRes.json();
+
+      const list = Array.isArray(coursesPayload)
+        ? coursesPayload
+        : Array.isArray(coursesPayload?.courses)
+          ? coursesPayload.courses
+          : [];
+      const resolvedCourseId = Number.isNaN(courseId) || courseId < 1 || courseId > list.length ? 1 : courseId;
+      const course = list[resolvedCourseId - 1];
+
+      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
+      const custom = testPayload?.byCourseTitle?.[course?.titulo];
+      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
+
+      const allTests = [
+        ...getCommonTests(questionBank),
+        ...getSpecificTests(questionBank),
+        ...getPsychotechnicalTests(questionBank),
+      ];
+      const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
+
+      const userId = getActiveUserId();
+      const rawHistory = userId ? localStorage.getItem(`oporail_test_history_${userId}`) : null;
+      const history = rawHistory ? JSON.parse(rawHistory) : [];
+      const filteredHistory = Array.isArray(history) ? history.filter((item) => item.testId === activeTest.id) : [];
+      const bestScore = filteredHistory.length ? Math.max(...filteredHistory.map((item) => item.score)) : null;
+
+      testInfo.innerHTML = `
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+              <p class="text-sm text-gray-600">${activeTest.info}</p>
+            </div>
+            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al curso
+            </a>
+          </div>
+          <div class="mt-4 space-y-2 text-sm text-gray-600">
+            <p><strong>Preguntas:</strong> 20</p>
+            <p><strong>Tiempo máximo:</strong> 30 minutos</p>
+          </div>
+          <button id="start-test" class="btn mt-4">Comenzar test</button>
+        </section>
+
+        <section class="mt-6 bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <h2 class="text-xl font-bold text-purple-700 mb-3">Resumen de intentos previos</h2>
+          ${filteredHistory.length
+            ? `
+            <div class="space-y-3">
+              ${filteredHistory
+                .map(
+                  (item, index) => `
+                <article class="border border-gray-200 rounded-lg p-3 flex items-center justify-between gap-4">
+                  <div>
+                    <p class="text-sm text-gray-600">Intento ${index + 1} · ${new Date(item.completedAt).toLocaleString('es-ES')}</p>
+                    <p class="font-semibold text-gray-900">Puntuación: ${item.score}%</p>
+                  </div>
+                  <span class="text-xs font-semibold text-purple-700">Finalizado</span>
+                </article>
+              `,
+                )
+                .join('')}
+            </div>
+            <p class="mt-4 text-sm text-gray-600">Mejor puntuación: <strong>${bestScore}%</strong></p>
+          `
+            : '<p class="text-sm text-gray-600">Aún no has realizado este test.</p>'}
+        </section>
+      `;
+
+      const startBtn = document.getElementById('start-test');
+      if (startBtn) {
+        startBtn.addEventListener('click', () => {
+          window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}`, '_blank', 'noopener,noreferrer');
+        });
+      }
+    })
+    .catch((error) => {
+      console.error('Error cargando detalle del test:', error);
+      testInfo.innerHTML = '<p class="text-red-600">Error cargando el detalle del test</p>';
     });
 }
 
