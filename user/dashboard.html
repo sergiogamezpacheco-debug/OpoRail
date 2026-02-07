@@ -23,8 +23,9 @@
         <h2 class="text-2xl font-bold text-purple-700 mb-2">Bienvenido, <span id="user-name">Usuario</span></h2>
         <p class="text-gray-700">Desde aquí podrás gestionar tu perfil, ver tu progreso y acceder a tus cursos.</p>
       </div>
-      <div class="flex gap-3">
-        <a href="profile.html" class="btn">Perfil</a>
+      <div class="flex flex-wrap gap-3">
+        <a href="../cursos.html" class="btn">Explorar cursos</a>
+        <a href="profile.html" class="btn-ghost">Perfil</a>
         <a href="settings.html" class="btn-ghost">Ajustes</a>
       </div>
     </section>
@@ -46,7 +47,9 @@
     <section>
       <h3 class="text-xl font-bold text-purple-700 mb-4">Mis cursos</h3>
       <div id="courses-grid" class="grid md:grid-cols-3 gap-6"></div>
-      <p id="courses-empty-state" class="hidden text-gray-600 mt-3">Aún no tienes cursos añadidos. Ve a la sección de cursos para incorporarlos a tu panel.</p>
+      <p id="courses-empty-state" class="hidden text-gray-600 mt-3">
+        Aún no tienes cursos añadidos. <a href="../cursos.html" class="text-purple-700 font-semibold hover:underline">Ir a cursos</a>.
+      </p>
     </section>
 
     <section class="bg-white rounded-xl shadow-md p-6">
