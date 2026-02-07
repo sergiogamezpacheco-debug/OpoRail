@@ -18,7 +18,7 @@
   </header>
 
   <main class="flex-1 max-w-[1200px] mx-auto w-full px-6 py-10">
-    <div class="bg-white rounded-xl shadow-md p-6 max-w-xl mx-auto space-y-6">
+    <div class="bg-white rounded-xl shadow-md p-6 max-w-3xl mx-auto space-y-6">
       <div>
         <h2 class="text-2xl font-bold text-purple-700 mb-2">Preferencias</h2>
         <p class="text-gray-700">Hemos dejado preparada esta pantalla para futuras opciones de notificaciones y personalización.</p>
@@ -33,6 +33,13 @@
         <input type="checkbox" disabled>
         <span>Modo recordatorio diario (próximamente)</span>
       </label>
+
+      <div>
+        <h2 class="text-2xl font-bold text-purple-700 mb-2">Plan de suscripción</h2>
+        <p class="text-gray-700 mb-4">Selecciona un plan y simula el pago para activar el acceso a cursos.</p>
+        <div id="plan-options" class="grid gap-4 md:grid-cols-2"></div>
+        <p id="plan-feedback" class="text-sm text-gray-600 mt-3"></p>
+      </div>
 
       <button id="logout-btn" class="btn-danger">Cerrar sesión</button>
     </div>

@@ -6,10 +6,15 @@ import {
   signInWithPopup,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  setPersistence,
+  browserLocalPersistence,
 } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 import { app } from "./firebase-config.js";
 
 const auth = getAuth(app);
+setPersistence(auth, browserLocalPersistence).catch((error) => {
+  console.error("Error configurando la persistencia de sesión:", error);
+});
 
 const panelBtn = document.getElementById("panel-btn");
 onAuthStateChanged(auth, (user) => {

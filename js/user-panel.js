@@ -42,6 +42,47 @@ function getProgressMap(userId) {
   }
 }
 
+function getPlanStatus(userId) {
+  const raw = localStorage.getItem(`oporail_plan_${userId}`);
+  if (!raw) return { planId: 'free', paid: false };
+  try {
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object') return { planId: 'free', paid: false };
+    return {
+      planId: parsed.planId || 'free',
+      paid: Boolean(parsed.paid),
+    };
+  } catch {
+    return { planId: 'free', paid: false };
+  }
+}
+
+function savePlanStatus(userId, status) {
+  localStorage.setItem(`oporail_plan_${userId}`, JSON.stringify(status));
+}
+
+async function getPlanCatalog() {
+  try {
+    const res = await fetch(resolveDataPath('planes.json'));
+    if (!res.ok) throw new Error('No se pudo cargar planes.json');
+    const plans = await res.json();
+    if (Array.isArray(plans)) {
+      localStorage.setItem('oporail_plan_catalog', JSON.stringify(plans));
+      return plans;
+    }
+  } catch (error) {
+    console.error('Error cargando planes:', error);
+  }
+  const raw = localStorage.getItem('oporail_plan_catalog');
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
 function createProgressIfMissing(userId, courseId) {
   const progressMap = getProgressMap(userId);
   if (typeof progressMap[courseId] !== 'number') {
@@ -71,11 +112,12 @@ async function renderDashboard(user) {
   const allCourses = await getCourseCatalog();
   const enrollments = getEnrollments(user.uid);
 
-  const selectedCourses = (enrollments.length
-    ? allCourses.filter((_, index) => enrollments.includes(index + 1))
-    : allCourses.slice(0, 3));
+  const courseEntries = allCourses.map((course, index) => ({ id: index + 1, course }));
+  const selectedEntries = (enrollments.length
+    ? courseEntries.filter((entry) => enrollments.includes(entry.id))
+    : courseEntries.slice(0, 3));
 
-  if (!selectedCourses.length) {
+  if (!selectedEntries.length) {
     grid.innerHTML = '';
     if (emptyState) emptyState.classList.remove('hidden');
     updateGlobalProgress([]);
@@ -84,14 +126,14 @@ async function renderDashboard(user) {
 
   if (emptyState) emptyState.classList.add('hidden');
 
-  selectedCourses.forEach((_, index) => {
-    const courseId = enrollments.length ? enrollments[index] : index + 1;
-    createProgressIfMissing(user.uid, courseId);
+  selectedEntries.forEach((entry) => {
+    createProgressIfMissing(user.uid, entry.id);
   });
 
   const progressMap = getProgressMap(user.uid);
-  const normalizedCourses = selectedCourses.map((course, index) => {
-    const id = enrollments.length ? enrollments[index] : index + 1;
+  const normalizedCourses = selectedEntries.map((entry) => {
+    const course = entry.course;
+    const id = entry.id;
     return {
       id,
       title: course.titulo,
@@ -103,13 +145,16 @@ async function renderDashboard(user) {
   grid.innerHTML = normalizedCourses
     .map(
       (course) => `
-      <article class="${course.active ? 'bg-purple-700' : 'bg-purple-400 opacity-80'} text-white rounded-xl p-5 shadow-md">
+      <article class="${course.active ? 'bg-purple-700' : 'bg-purple-400 opacity-80'} text-white rounded-xl p-5 shadow-md flex flex-col gap-3">
         <h4 class="font-bold text-lg mb-2">${course.title}</h4>
         <p class="text-purple-100 text-sm mb-3">${course.active ? 'Curso activo' : 'Próximamente'}</p>
         <div class="w-full bg-white/30 rounded-full h-2.5 overflow-hidden">
           <div class="bg-white h-2.5" style="width:${course.progress}%"></div>
         </div>
         <p class="text-xs mt-2 text-purple-100">Progreso: ${course.progress}%</p>
+        <a href="/curso.html?id=${course.id}" class="inline-flex items-center justify-center bg-white text-purple-700 px-3 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition ${course.active ? '' : 'pointer-events-none opacity-70'}">
+          Ir al curso
+        </a>
       </article>
     `,
     )
@@ -159,10 +204,103 @@ function fillUserInfo(user) {
   });
 }
 
+async function fillPlanInfo(user) {
+  const planName = document.getElementById('plan-name');
+  const planPrice = document.getElementById('plan-price');
+  const planNotice = document.getElementById('plan-notice');
+
+  if (!planName && !planPrice && !planNotice) return;
+
+  const plans = await getPlanCatalog();
+  const status = getPlanStatus(user.uid);
+  const plan = plans.find((item) => item.id === status.planId) || plans[0];
+
+  if (planName) planName.textContent = plan?.nombre || 'Plan Gratuito';
+  if (planPrice) {
+    const priceText = [plan?.precioMensual, plan?.precioAnual].filter(Boolean).join(' · ');
+    planPrice.textContent = priceText || '0€';
+  }
+  if (planNotice) {
+    if (plan?.requierePago && !status.paid) {
+      planNotice.textContent = 'Plan pendiente de pago. Actívalo desde Ajustes para añadir cursos.';
+    } else if (plan?.maxCursos === 1) {
+      planNotice.textContent = 'Puedes añadir 1 curso con tu plan actual.';
+    } else {
+      planNotice.textContent = 'Puedes añadir cursos sin límite.';
+    }
+  }
+}
+
+async function renderPlanSettings(user) {
+  const planContainer = document.getElementById('plan-options');
+  const planFeedback = document.getElementById('plan-feedback');
+  if (!planContainer) return;
+
+  const plans = await getPlanCatalog();
+  if (!plans.length) return;
+
+  const status = getPlanStatus(user.uid);
+  planContainer.innerHTML = plans
+    .map((plan) => {
+      const priceLine = [plan.precioMensual, plan.precioAnual].filter(Boolean).join(' · ');
+      const isActive = status.planId === plan.id;
+      const paymentTag = plan.requierePago && !status.paid && isActive ? 'Pendiente de pago' : isActive ? 'Activo' : '';
+      return `
+      <article class="border border-gray-200 rounded-lg p-4">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-bold text-purple-700">${plan.nombre}</h3>
+            <p class="text-sm text-gray-600">${plan.descripcion}</p>
+            <p class="text-sm font-semibold text-gray-800 mt-2">${priceLine}</p>
+          </div>
+          <span class="text-xs font-semibold text-purple-700">${paymentTag}</span>
+        </div>
+        <ul class="text-sm text-gray-600 mt-3 space-y-1">
+          ${(Array.isArray(plan.features) ? plan.features : []).map((feature) => `<li>• ${feature}</li>`).join('')}
+        </ul>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <button class="btn ${isActive ? 'opacity-70 pointer-events-none' : ''}" data-plan-id="${plan.id}" data-action="activate">Activar plan</button>
+          ${plan.requierePago ? '<button class="btn-ghost" data-plan-id="' + plan.id + '" data-action="pay">Simular pago</button>' : ''}
+        </div>
+      </article>
+    `;
+    })
+    .join('');
+
+  planContainer.querySelectorAll('button[data-plan-id]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const planId = button.dataset.planId;
+      const action = button.dataset.action;
+      const newStatus = getPlanStatus(user.uid);
+
+      if (action === 'activate') {
+        newStatus.planId = planId;
+        if (newStatus.planId === 'free') {
+          newStatus.paid = false;
+        }
+        savePlanStatus(user.uid, newStatus);
+        if (planFeedback) planFeedback.textContent = 'Plan activado. Si requiere pago, completa el pago para añadir cursos.';
+      }
+
+      if (action === 'pay') {
+        newStatus.planId = planId;
+        newStatus.paid = true;
+        savePlanStatus(user.uid, newStatus);
+        if (planFeedback) planFeedback.textContent = 'Pago registrado. Ya puedes añadir cursos según tu plan.';
+      }
+
+      renderPlanSettings(user);
+      fillPlanInfo(user);
+    });
+  });
+}
+
 onUserChanged((user) => {
   if (!user) return;
   fillUserInfo(user);
+  fillPlanInfo(user);
   renderDashboard(user);
+  renderPlanSettings(user);
 });
 
 bindLogout();

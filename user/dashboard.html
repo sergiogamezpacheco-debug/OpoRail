@@ -13,7 +13,10 @@
   <header class="bg-gradient-to-r from-[#0b5a2a] to-purple-700 text-white py-4 shadow-md">
     <div class="max-w-[1200px] mx-auto flex justify-between items-center px-6">
       <h1 class="text-2xl md:text-3xl font-bold">OpoRail · Panel de Usuario</h1>
-      <button id="logout-btn" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">Cerrar sesión</button>
+      <div class="flex gap-3">
+        <a href="../index.html" class="border border-white text-white px-4 py-2 rounded-lg font-semibold hover:bg-white/10 transition">Inicio</a>
+        <button id="logout-btn" class="bg-white text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition">Cerrar sesión</button>
+      </div>
     </div>
   </header>
 
@@ -40,8 +43,9 @@
 
     <section class="bg-gradient-to-r from-purple-700 to-purple-900 text-white rounded-xl shadow-md p-6">
       <h3 class="text-xl font-bold mb-2">Plan activo</h3>
-      <p class="text-purple-100" id="plan-name">Plan Normal</p>
-      <p class="mt-2 text-sm text-purple-200">Acceso a cursos y contenidos de preparación.</p>
+      <p class="text-purple-100" id="plan-name">Plan Gratuito</p>
+      <p class="text-sm text-purple-200" id="plan-price">0€</p>
+      <p class="mt-2 text-sm text-purple-200" id="plan-notice">Acceso a cursos y contenidos de preparación.</p>
     </section>
 
     <section>
