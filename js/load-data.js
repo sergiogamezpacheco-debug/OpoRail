@@ -450,7 +450,7 @@ function getPsychotechnicalTests(questionBank) {
   });
 }
 
-function renderTestSection(title, tests) {
+function renderTestSection(title, tests, courseId) {
   return `
     <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
       <h2 class="text-2xl font-bold text-purple-700 mb-2">${title}</h2>
@@ -475,15 +475,7 @@ function renderTestSection(title, tests) {
               <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
               ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
-            <button class="btn w-full test-start-btn" data-test-start="${test.id}">Comenzar test</button>
-            <div id="test-start-${test.id}" class="hidden text-sm text-gray-700 bg-gray-50 border border-gray-200 rounded-lg p-3">
-              <p class="font-semibold">Test iniciado</p>
-              <p>Tiempo disponible: ${test.duration}</p>
-              <p class="mt-2 font-semibold">${test.sample.question}</p>
-              <ul class="list-disc pl-5 mt-2 space-y-1">
-                ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
-              </ul>
-            </div>
+            <a class="btn w-full text-center" href="/test-run.html?course=${courseId}&test=${test.id}">Comenzar test</a>
           </article>
         `,
           )
@@ -517,15 +509,6 @@ function bindTestInfoToggles() {
   document.querySelectorAll('.test-info-btn').forEach((button) => {
     button.addEventListener('click', () => {
       const target = document.getElementById(`test-info-${button.dataset.testInfo}`);
-      if (target) {
-        target.classList.toggle('hidden');
-      }
-    });
-  });
-
-  document.querySelectorAll('.test-start-btn').forEach((button) => {
-    button.addEventListener('click', () => {
-      const target = document.getElementById(`test-start-${button.dataset.testStart}`);
       if (target) {
         target.classList.toggle('hidden');
       }
@@ -831,9 +814,9 @@ if (testHub) {
           </div>
         </section>
 
-        ${renderTestSection('Test · Materias comunes', getCommonTests(questionBank))}
-        ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests(questionBank))}
-        ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests(questionBank))}
+        ${renderTestSection('Test · Materias comunes', getCommonTests(questionBank), courseId)}
+        ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
+        ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
         ${renderExamSimulationSection(planStatus)}
       `;
 
@@ -842,6 +825,103 @@ if (testHub) {
     .catch((error) => {
       console.error('Error cargando tests:', error);
       testHub.innerHTML = '<p class="text-red-600">Error cargando tests</p>';
+    });
+}
+
+const testRunner = document.getElementById('test-runner');
+if (testRunner) {
+  const params = new URLSearchParams(window.location.search);
+  const courseId = Number(params.get('course'));
+  const testId = params.get('test');
+
+  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
+    .then(async ([coursesRes, testRes]) => {
+      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
+      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
+      const coursesPayload = await coursesRes.json();
+      const testPayload = await testRes.json();
+
+      const list = Array.isArray(coursesPayload)
+        ? coursesPayload
+        : Array.isArray(coursesPayload?.courses)
+          ? coursesPayload.courses
+          : [];
+      const resolvedCourseId = Number.isNaN(courseId) || courseId < 1 || courseId > list.length ? 1 : courseId;
+      const course = list[resolvedCourseId - 1];
+
+      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
+      const custom = testPayload?.byCourseTitle?.[course?.titulo];
+      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
+
+      const allTests = [
+        ...getCommonTests(questionBank),
+        ...getSpecificTests(questionBank),
+        ...getPsychotechnicalTests(questionBank),
+      ];
+      const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
+
+      testRunner.innerHTML = `
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+              <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
+            </div>
+            <a href="/tests.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver a tests
+            </a>
+          </div>
+        </section>
+
+        <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
+          <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
+          <form id="test-form" class="space-y-4">
+            <div class="border border-gray-200 rounded-lg p-4">
+              <p class="font-semibold text-gray-900 mb-3">${activeTest.sample.question}</p>
+              <div class="space-y-2">
+                ${activeTest.sample.options
+                  .map(
+                    (option, index) => `
+                  <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
+                    <input type="radio" name="answer" value="${index}" class="accent-purple-600">
+                    <span>${option}</span>
+                  </label>
+                `,
+                  )
+                  .join('')}
+              </div>
+            </div>
+            <button type="submit" class="btn w-full">Enviar respuesta</button>
+            <p id="test-feedback" class="text-sm text-gray-600"></p>
+          </form>
+        </section>
+      `;
+
+      const form = document.getElementById('test-form');
+      const feedback = document.getElementById('test-feedback');
+      if (form && feedback) {
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          const selected = form.querySelector('input[name="answer"]:checked');
+          if (!selected) {
+            feedback.textContent = 'Selecciona una respuesta para continuar.';
+            return;
+          }
+          const answerIndex = Number(selected.value);
+          const correctIndex = activeTest.sample.options.findIndex(
+            (option) => option === activeTest.sample.correctAnswer,
+          );
+          if (answerIndex === correctIndex) {
+            feedback.textContent = '✅ ¡Correcto! Buen trabajo.';
+          } else {
+            feedback.textContent = `❌ Respuesta incorrecta. Respuesta correcta: ${activeTest.sample.correctAnswer}`;
+          }
+        });
+      }
+    })
+    .catch((error) => {
+      console.error('Error cargando test:', error);
+      testRunner.innerHTML = '<p class="text-red-600">Error cargando el test</p>';
     });
 }
 
