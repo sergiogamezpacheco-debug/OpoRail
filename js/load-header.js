@@ -1,8 +1,13 @@
 fetch('/data/site.json')
   .then((res) => res.json())
   .then((site) => {
+    const isCoursePage = window.location.pathname.includes('curso.html');
+    const headerClass = isCoursePage
+      ? 'relative z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700'
+      : 'absolute top-0 left-0 right-0 z-20 text-white';
+
     const header = `
-      <header class="absolute top-0 left-0 right-0 z-20 text-white">
+      <header class="${headerClass}">
         <div class="max-w-[1200px] mx-auto px-6 py-3 relative flex items-center">
           <a href="/index.html" class="absolute left-1/2 -translate-x-1/2 text-3xl font-bold text-white">
             <span class="text-white">Opo</span><span class="text-white">Rail</span>

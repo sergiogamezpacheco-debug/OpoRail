@@ -3,7 +3,7 @@
     "id": "free",
     "nombre": "Plan Gratuito",
     "descripcion": "Acceso básico para empezar a prepararte.",
-    "precioMensual": "0€",
+    "precioMensual": "",
     "precioAnual": "0€",
     "maxCursos": 1,
     "requierePago": false,
