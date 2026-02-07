@@ -475,7 +475,9 @@ function renderTestSection(title, tests, courseId) {
               <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
               ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
-            <a class="btn w-full text-center" href="/test-run.html?course=${courseId}&test=${test.id}">Comenzar test</a>
+            <button class="btn w-full text-center test-launch-btn" data-test-id="${test.id}" data-course-id="${courseId}">
+              Ver historial / Intentar test
+            </button>
           </article>
         `,
           )
@@ -511,6 +513,76 @@ function bindTestInfoToggles() {
       const target = document.getElementById(`test-info-${button.dataset.testInfo}`);
       if (target) {
         target.classList.toggle('hidden');
+      }
+    });
+  });
+}
+
+function getTestHistory(userId, testId) {
+  if (!userId) return [];
+  const raw = localStorage.getItem(`oporail_test_history_${userId}`);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    const list = Array.isArray(parsed) ? parsed : [];
+    return list.filter((item) => item.testId === testId);
+  } catch {
+    return [];
+  }
+}
+
+function openTestHistoryModal({ test, courseId }) {
+  const modal = document.getElementById('test-history-modal');
+  const title = document.getElementById('test-history-title');
+  const list = document.getElementById('test-history-list');
+  const attemptBtn = document.getElementById('test-history-attempt');
+  if (!modal || !title || !list || !attemptBtn) return;
+
+  const userId = getActiveUserId();
+  const history = getTestHistory(userId, test.id);
+
+  title.textContent = test.title;
+  list.innerHTML = history.length
+    ? history
+      .map(
+        (item) => `
+        <li class="border border-gray-200 rounded-lg p-3">
+          <p class="text-sm text-gray-600">${new Date(item.completedAt).toLocaleString('es-ES')}</p>
+          <p class="font-semibold text-gray-900">Puntuación: ${item.score}%</p>
+        </li>
+      `,
+      )
+      .join('')
+    : '<li class="text-sm text-gray-600">Aún no has realizado este test.</li>';
+
+  attemptBtn.onclick = () => {
+    window.open(`/test-run.html?course=${courseId}&test=${test.id}`, '_blank', 'noopener,noreferrer');
+  };
+
+  modal.classList.remove('hidden');
+}
+
+function bindTestHistoryModal(tests, courseId) {
+  const modal = document.getElementById('test-history-modal');
+  const closeBtn = document.getElementById('test-history-close');
+  if (!modal || !closeBtn) return;
+
+  closeBtn.addEventListener('click', () => {
+    modal.classList.add('hidden');
+  });
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.classList.add('hidden');
+    }
+  });
+
+  document.querySelectorAll('.test-launch-btn').forEach((button) => {
+    button.addEventListener('click', () => {
+      const testId = button.dataset.testId;
+      const test = tests.find((item) => item.id === testId);
+      if (test) {
+        openTestHistoryModal({ test, courseId });
       }
     });
   });
@@ -674,9 +746,6 @@ if (courseDetailContainer) {
             <a href="/user/index.html" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Acceder al panel
             </a>
-            <a href="/tests.html?id=${courseId}" class="inline-flex bg-white border border-emerald-600 text-emerald-700 px-4 py-2 rounded-lg font-semibold hover:bg-emerald-50 transition">
-              Ir a tests
-            </a>
             <button id="enroll-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">
               Añadir a mi panel
             </button>
@@ -701,8 +770,26 @@ if (courseDetailContainer) {
 
           ${renderCourseContentBlocks(blueprint)}
           ${renderPsychotechnicalSection(questionBank)}
+          ${renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId)}
+          ${renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
+          ${renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
+          ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
+
+        <div id="test-history-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center p-4">
+          <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-6">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 id="test-history-title" class="text-xl font-bold text-purple-700">Historial del test</h3>
+                <p class="text-sm text-gray-600">Resultados anteriores y acceso rápido.</p>
+              </div>
+              <button id="test-history-close" class="text-gray-500 hover:text-gray-700">✕</button>
+            </div>
+            <ul id="test-history-list" class="mt-4 space-y-2"></ul>
+            <button id="test-history-attempt" class="btn w-full mt-4">Intentar test</button>
+          </div>
+        </div>
       `;
 
       const enrollBtn = document.getElementById('enroll-course-btn');
@@ -731,6 +818,11 @@ if (courseDetailContainer) {
       }
 
       bindPsychotechnicalSection(questionBank);
+      bindTestInfoToggles();
+      bindTestHistoryModal(
+        [...getCommonTests(questionBank), ...getSpecificTests(questionBank), ...getPsychotechnicalTests(questionBank)],
+        courseId,
+      );
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
@@ -775,59 +867,6 @@ if (planesContainer) {
     });
 }
 
-const testHub = document.getElementById('test-hub');
-if (testHub) {
-  const params = new URLSearchParams(window.location.search);
-  const selectedId = Number(params.get('id'));
-
-  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
-    .then(async ([coursesRes, testRes]) => {
-      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
-      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
-      const coursesPayload = await coursesRes.json();
-      const testPayload = await testRes.json();
-
-      const list = Array.isArray(coursesPayload)
-        ? coursesPayload
-        : Array.isArray(coursesPayload?.courses)
-          ? coursesPayload.courses
-          : [];
-      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > list.length;
-      const courseId = isInvalidId ? 1 : selectedId;
-      const course = isInvalidId ? list[0] : list[selectedId - 1];
-
-      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
-      const custom = testPayload?.byCourseTitle?.[course?.titulo];
-      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
-      const planStatus = getPlanStatus(getActiveUserId());
-
-      testHub.innerHTML = `
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-          <div class="flex flex-wrap items-center justify-between gap-4">
-            <div>
-              <h1 class="text-3xl font-bold text-purple-700">Tests ${course ? `· ${escapeHtml(course.titulo)}` : ''}</h1>
-              <p class="text-sm text-gray-600">Selecciona un test para comenzar.</p>
-            </div>
-            <a href="/curso.html?id=${courseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver al curso
-            </a>
-          </div>
-        </section>
-
-        ${renderTestSection('Test · Materias comunes', getCommonTests(questionBank), courseId)}
-        ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
-        ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
-        ${renderExamSimulationSection(planStatus)}
-      `;
-
-      bindTestInfoToggles();
-    })
-    .catch((error) => {
-      console.error('Error cargando tests:', error);
-      testHub.innerHTML = '<p class="text-red-600">Error cargando tests</p>';
-    });
-}
-
 const testRunner = document.getElementById('test-runner');
 if (testRunner) {
   const params = new URLSearchParams(window.location.search);
@@ -860,64 +899,130 @@ if (testRunner) {
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
 
-      testRunner.innerHTML = `
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-          <div class="flex flex-wrap items-center justify-between gap-4">
-            <div>
-              <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
-              <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
-            </div>
-            <a href="/tests.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver a tests
-            </a>
-          </div>
-        </section>
+      const testQuestions = (() => {
+        if (activeTest.id.startsWith('psy-')) {
+          const key = activeTest.id.replace('psy-', '');
+          return questionBank.psicotecnicos?.[key] || [];
+        }
+        if (activeTest.id.startsWith('comunes')) {
+          return questionBank['test-comun'] || [];
+        }
+        return questionBank['test-especifico'] || [];
+      })();
 
-        <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
-          <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
-          <form id="test-form" class="space-y-4">
-            <div class="border border-gray-200 rounded-lg p-4">
-              <p class="font-semibold text-gray-900 mb-3">${activeTest.sample.question}</p>
-              <div class="space-y-2">
-                ${activeTest.sample.options
-                  .map(
-                    (option, index) => `
-                  <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
-                    <input type="radio" name="answer" value="${index}" class="accent-purple-600">
-                    <span>${option}</span>
-                  </label>
-                `,
-                  )
-                  .join('')}
+      const normalizedQuestions = testQuestions.length
+        ? testQuestions.map((question) => normalizeQuestion(question))
+        : [getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion(), getFallbackQuestion()];
+
+      const questionsPerPage = 5;
+      let currentPage = 0;
+      let currentScore = 0;
+
+      const renderPage = () => {
+        const start = currentPage * questionsPerPage;
+        const pageQuestions = normalizedQuestions.slice(start, start + questionsPerPage);
+
+        testRunner.innerHTML = `
+          <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+              <div>
+                <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+                <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
               </div>
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+                Volver al curso
+              </a>
             </div>
-            <button type="submit" class="btn w-full">Enviar respuesta</button>
-            <p id="test-feedback" class="text-sm text-gray-600"></p>
-          </form>
-        </section>
-      `;
+          </section>
 
-      const form = document.getElementById('test-form');
-      const feedback = document.getElementById('test-feedback');
-      if (form && feedback) {
-        form.addEventListener('submit', (event) => {
-          event.preventDefault();
-          const selected = form.querySelector('input[name="answer"]:checked');
-          if (!selected) {
-            feedback.textContent = 'Selecciona una respuesta para continuar.';
-            return;
-          }
-          const answerIndex = Number(selected.value);
-          const correctIndex = activeTest.sample.options.findIndex(
-            (option) => option === activeTest.sample.correctAnswer,
-          );
-          if (answerIndex === correctIndex) {
-            feedback.textContent = '✅ ¡Correcto! Buen trabajo.';
-          } else {
-            feedback.textContent = `❌ Respuesta incorrecta. Respuesta correcta: ${activeTest.sample.correctAnswer}`;
-          }
-        });
-      }
+          <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
+            <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
+            <form id="test-form" class="space-y-6">
+              ${pageQuestions
+                .map(
+                  (question, index) => `
+                <div class="border border-gray-200 rounded-lg p-4">
+                  <p class="font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
+                  <div class="space-y-2">
+                    ${question.options
+                      .map(
+                        (option, optIndex) => `
+                      <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
+                        <input type="radio" name="answer-${start + index}" value="${optIndex}" class="accent-purple-600">
+                        <span>${option}</span>
+                      </label>
+                    `,
+                      )
+                      .join('')}
+                  </div>
+                </div>
+              `,
+                )
+                .join('')}
+              <div class="flex flex-wrap gap-3">
+                <button type="button" id="prev-page" class="btn-ghost" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
+                <button type="submit" class="btn">Enviar respuestas</button>
+                <button type="button" id="next-page" class="btn-ghost">Siguiente</button>
+              </div>
+              <p id="test-feedback" class="text-sm text-gray-600"></p>
+            </form>
+          </section>
+        `;
+
+        const form = document.getElementById('test-form');
+        const feedback = document.getElementById('test-feedback');
+        const prevBtn = document.getElementById('prev-page');
+        const nextBtn = document.getElementById('next-page');
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            if (currentPage > 0) {
+              currentPage -= 1;
+              renderPage();
+            }
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            if ((currentPage + 1) * questionsPerPage < normalizedQuestions.length) {
+              currentPage += 1;
+              renderPage();
+            }
+          });
+        }
+
+        if (form && feedback) {
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            let correct = 0;
+            pageQuestions.forEach((question, index) => {
+              const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
+              const selectedIndex = selected ? Number(selected.value) : -1;
+              const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
+              if (selectedIndex === correctIndex) {
+                correct += 1;
+              }
+            });
+            currentScore = Math.round((correct / pageQuestions.length) * 100);
+            feedback.textContent = `Puntuación de esta página: ${currentScore}%`;
+
+            const userId = getActiveUserId();
+            if (userId) {
+              const raw = localStorage.getItem(`oporail_test_history_${userId}`);
+              const history = raw ? JSON.parse(raw) : [];
+              const entry = {
+                testId: activeTest.id,
+                score: currentScore,
+                completedAt: new Date().toISOString(),
+              };
+              localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
+            }
+          });
+        }
+      };
+
+      renderPage();
     })
     .catch((error) => {
       console.error('Error cargando test:', error);
