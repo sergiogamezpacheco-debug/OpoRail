@@ -4,7 +4,7 @@
     "nombre": "Plan Gratuito",
     "descripcion": "Acceso básico para empezar a prepararte.",
     "precioMensual": "0€",
-    "precioAnual": "0€",
+    "precioAnual": "",
     "maxCursos": 1,
     "requierePago": false,
     "features": [

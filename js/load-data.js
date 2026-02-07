@@ -319,7 +319,8 @@ if (coursesContainer) {
       return res.json();
     })
     .then((cursos) => {
-      coursesContainer.innerHTML = cursos
+      const list = Array.isArray(cursos) ? cursos : Array.isArray(cursos?.courses) ? cursos.courses : [];
+      coursesContainer.innerHTML = list
         .map((c, index) => {
           const courseId = index + 1;
           const courseStateClass = c.estado === 'Disponible' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800';
@@ -357,10 +358,11 @@ if (courseDetailContainer) {
       return res.json();
     })
     .then(async (cursos) => {
-      const fallbackCourse = cursos[0];
-      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > cursos.length;
+      const list = Array.isArray(cursos) ? cursos : Array.isArray(cursos?.courses) ? cursos.courses : [];
+      const fallbackCourse = list[0];
+      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > list.length;
       const courseId = isInvalidId ? 1 : selectedId;
-      const course = isInvalidId ? fallbackCourse : cursos[selectedId - 1];
+      const course = isInvalidId ? fallbackCourse : list[selectedId - 1];
 
       if (!course) {
         courseDetailContainer.innerHTML = '<p class="text-red-600">No se encontró el curso solicitado.</p>';
