@@ -17,9 +17,51 @@ function getActiveUserId() {
   return raw || null;
 }
 
+const DEFAULT_PLANS = [
+  { id: 'free', maxCursos: 1, requierePago: false },
+  { id: 'basic', maxCursos: 1, requierePago: true },
+  { id: 'advanced', maxCursos: 0, requierePago: true },
+];
+
+function getPlanDefinition(planId) {
+  const raw = localStorage.getItem('oporail_plan_catalog');
+  if (raw) {
+    try {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) {
+        return parsed.find((plan) => plan.id === planId) || null;
+      }
+    } catch {
+      return DEFAULT_PLANS.find((plan) => plan.id === planId) || null;
+    }
+  }
+  return DEFAULT_PLANS.find((plan) => plan.id === planId) || null;
+}
+
+function getPlanStatus(uid) {
+  const raw = localStorage.getItem(`oporail_plan_${uid}`);
+  if (!raw) return { planId: 'free', paid: false };
+  try {
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object') return { planId: 'free', paid: false };
+    return {
+      planId: parsed.planId || 'free',
+      paid: Boolean(parsed.paid),
+    };
+  } catch {
+    return { planId: 'free', paid: false };
+  }
+}
+
 function addEnrollment(courseId) {
   const uid = getActiveUserId();
   if (!uid) return { ok: false, reason: 'not-authenticated' };
+
+  const planStatus = getPlanStatus(uid);
+  const plan = getPlanDefinition(planStatus.planId);
+  if (plan?.requierePago && !planStatus.paid) {
+    return { ok: false, reason: 'payment-required' };
+  }
 
   const key = `oporail_enrollments_${uid}`;
   const raw = localStorage.getItem(key);
@@ -33,6 +75,10 @@ function addEnrollment(courseId) {
   }
 
   if (!list.includes(courseId)) {
+    const maxCourses = plan?.maxCursos ?? 0;
+    if (maxCourses > 0 && list.length >= maxCourses) {
+      return { ok: false, reason: 'limit-reached', limit: maxCourses };
+    }
     list.push(courseId);
     localStorage.setItem(key, JSON.stringify(list));
   }
@@ -378,7 +424,15 @@ if (courseDetailContainer) {
           const result = addEnrollment(id);
 
           if (!result.ok) {
-            enrollFeedback.textContent = 'Inicia sesión para añadir este curso a tu panel.';
+            if (result.reason === 'not-authenticated') {
+              enrollFeedback.textContent = 'Inicia sesión para añadir este curso a tu panel.';
+            } else if (result.reason === 'payment-required') {
+              enrollFeedback.innerHTML = 'Necesitas activar y pagar un plan para añadir cursos. Ve a <a class="text-purple-700 font-semibold hover:underline" href="/planes.html">planes</a> o <a class="text-purple-700 font-semibold hover:underline" href="/user/settings.html">ajustes</a>.';
+            } else if (result.reason === 'limit-reached') {
+              enrollFeedback.innerHTML = 'Has alcanzado el límite de tu plan. Cambia a <a class="text-purple-700 font-semibold hover:underline" href="/planes.html">Plan Avanzado</a> para añadir más cursos.';
+            } else {
+              enrollFeedback.textContent = 'No se pudo añadir el curso en este momento.';
+            }
             return;
           }
 
@@ -400,9 +454,11 @@ if (planesContainer) {
       return res.json();
     })
     .then((planes) => {
+      localStorage.setItem('oporail_plan_catalog', JSON.stringify(planes));
       planesContainer.innerHTML = planes
         .map((p) => {
           const features = Array.isArray(p.features) ? p.features : [];
+          const priceLine = [p.precioMensual, p.precioAnual].filter(Boolean).join(' · ');
           return `
         <article class="bg-purple-700 text-white rounded-xl p-6 shadow-lg hover:scale-[1.02] transition">
           <h3 class="text-xl font-bold mb-2">${escapeHtml(p.nombre)}</h3>
@@ -411,8 +467,8 @@ if (planesContainer) {
             ${features.map((feature) => `<li>• ${escapeHtml(feature)}</li>`).join('')}
           </ul>
           <div class="flex items-center justify-between gap-4">
-            <p class="text-2xl font-bold">${escapeHtml(p.precio)}</p>
-            <a href="/user/index.html" class="inline-flex items-center bg-white text-purple-700 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition">
+            <p class="text-lg font-bold">${escapeHtml(priceLine)}</p>
+            <a href="/user/settings.html" class="inline-flex items-center bg-white text-purple-700 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition">
               Elegir plan
             </a>
           </div>

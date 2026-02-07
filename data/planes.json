@@ -1,32 +1,44 @@
 [
   {
+    "id": "free",
+    "nombre": "Plan Gratuito",
+    "descripcion": "Acceso básico para empezar a prepararte.",
+    "precioMensual": "0€",
+    "precioAnual": "0€",
+    "maxCursos": 1,
+    "requierePago": false,
+    "features": [
+      "Acceso a 1 curso",
+      "Material introductorio",
+      "Actualizaciones básicas"
+    ]
+  },
+  {
+    "id": "basic",
     "nombre": "Plan Básico",
-    "descripcion": "Incluye acceso a los cursos esenciales y materiales introductorios.",
-    "precio": "49€",
+    "descripcion": "Para estudiantes que quieren avanzar con foco.",
+    "precioMensual": "7,49€/mes",
+    "precioAnual": "49€/año",
+    "maxCursos": 1,
+    "requierePago": true,
     "features": [
-      "Acceso a cursos clave",
-      "Materiales introductorios",
-      "Actualizaciones periódicas"
+      "Acceso a 1 curso",
+      "Tests básicos incluidos",
+      "Soporte por email"
     ]
   },
   {
+    "id": "advanced",
     "nombre": "Plan Avanzado",
-    "descripcion": "Incluye cursos avanzados, materiales extra y tests de práctica.",
-    "precio": "99€",
+    "descripcion": "Para quienes quieren acceso total y sin límites.",
+    "precioMensual": "12,49€/mes",
+    "precioAnual": "79€/año",
+    "maxCursos": 0,
+    "requierePago": true,
     "features": [
-      "Cursos avanzados",
-      "Tests de práctica",
-      "Soporte de tutores"
-    ]
-  },
-  {
-    "nombre": "Plan Premium",
-    "descripcion": "Acceso a todos los cursos, tests, simuladores y tutorías personalizadas.",
-    "precio": "149€",
-    "features": [
-      "Acceso total",
-      "Simulacros completos",
-      "Tutorías personalizadas"
+      "Acceso ilimitado a cursos",
+      "Tests avanzados y simulacros",
+      "Soporte prioritario"
     ]
   }
 ]
