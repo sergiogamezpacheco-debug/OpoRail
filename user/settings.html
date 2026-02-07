@@ -41,6 +41,39 @@
         <p id="plan-feedback" class="text-sm text-gray-600 mt-3"></p>
       </div>
 
+      <div>
+        <h2 class="text-2xl font-bold text-purple-700 mb-2">Métodos de pago</h2>
+        <p class="text-gray-700 mb-4">Configura el método preferido (Stripe, PayPal, tarjeta, transferencia o Bizum).</p>
+        <div id="payment-methods" class="grid gap-4 md:grid-cols-2"></div>
+        <div class="mt-4">
+          <label class="block text-sm text-gray-600 mb-1" for="payment-reference">Referencia de pago</label>
+          <input id="payment-reference" type="text" placeholder="ID transacción / referencia" class="w-full border border-gray-200 rounded-lg px-3 py-2">
+          <button id="save-payment" class="btn mt-3">Guardar método y simular pago</button>
+          <p id="payment-feedback" class="text-sm text-gray-600 mt-2"></p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-purple-700 mb-2">Recordatorios de inactividad</h2>
+        <p class="text-gray-700 mb-4">Enviaremos un correo cuando el usuario lleve varios días sin entrar (requiere webhook backend).</p>
+        <div class="grid gap-4 md:grid-cols-2">
+          <label class="toggle">
+            <input id="reminder-enabled" type="checkbox">
+            <span>Activar recordatorios</span>
+          </label>
+          <div>
+            <label class="block text-sm text-gray-600 mb-1" for="reminder-days">Días de inactividad</label>
+            <input id="reminder-days" type="number" min="1" value="7" class="w-full border border-gray-200 rounded-lg px-3 py-2">
+          </div>
+          <div class="md:col-span-2">
+            <label class="block text-sm text-gray-600 mb-1" for="reminder-webhook">Webhook de envío</label>
+            <input id="reminder-webhook" type="url" placeholder="https://tu-servidor.com/reminders" class="w-full border border-gray-200 rounded-lg px-3 py-2">
+          </div>
+        </div>
+        <button id="save-reminder" class="btn mt-3">Guardar recordatorios</button>
+        <p id="reminder-feedback" class="text-sm text-gray-600 mt-2"></p>
+      </div>
+
       <button id="logout-btn" class="btn-danger">Cerrar sesión</button>
     </div>
   </main>
