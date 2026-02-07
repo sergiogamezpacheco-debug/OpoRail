@@ -1,4 +1,10 @@
 import { logout, onUserChanged, requireAuth } from "./auth.js";
+import {
+  checkReminder,
+  getReminderConfig,
+  saveReminderConfig,
+  updateLastActive,
+} from "./reminders.js";
 
 requireAuth();
 
@@ -101,6 +107,37 @@ async function getCourseCatalog() {
   } catch (error) {
     console.error('Error cargando catálogo de cursos:', error);
     return FALLBACK_COURSES;
+  }
+}
+
+async function getAdminList() {
+  try {
+    const res = await fetch(resolveDataPath('admins.json'));
+    if (!res.ok) throw new Error('No se pudo cargar admins.json');
+    const payload = await res.json();
+    const emails = Array.isArray(payload?.emails) ? payload.emails : [];
+    localStorage.setItem('oporail_admins', JSON.stringify(emails));
+    return emails;
+  } catch (error) {
+    console.error('Error cargando admins:', error);
+  }
+  const raw = localStorage.getItem('oporail_admins');
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function setAdminSectionVisible(isAdmin) {
+  const adminSection = document.getElementById('admin-section');
+  if (!adminSection) return;
+  if (isAdmin) {
+    adminSection.classList.remove('hidden');
+  } else {
+    adminSection.classList.add('hidden');
   }
 }
 
@@ -295,12 +332,105 @@ async function renderPlanSettings(user) {
   });
 }
 
+function renderPaymentMethods(user) {
+  const container = document.getElementById('payment-methods');
+  const referenceInput = document.getElementById('payment-reference');
+  const saveButton = document.getElementById('save-payment');
+  const feedback = document.getElementById('payment-feedback');
+  if (!container || !referenceInput || !saveButton || !feedback) return;
+
+  const methods = [
+    { id: 'stripe', label: 'Stripe' },
+    { id: 'paypal', label: 'PayPal' },
+    { id: 'card', label: 'Tarjeta' },
+    { id: 'transfer', label: 'Transferencia' },
+    { id: 'bizum', label: 'Bizum' },
+  ];
+
+  const raw = localStorage.getItem(`oporail_payment_${user.uid}`);
+  let paymentStatus = { method: 'stripe', reference: '' };
+  if (raw) {
+    try {
+      paymentStatus = { ...paymentStatus, ...JSON.parse(raw) };
+    } catch {
+      paymentStatus = { method: 'stripe', reference: '' };
+    }
+  }
+
+  container.innerHTML = methods
+    .map(
+      (method) => `
+      <label class="flex items-center gap-3 border border-gray-200 rounded-lg p-3">
+        <input type="radio" name="payment-method" value="${method.id}" ${paymentStatus.method === method.id ? 'checked' : ''}>
+        <span class="text-gray-700 font-semibold">${method.label}</span>
+      </label>
+    `,
+    )
+    .join('');
+
+  referenceInput.value = paymentStatus.reference || '';
+
+  saveButton.addEventListener('click', () => {
+    const selected = container.querySelector('input[name="payment-method"]:checked');
+    if (!selected) {
+      feedback.textContent = 'Selecciona un método de pago.';
+      return;
+    }
+    const reference = referenceInput.value.trim();
+    localStorage.setItem(
+      `oporail_payment_${user.uid}`,
+      JSON.stringify({ method: selected.value, reference, updatedAt: new Date().toISOString() }),
+    );
+
+    const planStatus = getPlanStatus(user.uid);
+    if (planStatus.planId !== 'free') {
+      planStatus.paid = true;
+      savePlanStatus(user.uid, planStatus);
+      fillPlanInfo(user);
+    }
+
+    feedback.textContent = 'Pago registrado (simulado). Ya puedes añadir cursos según tu plan.';
+  });
+}
+
+function renderReminderSettings(user) {
+  const enabledInput = document.getElementById('reminder-enabled');
+  const daysInput = document.getElementById('reminder-days');
+  const webhookInput = document.getElementById('reminder-webhook');
+  const saveButton = document.getElementById('save-reminder');
+  const feedback = document.getElementById('reminder-feedback');
+  if (!enabledInput || !daysInput || !webhookInput || !saveButton || !feedback) return;
+
+  const config = getReminderConfig(user.uid);
+  enabledInput.checked = Boolean(config.enabled);
+  daysInput.value = config.daysInactive || 7;
+  webhookInput.value = config.webhookUrl || '';
+
+  saveButton.addEventListener('click', () => {
+    const updated = {
+      enabled: enabledInput.checked,
+      daysInactive: Number(daysInput.value) || 7,
+      webhookUrl: webhookInput.value.trim(),
+    };
+    saveReminderConfig(user.uid, { ...config, ...updated });
+    feedback.textContent = 'Recordatorios guardados. Recuerda configurar el webhook en tu backend.';
+  });
+}
+
 onUserChanged((user) => {
   if (!user) return;
   fillUserInfo(user);
   fillPlanInfo(user);
   renderDashboard(user);
   renderPlanSettings(user);
+  renderPaymentMethods(user);
+  renderReminderSettings(user);
+  updateLastActive(user.uid);
+  checkReminder(user.uid, user.email || '');
+  getAdminList().then((admins) => {
+    const isAdmin = admins.includes(user.email);
+    setAdminSectionVisible(isAdmin);
+  });
 });
 
 bindLogout();
