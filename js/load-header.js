@@ -1,7 +1,7 @@
 fetch('/data/site.json')
   .then((res) => res.json())
   .then((site) => {
-    const isCoursePage = window.location.pathname.includes('/curso');
+    const isCoursePage = ['/curso', '/test-info', '/test-run'].some((route) => window.location.pathname.includes(route));
     const headerClass = isCoursePage
       ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700 shadow-md'
       : 'absolute top-0 left-0 right-0 z-20 text-white';
