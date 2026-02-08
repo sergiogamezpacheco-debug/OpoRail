@@ -847,6 +847,16 @@ if (testRunner) {
 
       const finishTest = () => {
         if (timerId) clearInterval(timerId);
+        const form = document.getElementById('test-form');
+        if (form) {
+          const start = currentPage * questionsPerPage;
+          const pageQuestions = trimmedQuestions.slice(start, start + questionsPerPage);
+          pageQuestions.forEach((_, index) => {
+            const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
+            const selectedIndex = selected ? Number(selected.value) : null;
+            answers[start + index] = selectedIndex;
+          });
+        }
         let correct = 0;
         trimmedQuestions.forEach((question, index) => {
           const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
@@ -1014,6 +1024,13 @@ if (testRunner) {
         }
 
         if (form && feedback) {
+          form.addEventListener('change', () => {
+            pageQuestions.forEach((_, index) => {
+              const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
+              const selectedIndex = selected ? Number(selected.value) : null;
+              answers[start + index] = selectedIndex;
+            });
+          });
           form.addEventListener('submit', (event) => {
             event.preventDefault();
             pageQuestions.forEach((_, index) => {
