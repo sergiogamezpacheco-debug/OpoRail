@@ -214,6 +214,25 @@ function renderCourseContentBlocks(blueprint) {
   `;
 }
 
+function renderTemarioSection() {
+  const items = [
+    'Temario Común 2025',
+    'Temario Específico 2025',
+    'Temario Común Resumido y Optimizado por OpoRail',
+    'Temario Específico Resumido y Optimizado por OpoRail',
+  ];
+
+  return `
+    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-purple-700 mb-2">Temario</h2>
+      <p class="text-sm text-gray-600 mb-4">Material actualizado y optimizado para la convocatoria 2025.</p>
+      <ul class="grid md:grid-cols-2 gap-3 text-sm text-gray-700">
+        ${items.map((item) => `<li class="bg-gray-50 border border-gray-100 rounded-lg p-3">• ${item}</li>`).join('')}
+      </ul>
+    </section>
+  `;
+}
+
 function getFallbackQuestionBank() {
   return {
     'test-comun': [],
@@ -660,6 +679,11 @@ if (courseDetailContainer) {
         getQuestionBankForCourse(course.titulo),
       ]);
 
+      const userId = getActiveUserId();
+      const planStatus = getPlanStatus(userId);
+      const planDefinition = getPlanDefinition(planStatus.planId);
+      const hasAccess = Boolean(userId) && (!planDefinition?.requierePago || planStatus.paid);
+
       courseDetailContainer.innerHTML = `
         <article class="max-w-5xl mx-auto bg-white rounded-2xl shadow-md p-8 border border-gray-100">
           <p class="text-sm font-semibold text-purple-700 mb-2">Curso OpoRail</p>
@@ -699,11 +723,12 @@ if (courseDetailContainer) {
           </section>
 
           ${renderCourseContentBlocks(blueprint)}
-          ${renderPsychotechnicalSection(questionBank)}
-          ${renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId)}
-          ${renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
-          ${renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
-          ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
+          ${hasAccess ? renderTemarioSection() : ''}
+          ${hasAccess ? renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId) : ''}
+          ${hasAccess ? renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId) : ''}
+          ${hasAccess ? renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId) : ''}
+          ${hasAccess ? renderExamSimulationSection(planStatus) : ''}
+          ${!hasAccess ? renderPsychotechnicalSection(questionBank) : ''}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
       `;
