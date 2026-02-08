@@ -872,9 +872,46 @@ if (testRunner) {
           <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
             <h1 class="text-3xl font-bold text-purple-700">Test finalizado</h1>
             <p class="text-sm text-gray-600 mt-2">Puntuación final: <strong>${score}%</strong></p>
+            <div class="mt-4 text-sm text-gray-600 space-y-1">
+              <p><strong>Preguntas:</strong> ${totalQuestions}</p>
+              <p><strong>Tiempo empleado:</strong> ${formatTime(30 * 60 - remainingSeconds)}</p>
+            </div>
             <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Volver al curso
             </a>
+          </section>
+
+          <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
+            <h2 class="text-xl font-bold text-purple-700 mb-4">Revisión de preguntas</h2>
+            <div class="space-y-4">
+              ${trimmedQuestions
+                .map((question, index) => {
+                  const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
+                  const selectedIndex = answers[index];
+                  return `
+                  <article class="border border-gray-200 rounded-lg p-4">
+                    <p class="font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
+                    <ul class="space-y-1 text-sm">
+                      ${question.options
+                        .map((option, optIndex) => {
+                          const isCorrect = optIndex === correctIndex;
+                          const isSelected = optIndex === selectedIndex;
+                          const classes = isCorrect
+                            ? 'text-emerald-700 font-semibold'
+                            : isSelected
+                              ? 'text-red-600'
+                              : 'text-gray-700';
+                          const label = isCorrect ? ' (correcta)' : isSelected ? ' (tu respuesta)' : '';
+                          return `<li class="${classes}">• ${option}${label}</li>`;
+                        })
+                        .join('')}
+                    </ul>
+                    ${question.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${question.explanation}</p>` : ''}
+                  </article>
+                `;
+                })
+                .join('')}
+            </div>
           </section>
         `;
       };
