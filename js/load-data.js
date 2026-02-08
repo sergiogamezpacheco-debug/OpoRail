@@ -902,7 +902,19 @@ if (testRunner) {
                               ? 'text-red-600 font-semibold'
                               : 'text-gray-700';
                           const marker = isCorrect ? ' ✅' : isSelected ? ' ❌' : '';
-                          return `<li class="${classes}">• ${option}${marker}</li>`;
+                          const radioClass = isSelected
+                            ? isCorrect
+                              ? 'border-emerald-600 bg-emerald-600'
+                              : 'border-red-600 bg-red-600'
+                            : 'border-gray-300 bg-white';
+                          return `
+                            <li class="flex items-center gap-2 ${classes}">
+                              <span class="inline-flex h-4 w-4 items-center justify-center rounded-full border ${radioClass}">
+                                ${isSelected ? '<span class="h-2 w-2 rounded-full bg-white"></span>' : ''}
+                              </span>
+                              <span>${option}${marker}</span>
+                            </li>
+                          `;
                         })
                         .join('')}
                     </ul>
