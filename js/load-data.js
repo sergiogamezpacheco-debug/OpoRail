@@ -233,6 +233,57 @@ function renderTemarioSection() {
   `;
 }
 
+function renderPublicPsychotechnicalCard() {
+  const items = getPsychotechnicalMeta().map((item) => `<li>• ${item.label}</li>`).join('');
+  return `
+    <article class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+      <h3 class="text-lg font-bold text-purple-700 mb-2">Psicotécnicos</h3>
+      <p class="text-sm text-gray-700 mb-3">Bloques habituales en procesos de mantenimiento.</p>
+      <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+        ${items}
+      </ul>
+    </article>
+  `;
+}
+
+function renderPublicOverview() {
+  return `
+    <section class="mt-10 grid md:grid-cols-2 gap-4">
+      <article class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+        <h3 class="text-lg font-bold text-purple-700 mb-2">Test · Temario común</h3>
+        <p class="text-sm text-gray-700 mb-3">Cuestionarios sobre legislación básica, prevención y marco general ferroviario.</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+          <li>Bloques de 25/50 preguntas con corrección inmediata</li>
+          <li>Modo repaso por temas y modo examen cronometrado</li>
+          <li>Registro de errores frecuentes para reforzar estudio</li>
+        </ul>
+      </article>
+
+      <article class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+        <h3 class="text-lg font-bold text-purple-700 mb-2">Test · Temario específico</h3>
+        <p class="text-sm text-gray-700 mb-3">Banco específico por especialidad de mantenimiento con dificultad progresiva.</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+          <li>Preguntas técnicas por subtema</li>
+          <li>Mini-simulacros por especialidad</li>
+          <li>Indicadores de acierto por bloque</li>
+        </ul>
+      </article>
+
+      ${renderPublicPsychotechnicalCard()}
+
+      <article class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+        <h3 class="text-lg font-bold text-purple-700 mb-2">Simulacro de examen</h3>
+        <p class="text-sm text-gray-700 mb-3">Simulacros completos por convocatoria (2022-2025) con informe de resultados.</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">
+          <li>Simulacro por año y especialidad</li>
+          <li>Informe de resultados y ranking</li>
+          <li>Reintento inteligente por errores</li>
+        </ul>
+      </article>
+    </section>
+  `;
+}
+
 function getFallbackQuestionBank() {
   return {
     'test-comun': [],
@@ -469,7 +520,7 @@ function getPsychotechnicalTests(questionBank) {
   });
 }
 
-function renderTestSection(title, tests, courseId) {
+function renderTestSection(title, tests, courseId, compact = false) {
   return `
     <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
       <h2 class="text-2xl font-bold text-purple-700 mb-2">${title}</h2>
@@ -483,17 +534,19 @@ function renderTestSection(title, tests, courseId) {
                 <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
                 <p class="text-sm text-gray-600">Tiempo disponible: ${test.duration}</p>
               </div>
-              <button class="test-info-btn w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold" data-test-info="${test.id}">i</button>
+              ${compact ? '' : `<button class="test-info-btn w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold" data-test-info="${test.id}">i</button>`}
             </div>
-            <p class="text-sm text-gray-600">${test.info}</p>
-            <div id="test-info-${test.id}" class="hidden text-sm text-gray-700">
-              <p class="font-semibold">${test.sample.question}</p>
-              <ul class="list-disc pl-5 mt-2 space-y-1">
-                ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
-              </ul>
-              <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
-              ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
-            </div>
+            ${compact ? '' : `<p class="text-sm text-gray-600">${test.info}</p>`}
+            ${compact ? '' : `
+              <div id="test-info-${test.id}" class="hidden text-sm text-gray-700">
+                <p class="font-semibold">${test.sample.question}</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                  ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
+                </ul>
+                <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
+                ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
+              </div>
+            `}
             <a class="btn w-full text-center" href="/test-info.html?course=${courseId}&test=${test.id}">
               Ver historial / Intentar test
             </a>
@@ -674,10 +727,7 @@ if (courseDetailContainer) {
         return;
       }
 
-      const [blueprint, questionBank] = await Promise.all([
-        getCourseBlueprint(course.titulo),
-        getQuestionBankForCourse(course.titulo),
-      ]);
+      const questionBank = await getQuestionBankForCourse(course.titulo);
 
       const userId = getActiveUserId();
       const planStatus = getPlanStatus(userId);
@@ -722,13 +772,11 @@ if (courseDetailContainer) {
             </div>
           </section>
 
-          ${renderCourseContentBlocks(blueprint)}
-          ${hasAccess ? renderTemarioSection() : ''}
-          ${hasAccess ? renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId) : ''}
-          ${hasAccess ? renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId) : ''}
-          ${hasAccess ? renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId) : ''}
+          ${renderTemarioSection()}
+          ${hasAccess ? renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId, true) : renderPublicOverview()}
+          ${hasAccess ? renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId, true) : ''}
+          ${hasAccess ? renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId, true) : ''}
           ${hasAccess ? renderExamSimulationSection(planStatus) : ''}
-          ${!hasAccess ? renderPsychotechnicalSection(questionBank) : ''}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
       `;
