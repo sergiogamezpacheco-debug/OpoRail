@@ -475,7 +475,9 @@ function renderTestSection(title, tests, courseId) {
               <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
               ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
-            <a class="btn w-full text-center" href="/test-run.html?course=${courseId}&test=${test.id}">Comenzar test</a>
+            <a class="btn w-full text-center" href="/test-info.html?course=${courseId}&test=${test.id}">
+              Ver historial / Intentar test
+            </a>
           </article>
         `,
           )
@@ -674,9 +676,6 @@ if (courseDetailContainer) {
             <a href="/user/index.html" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Acceder al panel
             </a>
-            <a href="/tests.html?id=${courseId}" class="inline-flex bg-white border border-emerald-600 text-emerald-700 px-4 py-2 rounded-lg font-semibold hover:bg-emerald-50 transition">
-              Ir a tests
-            </a>
             <button id="enroll-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">
               Añadir a mi panel
             </button>
@@ -701,6 +700,10 @@ if (courseDetailContainer) {
 
           ${renderCourseContentBlocks(blueprint)}
           ${renderPsychotechnicalSection(questionBank)}
+          ${renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId)}
+          ${renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
+          ${renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
+          ${renderExamSimulationSection(getPlanStatus(getActiveUserId()))}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
         </article>
       `;
@@ -731,6 +734,7 @@ if (courseDetailContainer) {
       }
 
       bindPsychotechnicalSection(questionBank);
+      bindTestInfoToggles();
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
@@ -775,59 +779,6 @@ if (planesContainer) {
     });
 }
 
-const testHub = document.getElementById('test-hub');
-if (testHub) {
-  const params = new URLSearchParams(window.location.search);
-  const selectedId = Number(params.get('id'));
-
-  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
-    .then(async ([coursesRes, testRes]) => {
-      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
-      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
-      const coursesPayload = await coursesRes.json();
-      const testPayload = await testRes.json();
-
-      const list = Array.isArray(coursesPayload)
-        ? coursesPayload
-        : Array.isArray(coursesPayload?.courses)
-          ? coursesPayload.courses
-          : [];
-      const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > list.length;
-      const courseId = isInvalidId ? 1 : selectedId;
-      const course = isInvalidId ? list[0] : list[selectedId - 1];
-
-      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
-      const custom = testPayload?.byCourseTitle?.[course?.titulo];
-      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
-      const planStatus = getPlanStatus(getActiveUserId());
-
-      testHub.innerHTML = `
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-          <div class="flex flex-wrap items-center justify-between gap-4">
-            <div>
-              <h1 class="text-3xl font-bold text-purple-700">Tests ${course ? `· ${escapeHtml(course.titulo)}` : ''}</h1>
-              <p class="text-sm text-gray-600">Selecciona un test para comenzar.</p>
-            </div>
-            <a href="/curso.html?id=${courseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver al curso
-            </a>
-          </div>
-        </section>
-
-        ${renderTestSection('Test · Materias comunes', getCommonTests(questionBank), courseId)}
-        ${renderTestSection('Test · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId)}
-        ${renderTestSection('Test · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId)}
-        ${renderExamSimulationSection(planStatus)}
-      `;
-
-      bindTestInfoToggles();
-    })
-    .catch((error) => {
-      console.error('Error cargando tests:', error);
-      testHub.innerHTML = '<p class="text-red-600">Error cargando tests</p>';
-    });
-}
-
 const testRunner = document.getElementById('test-runner');
 if (testRunner) {
   const params = new URLSearchParams(window.location.search);
@@ -860,68 +811,276 @@ if (testRunner) {
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
 
-      testRunner.innerHTML = `
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-          <div class="flex flex-wrap items-center justify-between gap-4">
-            <div>
-              <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
-              <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
-            </div>
-            <a href="/tests.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver a tests
-            </a>
-          </div>
-        </section>
+      const testQuestions = (() => {
+        if (activeTest.id.startsWith('psy-')) {
+          const key = activeTest.id.replace('psy-', '');
+          return questionBank.psicotecnicos?.[key] || [];
+        }
+        if (activeTest.id.startsWith('comunes')) {
+          return questionBank['test-comun'] || [];
+        }
+        return questionBank['test-especifico'] || [];
+      })();
 
-        <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
-          <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
-          <form id="test-form" class="space-y-4">
-            <div class="border border-gray-200 rounded-lg p-4">
-              <p class="font-semibold text-gray-900 mb-3">${activeTest.sample.question}</p>
-              <div class="space-y-2">
-                ${activeTest.sample.options
-                  .map(
-                    (option, index) => `
-                  <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
-                    <input type="radio" name="answer" value="${index}" class="accent-purple-600">
-                    <span>${option}</span>
-                  </label>
-                `,
-                  )
-                  .join('')}
-              </div>
-            </div>
-            <button type="submit" class="btn w-full">Enviar respuesta</button>
-            <p id="test-feedback" class="text-sm text-gray-600"></p>
-          </form>
-        </section>
-      `;
+      const normalizedQuestions = testQuestions.length
+        ? testQuestions.map((question) => normalizeQuestion(question))
+        : [];
+      while (normalizedQuestions.length < 20) {
+        const fallback = getFallbackQuestion();
+        fallback.question = `Pregunta de ejemplo ${normalizedQuestions.length + 1}`;
+        normalizedQuestions.push(fallback);
+      }
+      const totalQuestions = 20;
+      const trimmedQuestions = normalizedQuestions.slice(0, totalQuestions);
 
-      const form = document.getElementById('test-form');
-      const feedback = document.getElementById('test-feedback');
-      if (form && feedback) {
-        form.addEventListener('submit', (event) => {
-          event.preventDefault();
-          const selected = form.querySelector('input[name="answer"]:checked');
-          if (!selected) {
-            feedback.textContent = 'Selecciona una respuesta para continuar.';
-            return;
-          }
-          const answerIndex = Number(selected.value);
-          const correctIndex = activeTest.sample.options.findIndex(
-            (option) => option === activeTest.sample.correctAnswer,
-          );
-          if (answerIndex === correctIndex) {
-            feedback.textContent = '✅ ¡Correcto! Buen trabajo.';
-          } else {
-            feedback.textContent = `❌ Respuesta incorrecta. Respuesta correcta: ${activeTest.sample.correctAnswer}`;
+      const questionsPerPage = 5;
+      let currentPage = 0;
+      const answers = Array(totalQuestions).fill(null);
+      let remainingSeconds = 30 * 60;
+      let timerId;
+
+      const formatTime = (seconds) => {
+        const mins = String(Math.floor(seconds / 60)).padStart(2, '0');
+        const secs = String(seconds % 60).padStart(2, '0');
+        return `${mins}:${secs}`;
+      };
+
+      const finishTest = () => {
+        if (timerId) clearInterval(timerId);
+        let correct = 0;
+        trimmedQuestions.forEach((question, index) => {
+          const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
+          if (answers[index] === correctIndex) {
+            correct += 1;
           }
         });
-      }
+        const score = Math.round((correct / totalQuestions) * 100);
+
+        const userId = getActiveUserId();
+        if (userId) {
+          const raw = localStorage.getItem(`oporail_test_history_${userId}`);
+          const history = raw ? JSON.parse(raw) : [];
+          const entry = {
+            testId: activeTest.id,
+            score,
+            completedAt: new Date().toISOString(),
+          };
+          localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
+        }
+
+        testRunner.innerHTML = `
+          <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+            <h1 class="text-3xl font-bold text-purple-700">Test finalizado</h1>
+            <p class="text-sm text-gray-600 mt-2">Puntuación final: <strong>${score}%</strong></p>
+            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al curso
+            </a>
+          </section>
+        `;
+      };
+
+      const renderPage = () => {
+        const start = currentPage * questionsPerPage;
+        const pageQuestions = trimmedQuestions.slice(start, start + questionsPerPage);
+
+        testRunner.innerHTML = `
+          <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+              <div>
+                <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+                <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
+              </div>
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+                Volver al curso
+              </a>
+            </div>
+            <p class="mt-3 text-sm text-gray-600">Tiempo restante: <span id="test-timer" class="font-semibold text-purple-700">${formatTime(remainingSeconds)}</span></p>
+            <p class="text-sm text-gray-600">Preguntas: ${totalQuestions} · Página ${currentPage + 1} / ${Math.ceil(totalQuestions / questionsPerPage)}</p>
+          </section>
+
+          <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
+            <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
+            <form id="test-form" class="space-y-6">
+              ${pageQuestions
+                .map(
+                  (question, index) => `
+                <div class="border border-gray-200 rounded-lg p-4">
+                  <p class="font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
+                  <div class="space-y-2">
+                    ${question.options
+                      .map(
+                        (option, optIndex) => `
+                      <label class="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 cursor-pointer hover:border-purple-500 transition">
+                        <input type="radio" name="answer-${start + index}" value="${optIndex}" class="accent-purple-600" ${answers[start + index] === optIndex ? 'checked' : ''}>
+                        <span>${option}</span>
+                      </label>
+                    `,
+                      )
+                      .join('')}
+                  </div>
+                </div>
+              `,
+                )
+                .join('')}
+              <div class="flex flex-wrap gap-3">
+                <button type="button" id="prev-page" class="btn-ghost" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
+                <button type="submit" class="btn">Guardar página</button>
+                <button type="button" id="next-page" class="btn-ghost">Siguiente</button>
+                <button type="button" id="finish-test" class="btn">Finalizar test</button>
+              </div>
+              <p id="test-feedback" class="text-sm text-gray-600"></p>
+            </form>
+          </section>
+        `;
+
+        const form = document.getElementById('test-form');
+        const feedback = document.getElementById('test-feedback');
+        const prevBtn = document.getElementById('prev-page');
+        const nextBtn = document.getElementById('next-page');
+        const finishBtn = document.getElementById('finish-test');
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            if (currentPage > 0) {
+              currentPage -= 1;
+              renderPage();
+            }
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            if ((currentPage + 1) * questionsPerPage < trimmedQuestions.length) {
+              currentPage += 1;
+              renderPage();
+            }
+          });
+        }
+
+        if (finishBtn) {
+          finishBtn.addEventListener('click', finishTest);
+        }
+
+        if (form && feedback) {
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            pageQuestions.forEach((_, index) => {
+              const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
+              const selectedIndex = selected ? Number(selected.value) : null;
+              answers[start + index] = selectedIndex;
+            });
+            feedback.textContent = 'Respuestas guardadas en esta página.';
+          });
+        }
+      };
+
+      renderPage();
+      timerId = setInterval(() => {
+        remainingSeconds -= 1;
+        const timerEl = document.getElementById('test-timer');
+        if (timerEl) timerEl.textContent = formatTime(remainingSeconds);
+        if (remainingSeconds <= 0) {
+          finishTest();
+        }
+      }, 1000);
     })
     .catch((error) => {
       console.error('Error cargando test:', error);
       testRunner.innerHTML = '<p class="text-red-600">Error cargando el test</p>';
+    });
+}
+
+const testInfo = document.getElementById('test-info');
+if (testInfo) {
+  const params = new URLSearchParams(window.location.search);
+  const courseId = Number(params.get('course'));
+  const testId = params.get('test');
+
+  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
+    .then(async ([coursesRes, testRes]) => {
+      if (!coursesRes.ok) throw new Error('Cursos no encontrados');
+      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
+      const coursesPayload = await coursesRes.json();
+      const testPayload = await testRes.json();
+
+      const list = Array.isArray(coursesPayload)
+        ? coursesPayload
+        : Array.isArray(coursesPayload?.courses)
+          ? coursesPayload.courses
+          : [];
+      const resolvedCourseId = Number.isNaN(courseId) || courseId < 1 || courseId > list.length ? 1 : courseId;
+      const course = list[resolvedCourseId - 1];
+
+      const base = mergeQuestionBank(getFallbackQuestionBank(), testPayload.default || {});
+      const custom = testPayload?.byCourseTitle?.[course?.titulo];
+      const questionBank = custom ? mergeQuestionBank(base, custom) : base;
+
+      const allTests = [
+        ...getCommonTests(questionBank),
+        ...getSpecificTests(questionBank),
+        ...getPsychotechnicalTests(questionBank),
+      ];
+      const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
+
+      const userId = getActiveUserId();
+      const rawHistory = userId ? localStorage.getItem(`oporail_test_history_${userId}`) : null;
+      const history = rawHistory ? JSON.parse(rawHistory) : [];
+      const filteredHistory = Array.isArray(history) ? history.filter((item) => item.testId === activeTest.id) : [];
+      const bestScore = filteredHistory.length ? Math.max(...filteredHistory.map((item) => item.score)) : null;
+
+      testInfo.innerHTML = `
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+              <p class="text-sm text-gray-600">${activeTest.info}</p>
+            </div>
+            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al curso
+            </a>
+          </div>
+          <div class="mt-4 space-y-2 text-sm text-gray-600">
+            <p><strong>Preguntas:</strong> 20</p>
+            <p><strong>Tiempo máximo:</strong> 30 minutos</p>
+          </div>
+          <button id="start-test" class="btn mt-4">Comenzar test</button>
+        </section>
+
+        <section class="mt-6 bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+          <h2 class="text-xl font-bold text-purple-700 mb-3">Resumen de intentos previos</h2>
+          ${filteredHistory.length
+            ? `
+            <div class="space-y-3">
+              ${filteredHistory
+                .map(
+                  (item, index) => `
+                <article class="border border-gray-200 rounded-lg p-3 flex items-center justify-between gap-4">
+                  <div>
+                    <p class="text-sm text-gray-600">Intento ${index + 1} · ${new Date(item.completedAt).toLocaleString('es-ES')}</p>
+                    <p class="font-semibold text-gray-900">Puntuación: ${item.score}%</p>
+                  </div>
+                  <span class="text-xs font-semibold text-purple-700">Finalizado</span>
+                </article>
+              `,
+                )
+                .join('')}
+            </div>
+            <p class="mt-4 text-sm text-gray-600">Mejor puntuación: <strong>${bestScore}%</strong></p>
+          `
+            : '<p class="text-sm text-gray-600">Aún no has realizado este test.</p>'}
+        </section>
+      `;
+
+      const startBtn = document.getElementById('start-test');
+      if (startBtn) {
+        startBtn.addEventListener('click', () => {
+          window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}`, '_blank', 'noopener,noreferrer');
+        });
+      }
+    })
+    .catch((error) => {
+      console.error('Error cargando detalle del test:', error);
+      testInfo.innerHTML = '<p class="text-red-600">Error cargando el detalle del test</p>';
     });
 }
 
