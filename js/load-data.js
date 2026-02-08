@@ -899,14 +899,17 @@ if (testRunner) {
                           const classes = isCorrect
                             ? 'text-emerald-700 font-semibold'
                             : isSelected
-                              ? 'text-red-600'
+                              ? 'text-red-600 font-semibold'
                               : 'text-gray-700';
-                          const label = isCorrect ? ' (correcta)' : isSelected ? ' (tu respuesta)' : '';
-                          return `<li class="${classes}">• ${option}${label}</li>`;
+                          const marker = isCorrect ? ' ✅' : isSelected ? ' ❌' : '';
+                          return `<li class="${classes}">• ${option}${marker}</li>`;
                         })
                         .join('')}
                     </ul>
-                    ${question.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${question.explanation}</p>` : ''}
+                    <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
+                      <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
+                      ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
+                    </div>
                   </article>
                 `;
                 })
