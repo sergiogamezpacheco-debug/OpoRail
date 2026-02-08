@@ -1,7 +1,10 @@
 fetch('/data/site.json')
   .then((res) => res.json())
   .then((site) => {
-    const isCoursePage = ['/curso', '/test-info', '/test-run'].some((route) => window.location.pathname.includes(route));
+    const pathname = window.location.pathname;
+    const courseRoutes = new Set(['/curso', '/curso.html', '/test-info', '/test-info.html', '/test-run', '/test-run.html']);
+    const isCoursePage = courseRoutes.has(pathname);
+    const activeUid = localStorage.getItem('oporail_active_uid');
     const headerClass = isCoursePage
       ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700 shadow-md'
       : 'absolute top-0 left-0 right-0 z-20 text-white';
@@ -15,13 +18,22 @@ fetch('/data/site.json')
 
           <nav class="ml-auto pl-32 flex items-center gap-8 font-medium text-white">
             ${site.menu
-              .map(
-                (item) => `
+              .map((item) => {
+                const isAccessLink = item.link === '/user/index.html' || item.name.toLowerCase() === 'acceder';
+                if (isAccessLink && activeUid) {
+                  return `
+              <a href="#" data-logout class="hover:opacity-80 transition">
+                Desconectar
+              </a>
+            `;
+                }
+
+                return `
               <a href="${item.link}" class="hover:opacity-80 transition">
                 ${item.name}
               </a>
-            `,
-              )
+            `;
+              })
               .join('')}
 
             <a href="/user/index.html" title="Panel de usuario" aria-label="Panel de usuario">
@@ -33,6 +45,20 @@ fetch('/data/site.json')
     `;
 
     document.getElementById('site-header').innerHTML = header;
+    const logoutLink = document.querySelector('[data-logout]');
+    if (logoutLink) {
+      logoutLink.addEventListener('click', async (event) => {
+        event.preventDefault();
+        try {
+          const { logout } = await import('/js/auth.js');
+          await logout();
+        } catch (error) {
+          console.error('Error al cerrar sesión:', error);
+          localStorage.removeItem('oporail_active_uid');
+          window.location.href = '/index.html';
+        }
+      });
+    }
   })
   .catch((err) => {
     console.error('Error cargando header:', err);

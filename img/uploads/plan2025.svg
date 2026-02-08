@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#grad)" />
+  <rect x="120" y="140" width="240" height="240" rx="24" fill="rgba(255,255,255,0.15)" />
+  <text x="420" y="240" font-family="'Open Sans', Arial, sans-serif" font-size="52" fill="#ffffff" font-weight="700">Plan Estratégico 2025</text>
+  <text x="420" y="310" font-family="'Open Sans', Arial, sans-serif" font-size="30" fill="#e5e7eb">Renfe impulsa nuevas metas</text>
+</svg>
