@@ -1251,7 +1251,7 @@ if (newsContainer) {
           return `
           <article class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
             <div class="h-44 bg-gray-100">
-              <img src="${escapeHtml(article.image || '/img/uploads/default-news.jpg')}" alt="${escapeHtml(article.title || 'Noticia OpoRail')}" class="w-full h-full object-cover" loading="lazy">
+              <img src="${escapeHtml(article.image || '/img/uploads/default-news.svg')}" alt="${escapeHtml(article.title || 'Noticia OpoRail')}" class="w-full h-full object-cover" loading="lazy">
             </div>
             <div class="p-5">
               <p class="text-xs uppercase tracking-wide text-purple-700 font-semibold mb-2">${prettyDate}</p>
