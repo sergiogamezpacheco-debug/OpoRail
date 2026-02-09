@@ -18,6 +18,38 @@
         "correctIndex": 1,
         "explanation": "El plan de prevención reúne la política, organización y procedimientos preventivos.",
         "tags": ["prevencion", "normativa"]
+      },
+      {
+        "id": "comun-002",
+        "oepYear": 2025,
+        "source": "elaboracion-propia",
+        "difficulty": "facil",
+        "question": "¿Cuál es el objetivo principal de un plan de mantenimiento preventivo?",
+        "options": [
+          "Reparar averías imprevistas",
+          "Reducir fallos mediante revisiones programadas",
+          "Actualizar el catálogo comercial",
+          "Modificar el organigrama"
+        ],
+        "correctIndex": 1,
+        "explanation": "El mantenimiento preventivo busca anticiparse a fallos con revisiones periódicas.",
+        "tags": ["mantenimiento", "preventivo"]
+      },
+      {
+        "id": "comun-003",
+        "oepYear": 2025,
+        "source": "elaboracion-propia",
+        "difficulty": "media",
+        "question": "En un procedimiento de seguridad, ¿qué significa 'bloqueo y etiquetado' (LOTO)?",
+        "options": [
+          "Registrar incidencias en un parte diario",
+          "Asegurar equipos con candados y avisos antes de intervenir",
+          "Actualizar la ficha técnica del material",
+          "Solicitar repuestos al almacén"
+        ],
+        "correctIndex": 1,
+        "explanation": "LOTO evita energizaciones accidentales durante trabajos de mantenimiento.",
+        "tags": ["seguridad", "loto"]
       }
     ],
     "test-especifico": [
