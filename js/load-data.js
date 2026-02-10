@@ -670,6 +670,7 @@ function bindPsychotechnicalSection(questionBank) {
 }
 
 const coursesContainer = document.getElementById('courses-list');
+const adifCoursesContainer = document.getElementById('adif-courses-list');
 if (coursesContainer) {
   fetch(resolveDataPath('courses.json'))
     .then((res) => {
@@ -698,10 +699,53 @@ if (coursesContainer) {
         `;
         })
         .join('');
+
+      if (!adifCoursesContainer) return;
+
+      const adifCourses = [
+        {
+          titulo: 'Infraestructura de Vía (Adif)',
+          descripcion: 'Enfoque en mantenimiento de vía, desvíos y elementos de seguridad.',
+          estado: 'Próximamente',
+        },
+        {
+          titulo: 'Electrificación y Subestaciones (Adif)',
+          descripcion: 'Bases de electrificación ferroviaria, catenaria y sistemas asociados.',
+          estado: 'Próximamente',
+        },
+        {
+          titulo: 'Señalización y Telecomunicaciones (Adif)',
+          descripcion: 'Introducción a enclavamientos, señalización y comunicaciones de red.',
+          estado: 'Próximamente',
+        },
+      ];
+
+      adifCoursesContainer.innerHTML = adifCourses
+        .map((course) => {
+          const stateClass = course.estado === 'Disponible' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800';
+          return `
+          <article class="bg-green-700 text-white rounded-xl p-6 shadow-lg hover:scale-[1.02] transition">
+            <h3 class="text-xl font-bold mb-2">${escapeHtml(course.titulo)}</h3>
+            <p class="text-sm mb-4">${escapeHtml(course.descripcion)}</p>
+            <div class="flex items-center justify-between gap-3">
+              <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold ${stateClass}">
+                ${escapeHtml(course.estado)}
+              </span>
+              <a href="/planes.html" class="inline-flex items-center bg-white text-green-700 px-3 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition">
+                Próximamente
+              </a>
+            </div>
+          </article>
+        `;
+        })
+        .join('');
     })
     .catch((err) => {
       console.error('Error cargando cursos:', err);
       coursesContainer.innerHTML = '<p class="text-red-600">Error cargando cursos</p>';
+      if (adifCoursesContainer) {
+        adifCoursesContainer.innerHTML = '<p class="text-red-600">Error cargando cursos Adif</p>';
+      }
     });
 }
 
