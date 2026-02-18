@@ -1,10 +1,24 @@
 fetch('/data/site.json')
   .then((res) => res.json())
-  .then((site) => {
+  .then(async (site) => {
     const pathname = window.location.pathname;
     const courseRoutes = new Set(['/curso', '/curso.html', '/test-info', '/test-info.html', '/test-run', '/test-run.html']);
     const isCoursePage = courseRoutes.has(pathname);
     const activeUid = localStorage.getItem('oporail_active_uid');
+    let userLabel = '';
+
+    if (activeUid) {
+      try {
+        const { getAuth } = await import('/js/firebase-config.js');
+        const user = getAuth().currentUser;
+        const displayName = user?.displayName?.trim() || user?.email?.split('@')[0] || 'Mi cuenta';
+        const parts = displayName.split(/\s+/).filter(Boolean);
+        userLabel = parts.slice(0, 2).join(' ');
+      } catch (e) {
+        userLabel = 'Mi cuenta';
+      }
+    }
+
     const headerClass = isCoursePage
       ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700 shadow-md'
       : 'absolute top-0 left-0 right-0 z-20 text-white';
@@ -36,8 +50,10 @@ fetch('/data/site.json')
               })
               .join('')}
 
-            <a href="/user/index.html" title="Panel de usuario" aria-label="Panel de usuario">
-              <div class="h-10 w-10 rounded-full bg-gray-400 border border-white hover:ring-2 hover:ring-purple-600 transition"></div>
+            <a href="/user/index.html" title="Panel de usuario" aria-label="Panel de usuario" class="inline-flex items-center">
+              ${activeUid
+                ? `<span class="text-sm md:text-base font-semibold border border-white/60 rounded-full px-3 py-1 hover:bg-white/10 transition">${userLabel}</span>`
+                : '<div class="h-10 w-10 rounded-full bg-gray-400 border border-white hover:ring-2 hover:ring-purple-600 transition"></div>'}
             </a>
           </nav>
         </div>
