@@ -1,0 +1,3405 @@
+{
+  "name": "Pintura",
+  "questions": [
+    {
+      "id": "pi-001",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-002",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-003",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-004",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-005",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-006",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-007",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-008",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-009",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-010",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-011",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-012",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-013",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-014",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-015",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-016",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-017",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-018",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-019",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-020",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-021",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-022",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-023",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-024",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-025",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-026",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-027",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-028",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-029",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-030",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-031",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-032",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-033",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-034",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-035",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-036",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-037",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-038",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-039",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-040",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-041",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-042",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-043",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-044",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-045",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-046",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-047",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-048",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-049",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-050",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-051",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-052",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-053",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-054",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-055",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-056",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-057",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-058",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-059",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-060",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-061",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-062",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-063",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-064",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-065",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-066",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-067",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-068",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-069",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-070",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-071",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-072",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-073",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-074",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-075",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-076",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-077",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-078",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-079",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-080",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-081",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-082",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-083",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-084",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-085",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-086",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-087",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-088",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-089",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-090",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-091",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-092",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-093",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-094",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-095",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-096",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-097",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-098",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-099",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-100",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-101",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-102",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-103",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-104",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-105",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-106",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-107",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-108",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-109",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-110",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-111",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-112",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-113",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-114",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-115",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-116",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-117",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-118",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-119",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-120",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-121",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-122",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-123",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-124",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-125",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-126",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-127",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-128",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-129",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-130",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-131",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-132",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-133",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-134",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-135",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-136",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-137",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-138",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-139",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-140",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-141",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-142",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-143",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-144",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-145",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-146",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-147",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-148",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-149",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-150",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-151",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-152",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-153",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-154",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-155",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-156",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-157",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-158",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-159",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-160",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-161",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-162",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-163",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-164",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-165",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-166",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-167",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-168",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-169",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-170",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-171",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-172",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-173",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-174",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-175",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-176",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-177",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-178",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-179",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-180",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-181",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-182",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-183",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-184",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-185",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-186",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-187",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-188",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-189",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-190",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-191",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-192",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-193",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-194",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-195",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-196",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-197",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aplicación: procedimiento correcto en 2.1-espesores",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    },
+    {
+      "id": "pi-198",
+      "question": "[3-CONTROL DE DEFECTOS] Respecto a 3.1-correcciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calidad: procedimiento correcto en 3.1-correcciones",
+        "Calidad: procedimiento incorrecto en 3.1-correcciones",
+        "Calidad: aplica solo fuera de servicio comercial",
+        "Calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calidad: procedimiento correcto en 3.1-correcciones",
+      "tags": [
+        "Calidad",
+        "3-CONTROL DE DEFECTOS",
+        "3.1-CORRECCIONES"
+      ]
+    },
+    {
+      "id": "pi-199",
+      "question": "[1-PREPARACIÓN DE SUPERFICIES] Respecto a 1.1-limpieza, ¿qué opción es la más adecuada?",
+      "options": [
+        "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+        "Pintura ferroviaria: procedimiento incorrecto en 1.1-limpieza",
+        "Pintura ferroviaria: aplica solo fuera de servicio comercial",
+        "Pintura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pintura ferroviaria: procedimiento correcto en 1.1-limpieza",
+      "tags": [
+        "Pintura ferroviaria",
+        "1-PREPARACIÓN DE SUPERFICIES",
+        "1.1-LIMPIEZA"
+      ]
+    },
+    {
+      "id": "pi-200",
+      "question": "[2-IMPRIMACIÓN Y ACABADO] Respecto a 2.1-espesores, ¿qué opción es la más adecuada?",
+      "options": [
+        "Aplicación: procedimiento correcto en 2.1-espesores",
+        "Aplicación: procedimiento incorrecto en 2.1-espesores",
+        "Aplicación: aplica solo fuera de servicio comercial",
+        "Aplicación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aplicación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Aplicación",
+        "2-IMPRIMACIÓN Y ACABADO",
+        "2.1-ESPESORES"
+      ]
+    }
+  ]
+}

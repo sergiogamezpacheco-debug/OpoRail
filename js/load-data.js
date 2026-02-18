@@ -299,6 +299,60 @@ function getFallbackQuestionBank() {
   };
 }
 
+let questionPayloadCache = null;
+
+async function fetchQuestionPayload() {
+  if (questionPayloadCache) return questionPayloadCache;
+
+  const fallbackPayload = {
+    default: getFallbackQuestionBank(),
+    byCourseTitle: {},
+  };
+
+  try {
+    const res = await fetch(resolveDataPath('test-bank-template.json'));
+    if (!res.ok) throw new Error('No se encontró test-bank-template.json');
+    const payload = await res.json();
+
+    const specialtyBankMap = {
+      comun: { path: 'question-banks/comun.json' },
+      ajustador: { path: 'question-banks/ajustador.json', course: 'Ajustador-Montador' },
+      electrico: { path: 'question-banks/electrico.json', course: 'Eléctrico' },
+      soldadores: { path: 'question-banks/soldadores.json', course: 'Soldadores' },
+      torneros: { path: 'question-banks/torneros.json', course: 'Torneros' },
+      pintura: { path: 'question-banks/pintura.json', course: 'Pintura' },
+    };
+
+    const entries = Object.values(specialtyBankMap);
+    const bankResponses = await Promise.allSettled(entries.map((entry) => fetch(resolveDataPath(entry.path))));
+
+    for (let i = 0; i < entries.length; i += 1) {
+      const entry = entries[i];
+      const bankRes = bankResponses[i];
+      if (bankRes.status !== 'fulfilled' || !bankRes.value.ok) continue;
+      const bankPayload = await bankRes.value.json();
+      if (!Array.isArray(bankPayload?.questions)) continue;
+
+      if (!entry.course) {
+        payload.default = payload.default || {};
+        payload.default['test-comun'] = bankPayload.questions;
+        continue;
+      }
+
+      payload.byCourseTitle = payload.byCourseTitle || {};
+      payload.byCourseTitle[entry.course] = payload.byCourseTitle[entry.course] || {};
+      payload.byCourseTitle[entry.course]['test-especifico'] = bankPayload.questions;
+    }
+
+    questionPayloadCache = payload;
+    return payload;
+  } catch (error) {
+    console.error('Error cargando bancos de preguntas:', error);
+    questionPayloadCache = fallbackPayload;
+    return fallbackPayload;
+  }
+}
+
 function mergeQuestionBank(base, override = {}) {
   return {
     'test-comun': Array.isArray(override['test-comun']) ? override['test-comun'] : base['test-comun'],
@@ -328,10 +382,7 @@ async function getQuestionBankForCourse(courseTitle) {
   const fallback = getFallbackQuestionBank();
 
   try {
-    const res = await fetch(resolveDataPath('test-bank-template.json'));
-    if (!res.ok) throw new Error('No se encontró test-bank-template.json');
-
-    const payload = await res.json();
+    const payload = await fetchQuestionPayload();
     const base = mergeQuestionBank(fallback, payload.default || {});
     const custom = payload?.byCourseTitle?.[courseTitle];
 
@@ -902,12 +953,10 @@ if (testRunner) {
   const courseId = Number(params.get('course'));
   const testId = params.get('test');
 
-  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
-    .then(async ([coursesRes, testRes]) => {
+  Promise.all([fetch(resolveDataPath('courses.json')), fetchQuestionPayload()])
+    .then(async ([coursesRes, testPayload]) => {
       if (!coursesRes.ok) throw new Error('Cursos no encontrados');
-      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
       const coursesPayload = await coursesRes.json();
-      const testPayload = await testRes.json();
 
       const list = Array.isArray(coursesPayload)
         ? coursesPayload
@@ -1182,12 +1231,10 @@ if (testInfo) {
   const courseId = Number(params.get('course'));
   const testId = params.get('test');
 
-  Promise.all([fetch(resolveDataPath('courses.json')), fetch(resolveDataPath('test-bank-template.json'))])
-    .then(async ([coursesRes, testRes]) => {
+  Promise.all([fetch(resolveDataPath('courses.json')), fetchQuestionPayload()])
+    .then(async ([coursesRes, testPayload]) => {
       if (!coursesRes.ok) throw new Error('Cursos no encontrados');
-      if (!testRes.ok) throw new Error('Plantilla de test no encontrada');
       const coursesPayload = await coursesRes.json();
-      const testPayload = await testRes.json();
 
       const list = Array.isArray(coursesPayload)
         ? coursesPayload

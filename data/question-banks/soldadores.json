@@ -1,0 +1,3405 @@
+{
+  "name": "Soldadores",
+  "questions": [
+    {
+      "id": "so-001",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-002",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-003",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-004",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-005",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-006",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-007",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-008",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-009",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-010",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-011",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-012",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-013",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-014",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-015",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-016",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-017",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-018",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-019",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-020",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-021",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-022",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-023",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-024",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-025",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-026",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-027",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-028",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-029",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-030",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-031",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-032",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-033",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-034",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-035",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-036",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-037",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-038",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-039",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-040",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-041",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-042",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-043",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-044",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-045",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-046",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-047",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-048",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-049",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-050",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-051",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-052",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-053",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-054",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-055",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-056",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-057",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-058",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-059",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-060",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-061",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-062",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-063",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-064",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-065",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-066",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-067",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-068",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-069",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-070",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-071",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-072",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-073",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-074",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-075",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-076",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-077",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-078",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-079",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-080",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-081",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-082",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-083",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-084",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-085",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-086",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-087",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-088",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-089",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-090",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-091",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-092",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-093",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-094",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-095",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-096",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-097",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-098",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-099",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-100",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-101",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-102",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-103",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-104",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-105",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-106",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-107",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-108",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-109",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-110",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-111",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-112",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-113",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-114",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-115",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-116",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-117",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-118",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-119",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-120",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-121",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-122",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-123",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-124",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-125",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-126",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-127",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-128",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-129",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-130",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-131",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-132",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-133",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-134",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-135",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-136",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-137",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-138",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-139",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-140",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-141",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-142",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-143",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-144",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-145",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-146",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-147",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-148",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-149",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-150",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-151",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-152",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-153",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-154",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-155",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-156",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-157",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-158",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-159",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-160",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-161",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-162",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-163",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-164",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-165",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-166",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-167",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-168",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-169",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-170",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-171",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-172",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-173",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-174",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-175",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-176",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-177",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-178",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-179",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-180",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-181",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-182",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-183",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-184",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-185",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-186",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-187",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-188",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-189",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-190",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-191",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-192",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Control de calidad: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-193",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-194",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-195",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-196",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-197",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calderería: procedimiento correcto en 2.1-acabados",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    },
+    {
+      "id": "so-198",
+      "question": "[3-INSPECCIÓN] Respecto a 3.1-defecto y reparación, ¿qué opción es la más adecuada?",
+      "options": [
+        "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+        "Control de calidad: procedimiento incorrecto en 3.1-defecto y reparación",
+        "Control de calidad: aplica solo fuera de servicio comercial",
+        "Control de calidad: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control de calidad: procedimiento correcto en 3.1-defecto y reparación",
+      "tags": [
+        "Control de calidad",
+        "3-INSPECCIÓN",
+        "3.1-DEFECTO Y REPARACIÓN"
+      ]
+    },
+    {
+      "id": "so-199",
+      "question": "[1-PROCESOS DE SOLDADURA] Respecto a 1.1-parámetros, ¿qué opción es la más adecuada?",
+      "options": [
+        "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+        "Soldadura ferroviaria: procedimiento incorrecto en 1.1-parámetros",
+        "Soldadura ferroviaria: aplica solo fuera de servicio comercial",
+        "Soldadura ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soldadura ferroviaria: procedimiento correcto en 1.1-parámetros",
+      "tags": [
+        "Soldadura ferroviaria",
+        "1-PROCESOS DE SOLDADURA",
+        "1.1-PARÁMETROS"
+      ]
+    },
+    {
+      "id": "so-200",
+      "question": "[2-PREPARACIÓN DE JUNTAS] Respecto a 2.1-acabados, ¿qué opción es la más adecuada?",
+      "options": [
+        "Calderería: procedimiento correcto en 2.1-acabados",
+        "Calderería: procedimiento incorrecto en 2.1-acabados",
+        "Calderería: aplica solo fuera de servicio comercial",
+        "Calderería: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calderería: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Calderería",
+        "2-PREPARACIÓN DE JUNTAS",
+        "2.1-ACABADOS"
+      ]
+    }
+  ]
+}
