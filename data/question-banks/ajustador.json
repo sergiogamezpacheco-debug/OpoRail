@@ -1,0 +1,3405 @@
+{
+  "name": "Ajustador-Montador",
+  "questions": [
+    {
+      "id": "aj-001",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-002",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-003",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-004",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-005",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-006",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-007",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-008",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-009",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-010",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-011",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-012",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-013",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-014",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-015",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-016",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-017",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-018",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-019",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-020",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-021",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-022",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-023",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-024",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-025",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-026",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-027",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-028",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-029",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-030",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-031",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-032",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-033",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-034",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-035",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-036",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-037",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-038",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-039",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-040",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-041",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-042",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-043",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-044",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-045",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-046",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-047",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-048",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-049",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-050",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-051",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-052",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-053",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-054",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-055",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-056",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-057",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-058",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-059",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-060",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-061",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-062",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-063",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-064",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-065",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-066",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-067",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-068",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-069",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-070",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-071",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-072",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-073",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-074",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-075",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-076",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-077",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-078",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-079",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-080",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-081",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-082",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-083",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-084",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-085",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-086",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-087",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-088",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-089",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-090",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-091",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-092",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-093",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-094",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-095",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-096",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-097",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-098",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-099",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-100",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-101",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-102",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-103",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-104",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-105",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-106",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-107",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-108",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-109",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-110",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-111",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-112",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-113",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-114",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-115",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-116",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-117",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-118",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-119",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-120",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-121",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-122",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-123",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-124",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-125",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-126",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-127",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-128",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-129",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-130",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-131",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-132",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-133",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-134",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-135",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-136",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-137",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-138",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-139",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-140",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-141",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-142",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-143",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-144",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-145",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-146",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-147",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-148",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-149",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-150",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-151",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-152",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-153",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-154",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-155",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-156",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-157",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-158",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-159",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-160",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-161",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-162",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-163",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-164",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-165",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-166",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-167",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-168",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-169",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-170",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-171",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-172",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-173",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-174",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-175",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-176",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-177",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-178",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-179",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-180",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-181",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-182",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-183",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-184",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-185",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-186",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-187",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-188",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-189",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-190",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-191",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-192",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-193",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-194",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-195",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-196",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-197",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    },
+    {
+      "id": "aj-198",
+      "question": "[3-BOGIES Y CHOQUE] Respecto a 3.1-elementos principales, ¿qué opción es la más adecuada?",
+      "options": [
+        "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: procedimiento incorrecto en 3.1-elementos principales",
+        "Bogies, Tracción y Choque: aplica solo fuera de servicio comercial",
+        "Bogies, Tracción y Choque: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies, Tracción y Choque: procedimiento correcto en 3.1-elementos principales",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3-BOGIES Y CHOQUE",
+        "3.1-ELEMENTOS PRINCIPALES"
+      ]
+    },
+    {
+      "id": "aj-199",
+      "question": "[1-TRACCIÓN DIÉSEL] Respecto a 1.1-motores térmicos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): procedimiento incorrecto en 1.1-motores térmicos",
+        "Tracción Diésel (Motores térmicos): aplica solo fuera de servicio comercial",
+        "Tracción Diésel (Motores térmicos): no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción Diésel (Motores térmicos): procedimiento correcto en 1.1-motores térmicos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1-TRACCIÓN DIÉSEL",
+        "1.1-MOTORES TÉRMICOS"
+      ]
+    },
+    {
+      "id": "aj-200",
+      "question": "[2-NEUMÁTICA Y FRENO] Respecto a 2.1-circuito neumático, ¿qué opción es la más adecuada?",
+      "options": [
+        "FTV Básico Neumática y Freno: procedimiento correcto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: procedimiento incorrecto en 2.1-circuito neumático",
+        "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+        "FTV Básico Neumática y Freno: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "FTV Básico Neumática y Freno: aplica solo fuera de servicio comercial",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "2-NEUMÁTICA Y FRENO",
+        "2.1-CIRCUITO NEUMÁTICO"
+      ]
+    }
+  ]
+}

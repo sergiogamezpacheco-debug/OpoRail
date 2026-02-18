@@ -1,0 +1,3405 @@
+{
+  "name": "Torneros",
+  "questions": [
+    {
+      "id": "to-001",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-002",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-003",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-004",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-005",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-006",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-007",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-008",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-009",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-010",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-011",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-012",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-013",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-014",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-015",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-016",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-017",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-018",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-019",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-020",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-021",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-022",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-023",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-024",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-025",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-026",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-027",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-028",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-029",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-030",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-031",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-032",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-033",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-034",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-035",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-036",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-037",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-038",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-039",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-040",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-041",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-042",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-043",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-044",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-045",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-046",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-047",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-048",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-049",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-050",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-051",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-052",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-053",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-054",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-055",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-056",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-057",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-058",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-059",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-060",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-061",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-062",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-063",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-064",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-065",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-066",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-067",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-068",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-069",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-070",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-071",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-072",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-073",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-074",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-075",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-076",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-077",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-078",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-079",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-080",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-081",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-082",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-083",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-084",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-085",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-086",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-087",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-088",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-089",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-090",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-091",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-092",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-093",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-094",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-095",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-096",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-097",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-098",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-099",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-100",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-101",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-102",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-103",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-104",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-105",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-106",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-107",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-108",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-109",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-110",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-111",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-112",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-113",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-114",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-115",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-116",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-117",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-118",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-119",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-120",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-121",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-122",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-123",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-124",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-125",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-126",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-127",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-128",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-129",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-130",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-131",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-132",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-133",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-134",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-135",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-136",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-137",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-138",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-139",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-140",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-141",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-142",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-143",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-144",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-145",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-146",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-147",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-148",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-149",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-150",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-151",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-152",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-153",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-154",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-155",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-156",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-157",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-158",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-159",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-160",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-161",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-162",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-163",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-164",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-165",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-166",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-167",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-168",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-169",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-170",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-171",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-172",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-173",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-174",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-175",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-176",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-177",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-178",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-179",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-180",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-181",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-182",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-183",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-184",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-185",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-186",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-187",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-188",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-189",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-190",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-191",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-192",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-193",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-194",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-195",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-196",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-197",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metrología: procedimiento correcto en 2.1-ajustes",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    },
+    {
+      "id": "to-198",
+      "question": "[3-ROSCA Y PERFIL] Respecto a 3.1-control final, ¿qué opción es la más adecuada?",
+      "options": [
+        "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+        "Operaciones avanzadas: procedimiento incorrecto en 3.1-control final",
+        "Operaciones avanzadas: aplica solo fuera de servicio comercial",
+        "Operaciones avanzadas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operaciones avanzadas: procedimiento correcto en 3.1-control final",
+      "tags": [
+        "Operaciones avanzadas",
+        "3-ROSCA Y PERFIL",
+        "3.1-CONTROL FINAL"
+      ]
+    },
+    {
+      "id": "to-199",
+      "question": "[1-TORNEADO] Respecto a 1.1-velocidad y avance, ¿qué opción es la más adecuada?",
+      "options": [
+        "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: procedimiento incorrecto en 1.1-velocidad y avance",
+        "Máquinas y herramientas: aplica solo fuera de servicio comercial",
+        "Máquinas y herramientas: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Máquinas y herramientas: procedimiento correcto en 1.1-velocidad y avance",
+      "tags": [
+        "Máquinas y herramientas",
+        "1-TORNEADO",
+        "1.1-VELOCIDAD Y AVANCE"
+      ]
+    },
+    {
+      "id": "to-200",
+      "question": "[2-TOLERANCIAS] Respecto a 2.1-ajustes, ¿qué opción es la más adecuada?",
+      "options": [
+        "Metrología: procedimiento correcto en 2.1-ajustes",
+        "Metrología: procedimiento incorrecto en 2.1-ajustes",
+        "Metrología: aplica solo fuera de servicio comercial",
+        "Metrología: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metrología: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Metrología",
+        "2-TOLERANCIAS",
+        "2.1-AJUSTES"
+      ]
+    }
+  ]
+}

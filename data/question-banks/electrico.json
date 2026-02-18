@@ -1,0 +1,3405 @@
+{
+  "name": "Eléctrico",
+  "questions": [
+    {
+      "id": "el-001",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-002",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-003",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-004",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-005",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-006",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-007",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-008",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-009",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-010",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-011",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-012",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-013",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-014",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-015",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-016",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-017",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-018",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-019",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-020",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-021",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-022",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-023",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-024",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-025",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-026",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-027",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-028",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-029",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-030",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-031",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-032",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-033",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-034",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-035",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-036",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-037",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-038",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-039",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-040",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-041",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-042",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-043",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-044",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-045",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-046",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-047",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-048",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-049",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-050",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-051",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-052",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-053",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-054",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-055",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-056",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-057",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-058",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-059",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-060",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-061",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-062",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-063",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-064",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-065",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-066",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-067",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-068",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-069",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-070",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-071",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-072",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-073",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-074",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-075",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-076",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-077",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-078",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-079",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-080",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-081",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-082",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-083",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-084",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-085",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-086",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-087",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-088",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-089",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-090",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-091",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-092",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-093",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-094",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-095",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-096",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-097",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-098",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-099",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-100",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-101",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-102",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-103",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-104",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-105",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-106",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-107",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-108",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-109",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-110",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-111",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-112",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-113",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-114",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-115",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-116",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-117",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-118",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-119",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-120",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-121",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-122",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-123",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-124",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-125",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-126",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-127",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-128",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-129",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-130",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-131",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-132",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-133",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-134",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-135",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-136",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-137",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-138",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-139",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-140",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-141",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-142",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-143",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-144",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-145",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-146",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-147",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-148",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-149",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-150",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-151",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-152",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-153",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-154",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-155",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-156",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-157",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-158",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-159",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-160",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-161",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-162",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-163",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-164",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-165",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-166",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-167",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-168",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-169",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-170",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-171",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-172",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-173",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-174",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-175",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-176",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-177",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-178",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-179",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-180",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-181",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-182",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-183",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-184",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-185",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-186",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-187",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-188",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-189",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-190",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-191",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-192",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-193",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-194",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-195",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-196",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-197",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    },
+    {
+      "id": "el-198",
+      "question": "[3-PROTECCIONES] Respecto a 3.1-verificaciones, ¿qué opción es la más adecuada?",
+      "options": [
+        "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+        "Seguridad eléctrica: procedimiento incorrecto en 3.1-verificaciones",
+        "Seguridad eléctrica: aplica solo fuera de servicio comercial",
+        "Seguridad eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seguridad eléctrica: procedimiento correcto en 3.1-verificaciones",
+      "tags": [
+        "Seguridad eléctrica",
+        "3-PROTECCIONES",
+        "3.1-VERIFICACIONES"
+      ]
+    },
+    {
+      "id": "el-199",
+      "question": "[1-FUNDAMENTOS ELÉCTRICOS] Respecto a 1.1-ley de ohm, ¿qué opción es la más adecuada?",
+      "options": [
+        "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: procedimiento incorrecto en 1.1-ley de ohm",
+        "Electricidad ferroviaria: aplica solo fuera de servicio comercial",
+        "Electricidad ferroviaria: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electricidad ferroviaria: procedimiento correcto en 1.1-ley de ohm",
+      "tags": [
+        "Electricidad ferroviaria",
+        "1-FUNDAMENTOS ELÉCTRICOS",
+        "1.1-LEY DE OHM"
+      ]
+    },
+    {
+      "id": "el-200",
+      "question": "[2-CONVERTIDORES Y MOTORES] Respecto a 2.1-diagnóstico, ¿qué opción es la más adecuada?",
+      "options": [
+        "Tracción eléctrica: procedimiento correcto en 2.1-diagnóstico",
+        "Tracción eléctrica: procedimiento incorrecto en 2.1-diagnóstico",
+        "Tracción eléctrica: aplica solo fuera de servicio comercial",
+        "Tracción eléctrica: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tracción eléctrica: aplica solo fuera de servicio comercial",
+      "tags": [
+        "Tracción eléctrica",
+        "2-CONVERTIDORES Y MOTORES",
+        "2.1-DIAGNÓSTICO"
+      ]
+    }
+  ]
+}

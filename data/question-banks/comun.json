@@ -1,0 +1,3405 @@
+{
+  "name": "Temario común",
+  "questions": [
+    {
+      "id": "comun-001",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-002",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-003",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-004",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-005",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-006",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-007",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-008",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-009",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-010",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-011",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-012",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-013",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-014",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-015",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-016",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-017",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-018",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-019",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-020",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-021",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-022",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-023",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-024",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-025",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-026",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-027",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-028",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-029",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-030",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-031",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-032",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-033",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-034",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-035",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-036",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-037",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-038",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-039",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-040",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-041",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-042",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-043",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-044",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-045",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-046",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-047",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-048",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-049",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-050",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-051",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-052",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-053",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-054",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-055",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-056",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-057",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-058",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-059",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-060",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-061",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-062",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-063",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-064",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-065",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-066",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-067",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-068",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-069",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-070",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-071",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-072",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-073",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-074",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-075",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-076",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-077",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-078",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-079",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-080",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-081",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-082",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-083",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-084",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-085",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-086",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-087",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-088",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-089",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-090",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-091",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-092",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-093",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-094",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-095",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-096",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-097",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-098",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-099",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-100",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-101",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-102",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-103",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-104",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-105",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-106",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-107",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-108",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-109",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-110",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-111",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-112",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-113",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-114",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-115",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-116",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-117",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-118",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-119",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-120",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-121",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-122",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-123",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-124",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-125",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-126",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-127",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-128",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-129",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-130",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-131",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-132",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-133",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-134",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-135",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-136",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-137",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-138",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-139",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-140",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-141",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-142",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-143",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-144",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-145",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-146",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-147",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-148",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-149",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-150",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-151",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-152",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-153",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-154",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-155",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-156",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-157",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-158",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-159",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-160",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-161",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-162",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-163",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-164",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-165",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-166",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-167",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-168",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-169",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-170",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-171",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-172",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-173",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-174",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-175",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-176",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-177",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-178",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-179",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-180",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-181",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-182",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-183",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-184",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-185",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-186",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-187",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-188",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-189",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-190",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-191",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-192",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-193",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-194",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-195",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-196",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    },
+    {
+      "id": "comun-197",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.1-tipos de vehículos, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.1-tipos de vehículos",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.1-tipos de vehículos",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.1-TIPOS DE VEHÍCULOS"
+      ]
+    },
+    {
+      "id": "comun-198",
+      "question": "[1-VEHÍCULOS FERROVIARIOS] Respecto a 1.2.1-vehículo remolcado, ¿qué opción es la más adecuada?",
+      "options": [
+        "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: procedimiento incorrecto en 1.2.1-vehículo remolcado",
+        "Formación Técnica de Vehículos – Introducción: aplica solo fuera de servicio comercial",
+        "Formación Técnica de Vehículos – Introducción: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formación Técnica de Vehículos – Introducción: procedimiento correcto en 1.2.1-vehículo remolcado",
+      "tags": [
+        "Formación Técnica de Vehículos – Introducción",
+        "1-VEHÍCULOS FERROVIARIOS",
+        "1.2.1-VEHÍCULO REMOLCADO"
+      ]
+    },
+    {
+      "id": "comun-199",
+      "question": "[2-MANTENIMIENTO MODERNO] Respecto a 2.1-procedimientos base, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 2.1-procedimientos base",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 2.1-procedimientos base",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2-MANTENIMIENTO MODERNO",
+        "2.1-PROCEDIMIENTOS BASE"
+      ]
+    },
+    {
+      "id": "comun-200",
+      "question": "[3-SEGURIDAD INDUSTRIAL] Respecto a 3.1-consignación y loto, ¿qué opción es la más adecuada?",
+      "options": [
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento correcto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: procedimiento incorrecto en 3.1-consignación y loto",
+        "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+        "El Mantenimiento en Vehículos de Última Generación: no requiere trazabilidad documental"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Mantenimiento en Vehículos de Última Generación: aplica solo fuera de servicio comercial",
+      "tags": [
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3-SEGURIDAD INDUSTRIAL",
+        "3.1-CONSIGNACIÓN Y LOTO"
+      ]
+    }
+  ]
+}
