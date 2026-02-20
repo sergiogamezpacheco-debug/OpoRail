@@ -2,15 +2,17 @@
   "articles": [
     {
       "title": "Nueva convocatoria de plazas de Mantenimiento 2025",
-      "date": "2025-06-01",
-      "summary": "Resumen breve de la noticia...",
-      "image": "/img/uploads/convocatoria.svg"
+      "date": "2025-07-29",
+      "summary": "Acuerdo con el Ministerio para autorizar por Hacienda nuevas plazas en mantenimiento ferroviario para la próxima convocatoria.",
+      "image": "https://www.mitma.gob.es/recursos_mfom/comodin/recursos/mitma_logo.png",
+      "url": "https://www.transportes.gob.es"
     },
     {
-      "title": "Renfe lanza un nuevo Plan Estratégico 2025",
-      "date": "2025-04-15",
-      "summary": "Resumen breve de la noticia...",
-      "image": "/img/uploads/plan2025.svg"
+      "title": "Renfe refuerza su plan de incorporación en áreas técnicas",
+      "date": "2025-06-18",
+      "summary": "Nuevas necesidades de perfiles técnicos para talleres y mantenimiento en diferentes bases.",
+      "image": "/img/uploads/plan2025.svg",
+      "url": "https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia"
     }
   ]
 }

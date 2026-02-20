@@ -524,12 +524,12 @@ function getCommonTests(questionBank) {
   ];
 }
 
-function getSpecificTests(questionBank) {
+function getSpecificTests(questionBank, courseTitle = "") {
   const specificQuestion = normalizeQuestion(questionBank['test-especifico']?.[0]);
   return [
     {
       id: 'ajustador-general',
-      title: 'Test Especialidad Ajustador-Montador',
+      title: `Test general del temario específico${courseTitle ? ` · ${courseTitle}` : ''}`,
       duration: '15 min',
       info: 'Cuestionario general de la especialidad.',
       sample: specificQuestion,
@@ -869,7 +869,7 @@ if (courseDetailContainer) {
 
           ${renderTemarioSection()}
           ${hasAccess ? renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId, true) : renderPublicOverview()}
-          ${hasAccess ? renderTestSection('Tests · Especialidad Ajustador-Montador', getSpecificTests(questionBank), courseId, true) : ''}
+          ${hasAccess ? renderTestSection('Tests · Temario específico', getSpecificTests(questionBank, course.titulo), courseId, true) : ''}
           ${hasAccess ? renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId, true) : ''}
           ${hasAccess ? renderExamSimulationSection(planStatus) : ''}
           ${isAdminUser() ? renderQuestionBankSummary(questionBank) : ''}
@@ -972,7 +972,7 @@ if (testRunner) {
 
       const allTests = [
         ...getCommonTests(questionBank),
-        ...getSpecificTests(questionBank),
+        ...getSpecificTests(questionBank, course?.titulo),
         ...getPsychotechnicalTests(questionBank),
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
@@ -1250,7 +1250,7 @@ if (testInfo) {
 
       const allTests = [
         ...getCommonTests(questionBank),
-        ...getSpecificTests(questionBank),
+        ...getSpecificTests(questionBank, course?.titulo),
         ...getPsychotechnicalTests(questionBank),
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
@@ -1339,8 +1339,9 @@ if (newsContainer) {
             ? rawDate.toLocaleDateString('es-ES', { day: '2-digit', month: 'long', year: 'numeric' })
             : 'Fecha pendiente';
 
+          const href = article.url || '#';
           return `
-          <article class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+          <a href="${escapeHtml(href)}" ${article.url ? 'target="_blank" rel="noreferrer"' : ''} class="block bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition">
             <div class="h-44 bg-gray-100">
               <img src="${escapeHtml(article.image || '/img/uploads/default-news.svg')}" alt="${escapeHtml(article.title || 'Noticia OpoRail')}" class="w-full h-full object-cover" loading="lazy">
             </div>
@@ -1349,7 +1350,7 @@ if (newsContainer) {
               <h3 class="text-lg font-bold text-gray-900 mb-2">${escapeHtml(article.title || 'Nueva noticia')}</h3>
               <p class="text-sm text-gray-600">${escapeHtml(article.summary || 'Sin resumen disponible.')}</p>
             </div>
-          </article>
+          </a>
         `;
         })
         .join('');
