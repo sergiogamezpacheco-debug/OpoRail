@@ -669,7 +669,7 @@ function renderPsychotechnicalSection(questionBank) {
             .join('')}
         </div>
 
-        <div class="border border-gray-200 rounded-lg p-4">
+        <div class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
           <div class="flex items-start justify-between gap-3">
             <div>
               <h3 id="psycho-title" class="text-lg font-bold text-purple-700">${first.label}</h3>
@@ -1024,13 +1024,25 @@ if (testRunner) {
           });
         }
         let correct = 0;
+        let incorrect = 0;
+        let unanswered = 0;
+        let points = 0;
         trimmedQuestions.forEach((question, index) => {
           const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
-          if (answers[index] === correctIndex) {
+          const answerIndex = answers[index];
+          if (answerIndex === null || answerIndex === undefined) {
+            unanswered += 1;
+            return;
+          }
+          if (answerIndex === correctIndex) {
             correct += 1;
+            points += 1;
+          } else {
+            incorrect += 1;
+            points -= 0.33;
           }
         });
-        const score = Math.round((correct / totalQuestions) * 100);
+        const scorePercent = Math.round((points / totalQuestions) * 10000) / 100;
 
         const userId = getActiveUserId();
         if (userId) {
@@ -1038,7 +1050,11 @@ if (testRunner) {
           const history = raw ? JSON.parse(raw) : [];
           const entry = {
             testId: activeTest.id,
-            score,
+            score: scorePercent,
+            points: Math.round(points * 100) / 100,
+            correct,
+            incorrect,
+            unanswered,
             completedAt: new Date().toISOString(),
           };
           localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
@@ -1047,9 +1063,10 @@ if (testRunner) {
         testRunner.innerHTML = `
           <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
             <h1 class="text-3xl font-bold text-purple-700">Test finalizado</h1>
-            <p class="text-sm text-gray-600 mt-2">Puntuación final: <strong>${score}%</strong></p>
+            <p class="text-sm text-gray-600 mt-2">Puntuación final: <strong>${(Math.round(points * 100) / 100).toFixed(2)} / ${totalQuestions}</strong> (${scorePercent}%)</p>
             <div class="mt-4 text-sm text-gray-600 space-y-1">
               <p><strong>Preguntas:</strong> ${totalQuestions}</p>
+              <p><strong>Aciertos:</strong> ${correct} · <strong>Errores:</strong> ${incorrect} · <strong>Sin contestar:</strong> ${unanswered}</p>
               <p><strong>Tiempo empleado:</strong> ${formatTime(30 * 60 - remainingSeconds)}</p>
             </div>
             <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
@@ -1065,9 +1082,10 @@ if (testRunner) {
                   const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
                   const selectedIndex = answers[index];
                   return `
-                  <article class="border border-gray-200 rounded-lg p-4">
-                    <p class="font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
-                    <ul class="space-y-1 text-sm">
+                  <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
+                    <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                    <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
+                    <ul class="relative space-y-1 text-sm">
                       ${question.options
                         .map((option, optIndex) => {
                           const isCorrect = optIndex === correctIndex;
@@ -1132,9 +1150,10 @@ if (testRunner) {
               ${pageQuestions
                 .map(
                   (question, index) => `
-                <div class="border border-gray-200 rounded-lg p-4">
-                  <p class="font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
-                  <div class="space-y-2">
+                <div class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
+                  <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                  <p class="relative font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
+                  <div class="relative space-y-2">
                     ${question.options
                       .map(
                         (option, optIndex) => `
@@ -1259,7 +1278,7 @@ if (testInfo) {
       const rawHistory = userId ? localStorage.getItem(`oporail_test_history_${userId}`) : null;
       const history = rawHistory ? JSON.parse(rawHistory) : [];
       const filteredHistory = Array.isArray(history) ? history.filter((item) => item.testId === activeTest.id) : [];
-      const bestScore = filteredHistory.length ? Math.max(...filteredHistory.map((item) => item.score)) : null;
+      const bestScore = filteredHistory.length ? Math.max(...filteredHistory.map((item) => Number(item.points ?? item.score ?? 0))) : null;
 
       testInfo.innerHTML = `
         <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
@@ -1290,7 +1309,7 @@ if (testInfo) {
                 <article class="border border-gray-200 rounded-lg p-3 flex items-center justify-between gap-4">
                   <div>
                     <p class="text-sm text-gray-600">Intento ${index + 1} · ${new Date(item.completedAt).toLocaleString('es-ES')}</p>
-                    <p class="font-semibold text-gray-900">Puntuación: ${item.score}%</p>
+                    <p class="font-semibold text-gray-900">Puntuación: ${(item.points ?? item.score).toFixed ? (item.points ?? item.score).toFixed(2) : item.score} ${item.points !== undefined ? `/ 20 (${item.score}%)` : `%`}</p>
                   </div>
                   <span class="text-xs font-semibold text-purple-700">Finalizado</span>
                 </article>
@@ -1298,7 +1317,7 @@ if (testInfo) {
                 )
                 .join('')}
             </div>
-            <p class="mt-4 text-sm text-gray-600">Mejor puntuación: <strong>${bestScore}%</strong></p>
+            <p class="mt-4 text-sm text-gray-600">Mejor puntuación: <strong>${bestScore?.toFixed ? bestScore.toFixed(2) : bestScore}</strong></p>
           `
             : '<p class="text-sm text-gray-600">Aún no has realizado este test.</p>'}
         </section>
