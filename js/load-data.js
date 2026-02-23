@@ -1011,6 +1011,70 @@ if (testRunner) {
         return `${mins}:${secs}`;
       };
 
+      const renderReviewSnapshot = (snapshot) => {
+        if (!snapshot || !Array.isArray(snapshot.questions) || !Array.isArray(snapshot.answers)) return;
+        const reviewQuestions = snapshot.questions;
+        const reviewAnswers = snapshot.answers;
+
+        testRunner.innerHTML = `
+          <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
+            <h1 class="text-3xl font-bold text-purple-700">Revisión de intento guardado</h1>
+            <p class="text-sm text-gray-600 mt-2">Puntuación: <strong>${snapshot.points?.toFixed ? snapshot.points.toFixed(2) : snapshot.points} / ${snapshot.totalQuestions}</strong> (${snapshot.scorePercent}%)</p>
+            <div class="mt-4 text-sm text-gray-600 space-y-1">
+              <p><strong>Aciertos:</strong> ${snapshot.correct} · <strong>Errores:</strong> ${snapshot.incorrect} · <strong>Sin contestar:</strong> ${snapshot.unanswered}</p>
+              <p><strong>Fecha:</strong> ${new Date(snapshot.completedAt).toLocaleString('es-ES')}</p>
+            </div>
+            <a href="/test-info.html?course=${resolvedCourseId}&test=${activeTest.id}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              Volver al resumen del test
+            </a>
+          </section>
+
+          <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
+            <h2 class="text-xl font-bold text-purple-700 mb-4">Revisión de preguntas</h2>
+            <div class="space-y-4">
+              ${reviewQuestions.map((question, index) => {
+                const correctIndex = question.options.findIndex((option) => option === question.correctAnswer);
+                const selectedIndex = reviewAnswers[index];
+                return `
+                <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
+                  <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                  <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
+                  <ul class="relative space-y-1 text-sm">
+                    ${question.options.map((option, optIndex) => {
+                      const isCorrect = optIndex === correctIndex;
+                      const isSelected = optIndex === selectedIndex;
+                      const classes = isCorrect ? 'text-emerald-700 font-semibold' : isSelected ? 'text-red-600 font-semibold' : 'text-gray-700';
+                      const marker = isCorrect ? ' ✅' : isSelected ? ' ❌' : '';
+                      const radioClass = isSelected ? (isCorrect ? 'border-emerald-600 bg-emerald-600' : 'border-red-600 bg-red-600') : 'border-gray-300 bg-white';
+                      return `<li class="flex items-center gap-2 ${classes}"><span class="inline-flex h-4 w-4 items-center justify-center rounded-full border ${radioClass}">${isSelected ? '<span class="h-2 w-2 rounded-full bg-white"></span>' : ''}</span><span>${option}${marker}</span></li>`;
+                    }).join('')}
+                  </ul>
+                  <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
+                    <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
+                    ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
+                  </div>
+                </article>`;
+              }).join('')}
+            </div>
+          </section>
+        `;
+      };
+
+      if (params.get('review') === 'last') {
+        const userId = getActiveUserId();
+        if (userId) {
+          const reviewRaw = localStorage.getItem(`oporail_test_review_${userId}_${activeTest.id}`);
+          if (reviewRaw) {
+            try {
+              renderReviewSnapshot(JSON.parse(reviewRaw));
+              return;
+            } catch (error) {
+              console.error('No se pudo cargar la revisión guardada:', error);
+            }
+          }
+        }
+      }
+
       const finishTest = () => {
         if (timerId) clearInterval(timerId);
         const form = document.getElementById('test-form');
@@ -1058,6 +1122,20 @@ if (testRunner) {
             completedAt: new Date().toISOString(),
           };
           localStorage.setItem(`oporail_test_history_${userId}`, JSON.stringify([entry, ...(Array.isArray(history) ? history : [])]));
+
+          const reviewKey = `oporail_test_review_${userId}_${activeTest.id}`;
+          const reviewPayload = {
+            completedAt: entry.completedAt,
+            totalQuestions,
+            scorePercent,
+            points: Math.round(points * 100) / 100,
+            correct,
+            incorrect,
+            unanswered,
+            questions: trimmedQuestions,
+            answers,
+          };
+          localStorage.setItem(reviewKey, JSON.stringify(reviewPayload));
         }
 
         testRunner.innerHTML = `
@@ -1287,15 +1365,18 @@ if (testInfo) {
               <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
               <p class="text-sm text-gray-600">${activeTest.info}</p>
             </div>
-            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver al curso
-            </a>
+            <div class="flex flex-wrap gap-3">
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+                Volver al curso
+              </a>
+              <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
+              <button id="review-last-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Revisar último test</button>
+            </div>
           </div>
           <div class="mt-4 space-y-2 text-sm text-gray-600">
             <p><strong>Preguntas:</strong> 20</p>
             <p><strong>Tiempo máximo:</strong> 30 minutos</p>
           </div>
-          <button id="start-test" class="btn mt-4">Comenzar test</button>
         </section>
 
         <section class="mt-6 bg-white rounded-2xl shadow-md p-6 border border-gray-100">
@@ -1328,6 +1409,21 @@ if (testInfo) {
         startBtn.addEventListener('click', () => {
           window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}`, '_blank', 'noopener,noreferrer');
         });
+      }
+
+      const reviewBtn = document.getElementById('review-last-test');
+      if (reviewBtn) {
+        const userIdForReview = getActiveUserId();
+        const hasReview = userIdForReview && localStorage.getItem(`oporail_test_review_${userIdForReview}_${activeTest.id}`);
+        if (!hasReview) {
+          reviewBtn.classList.add('opacity-50', 'cursor-not-allowed');
+          reviewBtn.setAttribute('disabled', 'disabled');
+          reviewBtn.textContent = 'Revisión no disponible';
+        } else {
+          reviewBtn.addEventListener('click', () => {
+            window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}&review=last`, '_blank', 'noopener,noreferrer');
+          });
+        }
       }
     })
     .catch((error) => {

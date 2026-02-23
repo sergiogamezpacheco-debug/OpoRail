@@ -5,13 +5,19 @@ fetch('/data/site.json')
     const courseRoutes = new Set(['/curso', '/curso.html', '/test-info', '/test-info.html', '/test-run', '/test-run.html']);
     const isCoursePage = courseRoutes.has(pathname);
     const activeUid = localStorage.getItem('oporail_active_uid');
+    let cachedProfile = null;
+    try {
+      cachedProfile = JSON.parse(localStorage.getItem('oporail_user_profile') || 'null');
+    } catch (error) {
+      cachedProfile = null;
+    }
 
     let userLabel = '';
     if (activeUid) {
       try {
         const { getAuth } = await import('/js/firebase-config.js');
         const user = getAuth().currentUser;
-        const displayName = user?.displayName?.trim() || user?.email?.split('@')[0] || '';
+        const displayName = user?.displayName?.trim() || cachedProfile?.displayName || user?.email?.split('@')[0] || cachedProfile?.email?.split('@')[0] || '';
         const parts = displayName.split(/\s+/).filter(Boolean);
         userLabel = parts.slice(0, 2).join(' ') || displayName || 'Usuario';
       } catch (error) {
@@ -45,8 +51,8 @@ fetch('/data/site.json')
           <span aria-hidden="true">▾</span>
         </button>
         <div id="user-menu-panel" class="hidden absolute right-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg border border-gray-200 overflow-hidden">
-          <a href="/user/profile.html" class="block px-4 py-2 hover:bg-gray-50">Mi perfil</a>
-          <a href="/cursos.html" class="block px-4 py-2 hover:bg-gray-50">Cursos</a>
+          <a href="/user/dashboard.html" class="block px-4 py-2 hover:bg-gray-50">Mi perfil</a>
+          <a href="/user/dashboard.html#mis-cursos" class="block px-4 py-2 hover:bg-gray-50">Cursos</a>
           <a href="/user/dashboard.html#mensajes" class="block px-4 py-2 hover:bg-gray-50">Mensajes</a>
           <button type="button" data-logout class="w-full text-left px-4 py-2 text-red-600 hover:bg-red-50">Desconectar</button>
         </div>
