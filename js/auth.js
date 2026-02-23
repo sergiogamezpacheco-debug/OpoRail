@@ -8,6 +8,7 @@ import {
   createUserWithEmailAndPassword,
   setPersistence,
   browserLocalPersistence,
+  updateProfile,
 } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 import { app } from "./firebase-config.js";
 
@@ -20,8 +21,12 @@ const panelBtn = document.getElementById("panel-btn");
 onAuthStateChanged(auth, (user) => {
   if (user?.uid) {
     localStorage.setItem("oporail_active_uid", user.uid);
+    const displayName = user.displayName || "";
+    const email = user.email || "";
+    localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName, email }));
   } else {
     localStorage.removeItem("oporail_active_uid");
+    localStorage.removeItem("oporail_user_profile");
   }
 
   if (!panelBtn) return;
@@ -46,8 +51,13 @@ export async function loginWithEmail(email, password) {
   window.location.href = "/user/dashboard.html";
 }
 
-export async function registerWithEmail(email, password) {
-  await createUserWithEmailAndPassword(auth, email, password);
+export async function registerWithEmail(email, password, fullName = "") {
+  const credential = await createUserWithEmailAndPassword(auth, email, password);
+  const cleanName = (fullName || "").trim();
+  if (cleanName) {
+    await updateProfile(credential.user, { displayName: cleanName });
+  }
+  localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName: cleanName, email }));
   window.location.href = "/user/dashboard.html";
 }
 
@@ -109,8 +119,10 @@ export function initRegisterPage() {
   const feedback = document.getElementById("register-feedback");
   const emailInput = document.getElementById("register-email");
   const passwordInput = document.getElementById("register-password");
+  const firstNameInput = document.getElementById("register-first-name");
+  const lastNameInput = document.getElementById("register-last-name");
 
-  if (!googleBtn || !form || !feedback || !emailInput || !passwordInput) return;
+  if (!googleBtn || !form || !feedback || !emailInput || !passwordInput || !firstNameInput || !lastNameInput) return;
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
@@ -131,7 +143,8 @@ export function initRegisterPage() {
     e.preventDefault();
     feedback.textContent = "Creando cuenta...";
     try {
-      await registerWithEmail(emailInput.value.trim(), passwordInput.value);
+      const fullName = `${firstNameInput.value.trim()} ${lastNameInput.value.trim()}`.trim();
+      await registerWithEmail(emailInput.value.trim(), passwordInput.value, fullName);
     } catch (error) {
       feedback.textContent = `Error al registrar: ${error.message}`;
     }
