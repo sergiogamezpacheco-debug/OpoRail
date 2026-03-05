@@ -574,13 +574,13 @@ function renderReminderSettings(user) {
 
   const config = getReminderConfig(user.uid);
   enabledInput.checked = Boolean(config.enabled);
-  daysInput.value = config.daysInactive || 7;
+  daysInput.value = config.daysInactive || 1;
   webhookInput.value = config.webhookUrl || '';
 
   saveButton.addEventListener('click', () => {
     const updated = {
       enabled: enabledInput.checked,
-      daysInactive: Number(daysInput.value) || 7,
+      daysInactive: Number(daysInput.value) || 1,
       webhookUrl: webhookInput.value.trim(),
     };
     saveReminderConfig(user.uid, { ...config, ...updated });

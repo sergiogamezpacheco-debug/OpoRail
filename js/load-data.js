@@ -1002,7 +1002,9 @@ if (testRunner) {
       const questionsPerPage = 5;
       let currentPage = 0;
       const answers = Array(totalQuestions).fill(null);
-      let remainingSeconds = 30 * 60;
+      const parsedDurationMinutes = Number.parseInt(String(activeTest.duration || "30").replace(/[^0-9]/g, ""), 10) || 30;
+      const totalDurationSeconds = parsedDurationMinutes * 60;
+      let remainingSeconds = totalDurationSeconds;
       let timerId;
 
       const formatTime = (seconds) => {
@@ -1145,7 +1147,7 @@ if (testRunner) {
             <div class="mt-4 text-sm text-gray-600 space-y-1">
               <p><strong>Preguntas:</strong> ${totalQuestions}</p>
               <p><strong>Aciertos:</strong> ${correct} · <strong>Errores:</strong> ${incorrect} · <strong>Sin contestar:</strong> ${unanswered}</p>
-              <p><strong>Tiempo empleado:</strong> ${formatTime(30 * 60 - remainingSeconds)}</p>
+              <p><strong>Tiempo empleado:</strong> ${formatTime(Math.max(0, totalDurationSeconds - remainingSeconds))}</p>
             </div>
             <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
               Volver al curso
@@ -1370,8 +1372,7 @@ if (testInfo) {
                 Volver al curso
               </a>
               <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
-              <button id="review-last-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Revisar último test</button>
-            </div>
+                          </div>
           </div>
           <div class="mt-4 space-y-2 text-sm text-gray-600">
             <p><strong>Preguntas:</strong> 20</p>
@@ -1392,7 +1393,7 @@ if (testInfo) {
                     <p class="text-sm text-gray-600">Intento ${index + 1} · ${new Date(item.completedAt).toLocaleString('es-ES')}</p>
                     <p class="font-semibold text-gray-900">Puntuación: ${(item.points ?? item.score).toFixed ? (item.points ?? item.score).toFixed(2) : item.score} ${item.points !== undefined ? `/ 20 (${item.score}%)` : `%`}</p>
                   </div>
-                  <span class="text-xs font-semibold text-purple-700">Finalizado</span>
+                  <a href="/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}&review=last" target="_blank" rel="noreferrer" class="inline-flex bg-white border border-purple-700 text-purple-700 px-3 py-1 rounded-lg font-semibold hover:bg-purple-50 transition">Revisión</a>
                 </article>
               `,
                 )
@@ -1411,20 +1412,6 @@ if (testInfo) {
         });
       }
 
-      const reviewBtn = document.getElementById('review-last-test');
-      if (reviewBtn) {
-        const userIdForReview = getActiveUserId();
-        const hasReview = userIdForReview && localStorage.getItem(`oporail_test_review_${userIdForReview}_${activeTest.id}`);
-        if (!hasReview) {
-          reviewBtn.classList.add('opacity-50', 'cursor-not-allowed');
-          reviewBtn.setAttribute('disabled', 'disabled');
-          reviewBtn.textContent = 'Revisión no disponible';
-        } else {
-          reviewBtn.addEventListener('click', () => {
-            window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}&review=last`, '_blank', 'noopener,noreferrer');
-          });
-        }
-      }
     })
     .catch((error) => {
       console.error('Error cargando detalle del test:', error);
