@@ -1,6 +1,6 @@
 const DEFAULT_REMINDER_CONFIG = {
-  enabled: false,
-  daysInactive: 7,
+  enabled: true,
+  daysInactive: 1,
   webhookUrl: '',
   lastSentAt: null,
 };
