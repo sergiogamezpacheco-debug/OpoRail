@@ -17,7 +17,7 @@ requireAuth();
 
 const FALLBACK_COURSES = [
   { titulo: "Ajustador-Montador", estado: "Disponible" },
-  { titulo: "Eléctrico", estado: "Disponible" },
+  { titulo: "Electricidad-Electrónica", estado: "Disponible" },
   { titulo: "Suministros", estado: "Próximamente" },
 ];
 

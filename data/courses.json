@@ -2,32 +2,32 @@
   "courses": [
     {
       "titulo": "Ajustador-Montador",
-      "descripcion": "Preparación completa para oposiciones de ajustador-montador en Renfe.",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Ajustador-Montador",
       "estado": "Disponible"
     },
     {
-      "titulo": "Eléctrico",
-      "descripcion": "Curso específico para mantenimiento eléctrico ferroviario.",
+      "titulo": "Electricidad-Electrónica",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Electricidad-Electrónica",
       "estado": "Disponible"
     },
     {
       "titulo": "Suministros",
-      "descripcion": "Gestión de almacenes y logística ferroviaria.",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Suministros",
       "estado": "Próximamente"
     },
     {
       "titulo": "Pintura",
-      "descripcion": "Preparación en pintura de vagones y materiales ferroviarios.",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Pintura",
       "estado": "Disponible"
     },
     {
-      "titulo": "Soldadores",
-      "descripcion": "Curso especializado en soldadura aplicada al sector ferroviario.",
+      "titulo": "Calderería/Chapa/Soldadura",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Calderería/Chapa/Soldadura",
       "estado": "Disponible"
     },
     {
-      "titulo": "Torneros",
-      "descripcion": "Mantenimiento y reparación de piezas metálicas en ferrocarriles.",
+      "titulo": "Máquinas - Herramientas",
+      "descripcion": "Curso intensivo con preparación completa para la OEP de la especialidad Máquinas - Herramientas",
       "estado": "Próximamente"
     }
   ]
