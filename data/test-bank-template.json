@@ -3212,7 +3212,7 @@
       "razonamientoAbstracto": [
         {
           "id": "psi-abs-001",
-          "question": "Serie de puntos en cuadrícula: la columna de 4 puntos se desplaza una casilla a la derecha en cada figura (A→B→C). ¿Qué opción completa D?",
+          "question": "Observa la serie y elige la opción que completa lógicamente la secuencia.",
           "options": [
             "1",
             "2",
@@ -3226,12 +3226,13 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-002",
-          "question": "Serie de líneas internas: de A a C la diagonal gira 45° en sentido horario y el cuadrado pequeño rota por los lados. ¿Qué opción completa D?",
+          "question": "Selecciona la figura correcta para continuar la serie visual.",
           "options": [
             "1",
             "2",
@@ -3245,12 +3246,13 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-003",
-          "question": "Serie de 4 mini-cuadros: el cuadro rayado avanza una posición en sentido antihorario y el gris en sentido horario. ¿Qué opción completa D?",
+          "question": "¿Qué opción mantiene el patrón de cambio entre A, B y C?",
           "options": [
             "1",
             "2",
@@ -3264,12 +3266,13 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-004",
-          "question": "Serie de figuras abiertas/cerradas: 1 línea → ángulo (2 lados) → triángulo (3 lados). ¿Qué opción sigue el patrón?",
+          "question": "¿Cuál figura completa lógicamente la serie mostrada?",
           "options": [
             "1",
             "2",
@@ -3283,12 +3286,13 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-005",
-          "question": "Serie de marcos: la X interna se desplaza por esquinas en sentido horario manteniendo tamaño. ¿Qué opción completa?",
+          "question": "Elige la alternativa que respeta el desplazamiento/rotación de la serie.",
           "options": [
             "1",
             "2",
@@ -3302,12 +3306,13 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-006",
-          "question": "Serie de barras horizontales: en cada paso aumenta una barra y alterna posición superior/inferior. ¿Qué opción corresponde?",
+          "question": "¿Qué opción encaja con la regla de transformación de la secuencia?",
           "options": [
             "1",
             "2",
@@ -3321,8 +3326,9 @@
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "Serie visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-007",

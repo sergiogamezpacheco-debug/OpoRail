@@ -1041,6 +1041,7 @@ if (testRunner) {
                 <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                   <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <ul class="relative space-y-1 text-sm">
                     ${question.options.map((option, optIndex) => {
                       const isCorrect = optIndex === correctIndex;
@@ -1165,6 +1166,7 @@ if (testRunner) {
                   <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                     <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                     <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                     <ul class="relative space-y-1 text-sm">
                       ${question.options
                         .map((option, optIndex) => {
@@ -1233,6 +1235,7 @@ if (testRunner) {
                 <div class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                   <p class="relative font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${start + index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <div class="relative space-y-2">
                     ${question.options
                       .map(
