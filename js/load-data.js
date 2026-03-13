@@ -483,6 +483,7 @@ function getFallbackQuestion() {
     options: ['Opción A', 'Opción B', 'Opción C', 'Opción D'],
     correctAnswer: 'Opción A',
     explanation: 'Añade preguntas reales en data/test-bank-template.json.',
+    image: '',
   };
 }
 
@@ -494,6 +495,7 @@ function normalizeQuestion(question) {
     options: question.options,
     correctAnswer,
     explanation: question.explanation || '',
+    image: question.image || '',
   };
 }
 
