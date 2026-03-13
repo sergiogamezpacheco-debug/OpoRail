@@ -3209,7 +3209,388 @@
       "omnibus": [],
       "sinonimosAntonimos": [],
       "seriesNumericas": [],
-      "razonamientoAbstracto": [],
+      "razonamientoAbstracto": [
+        {
+          "id": "psi-abs-001",
+          "question": "Serie de puntos en cuadrícula: la columna de 4 puntos se desplaza una casilla a la derecha en cada figura (A→B→C). ¿Qué opción completa D?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "La opción correcta es la 3.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-002",
+          "question": "Serie de líneas internas: de A a C la diagonal gira 45° en sentido horario y el cuadrado pequeño rota por los lados. ¿Qué opción completa D?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 4,
+          "explanation": "La opción correcta es la 5.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-003",
+          "question": "Serie de 4 mini-cuadros: el cuadro rayado avanza una posición en sentido antihorario y el gris en sentido horario. ¿Qué opción completa D?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 5,
+          "explanation": "La opción correcta es la 6.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-004",
+          "question": "Serie de figuras abiertas/cerradas: 1 línea → ángulo (2 lados) → triángulo (3 lados). ¿Qué opción sigue el patrón?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "La opción correcta es la 2.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-005",
+          "question": "Serie de marcos: la X interna se desplaza por esquinas en sentido horario manteniendo tamaño. ¿Qué opción completa?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "La opción correcta es la 4.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-006",
+          "question": "Serie de barras horizontales: en cada paso aumenta una barra y alterna posición superior/inferior. ¿Qué opción corresponde?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 0,
+          "explanation": "La opción correcta es la 1.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-007",
+          "question": "Serie de flechas: la punta gira 90° en cada cuadro y el trazo vertical se mantiene centrado. ¿Qué figura falta?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 5,
+          "explanation": "La opción correcta es la 6.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-008",
+          "question": "Serie de puntos negros: se añade un punto por paso siguiendo la diagonal principal de abajo-izquierda a arriba-derecha. ¿Opción correcta?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "La opción correcta es la 4.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-009",
+          "question": "Serie de marcos dobles: la línea principal pasa de diagonal ascendente a horizontal y luego diagonal descendente. ¿Qué sigue?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "La opción correcta es la 3.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-010",
+          "question": "Serie de polígonos: cuadrado, pentágono, hexágono... ¿qué figura continúa?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 4,
+          "explanation": "La opción correcta es la 5.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-011",
+          "question": "Serie espejo: B es el espejo vertical de A, C repite A con un elemento añadido. D debe ser espejo vertical de C. ¿Qué opción es?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "La opción correcta es la 2.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-012",
+          "question": "Serie por superposición: en cada paso se combina la figura anterior con una línea nueva (sin borrar). ¿Qué opción completa?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 5,
+          "explanation": "La opción correcta es la 6.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-013",
+          "question": "Serie de rotación: la figura base rota 60° en cada avance manteniendo punto fijo central. ¿Qué opción corresponde a D?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "La opción correcta es la 3.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-014",
+          "question": "Serie de celdas sombreadas: el sombreado avanza dos posiciones por paso en sentido horario. ¿Cuál es la siguiente?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 0,
+          "explanation": "La opción correcta es la 1.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-015",
+          "question": "Serie de triángulos internos: alterna orientación (arriba/abajo) y desplazamiento lateral (izquierda/derecha). ¿Qué opción sigue?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 4,
+          "explanation": "La opción correcta es la 5.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-016",
+          "question": "Serie de segmentos: se elimina un segmento y se añade otro opuesto en cada paso. ¿Qué opción completa correctamente?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "La opción correcta es la 4.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-017",
+          "question": "Serie con círculo y cuadrado: el círculo avanza una posición en sentido horario y el cuadrado en antihorario. ¿Qué opción es D?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "La opción correcta es la 2.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-018",
+          "question": "Serie de cuadrículas 3x3: la fila con puntos sube una casilla por paso; al llegar arriba, vuelve abajo. ¿Qué opción continúa?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 5,
+          "explanation": "La opción correcta es la 6.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-019",
+          "question": "Serie de ángulos: 30°, 60°, 90°... manteniendo vértice. ¿Qué opción representa el siguiente ángulo?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "La opción correcta es la 3.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-020",
+          "question": "Serie de cruces: en cada paso se invierte la diagonal resaltada y se mantiene la otra. ¿Qué opción encaja?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 4,
+          "explanation": "La opción correcta es la 5.",
+          "tags": [
+            "Psicotécnicos",
+            "Razonamiento abstracto",
+            "Series de figuras"
+          ]
+        }
+      ],
       "razonamientoVerbal": [],
       "atencionPercepcion": []
     }
