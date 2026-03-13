@@ -57,6 +57,31 @@ function isAdminUser() {
   return localStorage.getItem('oporail_is_admin') === 'true';
 }
 
+
+function getCompletedTestsCount(uid) {
+  if (!uid) return 0;
+  const raw = localStorage.getItem(`oporail_test_history_${uid}`);
+  if (!raw) return 0;
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.length : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function canStartTestAttempt(uid) {
+  if (!uid) return { ok: true };
+  const planStatus = getPlanStatus(uid);
+  if (planStatus.planId !== 'free') return { ok: true };
+  const completed = getCompletedTestsCount(uid);
+  const maxAttempts = 5;
+  if (completed >= maxAttempts) {
+    return { ok: false, reason: 'free-test-limit', completed, maxAttempts };
+  }
+  return { ok: true, completed, maxAttempts };
+}
+
 function addEnrollment(courseId) {
   const uid = getActiveUserId();
   if (!uid) return { ok: false, reason: 'not-authenticated' };
@@ -214,13 +239,30 @@ function renderCourseContentBlocks(blueprint) {
   `;
 }
 
-function renderTemarioSection() {
+function getCourseTemarioStorageKey(courseTitle = '') {
+  const safe = String(courseTitle || 'general').toLowerCase().replace(/[^a-z0-9]+/gi, '-');
+  return `oporail_temario_docs_${safe}`;
+}
+
+function getStoredTemarioDocs(courseTitle = '') {
+  const raw = localStorage.getItem(getCourseTemarioStorageKey(courseTitle));
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function renderTemarioSection(courseTitle = '') {
   const items = [
     'Temario Común 2025',
     'Temario Específico 2025',
     'Temario Común Resumido y Optimizado por OpoRail',
     'Temario Específico Resumido y Optimizado por OpoRail',
   ];
+  const docs = getStoredTemarioDocs(courseTitle);
 
   return `
     <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
@@ -229,8 +271,57 @@ function renderTemarioSection() {
       <ul class="grid md:grid-cols-2 gap-3 text-sm text-gray-700">
         ${items.map((item) => `<li class="bg-gray-50 border border-gray-100 rounded-lg p-3">• ${item}</li>`).join('')}
       </ul>
+
+      <div class="mt-6 border-t border-gray-100 pt-4">
+        <p class="text-sm font-semibold text-gray-800 mb-2">Documentos del temario</p>
+        <ul id="temario-docs-list" class="space-y-2 text-sm text-gray-700">
+          ${docs.length
+            ? docs.map((doc, index) => `<li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2"><a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a><span class="text-xs text-gray-500">${doc.type || 'documento'}</span></li>`).join('')
+            : '<li class="text-gray-500">No hay documentos cargados todavía.</li>'}
+        </ul>
+        ${isAdminUser()
+          ? `<div class="mt-4 flex flex-wrap items-center gap-3"><input id="temario-upload-input" type="file" accept=".pdf,.doc,.docx,.txt,.md" multiple class="text-sm"><button id="temario-upload-btn" type="button" class="btn">Subir documentos</button></div><p id="temario-upload-feedback" class="text-xs text-gray-500 mt-2">Los archivos se guardan en el navegador para este curso.</p>`
+          : ''}
+      </div>
     </section>
   `;
+}
+
+function bindTemarioUpload(courseTitle = '') {
+  if (!isAdminUser()) return;
+  const input = document.getElementById('temario-upload-input');
+  const button = document.getElementById('temario-upload-btn');
+  const feedback = document.getElementById('temario-upload-feedback');
+  const listEl = document.getElementById('temario-docs-list');
+  if (!input || !button || !feedback || !listEl) return;
+
+  button.addEventListener('click', async () => {
+    const files = Array.from(input.files || []);
+    if (!files.length) {
+      feedback.textContent = 'Selecciona al menos un archivo.';
+      return;
+    }
+
+    const docs = getStoredTemarioDocs(courseTitle);
+    for (const file of files) {
+      if (file.size > 5 * 1024 * 1024) {
+        feedback.textContent = `El archivo ${file.name} supera 5MB y no se ha subido.`;
+        continue;
+      }
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = () => reject(new Error('No se pudo leer el archivo.'));
+        reader.readAsDataURL(file);
+      });
+      docs.push({ name: file.name, type: file.type, dataUrl });
+    }
+
+    localStorage.setItem(getCourseTemarioStorageKey(courseTitle), JSON.stringify(docs));
+    listEl.innerHTML = docs.map((doc, index) => `<li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2"><a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a><span class="text-xs text-gray-500">${doc.type || 'documento'}</span></li>`).join('');
+    feedback.textContent = 'Documentos subidos correctamente.';
+    input.value = '';
+  });
 }
 
 function renderPublicPsychotechnicalCard() {
@@ -317,9 +408,9 @@ async function fetchQuestionPayload() {
     const specialtyBankMap = {
       comun: { path: 'question-banks/comun.json' },
       ajustador: { path: 'question-banks/ajustador.json', course: 'Ajustador-Montador' },
-      electrico: { path: 'question-banks/electrico.json', course: 'Eléctrico' },
-      soldadores: { path: 'question-banks/soldadores.json', course: 'Soldadores' },
-      torneros: { path: 'question-banks/torneros.json', course: 'Torneros' },
+      electrico: { path: 'question-banks/electrico.json', course: 'Electricidad-Electrónica' },
+      soldadores: { path: 'question-banks/soldadores.json', course: 'Calderería/Chapa/Soldadura' },
+      torneros: { path: 'question-banks/torneros.json', course: 'Máquinas - Herramientas' },
       pintura: { path: 'question-banks/pintura.json', course: 'Pintura' },
     };
 
@@ -869,7 +960,7 @@ if (courseDetailContainer) {
             </div>
           </section>
 
-          ${renderTemarioSection()}
+          ${renderTemarioSection(course.titulo)}
           ${hasAccess ? renderTestSection('Tests · Materias comunes', getCommonTests(questionBank), courseId, true) : renderPublicOverview()}
           ${hasAccess ? renderTestSection('Tests · Temario específico', getSpecificTests(questionBank, course.titulo), courseId, true) : ''}
           ${hasAccess ? renderTestSection('Tests · Psicotécnicos', getPsychotechnicalTests(questionBank), courseId, true) : ''}
@@ -905,6 +996,7 @@ if (courseDetailContainer) {
 
       bindPsychotechnicalSection(questionBank);
       bindTestInfoToggles();
+      bindTemarioUpload(course.titulo);
     })
     .catch((err) => {
       console.error('Error cargando detalle del curso:', err);
@@ -979,6 +1071,15 @@ if (testRunner) {
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
 
+      const userId = getActiveUserId();
+      if (params.get('review') !== 'last') {
+        const attemptCheck = canStartTestAttempt(userId);
+        if (!attemptCheck.ok) {
+          testRunner.innerHTML = `<section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100"><h1 class="text-2xl font-bold text-purple-700">Límite del plan gratuito alcanzado</h1><p class="text-sm text-gray-600 mt-2">Has completado ${attemptCheck.completed} tests. Con el plan gratuito puedes completar un máximo de ${attemptCheck.maxAttempts}.</p><a href="/planes.html" class="inline-flex mt-4 bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">Mejorar plan</a></section>`;
+          return;
+        }
+      }
+
       const testQuestions = (() => {
         if (activeTest.id.startsWith('psy-')) {
           const key = activeTest.id.replace('psy-', '');
@@ -999,12 +1100,23 @@ if (testRunner) {
         normalizedQuestions.push(fallback);
       }
       const totalQuestions = 20;
-      const trimmedQuestions = normalizedQuestions.slice(0, totalQuestions);
+      const trimmedQuestions = normalizedQuestions.slice(0, totalQuestions).map((question) => {
+        if (activeTest.id !== 'psy-razonamientoAbstracto') return question;
+        const options = Array.isArray(question.options) ? question.options.slice(0, 4) : ['A', 'B', 'C', 'D'];
+        while (options.length < 4) options.push(['A', 'B', 'C', 'D'][options.length]);
+        const validCorrect = options.includes(question.correctAnswer) ? question.correctAnswer : options[0];
+        return {
+          ...question,
+          options,
+          correctAnswer: validCorrect,
+        };
+      });
 
       const questionsPerPage = 5;
       let currentPage = 0;
       const answers = Array(totalQuestions).fill(null);
       const parsedDurationMinutes = Number.parseInt(String(activeTest.duration || "30").replace(/[^0-9]/g, ""), 10) || 30;
+      const isAbstractPsychotest = activeTest.id === "psy-razonamientoAbstracto";
       const totalDurationSeconds = parsedDurationMinutes * 60;
       let remainingSeconds = totalDurationSeconds;
       let timerId;
@@ -1043,7 +1155,7 @@ if (testRunner) {
                 <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                   <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
-                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <ul class="relative space-y-1 text-sm">
                     ${question.options.map((option, optIndex) => {
                       const isCorrect = optIndex === correctIndex;
@@ -1066,7 +1178,6 @@ if (testRunner) {
       };
 
       if (params.get('review') === 'last') {
-        const userId = getActiveUserId();
         if (userId) {
           const reviewRaw = localStorage.getItem(`oporail_test_review_${userId}_${activeTest.id}`);
           if (reviewRaw) {
@@ -1108,12 +1219,11 @@ if (testRunner) {
             points += 1;
           } else {
             incorrect += 1;
-            points -= 0.33;
+            if (!isAbstractPsychotest) points -= 0.33;
           }
         });
         const scorePercent = Math.round((points / totalQuestions) * 10000) / 100;
 
-        const userId = getActiveUserId();
         if (userId) {
           const raw = localStorage.getItem(`oporail_test_history_${userId}`);
           const history = raw ? JSON.parse(raw) : [];
@@ -1168,7 +1278,7 @@ if (testRunner) {
                   <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                     <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                     <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
-                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                     <ul class="relative space-y-1 text-sm">
                       ${question.options
                         .map((option, optIndex) => {
@@ -1206,6 +1316,17 @@ if (testRunner) {
                 .join('')}
             </div>
           </section>
+
+          <div id="finish-test-modal" class="hidden fixed inset-0 z-50 bg-black/50 p-4">
+            <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
+              <h3 class="text-lg font-bold text-gray-900">¿Seguro que quieres terminar el intento?</h3>
+              <p class="text-sm text-gray-600 mt-2">Si terminas ahora, se corregirá el test con las respuestas actuales.</p>
+              <div class="mt-5 flex gap-3">
+                <button type="button" id="continue-test-btn" class="btn-ghost">Seguir con el Test</button>
+                <button type="button" id="confirm-finish-btn" class="btn">Terminar intento</button>
+              </div>
+            </div>
+          </div>
         `;
       };
 
@@ -1237,7 +1358,7 @@ if (testRunner) {
                 <div class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
                   <p class="relative font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
-                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${start + index + 1}" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
+                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${start + index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <div class="relative space-y-2">
                     ${question.options
                       .map(
@@ -1256,7 +1377,6 @@ if (testRunner) {
                 .join('')}
               <div class="flex flex-wrap gap-3">
                 <button type="button" id="prev-page" class="btn-ghost" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
-                <button type="submit" class="btn">Guardar página</button>
                 <button type="button" id="next-page" class="btn-ghost">Siguiente</button>
                 <button type="button" id="finish-test" class="btn">Finalizar test</button>
               </div>
@@ -1290,7 +1410,27 @@ if (testRunner) {
         }
 
         if (finishBtn) {
-          finishBtn.addEventListener('click', finishTest);
+          finishBtn.addEventListener('click', () => {
+            const confirmModal = document.getElementById('finish-test-modal');
+            if (confirmModal) confirmModal.classList.remove('hidden');
+          });
+        }
+
+        const continueTestBtn = document.getElementById('continue-test-btn');
+        const confirmFinishBtn = document.getElementById('confirm-finish-btn');
+        const confirmModal = document.getElementById('finish-test-modal');
+
+        if (continueTestBtn && confirmModal) {
+          continueTestBtn.addEventListener('click', () => {
+            confirmModal.classList.add('hidden');
+          });
+        }
+
+        if (confirmFinishBtn && confirmModal) {
+          confirmFinishBtn.addEventListener('click', () => {
+            confirmModal.classList.add('hidden');
+            finishTest();
+          });
         }
 
         if (form && feedback) {
@@ -1301,15 +1441,7 @@ if (testRunner) {
               answers[start + index] = selectedIndex;
             });
           });
-          form.addEventListener('submit', (event) => {
-            event.preventDefault();
-            pageQuestions.forEach((_, index) => {
-              const selected = form.querySelector(`input[name="answer-${start + index}"]:checked`);
-              const selectedIndex = selected ? Number(selected.value) : null;
-              answers[start + index] = selectedIndex;
-            });
-            feedback.textContent = 'Respuestas guardadas en esta página.';
-          });
+          feedback.textContent = 'Las respuestas se guardan automáticamente al marcar cada opción.';
         }
       };
 
@@ -1358,7 +1490,6 @@ if (testInfo) {
         ...getPsychotechnicalTests(questionBank),
       ];
       const activeTest = allTests.find((test) => test.id === testId) || allTests[0];
-
       const userId = getActiveUserId();
       const rawHistory = userId ? localStorage.getItem(`oporail_test_history_${userId}`) : null;
       const history = rawHistory ? JSON.parse(rawHistory) : [];
@@ -1379,9 +1510,10 @@ if (testInfo) {
               <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
                           </div>
           </div>
+          <p id="free-test-limit-message" class="mt-3 text-sm text-amber-700"></p>
           <div class="mt-4 space-y-2 text-sm text-gray-600">
             <p><strong>Preguntas:</strong> 20</p>
-            <p><strong>Tiempo máximo:</strong> 30 minutos</p>
+            <p><strong>Tiempo máximo:</strong> ${activeTest.duration}</p>
           </div>
         </section>
 
@@ -1411,8 +1543,20 @@ if (testInfo) {
       `;
 
       const startBtn = document.getElementById('start-test');
+      const freeLimitMsg = document.getElementById('free-test-limit-message');
       if (startBtn) {
+        const attemptCheck = canStartTestAttempt(userId);
+        if (!attemptCheck.ok) {
+          startBtn.disabled = true;
+          startBtn.classList.add('opacity-60', 'pointer-events-none');
+          if (freeLimitMsg) {
+            freeLimitMsg.textContent = `Has alcanzado el límite del plan gratuito (${attemptCheck.maxAttempts} tests completados).`;
+          }
+        }
+
         startBtn.addEventListener('click', () => {
+          const latestCheck = canStartTestAttempt(userId);
+          if (!latestCheck.ok) return;
           window.open(`/test-run.html?course=${resolvedCourseId}&test=${activeTest.id}`, '_blank', 'noopener,noreferrer');
         });
       }

@@ -17,7 +17,10 @@
         ],
         "correctIndex": 1,
         "explanation": "El plan de prevención reúne la política, organización y procedimientos preventivos.",
-        "tags": ["prevencion", "normativa"]
+        "tags": [
+          "prevencion",
+          "normativa"
+        ]
       },
       {
         "id": "comun-002",
@@ -33,7 +36,10 @@
         ],
         "correctIndex": 1,
         "explanation": "El mantenimiento preventivo busca anticiparse a fallos con revisiones periódicas.",
-        "tags": ["mantenimiento", "preventivo"]
+        "tags": [
+          "mantenimiento",
+          "preventivo"
+        ]
       },
       {
         "id": "comun-003",
@@ -49,7 +55,10 @@
         ],
         "correctIndex": 1,
         "explanation": "LOTO evita energizaciones accidentales durante trabajos de mantenimiento.",
-        "tags": ["seguridad", "loto"]
+        "tags": [
+          "seguridad",
+          "loto"
+        ]
       }
     ],
     "test-especifico": [
@@ -67,7 +76,10 @@
         ],
         "correctIndex": 1,
         "explanation": "La consignación garantiza que no exista energía peligrosa durante la intervención.",
-        "tags": ["consignacion", "seguridad"]
+        "tags": [
+          "consignacion",
+          "seguridad"
+        ]
       }
     ],
     "psicotecnicos": {
@@ -78,10 +90,17 @@
           "source": "simulacion",
           "difficulty": "media",
           "question": "Selecciona la opción correcta según el enunciado del bloque ómnibus.",
-          "options": ["A", "B", "C", "D"],
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
           "correctIndex": 2,
           "explanation": "Ejemplo de estructura para completar más adelante.",
-          "tags": ["omnibus"]
+          "tags": [
+            "omnibus"
+          ]
         }
       ],
       "sinonimosAntonimos": [],
