@@ -177,9 +177,7 @@ async function renderDashboard(user) {
   const enrollments = getEnrollments(user.uid);
 
   const courseEntries = allCourses.map((course, index) => ({ id: index + 1, course }));
-  const selectedEntries = (enrollments.length
-    ? courseEntries.filter((entry) => enrollments.includes(entry.id))
-    : courseEntries.slice(0, 3));
+  const selectedEntries = courseEntries.filter((entry) => enrollments.includes(entry.id));
 
   if (!selectedEntries.length) {
     grid.innerHTML = '';

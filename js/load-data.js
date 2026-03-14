@@ -301,7 +301,7 @@ function renderTemarioSection(courseTitle = '') {
             : '<li class="text-gray-500">No hay documentos cargados todavía.</li>'}
         </ul>
         ${isAdminUser()
-          ? `<div class="mt-4 flex flex-wrap items-center gap-3"><input id="temario-upload-input" type="file" accept=".pdf,.doc,.docx,.txt,.md" multiple class="text-sm"><button id="temario-upload-btn" type="button" class="btn">Subir documentos</button></div><p id="temario-upload-feedback" class="text-xs text-gray-500 mt-2">Los archivos se guardan en el navegador para este curso.</p>`
+          ? `<div class="mt-4 flex flex-wrap items-center gap-3"><input id="temario-upload-input" type="file" accept=".pdf,.doc,.docx,.txt,.md" multiple class="text-sm"><button id="temario-upload-btn" type="button" class="btn">Subir documentos</button><a href="/admin/temarios.html" class="btn-ghost">Panel admin de temarios</a></div><p id="temario-upload-feedback" class="text-xs text-gray-500 mt-2">Los archivos se guardan en el navegador para este curso.</p>`
           : ''}
       </div>
     </section>
@@ -967,7 +967,7 @@ if (courseDetailContainer) {
             <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
               <p class="text-base font-semibold text-gray-900">¿Estás seguro de eliminar este curso de tu perfil?</p>
               <div class="mt-5 flex gap-3">
-                <button type="button" id="confirm-remove-course" class="btn bg-red-600 hover:bg-red-700">Eliminar</button>
+                <button type="button" id="confirm-remove-course" class="btn">Eliminar</button>
                 <button type="button" id="cancel-remove-course" class="btn-ghost">Conservar</button>
               </div>
             </div>
@@ -1023,6 +1023,7 @@ if (courseDetailContainer) {
             if (enrollFeedback) enrollFeedback.textContent = 'No se pudo eliminar el curso en este momento.';
             return;
           }
+          if (enrollFeedback) enrollFeedback.textContent = 'Curso eliminado de tu perfil correctamente.';
           window.location.href = '/user/index.html';
         });
       }
