@@ -1,11 +1,54 @@
 <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
-  <rect width='100%' height='100%' fill='#ffffff'/>
-  <text x='30' y='42' font-family='Arial' font-size='30' font-weight='700' fill='#b45309'>63. ¿Cuál figura completa lógicamente la serie?</text>
-  <g transform='translate(55,85)'><rect width='120' height='120' fill='#ffffff' stroke='#333' stroke-width='3'/>
-  <g transform='translate(55,85)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='51' cy='20' r='8' fill='#111'/><circle cx='76' cy='43' r='8' fill='#111'/><circle cx='101' cy='66' r='8' fill='#111'/><circle cx='26' cy='89' r='8' fill='#111'/></g>
-  <g transform='translate(220,85)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='69' cy='20' r='8' fill='#111'/><circle cx='94' cy='43' r='8' fill='#111'/><circle cx='105' cy='66' r='8' fill='#111'/><circle cx='44' cy='89' r='8' fill='#111'/></g>
-  <g transform='translate(385,85)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='87' cy='20' r='8' fill='#111'/><circle cx='105' cy='43' r='8' fill='#111'/><circle cx='105' cy='66' r='8' fill='#111'/><circle cx='62' cy='89' r='8' fill='#111'/></g>
-  <rect x='550' y='85' width='120' height='120' fill='none' stroke='#999' stroke-width='3' stroke-dasharray='10 8'/>
-  <text x='605' y='158' font-size='60' fill='#666'>?</text>
-  <text x='45' y='245' font-family='Arial' font-size='24' fill='#222'>Opciones:</text><g transform='translate(55,270)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='87' cy='20' r='8' fill='#111'/><circle cx='112' cy='43' r='8' fill='#111'/><circle cx='137' cy='66' r='8' fill='#111'/><circle cx='62' cy='89' r='8' fill='#111'/><text x='50' y='148' font-family='Arial' font-size='26' fill='#222'>a</text></g><g transform='translate(220,270)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='63' cy='20' r='8' fill='#111'/><circle cx='88' cy='43' r='8' fill='#111'/><circle cx='113' cy='66' r='8' fill='#111'/><circle cx='38' cy='89' r='8' fill='#111'/><text x='50' y='148' font-family='Arial' font-size='26' fill='#222'>b</text></g><g transform='translate(385,270)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='45' cy='20' r='8' fill='#111'/><circle cx='70' cy='43' r='8' fill='#111'/><circle cx='95' cy='66' r='8' fill='#111'/><circle cx='20' cy='89' r='8' fill='#111'/><text x='50' y='148' font-family='Arial' font-size='26' fill='#222'>c</text></g><g transform='translate(550,270)'><rect width='120' height='120' fill='white' stroke='#333' stroke-width='3'/><circle cx='27' cy='20' r='8' fill='#111'/><circle cx='52' cy='43' r='8' fill='#111'/><circle cx='77' cy='66' r='8' fill='#111'/><circle cx='2' cy='89' r='8' fill='#111'/><text x='50' y='148' font-family='Arial' font-size='26' fill='#222'>d</text></g>
+  <rect width='100%' height='100%' fill='#f8f8f8'/>
+  <text x='40' y='58' font-family='Arial' font-size='54' font-weight='700' fill='#a14e05'>63. ¿Cuál figura completa lógicamente la serie?</text>
+  <text x='240' y='340' font-family='Arial' font-size='54' fill='#222'>Opciones:</text>
+  <rect x='178' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='208,134 199,150 217,150' fill='#111'/>
+  <polygon points='240,134 231,150 249,150' fill='#111'/>
+  <polygon points='272,134 263,150 281,150' fill='#111'/>
+  <rect x='368' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='398,134 389,150 407,150' fill='#111'/>
+  <polygon points='430,134 421,150 439,150' fill='#111'/>
+  <polygon points='462,134 453,150 471,150' fill='#111'/>
+  <polygon points='414,170 405,186 423,186' fill='#111'/>
+  <rect x='558' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='588,134 579,150 597,150' fill='#111'/>
+  <polygon points='620,134 611,150 629,150' fill='#111'/>
+  <polygon points='652,134 643,150 661,150' fill='#111'/>
+  <polygon points='604,170 595,186 613,186' fill='#111'/>
+  <polygon points='636,170 627,186 645,186' fill='#111'/>
+  <rect x='718' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5' stroke-dasharray='14 12'/>
+  <text x='770' y='188' font-family='Georgia' font-size='72' fill='#666'>?</text>
+  <rect x='178' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='208,344 199,360 217,360' fill='#111'/>
+  <polygon points='240,344 231,360 249,360' fill='#111'/>
+  <polygon points='272,344 263,360 281,360' fill='#111'/>
+  <polygon points='224,380 215,396 233,396' fill='#111'/>
+  <polygon points='256,380 247,396 265,396' fill='#111'/>
+  <polygon points='240,404 231,420 249,420' fill='#111'/>
+  <text x='232' y='472' font-family='Arial' font-size='56' fill='#222'>a</text>
+  <rect x='368' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='398,344 389,360 407,360' fill='#111'/>
+  <polygon points='430,344 421,360 439,360' fill='#111'/>
+  <polygon points='462,344 453,360 471,360' fill='#111'/>
+  <polygon points='414,380 405,396 423,396' fill='#111'/>
+  <polygon points='446,380 437,396 455,396' fill='#111'/>
+  <polygon points='430,404 421,420 439,420' fill='#111'/>
+  <text x='422' y='472' font-family='Arial' font-size='56' fill='#222'>b</text>
+  <rect x='558' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='588,344 579,360 597,360' fill='#111'/>
+  <polygon points='620,344 611,360 629,360' fill='#111'/>
+  <polygon points='652,344 643,360 661,360' fill='#111'/>
+  <polygon points='604,380 595,396 613,396' fill='#111'/>
+  <polygon points='636,380 627,396 645,396' fill='#111'/>
+  <polygon points='620,404 611,420 629,420' fill='#111'/>
+  <text x='612' y='472' font-family='Arial' font-size='56' fill='#222'>c</text>
+  <rect x='748' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
+  <polygon points='778,344 769,360 787,360' fill='#111'/>
+  <polygon points='810,344 801,360 819,360' fill='#111'/>
+  <polygon points='842,344 833,360 851,360' fill='#111'/>
+  <polygon points='794,380 785,396 803,396' fill='#111'/>
+  <polygon points='826,380 817,396 835,396' fill='#111'/>
+  <polygon points='810,404 801,420 819,420' fill='#111'/>
+  <text x='802' y='472' font-family='Arial' font-size='56' fill='#222'>d</text>
 </svg>
