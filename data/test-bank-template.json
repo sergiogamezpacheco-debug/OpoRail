@@ -3212,43 +3212,52 @@
       "razonamientoAbstracto": [
         {
           "id": "psi-abs-001",
-          "question": "Observa la serie y elige la opción que completa lógicamente la secuencia.",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-002",
-          "question": "Selecciona la figura correcta para continuar la serie visual.",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-003",
-          "question": "¿Qué opción mantiene el patrón de cambio entre A, B y C?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
@@ -3256,35 +3265,41 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-004",
-          "question": "¿Cuál figura completa lógicamente la serie mostrada?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-005",
-          "question": "Elige la alternativa que respeta el desplazamiento/rotación de la serie.",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
@@ -3292,35 +3307,41 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-006",
-          "question": "¿Qué opción encaja con la regla de transformación de la secuencia?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Serie visual"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-007",
-          "question": "Serie de flechas: la punta gira 90° en cada cuadro y el trazo vertical se mantiene centrado. ¿Qué figura falta?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
@@ -3328,152 +3349,41 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-008",
-          "question": "Serie de puntos negros: se añade un punto por paso siguiendo la diagonal principal de abajo-izquierda a arriba-derecha. ¿Opción correcta?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-009",
-          "question": "Serie de marcos dobles: la línea principal pasa de diagonal ascendente a horizontal y luego diagonal descendente. ¿Qué sigue?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-010",
-          "question": "Serie de polígonos: cuadrado, pentágono, hexágono... ¿qué figura continúa?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-011",
-          "question": "Serie espejo: B es el espejo vertical de A, C repite A con un elemento añadido. D debe ser espejo vertical de C. ¿Qué opción es?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-012",
-          "question": "Serie por superposición: en cada paso se combina la figura anterior con una línea nueva (sin borrar). ¿Qué opción completa?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-013",
-          "question": "Serie de rotación: la figura base rota 60° en cada avance manteniendo punto fijo central. ¿Qué opción corresponde a D?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-014",
-          "question": "Serie de celdas sombreadas: el sombreado avanza dos posiciones por paso en sentido horario. ¿Cuál es la siguiente?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-015",
-          "question": "Serie de triángulos internos: alterna orientación (arriba/abajo) y desplazamiento lateral (izquierda/derecha). ¿Qué opción sigue?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-016",
-          "question": "Serie de segmentos: se elimina un segmento y se añade otro opuesto en cada paso. ¿Qué opción completa correctamente?",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
@@ -3481,50 +3391,20 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-017",
-          "question": "Serie con círculo y cuadrado: el círculo avanza una posición en sentido horario y el cuadrado en antihorario. ¿Qué opción es D?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
-          "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
-          "id": "psi-abs-018",
-          "question": "Serie de cuadrículas 3x3: la fila con puntos sube una casilla por paso; al llegar arriba, vuelve abajo. ¿Qué opción continúa?",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
-          "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
-        },
-        {
-          "id": "psi-abs-019",
-          "question": "Serie de ángulos: 30°, 60°, 90°... manteniendo vértice. ¿Qué opción representa el siguiente ángulo?",
+          "id": "psi-abs-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
@@ -3532,16 +3412,41 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
-          "id": "psi-abs-020",
-          "question": "Serie de cruces: en cada paso se invierte la diagonal resaltada y se mantiene la otra. ¿Qué opción encaja?",
+          "id": "psi-abs-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
+        },
+        {
+          "id": "psi-abs-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
@@ -3549,1993 +3454,2141 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
-            "Psicotécnicos",
-            "Razonamiento abstracto",
-            "Series de figuras"
-          ]
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
+        },
+        {
+          "id": "psi-abs-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
+        },
+        {
+          "id": "psi-abs-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
+        },
+        {
+          "id": "psi-abs-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
+        },
+        {
+          "id": "psi-abs-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
+        },
+        {
+          "id": "psi-abs-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
+        },
+        {
+          "id": "psi-abs-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
+        },
+        {
+          "id": "psi-abs-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-01.svg"
+        },
+        {
+          "id": "psi-abs-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-021",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #21: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-022",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #22: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-023",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #23: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-024",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #24: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-025",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #25: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-026",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #26: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-027",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #27: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-028",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #28: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-029",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #29: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-030",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #30: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-031",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #31: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-032",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #32: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-033",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #33: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-034",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #34: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-035",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #35: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-036",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #36: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-037",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #37: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-038",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #38: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-039",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #39: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-040",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #40: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-041",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #41: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-042",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #42: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-043",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #43: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-044",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #44: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-045",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #45: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-046",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #46: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-047",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #47: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-048",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #48: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-049",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #49: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-050",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #50: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-051",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #51: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-052",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #52: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-053",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #53: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-054",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #54: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-055",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #55: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-056",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #56: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-057",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #57: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-058",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #58: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-059",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #59: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-060",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #60: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-061",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #61: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-062",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #62: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-063",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #63: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-064",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #64: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-065",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #65: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-066",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #66: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-067",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #67: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-068",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #68: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-069",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #69: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-070",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #70: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-071",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #71: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-072",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #72: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-073",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #73: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-074",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #74: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-075",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #75: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-076",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #76: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-077",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #77: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-078",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #78: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-079",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #79: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-080",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #80: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-081",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #81: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-082",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #82: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-083",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #83: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-084",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #84: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-085",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #85: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-086",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #86: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-087",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #87: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-088",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #88: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-089",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #89: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-090",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #90: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-091",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #91: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-092",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #92: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-093",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #93: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-094",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #94: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-095",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #95: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-096",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #96: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-097",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #97: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-098",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #98: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-099",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #99: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-100",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #100: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-101",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #101: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-102",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #102: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-103",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #103: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-104",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #104: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-105",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #105: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-106",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #106: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-107",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #107: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-108",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #108: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-109",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #109: selecciona la opción que completa la secuencia (conteo).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "conteo"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-110",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #110: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-111",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #111: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
           "id": "psi-abs-112",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #112: selecciona la opción que completa la secuencia (alternancia).",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
           "id": "psi-abs-113",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #113: selecciona la opción que completa la secuencia (simetría).",
+          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
+          "correctIndex": 3,
+          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "simetría"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
           "id": "psi-abs-114",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #114: selecciona la opción que completa la secuencia (conteo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "conteo"
-          ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
-        },
-        {
-          "id": "psi-abs-115",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Razonamiento abstracto #115: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
           "options": [
             "a",
             "b",
@@ -5543,41 +5596,41 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
+          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-02.svg"
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         },
         {
-          "id": "psi-abs-116",
+          "id": "psi-abs-115",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Razonamiento abstracto #116: selecciona la opción que completa la secuencia (rotación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
           "options": [
             "a",
             "b",
             "c",
             "d"
           ],
-          "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "rotación"
+            "serie-visual"
           ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
+          "image": "/img/psychotecnicos/abstracto-01.svg"
         },
         {
-          "id": "psi-abs-117",
+          "id": "psi-abs-116",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Razonamiento abstracto #117: selecciona la opción que completa la secuencia (alternancia).",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
           "options": [
             "a",
             "b",
@@ -5585,62 +5638,20 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
+          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "alternancia"
-          ],
-          "image": "/img/psychotecnicos/abstracto-01.svg"
-        },
-        {
-          "id": "psi-abs-118",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Razonamiento abstracto #118: selecciona la opción que completa la secuencia (simetría).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "simetría"
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-02.svg"
         },
         {
-          "id": "psi-abs-119",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Razonamiento abstracto #119: selecciona la opción que completa la secuencia (conteo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "conteo"
-          ],
-          "image": "/img/psychotecnicos/abstracto-03.svg"
-        },
-        {
-          "id": "psi-abs-120",
+          "id": "psi-abs-117",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Razonamiento abstracto #120: selecciona la opción que completa la secuencia (traslación).",
+          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
           "options": [
             "a",
             "b",
@@ -5648,13 +5659,76 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
+          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
-            "traslación"
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
+        },
+        {
+          "id": "psi-abs-118",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-01.svg"
+        },
+        {
+          "id": "psi-abs-119",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-02.svg"
+        },
+        {
+          "id": "psi-abs-120",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 0,
+          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "serie-visual"
+          ],
+          "image": "/img/psychotecnicos/abstracto-03.svg"
         }
       ],
       "razonamientoVerbal": [],
