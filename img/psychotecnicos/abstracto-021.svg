@@ -1,54 +1,114 @@
 <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
-  <rect width='100%' height='100%' fill='#f8f8f8'/>
-  <text x='40' y='58' font-family='Arial' font-size='54' font-weight='700' fill='#a14e05'>21. ¿Cuál figura completa lógicamente la serie?</text>
-  <text x='240' y='340' font-family='Arial' font-size='54' fill='#222'>Opciones:</text>
-  <rect x='178' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='208,134 199,150 217,150' fill='#111'/>
-  <polygon points='240,134 231,150 249,150' fill='#111'/>
-  <polygon points='272,134 263,150 281,150' fill='#111'/>
-  <rect x='368' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='398,134 389,150 407,150' fill='#111'/>
-  <polygon points='430,134 421,150 439,150' fill='#111'/>
-  <polygon points='462,134 453,150 471,150' fill='#111'/>
-  <polygon points='414,170 405,186 423,186' fill='#111'/>
-  <rect x='558' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='588,134 579,150 597,150' fill='#111'/>
-  <polygon points='620,134 611,150 629,150' fill='#111'/>
-  <polygon points='652,134 643,150 661,150' fill='#111'/>
-  <polygon points='604,170 595,186 613,186' fill='#111'/>
-  <polygon points='636,170 627,186 645,186' fill='#111'/>
-  <rect x='718' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5' stroke-dasharray='14 12'/>
-  <text x='770' y='188' font-family='Georgia' font-size='72' fill='#666'>?</text>
-  <rect x='178' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='208,344 199,360 217,360' fill='#111'/>
-  <polygon points='240,344 231,360 249,360' fill='#111'/>
-  <polygon points='272,344 263,360 281,360' fill='#111'/>
-  <polygon points='224,380 215,396 233,396' fill='#111'/>
-  <polygon points='256,380 247,396 265,396' fill='#111'/>
-  <polygon points='240,404 231,420 249,420' fill='#111'/>
-  <text x='232' y='472' font-family='Arial' font-size='56' fill='#222'>a</text>
-  <rect x='368' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='398,344 389,360 407,360' fill='#111'/>
-  <polygon points='430,344 421,360 439,360' fill='#111'/>
-  <polygon points='462,344 453,360 471,360' fill='#111'/>
-  <polygon points='414,380 405,396 423,396' fill='#111'/>
-  <polygon points='446,380 437,396 455,396' fill='#111'/>
-  <polygon points='430,404 421,420 439,420' fill='#111'/>
-  <text x='422' y='472' font-family='Arial' font-size='56' fill='#222'>b</text>
-  <rect x='558' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='588,344 579,360 597,360' fill='#111'/>
-  <polygon points='620,344 611,360 629,360' fill='#111'/>
-  <polygon points='652,344 643,360 661,360' fill='#111'/>
-  <polygon points='604,380 595,396 613,396' fill='#111'/>
-  <polygon points='636,380 627,396 645,396' fill='#111'/>
-  <polygon points='620,404 611,420 629,420' fill='#111'/>
-  <text x='612' y='472' font-family='Arial' font-size='56' fill='#222'>c</text>
-  <rect x='748' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <polygon points='778,344 769,360 787,360' fill='#111'/>
-  <polygon points='810,344 801,360 819,360' fill='#111'/>
-  <polygon points='842,344 833,360 851,360' fill='#111'/>
-  <polygon points='794,380 785,396 803,396' fill='#111'/>
-  <polygon points='826,380 817,396 835,396' fill='#111'/>
-  <polygon points='810,404 801,420 819,420' fill='#111'/>
-  <text x='802' y='472' font-family='Arial' font-size='56' fill='#222'>d</text>
+  <rect width='100%' height='100%' fill='#f3f4f6'/>
+  <text x='30' y='52' font-family='Arial' font-size='44' font-weight='700' fill='#1f4a73'>21. ¿Cuál figura completa lógicamente la serie?</text>
+  <text x='80' y='275' font-family='Arial' font-size='42' fill='#202020'>Opciones:</text>
+  <defs>
+    <pattern id='hatch' width='6' height='6' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'>
+      <line x1='0' y1='0' x2='0' y2='6' stroke='#666' stroke-width='2'/>
+    </pattern>
+  </defs>
+  <rect x='195' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='217.0' y1='110' x2='217.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='195' y1='132.0' x2='305' y2='132.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='239.0' y1='110' x2='239.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='195' y1='154.0' x2='305' y2='154.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='261.0' y1='110' x2='261.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='195' y1='176.0' x2='305' y2='176.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='283.0' y1='110' x2='283.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='195' y1='198.0' x2='305' y2='198.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='206.0' cy='121.0' r='6.8' fill='#111'/>
+  <circle cx='206.0' cy='143.0' r='6.8' fill='#111'/>
+  <circle cx='206.0' cy='165.0' r='6.8' fill='#111'/>
+  <circle cx='206.0' cy='187.0' r='6.8' fill='#111'/>
+  <circle cx='206.0' cy='209.0' r='6.8' fill='#111'/>
+  <rect x='365' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='387.0' y1='110' x2='387.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='365' y1='132.0' x2='475' y2='132.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='409.0' y1='110' x2='409.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='365' y1='154.0' x2='475' y2='154.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='431.0' y1='110' x2='431.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='365' y1='176.0' x2='475' y2='176.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='453.0' y1='110' x2='453.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='365' y1='198.0' x2='475' y2='198.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='420.0' cy='121.0' r='6.8' fill='#111'/>
+  <circle cx='420.0' cy='143.0' r='6.8' fill='#111'/>
+  <circle cx='420.0' cy='165.0' r='6.8' fill='#111'/>
+  <circle cx='420.0' cy='187.0' r='6.8' fill='#111'/>
+  <circle cx='420.0' cy='209.0' r='6.8' fill='#111'/>
+  <rect x='535' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='557.0' y1='110' x2='557.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='535' y1='132.0' x2='645' y2='132.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='579.0' y1='110' x2='579.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='535' y1='154.0' x2='645' y2='154.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='601.0' y1='110' x2='601.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='535' y1='176.0' x2='645' y2='176.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='623.0' y1='110' x2='623.0' y2='220' stroke='#444' stroke-width='1.6'/>
+  <line x1='535' y1='198.0' x2='645' y2='198.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='634.0' cy='121.0' r='6.8' fill='#111'/>
+  <circle cx='634.0' cy='143.0' r='6.8' fill='#111'/>
+  <circle cx='634.0' cy='165.0' r='6.8' fill='#111'/>
+  <circle cx='634.0' cy='187.0' r='6.8' fill='#111'/>
+  <circle cx='634.0' cy='209.0' r='6.8' fill='#111'/>
+  <rect x='705' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4' stroke-dasharray='10 8'/>
+  <text x='748' y='183' font-family='Georgia' font-size='70' fill='#666'>?</text>
+  <rect x='155' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='177.0' y1='290' x2='177.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='155' y1='312.0' x2='265' y2='312.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='199.0' y1='290' x2='199.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='155' y1='334.0' x2='265' y2='334.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='221.0' y1='290' x2='221.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='155' y1='356.0' x2='265' y2='356.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='243.0' y1='290' x2='243.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='155' y1='378.0' x2='265' y2='378.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='166.0' cy='301.0' r='6.8' fill='#111'/>
+  <circle cx='166.0' cy='323.0' r='6.8' fill='#111'/>
+  <circle cx='166.0' cy='345.0' r='6.8' fill='#111'/>
+  <circle cx='166.0' cy='367.0' r='6.8' fill='#111'/>
+  <circle cx='166.0' cy='389.0' r='6.8' fill='#111'/>
+  <text x='203' y='437' font-family='Arial' font-size='48' fill='#222'>a</text>
+  <rect x='305' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='327.0' y1='290' x2='327.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='305' y1='312.0' x2='415' y2='312.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='349.0' y1='290' x2='349.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='305' y1='334.0' x2='415' y2='334.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='371.0' y1='290' x2='371.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='305' y1='356.0' x2='415' y2='356.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='393.0' y1='290' x2='393.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='305' y1='378.0' x2='415' y2='378.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='316.0' cy='301.0' r='6.8' fill='#111'/>
+  <circle cx='316.0' cy='323.0' r='6.8' fill='#111'/>
+  <circle cx='316.0' cy='345.0' r='6.8' fill='#111'/>
+  <circle cx='316.0' cy='367.0' r='6.8' fill='#111'/>
+  <circle cx='316.0' cy='389.0' r='6.8' fill='#111'/>
+  <text x='353' y='437' font-family='Arial' font-size='48' fill='#222'>b</text>
+  <rect x='455' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='477.0' y1='290' x2='477.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='455' y1='312.0' x2='565' y2='312.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='499.0' y1='290' x2='499.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='455' y1='334.0' x2='565' y2='334.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='521.0' y1='290' x2='521.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='455' y1='356.0' x2='565' y2='356.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='543.0' y1='290' x2='543.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='455' y1='378.0' x2='565' y2='378.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='510.0' cy='301.0' r='6.8' fill='#111'/>
+  <circle cx='510.0' cy='323.0' r='6.8' fill='#111'/>
+  <circle cx='510.0' cy='345.0' r='6.8' fill='#111'/>
+  <circle cx='510.0' cy='367.0' r='6.8' fill='#111'/>
+  <circle cx='510.0' cy='389.0' r='6.8' fill='#111'/>
+  <text x='503' y='437' font-family='Arial' font-size='48' fill='#222'>c</text>
+  <rect x='605' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='627.0' y1='290' x2='627.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='605' y1='312.0' x2='715' y2='312.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='649.0' y1='290' x2='649.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='605' y1='334.0' x2='715' y2='334.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='671.0' y1='290' x2='671.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='605' y1='356.0' x2='715' y2='356.0' stroke='#444' stroke-width='1.6'/>
+  <line x1='693.0' y1='290' x2='693.0' y2='400' stroke='#444' stroke-width='1.6'/>
+  <line x1='605' y1='378.0' x2='715' y2='378.0' stroke='#444' stroke-width='1.6'/>
+  <circle cx='704.0' cy='301.0' r='6.8' fill='#111'/>
+  <circle cx='704.0' cy='323.0' r='6.8' fill='#111'/>
+  <circle cx='704.0' cy='345.0' r='6.8' fill='#111'/>
+  <circle cx='704.0' cy='367.0' r='6.8' fill='#111'/>
+  <circle cx='704.0' cy='389.0' r='6.8' fill='#111'/>
+  <text x='653' y='437' font-family='Arial' font-size='48' fill='#222'>d</text>
 </svg>

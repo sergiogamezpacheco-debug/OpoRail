@@ -1,46 +1,48 @@
 <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
-  <rect width='100%' height='100%' fill='#f8f8f8'/>
-  <text x='40' y='58' font-family='Arial' font-size='54' font-weight='700' fill='#a14e05'>114. ¿Cuál figura completa lógicamente la serie?</text>
-  <text x='240' y='340' font-family='Arial' font-size='54' fill='#222'>Opciones:</text>
-  <rect x='178' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='206' cy='136' r='9' fill='#111'/>
-  <circle cx='274' cy='136' r='9' fill='#111'/>
-  <circle cx='274' cy='204' r='9' fill='#111'/>
-  <circle cx='240' cy='170' r='8.5' fill='#111'/>
-  <rect x='368' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='464' cy='136' r='9' fill='#111'/>
-  <circle cx='464' cy='204' r='9' fill='#111'/>
-  <circle cx='396' cy='204' r='9' fill='#111'/>
-  <circle cx='430' cy='170' r='8.5' fill='#111'/>
-  <rect x='558' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='654' cy='204' r='9' fill='#111'/>
-  <circle cx='586' cy='204' r='9' fill='#111'/>
-  <circle cx='586' cy='136' r='9' fill='#111'/>
-  <circle cx='620' cy='170' r='8.5' fill='#111'/>
-  <rect x='718' y='108' width='125' height='125' fill='white' stroke='#444' stroke-width='5' stroke-dasharray='14 12'/>
-  <text x='770' y='188' font-family='Georgia' font-size='72' fill='#666'>?</text>
-  <rect x='178' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='206' cy='414' r='9' fill='#111'/>
-  <circle cx='206' cy='346' r='9' fill='#111'/>
-  <circle cx='274' cy='346' r='9' fill='#111'/>
-  <circle cx='240' cy='380' r='8.5' fill='#111'/>
-  <text x='232' y='472' font-family='Arial' font-size='56' fill='#222'>a</text>
-  <rect x='368' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='396' cy='414' r='9' fill='#111'/>
-  <circle cx='396' cy='346' r='9' fill='#111'/>
-  <circle cx='464' cy='346' r='9' fill='#111'/>
-  <circle cx='430' cy='380' r='8.5' fill='#111'/>
-  <text x='422' y='472' font-family='Arial' font-size='56' fill='#222'>b</text>
-  <rect x='558' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='586' cy='414' r='9' fill='#111'/>
-  <circle cx='586' cy='346' r='9' fill='#111'/>
-  <circle cx='654' cy='346' r='9' fill='#111'/>
-  <circle cx='620' cy='380' r='8.5' fill='#111'/>
-  <text x='612' y='472' font-family='Arial' font-size='56' fill='#222'>c</text>
-  <rect x='748' y='318' width='125' height='125' fill='white' stroke='#444' stroke-width='5'/>
-  <circle cx='776' cy='414' r='9' fill='#111'/>
-  <circle cx='776' cy='346' r='9' fill='#111'/>
-  <circle cx='844' cy='346' r='9' fill='#111'/>
-  <circle cx='810' cy='380' r='8.5' fill='#111'/>
-  <text x='802' y='472' font-family='Arial' font-size='56' fill='#222'>d</text>
+  <rect width='100%' height='100%' fill='#f3f4f6'/>
+  <text x='30' y='52' font-family='Arial' font-size='44' font-weight='700' fill='#1f4a73'>114. ¿Cuál figura completa lógicamente la serie?</text>
+  <text x='80' y='275' font-family='Arial' font-size='42' fill='#202020'>Opciones:</text>
+  <defs>
+    <pattern id='hatch' width='6' height='6' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'>
+      <line x1='0' y1='0' x2='0' y2='6' stroke='#666' stroke-width='2'/>
+    </pattern>
+  </defs>
+  <rect x='195' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='205' y1='120' x2='250' y2='165' stroke='#333' stroke-width='3'/>
+  <line x1='295' y1='120' x2='250' y2='165' stroke='#333' stroke-width='3'/>
+  <circle cx='250' cy='165' r='6.4' fill='#111'/>
+  <rect x='242' y='181' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <rect x='365' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='375' y1='165' x2='465' y2='165' stroke='#333' stroke-width='3'/>
+  <circle cx='420' cy='165' r='6.4' fill='#111'/>
+  <rect x='438' y='157' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <rect x='535' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='545' y1='210' x2='590' y2='165' stroke='#333' stroke-width='3'/>
+  <line x1='635' y1='210' x2='590' y2='165' stroke='#333' stroke-width='3'/>
+  <circle cx='590' cy='165' r='6.4' fill='#111'/>
+  <rect x='582' y='133' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <rect x='705' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4' stroke-dasharray='10 8'/>
+  <text x='748' y='183' font-family='Georgia' font-size='70' fill='#666'>?</text>
+  <rect x='155' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='210' y1='300' x2='210' y2='390' stroke='#333' stroke-width='3'/>
+  <circle cx='210' cy='345' r='6.4' fill='#111'/>
+  <rect x='178' y='337' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <text x='203' y='437' font-family='Arial' font-size='48' fill='#222'>a</text>
+  <rect x='305' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='315' y1='300' x2='360' y2='345' stroke='#333' stroke-width='3'/>
+  <line x1='405' y1='300' x2='360' y2='345' stroke='#333' stroke-width='3'/>
+  <circle cx='360' cy='345' r='6.4' fill='#111'/>
+  <rect x='352' y='361' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <text x='353' y='437' font-family='Arial' font-size='48' fill='#222'>b</text>
+  <rect x='455' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='510' y1='300' x2='510' y2='390' stroke='#333' stroke-width='3'/>
+  <circle cx='510' cy='345' r='6.4' fill='#111'/>
+  <rect x='478' y='337' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <text x='503' y='437' font-family='Arial' font-size='48' fill='#222'>c</text>
+  <rect x='605' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <line x1='615' y1='390' x2='660' y2='345' stroke='#333' stroke-width='3'/>
+  <line x1='705' y1='390' x2='660' y2='345' stroke='#333' stroke-width='3'/>
+  <circle cx='660' cy='345' r='6.4' fill='#111'/>
+  <rect x='652' y='313' width='16' height='16' fill='none' stroke='#333' stroke-width='2.4'/>
+  <text x='653' y='437' font-family='Arial' font-size='48' fill='#222'>d</text>
 </svg>
