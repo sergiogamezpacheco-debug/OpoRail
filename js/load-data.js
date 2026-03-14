@@ -611,6 +611,26 @@ function normalizeQuestion(question) {
   };
 }
 
+
+function renderQuestionExplanation(question, isAbstractPsychotest = false) {
+  const defaultBox = `
+    <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
+      <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
+      ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
+    </div>
+  `;
+
+  if (!isAbstractPsychotest) return defaultBox;
+
+  return `
+    <div class="mt-3 bg-sky-50 border border-sky-200 rounded-lg p-3 text-sm text-sky-900">
+      <p class="font-semibold">Respuesta</p>
+      <p class="text-xs mt-1">${question.explanation || 'Observa el patrón de transformación entre figuras consecutivas para identificar la opción correcta.'}</p>
+      <p class="text-sm mt-2"><strong>La respuesta correcta es:</strong> ${question.correctAnswer}</p>
+    </div>
+  `;
+}
+
 function getCommonTests(questionBank) {
   const commonQuestion = normalizeQuestion(questionBank['test-comun']?.[0]);
   return [
@@ -1204,10 +1224,7 @@ if (testRunner) {
                       return `<li class="flex items-center gap-2 ${classes}"><span class="inline-flex h-4 w-4 items-center justify-center rounded-full border ${radioClass}">${isSelected ? '<span class="h-2 w-2 rounded-full bg-white"></span>' : ''}</span><span>${option}${marker}</span></li>`;
                     }).join('')}
                   </ul>
-                  <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
-                    <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
-                    ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
-                  </div>
+${renderQuestionExplanation(question, isAbstractPsychotest)}
                 </article>`;
               }).join('')}
             </div>
@@ -1349,10 +1366,7 @@ if (testRunner) {
                         })
                         .join('')}
                     </ul>
-                    <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
-                      <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
-                      ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
-                    </div>
+${renderQuestionExplanation(question, isAbstractPsychotest)}
                   </article>
                 `;
                 })

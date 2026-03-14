@@ -2,50 +2,46 @@
   <rect width='100%' height='100%' fill='#f3f4f6'/>
   <text x='30' y='52' font-family='Arial' font-size='44' font-weight='700' fill='#1f4a73'>23. ¿Cuál figura completa lógicamente la serie?</text>
   <text x='80' y='275' font-family='Arial' font-size='42' fill='#202020'>Opciones:</text>
-  <defs>
-    <pattern id='hatch' width='6' height='6' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'>
-      <line x1='0' y1='0' x2='0' y2='6' stroke='#666' stroke-width='2'/>
-    </pattern>
-  </defs>
-  <rect x='195' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='218' y='133' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='250' y='133' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='218' y='165' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <rect x='250' y='165' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='365' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='388' y='133' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='420' y='133' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <rect x='388' y='165' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='420' y='165' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='535' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='558' y='133' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <rect x='590' y='133' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='558' y='165' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='590' y='165' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='705' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4' stroke-dasharray='10 8'/>
-  <text x='748' y='183' font-family='Georgia' font-size='70' fill='#666'>?</text>
-  <rect x='155' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='178' y='313' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='210' y='313' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='178' y='345' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='210' y='345' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <text x='203' y='437' font-family='Arial' font-size='48' fill='#222'>a</text>
-  <rect x='305' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='328' y='313' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='360' y='313' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='328' y='345' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <rect x='360' y='345' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <text x='353' y='437' font-family='Arial' font-size='48' fill='#222'>b</text>
-  <rect x='455' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='478' y='313' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='510' y='313' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <rect x='478' y='345' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='510' y='345' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <text x='503' y='437' font-family='Arial' font-size='48' fill='#222'>c</text>
-  <rect x='605' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
-  <rect x='628' y='313' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='660' y='313' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
-  <rect x='628' y='345' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
-  <rect x='660' y='345' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
-  <text x='653' y='437' font-family='Arial' font-size='48' fill='#222'>d</text>
+  <defs><pattern id='hatch' width='6' height='6' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='6' stroke='#666' stroke-width='2'/></pattern></defs>
+  <rect x='185' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='207' y='132' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='239' y='132' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='207' y='164' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='239' y='164' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='355' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='377' y='132' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='409' y='132' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='377' y='164' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='409' y='164' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='525' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='547' y='132' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='579' y='132' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='547' y='164' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='579' y='164' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='695' y='110' width='110' height='110' fill='white' stroke='#333' stroke-width='4' stroke-dasharray='10 8'/>
+  <text x='738' y='183' font-family='Georgia' font-size='70' fill='#666'>?</text>
+  <rect x='135' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='157' y='312' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='189' y='312' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='157' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='189' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <text x='183' y='437' font-family='Arial' font-size='48' fill='#222'>a</text>
+  <rect x='285' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='307' y='312' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='339' y='312' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='307' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='339' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <text x='333' y='437' font-family='Arial' font-size='48' fill='#222'>b</text>
+  <rect x='435' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='457' y='312' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='489' y='312' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='457' y='344' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='489' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <text x='483' y='437' font-family='Arial' font-size='48' fill='#222'>c</text>
+  <rect x='585' y='290' width='110' height='110' fill='white' stroke='#333' stroke-width='4'/>
+  <rect x='607' y='312' width='26' height='26' fill='#9ca3af' stroke='#333' stroke-width='2'/>
+  <rect x='639' y='312' width='26' height='26' fill='url(#hatch)' stroke='#333' stroke-width='2'/>
+  <rect x='607' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <rect x='639' y='344' width='26' height='26' fill='#fff' stroke='#333' stroke-width='2'/>
+  <text x='633' y='437' font-family='Arial' font-size='48' fill='#222'>d</text>
 </svg>
