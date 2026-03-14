@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin · Temarios | OpoRail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="antialiased bg-gray-50">
+  <div id="site-header"></div>
+
+  <main class="container mx-auto px-4 py-10 max-w-4xl">
+    <h1 class="text-3xl font-bold text-purple-700 mb-2">Panel admin · Temarios</h1>
+    <p class="text-sm text-gray-600 mb-6">Sube y gestiona documentos por curso para que aparezcan en la sección Temario.</p>
+
+    <section class="bg-white border border-gray-200 rounded-xl p-6 space-y-4">
+      <div>
+        <label for="course-select" class="block text-sm font-semibold text-gray-700 mb-1">Curso</label>
+        <select id="course-select" class="w-full border border-gray-300 rounded-lg px-3 py-2"></select>
+      </div>
+      <div>
+        <label for="docs-input" class="block text-sm font-semibold text-gray-700 mb-1">Documentos</label>
+        <input id="docs-input" type="file" multiple accept=".pdf,.doc,.docx,.txt,.md" class="w-full border border-gray-300 rounded-lg px-3 py-2 bg-white">
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <button id="upload-btn" class="btn" type="button">Subir documentos</button>
+        <button id="refresh-btn" class="btn-ghost" type="button">Recargar listado</button>
+      </div>
+      <p id="feedback" class="text-sm text-gray-600"></p>
+    </section>
+
+    <section class="mt-6 bg-white border border-gray-200 rounded-xl p-6">
+      <h2 class="text-xl font-bold text-purple-700 mb-3">Documentos cargados</h2>
+      <ul id="docs-list" class="space-y-2 text-sm text-gray-700"></ul>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="/js/load-header.js"></script>
+  <script src="/js/load-footer.js"></script>
+  <script>
+    const courseSelect = document.getElementById('course-select');
+    const docsInput = document.getElementById('docs-input');
+    const uploadBtn = document.getElementById('upload-btn');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const feedback = document.getElementById('feedback');
+    const docsList = document.getElementById('docs-list');
+
+    const getKey = (courseTitle = '') => {
+      const safe = String(courseTitle || 'general').toLowerCase().replace(/[^a-z0-9]+/gi, '-');
+      return `oporail_temario_docs_${safe}`;
+    };
+
+    const readDocs = (courseTitle) => {
+      const raw = localStorage.getItem(getKey(courseTitle));
+      if (!raw) return [];
+      try {
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    };
+
+    const saveDocs = (courseTitle, docs) => {
+      localStorage.setItem(getKey(courseTitle), JSON.stringify(docs));
+    };
+
+    const renderDocs = () => {
+      const title = courseSelect.value;
+      const docs = readDocs(title);
+      if (!docs.length) {
+        docsList.innerHTML = '<li class="text-gray-500">No hay documentos en este curso.</li>';
+        return;
+      }
+
+      docsList.innerHTML = docs.map((doc, index) => `
+        <li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2">
+          <a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a>
+          <button data-index="${index}" class="btn-ghost remove-doc" type="button">Eliminar</button>
+        </li>
+      `).join('');
+
+      docsList.querySelectorAll('.remove-doc').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const docsNow = readDocs(title);
+          const idx = Number(btn.dataset.index);
+          const next = docsNow.filter((_, i) => i !== idx);
+          saveDocs(title, next);
+          renderDocs();
+        });
+      });
+    };
+
+    const loadCourses = async () => {
+      try {
+        const res = await fetch('/data/courses.json');
+        const payload = await res.json();
+        const courses = Array.isArray(payload?.courses) ? payload.courses : Array.isArray(payload) ? payload : [];
+        courseSelect.innerHTML = courses.map((c) => `<option value="${c.titulo}">${c.titulo}</option>`).join('');
+        renderDocs();
+      } catch {
+        courseSelect.innerHTML = '<option value="Ajustador-Montador">Ajustador-Montador</option>';
+        renderDocs();
+      }
+    };
+
+    uploadBtn.addEventListener('click', async () => {
+      const title = courseSelect.value;
+      const files = Array.from(docsInput.files || []);
+      if (!files.length) {
+        feedback.textContent = 'Selecciona al menos un archivo.';
+        return;
+      }
+      const docs = readDocs(title);
+      for (const file of files) {
+        if (file.size > 5 * 1024 * 1024) {
+          feedback.textContent = `El archivo ${file.name} supera 5MB.`;
+          continue;
+        }
+        const dataUrl = await new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result);
+          reader.onerror = () => reject(new Error('No se pudo leer el archivo'));
+          reader.readAsDataURL(file);
+        });
+        docs.push({ name: file.name, type: file.type, dataUrl });
+      }
+      saveDocs(title, docs);
+      docsInput.value = '';
+      feedback.textContent = 'Documentos guardados correctamente.';
+      renderDocs();
+    });
+
+    refreshBtn.addEventListener('click', renderDocs);
+    courseSelect.addEventListener('change', renderDocs);
+
+    loadCourses();
+  </script>
+</body>
+</html>
