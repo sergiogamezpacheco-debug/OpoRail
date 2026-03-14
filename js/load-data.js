@@ -115,6 +115,27 @@ function addEnrollment(courseId) {
   return { ok: true };
 }
 
+
+function removeEnrollment(courseId) {
+  const uid = getActiveUserId();
+  if (!uid) return { ok: false, reason: 'not-authenticated' };
+
+  const key = `oporail_enrollments_${uid}`;
+  const raw = localStorage.getItem(key);
+  let list = [];
+
+  try {
+    list = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(list)) list = [];
+  } catch {
+    list = [];
+  }
+
+  const next = list.filter((id) => Number(id) !== Number(courseId));
+  localStorage.setItem(key, JSON.stringify(next));
+  return { ok: true };
+}
+
 function getFallbackCourseBlueprint(courseTitle) {
   return {
     intro: `Estructura recomendada para ${courseTitle}: preparada para que puedas cargar contenido progresivamente (tests, explicaciones y recursos).`,
@@ -932,18 +953,25 @@ if (courseDetailContainer) {
             <span class="inline-flex px-4 py-2 rounded-full text-sm font-semibold ${course.estado === 'Disponible' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800'}">
               ${escapeHtml(course.estado)}
             </span>
-            <a href="/cursos.html" class="inline-flex bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">
-              Volver a cursos
+            <a href="/user/index.html" class="inline-flex bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">
+              Volver a mi panel
             </a>
-            <a href="/user/index.html" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Acceder al panel
-            </a>
-            <button id="enroll-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">
-              Añadir a mi panel
+            <button id="remove-course-btn" data-course-id="${courseId}" class="inline-flex bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">
+              Eliminar curso
             </button>
           </div>
 
           <p id="enroll-feedback" class="text-sm text-gray-600 -mt-4 mb-6"></p>
+
+          <div id="remove-course-modal" class="hidden fixed inset-0 z-50 bg-black/50 p-4">
+            <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
+              <p class="text-base font-semibold text-gray-900">¿Estás seguro de eliminar este curso de tu perfil?</p>
+              <div class="mt-5 flex gap-3">
+                <button type="button" id="confirm-remove-course" class="btn bg-red-600 hover:bg-red-700">Eliminar</button>
+                <button type="button" id="cancel-remove-course" class="btn-ghost">Conservar</button>
+              </div>
+            </div>
+          </div>
 
           <section class="grid md:grid-cols-3 gap-4">
             <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
@@ -969,28 +997,33 @@ if (courseDetailContainer) {
         </article>
       `;
 
-      const enrollBtn = document.getElementById('enroll-course-btn');
+      const removeBtn = document.getElementById('remove-course-btn');
       const enrollFeedback = document.getElementById('enroll-feedback');
+      const removeModal = document.getElementById('remove-course-modal');
+      const confirmRemoveBtn = document.getElementById('confirm-remove-course');
+      const cancelRemoveBtn = document.getElementById('cancel-remove-course');
 
-      if (enrollBtn && enrollFeedback) {
-        enrollBtn.addEventListener('click', () => {
-          const id = Number(enrollBtn.dataset.courseId);
-          const result = addEnrollment(id);
+      if (removeBtn && removeModal) {
+        removeBtn.addEventListener('click', () => {
+          removeModal.classList.remove('hidden');
+        });
+      }
 
+      if (cancelRemoveBtn && removeModal) {
+        cancelRemoveBtn.addEventListener('click', () => {
+          removeModal.classList.add('hidden');
+        });
+      }
+
+      if (confirmRemoveBtn && removeModal) {
+        confirmRemoveBtn.addEventListener('click', () => {
+          const result = removeEnrollment(courseId);
+          removeModal.classList.add('hidden');
           if (!result.ok) {
-            if (result.reason === 'not-authenticated') {
-              enrollFeedback.textContent = 'Inicia sesión para añadir este curso a tu panel.';
-            } else if (result.reason === 'payment-required') {
-              enrollFeedback.innerHTML = 'Necesitas activar y pagar un plan para añadir cursos. Ve a <a class="text-purple-700 font-semibold hover:underline" href="/planes.html">planes</a> o <a class="text-purple-700 font-semibold hover:underline" href="/user/settings.html">ajustes</a>.';
-            } else if (result.reason === 'limit-reached') {
-              enrollFeedback.innerHTML = 'Has alcanzado el límite de tu plan. Cambia a <a class="text-purple-700 font-semibold hover:underline" href="/planes.html">Plan Avanzado</a> para añadir más cursos.';
-            } else {
-              enrollFeedback.textContent = 'No se pudo añadir el curso en este momento.';
-            }
+            if (enrollFeedback) enrollFeedback.textContent = 'No se pudo eliminar el curso en este momento.';
             return;
           }
-
-          enrollFeedback.textContent = 'Curso añadido correctamente. Lo verás en tu panel de usuario.';
+          window.location.href = '/user/index.html';
         });
       }
 
@@ -1266,9 +1299,14 @@ if (testRunner) {
               <p><strong>Aciertos:</strong> ${correct} · <strong>Errores:</strong> ${incorrect} · <strong>Sin contestar:</strong> ${unanswered}</p>
               <p><strong>Tiempo empleado:</strong> ${formatTime(Math.max(0, totalDurationSeconds - remainingSeconds))}</p>
             </div>
-            <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex mt-4 bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-              Volver al curso
-            </a>
+            <div class="mt-4 flex flex-wrap gap-3">
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+                Volver al curso
+              </a>
+              <a href="/test-info.html?course=${resolvedCourseId}&test=${activeTest.id}" class="inline-flex bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">
+                Reintentar
+              </a>
+            </div>
           </section>
 
           <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
@@ -1505,6 +1543,7 @@ if (testInfo) {
               <p class="text-sm text-gray-600">${activeTest.info}</p>
             </div>
             <div class="flex flex-wrap gap-3">
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Volver al curso</a>
               <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
                           </div>
           </div>
