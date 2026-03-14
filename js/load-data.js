@@ -104,7 +104,7 @@ function addEnrollment(courseId) {
   }
 
   if (!list.includes(courseId)) {
-    const maxCourses = plan?.maxCursos ?? 0;
+    const maxCourses = planStatus.planId === 'free' ? 1 : (plan?.maxCursos ?? 0);
     if (maxCourses > 0 && list.length >= maxCourses) {
       return { ok: false, reason: 'limit-reached', limit: maxCourses };
     }
@@ -1091,9 +1091,13 @@ if (testRunner) {
         return questionBank['test-especifico'] || [];
       })();
 
-      const normalizedQuestions = testQuestions.length
+      let normalizedQuestions = testQuestions.length
         ? testQuestions.map((question) => normalizeQuestion(question))
         : [];
+      if (activeTest.id === 'psy-razonamientoAbstracto' && normalizedQuestions.length > 20) {
+        const shuffled = [...normalizedQuestions].sort(() => Math.random() - 0.5);
+        normalizedQuestions = shuffled;
+      }
       while (normalizedQuestions.length < 20) {
         const fallback = getFallbackQuestion();
         fallback.question = `Pregunta de ejemplo ${normalizedQuestions.length + 1}`;
@@ -1316,17 +1320,6 @@ if (testRunner) {
                 .join('')}
             </div>
           </section>
-
-          <div id="finish-test-modal" class="hidden fixed inset-0 z-50 bg-black/50 p-4">
-            <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
-              <h3 class="text-lg font-bold text-gray-900">¿Seguro que quieres terminar el intento?</h3>
-              <p class="text-sm text-gray-600 mt-2">Si terminas ahora, se corregirá el test con las respuestas actuales.</p>
-              <div class="mt-5 flex gap-3">
-                <button type="button" id="continue-test-btn" class="btn-ghost">Seguir con el Test</button>
-                <button type="button" id="confirm-finish-btn" class="btn">Terminar intento</button>
-              </div>
-            </div>
-          </div>
         `;
       };
 
@@ -1341,9 +1334,6 @@ if (testRunner) {
                 <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
                 <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
               </div>
-              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-                Volver al curso
-              </a>
             </div>
             <p class="mt-3 text-sm text-gray-600">Tiempo restante: <span id="test-timer" class="font-semibold text-purple-700">${formatTime(remainingSeconds)}</span></p>
             <p class="text-sm text-gray-600">Preguntas: ${totalQuestions} · Página ${currentPage + 1} / ${Math.ceil(totalQuestions / questionsPerPage)}</p>
@@ -1383,6 +1373,17 @@ if (testRunner) {
               <p id="test-feedback" class="text-sm text-gray-600"></p>
             </form>
           </section>
+
+          <div id="finish-test-modal" class="hidden fixed inset-0 z-50 bg-black/50 p-4">
+            <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
+              <h3 class="text-lg font-bold text-gray-900">¿Seguro que quieres terminar el intento?</h3>
+              <p class="text-sm text-gray-600 mt-2">Si terminas ahora, se corregirá el test con las respuestas actuales.</p>
+              <div class="mt-5 flex gap-3">
+                <button type="button" id="continue-test-btn" class="btn-ghost">Seguir con el Test</button>
+                <button type="button" id="confirm-finish-btn" class="btn">Terminar intento</button>
+              </div>
+            </div>
+          </div>
         `;
 
         const form = document.getElementById('test-form');
@@ -1504,9 +1505,6 @@ if (testInfo) {
               <p class="text-sm text-gray-600">${activeTest.info}</p>
             </div>
             <div class="flex flex-wrap gap-3">
-              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
-                Volver al curso
-              </a>
               <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
                           </div>
           </div>

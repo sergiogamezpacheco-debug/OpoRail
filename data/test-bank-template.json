@@ -3214,13 +3214,13 @@
           "id": "psi-abs-001",
           "question": "Observa la serie y elige la opción que completa lógicamente la secuencia.",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "La opción correcta es la 3.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3232,13 +3232,13 @@
           "id": "psi-abs-002",
           "question": "Selecciona la figura correcta para continuar la serie visual.",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 5.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3250,13 +3250,13 @@
           "id": "psi-abs-003",
           "question": "¿Qué opción mantiene el patrón de cambio entre A, B y C?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 6.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3268,13 +3268,13 @@
           "id": "psi-abs-004",
           "question": "¿Cuál figura completa lógicamente la serie mostrada?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 2.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3286,13 +3286,13 @@
           "id": "psi-abs-005",
           "question": "Elige la alternativa que respeta el desplazamiento/rotación de la serie.",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "La opción correcta es la 4.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3304,13 +3304,13 @@
           "id": "psi-abs-006",
           "question": "¿Qué opción encaja con la regla de transformación de la secuencia?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 1.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3322,13 +3322,13 @@
           "id": "psi-abs-007",
           "question": "Serie de flechas: la punta gira 90° en cada cuadro y el trazo vertical se mantiene centrado. ¿Qué figura falta?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 6.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3339,13 +3339,13 @@
           "id": "psi-abs-008",
           "question": "Serie de puntos negros: se añade un punto por paso siguiendo la diagonal principal de abajo-izquierda a arriba-derecha. ¿Opción correcta?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "La opción correcta es la 4.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3356,13 +3356,13 @@
           "id": "psi-abs-009",
           "question": "Serie de marcos dobles: la línea principal pasa de diagonal ascendente a horizontal y luego diagonal descendente. ¿Qué sigue?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "La opción correcta es la 3.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3373,13 +3373,13 @@
           "id": "psi-abs-010",
           "question": "Serie de polígonos: cuadrado, pentágono, hexágono... ¿qué figura continúa?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 5.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3390,13 +3390,13 @@
           "id": "psi-abs-011",
           "question": "Serie espejo: B es el espejo vertical de A, C repite A con un elemento añadido. D debe ser espejo vertical de C. ¿Qué opción es?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 2.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3407,13 +3407,13 @@
           "id": "psi-abs-012",
           "question": "Serie por superposición: en cada paso se combina la figura anterior con una línea nueva (sin borrar). ¿Qué opción completa?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 6.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3424,13 +3424,13 @@
           "id": "psi-abs-013",
           "question": "Serie de rotación: la figura base rota 60° en cada avance manteniendo punto fijo central. ¿Qué opción corresponde a D?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "La opción correcta es la 3.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3441,13 +3441,13 @@
           "id": "psi-abs-014",
           "question": "Serie de celdas sombreadas: el sombreado avanza dos posiciones por paso en sentido horario. ¿Cuál es la siguiente?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 1.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3458,13 +3458,13 @@
           "id": "psi-abs-015",
           "question": "Serie de triángulos internos: alterna orientación (arriba/abajo) y desplazamiento lateral (izquierda/derecha). ¿Qué opción sigue?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 5.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3475,13 +3475,13 @@
           "id": "psi-abs-016",
           "question": "Serie de segmentos: se elimina un segmento y se añade otro opuesto en cada paso. ¿Qué opción completa correctamente?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "La opción correcta es la 4.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es d.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3492,13 +3492,13 @@
           "id": "psi-abs-017",
           "question": "Serie con círculo y cuadrado: el círculo avanza una posición en sentido horario y el cuadrado en antihorario. ¿Qué opción es D?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 2.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3509,13 +3509,13 @@
           "id": "psi-abs-018",
           "question": "Serie de cuadrículas 3x3: la fila con puntos sube una casilla por paso; al llegar arriba, vuelve abajo. ¿Qué opción continúa?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La opción correcta es la 6.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es b.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3526,13 +3526,13 @@
           "id": "psi-abs-019",
           "question": "Serie de ángulos: 30°, 60°, 90°... manteniendo vértice. ¿Qué opción representa el siguiente ángulo?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "La opción correcta es la 3.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es c.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3543,13 +3543,13 @@
           "id": "psi-abs-020",
           "question": "Serie de cruces: en cada paso se invierte la diagonal resaltada y se mantiene la otra. ¿Qué opción encaja?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La opción correcta es la 5.",
+          "explanation": "Analiza la transformación entre figuras consecutivas. La opción correcta es a.",
           "tags": [
             "Psicotécnicos",
             "Razonamiento abstracto",
@@ -3563,13 +3563,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #21: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es A.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3584,13 +3584,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #22: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es B.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3605,13 +3605,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #23: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es C.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3626,13 +3626,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #24: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es D.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3647,13 +3647,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #25: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es A.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3668,13 +3668,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #26: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es B.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3689,13 +3689,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #27: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es C.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3710,13 +3710,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #28: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es D.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3731,13 +3731,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #29: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es A.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3752,13 +3752,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #30: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es B.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3773,13 +3773,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #31: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es C.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3794,13 +3794,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #32: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es D.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3815,13 +3815,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #33: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es A.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3836,13 +3836,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #34: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es B.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3857,13 +3857,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #35: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es C.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3878,13 +3878,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #36: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es D.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3899,13 +3899,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #37: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es A.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3920,13 +3920,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #38: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es B.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3941,13 +3941,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #39: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es C.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3962,13 +3962,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #40: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es D.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3983,13 +3983,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #41: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es A.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4004,13 +4004,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #42: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es B.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4025,13 +4025,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #43: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es C.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4046,13 +4046,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #44: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es D.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4067,13 +4067,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #45: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es A.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4088,13 +4088,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #46: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es B.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4109,13 +4109,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #47: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es C.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4130,13 +4130,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #48: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es D.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4151,13 +4151,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #49: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es A.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4172,13 +4172,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #50: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es B.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4193,13 +4193,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #51: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es C.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4214,13 +4214,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #52: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es D.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4235,13 +4235,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #53: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es A.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4256,13 +4256,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #54: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es B.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4277,13 +4277,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #55: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es C.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4298,13 +4298,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #56: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es D.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4319,13 +4319,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #57: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es A.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4340,13 +4340,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #58: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es B.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4361,13 +4361,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #59: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es C.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4382,13 +4382,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #60: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es D.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4403,13 +4403,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #61: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es A.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4424,13 +4424,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #62: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es B.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4445,13 +4445,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #63: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es C.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4466,13 +4466,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #64: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es D.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4487,13 +4487,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #65: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es A.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4508,13 +4508,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #66: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es B.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4529,13 +4529,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #67: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es C.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4550,13 +4550,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #68: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es D.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4571,13 +4571,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #69: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es A.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4592,13 +4592,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #70: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es B.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4613,13 +4613,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #71: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es C.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4634,13 +4634,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #72: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es D.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4655,13 +4655,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #73: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es A.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4676,13 +4676,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #74: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es B.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4697,13 +4697,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #75: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es C.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4718,13 +4718,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #76: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es D.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4739,13 +4739,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #77: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es A.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4760,13 +4760,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #78: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es B.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4781,13 +4781,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #79: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es C.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4802,13 +4802,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #80: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es D.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4823,13 +4823,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #81: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es A.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4844,13 +4844,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #82: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es B.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4865,13 +4865,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #83: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es C.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4886,13 +4886,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #84: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es D.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4907,13 +4907,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #85: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es A.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4928,13 +4928,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #86: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es B.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4949,13 +4949,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #87: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es C.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4970,13 +4970,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #88: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es D.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4991,13 +4991,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #89: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es A.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5012,13 +5012,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #90: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es B.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5033,13 +5033,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #91: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es C.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5054,13 +5054,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #92: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es D.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5075,13 +5075,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #93: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es A.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5096,13 +5096,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #94: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es B.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5117,13 +5117,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #95: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es C.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5138,13 +5138,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #96: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es D.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5159,13 +5159,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #97: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es A.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5180,13 +5180,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #98: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es B.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5201,13 +5201,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #99: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es C.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5222,13 +5222,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #100: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es D.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5243,13 +5243,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #101: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es A.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5264,13 +5264,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #102: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es B.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5285,13 +5285,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #103: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es C.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5306,13 +5306,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #104: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es D.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5327,13 +5327,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #105: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es A.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5348,13 +5348,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #106: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es B.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5369,13 +5369,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #107: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es C.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5390,13 +5390,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #108: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es D.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5411,13 +5411,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #109: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es A.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5432,13 +5432,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #110: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es B.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5453,13 +5453,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #111: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es C.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5474,13 +5474,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #112: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es D.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5495,13 +5495,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #113: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es A.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5516,13 +5516,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #114: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es B.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5537,13 +5537,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #115: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es C.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5558,13 +5558,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #116: selecciona la opción que completa la secuencia (rotación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es D.",
+          "explanation": "Patrón identificado: La figura rota 90° en cada paso. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5579,13 +5579,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #117: selecciona la opción que completa la secuencia (alternancia).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es A.",
+          "explanation": "Patrón identificado: Se alternan forma rellena y forma hueca. La opción correcta es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5600,13 +5600,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #118: selecciona la opción que completa la secuencia (simetría).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es B.",
+          "explanation": "Patrón identificado: La última figura mantiene simetría axial respecto al eje vertical. La opción correcta es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5621,13 +5621,13 @@
           "difficulty": "alta",
           "question": "Razonamiento abstracto #119: selecciona la opción que completa la secuencia (conteo).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es C.",
+          "explanation": "Patrón identificado: El número de elementos aumenta en progresión regular. La opción correcta es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -5642,13 +5642,13 @@
           "difficulty": "media",
           "question": "Razonamiento abstracto #120: selecciona la opción que completa la secuencia (traslación).",
           "options": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es D.",
+          "explanation": "Patrón identificado: El elemento principal se desplaza una posición en sentido horario. La opción correcta es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
