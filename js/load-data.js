@@ -57,6 +57,49 @@ function isAdminUser() {
   return localStorage.getItem('oporail_is_admin') === 'true';
 }
 
+function getStoredUserEmail() {
+  const raw = localStorage.getItem('oporail_user_profile');
+  if (!raw) return '';
+  try {
+    const parsed = JSON.parse(raw);
+    return (parsed?.email || '').toLowerCase().trim();
+  } catch {
+    return '';
+  }
+}
+
+async function syncAdminFlagFromCatalog() {
+  const email = getStoredUserEmail();
+  if (!email) {
+    localStorage.setItem('oporail_is_admin', 'false');
+    return false;
+  }
+  try {
+    const res = await fetch(resolveDataPath('admins.json'));
+    if (!res.ok) throw new Error('No se pudo cargar admins.json');
+    const payload = await res.json();
+    const admins = Array.isArray(payload?.emails) ? payload.emails : [];
+    const isAdmin = admins.map((item) => String(item || '').toLowerCase().trim()).includes(email);
+    localStorage.setItem('oporail_is_admin', isAdmin ? 'true' : 'false');
+    return isAdmin;
+  } catch (error) {
+    console.error('No se pudo sincronizar la lista de admins:', error);
+    return isAdminUser();
+  }
+}
+
+function getEnrollmentsForUser(uid) {
+  if (!uid) return [];
+  const raw = localStorage.getItem(`oporail_enrollments_${uid}`);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.map((id) => Number(id)) : [];
+  } catch {
+    return [];
+  }
+}
+
 
 function getCompletedTestsCount(uid) {
   if (!uid) return 0;
@@ -301,8 +344,8 @@ function renderTemarioSection(courseTitle = '') {
             : '<li class="text-gray-500">No hay documentos cargados todavía.</li>'}
         </ul>
         ${isAdminUser()
-          ? `<div class="mt-4 flex flex-wrap items-center gap-3"><input id="temario-upload-input" type="file" accept=".pdf,.doc,.docx,.txt,.md" multiple class="text-sm"><button id="temario-upload-btn" type="button" class="btn">Subir documentos</button><a href="/admin/temarios.html" class="btn-ghost">Panel admin de temarios</a></div><p id="temario-upload-feedback" class="text-xs text-gray-500 mt-2">Los archivos se guardan en el navegador para este curso.</p>`
-          : ''}
+          ? `<div class="mt-4 flex flex-wrap items-center gap-3"><input id="temario-upload-input" type="file" accept=".pdf,.doc,.docx,.txt,.md" multiple class="text-sm border border-gray-300 rounded-lg px-3 py-2 bg-white"><button id="temario-upload-btn" type="button" class="inline-flex items-center bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">Subir documentos</button><a href="/admin/temarios.html" class="inline-flex items-center border border-purple-200 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Panel admin de temarios</a></div><p id="temario-upload-feedback" class="text-xs text-gray-500 mt-2">Solo visible para admins. Los archivos se guardan en el navegador para este curso.</p>`
+          : '<p class="text-xs text-gray-500 mt-3">La carga de temarios está habilitada solo para usuarios admin.</p>'}
       </div>
     </section>
   `;
@@ -338,9 +381,14 @@ function bindTemarioUpload(courseTitle = '') {
       docs.push({ name: file.name, type: file.type, dataUrl });
     }
 
-    localStorage.setItem(getCourseTemarioStorageKey(courseTitle), JSON.stringify(docs));
-    listEl.innerHTML = docs.map((doc, index) => `<li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2"><a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a><span class="text-xs text-gray-500">${doc.type || 'documento'}</span></li>`).join('');
-    feedback.textContent = 'Documentos subidos correctamente.';
+    try {
+      localStorage.setItem(getCourseTemarioStorageKey(courseTitle), JSON.stringify(docs));
+      listEl.innerHTML = docs.map((doc, index) => `<li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2"><a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a><span class="text-xs text-gray-500">${doc.type || 'documento'}</span></li>`).join('');
+      feedback.textContent = 'Documentos subidos correctamente.';
+    } catch (error) {
+      console.error('Error guardando documentos del temario:', error);
+      feedback.textContent = 'No se pudieron guardar los documentos (límite de almacenamiento del navegador).';
+    }
     input.value = '';
   });
 }
@@ -609,6 +657,26 @@ function normalizeQuestion(question) {
     explanation: question.explanation || '',
     image: question.image || '',
   };
+}
+
+
+function renderQuestionExplanation(question, isAbstractPsychotest = false) {
+  const defaultBox = `
+    <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
+      <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
+      ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
+    </div>
+  `;
+
+  if (!isAbstractPsychotest) return defaultBox;
+
+  return `
+    <div class="mt-3 bg-sky-50 border border-sky-200 rounded-lg p-3 text-sm text-sky-900">
+      <p class="font-semibold">Respuesta</p>
+      <p class="text-xs mt-1">${question.explanation || 'Observa el patrón de transformación entre figuras consecutivas para identificar la opción correcta.'}</p>
+      <p class="text-sm mt-2"><strong>La respuesta correcta es:</strong> ${question.correctAnswer}</p>
+    </div>
+  `;
 }
 
 function getCommonTests(questionBank) {
@@ -925,6 +993,7 @@ if (courseDetailContainer) {
       return res.json();
     })
     .then(async (cursos) => {
+      await syncAdminFlagFromCatalog();
       const list = Array.isArray(cursos) ? cursos : Array.isArray(cursos?.courses) ? cursos.courses : [];
       const fallbackCourse = list[0];
       const isInvalidId = Number.isNaN(selectedId) || selectedId < 1 || selectedId > list.length;
@@ -939,6 +1008,9 @@ if (courseDetailContainer) {
       const questionBank = await getQuestionBankForCourse(course.titulo);
 
       const userId = getActiveUserId();
+      const enrollments = getEnrollmentsForUser(userId);
+      const isAuthenticated = Boolean(userId);
+      const isEnrolled = enrollments.includes(Number(courseId));
       const planStatus = getPlanStatus(userId);
       const planDefinition = getPlanDefinition(planStatus.planId);
       const hasAccess = Boolean(userId) && (!planDefinition?.requierePago || planStatus.paid);
@@ -956,19 +1028,25 @@ if (courseDetailContainer) {
             <a href="/user/index.html" class="inline-flex bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">
               Volver a mi panel
             </a>
-            <button id="remove-course-btn" data-course-id="${courseId}" class="inline-flex bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">
-              Eliminar curso
-            </button>
+            ${isAuthenticated && !isEnrolled
+              ? `<button id="add-course-btn" data-course-id="${courseId}" class="inline-flex bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition">Añadir curso</button>`
+              : ''}
+            ${isAuthenticated && isEnrolled
+              ? `<button id="remove-course-btn" data-course-id="${courseId}" class="inline-flex bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">Eliminar curso</button>`
+              : ''}
           </div>
 
           <p id="enroll-feedback" class="text-sm text-gray-600 -mt-4 mb-6"></p>
+          <div id="course-limit-alert" class="hidden -mt-4 mb-6 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+            Para añadir otro curso necesitas actualizar tu plan a uno superior.
+          </div>
 
           <div id="remove-course-modal" class="hidden fixed inset-0 z-50 bg-black/50 p-4">
             <div class="max-w-md mx-auto mt-24 bg-white rounded-xl border border-gray-200 shadow-xl p-6">
               <p class="text-base font-semibold text-gray-900">¿Estás seguro de eliminar este curso de tu perfil?</p>
               <div class="mt-5 flex gap-3">
-                <button type="button" id="confirm-remove-course" class="btn">Eliminar</button>
-                <button type="button" id="cancel-remove-course" class="btn-ghost">Conservar</button>
+                <button type="button" id="confirm-remove-course" class="inline-flex items-center bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">Eliminar</button>
+                <button type="button" id="cancel-remove-course" class="inline-flex items-center border border-gray-300 text-gray-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Conservar</button>
               </div>
             </div>
           </div>
@@ -998,10 +1076,30 @@ if (courseDetailContainer) {
       `;
 
       const removeBtn = document.getElementById('remove-course-btn');
+      const addBtn = document.getElementById('add-course-btn');
       const enrollFeedback = document.getElementById('enroll-feedback');
+      const limitAlert = document.getElementById('course-limit-alert');
       const removeModal = document.getElementById('remove-course-modal');
       const confirmRemoveBtn = document.getElementById('confirm-remove-course');
       const cancelRemoveBtn = document.getElementById('cancel-remove-course');
+
+      if (addBtn) {
+        addBtn.addEventListener('click', () => {
+          if (limitAlert) limitAlert.classList.add('hidden');
+          const result = addEnrollment(courseId);
+          if (!result.ok) {
+            if (result.reason === 'limit-reached') {
+              if (limitAlert) limitAlert.classList.remove('hidden');
+              if (enrollFeedback) enrollFeedback.textContent = '';
+              return;
+            }
+            if (enrollFeedback) enrollFeedback.textContent = 'No se pudo añadir el curso en este momento.';
+            return;
+          }
+          if (enrollFeedback) enrollFeedback.textContent = 'Curso añadido correctamente a tu perfil.';
+          window.location.reload();
+        });
+      }
 
       if (removeBtn && removeModal) {
         removeBtn.addEventListener('click', () => {
@@ -1204,10 +1302,7 @@ if (testRunner) {
                       return `<li class="flex items-center gap-2 ${classes}"><span class="inline-flex h-4 w-4 items-center justify-center rounded-full border ${radioClass}">${isSelected ? '<span class="h-2 w-2 rounded-full bg-white"></span>' : ''}</span><span>${option}${marker}</span></li>`;
                     }).join('')}
                   </ul>
-                  <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
-                    <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
-                    ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
-                  </div>
+${renderQuestionExplanation(question, isAbstractPsychotest)}
                 </article>`;
               }).join('')}
             </div>
@@ -1349,10 +1444,7 @@ if (testRunner) {
                         })
                         .join('')}
                     </ul>
-                    <div class="mt-3 bg-amber-50 border border-amber-100 rounded-lg p-3 text-sm text-amber-900">
-                      <p><strong>Respuesta correcta:</strong> ${question.correctAnswer}</p>
-                      ${question.explanation ? `<p class="text-xs text-amber-800 mt-1">${question.explanation}</p>` : ''}
-                    </div>
+${renderQuestionExplanation(question, isAbstractPsychotest)}
                   </article>
                 `;
                 })

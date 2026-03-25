@@ -24,8 +24,8 @@
         <input id="docs-input" type="file" multiple accept=".pdf,.doc,.docx,.txt,.md" class="w-full border border-gray-300 rounded-lg px-3 py-2 bg-white">
       </div>
       <div class="flex flex-wrap gap-3">
-        <button id="upload-btn" class="btn" type="button">Subir documentos</button>
-        <button id="refresh-btn" class="btn-ghost" type="button">Recargar listado</button>
+        <button id="upload-btn" class="inline-flex items-center bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition" type="button">Subir documentos</button>
+        <button id="refresh-btn" class="inline-flex items-center border border-purple-200 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition" type="button">Recargar listado</button>
       </div>
       <p id="feedback" class="text-sm text-gray-600"></p>
     </section>
@@ -79,7 +79,7 @@
       docsList.innerHTML = docs.map((doc, index) => `
         <li class="flex items-center justify-between gap-3 bg-gray-50 border border-gray-100 rounded-lg p-2">
           <a class="text-purple-700 hover:underline" href="${doc.dataUrl}" download="${doc.name}">${index + 1}. ${doc.name}</a>
-          <button data-index="${index}" class="btn-ghost remove-doc" type="button">Eliminar</button>
+          <button data-index="${index}" class="inline-flex items-center border border-gray-300 text-gray-700 px-3 py-1 rounded-lg font-semibold hover:bg-gray-100 transition remove-doc" type="button">Eliminar</button>
         </li>
       `).join('');
 
@@ -92,6 +92,27 @@
           renderDocs();
         });
       });
+    };
+
+    const syncAdminAccess = async () => {
+      const rawProfile = localStorage.getItem('oporail_user_profile');
+      let parsedProfile = {};
+      try {
+        parsedProfile = rawProfile ? JSON.parse(rawProfile) : {};
+      } catch {
+        parsedProfile = {};
+      }
+      const email = String(parsedProfile?.email || '').toLowerCase().trim();
+      if (!email) return false;
+      try {
+        const res = await fetch('/data/admins.json');
+        if (!res.ok) throw new Error('No se pudo cargar admins.json');
+        const payload = await res.json();
+        const admins = Array.isArray(payload?.emails) ? payload.emails : [];
+        return admins.map((item) => String(item || '').toLowerCase().trim()).includes(email);
+      } catch {
+        return localStorage.getItem('oporail_is_admin') === 'true';
+      }
     };
 
     const loadCourses = async () => {
@@ -128,16 +149,33 @@
         });
         docs.push({ name: file.name, type: file.type, dataUrl });
       }
-      saveDocs(title, docs);
-      docsInput.value = '';
-      feedback.textContent = 'Documentos guardados correctamente.';
+      try {
+        saveDocs(title, docs);
+        docsInput.value = '';
+        feedback.textContent = 'Documentos guardados correctamente.';
+      } catch (error) {
+        feedback.textContent = 'No se pudieron guardar los archivos (límite de almacenamiento del navegador).';
+      }
       renderDocs();
     });
 
     refreshBtn.addEventListener('click', renderDocs);
     courseSelect.addEventListener('change', renderDocs);
 
-    loadCourses();
+    (async () => {
+      const hasAdminAccess = await syncAdminAccess();
+      if (!hasAdminAccess) {
+        document.querySelector('main').innerHTML = `
+          <section class="max-w-2xl mx-auto bg-white border border-red-200 rounded-xl p-6">
+            <h1 class="text-xl font-bold text-red-700 mb-2">Acceso restringido</h1>
+            <p class="text-sm text-gray-700">Este panel solo está disponible para administradores autenticados.</p>
+          </section>
+        `;
+        return;
+      }
+      localStorage.setItem('oporail_is_admin', 'true');
+      loadCourses();
+    })();
   </script>
 </body>
 </html>
