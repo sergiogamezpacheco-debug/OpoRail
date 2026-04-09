@@ -1046,7 +1046,7 @@ if (courseDetailContainer) {
               <p class="text-base font-semibold text-gray-900">¿Estás seguro de eliminar este curso de tu perfil?</p>
               <div class="mt-5 flex gap-3">
                 <button type="button" id="confirm-remove-course" class="inline-flex items-center bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">Eliminar</button>
-                <button type="button" id="cancel-remove-course" class="inline-flex items-center border border-gray-300 text-gray-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Conservar</button>
+                <button type="button" id="cancel-remove-course" class="inline-flex items-center bg-[#0b5a2a] text-white px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition">Conservar</button>
               </div>
             </div>
           </div>
@@ -1097,7 +1097,7 @@ if (courseDetailContainer) {
             return;
           }
           if (enrollFeedback) enrollFeedback.textContent = 'Curso añadido correctamente a tu perfil.';
-          window.location.reload();
+          window.location.href = '/user/dashboard.html#mis-cursos';
         });
       }
 

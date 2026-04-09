@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 675'>
+  <defs>
+    <linearGradient id='g2' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#312e81'/>
+      <stop offset='100%' stop-color='#0b5a2a'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='675' fill='url(#g2)'/>
+  <rect x='80' y='90' width='1040' height='495' rx='24' fill='rgba(255,255,255,.1)' stroke='rgba(255,255,255,.25)'/>
+  <text x='130' y='190' font-family='Arial, sans-serif' font-size='56' fill='#fff' font-weight='700'>Empleo y Oposición</text>
+  <text x='130' y='248' font-family='Arial, sans-serif' font-size='34' fill='#d1fae5'>Renfe y Adif refuerzan incorporación técnica</text>
+  <g transform='translate(130,312)' fill='none' stroke='#fff' stroke-width='8'>
+    <rect x='0' y='0' width='250' height='220' rx='18'/>
+    <path d='M50 70h150M50 115h150M50 160h90'/>
+    <circle cx='410' cy='110' r='95'/>
+    <path d='M410 60v55l35 25'/>
+    <path d='M550 60l120 0M610 0v120'/>
+  </g>
+</svg>
