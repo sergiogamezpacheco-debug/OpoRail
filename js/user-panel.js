@@ -241,9 +241,16 @@ function updateGlobalProgress(courses) {
 }
 
 function fillUserInfo(user) {
-  const name = user.displayName || "Usuario";
-  const email = user.email || "-";
-  const photo = user.photoURL || "https://ui-avatars.com/api/?name=Usuario&background=7c3aed&color=fff";
+  const cachedRaw = localStorage.getItem('oporail_user_profile');
+  let cachedProfile = {};
+  try {
+    cachedProfile = cachedRaw ? JSON.parse(cachedRaw) : {};
+  } catch {
+    cachedProfile = {};
+  }
+  const name = user.displayName || cachedProfile.displayName || user.email?.split('@')[0] || "Usuario";
+  const email = user.email || cachedProfile.email || "-";
+  const photo = user.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=7c3aed&color=fff`;
   const lastLogin = user.metadata?.lastSignInTime
     ? new Date(user.metadata.lastSignInTime).toLocaleString("es-ES")
     : "-";

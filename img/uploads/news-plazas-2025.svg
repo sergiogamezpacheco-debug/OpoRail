@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 675'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0b5a2a'/>
+      <stop offset='100%' stop-color='#6d28d9'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='675' fill='url(#g)'/>
+  <rect x='80' y='90' width='1040' height='495' rx='24' fill='rgba(255,255,255,.12)' stroke='rgba(255,255,255,.25)'/>
+  <text x='130' y='190' font-family='Arial, sans-serif' font-size='58' fill='#fff' font-weight='700'>Convocatoria 2025</text>
+  <text x='130' y='250' font-family='Arial, sans-serif' font-size='36' fill='#e9d5ff'>Aumento de plazas en empleo ferroviario</text>
+  <g transform='translate(130,320)' fill='none' stroke='#fff' stroke-width='10'>
+    <path d='M0 120h620' />
+    <rect x='0' y='40' width='500' height='80' rx='40'/>
+    <circle cx='90' cy='150' r='24' fill='#fff'/>
+    <circle cx='420' cy='150' r='24' fill='#fff'/>
+  </g>
+</svg>

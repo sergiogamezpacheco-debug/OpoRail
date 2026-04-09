@@ -21,7 +21,14 @@ const panelBtn = document.getElementById("panel-btn");
 onAuthStateChanged(auth, (user) => {
   if (user?.uid) {
     localStorage.setItem("oporail_active_uid", user.uid);
-    const displayName = user.displayName || "";
+    const previousProfileRaw = localStorage.getItem("oporail_user_profile");
+    let previousProfile = {};
+    try {
+      previousProfile = previousProfileRaw ? JSON.parse(previousProfileRaw) : {};
+    } catch {
+      previousProfile = {};
+    }
+    const displayName = user.displayName || previousProfile.displayName || "";
     const email = user.email || "";
     localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName, email }));
   } else {
@@ -54,10 +61,11 @@ export async function loginWithEmail(email, password) {
 export async function registerWithEmail(email, password, fullName = "") {
   const credential = await createUserWithEmailAndPassword(auth, email, password);
   const cleanName = (fullName || "").trim();
-  if (cleanName) {
-    await updateProfile(credential.user, { displayName: cleanName });
-  }
-  localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName: cleanName, email }));
+  const fallbackName = email?.split("@")?.[0] || "Usuario";
+  const finalName = cleanName || fallbackName;
+  await updateProfile(credential.user, { displayName: finalName });
+  await credential.user.reload();
+  localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName: finalName, email }));
   window.location.href = "/user/dashboard.html";
 }
 
