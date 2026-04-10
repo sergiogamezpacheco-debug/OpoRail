@@ -18,7 +18,9 @@ fetch('/data/site.json')
       try {
         const { getAuth } = await import('/js/firebase-config.js');
         const user = getAuth().currentUser;
+        const persistedName = localStorage.getItem(`oporail_profile_name_${activeUid}`) || '';
         const displayName = user?.displayName?.trim()
+          || persistedName
           || cachedProfile?.displayName
           || user?.email?.split('@')[0]
           || cachedProfile?.email?.split('@')[0]
@@ -27,6 +29,8 @@ fetch('/data/site.json')
         userLabel = parts.slice(0, 2).join(' ') || displayName || 'Usuario';
       } catch (error) {
         console.error('Error leyendo usuario activo:', error);
+        const fallbackName = cachedProfile?.displayName || cachedProfile?.email?.split('@')[0] || 'Usuario';
+        userLabel = fallbackName.split(/\s+/).filter(Boolean).slice(0, 2).join(' ');
       }
     }
 

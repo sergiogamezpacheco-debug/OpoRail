@@ -31,6 +31,9 @@ onAuthStateChanged(auth, (user) => {
     const displayName = user.displayName || previousProfile.displayName || "";
     const email = user.email || "";
     localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName, email }));
+    if (displayName) {
+      localStorage.setItem(`oporail_profile_name_${user.uid}`, displayName);
+    }
   } else {
     localStorage.removeItem("oporail_active_uid");
     localStorage.removeItem("oporail_user_profile");
@@ -66,6 +69,7 @@ export async function registerWithEmail(email, password, fullName = "") {
   await updateProfile(credential.user, { displayName: finalName });
   await credential.user.reload();
   localStorage.setItem("oporail_user_profile", JSON.stringify({ displayName: finalName, email }));
+  localStorage.setItem(`oporail_profile_name_${credential.user.uid}`, finalName);
   window.location.href = "/user/dashboard.html";
 }
 
