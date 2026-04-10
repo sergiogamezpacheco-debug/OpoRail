@@ -10,13 +10,13 @@
     "features": [
       "Acceso a 1 curso",
       "Material introductorio",
-      "Actualizaciones básicas"
+      "Acceso a 5 tests"
     ]
   },
   {
     "id": "basic",
     "nombre": "Plan Básico",
-    "descripcion": "Para estudiantes que quieren avanzar con foco.",
+    "descripcion": "Acceso limitado a un curso",
     "precioMensual": "7,49€/mes",
     "precioAnual": "49€/año",
     "maxCursos": 1,
