@@ -1,6 +1,15 @@
 fetch('/data/site.json')
   .then((res) => res.json())
   .then(async (site) => {
+    const toDisplayLabel = (rawName = '') => {
+      const compact = String(rawName || '').trim();
+      if (!compact) return 'Usuario';
+      const words = compact.split(/\s+/).filter(Boolean);
+      if (words.length >= 2) return `${words[0]} ${words[1]}`;
+      if (compact.length > 14) return `${compact.slice(0, 14)}…`;
+      return compact;
+    };
+
     const pathname = window.location.pathname;
     const courseRoutes = new Set(['/curso', '/curso.html', '/test-info', '/test-info.html', '/test-run', '/test-run.html']);
     const isCoursePage = courseRoutes.has(pathname);
@@ -25,12 +34,11 @@ fetch('/data/site.json')
           || user?.email?.split('@')[0]
           || cachedProfile?.email?.split('@')[0]
           || '';
-        const parts = displayName.split(/\s+/).filter(Boolean);
-        userLabel = parts.slice(0, 2).join(' ') || displayName || 'Usuario';
+        userLabel = toDisplayLabel(displayName);
       } catch (error) {
         console.error('Error leyendo usuario activo:', error);
         const fallbackName = cachedProfile?.displayName || cachedProfile?.email?.split('@')[0] || 'Usuario';
-        userLabel = fallbackName.split(/\s+/).filter(Boolean).slice(0, 2).join(' ');
+        userLabel = toDisplayLabel(fallbackName);
       }
     }
 
