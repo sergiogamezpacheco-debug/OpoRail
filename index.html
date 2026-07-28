@@ -3,126 +3,120 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Inicio | OpoRail</title>
+  <title>OpoRail | Preparación Renfe y Adif</title>
+  
+  <!-- Tailwind CDN (necesario para estilos coherentes) -->
   <script src="https://cdn.tailwindcss.com"></script>
+  
   <link rel="stylesheet" href="css/style.css">
+  <!-- Nueva hoja de estilos para la sección unificada -->
+  <style>
+    /* Estilos específicos para la sección unificada de beneficios */
+    .unified-benefits {
+      background-image: url('assets/uploads/fondo-unificado-oporail.jpg'); /* Asegúrate de subir la imagen */
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .unified-benefits::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4); /* Capa oscura para legibilidad */
+      z-index: 1;
+    }
+    .unified-benefits-content {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
 </head>
 <body class="antialiased bg-white">
 
-  <div id="site-header"></div>
+  <!-- Header Transparente sobre el Hero -->
+  <div id="site-header" class="relative z-10"></div>
+  <script src="/js/load-header.js"></script>
 
-  <section class="relative min-h-[420px] md:min-h-[640px] text-white overflow-hidden">
-    <img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=2200&q=80" alt="Tren en estación" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
-    <div class="absolute inset-0 bg-gradient-to-r from-[#0b5a2a]/45 via-purple-700/35 to-[#0b5a2a]/45 pointer-events-none"></div>
-    <div class="relative max-w-[1200px] mx-auto px-4 sm:px-6 pt-24 md:pt-32 pb-12 text-center">
-      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">Prepárate para trabajar en Renfe y Adif con OpoRail</h1>
-      <p class="mt-4 text-sm sm:text-lg max-w-4xl mx-auto">Academia online elaborada por personal de Renfe con planes y cursos de preparación intensivos adaptados por especialistas.</p>
-      <a href="cursos.html" class="mt-6 inline-flex bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Ver Cursos de Preparación</a>
-    </div>
-  </section>
-
-  <section id="oporail-benefits" class="relative py-14 md:py-20 overflow-hidden">
-    <img src="https://images.unsplash.com/photo-1515165562835-c4c130238d8f?auto=format&fit=crop&w=2200&q=80" alt="Estación ferroviaria" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
-    <div class="absolute inset-0 bg-white/80 pointer-events-none"></div>
-    <div class="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6">
-      <h2 class="text-3xl md:text-5xl font-extrabold text-center">Beneficios de estudiar con <span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></h2>
-      <p class="text-center text-gray-600 mt-4 max-w-3xl mx-auto">Una preparación enfocada en aprobar: temario optimizado por especialistas, tests prácticos por especialidad, simulacro de exámenes con preguntas reales de años anteriores.</p>
-
-      <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-5 mt-10">
-        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
-          <div class="mb-3 text-purple-700">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 5h11a2 2 0 012 2v12H6a2 2 0 01-2-2V5z"/><path d="M6 9h9M6 13h9"/><path d="M17 7h3v12a2 2 0 01-2 2h-1"/></svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Cursos Intensivos</h3>
-          <p class="text-gray-600 text-sm mb-4">Contenido estructurado y optimizado por bloques para estudiar y practicar.</p>
-          <a href="/cursos.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ir a cursos</a>
-        </article>
-
-        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
-          <div class="mb-3 text-purple-700">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 3l8.5 5v8L12 21l-8.5-5V8L12 3z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Tests y simulacros</h3>
-          <p class="text-gray-600 text-sm mb-4">Practica con tests y simulacros de exámenes de años anteriores con nuestras recomendaciones y consejos exclusivos.</p>
-          <a href="/cursos.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ver preparación</a>
-        </article>
-
-        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
-          <div class="mb-3 text-purple-700">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Planes flexibles</h3>
-          <p class="text-gray-600 text-sm mb-4">Elige el plan que mejor se adapta a tu ritmo y objetivos.</p>
-          <a href="/planes.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ir a planes</a>
-        </article>
-
-        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
-          <div class="mb-3 text-purple-700">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-3.5 4.5-5 8-5s6.5 1.5 8 5"/></svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-700 mb-2">Panel personal</h3>
-          <p class="text-gray-600 text-sm mb-4">Gestiona progreso, cursos guardados e historial de test.</p>
-          <a href="/user/index.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Acceder</a>
-        </article>
+  <!-- Sección Unificada: Hero + Beneficios -->
+  <section class="unified-benefits text-white">
+    <div class="container mx-auto px-4 py-16 unified-benefits-content">
+      
+      <!-- Bloque Héroe (Texto central) -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">Prepárate para trabajar en Renfe y Adif con OpoRail</h1>
+        <p class="mt-4 text-lg max-w-2xl mx-auto">Academia online elaborada por personal ferroviario con planes intensivos y tests adaptados.</p>
+        <a href="cursos.html" class="mt-6 inline-block bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Ver Cursos de Preparación</a>
       </div>
-    </div>
-  </section>
 
-  <section id="benefits" class="relative py-14 md:py-20 overflow-hidden">
-    <img src="https://images.unsplash.com/photo-1512418490979-92798cec1380?auto=format&fit=crop&w=2200&q=80" alt="Vías de tren" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
-    <div class="absolute inset-0 bg-white/84 pointer-events-none"></div>
-    <div class="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6">
-      <h2 class="text-3xl md:text-5xl font-extrabold text-center">Beneficios de entrar en <span class="text-purple-700">Renfe</span> y <span class="text-[#0b5a2a]">Adif</span></h2>
-      <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Salidas profesionales con <strong>estabilidad laboral</strong>, <strong>promoción interna</strong>, <strong>buen salario</strong>.</p>
-
-      <div class="grid md:grid-cols-2 gap-6 mt-10">
-        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-purple-100">
-          <h3 class="text-xl font-bold text-purple-700 mb-2">Renfe</h3>
-          <ul class="text-gray-600 text-sm space-y-2">
-            <li>• Especialidades técnicas de mantenimiento y operación.</li>
-            <li>• Carrera profesional con promoción interna.</li>
-            <li>• Entorno industrial moderno y trabajo por equipos.</li>
-          </ul>
-        </article>
-        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-green-100">
-          <h3 class="text-xl font-bold text-green-700 mb-2">Adif</h3>
-          <ul class="text-gray-600 text-sm space-y-2">
-            <li>• Infraestructura ferroviaria clave para todo el país.</li>
-            <li>• Perfil técnico con alta estabilidad y continuidad.</li>
-            <li>• Participación en proyectos estratégicos de movilidad.</li>
-          </ul>
-        </article>
+      <!-- Título de la Sección de Beneficios Unificada -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold">Un Futuro Ferroviario de Éxito con OpoRail & Renfe-Adif</h2>
+        <p class="text-lg mt-2">Salidas profesionales con estabilidad laboral, promoción interna y buen salario.</p>
       </div>
-    </div>
-  </section>
 
-  <section id="noticias" class="relative py-14 md:py-16 overflow-hidden">
-    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=2200&q=80" alt="Andenes y trenes" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
-    <div class="absolute inset-0 bg-white/84 pointer-events-none"></div>
-    <div class="relative z-10 px-4 sm:px-6 max-w-[1200px] mx-auto min-h-[260px]">
-      <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Noticias y Novedades</h2>
-      <div id="news-list" class="grid md:grid-cols-2 gap-6"></div>
-    </div>
-  </section>
+      <!-- Grid de Beneficios (Cuadrícula 2x2 para estudio + 2 debajo para carreras) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        
+        <!-- Beneficios de Estudio (Cuadrícula 2x2) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md">
+            <h4 class="font-bold text-lg text-purple-700">Cursos Intensivos</h4>
+            <p class="text-sm mt-1">Formación estructurada y actualizada para tu oposición.</p>
+          </div>
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md">
+            <h4 class="font-bold text-lg text-purple-700">Tests y Simulacros</h4>
+            <p class="text-sm mt-1">Tests por temas y exámenes reales de años anteriores.</p>
+          </div>
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md">
+            <h4 class="font-bold text-lg text-purple-700">Planes Flexibles</h4>
+            <p class="text-sm mt-1">Adáptalo a tu ritmo, sin permanencias ni horarios fijos.</p>
+          </div>
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md">
+            <h4 class="font-bold text-lg text-purple-700">Panel Personal</h4>
+            <p class="text-sm mt-1">Controla tu progreso, estadísticas y documentos cargados.</p>
+          </div>
+        </div>
 
-  <section class="relative py-14 md:py-16 px-4 sm:px-6 overflow-hidden">
-    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=2200&q=80" alt="Infraestructura ferroviaria" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
-    <div class="absolute inset-0 bg-white/86 pointer-events-none"></div>
-    <div class="relative z-10 max-w-[1200px] mx-auto bg-gradient-to-r from-purple-700 to-[#0b5a2a] text-white rounded-2xl p-6 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-      <div>
-        <h2 class="text-2xl md:text-4xl font-bold">Empieza tu preparación hoy</h2>
-        <p class="text-purple-100 mt-2">Selecciona el plan ideal y accede a cursos, tests y simulacros organizados.</p>
+        <!-- Beneficios de Carreras (Debajo de la cuadrícula de estudio) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md border-l-4 border-purple-700">
+            <div class="flex items-center gap-3 mb-2">
+              <img src="img/renfe-logo.svg" alt="Renfe" class="h-6">
+              <h4 class="font-bold text-lg">Renfe</h4>
+            </div>
+            <ul class="text-sm list-disc list-inside space-y-1">
+              <li>Estabilidad laboral y buen salario.</li>
+              <li>Carrera profesional con promoción interna.</li>
+              <li>Entorno industrial moderno.</li>
+            </ul>
+          </div>
+          <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md border-l-4 border-green-700">
+            <div class="flex items-center gap-3 mb-2">
+              <img src="img/adif-logo.svg" alt="Adif" class="h-6">
+              <h4 class="font-bold text-lg">Adif</h4>
+            </div>
+            <ul class="text-sm list-disc list-inside space-y-1">
+              <li>Infraestructura clave en todo el país.</li>
+              <li>Alta estabilidad y seguridad laboral.</li>
+              <li>Participación en proyectos de vanguardia.</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
-      <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-        <a href="planes.html" class="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-center">Ver planes</a>
-        <a href="user/index.html" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition text-center">Acceder al panel</a>
-      </div>
+
     </div>
   </section>
 
+  <!-- Noticias (Sin cambios) -->
+  <section class="py-12 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Noticias y Novedades</h2>
+    <div id="noticias-lista" class="grid md:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- Footer (Sin cambios) -->
   <div id="site-footer" class="mt-8"></div>
-
-  <script src="js/load-header.js"></script>
-  <script src="js/load-data.js"></script>
+  <script src="/js/load-footer.js"></script>
+  <script src="/js/load-data.js"></script>
 </body>
 </html>
