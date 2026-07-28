@@ -5,24 +5,25 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>OpoRail | Preparación Renfe y Adif</title>
   
-  <!-- Tailwind CDN (necesario para estilos coherentes) -->
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   
   <link rel="stylesheet" href="css/style.css">
-  <!-- Nueva hoja de estilos para la sección unificada -->
+  
   <style>
-    /* Estilos específicos para la sección unificada de beneficios */
+    /* Estilos específicos para la sección unificada de beneficios con imagen automática */
     .unified-benefits {
-      background-image: url('assets/uploads/fondo-unificado-oporail.jpg'); /* Asegúrate de subir la imagen */
+      background-image: url('https://images.unsplash.com/photo-1474487548417-781cb71495f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); 
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
       position: relative;
     }
     .unified-benefits::before {
       content: "";
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0, 0, 0, 0.4); /* Capa oscura para legibilidad */
+      background: rgba(15, 23, 42, 0.75); 
       z-index: 1;
     }
     .unified-benefits-content {
@@ -51,10 +52,10 @@
       <!-- Título de la Sección de Beneficios Unificada -->
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold">Un Futuro Ferroviario de Éxito con OpoRail & Renfe-Adif</h2>
-        <p class="text-lg mt-2">Salidas profesionales con estabilidad laboral, promoción interna y buen salario.</p>
+        <p class="text-lg mt-2 max-w-3xl mx-auto">Salidas profesionales con estabilidad laboral, promoción interna y buen salario, ideal para prepararte para plazas como la de supervisor de mantenimiento de instalaciones.</p>
       </div>
 
-      <!-- Grid de Beneficios (Cuadrícula 2x2 para estudio + 2 debajo para carreras) -->
+      <!-- Grid de Beneficios -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
         
         <!-- Beneficios de Estudio (Cuadrícula 2x2) -->
@@ -77,11 +78,11 @@
           </div>
         </div>
 
-        <!-- Beneficios de Carreras (Debajo de la cuadrícula de estudio) -->
+        <!-- Beneficios de Carreras -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md border-l-4 border-purple-700">
             <div class="flex items-center gap-3 mb-2">
-              <img src="img/renfe-logo.svg" alt="Renfe" class="h-6">
+              <img src="img/renfe-logo.svg" alt="Renfe" class="h-6" onerror="this.style.display='none'">
               <h4 class="font-bold text-lg">Renfe</h4>
             </div>
             <ul class="text-sm list-disc list-inside space-y-1">
@@ -92,7 +93,7 @@
           </div>
           <div class="bg-white text-gray-800 p-6 rounded-xl shadow-md border-l-4 border-green-700">
             <div class="flex items-center gap-3 mb-2">
-              <img src="img/adif-logo.svg" alt="Adif" class="h-6">
+              <img src="img/adif-logo.svg" alt="Adif" class="h-6" onerror="this.style.display='none'">
               <h4 class="font-bold text-lg">Adif</h4>
             </div>
             <ul class="text-sm list-disc list-inside space-y-1">
@@ -108,13 +109,15 @@
     </div>
   </section>
 
-  <!-- Noticias (Sin cambios) -->
+  <!-- Noticias -->
   <section class="py-12 px-4 container mx-auto">
     <h2 class="text-2xl font-bold mb-6">Noticias y Novedades</h2>
-    <div id="noticias-lista" class="grid md:grid-cols-3 gap-6"></div>
+    <div id="noticias-lista" class="grid md:grid-cols-3 gap-6">
+        <!-- Aquí se cargarán las noticias dinámicamente -->
+    </div>
   </section>
 
-  <!-- Footer (Sin cambios) -->
+  <!-- Footer -->
   <div id="site-footer" class="mt-8"></div>
   <script src="/js/load-footer.js"></script>
   <script src="/js/load-data.js"></script>
