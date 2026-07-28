@@ -3,173 +3,126 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>OpoRail | Preparación Renfe y Adif</title>
-  
+  <title>Inicio | OpoRail</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
-  
-  <style>
-    /* 1. Forzar el header a ser transparente y flotante SOLO en esta página de inicio */
-    #site-header {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 50;
-      background: transparent !important;
-    }
-    
-    /* 2. Sección Hero independiente (La primera imagen grande) */
-    .hero-section {
-      /* Imagen de tren para la cabecera */
-      background-image: url('https://images.unsplash.com/photo-1474487548417-781cb71495f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); 
-      background-size: cover;
-      background-position: center;
-      position: relative;
-    }
-    .hero-section::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(17, 24, 39, 0.6); /* Oscurecido para leer el título blanco */
-      z-index: 1;
-    }
-
-    /* 3. El wrapper unificado para las dos secciones de beneficios */
-    .beneficios-unificados {
-      /* La segunda imagen que unifica ambas secciones de beneficios */
-      background-image: url('https://images.unsplash.com/photo-1554650567-28d844081c7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      position: relative;
-    }
-    .beneficios-unificados::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      /* Capa blanca semi-transparente para mantener el estilo claro de tu diseño */
-      background: rgba(243, 244, 246, 0.85); 
-      z-index: 1;
-    }
-    .content-relative {
-      position: relative;
-      z-index: 2;
-    }
-  </style>
 </head>
-<body class="antialiased bg-gray-50">
+<body class="antialiased bg-white">
 
-  <!-- Carga del Header (el CSS lo hará transparente arriba) -->
   <div id="site-header"></div>
-  <script src="/js/load-header.js"></script>
 
-  <!-- SECCIÓN HÉROE (Igual a tu imagen) -->
-  <section class="hero-section h-[70vh] flex items-center justify-center text-white pt-20">
-    <div class="content-relative text-center px-4">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Prepárate para trabajar en Renfe y Adif con OpoRail</h1>
-      <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8">Academia online elaborada por personal de Renfe con planes y cursos de preparación intensivos adaptados por especialistas.</p>
-      <a href="cursos.html" class="bg-white text-purple-800 px-8 py-3 rounded-md font-bold hover:bg-gray-100 transition shadow-lg">Ver Cursos de Preparación</a>
+  <section class="relative min-h-[420px] md:min-h-[640px] text-white overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=2200&q=80" alt="Tren en estación" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#0b5a2a]/45 via-purple-700/35 to-[#0b5a2a]/45 pointer-events-none"></div>
+    <div class="relative max-w-[1200px] mx-auto px-4 sm:px-6 pt-24 md:pt-32 pb-12 text-center">
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">Prepárate para trabajar en Renfe y Adif con OpoRail</h1>
+      <p class="mt-4 text-sm sm:text-lg max-w-4xl mx-auto">Academia online elaborada por personal de Renfe con planes y cursos de preparación intensivos adaptados por especialistas.</p>
+      <a href="cursos.html" class="mt-6 inline-flex bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Ver Cursos de Preparación</a>
     </div>
   </section>
 
-  <!-- CONTENEDOR UNIFICADO DE BENEFICIOS (Una sola imagen de fondo para ambos bloques) -->
-  <section class="beneficios-unificados py-16">
-    <div class="container mx-auto px-4 content-relative">
-      
-      <!-- Bloque 1: Beneficios de estudiar con OpoRail -->
-      <div class="mb-20">
-        <div class="text-center mb-10">
-          <h2 class="text-3xl font-bold text-gray-900">Beneficios de estudiar con <span class="text-green-700">OpoRail</span></h2>
-          <p class="text-gray-600 mt-2">Una preparación enfocada en optimizar tu tiempo y aprobar tu oposición.</p>
-        </div>
-        
-        <!-- 4 Tarjetas -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <div class="text-3xl mb-3">📚</div>
-            <h3 class="font-bold text-purple-800 text-lg">Cursos Intensivos</h3>
-            <p class="text-sm text-gray-600 mt-2">Cursos reestructurados y actualizados por materias para ocupar tu posición.</p>
-            <a href="#" class="text-purple-700 text-sm font-semibold mt-4 inline-block">Ver cursos</a>
-          </div>
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <div class="text-3xl mb-3">🧠</div>
-            <h3 class="font-bold text-purple-800 text-lg">Tests y simulacros</h3>
-            <p class="text-sm text-gray-600 mt-2">Tests simulacros para prepararte con convocatorias anteriores y pruebas prácticas.</p>
-            <a href="#" class="text-purple-700 text-sm font-semibold mt-4 inline-block">Ver preparación</a>
-          </div>
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <div class="text-3xl mb-3">💳</div>
-            <h3 class="font-bold text-purple-800 text-lg">Planes flexibles</h3>
-            <p class="text-sm text-gray-600 mt-2">Planes flexibles con los que se adaptan a tus necesidades y horarios.</p>
-            <a href="#" class="text-purple-700 text-sm font-semibold mt-4 inline-block">Ver planes</a>
-          </div>
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <div class="text-3xl mb-3">👤</div>
-            <h3 class="font-bold text-purple-800 text-lg">Panel personal</h3>
-            <p class="text-sm text-gray-600 mt-2">Panel personal para tu perfil y ver tu progreso de tu preparación.</p>
-            <a href="#" class="text-purple-700 text-sm font-semibold mt-4 inline-block">Acceder</a>
-          </div>
-        </div>
-      </div>
+  <section id="oporail-benefits" class="relative py-14 md:py-20 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1515165562835-c4c130238d8f?auto=format&fit=crop&w=2200&q=80" alt="Estación ferroviaria" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
+    <div class="absolute inset-0 bg-white/80 pointer-events-none"></div>
+    <div class="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center">Beneficios de estudiar con <span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></h2>
+      <p class="text-center text-gray-600 mt-4 max-w-3xl mx-auto">Una preparación enfocada en aprobar: temario optimizado por especialistas, tests prácticos por especialidad, simulacro de exámenes con preguntas reales de años anteriores.</p>
 
-      <!-- Bloque 2: Beneficios de entrar en Renfe y Adif -->
+      <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-5 mt-10">
+        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
+          <div class="mb-3 text-purple-700">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 5h11a2 2 0 012 2v12H6a2 2 0 01-2-2V5z"/><path d="M6 9h9M6 13h9"/><path d="M17 7h3v12a2 2 0 01-2 2h-1"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-purple-700 mb-2">Cursos Intensivos</h3>
+          <p class="text-gray-600 text-sm mb-4">Contenido estructurado y optimizado por bloques para estudiar y practicar.</p>
+          <a href="/cursos.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ir a cursos</a>
+        </article>
+
+        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
+          <div class="mb-3 text-purple-700">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 3l8.5 5v8L12 21l-8.5-5V8L12 3z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-purple-700 mb-2">Tests y simulacros</h3>
+          <p class="text-gray-600 text-sm mb-4">Practica con tests y simulacros de exámenes de años anteriores con nuestras recomendaciones y consejos exclusivos.</p>
+          <a href="/cursos.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ver preparación</a>
+        </article>
+
+        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
+          <div class="mb-3 text-purple-700">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-purple-700 mb-2">Planes flexibles</h3>
+          <p class="text-gray-600 text-sm mb-4">Elige el plan que mejor se adapta a tu ritmo y objetivos.</p>
+          <a href="/planes.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Ir a planes</a>
+        </article>
+
+        <article class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex flex-col min-h-[240px]">
+          <div class="mb-3 text-purple-700">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-3.5 4.5-5 8-5s6.5 1.5 8 5"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-purple-700 mb-2">Panel personal</h3>
+          <p class="text-gray-600 text-sm mb-4">Gestiona progreso, cursos guardados e historial de test.</p>
+          <a href="/user/index.html" class="mt-auto text-sm font-semibold text-purple-700 hover:underline">Acceder</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="relative py-14 md:py-20 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1512418490979-92798cec1380?auto=format&fit=crop&w=2200&q=80" alt="Vías de tren" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
+    <div class="absolute inset-0 bg-white/84 pointer-events-none"></div>
+    <div class="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-center">Beneficios de entrar en <span class="text-purple-700">Renfe</span> y <span class="text-[#0b5a2a]">Adif</span></h2>
+      <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Salidas profesionales con <strong>estabilidad laboral</strong>, <strong>promoción interna</strong>, <strong>buen salario</strong>.</p>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-10">
+        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-purple-100">
+          <h3 class="text-xl font-bold text-purple-700 mb-2">Renfe</h3>
+          <ul class="text-gray-600 text-sm space-y-2">
+            <li>• Especialidades técnicas de mantenimiento y operación.</li>
+            <li>• Carrera profesional con promoción interna.</li>
+            <li>• Entorno industrial moderno y trabajo por equipos.</li>
+          </ul>
+        </article>
+        <article class="bg-white/95 backdrop-blur-[1px] rounded-xl p-6 shadow-sm border border-green-100">
+          <h3 class="text-xl font-bold text-green-700 mb-2">Adif</h3>
+          <ul class="text-gray-600 text-sm space-y-2">
+            <li>• Infraestructura ferroviaria clave para todo el país.</li>
+            <li>• Perfil técnico con alta estabilidad y continuidad.</li>
+            <li>• Participación en proyectos estratégicos de movilidad.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="noticias" class="relative py-14 md:py-16 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=2200&q=80" alt="Andenes y trenes" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
+    <div class="absolute inset-0 bg-white/84 pointer-events-none"></div>
+    <div class="relative z-10 px-4 sm:px-6 max-w-[1200px] mx-auto min-h-[260px]">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Noticias y Novedades</h2>
+      <div id="news-list" class="grid md:grid-cols-2 gap-6"></div>
+    </div>
+  </section>
+
+  <section class="relative py-14 md:py-16 px-4 sm:px-6 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=2200&q=80" alt="Infraestructura ferroviaria" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy">
+    <div class="absolute inset-0 bg-white/86 pointer-events-none"></div>
+    <div class="relative z-10 max-w-[1200px] mx-auto bg-gradient-to-r from-purple-700 to-[#0b5a2a] text-white rounded-2xl p-6 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
       <div>
-        <div class="text-center mb-10">
-          <h2 class="text-3xl font-bold text-gray-900">Beneficios de entrar en <span class="text-purple-800">Renfe</span> y <span class="text-green-700">Adif</span></h2>
-          <p class="text-gray-600 mt-2">Salidas profesionales con estabilidad laboral, promoción interna y buen salario.</p>
-        </div>
-
-        <!-- 2 Tarjetas -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-            <h3 class="font-bold text-xl mb-4 flex items-center gap-2">
-              <span>👨‍🔧</span> Renfe
-            </h3>
-            <ul class="text-sm text-gray-700 space-y-2 list-disc list-inside">
-              <li>Operaciones añadidas laborales en mantenimiento y operación, perfecto para el rol de supervisor de mantenimiento de instalaciones.</li>
-              <li>Carrera profesional con promoción interna.</li>
-              <li>Entorno industrial moderno y tecnología avanzada de equipos.</li>
-            </ul>
-          </div>
-          <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-            <h3 class="font-bold text-xl mb-4 flex items-center gap-2 text-green-700">
-              <span>⏏️</span> Adif
-            </h3>
-            <ul class="text-sm text-gray-700 space-y-2 list-disc list-inside">
-              <li>Infraestructura ferroviaria clave por todo el país.</li>
-              <li>Alta estabilidad laboral y con sueldo competitivo.</li>
-              <li>Participación en proyectos de vanguardia de movilidad.</li>
-            </ul>
-          </div>
-        </div>
+        <h2 class="text-2xl md:text-4xl font-bold">Empieza tu preparación hoy</h2>
+        <p class="text-purple-100 mt-2">Selecciona el plan ideal y accede a cursos, tests y simulacros organizados.</p>
       </div>
-
-    </div>
-  </section>
-
-  <!-- SECCIÓN NOTICIAS -->
-  <section class="py-16 px-4 container mx-auto">
-    <h2 class="text-3xl font-bold mb-8 text-center text-gray-900">Noticias y Novedades</h2>
-    <div id="noticias-lista" class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Ejemplo estático basado en tu imagen (borrar si lo cargas con JS) -->
-      <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200">
-        <div class="bg-blue-900 text-white p-6">
-          <h3 class="font-bold text-xl">Convocatoria 2025</h3>
-          <p class="text-sm mt-1 text-gray-300">Nuevas plazas para Mantenimiento</p>
-        </div>
-        <div class="p-6">
-          <p class="text-xs text-purple-700 font-bold mb-2">10 DE FEBRERO DE 2025</p>
-          <h4 class="font-bold text-lg mb-2">Nueva convocatoria de plazas de Mantenimiento 2025</h4>
-          <p class="text-sm text-gray-600">El Ministerio informa de un acuerdo con el visto bueno para emitir nuevas bases y abrir plazas para el departamento de Mantenimiento Ferroviario.</p>
-        </div>
+      <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+        <a href="planes.html" class="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-center">Ver planes</a>
+        <a href="user/index.html" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition text-center">Acceder al panel</a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <div id="site-footer" class="mt-12"></div>
-  <script src="/js/load-footer.js"></script>
-  <script src="/js/load-data.js"></script>
+  <div id="site-footer" class="mt-8"></div>
+
+  <script src="js/load-header.js"></script>
+  <script src="js/load-data.js"></script>
 </body>
 </html>
