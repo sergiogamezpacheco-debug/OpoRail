@@ -43,8 +43,8 @@ fetch('/data/site.json')
       }
     }
 
-    const headerClass = isCoursePage
-      ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-[#0b5a2a] to-purple-700 shadow-md'
+    const headerClass = isCoursePage || isCoursesOrPlansPage
+      ? 'absolute top-0 left-0 right-0 z-20 text-white bg-gradient-to-r from-green-700 to-purple-700 shadow-md'
       : 'absolute top-0 left-0 right-0 z-30 text-white bg-gradient-to-r from-[#0b5a2a]/95 to-purple-700/95 backdrop-blur-sm';
 
     const navLinks = site.menu
