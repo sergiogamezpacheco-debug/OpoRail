@@ -40,7 +40,10 @@
 
   <script src="/js/load-header.js"></script>
   <script src="/js/load-footer.js"></script>
-  <script>
+  <script type="module">
+    import { auth } from '/js/firebase-config.js';
+    import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js';
+
     const courseSelect = document.getElementById('course-select');
     const docsInput = document.getElementById('docs-input');
     const uploadBtn = document.getElementById('upload-btn');
@@ -94,24 +97,21 @@
       });
     };
 
-    const syncAdminAccess = async () => {
-      const rawProfile = localStorage.getItem('oporail_user_profile');
-      let parsedProfile = {};
+    const isAdminEmail = async (email) => {
+      const normalizedEmail = String(email || '').toLowerCase().trim();
+      if (!normalizedEmail) return false;
+
       try {
-        parsedProfile = rawProfile ? JSON.parse(rawProfile) : {};
-      } catch {
-        parsedProfile = {};
-      }
-      const email = String(parsedProfile?.email || '').toLowerCase().trim();
-      if (!email) return false;
-      try {
-        const res = await fetch('/data/admins.json');
+        const res = await fetch('/data/admins.json', { cache: 'no-store' });
         if (!res.ok) throw new Error('No se pudo cargar admins.json');
         const payload = await res.json();
         const admins = Array.isArray(payload?.emails) ? payload.emails : [];
-        return admins.map((item) => String(item || '').toLowerCase().trim()).includes(email);
-      } catch {
-        return localStorage.getItem('oporail_is_admin') === 'true';
+        return admins
+          .map((item) => String(item || '').toLowerCase().trim())
+          .includes(normalizedEmail);
+      } catch (error) {
+        console.error('Error comprobando administradores:', error);
+        return false;
       }
     };
 
@@ -162,21 +162,33 @@
     refreshBtn.addEventListener('click', renderDocs);
     courseSelect.addEventListener('change', renderDocs);
 
-    (async () => {
-      const hasAdminAccess = await syncAdminAccess();
-      if (!hasAdminAccess) {
-        document.querySelector('main').innerHTML = `
-          <section class="max-w-2xl mx-auto bg-white border border-red-200 rounded-xl p-6">
-            <h1 class="text-xl font-bold text-red-700 mb-2">Acceso restringido</h1>
-            <p class="text-sm text-gray-700">Este panel solo está disponible para administradores autenticados.</p>
-            <p class="text-sm text-gray-700 mt-2">Para ser admin, el correo de tu cuenta debe estar en <code>/data/admins.json</code> dentro del array <code>emails</code>.</p>
-          </section>
-        `;
+    const showRestricted = () => {
+      document.querySelector('main').innerHTML = `
+        <section class="max-w-2xl mx-auto bg-white border border-red-200 rounded-xl p-6">
+          <h1 class="text-xl font-bold text-red-700 mb-2">Acceso restringido</h1>
+          <p class="text-sm text-gray-700">Este panel solo está disponible para administradores autenticados.</p>
+          <p class="text-sm text-gray-700 mt-2">Para ser admin, el correo de tu cuenta debe estar en <code>/data/admins.json</code> dentro del array <code>emails</code>.</p>
+        </section>
+      `;
+    };
+
+    // Firebase es ahora la fuente de verdad para saber qué cuenta está autenticada.
+    // Ya no dependemos de que oporail_user_profile exista en el navegador concreto.
+    onAuthStateChanged(auth, async (user) => {
+      if (!user || !user.email) {
+        showRestricted();
         return;
       }
+
+      const hasAdminAccess = await isAdminEmail(user.email);
+      if (!hasAdminAccess) {
+        showRestricted();
+        return;
+      }
+
       localStorage.setItem('oporail_is_admin', 'true');
       loadCourses();
-    })();
+    });
   </script>
 </body>
 </html>
