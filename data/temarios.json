@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "convocatoria": "2025",
+  "categorias": {
+    "comun_2025": {
+      "id": "comun_2025",
+      "titulo": "Temario Común 2025",
+      "tipo": "comun",
+      "compartido": true,
+      "descripcion": "Temario común compartido por las especialidades de mantenimiento."
+    },
+    "especifico_2025": {
+      "id": "especifico_2025",
+      "titulo": "Temario Específico 2025",
+      "tipo": "especifico",
+      "compartido": false,
+      "descripcion": "Temario específico de cada especialidad."
+    },
+    "comun_oporail": {
+      "id": "comun_oporail",
+      "titulo": "Temario Común Resumido y Optimizado por OpoRail",
+      "tipo": "comun",
+      "compartido": true,
+      "descripcion": "Versión resumida y optimizada por OpoRail del contenido común."
+    },
+    "especifico_oporail": {
+      "id": "especifico_oporail",
+      "titulo": "Temario Específico Resumido y Optimizado por OpoRail",
+      "tipo": "especifico",
+      "compartido": false,
+      "descripcion": "Versión resumida y optimizada por OpoRail del contenido específico de cada especialidad."
+    }
+  },
+  "contenidoComun": {
+    "comun_2025": [],
+    "comun_oporail": []
+  },
+  "especialidades": {
+    "ajustador-montador": {
+      "titulo": "Ajustador-Montador",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    },
+    "electricidad-electronica": {
+      "titulo": "Electricidad-Electrónica",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    },
+    "suministros": {
+      "titulo": "Suministros",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    },
+    "pintura": {
+      "titulo": "Pintura",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    },
+    "caldereria-chapa-soldadura": {
+      "titulo": "Calderería/Chapa/Soldadura",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    },
+    "maquinas-herramientas": {
+      "titulo": "Máquinas - Herramientas",
+      "temarios": {
+        "especifico_2025": [],
+        "especifico_oporail": []
+      }
+    }
+  }
+}
