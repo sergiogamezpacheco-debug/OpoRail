@@ -26,6 +26,9 @@
 
       if (!email) {
         localStorage.setItem("oporail_is_admin", "false");
+        const script = document.createElement("script");
+        script.src = "js/load-data.js";
+        document.body.appendChild(script);
         return;
       }
 
@@ -43,15 +46,18 @@
       } catch (error) {
         console.error("No se pudo comprobar el estado de administrador:", error);
       }
-    }
-
-    onAuthStateChanged(auth, async (user) => {
-      await syncAdminStatus(user);
 
       const script = document.createElement("script");
       script.src = "js/load-data.js";
+      script.onload = () => {
+        const categoryScript = document.createElement("script");
+        categoryScript.src = "js/temario-admin.js";
+        document.body.appendChild(categoryScript);
+      };
       document.body.appendChild(script);
-    });
+    }
+
+    onAuthStateChanged(auth, syncAdminStatus);
   </script>
 </body>
 </html>
