@@ -13,6 +13,7 @@ fetch('/data/site.json')
     const pathname = window.location.pathname;
     const courseRoutes = new Set(['/curso', '/curso.html', '/test-info', '/test-info.html', '/test-run', '/test-run.html']);
     const isCoursePage = courseRoutes.has(pathname);
+    const isCoursesOrPlansPage = pathname === '/cursos' || pathname === '/cursos.html' || pathname === '/planes' || pathname === '/planes.html';
     const activeUid = localStorage.getItem('oporail_active_uid');
 
     let cachedProfile = null;
@@ -75,17 +76,19 @@ fetch('/data/site.json')
 
     const header = `
       <header class="${headerClass}">
-        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
-          <a href="/index.html" class="text-2xl md:text-3xl font-bold text-white">OpoRail</a>
+        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4 relative">
+          <a href="/index.html" class="absolute left-1/2 -translate-x-1/2 text-2xl md:text-3xl font-bold text-white whitespace-nowrap">OpoRail</a>
 
-          <button id="mobile-menu-btn" class="md:hidden inline-flex items-center justify-center border border-white/60 rounded-lg p-2" aria-label="Abrir menú">
-            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-          </button>
+          <div class="ml-auto flex items-center gap-4">
+            <button id="mobile-menu-btn" class="md:hidden inline-flex items-center justify-center border border-white/60 rounded-lg p-2" aria-label="Abrir menú">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            </button>
 
-          <nav class="hidden md:flex items-center gap-6 font-medium text-white">
-            ${navLinks}
-            ${userArea}
-          </nav>
+            <nav class="hidden md:flex items-center gap-6 font-medium text-white">
+              ${navLinks}
+              ${userArea}
+            </nav>
+          </div>
         </div>
         <div id="mobile-menu" class="hidden md:hidden px-4 sm:px-6 pb-4">
           <nav class="bg-white/10 border border-white/20 rounded-xl p-4 flex flex-col gap-3 text-sm font-medium">
