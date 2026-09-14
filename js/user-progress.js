@@ -1,16 +1,30 @@
 // js/user-progress.js
 // Gestión centralizada del progreso del alumno.
-// Mantiene el sistema local durante la fase de desarrollo y deja una API estable
-// para conectar Firestore más adelante.
+// Durante el desarrollo conserva el almacenamiento local que ya utiliza el panel.
+// La API queda preparada para conectar Firestore en una fase posterior.
 
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'oporail_progress_v1';
+  const LEGACY_PREFIX = 'oporail_progress_';
 
-  function loadAll() {
+  function normalize(value) {
+    return String(value || '')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase().trim().replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function courseKey(course) {
+    if (!course) return '';
+    if (typeof course === 'string' || typeof course === 'number') return normalize(course);
+    return normalize(course.id || course.slug || course.titulo || course.title || '');
+  }
+
+  function getMap(userId) {
+    if (!userId) return {};
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(`${LEGACY_PREFIX}${userId}`);
       const data = raw ? JSON.parse(raw) : {};
       return data && typeof data === 'object' ? data : {};
     } catch (error) {
@@ -19,114 +33,68 @@
     }
   }
 
-  function saveAll(data) {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  function saveMap(userId, data) {
+    if (!userId) return;
+    localStorage.setItem(`${LEGACY_PREFIX}${userId}`, JSON.stringify(data));
   }
 
-  function normalize(value) {
-    return String(value || '')
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase()
-      .trim()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-  }
-
-  function courseKey(course) {
-    if (!course) return '';
-    if (typeof course === 'string') return normalize(course);
-    return normalize(course.id || course.slug || course.titulo || course.title || '');
-  }
-
-  function get(course) {
+  function getPercent(course, userId) {
     const key = courseKey(course);
-    if (!key) return null;
-    return loadAll()[key] || null;
+    if (!key || !userId) return 0;
+    const map = getMap(userId);
+    const value = Number(map[key] ?? (course && course.id != null ? map[course.id] : undefined));
+    return Number.isFinite(value) ? Math.max(0, Math.min(100, Math.round(value))) : 0;
   }
 
-  function getPercent(course) {
-    const item = get(course);
-    if (!item) return 0;
-    const percent = Number(item.percent);
-    return Number.isFinite(percent) ? Math.max(0, Math.min(100, Math.round(percent))) : 0;
-  }
-
-  function setPercent(course, percent) {
+  function setPercent(course, percent, userId) {
     const key = courseKey(course);
-    if (!key) return null;
-    const data = loadAll();
-    const previous = data[key] || {};
+    if (!key || !userId) return null;
+    const map = getMap(userId);
     const value = Math.max(0, Math.min(100, Math.round(Number(percent) || 0)));
-    data[key] = {
-      ...previous,
-      courseId: key,
-      percent: value,
-      updatedAt: new Date().toISOString()
-    };
-    saveAll(data);
-    window.dispatchEvent(new CustomEvent('oporail:progress-updated', {
-      detail: { courseId: key, percent: value }
-    }));
-    return data[key];
+    map[key] = value;
+    if (course && typeof course === 'object' && course.id != null) map[String(course.id)] = value;
+    saveMap(userId, map);
+    window.dispatchEvent(new CustomEvent('oporail:progress-updated', { detail: { courseId: key, percent: value } }));
+    return value;
   }
 
-  function markTopic(course, topicId, completed) {
+  function markTopic(course, topicId, completed, totalTopics, userId) {
     const key = courseKey(course);
-    if (!key || !topicId) return null;
-    const data = loadAll();
-    const previous = data[key] || { courseId: key, percent: 0, topics: {} };
-    const topics = { ...(previous.topics || {}) };
-    topics[String(topicId)] = Boolean(completed);
-    data[key] = {
-      ...previous,
-      courseId: key,
-      topics,
-      updatedAt: new Date().toISOString()
-    };
-    saveAll(data);
-    window.dispatchEvent(new CustomEvent('oporail:progress-updated', {
-      detail: { courseId: key, topics }
-    }));
-    return data[key];
+    if (!key || !topicId || !userId) return null;
+    const storageKey = `${LEGACY_PREFIX}topics_${userId}`;
+    let topics = {};
+    try { topics = JSON.parse(localStorage.getItem(storageKey) || '{}'); } catch (_) { topics = {}; }
+    topics[key] = { ...(topics[key] || {}), [String(topicId)]: Boolean(completed) };
+    localStorage.setItem(storageKey, JSON.stringify(topics));
+    const completedCount = Object.values(topics[key]).filter(Boolean).length;
+    if (Number(totalTopics) > 0) setPercent(course, completedCount / Number(totalTopics) * 100, userId);
+    return topics[key];
   }
 
-  function setLastActivity(course, activity) {
+  function setLastActivity(course, activity, userId) {
     const key = courseKey(course);
-    if (!key) return null;
-    const data = loadAll();
-    const previous = data[key] || { courseId: key, percent: 0 };
-    data[key] = {
-      ...previous,
-      courseId: key,
-      lastActivity: activity || '',
-      lastActivityAt: new Date().toISOString()
-    };
-    saveAll(data);
-    return data[key];
+    if (!key || !userId) return null;
+    const storageKey = `${LEGACY_PREFIX}activity_${userId}`;
+    let activities = {};
+    try { activities = JSON.parse(localStorage.getItem(storageKey) || '{}'); } catch (_) { activities = {}; }
+    activities[key] = { activity: activity || '', updatedAt: new Date().toISOString() };
+    localStorage.setItem(storageKey, JSON.stringify(activities));
+    return activities[key];
   }
 
-  function getOverall(courses) {
+  function getOverall(courses, userId) {
     const list = Array.isArray(courses) ? courses : [];
     if (!list.length) return 0;
-    const total = list.reduce((sum, course) => sum + getPercent(course), 0);
-    return Math.round(total / list.length);
+    return Math.round(list.reduce((sum, course) => sum + getPercent(course, userId), 0) / list.length);
   }
 
-  function clear() {
-    localStorage.removeItem(STORAGE_KEY);
+  function clear(userId) {
+    if (!userId) return;
+    localStorage.removeItem(`${LEGACY_PREFIX}${userId}`);
+    localStorage.removeItem(`${LEGACY_PREFIX}topics_${userId}`);
+    localStorage.removeItem(`${LEGACY_PREFIX}activity_${userId}`);
     window.dispatchEvent(new CustomEvent('oporail:progress-updated'));
   }
 
-  window.OpoRailProgress = {
-    loadAll,
-    get,
-    getPercent,
-    setPercent,
-    markTopic,
-    setLastActivity,
-    getOverall,
-    clear,
-    courseKey
-  };
+  window.OpoRailProgress = { getMap, getPercent, setPercent, markTopic, setLastActivity, getOverall, clear, courseKey };
 })();
