@@ -2,7 +2,809 @@
   "name": "Ajustador-Montador",
   "questions": [
     {
-      "id": "aj-001",
+      "id": "ajustador-001",
+      "question": "¿Qué caracteriza al ciclo de un motor diésel (Motor de Encendido por Compresión, MEC)?",
+      "options": [
+        "La admisión contiene solo aire y el combustible se inyecta al final de la compresión, autoinflamándose",
+        "Se comprime una mezcla de aire y combustible que se enciende con una chispa",
+        "El combustible se mezcla con el aire antes de la admisión",
+        "La ignición se provoca externamente mediante bujía"
+      ],
+      "correctIndex": 0,
+      "explanation": "La admisión contiene solo aire y el combustible se inyecta al final de la compresión, autoinflamándose",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.1 FUNDAMENTOS DEL MOTOR DIÉSEL"
+      ]
+    },
+    {
+      "id": "ajustador-002",
+      "question": "¿Cómo se denomina el motor cuya combustión se produce por el salto de una chispa en la bujía?",
+      "options": [
+        "Motor de Encendido por Compresión (MEC)",
+        "Motor de Encendido Provocado (MEP) o de Ciclo Otto",
+        "Motor diésel-hidráulico",
+        "Motor de dos tiempos Uniflow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Motor de Encendido Provocado (MEP) o de Ciclo Otto",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.2 CONCEPTOS DEFINITORIOS"
+      ]
+    },
+    {
+      "id": "ajustador-003",
+      "question": "¿Qué es el Punto Muerto Superior (PMS) en un motor diésel?",
+      "options": [
+        "Cuando el pistón alcanza la cota más próxima a la cámara de combustión",
+        "Cuando el pistón alcanza la cota más alejada de la cámara de combustión",
+        "La distancia que recorre el pistón entre PMS y PMI",
+        "El diámetro interior del cilindro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cuando el pistón alcanza la cota más próxima a la cámara de combustión",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.2 CONCEPTOS DEFINITORIOS"
+      ]
+    },
+    {
+      "id": "ajustador-004",
+      "question": "¿Qué es la Carrera (C) de un motor diésel?",
+      "options": [
+        "El diámetro interior del cilindro",
+        "La distancia que recorre el pistón dentro del cilindro entre el PMS y el PMI",
+        "El punto más próximo a la cámara de combustión",
+        "El volumen de la cámara de combustión"
+      ],
+      "correctIndex": 1,
+      "explanation": "La distancia que recorre el pistón dentro del cilindro entre el PMS y el PMI",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.2 CONCEPTOS DEFINITORIOS"
+      ]
+    },
+    {
+      "id": "ajustador-005",
+      "question": "En el ciclo diésel, ¿cómo se regula la carga (potencia) del motor?",
+      "options": [
+        "De forma cualitativa: varía la proporción de combustible inyectado según la demanda de potencia, admitiendo siempre la mayor cantidad de aire posible",
+        "De forma cuantitativa, variando la mezcla aire-combustible antes de la admisión",
+        "Mediante el cierre parcial de la válvula de admisión de aire",
+        "No se regula, funciona siempre a carga constante"
+      ],
+      "correctIndex": 0,
+      "explanation": "De forma cualitativa: varía la proporción de combustible inyectado según la demanda de potencia, admitiendo siempre la mayor cantidad de aire posible",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.1 FUNDAMENTOS DEL MOTOR DIÉSEL"
+      ]
+    },
+    {
+      "id": "ajustador-006",
+      "question": "¿Qué tipo de motores diésel se emplean en el ferrocarril, según el número de rotaciones del cigüeñal por ciclo completo?",
+      "options": [
+        "Solo de cuatro tiempos",
+        "Solo de dos tiempos",
+        "De dos tiempos o de cuatro tiempos",
+        "Ninguno, todos son eléctricos"
+      ],
+      "correctIndex": 2,
+      "explanation": "De dos tiempos o de cuatro tiempos",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.1.2 El ciclo diésel"
+      ]
+    },
+    {
+      "id": "ajustador-007",
+      "question": "En los motores GM EMD montados en las series S/333, 334 y 335, ¿qué sistema de sobrealimentación sustituye a los sopladores tipo Roots?",
+      "options": [
+        "El turbo-compresor, que aprovecha la presión de los gases de escape",
+        "Un compresor de tornillo",
+        "Un ventilador centrífugo auxiliar",
+        "No llevan sistema de sobrealimentación"
+      ],
+      "correctIndex": 0,
+      "explanation": "El turbo-compresor, que aprovecha la presión de los gases de escape",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.5.2 Turbo compresor"
+      ]
+    },
+    {
+      "id": "ajustador-008",
+      "question": "¿Cuál es la presión máxima de rendimiento que puede alcanzar un soplador tipo Roots?",
+      "options": [
+        "1 bar",
+        "5 bar",
+        "0,1 bar",
+        "10 bar"
+      ],
+      "correctIndex": 0,
+      "explanation": "1 bar",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.5.1 Compresor (ROOTS)"
+      ]
+    },
+    {
+      "id": "ajustador-009",
+      "question": "¿A qué presión aproximada se ajusta la válvula del circuito de retorno de combustible para mantener la presión de transferencia?",
+      "options": [
+        "A unos 0,35 bar",
+        "A unos 10 bar",
+        "A 1 bar",
+        "A 10 psi"
+      ],
+      "correctIndex": 0,
+      "explanation": "A unos 0,35 bar",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.8 ALIMENTACIÓN DE COMBUSTIBLE"
+      ]
+    },
+    {
+      "id": "ajustador-010",
+      "question": "¿Cómo se conoce popularmente al regulador de revoluciones de los motores diésel EMD?",
+      "options": [
+        "Gobernador (Woodward)",
+        "EMDEC",
+        "ASFA",
+        "Chopper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gobernador (Woodward)",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.9 REGULADOR DE REVOLUCIONES"
+      ]
+    },
+    {
+      "id": "ajustador-011",
+      "question": "En el motor EMD 16-710 G3B-T2 de las locomotoras S/335, ¿qué sustituye al regulador Woodward tradicional?",
+      "options": [
+        "Un procesador electrónico (EMDEC)",
+        "Un soplador Roots",
+        "Un convertidor de par mecánico",
+        "Un turbocompresor de accionamiento mecánico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un procesador electrónico (EMDEC)",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.9 REGULADOR DE REVOLUCIONES"
+      ]
+    },
+    {
+      "id": "ajustador-012",
+      "question": "Además de regular la velocidad, ¿qué otra función importante tiene el regulador (Woodward) de un motor diésel?",
+      "options": [
+        "Ninguna otra función",
+        "Parar el motor cuando se activa alguna vigilancia, como la caída de presión de aceite lubricante",
+        "Regular la temperatura del refrigerante",
+        "Controlar el pantógrafo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parar el motor cuando se activa alguna vigilancia, como la caída de presión de aceite lubricante",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.9 REGULADOR DE REVOLUCIONES"
+      ]
+    },
+    {
+      "id": "ajustador-013",
+      "question": "¿Cuántos circuitos se distinguen en el circuito de lubricación de este tipo de motores diésel?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tres",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.6 CIRCUITO DE LUBRICACIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-014",
+      "question": "¿Qué elementos son los encargados de suministrar aire limpio a los sopladores/turbocompresores, evitando daños por impurezas?",
+      "options": [
+        "Los filtros de aire",
+        "Los inyectores",
+        "Los decantadores de agua",
+        "El cárter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los filtros de aire",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.5 SISTEMAS DE SOBREALIMENTACIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-015",
+      "question": "Respecto a la transmisión diésel-mecánica en automotores, ¿qué elementos transmiten el par motor a los ejes?",
+      "options": [
+        "Embrague, caja de cambios e inversor",
+        "Generador, convertidor y motores eléctricos",
+        "Convertidor de par hidráulico únicamente",
+        "Cardan y reductor únicamente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Embrague, caja de cambios e inversor",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "4.2 TRANSMISIÓN DIÉSEL-MECÁNICA"
+      ]
+    },
+    {
+      "id": "ajustador-016",
+      "question": "¿Qué tipo de embrague es el típico de la transmisión mecánica en automotores diésel?",
+      "options": [
+        "El embrague de discos (unión por fricción)",
+        "El embrague hidráulico",
+        "El embrague electromagnético",
+        "No llevan embrague"
+      ],
+      "correctIndex": 0,
+      "explanation": "El embrague de discos (unión por fricción)",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "4.2.2 Funcionamiento"
+      ]
+    },
+    {
+      "id": "ajustador-017",
+      "question": "A diferencia de la transmisión diésel-eléctrica de las locomotoras, ¿qué dos tipos de transmisión disponen los automotores diésel para transmitir el par a los ejes?",
+      "options": [
+        "Transmisión diésel-mecánica y transmisión diésel-hidráulica",
+        "Transmisión por cardan y por correa",
+        "Transmisión directa e indirecta",
+        "Transmisión eléctrica y neumática"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transmisión diésel-mecánica y transmisión diésel-hidráulica",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "4. AUTOMOTORES DIÉSEL"
+      ]
+    },
+    {
+      "id": "ajustador-018",
+      "question": "¿A qué serie de locomotora corresponde el motor diésel de dos tiempos mostrado como ejemplo en el manual (Figura 1-2)?",
+      "options": [
+        "Loc. S/334",
+        "Loc. S/252",
+        "Loc. S/103",
+        "UT S/440"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loc. S/334",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "1.1.2 El ciclo diésel"
+      ]
+    },
+    {
+      "id": "ajustador-019",
+      "question": "¿Qué componentes forman un conjunto inseparable dentro del sistema de inyección de combustible?",
+      "options": [
+        "Los émbolos y sus cilindros, así como la aguja y la tobera del inyector",
+        "El regulador y el turbocompresor",
+        "El embrague y la caja de cambios",
+        "El cárter y el cigüeñal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los émbolos y sus cilindros, así como la aguja y la tobera del inyector",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.8 ALIMENTACIÓN DE COMBUSTIBLE"
+      ]
+    },
+    {
+      "id": "ajustador-020",
+      "question": "¿Quién mueve las bombas de inyección de combustible, y en qué secuencia lo hace?",
+      "options": [
+        "Los árboles de levas, en la secuencia correspondiente al orden de encendido del motor",
+        "El regulador Woodward directamente",
+        "El turbocompresor",
+        "La caja de cambios"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los árboles de levas, en la secuencia correspondiente al orden de encendido del motor",
+      "tags": [
+        "Tracción Diésel (Motores térmicos)",
+        "3.8 ALIMENTACIÓN DE COMBUSTIBLE"
+      ]
+    },
+
+    {
+      "id": "ajustador-021",
+      "question": "¿Qué es la neumática, según la definición del manual?",
+      "options": [
+        "La tecnología que emplea el aire comprimido como medio de transmisión de la energía necesaria para mover y hacer funcionar mecanismos",
+        "La ciencia que estudia los fluidos hidráulicos",
+        "La disciplina que estudia los circuitos eléctricos de baja tensión",
+        "El estudio de los gases licuados"
+      ],
+      "correctIndex": 0,
+      "explanation": "La tecnología que emplea el aire comprimido como medio de transmisión de la energía necesaria para mover y hacer funcionar mecanismos",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "1. NEUMÁTICA DEFINICIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-022",
+      "question": "¿Por qué es importante el tratamiento y acondicionamiento del aire comprimido en los sistemas neumáticos ferroviarios?",
+      "options": [
+        "Un aire contaminado por agua, barros o carbón acorta la vida de los componentes y disminuye la fiabilidad del sistema",
+        "No tiene ninguna importancia real",
+        "Solo afecta al confort de los viajeros",
+        "Solo es relevante en climas muy fríos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un aire contaminado por agua, barros o carbón acorta la vida de los componentes y disminuye la fiabilidad del sistema",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "Prólogo / 1. NEUMÁTICA DEFINICIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-023",
+      "question": "Dentro de la unidad de fabricación y acondicionamiento de aire, ¿qué elemento se encarga de eliminar la humedad del aire comprimido?",
+      "options": [
+        "El secador",
+        "El compresor",
+        "Las válvulas de seguridad",
+        "Los depósitos"
+      ],
+      "correctIndex": 0,
+      "explanation": "El secador",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "4.1.6 SECADOR"
+      ]
+    },
+    {
+      "id": "ajustador-024",
+      "question": "¿Qué función cumple la llave de aislamiento para TFA y TDP?",
+      "options": [
+        "Aislar los circuitos de freno (TFA) y de alimentación (TDP) para labores de mantenimiento",
+        "Medir la presión del circuito",
+        "Convertir una señal eléctrica en neumática",
+        "Amplificar el caudal de aire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aislar los circuitos de freno (TFA) y de alimentación (TDP) para labores de mantenimiento",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.5 LLAVE DE AISLAMIENTO PARA TFA Y TDP"
+      ]
+    },
+    {
+      "id": "ajustador-025",
+      "question": "¿Qué elemento del sistema neumático amplifica el caudal de aire en el circuito de freno?",
+      "options": [
+        "El relé de freno (amplificador de caudal)",
+        "El manómetro",
+        "El presostato",
+        "La válvula de flujo"
+      ],
+      "correctIndex": 0,
+      "explanation": "El relé de freno (amplificador de caudal)",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.15 RELÉS DE FRENO (AMPLIFICADORES DE CAUDAL)"
+      ]
+    },
+    {
+      "id": "ajustador-026",
+      "question": "¿Qué fabricantes de convertidores electroneumáticos (EPC) se citan en el manual?",
+      "options": [
+        "Faiveley y Knorr",
+        "Siemens y Alstom",
+        "Bombardier y CAF",
+        "BASF y Talgo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Faiveley y Knorr",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.17.1/5.17.2 CONVERTIDORES ELECTRONEUMÁTICOS"
+      ]
+    },
+    {
+      "id": "ajustador-027",
+      "question": "¿Cuántos tipos de freno se describen en el apartado 'Diferentes formas de frenar'?",
+      "options": [
+        "Seis: directo, indirecto automático, estacionamiento, auxilio, urgencia y antibloqueo",
+        "Tres",
+        "Dos",
+        "Cuatro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seis: directo, indirecto automático, estacionamiento, auxilio, urgencia y antibloqueo",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "6. DIFERENTES FORMAS DE FRENAR"
+      ]
+    },
+    {
+      "id": "ajustador-028",
+      "question": "¿Qué caracteriza al freno directo, a diferencia del freno indirecto automático?",
+      "options": [
+        "Acciona directamente sobre los cilindros de freno, sin pasar por el distribuidor",
+        "Actúa mediante la presión de control sobre el distribuidor",
+        "Solo se usa en caso de emergencia",
+        "Es exclusivo de los vehículos remolcados"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acciona directamente sobre los cilindros de freno, sin pasar por el distribuidor",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "6.2.1 FRENO DIRECTO"
+      ]
+    },
+    {
+      "id": "ajustador-029",
+      "question": "¿Qué es el freno de urgencia?",
+      "options": [
+        "El tipo de frenado que provoca la máxima deceleración posible ante una situación de emergencia",
+        "El freno habitual de servicio",
+        "El freno de estacionamiento manual",
+        "Un sistema exclusivamente hidráulico"
+      ],
+      "correctIndex": 0,
+      "explanation": "El tipo de frenado que provoca la máxima deceleración posible ante una situación de emergencia",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "6.2.5 FRENO URGENCIA"
+      ]
+    },
+    {
+      "id": "ajustador-030",
+      "question": "¿Qué sistema evita el bloqueo de las ruedas durante una frenada intensa?",
+      "options": [
+        "El antibloqueo",
+        "El freno de auxilio",
+        "El freno directo",
+        "El distribuidor de freno"
+      ],
+      "correctIndex": 0,
+      "explanation": "El antibloqueo",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "6.2.6 ANTIBLOQUEO"
+      ]
+    },
+    {
+      "id": "ajustador-031",
+      "question": "¿Qué elemento del distribuidor de freno permite seleccionar entre los modos Viajeros/Mercancías y Pasajero/Genérico (V/M-P/G)?",
+      "options": [
+        "La palanca selectora",
+        "El depósito auxiliar de freno",
+        "La válvula de vaciado",
+        "La llave de aislamiento del distribuidor"
+      ],
+      "correctIndex": 0,
+      "explanation": "La palanca selectora",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.14.1 Palanca selectora (V/M-P/G)"
+      ]
+    },
+    {
+      "id": "ajustador-032",
+      "question": "¿Qué depósito almacena la reserva de aire necesaria para la actuación del distribuidor de freno?",
+      "options": [
+        "El depósito auxiliar de freno",
+        "El depósito de control únicamente",
+        "El depósito de la TFA",
+        "El tanque de combustible"
+      ],
+      "correctIndex": 0,
+      "explanation": "El depósito auxiliar de freno",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.14.4 Depósito auxiliar de freno"
+      ]
+    },
+    {
+      "id": "ajustador-033",
+      "question": "¿Qué instrumento neumático permite conocer visualmente la presión de un circuito, como la TDP o la TFA?",
+      "options": [
+        "El manómetro",
+        "El presostato",
+        "El transductor",
+        "La electroválvula"
+      ],
+      "correctIndex": 0,
+      "explanation": "El manómetro",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.9 MANÓMETROS"
+      ]
+    },
+    {
+      "id": "ajustador-034",
+      "question": "¿Qué elemento neumático convierte una señal de presión en una señal eléctrica, o a la inversa?",
+      "options": [
+        "El transductor / la electroválvula",
+        "El manómetro",
+        "La válvula de retención",
+        "La llave de aislamiento"
+      ],
+      "correctIndex": 0,
+      "explanation": "El transductor / la electroválvula",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.13 TRANSDUCTORES"
+      ]
+    },
+    {
+      "id": "ajustador-035",
+      "question": "¿Qué válvula impide el retroceso del aire, permitiendo el flujo en un único sentido?",
+      "options": [
+        "La válvula de retención",
+        "La válvula de flujo",
+        "El presostato",
+        "El relé de freno"
+      ],
+      "correctIndex": 0,
+      "explanation": "La válvula de retención",
+      "tags": [
+        "FTV Básico Neumática y Freno",
+        "5.6 VÁLVULAS DE RETENCIÓN"
+      ]
+    },
+
+    {
+      "id": "ajustador-036",
+      "question": "¿Cómo se define un bogie según el manual?",
+      "options": [
+        "El conjunto-estructura que soporta un número determinado de ejes (normalmente dos o tres), conectado de manera articulada al bastidor del vehículo",
+        "Un tipo de motor de tracción",
+        "Un sistema de frenado neumático",
+        "Un elemento exclusivo de las locomotoras diésel"
+      ],
+      "correctIndex": 0,
+      "explanation": "El conjunto-estructura que soporta un número determinado de ejes (normalmente dos o tres), conectado de manera articulada al bastidor del vehículo",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "1.1 DEFINICIÓN Y CONCEPTO DE BOGIE"
+      ]
+    },
+    {
+      "id": "ajustador-037",
+      "question": "¿Qué elemento tiene la misión de asegurar la unión entre los ejes y el bastidor, alojando la suspensión primaria?",
+      "options": [
+        "La caja de grasa",
+        "El pantógrafo",
+        "El disco de freno",
+        "El gancho de tracción"
+      ],
+      "correctIndex": 0,
+      "explanation": "La caja de grasa",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.4 CAJA DE GRASA"
+      ]
+    },
+    {
+      "id": "ajustador-038",
+      "question": "¿Qué diferencia principal tiene un vehículo ferroviario respecto a otros vehículos de transporte terrestre, en cuanto al bogie?",
+      "options": [
+        "El sistema de guiado, proporcionado por los carriles",
+        "El número de ruedas",
+        "El tipo de neumáticos",
+        "La ausencia de suspensión"
+      ],
+      "correctIndex": 0,
+      "explanation": "El sistema de guiado, proporcionado por los carriles",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "1.1 DEFINICIÓN Y CONCEPTO DE BOGIE"
+      ]
+    },
+    {
+      "id": "ajustador-039",
+      "question": "Según su función, ¿en qué dos tipos se clasifican los bogies?",
+      "options": [
+        "Bogies motores y bogies portantes",
+        "Bogies de dos y tres ejes",
+        "Bogies rígidos y articulados",
+        "Bogies primarios y secundarios"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogies motores y bogies portantes",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3.1 SEGÚN SU FUNCIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-040",
+      "question": "¿Cómo se denomina el bogie de mercancías citado específicamente en el manual?",
+      "options": [
+        "Bogie tipo Y-21",
+        "Bogie tipo S104",
+        "Bogie tipo MVB",
+        "Bogie tipo WTB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bogie tipo Y-21",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "3.3.4 Bogie de mercancías tipo Y-21"
+      ]
+    },
+    {
+      "id": "ajustador-041",
+      "question": "¿Qué tipos de transmisión indirecta se citan para unir el motor con el eje montado?",
+      "options": [
+        "Por coronas dentadas, elástica con engranajes y por eje Cardan",
+        "Solo por correa dentada",
+        "Únicamente hidrostática",
+        "Solo por cadena"
+      ],
+      "correctIndex": 0,
+      "explanation": "Por coronas dentadas, elástica con engranajes y por eje Cardan",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.5 REDUCTOR/TRANSMISIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-042",
+      "question": "¿Qué diferencia hay entre la suspensión primaria y la secundaria de un bogie?",
+      "options": [
+        "La primaria actúa entre el eje y el bastidor del bogie; la secundaria entre el bastidor del bogie y la caja del vehículo",
+        "Son sinónimos",
+        "La secundaria solo existe en vagones de mercancías",
+        "La primaria es siempre neumática y la secundaria siempre metálica"
+      ],
+      "correctIndex": 0,
+      "explanation": "La primaria actúa entre el eje y el bastidor del bogie; la secundaria entre el bastidor del bogie y la caja del vehículo",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.6 SUSPENSIÓN"
+      ]
+    },
+    {
+      "id": "ajustador-043",
+      "question": "¿Qué sistema permite a un mismo vehículo circular por vías de diferente ancho, cambiando la posición de las ruedas sobre el eje?",
+      "options": [
+        "La rodadura desplazable (sistema de ancho variable)",
+        "El sistema pendular",
+        "El engrase de pestañas",
+        "El sistema antibloqueo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La rodadura desplazable (sistema de ancho variable)",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "4.1 RODADURA DESPLAZABLE"
+      ]
+    },
+    {
+      "id": "ajustador-044",
+      "question": "¿Qué diferencia existe entre un sistema de basculación pasiva y uno de basculación activa?",
+      "options": [
+        "La pasiva se produce por la propia geometría/fuerza centrífuga en curva; la activa se controla mediante actuadores",
+        "Son exactamente iguales",
+        "La activa solo existe en vagones de mercancías",
+        "La pasiva requiere de un motor eléctrico dedicado"
+      ],
+      "correctIndex": 0,
+      "explanation": "La pasiva se produce por la propia geometría/fuerza centrífuga en curva; la activa se controla mediante actuadores",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "4.2 SISTEMAS PENDULARES / BASCULANTES"
+      ]
+    },
+    {
+      "id": "ajustador-045",
+      "question": "¿Qué elemento del sistema de tracción y choque permite acoplar automáticamente dos vehículos con conexión mecánica, neumática y eléctrica?",
+      "options": [
+        "El acoplamiento automático Scharfenberg",
+        "El gancho de tracción tradicional",
+        "Los topes",
+        "La caja de grasa"
+      ],
+      "correctIndex": 0,
+      "explanation": "El acoplamiento automático Scharfenberg",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "5.3.1 Sistema mecánico con acoplamiento neumático y eléctrico. Scharfenberg"
+      ]
+    },
+    {
+      "id": "ajustador-046",
+      "question": "¿Qué elementos amortiguan el impacto de choque entre vehículos en caso de colisión?",
+      "options": [
+        "Los sistemas de absorción de impactos",
+        "Las cajas de grasa",
+        "Los acelerómetros",
+        "Los areneros"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los sistemas de absorción de impactos",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "5.4 SISTEMAS DE ABSORCIÓN DE IMPACTOS"
+      ]
+    },
+    {
+      "id": "ajustador-047",
+      "question": "¿Qué elemento permite el retorno de la corriente eléctrica de tracción a través del eje hasta el carril?",
+      "options": [
+        "El retorno eléctrico en caja de grasa",
+        "El engrase de pestañas",
+        "El quitapiedras",
+        "El acelerómetro"
+      ],
+      "correctIndex": 0,
+      "explanation": "El retorno eléctrico en caja de grasa",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.9.6 Retornos eléctricos en cajas de Grasa"
+      ]
+    },
+    {
+      "id": "ajustador-048",
+      "question": "¿Qué función cumplen los areneros en un bogie?",
+      "options": [
+        "Depositar arena sobre el carril para mejorar la adherencia rueda-carril",
+        "Lubricar la pestaña de la rueda",
+        "Medir la velocidad del eje",
+        "Detectar el descarrilamiento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Depositar arena sobre el carril para mejorar la adherencia rueda-carril",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.9.5 Areneros"
+      ]
+    },
+    {
+      "id": "ajustador-049",
+      "question": "¿Qué dispositivo protege al bogie de la proyección de piedras o restos que pudieran dañar componentes bajos?",
+      "options": [
+        "El quitapiedras (y quitarreses)",
+        "El patín electromagnético",
+        "El disco de freno",
+        "La barra de tracción-compresión"
+      ],
+      "correctIndex": 0,
+      "explanation": "El quitapiedras (y quitarreses)",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.9.7 Quitapiedras y quitarreses"
+      ]
+    },
+    {
+      "id": "ajustador-050",
+      "question": "Además de los discos y cilindros de freno, ¿qué otros elementos de freno forman parte del conjunto del bogie?",
+      "options": [
+        "Zapatas, portazapatas, timonería de freno y patines electromagnéticos",
+        "Solo el freno de estacionamiento",
+        "Únicamente el freno regenerativo",
+        "Solo el freno hidrodinámico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zapatas, portazapatas, timonería de freno y patines electromagnéticos",
+      "tags": [
+        "Bogies, Tracción y Choque",
+        "2.8 ELEMENTOS DE FRENO"
+      ]
+    },
+    {
+      "id": "ajustador-051",
       "question": "En relación con motores térmicos, señala la afirmación correcta.",
       "options": [
         "Funciona sin admisión de aire",
@@ -18,8 +820,8 @@
       ]
     },
     {
-      "id": "aj-002",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
+      "id": "ajustador-052",
+      "question": "Dentro de FTV básico neumática y freno, ¿qué opción es la más adecuada?",
       "options": [
         "Depende solo del circuito eléctrico",
         "No necesita compresor",
@@ -34,7 +836,7 @@
       ]
     },
     {
-      "id": "aj-003",
+      "id": "ajustador-053",
       "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
       "options": [
         "El bogie mejora estabilidad y guiado",
@@ -47,3158 +849,6 @@
       "tags": [
         "Bogies, Tracción y Choque",
         "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-004",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-005",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-006",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-007",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-008",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-009",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-010",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-011",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-012",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-013",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-014",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-015",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-016",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-017",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-018",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-019",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-020",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-021",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-022",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-023",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-024",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-025",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-026",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-027",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-028",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-029",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-030",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-031",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-032",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-033",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-034",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-035",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-036",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-037",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-038",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-039",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-040",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-041",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-042",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-043",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-044",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-045",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-046",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-047",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-048",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-049",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Funciona sin admisión de aire",
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-050",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-051",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-052",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-053",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-054",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-055",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-056",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-057",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-058",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-059",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-060",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-061",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-062",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-063",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-064",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-065",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-066",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-067",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-068",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-069",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-070",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-071",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-072",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-073",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-074",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-075",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-076",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-077",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-078",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-079",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-080",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-081",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-082",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-083",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-084",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-085",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-086",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-087",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Solo existe en mercancías",
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-088",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-089",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-090",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-091",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-092",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-093",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-094",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-095",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-096",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-097",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-098",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-099",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-100",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-101",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-102",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-103",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-104",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-105",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-106",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-107",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-108",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-109",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-110",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-111",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-112",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-113",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-114",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-115",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-116",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-117",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-118",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-119",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-120",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-121",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-122",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "No necesita compresor"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-123",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-124",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-125",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-126",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo existe en mercancías",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-127",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-128",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-129",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-130",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-131",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-132",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-133",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-134",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-135",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-136",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-137",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-138",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-139",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-140",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-141",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor",
-        "No influye en confort"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-142",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-143",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-144",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-145",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-146",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-147",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-148",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-149",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-150",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-151",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-152",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-153",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-154",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-155",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-156",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-157",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-158",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-159",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-160",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-161",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-162",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-163",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-164",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-165",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-166",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere lubricación",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-167",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-168",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-169",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-170",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-171",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-172",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-173",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "No necesita compresor"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-174",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-175",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-176",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-177",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado",
-        "Sustituye al bastidor",
-        "No influye en confort"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-178",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-179",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-180",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-181",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-182",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-183",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-184",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere lubricación",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-185",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "No necesita compresor",
-        "Depende solo del circuito eléctrico",
-        "La presión de freno se controla por circuito neumático",
-        "No se revisa en mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-186",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al bastidor",
-        "No influye en confort",
-        "Solo existe en mercancías",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-187",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 2,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-188",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-189",
-      "question": "En relación con bogies, tracción y choque, señala la afirmación correcta.",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-190",
-      "question": "Dentro de tracción diésel (motores térmicos), ¿qué opción es la más adecuada?",
-      "options": [
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-191",
-      "question": "Respecto al apartado neumática y freno, ¿qué respuesta es válida?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-192",
-      "question": "Atendiendo a bogies, tracción y choque, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 2,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-193",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Solo opera en frío",
-        "No requiere lubricación",
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro"
-      ],
-      "correctIndex": 3,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-194",
-      "question": "Dentro de ftv básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor"
-      ],
-      "correctIndex": 1,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-195",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al bastidor",
-        "Solo existe en mercancías",
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado"
-      ],
-      "correctIndex": 3,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-196",
-      "question": "Atendiendo a motores térmicos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 0,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-197",
-      "question": "En relación con neumática y freno, señala la afirmación correcta.",
-      "options": [
-        "La presión de freno se controla por circuito neumático",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 0,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "aj-198",
-      "question": "Dentro de bogies, tracción y choque, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en confort",
-        "El bogie mejora estabilidad y guiado",
-        "Solo existe en mercancías",
-        "Sustituye al bastidor"
-      ],
-      "correctIndex": 1,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
-      ]
-    },
-    {
-      "id": "aj-199",
-      "question": "Respecto al apartado motores térmicos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo opera en frío",
-        "La compresión y combustión se producen en el cilindro",
-        "Funciona sin admisión de aire",
-        "No requiere lubricación"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "aj-200",
-      "question": "Atendiendo a neumática y freno, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se revisa en mantenimiento",
-        "No necesita compresor",
-        "La presión de freno se controla por circuito neumático",
-        "Depende solo del circuito eléctrico"
-      ],
-      "correctIndex": 2,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
       ]
     }
   ]
