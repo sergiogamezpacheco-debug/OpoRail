@@ -2,8 +2,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
 import { getAuth } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-analytics.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js";
+import { getStorage } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-storage.js";
 
-// Tu configuración de Firebase (la que tú me diste)
 const firebaseConfig = {
   apiKey: "AIzaSyCZNZjQctvsDwQiwYd-89aLcEQiSfd2E6Y",
   authDomain: "oporail.firebaseapp.com",
@@ -14,7 +15,8 @@ const firebaseConfig = {
   measurementId: "G-Y75GHN32PJ"
 };
 
-// Inicializar Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
 export const analytics = getAnalytics(app);

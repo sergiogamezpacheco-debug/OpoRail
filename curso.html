@@ -17,6 +17,43 @@
   <div id="site-footer"></div>
 
   <script src="js/load-header.js"></script>
-  <script src="js/load-data.js"></script>
+  <script type="module">
+    import { auth } from "/js/firebase-config.js";
+    import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+
+    async function syncAdminStatus(user) {
+      const email = String(user?.email || "").toLowerCase().trim();
+
+      if (!email) {
+        localStorage.setItem("oporail_is_admin", "false");
+      } else {
+        try {
+          const response = await fetch("/data/admins.json", { cache: "no-store" });
+          if (!response.ok) throw new Error("No se pudo cargar admins.json");
+
+          const data = await response.json();
+          const admins = Array.isArray(data?.emails) ? data.emails : [];
+          const isAdmin = admins
+            .map((item) => String(item || "").toLowerCase().trim())
+            .includes(email);
+
+          localStorage.setItem("oporail_is_admin", isAdmin ? "true" : "false");
+        } catch (error) {
+          console.error("No se pudo comprobar el estado de administrador:", error);
+        }
+      }
+
+      const script = document.createElement("script");
+      script.src = "js/load-data.js";
+      script.onload = () => {
+        const architectureScript = document.createElement("script");
+        architectureScript.src = "js/temario-structure.js";
+        document.body.appendChild(architectureScript);
+      };
+      document.body.appendChild(script);
+    }
+
+    onAuthStateChanged(auth, syncAdminStatus);
+  </script>
 </body>
 </html>
