@@ -1,4 +1,6 @@
-[
+{
+  "name": "Pintura",
+  "questions": [
   {
     "id": "pintura-001",
     "question": "¿Qué elemento de la pintura da lugar a la formación de la película, cubriendo la superficie y aglutinando los pigmentos?",
@@ -514,4 +516,7 @@
     "explanation": "El Apéndice 7",
     "tags": ["Guía Técnica de Prevención de Agentes Químicos", "III. Apéndices (Apéndice 7)"]
   }
-]
+
+  ]
+}
+  

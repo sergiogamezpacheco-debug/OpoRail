@@ -1,4 +1,6 @@
-[
+{
+  "name": "Máquinas - Herramientas",
+  "questions": [
   {
     "id": "maquinas-001",
     "question": "¿Qué elemento de un bogie aloja los rodamientos que permiten la rotación del eje montado?",
@@ -475,3 +477,4 @@
     "tags": ["Torno de Foso", "6.8 ATENCIÓN ESPECIAL"]
   }
 ]
+}

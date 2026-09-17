@@ -1,4 +1,6 @@
-[
+{
+  "name": "Calderería/Chapa/Soldadura",
+  "questions": [
   {
     "id": "calderia-001",
     "question": "¿Qué tipo de conexión entre bogie y caja permite el desplazamiento lateral relativo mediante un elemento pendular?",
@@ -495,3 +497,4 @@
     "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
   }
 ]
+}
