@@ -1,4 +1,6 @@
-[
+{
+  "name": "Electricidad-Electrónica",
+  "questions": [
   {
     "id": "electricidad-001",
     "question": "¿Cuál es el cometido principal de los motores y generadores de corriente continua como máquinas eléctricas rotativas?",
@@ -519,4 +521,7 @@
     "explanation": "El dispositivo de puesta a tierra del seccionador",
     "tags": ["Alta Tensión", "1.1.3 SECCIONADORES Y PUESTA A TIERRA"]
   }
-]
+      
+    
+  ]
+}
