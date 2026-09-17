@@ -1,3205 +1,497 @@
-{
-  "name": "Calderería/Chapa/Soldadura",
-  "questions": [
-    {
-      "id": "so-001",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-002",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-003",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-004",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-005",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-006",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-007",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-008",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-009",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-010",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-011",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-012",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-013",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-014",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-015",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-016",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-017",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-018",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-019",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-020",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-021",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-022",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-023",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-024",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-025",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-026",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-027",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-028",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-029",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-030",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-031",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-032",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-033",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "No se documentan"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-034",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-035",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-036",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-037",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-038",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-039",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-040",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-041",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-042",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-043",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-044",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-045",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-046",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-047",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-048",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-049",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-050",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-051",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-052",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-053",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-054",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-055",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-056",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-057",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-058",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-059",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-060",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-061",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-062",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-063",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-064",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-065",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-066",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-067",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-068",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-069",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-070",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-071",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-072",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-073",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-074",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-075",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-076",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-077",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-078",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-079",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-080",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-081",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-082",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-083",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-084",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-085",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-086",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-087",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-088",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-089",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-090",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-091",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-092",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-093",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "No se documentan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-094",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-095",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-096",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "No se documentan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-097",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-098",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-099",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-100",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-101",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-102",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-103",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-104",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-105",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-106",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-107",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-108",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-109",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-110",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-111",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-112",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-113",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-114",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-115",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-116",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-117",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-118",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-119",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-120",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-121",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-122",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-123",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-124",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-125",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-126",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-127",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-128",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-129",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-130",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-131",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-132",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-133",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-134",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-135",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-136",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-137",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-138",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-139",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-140",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-141",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "No se documentan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-142",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-143",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-144",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-145",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-146",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-147",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-148",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-149",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-150",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-151",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-152",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-153",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-154",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-155",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-156",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "No se documentan"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-157",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-158",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-159",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-160",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-161",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-162",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-163",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa el pintado",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-164",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-165",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-166",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-167",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-168",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se documentan",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-169",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Se corrige sin rehacer",
-        "No afecta la penetración",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-170",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo aplica en aluminio",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-171",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-172",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se corrige sin rehacer",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-173",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-174",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-175",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-176",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-177",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-178",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 2,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-179",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-180",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Solo cuenta el acabado visual",
-        "No se documentan"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-181",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "Se corrige sin rehacer",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-182",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio",
-        "Aumenta porosidad",
-        "No cambia resultado"
-      ],
-      "correctIndex": 0,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-183",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 1,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-184",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-185",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Aumenta porosidad",
-        "La limpieza previa evita defectos de soldadura",
-        "No cambia resultado",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 1,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-186",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-187",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "Solo importa el pintado",
-        "No afecta la penetración"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-188",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-189",
-      "question": "En relación con inspección, señala la afirmación correcta.",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas"
-      ],
-      "correctIndex": 2,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-190",
-      "question": "Dentro de soldadura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 0,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-191",
-      "question": "Respecto al apartado preparación de juntas, ¿qué respuesta es válida?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-192",
-      "question": "Atendiendo a inspección, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se documentan",
-        "Solo cuenta el acabado visual",
-        "Se ignoran si son pequeñas",
-        "Las discontinuidades deben registrarse y evaluarse"
-      ],
-      "correctIndex": 3,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-193",
-      "question": "En relación con procesos de soldadura, señala la afirmación correcta.",
-      "options": [
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Solo importa el pintado"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-194",
-      "question": "Dentro de calderería, ¿qué opción es la más adecuada?",
-      "options": [
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "La limpieza previa evita defectos de soldadura",
-        "Solo aplica en aluminio"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-195",
-      "question": "Respecto al apartado inspección, ¿qué respuesta es válida?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual",
-        "No se documentan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-196",
-      "question": "Atendiendo a procesos de soldadura, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta la penetración",
-        "Solo importa el pintado",
-        "Se corrige sin rehacer",
-        "La preparación de junta condiciona la calidad final"
-      ],
-      "correctIndex": 3,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-197",
-      "question": "En relación con preparación de juntas, señala la afirmación correcta.",
-      "options": [
-        "Aumenta porosidad",
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura"
-      ],
-      "correctIndex": 3,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    },
-    {
-      "id": "so-198",
-      "question": "Dentro de control de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Las discontinuidades deben registrarse y evaluarse",
-        "No se documentan",
-        "Se ignoran si son pequeñas",
-        "Solo cuenta el acabado visual"
-      ],
-      "correctIndex": 0,
-      "explanation": "Las discontinuidades deben registrarse y evaluarse",
-      "tags": [
-        "Control de calidad",
-        "INSPECCIÓN"
-      ]
-    },
-    {
-      "id": "so-199",
-      "question": "Respecto al apartado procesos de soldadura, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa el pintado",
-        "La preparación de junta condiciona la calidad final",
-        "No afecta la penetración",
-        "Se corrige sin rehacer"
-      ],
-      "correctIndex": 1,
-      "explanation": "La preparación de junta condiciona la calidad final",
-      "tags": [
-        "Soldadura ferroviaria",
-        "PROCESOS DE SOLDADURA"
-      ]
-    },
-    {
-      "id": "so-200",
-      "question": "Atendiendo a preparación de juntas, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No cambia resultado",
-        "Solo aplica en aluminio",
-        "La limpieza previa evita defectos de soldadura",
-        "Aumenta porosidad"
-      ],
-      "correctIndex": 2,
-      "explanation": "La limpieza previa evita defectos de soldadura",
-      "tags": [
-        "Calderería",
-        "PREPARACIÓN DE JUNTAS"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "calderia-001",
+    "question": "¿Qué tipo de conexión entre bogie y caja permite el desplazamiento lateral relativo mediante un elemento pendular?",
+    "options": ["La unión de péndulo", "El pivote central", "La placa central plana", "El bowl esférico central"],
+    "correctIndex": 0,
+    "explanation": "La unión de péndulo",
+    "tags": ["Bogies, tracción y choque", "2.7.5 Unión de péndulo"]
+  },
+  {
+    "id": "calderia-002",
+    "question": "¿Qué tipo de apoyo entre caja y bogie se realiza mediante una superficie curva que facilita el pivotamiento?",
+    "options": ["El bowl esférico central", "La conexión sin cabezal", "Las barras de guiado", "El gancho de tracción"],
+    "correctIndex": 0,
+    "explanation": "El bowl esférico central",
+    "tags": ["Bogies, tracción y choque", "2.7.2 Bowl esférico central"]
+  },
+  {
+    "id": "calderia-003",
+    "question": "¿Qué componentes forman parte del eje montado de un bogie, según el manual?",
+    "options": ["La rueda y el eje", "Solo el eje", "Solo la rueda", "El motor y el reductor únicamente"],
+    "correctIndex": 0,
+    "explanation": "La rueda y el eje",
+    "tags": ["Bogies, tracción y choque", "2.3 EJE MONTADO"]
+  },
+  {
+    "id": "calderia-004",
+    "question": "¿Qué se indica en el manual respecto a los bastidores de bogie?",
+    "options": [
+      "Existen diferentes tipos de bastidores según diseño y disposición",
+      "Solo existen bastidores de madera",
+      "Solo existen bastidores articulados en el centro",
+      "No existen distintos tipos de bastidor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Existen diferentes tipos de bastidores según diseño y disposición",
+    "tags": ["Bogies, tracción y choque", "2.2 TIPOS DE BASTIDORES"]
+  },
+  {
+    "id": "calderia-005",
+    "question": "¿Qué patín se utiliza como sistema de frenado adicional que actúa directamente sobre el carril, sin contacto con la rueda?",
+    "options": ["El patín electromagnético de freno", "El disco de freno", "La zapata", "El portazapatas"],
+    "correctIndex": 0,
+    "explanation": "El patín electromagnético de freno",
+    "tags": ["Bogies, tracción y choque", "2.8.5 Patines electromagnéticos de freno"]
+  },
+  {
+    "id": "calderia-006",
+    "question": "¿Qué componente conecta el esfuerzo de tracción con el bastidor del bogie o vehículo?",
+    "options": ["El conjunto de tracción (gancho de tracción)", "El quitarreses", "El captador", "El engrasador de pestaña"],
+    "correctIndex": 0,
+    "explanation": "El conjunto de tracción (gancho de tracción)",
+    "tags": ["Bogies, tracción y choque", "5.1 CONJUNTO DE TRACCIÓN"]
+  },
+  {
+    "id": "calderia-007",
+    "question": "¿Qué elementos absorben el impacto en caso de choque frontal entre vehículos?",
+    "options": ["Los topes y los sistemas de absorción de impactos", "La caja de grasa", "El acelerómetro", "El engrasador de pestaña"],
+    "correctIndex": 0,
+    "explanation": "Los topes y los sistemas de absorción de impactos",
+    "tags": ["Bogies, tracción y choque", "5.2 CONJUNTO DE CHOQUE / 5.4 SISTEMAS DE ABSORCIÓN DE IMPACTOS"]
+  },
+  {
+    "id": "calderia-008",
+    "question": "¿Qué enganche se emplea habitualmente para labores de socorro y maniobras cuando el vehículo no dispone de acoplamiento automático operativo?",
+    "options": [
+      "El sistema de enganche auxiliar para socorros y maniobras",
+      "El acoplamiento Scharfenberg exclusivamente",
+      "La caja de grasa",
+      "El patín electromagnético"
+    ],
+    "correctIndex": 0,
+    "explanation": "El sistema de enganche auxiliar para socorros y maniobras",
+    "tags": ["Bogies, tracción y choque", "5.3.4 Sistema de enganche auxiliar para socorros y maniobras"]
+  },
+  {
+    "id": "calderia-009",
+    "question": "Además de la odometría y los acelerómetros, ¿qué otros 'otros elementos' del bogie se citan en el manual?",
+    "options": ["Sondas de temperatura, engrase de pestañas y areneros, entre otros", "Solo el pantógrafo", "Solo el disyuntor", "Ninguno más"],
+    "correctIndex": 0,
+    "explanation": "Sondas de temperatura, engrase de pestañas y areneros, entre otros",
+    "tags": ["Bogies, tracción y choque", "2.9 OTROS ELEMENTOS"]
+  },
+  {
+    "id": "calderia-010",
+    "question": "¿Qué mide la odometría en un bogie?",
+    "options": ["La distancia recorrida y/o la velocidad del vehículo", "La temperatura del motor", "La presión del circuito de freno", "El peso de la carga"],
+    "correctIndex": 0,
+    "explanation": "La distancia recorrida y/o la velocidad del vehículo",
+    "tags": ["Bogies, tracción y choque", "2.9.1 Odometría"]
+  },
+  {
+    "id": "calderia-011",
+    "question": "¿Desde qué año se desarrolla la técnica del oxicorte, según el manual?",
+    "options": ["1903", "1950", "1800", "1990"],
+    "correctIndex": 0,
+    "explanation": "1903",
+    "tags": ["Oxicorte", "1. HISTORIA DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-012",
+    "question": "¿En qué consiste básicamente el proceso de oxicorte?",
+    "options": [
+      "Combina calor y oxígeno: primero se calienta la pieza y después se corta con una corriente de oxígeno",
+      "Solo utiliza electricidad para fundir el metal",
+      "Es un proceso exclusivamente mecánico de arranque de viruta",
+      "Utiliza únicamente láser"
+    ],
+    "correctIndex": 0,
+    "explanation": "Combina calor y oxígeno: primero se calienta la pieza y después se corta con una corriente de oxígeno",
+    "tags": ["Oxicorte", "2. INTRODUCCIÓN AL OXICORTE"]
+  },
+  {
+    "id": "calderia-013",
+    "question": "¿Para qué materiales tiene mejor aplicación el oxicorte, según el manual?",
+    "options": ["Aceros al carbono y aceros de baja aleación", "Aluminio y sus aleaciones", "Materiales plásticos", "Vidrio"],
+    "correctIndex": 0,
+    "explanation": "Aceros al carbono y aceros de baja aleación",
+    "tags": ["Oxicorte", "1. HISTORIA DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-014",
+    "question": "¿Cuántas etapas tiene el proceso de oxicorte?",
+    "options": [
+      "Dos: calentamiento a alta temperatura y corte con corriente de oxígeno",
+      "Una única etapa",
+      "Tres etapas",
+      "Cuatro etapas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dos: calentamiento a alta temperatura y corte con corriente de oxígeno",
+    "tags": ["Oxicorte", "2.2 ETAPAS DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-015",
+    "question": "¿A qué temperatura aproximada se calienta el acero en la primera etapa del oxicorte?",
+    "options": ["900 °C", "200 °C", "3.000 °C", "100 °C"],
+    "correctIndex": 0,
+    "explanation": "900 °C",
+    "tags": ["Oxicorte", "2.2 ETAPAS DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-016",
+    "question": "¿Qué gas se emplea siempre como comburente en el proceso de oxicorte?",
+    "options": ["El oxígeno", "El nitrógeno", "El dióxido de carbono", "El hidrógeno"],
+    "correctIndex": 0,
+    "explanation": "El oxígeno",
+    "tags": ["Oxicorte", "2.2 ETAPAS DEL OXICORTE / 7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-017",
+    "question": "¿Qué gas combustible se prefiere habitualmente en el oxicorte por su elevado aporte calorífico?",
+    "options": ["El acetileno", "El propano", "El hidrógeno", "El gas natural"],
+    "correctIndex": 0,
+    "explanation": "El acetileno",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-018",
+    "question": "¿En qué está disuelto el acetileno para poder transportarlo de forma segura hasta 300 psi?",
+    "options": ["En acetona", "En agua", "En aceite mineral", "En glicerina"],
+    "correctIndex": 0,
+    "explanation": "En acetona",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-019",
+    "question": "¿A partir de qué presión aproximada se vuelve inestable el acetileno?",
+    "options": ["15 psi", "300 psi", "1 psi", "1.000 psi"],
+    "correctIndex": 0,
+    "explanation": "15 psi",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-020",
+    "question": "¿Qué color debe tener siempre la llama del propano (y de los demás gases combustibles) para indicar una combustión correcta?",
+    "options": ["Completamente azul", "Amarilla", "Roja", "Blanca"],
+    "correctIndex": 0,
+    "explanation": "Completamente azul",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-021",
+    "question": "¿Qué indica que la llama de un gas combustible presente partes amarillentas, anaranjadas o rojizas?",
+    "options": ["Una mala combustión", "Una combustión perfecta", "Que el gas es acetileno", "Que la presión es demasiado baja"],
+    "correctIndex": 0,
+    "explanation": "Una mala combustión",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-022",
+    "question": "¿Cuántos tipos de llama se pueden obtener en los sopletes de soldadura autógena?",
+    "options": ["Tres: carburante, neutra y oxidante", "Dos", "Cuatro", "Solo una, la neutra"],
+    "correctIndex": 0,
+    "explanation": "Tres: carburante, neutra y oxidante",
+    "tags": ["Oxicorte", "8. TIPOS DE LLAMA EN EL OXICORTE"]
+  },
+  {
+    "id": "calderia-023",
+    "question": "¿Qué tipo de llama posee mayor cantidad de gas combustible y se utiliza para el corte de chapas de espesores delgados?",
+    "options": ["La llama carburante", "La llama neutra", "La llama oxidante", "Ninguna, se usa siempre la neutra"],
+    "correctIndex": 0,
+    "explanation": "La llama carburante",
+    "tags": ["Oxicorte", "8. TIPOS DE LLAMA EN EL OXICORTE"]
+  },
+  {
+    "id": "calderia-024",
+    "question": "¿Qué tipo de llama se caracteriza por una proporción balanceada de gas combustible y oxígeno, y se usa para la mayoría de aplicaciones?",
+    "options": ["La llama neutra", "La llama carburante", "La llama oxidante", "La llama de precalentamiento"],
+    "correctIndex": 0,
+    "explanation": "La llama neutra",
+    "tags": ["Oxicorte", "8. TIPOS DE LLAMA EN EL OXICORTE"]
+  },
+  {
+    "id": "calderia-025",
+    "question": "¿Para qué se utiliza principalmente la llama oxidante, con mayor cantidad de oxígeno?",
+    "options": [
+      "Para precalentado forzado, corte en chaflán (biselado) y cortes de alta velocidad y baja calidad",
+      "Para el corte de precisión de chapas finas",
+      "Para soldadura de aluminio",
+      "No tiene ninguna aplicación práctica"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para precalentado forzado, corte en chaflán (biselado) y cortes de alta velocidad y baja calidad",
+    "tags": ["Oxicorte", "8. TIPOS DE LLAMA EN EL OXICORTE"]
+  },
+  {
+    "id": "calderia-026",
+    "question": "¿De qué depende principalmente la elección del tamaño de la boquilla de corte y las presiones de trabajo del soplete?",
+    "options": ["Del espesor del material a cortar", "Del color de la pieza", "Del peso del operario", "De la hora del día"],
+    "correctIndex": 0,
+    "explanation": "Del espesor del material a cortar",
+    "tags": ["Oxicorte", "8.1 PRESIONES DE CORTE"]
+  },
+  {
+    "id": "calderia-027",
+    "question": "¿Qué ocurre si se pasa el soplete demasiado rápido durante el corte manual?",
+    "options": [
+      "El material no termina de cortarse totalmente",
+      "El acabado queda demasiado burdo",
+      "Se produce una llama oxidante",
+      "Se ahorra gas combustible sin ningún inconveniente"
+    ],
+    "correctIndex": 0,
+    "explanation": "El material no termina de cortarse totalmente",
+    "tags": ["Oxicorte", "8.2 VELOCIDAD DE CORTE"]
+  },
+  {
+    "id": "calderia-028",
+    "question": "¿Qué ocurre si se pasa el soplete demasiado lento durante el corte manual?",
+    "options": [
+      "El acabado de la pared de corte resulta muy burdo",
+      "El material no llega a cortarse",
+      "Se ahorra oxígeno sin ningún problema",
+      "Mejora siempre la calidad del corte"
+    ],
+    "correctIndex": 0,
+    "explanation": "El acabado de la pared de corte resulta muy burdo",
+    "tags": ["Oxicorte", "8.2 VELOCIDAD DE CORTE"]
+  },
+  {
+    "id": "calderia-029",
+    "question": "¿Qué elemento del equipo de oxicorte realiza la mezcla de gases (combustible y comburente)?",
+    "options": ["El soplete", "La manorreductora", "La botella", "La manguera"],
+    "correctIndex": 0,
+    "explanation": "El soplete",
+    "tags": ["Oxicorte", "3.1 SOPLETE Y SOPLETA PARA CORTE"]
+  },
+  {
+    "id": "calderia-030",
+    "question": "¿Qué función cumplen las manorreductoras en el equipo de oxicorte?",
+    "options": ["Reducir y regular la presión del gas que sale de la bombona", "Cortar el material", "Encender la llama", "Almacenar el gas"],
+    "correctIndex": 0,
+    "explanation": "Reducir y regular la presión del gas que sale de la bombona",
+    "tags": ["Oxicorte", "3.4 MANORREDUCTORAS"]
+  },
+  {
+    "id": "calderia-031",
+    "question": "¿Qué función cumplen las válvulas antirretroceso en un equipo de oxicorte?",
+    "options": [
+      "Impedir que la llama o el gas retrocedan hacia la bombona, dejando fluir el gas en un solo sentido",
+      "Aumentar la presión del gas",
+      "Mezclar los gases",
+      "Regular la temperatura de la llama"
+    ],
+    "correctIndex": 0,
+    "explanation": "Impedir que la llama o el gas retrocedan hacia la bombona, dejando fluir el gas en un solo sentido",
+    "tags": ["Oxicorte", "3.5 VALVULAS ANTIRRETROCESO"]
+  },
+  {
+    "id": "calderia-032",
+    "question": "¿Qué gas es más conveniente que el propano a la hora de soldar o hacer brazing, según el manual?",
+    "options": ["El acetileno", "El hidrógeno", "El gas natural", "El butano"],
+    "correctIndex": 0,
+    "explanation": "El acetileno",
+    "tags": ["Oxicorte", "7. GASES UTILIZADOS"]
+  },
+  {
+    "id": "calderia-033",
+    "question": "¿Qué tres papeles distintos juega el soplete de corte, según el manual?",
+    "options": [
+      "Llevar el hierro a temperatura de ignición, aportar una atmósfera envolvente rica en oxígeno y generar el agente iniciador",
+      "Solo cortar el material",
+      "Solo calentar el material",
+      "Solo mezclar gases"
+    ],
+    "correctIndex": 0,
+    "explanation": "Llevar el hierro a temperatura de ignición, aportar una atmósfera envolvente rica en oxígeno y generar el agente iniciador",
+    "tags": ["Oxicorte", "3.1 SOPLETE Y SOPLETA PARA CORTE"]
+  },
+  {
+    "id": "calderia-034",
+    "question": "¿Qué normativa regula el almacenaje y transporte de los cilindros de gases comprimidos a alta presión del equipo de oxicorte?",
+    "options": [
+      "La Norma del Instituto Nacional de Seguridad e Higiene en el Trabajo",
+      "El Código de Circulación",
+      "La norma ISO 9001",
+      "El Reglamento de Circulación Ferroviaria"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Norma del Instituto Nacional de Seguridad e Higiene en el Trabajo",
+    "tags": ["Oxicorte", "2.1 CARACTERÍSTICAS DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-035",
+    "question": "¿Cuáles son los dos tipos de equipos de oxicorte según su modo de operación?",
+    "options": ["Manual y automático", "Neumático e hidráulico", "Eléctrico y de gas", "De alta y baja presión"],
+    "correctIndex": 0,
+    "explanation": "Manual y automático",
+    "tags": ["Oxicorte", "2.1 CARACTERÍSTICAS DEL OXICORTE"]
+  },
+  {
+    "id": "calderia-036",
+    "question": "¿Qué provoca principalmente el aumento de velocidad y carga por eje en los vehículos ferroviarios modernos, respecto al contacto rueda-carril?",
+    "options": ["Tensiones elevadas en el contacto rueda-carril", "Una disminución de las tensiones", "Ningún efecto relevante", "Solo afecta al desgaste de los frenos"],
+    "correctIndex": 0,
+    "explanation": "Tensiones elevadas en el contacto rueda-carril",
+    "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "calderia-037",
+    "question": "¿Qué tres factores generales reducen significativamente la vida útil de las ruedas, según el manual?",
+    "options": ["Los daños por fatiga, la deformación plástica y el desgaste", "Solo la corrosión", "Solo la temperatura ambiente", "Solo el color de la pintura"],
+    "correctIndex": 0,
+    "explanation": "Los daños por fatiga, la deformación plástica y el desgaste",
+    "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "calderia-038",
+    "question": "¿Qué contempla el apartado de esfuerzos que se exigen a las ruedas, al inicio del manual?",
+    "options": [
+      "Los esfuerzos mecánicos derivados de la carga, la velocidad y el frenado, entre otros",
+      "Solo esfuerzos térmicos",
+      "Solo esfuerzos de torsión pura",
+      "Ninguno relevante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Los esfuerzos mecánicos derivados de la carga, la velocidad y el frenado, entre otros",
+    "tags": ["Defectos en ruedas", "1.1 ESFUERZOS QUE SE EXIGEN A LAS RUEDAS"]
+  },
+  {
+    "id": "calderia-039",
+    "question": "¿Qué son las fisuras en el contexto de los defectos en ruedas?",
+    "options": [
+      "Grietas o roturas parciales del material que pueden propagarse con el uso",
+      "Manchas superficiales sin relevancia",
+      "Cambios de color de la rueda",
+      "Vibraciones anómalas del eje"
+    ],
+    "correctIndex": 0,
+    "explanation": "Grietas o roturas parciales del material que pueden propagarse con el uso",
+    "tags": ["Defectos en ruedas", "1.2 FISURAS"]
+  },
+  {
+    "id": "calderia-040",
+    "question": "¿Qué tipo de fatiga se produce directamente en la superficie de rodadura de la rueda, siendo más fácilmente visible que la subsuperficial?",
+    "options": ["La fatiga superficial", "La fatiga subsuperficial", "La fatiga por inclusiones profundas", "Ninguna de las anteriores"],
+    "correctIndex": 0,
+    "explanation": "La fatiga superficial",
+    "tags": ["Defectos en ruedas", "1.3.1 Fatiga Superficial"]
+  },
+  {
+    "id": "calderia-041",
+    "question": "¿Puede cambiar la localización de las zonas de fatiga por contacto en la rueda según la trayectoria del vehículo?",
+    "options": [
+      "Sí, depende de si el vehículo circula en curva o en recta",
+      "No, es siempre la misma zona independientemente de la trayectoria",
+      "Solo ocurre al frenar",
+      "Solo ocurre en vía recta"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sí, depende de si el vehículo circula en curva o en recta",
+    "tags": ["Defectos en ruedas", "1.1.1/1.1.2 Zonas de fatiga"]
+  },
+  {
+    "id": "calderia-042",
+    "question": "Además de las fisuras, ¿qué tipo de anomalías se clasifican dentro de los defectos de rodadura?",
+    "options": ["Anomalías de servicio (por ejemplo, planos o excoriaciones)", "Solo defectos de fabricación", "Solo defectos de pintura", "Ninguna"],
+    "correctIndex": 0,
+    "explanation": "Anomalías de servicio (por ejemplo, planos o excoriaciones)",
+    "tags": ["Defectos en ruedas", "1.4.2 Clasificación de defectos en ruedas (Rodadura-Anomalías de servicio)"]
+  },
+  {
+    "id": "calderia-043",
+    "question": "¿Qué causas generales de daños en ruedas se identifican en el manual?",
+    "options": [
+      "Varias causas relacionadas con la fatiga, la deformación plástica y el desgaste por las condiciones de servicio",
+      "Únicamente errores de fabricación",
+      "Únicamente el clima",
+      "Ninguna causa identificable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Varias causas relacionadas con la fatiga, la deformación plástica y el desgaste por las condiciones de servicio",
+    "tags": ["Defectos en ruedas", "1.3 CAUSAS DE LOS DAÑOS EN RUEDAS"]
+  },
+  {
+    "id": "calderia-044",
+    "question": "¿Qué tipo de defecto puede producirse por desprendimiento de material motivado por el desgaste de la rodadura o del propio carril?",
+    "options": ["El desprendimiento de material en el borde de la pestaña", "El ampollamiento", "El descolgamiento", "La eflorescencia"],
+    "correctIndex": 0,
+    "explanation": "El desprendimiento de material en el borde de la pestaña",
+    "tags": ["Defectos en ruedas", "1.4.1 Clasificación de defectos en ruedas (Pestañas)"]
+  },
+  {
+    "id": "calderia-045",
+    "question": "¿Qué defecto se produce en tranvías y vehículos ligeros que circulan con el extremo de la pestaña en el interior de raíles acanalados o en cruces y desvíos?",
+    "options": ["El defecto geométrico por deformación o vuelco de la pestaña", "La fatiga subsuperficial", "El descarrilamiento directo", "Ninguno, no existe ese defecto"],
+    "correctIndex": 0,
+    "explanation": "El defecto geométrico por deformación o vuelco de la pestaña",
+    "tags": ["Defectos en ruedas", "1.4.1 Clasificación de defectos en ruedas (Pestañas)"]
+  },
+  {
+    "id": "calderia-046",
+    "question": "¿Qué tipo de defectos se clasifican como 'Alteraciones Volumétricas del Material' en la rodadura?",
+    "options": [
+      "Cambios de volumen o forma del material de la banda de rodadura (por ejemplo, abultamientos)",
+      "Solo cambios de color",
+      "Solo vibraciones del eje",
+      "Solo defectos de pestaña"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cambios de volumen o forma del material de la banda de rodadura (por ejemplo, abultamientos)",
+    "tags": ["Defectos en ruedas", "1.4.4 Clasificación de defectos en ruedas (Rodadura- Alteraciones Volumétricas del Material)"]
+  },
+  {
+    "id": "calderia-047",
+    "question": "¿Qué tipo de defectos se clasifican como 'Alteraciones Geométricas del Perfil' en la rodadura?",
+    "options": [
+      "Cambios en la forma o el perfil teórico de la banda de rodadura",
+      "Solo manchas de óxido",
+      "Solo defectos internos no visibles",
+      "Ninguno"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cambios en la forma o el perfil teórico de la banda de rodadura",
+    "tags": ["Defectos en ruedas", "1.4.5 Clasificación de defectos en ruedas (Rodadura-Alteraciones Geométricas del Perfil)"]
+  },
+  {
+    "id": "calderia-048",
+    "question": "¿Por qué es importante detectar a tiempo la fatiga en las ruedas frente al desgaste tradicional?",
+    "options": [
+      "Porque la fatiga causa fracturas de forma más súbita, a diferencia del lento y progresivo deterioro por desgaste",
+      "Porque la fatiga es siempre visible a simple vista de inmediato",
+      "Porque el desgaste es más peligroso que la fatiga",
+      "No hay diferencia práctica entre ambos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Porque la fatiga causa fracturas de forma más súbita, a diferencia del lento y progresivo deterioro por desgaste",
+    "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "calderia-049",
+    "question": "¿Qué relación existe entre la mejora en los procesos de fabricación de ruedas y el cambio del principal tipo de daño observado?",
+    "options": [
+      "La mejora en fabricación ha reducido el desgaste, pero ha incrementado la relevancia de la fatiga como daño principal",
+      "Ningún cambio, el desgaste sigue siendo el problema principal",
+      "Solo ha cambiado el color de las ruedas",
+      "Solo afecta a las ruedas de mercancías"
+    ],
+    "correctIndex": 0,
+    "explanation": "La mejora en fabricación ha reducido el desgaste, pero ha incrementado la relevancia de la fatiga como daño principal",
+    "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "calderia-050",
+    "question": "Además del riesgo de descarrilamiento, ¿qué otras consecuencias pueden tener los fallos por fatiga en ruedas, según el manual?",
+    "options": [
+      "Pueden causar daños en raíles y en las suspensiones de los trenes",
+      "Ninguna consecuencia adicional",
+      "Solo afectan a la pintura de la rueda",
+      "Solo afectan al confort de los pasajeros"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pueden causar daños en raíles y en las suspensiones de los trenes",
+    "tags": ["Defectos en ruedas", "1. DEFECTOS EN RUEDAS"]
+  }
+]

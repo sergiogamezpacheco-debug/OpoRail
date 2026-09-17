@@ -1,3205 +1,522 @@
-{
-  "name": "Electricidad-Electrónica",
-  "questions": [
-    {
-      "id": "el-001",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-002",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-003",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-004",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-005",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-006",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-007",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-008",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-009",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-010",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-011",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-012",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-013",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-014",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-015",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-016",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-017",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-018",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-019",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-020",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-021",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-022",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-023",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-024",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-025",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-026",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-027",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-028",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-029",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-030",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-031",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-032",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-033",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-034",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-035",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-036",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-037",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-038",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-039",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-040",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-041",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-042",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-043",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-044",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-045",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-046",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-047",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-048",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-049",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-050",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-051",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-052",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-053",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-054",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-055",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-056",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-057",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-058",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-059",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-060",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-061",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-062",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-063",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-064",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-065",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-066",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-067",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-068",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-069",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-070",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-071",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-072",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-073",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-074",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-075",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-076",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-077",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-078",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-079",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-080",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-081",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-082",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-083",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-084",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-085",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-086",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-087",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-088",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-089",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-090",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-091",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-092",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-093",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-094",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-095",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-096",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-097",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-098",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-099",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-100",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-101",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-102",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-103",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-104",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-105",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-106",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-107",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-108",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-109",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-110",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-111",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-112",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-113",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-114",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-115",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-116",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-117",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-118",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-119",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-120",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-121",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-122",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-123",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-124",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-125",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-126",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-127",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-128",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-129",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-130",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-131",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-132",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-133",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-134",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-135",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-136",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-137",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-138",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-139",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-140",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-141",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-142",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-143",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-144",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-145",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-146",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-147",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-148",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-149",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-150",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-151",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-152",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-153",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-154",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-155",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-156",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-157",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-158",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-159",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-160",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-161",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-162",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-163",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-164",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-165",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-166",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-167",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-168",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-169",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-170",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-171",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-172",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-173",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "El convertidor adapta energía para la tracción",
-        "No requiere mantenimiento",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 0,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-174",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-175",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-176",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-177",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-178",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-179",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-180",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en talleres",
-        "Solo se hace en averías graves",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-181",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color",
-        "La intensidad depende de tensión y resistencia"
-      ],
-      "correctIndex": 3,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-182",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo ilumina cabina",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-183",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-184",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-185",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Reemplaza el freno neumático",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-186",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria"
-      ],
-      "correctIndex": 3,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-187",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La tensión se mide en vatios",
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 1,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-188",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-189",
-      "question": "En relación con protecciones, señala la afirmación correcta.",
-      "options": [
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 0,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-190",
-      "question": "Dentro de electricidad ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-191",
-      "question": "Respecto al apartado convertidores y motores, ¿qué respuesta es válida?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción",
-        "Solo ilumina cabina"
-      ],
-      "correctIndex": 2,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-192",
-      "question": "Atendiendo a protecciones, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se hace en averías graves",
-        "No aplica en talleres",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Sustituye al LOTO"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-193",
-      "question": "En relación con ley de ohm, señala la afirmación correcta.",
-      "options": [
-        "La resistencia depende del color",
-        "La intensidad no se mide",
-        "La intensidad depende de tensión y resistencia",
-        "La tensión se mide en vatios"
-      ],
-      "correctIndex": 2,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-194",
-      "question": "Dentro de tracción eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento",
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-195",
-      "question": "Respecto al apartado protecciones, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en talleres",
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 2,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-196",
-      "question": "Atendiendo a ley de ohm, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La resistencia depende del color",
-        "La tensión se mide en vatios",
-        "La intensidad no se mide"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-197",
-      "question": "En relación con convertidores y motores, señala la afirmación correcta.",
-      "options": [
-        "Solo ilumina cabina",
-        "El convertidor adapta energía para la tracción",
-        "Reemplaza el freno neumático",
-        "No requiere mantenimiento"
-      ],
-      "correctIndex": 1,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    },
-    {
-      "id": "el-198",
-      "question": "Dentro de seguridad eléctrica, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al LOTO",
-        "La verificación de ausencia de tensión es obligatoria",
-        "No aplica en talleres",
-        "Solo se hace en averías graves"
-      ],
-      "correctIndex": 1,
-      "explanation": "La verificación de ausencia de tensión es obligatoria",
-      "tags": [
-        "Seguridad eléctrica",
-        "PROTECCIONES"
-      ]
-    },
-    {
-      "id": "el-199",
-      "question": "Respecto al apartado ley de ohm, ¿qué respuesta es válida?",
-      "options": [
-        "La intensidad depende de tensión y resistencia",
-        "La intensidad no se mide",
-        "La tensión se mide en vatios",
-        "La resistencia depende del color"
-      ],
-      "correctIndex": 0,
-      "explanation": "La intensidad depende de tensión y resistencia",
-      "tags": [
-        "Electricidad ferroviaria",
-        "LEY DE OHM"
-      ]
-    },
-    {
-      "id": "el-200",
-      "question": "Atendiendo a convertidores y motores, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Reemplaza el freno neumático",
-        "Solo ilumina cabina",
-        "No requiere mantenimiento",
-        "El convertidor adapta energía para la tracción"
-      ],
-      "correctIndex": 3,
-      "explanation": "El convertidor adapta energía para la tracción",
-      "tags": [
-        "Tracción eléctrica",
-        "CONVERTIDORES Y MOTORES"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "electricidad-001",
+    "question": "¿Cuál es el cometido principal de los motores y generadores de corriente continua como máquinas eléctricas rotativas?",
+    "options": [
+      "Transformar energía eléctrica en mecánica (motores) y mecánica en eléctrica (generadores)",
+      "Solo almacenar energía",
+      "Convertir corriente alterna en continua exclusivamente",
+      "Regular la velocidad del tren"
+    ],
+    "correctIndex": 0,
+    "explanation": "Transformar energía eléctrica en mecánica (motores) y mecánica en eléctrica (generadores)",
+    "tags": ["Máquinas Eléctricas Rotativas", "MOTORES Y GENERADORES DE CORRIENTE CONTINUA"]
+  },
+  {
+    "id": "electricidad-002",
+    "question": "¿Qué principio permite que una máquina eléctrica rotativa de corriente continua funcione tanto como motor como generador?",
+    "options": ["El principio de reversibilidad", "El efecto Joule", "La ley de Ohm", "El efecto fotoeléctrico"],
+    "correctIndex": 0,
+    "explanation": "El principio de reversibilidad",
+    "tags": ["Máquinas Eléctricas Rotativas", "LA MÁQUINA ELÉCTRICA DE CORRIENTE CONTINUA COMO GENERADOR Y COMO MOTOR"]
+  },
+  {
+    "id": "electricidad-003",
+    "question": "¿Quién descubrió el fenómeno de la inducción electromagnética, base del funcionamiento de las máquinas eléctricas rotativas?",
+    "options": ["Faraday, en 1830", "Edison", "Tesla", "Volta"],
+    "correctIndex": 0,
+    "explanation": "Faraday, en 1830",
+    "tags": ["Máquinas Eléctricas Rotativas", "Introducción a las máquinas de corriente continua"]
+  },
+  {
+    "id": "electricidad-004",
+    "question": "¿Qué establece la Ley de Faraday sobre la tensión inducida?",
+    "options": [
+      "Que la magnitud de la tensión inducida es proporcional a la variación del flujo magnético",
+      "Que la corriente es inversamente proporcional a la resistencia",
+      "Que la potencia es el producto de tensión por corriente",
+      "Que el flujo magnético es siempre constante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Que la magnitud de la tensión inducida es proporcional a la variación del flujo magnético",
+    "tags": ["Máquinas Eléctricas Rotativas", "Introducción a las máquinas de corriente continua"]
+  },
+  {
+    "id": "electricidad-005",
+    "question": "¿Cuáles son las dos partes principales de una máquina de corriente continua?",
+    "options": ["Rotor y estator", "Ánodo y cátodo", "Colector y escobillas únicamente", "Bobina y núcleo únicamente"],
+    "correctIndex": 0,
+    "explanation": "Rotor y estator",
+    "tags": ["Máquinas Eléctricas Rotativas", "PARTES PRINCIPALES DE LAS MÁQUINAS DE CORRIENTE CONTINUA"]
+  },
+  {
+    "id": "electricidad-006",
+    "question": "¿Cuántos tipos de excitación se citan para las máquinas de corriente continua?",
+    "options": ["Cuatro: serie, shunt, compound e independiente", "Dos: serie y paralelo", "Tres: alta, media y baja", "Una única: independiente"],
+    "correctIndex": 0,
+    "explanation": "Cuatro: serie, shunt, compound e independiente",
+    "tags": ["Máquinas Eléctricas Rotativas", "1.5 TIPOS DE EXCITACIÓN"]
+  },
+  {
+    "id": "electricidad-007",
+    "question": "¿Qué tipos de máquinas de corriente alterna se distinguen en el manual, según su principio de funcionamiento?",
+    "options": ["Máquinas asíncronas y máquinas síncronas", "Máquinas serie y paralelo", "Máquinas chopper y ondulador", "Máquinas de alta y baja tensión"],
+    "correctIndex": 0,
+    "explanation": "Máquinas asíncronas y máquinas síncronas",
+    "tags": ["Máquinas Eléctricas Rotativas", "2.2 TIPOS DE MÁQUINAS DE CORRIENTE ALTERNA"]
+  },
+  {
+    "id": "electricidad-008",
+    "question": "¿A qué velocidad gira el campo magnético del estator en una máquina de corriente alterna?",
+    "options": ["A la velocidad de sincronismo", "A la velocidad del rotor siempre", "A velocidad nula", "A la velocidad de la catenaria"],
+    "correctIndex": 0,
+    "explanation": "A la velocidad de sincronismo",
+    "tags": ["Máquinas Eléctricas Rotativas", "2.1.3 Velocidad de Sincronismo"]
+  },
+  {
+    "id": "electricidad-009",
+    "question": "¿Qué parte de la máquina de corriente continua contiene los devanados que giran y conmutan la corriente mediante el colector?",
+    "options": ["El rotor", "El estator", "El pantógrafo", "El disyuntor"],
+    "correctIndex": 0,
+    "explanation": "El rotor",
+    "tags": ["Máquinas Eléctricas Rotativas", "1.2.1 Rotor"]
+  },
+  {
+    "id": "electricidad-010",
+    "question": "¿Para qué se emplean las conexiones equipotenciales en las máquinas de corriente continua?",
+    "options": [
+      "Para igualar potenciales entre partes del bobinado y evitar corrientes circulantes indeseadas",
+      "Para aumentar la velocidad de giro",
+      "Para reducir el par motor",
+      "Para climatizar el motor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para igualar potenciales entre partes del bobinado y evitar corrientes circulantes indeseadas",
+    "tags": ["Máquinas Eléctricas Rotativas", "1.3 CONEXIONES EQUIPOTENCIALES"]
+  },
+  {
+    "id": "electricidad-011",
+    "question": "¿Qué determina la 'clase térmica' de una máquina eléctrica rotativa?",
+    "options": [
+      "La temperatura máxima que puede soportar el aislamiento de sus devanados",
+      "La velocidad máxima de giro",
+      "El tipo de excitación",
+      "El número de polos"
+    ],
+    "correctIndex": 0,
+    "explanation": "La temperatura máxima que puede soportar el aislamiento de sus devanados",
+    "tags": ["Máquinas Eléctricas Rotativas", "1.4 CLASE TÉRMICA"]
+  },
+  {
+    "id": "electricidad-012",
+    "question": "¿Qué caracteriza a los motores de corriente continua empleados específicamente para tracción?",
+    "options": [
+      "Están adaptados al esfuerzo de arranque y a las condiciones de servicio ferroviario",
+      "Son motores domésticos universales sin adaptación",
+      "Son motores paso a paso",
+      "Son siempre de imanes permanentes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Están adaptados al esfuerzo de arranque y a las condiciones de servicio ferroviario",
+    "tags": ["Máquinas Eléctricas Rotativas", "MOTORES DE CORRIENTE CONTINUA PARA TRACCIÓN"]
+  },
+  {
+    "id": "electricidad-013",
+    "question": "En las máquinas asíncronas de corriente alterna, ¿qué elemento gira arrastrado por el campo magnético giratorio del estator sin llegar nunca a alcanzar su velocidad?",
+    "options": ["El rotor", "El colector", "El diodo", "El transformador"],
+    "correctIndex": 0,
+    "explanation": "El rotor",
+    "tags": ["Máquinas Eléctricas Rotativas", "2.2.1 Máquinas Asíncronas"]
+  },
+  {
+    "id": "electricidad-014",
+    "question": "¿Cuál es la línea eléctrica ferroviaria más longeva citada en el manual, electrificada en 1899?",
+    "options": ["Linares San José a Almería", "Madrid-Sevilla", "Madrid-Zaragoza-Alicante", "Barcelona-Valencia"],
+    "correctIndex": 0,
+    "explanation": "Linares San José a Almería",
+    "tags": ["Tracción Eléctrica", "1.1 HISTORIA"]
+  },
+  {
+    "id": "electricidad-015",
+    "question": "¿Qué características tenía la electrificación de la línea Linares San José a Almería de 1899?",
+    "options": [
+      "Trifásica, con línea de 6.000 voltios a 25 Hz",
+      "Corriente continua a 3.000 voltios",
+      "Monofásica a 25 kV / 50 Hz",
+      "Corriente continua a 1.500 voltios"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trifásica, con línea de 6.000 voltios a 25 Hz",
+    "tags": ["Tracción Eléctrica", "1.1 HISTORIA"]
+  },
+  {
+    "id": "electricidad-016",
+    "question": "¿Qué elemento del motor de corriente continua para tracción entrega la corriente al rotor mediante contacto deslizante?",
+    "options": ["Las escobillas", "El piñón de ataque", "El estator", "El convertidor"],
+    "correctIndex": 0,
+    "explanation": "Las escobillas",
+    "tags": ["Tracción Eléctrica", "1.2.3 ESCOBILLAS"]
+  },
+  {
+    "id": "electricidad-017",
+    "question": "¿Qué elemento del motor de tracción transmite el giro del rotor a la reductora del eje?",
+    "options": ["El piñón de ataque", "Las escobillas", "El estator", "El convertidor rotativo"],
+    "correctIndex": 0,
+    "explanation": "El piñón de ataque",
+    "tags": ["Tracción Eléctrica", "1.2.4 PIÑÓN DE ATAQUE"]
+  },
+  {
+    "id": "electricidad-018",
+    "question": "¿Qué tipo de motor de corriente alterna se describe como 'jaula ardilla' en el manual?",
+    "options": [
+      "Un motor asíncrono cuyo rotor está formado por barras conductoras cortocircuitadas en sus extremos",
+      "Un motor de corriente continua con excitación serie",
+      "Un motor síncrono con imanes permanentes",
+      "Un generador de corriente continua"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un motor asíncrono cuyo rotor está formado por barras conductoras cortocircuitadas en sus extremos",
+    "tags": ["Tracción Eléctrica", "1.3 MOTOR DE CORRIENTE ALTERNA JAULA ARDILLA"]
+  },
+  {
+    "id": "electricidad-019",
+    "question": "¿Qué función cumple un 'chopper' en el equipo de tracción?",
+    "options": ["Es un convertidor de corriente continua (CC/CC)", "Es un convertidor de corriente alterna (ondulador)", "Es un rectificador", "Es un tipo de motor"],
+    "correctIndex": 0,
+    "explanation": "Es un convertidor de corriente continua (CC/CC)",
+    "tags": ["Tracción Eléctrica", "1.4.2 CONVERTIDORES DE CORRIENTE CONTINUA (CHOPPER)"]
+  },
+  {
+    "id": "electricidad-020",
+    "question": "¿Qué función cumple un ondulador en el equipo de tracción?",
+    "options": ["Convertir corriente continua en corriente alterna", "Convertir corriente alterna en continua", "Almacenar energía en baterías", "Medir la velocidad del tren"],
+    "correctIndex": 0,
+    "explanation": "Convertir corriente continua en corriente alterna",
+    "tags": ["Tracción Eléctrica", "1.4.3 CONVERTIDORES DE CORRIENTE ALTERNA (ONDULADORES)"]
+  },
+  {
+    "id": "electricidad-021",
+    "question": "¿Qué elemento convierte la corriente alterna en corriente continua dentro del equipo de tracción?",
+    "options": ["El rectificador", "El chopper", "El ondulador", "El diodo GTO"],
+    "correctIndex": 0,
+    "explanation": "El rectificador",
+    "tags": ["Tracción Eléctrica", "1.4.4 RECTIFICADOR"]
+  },
+  {
+    "id": "electricidad-022",
+    "question": "¿Qué caída de tensión aproximada presenta un diodo de silicio como dispositivo semiconductor?",
+    "options": ["Entre 0,6 y 0,7 V", "Entre 5 y 10 V", "0 V", "Más de 100 V"],
+    "correctIndex": 0,
+    "explanation": "Entre 0,6 y 0,7 V",
+    "tags": ["Tracción Eléctrica", "1.5.1 DIODOS"]
+  },
+  {
+    "id": "electricidad-023",
+    "question": "¿Cómo se llama el encapsulado más usado en potencia en Renfe para diodos y tiristores, con toma de ánodo y cátodo en los extremos?",
+    "options": ["Press-Pack (paquete comprimido)", "TO-220", "SMD", "DIP"],
+    "correctIndex": 0,
+    "explanation": "Press-Pack (paquete comprimido)",
+    "tags": ["Tracción Eléctrica", "1.5.1 DIODOS"]
+  },
+  {
+    "id": "electricidad-024",
+    "question": "¿Qué semiconductor se considera 'la estrella' de la electrónica de potencia actual, combinando características de transistor bipolar y puerta aislada?",
+    "options": ["El IGBT", "El diodo de silicio", "El tiristor GTO", "El triac"],
+    "correctIndex": 0,
+    "explanation": "El IGBT",
+    "tags": ["Tracción Eléctrica", "1.5.7 IGBT"]
+  },
+  {
+    "id": "electricidad-025",
+    "question": "¿Con qué tipo de control interno se maneja el IGBT?",
+    "options": [
+      "Por electrostática, mediante una puerta aislada de alta resistencia",
+      "Por corriente de base, como un transistor bipolar normal",
+      "Mediante contactos mecánicos",
+      "No requiere control, funciona de forma pasiva"
+    ],
+    "correctIndex": 0,
+    "explanation": "Por electrostática, mediante una puerta aislada de alta resistencia",
+    "tags": ["Tracción Eléctrica", "1.5.7 IGBT"]
+  },
+  {
+    "id": "electricidad-026",
+    "question": "¿Qué locomotora con equipo de tracción de GTOs se cita como ejemplo en el manual para alterna?",
+    "options": ["La locomotora S/252", "La locomotora S/269.4", "La UT S/440", "La locomotora S/311"],
+    "correctIndex": 0,
+    "explanation": "La locomotora S/252",
+    "tags": ["Tracción Eléctrica", "1.6.2 ALTERNA GTOS 252"]
+  },
+  {
+    "id": "electricidad-027",
+    "question": "¿Qué locomotora utiliza el esquema de tracción 'Continua Chopper' citado en el manual?",
+    "options": ["La locomotora S/251", "La locomotora S/252", "La UT S/440", "La locomotora S/311"],
+    "correctIndex": 0,
+    "explanation": "La locomotora S/251",
+    "tags": ["Tracción Eléctrica", "1.6.1 CONTINUA CHOPPER 251"]
+  },
+  {
+    "id": "electricidad-028",
+    "question": "¿Qué tipo de elementos se citan como parte de las protecciones de un equipo de tracción?",
+    "options": [
+      "Protecciones frente a sobrecorrientes y sobretensiones, entre otras",
+      "Solo el freno de estacionamiento",
+      "Solo la megafonía",
+      "Solo el sistema de climatización"
+    ],
+    "correctIndex": 0,
+    "explanation": "Protecciones frente a sobrecorrientes y sobretensiones, entre otras",
+    "tags": ["Tracción Eléctrica", "1.6.3 PROTECCIONES"]
+  },
+  {
+    "id": "electricidad-029",
+    "question": "¿Qué captan y procesan los equipos registradores jurídicos?",
+    "options": [
+      "Señales de tipo analógico y digital generadas durante la conducción",
+      "Solo la temperatura ambiente",
+      "Solo el nivel de combustible",
+      "Solo la posición del pantógrafo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Señales de tipo analógico y digital generadas durante la conducción",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-030",
+    "question": "¿A qué bus de comunicaciones del vehículo están conectadas las centrales de registro jurídico más modernas?",
+    "options": ["Al Bus multifunción del vehículo (MVB)", "Al bus WTB exclusivamente", "A ninguna red, funcionan de forma aislada", "A internet directamente"],
+    "correctIndex": 0,
+    "explanation": "Al Bus multifunción del vehículo (MVB)",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-031",
+    "question": "¿Qué tipo de protecciones incorporan los registradores jurídicos, dada su función crítica?",
+    "options": [
+      "Protección anti-impacto y térmica, entre otras, según normativa",
+      "Ninguna protección especial",
+      "Solo protección contra el agua",
+      "Solo protección antivibración"
+    ],
+    "correctIndex": 0,
+    "explanation": "Protección anti-impacto y térmica, entre otras, según normativa",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-032",
+    "question": "¿Cuáles son los registradores jurídicos citados en el manual de Electricidad-Electrónica?",
+    "options": [
+      "Teloc®2500, Cesis 3G/4G, Deuta y Memotel",
+      "Sibas, TCMS, MITRAC y Cosmos",
+      "MVB y WTB",
+      "IGRIS y ROMAIN"
+    ],
+    "correctIndex": 0,
+    "explanation": "Teloc®2500, Cesis 3G/4G, Deuta y Memotel",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1.1-1.1.4"]
+  },
+  {
+    "id": "electricidad-033",
+    "question": "¿Qué es el ASFA Digital, según el manual?",
+    "options": [
+      "Un sistema de seguridad que recibe señales del exterior para el control de la conducción",
+      "Un registrador jurídico",
+      "Un tipo de convertidor de tracción",
+      "Un sistema de climatización"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un sistema de seguridad que recibe señales del exterior para el control de la conducción",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.2 ASFA DIGITAL"]
+  },
+  {
+    "id": "electricidad-034",
+    "question": "¿De dónde proceden principalmente las señales que procesa el sistema ASFA Digital?",
+    "options": [
+      "Del exterior, mediante balizas de vía",
+      "Solo de señales internas del motor diésel",
+      "Solo de señales de climatización",
+      "Solo de señales de megafonía"
+    ],
+    "correctIndex": 0,
+    "explanation": "Del exterior, mediante balizas de vía",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.2.1 DESCRIPCIÓN / 1.2.2 SEÑALES DE ASFA DIGITAL"]
+  },
+  {
+    "id": "electricidad-035",
+    "question": "¿Qué elementos componen el sistema ASFA Digital, además de la antena receptora?",
+    "options": [
+      "Una serie de componentes electrónicos embarcados en cabina y bajo bastidor",
+      "Solo un manómetro",
+      "Solo un compresor",
+      "Solo el pantógrafo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una serie de componentes electrónicos embarcados en cabina y bajo bastidor",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.2.3 COMPONENTES"]
+  },
+  {
+    "id": "electricidad-036",
+    "question": "¿Qué tipo de señales del propio vehículo pueden ser captadas por los registradores jurídicos?",
+    "options": [
+      "La señal de velocidad o la presión instantánea en la tubería de freno, entre otras",
+      "Solo la temperatura del motor",
+      "Solo el peso del tren",
+      "Solo el estado de las puertas"
+    ],
+    "correctIndex": 0,
+    "explanation": "La señal de velocidad o la presión instantánea en la tubería de freno, entre otras",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-037",
+    "question": "¿Cómo se comunican los registradores jurídicos con el resto de subsistemas del tren?",
+    "options": [
+      "Mediante cableado directo y a través de un bus de comunicaciones",
+      "Únicamente por radio",
+      "Únicamente por satélite",
+      "No se comunican con otros subsistemas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mediante cableado directo y a través de un bus de comunicaciones",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-038",
+    "question": "Además de las señales externas, ¿qué otro tipo de datos almacenan los registradores jurídicos?",
+    "options": ["Parámetros propios del vehículo", "Solo datos meteorológicos", "Solo datos de facturación", "Solo el número de viajeros"],
+    "correctIndex": 0,
+    "explanation": "Parámetros propios del vehículo",
+    "tags": ["Sistemas de Seguridad y Registradores Jurídicos", "1.1 REGISTRADORES JURÍDICOS"]
+  },
+  {
+    "id": "electricidad-039",
+    "question": "¿Cuál es la misión principal del equipo de alta tensión de un vehículo eléctrico?",
+    "options": [
+      "Tomar la corriente de catenaria y alimentar los motores de tracción, equipos auxiliares y líneas de alta tensión del tren",
+      "Frenar el vehículo",
+      "Climatizar el interior",
+      "Gestionar la megafonía"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tomar la corriente de catenaria y alimentar los motores de tracción, equipos auxiliares y líneas de alta tensión del tren",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-040",
+    "question": "¿Cuándo queda establecido el circuito de potencia en un vehículo de tracción eléctrica?",
+    "options": [
+      "Cuando el pantógrafo contacta con la catenaria y se cierra el disyuntor",
+      "Cuando arranca el motor diésel",
+      "Cuando se activa el freno de urgencia",
+      "Cuando se abre la puerta de la cabina"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cuando el pantógrafo contacta con la catenaria y se cierra el disyuntor",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-041",
+    "question": "¿A qué tensión está la catenaria en un vehículo de corriente continua de 3.000 V, una vez cerrado el circuito de potencia?",
+    "options": ["3.000 voltios de corriente continua", "3.000 voltios de corriente alterna", "25.000 voltios", "1.500 voltios"],
+    "correctIndex": 0,
+    "explanation": "3.000 voltios de corriente continua",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-042",
+    "question": "¿Qué elemento capta la corriente de la catenaria en un vehículo eléctrico?",
+    "options": ["El pantógrafo", "El seccionador", "El transformador", "El disyuntor principal"],
+    "correctIndex": 0,
+    "explanation": "El pantógrafo",
+    "tags": ["Alta Tensión", "1.1.1 PANTÓGRAFO"]
+  },
+  {
+    "id": "electricidad-043",
+    "question": "¿Qué función cumplen los derivadores o pararrayos de alta tensión?",
+    "options": [
+      "Proteger el equipo derivando a tierra las sobretensiones, como las de origen atmosférico",
+      "Aumentar la tensión de catenaria",
+      "Frenar el vehículo",
+      "Climatizar el equipo de alta tensión"
+    ],
+    "correctIndex": 0,
+    "explanation": "Proteger el equipo derivando a tierra las sobretensiones, como las de origen atmosférico",
+    "tags": ["Alta Tensión", "1.1.2 DERIVADORES O PARARRAYOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-044",
+    "question": "¿Qué función cumplen los seccionadores en el equipo de alta tensión?",
+    "options": [
+      "Aislar eléctricamente secciones del circuito de alta tensión, permitiendo también la puesta a tierra",
+      "Medir la velocidad del tren",
+      "Regular la climatización",
+      "Almacenar energía"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aislar eléctricamente secciones del circuito de alta tensión, permitiendo también la puesta a tierra",
+    "tags": ["Alta Tensión", "1.1.3 SECCIONADORES Y PUESTA A TIERRA"]
+  },
+  {
+    "id": "electricidad-045",
+    "question": "¿Qué función cumple el disyuntor principal en el equipo de alta tensión?",
+    "options": [
+      "Interrumpir el circuito de alta tensión de forma rápida ante una anomalía o maniobra",
+      "Aumentar la velocidad del tren",
+      "Reducir el peso del vehículo",
+      "Filtrar el aire de admisión"
+    ],
+    "correctIndex": 0,
+    "explanation": "Interrumpir el circuito de alta tensión de forma rápida ante una anomalía o maniobra",
+    "tags": ["Alta Tensión", "1.1.4 DISYUNTOR PRINCIPAL"]
+  },
+  {
+    "id": "electricidad-046",
+    "question": "¿Qué función cumplen los transformadores en un vehículo de tracción de corriente alterna?",
+    "options": [
+      "Adaptar la tensión de catenaria (por ejemplo, 25 kV) a los niveles requeridos por los circuitos de tracción y auxiliares",
+      "Almacenar energía eléctrica",
+      "Filtrar el aire comprimido",
+      "Detectar el descarrilamiento"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adaptar la tensión de catenaria (por ejemplo, 25 kV) a los niveles requeridos por los circuitos de tracción y auxiliares",
+    "tags": ["Alta Tensión", "1.1.5 TRANSFORMADORES"]
+  },
+  {
+    "id": "electricidad-047",
+    "question": "¿Qué justifica, según el manual, la gran variedad de vehículos que combinan alimentación de corriente continua con motores de corriente alterna?",
+    "options": [
+      "La evolución en la electrónica de potencia aplicada a motores de corriente alterna",
+      "La ausencia total de electrónica de potencia",
+      "El uso exclusivo de motores de corriente continua",
+      "La eliminación del pantógrafo"
+    ],
+    "correctIndex": 0,
+    "explanation": "La evolución en la electrónica de potencia aplicada a motores de corriente alterna",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-048",
+    "question": "¿Qué equipos intervienen directamente en el desarrollo de la potencia del vehículo, tanto en tracción como en freno eléctrico?",
+    "options": ["Los equipos de alta tensión", "Los registradores jurídicos", "El sistema de climatización", "El sistema de megafonía"],
+    "correctIndex": 0,
+    "explanation": "Los equipos de alta tensión",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-049",
+    "question": "¿Qué factor determina la configuración concreta del equipo de alta tensión de un vehículo?",
+    "options": ["La tecnología aplicada (tipo de alimentación y de motores)", "El color de la carrocería", "El número de plazas", "El peso del vehículo"],
+    "correctIndex": 0,
+    "explanation": "La tecnología aplicada (tipo de alimentación y de motores)",
+    "tags": ["Alta Tensión", "1.1 EQUIPOS DE ALTA TENSIÓN"]
+  },
+  {
+    "id": "electricidad-050",
+    "question": "¿Qué dispositivo evita que quede tensión residual en el equipo cuando se procede a su puesta a tierra?",
+    "options": ["El dispositivo de puesta a tierra del seccionador", "El pantógrafo", "El transformador", "El pararrayos"],
+    "correctIndex": 0,
+    "explanation": "El dispositivo de puesta a tierra del seccionador",
+    "tags": ["Alta Tensión", "1.1.3 SECCIONADORES Y PUESTA A TIERRA"]
+  }
+]

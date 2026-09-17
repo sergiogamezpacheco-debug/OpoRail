@@ -1,3205 +1,477 @@
-{
-  "name": "Máquinas - Herramientas",
-  "questions": [
-    {
-      "id": "to-001",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-002",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-003",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-004",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-005",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-006",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-007",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-008",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-009",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "No requiere control"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-010",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-011",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-012",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-013",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-014",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-015",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "No requiere control"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-016",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-017",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-018",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-019",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-020",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-021",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-022",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-023",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-024",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-025",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-026",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-027",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "No requiere control"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-028",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-029",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-030",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-031",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-032",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-033",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-034",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-035",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-036",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-037",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-038",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-039",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-040",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-041",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-042",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-043",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-044",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-045",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-046",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-047",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-048",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-049",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-050",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-051",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-052",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-053",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-054",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-055",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-056",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-057",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-058",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-059",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-060",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-061",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-062",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-063",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-064",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-065",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-066",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-067",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-068",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-069",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-070",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-071",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-072",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-073",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-074",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-075",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-076",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-077",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-078",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-079",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-080",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-081",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-082",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-083",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-084",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-085",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-086",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-087",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "No requiere control"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-088",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-089",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-090",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-091",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-092",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-093",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-094",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-095",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-096",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-097",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-098",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-099",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-100",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-101",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-102",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "No requiere control"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-103",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-104",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-105",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-106",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-107",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-108",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-109",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-110",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-111",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-112",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-113",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-114",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-115",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-116",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-117",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-118",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-119",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-120",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-121",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-122",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-123",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-124",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-125",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-126",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-127",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-128",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-129",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-130",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-131",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-132",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-133",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-134",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-135",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-136",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-137",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 1,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-138",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "No requiere control"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-139",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-140",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-141",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-142",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-143",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-144",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-145",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-146",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-147",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "No requiere control",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-148",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-149",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-150",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "No requiere control"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-151",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-152",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-153",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-154",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-155",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-156",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-157",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-158",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-159",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-160",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-161",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-162",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "No requiere control"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-163",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-164",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-165",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-166",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-167",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-168",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-169",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-170",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "No aplica en ejes",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-171",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga"
-      ],
-      "correctIndex": 3,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-172",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influyen en acabado",
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-173",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-174",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-175",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Se usan siempre valores máximos",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-176",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-177",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-178",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-179",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-180",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-181",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 0,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-182",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-183",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "No requiere control",
-        "Se comprueba a ojo",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-184",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-185",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "La tolerancia define el margen admisible de medida"
-      ],
-      "correctIndex": 3,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-186",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Se comprueba a ojo",
-        "No requiere control",
-        "Solo en rosca izquierda"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-187",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-188",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "No aplica en ejes",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-189",
-      "question": "En relación con rosca y perfil, señala la afirmación correcta.",
-      "options": [
-        "No requiere control",
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 1,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-190",
-      "question": "Dentro de máquinas y herramientas, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-191",
-      "question": "Respecto al apartado tolerancias, ¿qué respuesta es válida?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje",
-        "Sustituye al plano",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-192",
-      "question": "Atendiendo a rosca y perfil, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se comprueba a ojo",
-        "Solo en rosca izquierda",
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control"
-      ],
-      "correctIndex": 2,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-193",
-      "question": "En relación con torneado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa la herramienta",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 2,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-194",
-      "question": "Dentro de metrología, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo se usa en montaje",
-        "No aplica en ejes",
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-195",
-      "question": "Respecto al apartado rosca y perfil, ¿qué respuesta es válida?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo",
-        "No requiere control"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-196",
-      "question": "Atendiendo a torneado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa la herramienta",
-        "Se usan siempre valores máximos",
-        "No influyen en acabado",
-        "Velocidad y avance deben ajustarse al material"
-      ],
-      "correctIndex": 3,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-197",
-      "question": "En relación con tolerancias, señala la afirmación correcta.",
-      "options": [
-        "No aplica en ejes",
-        "Sustituye al plano",
-        "La tolerancia define el margen admisible de medida",
-        "Solo se usa en montaje"
-      ],
-      "correctIndex": 2,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    },
-    {
-      "id": "to-198",
-      "question": "Dentro de operaciones avanzadas, ¿qué opción es la más adecuada?",
-      "options": [
-        "El paso de rosca debe verificarse con galga",
-        "No requiere control",
-        "Solo en rosca izquierda",
-        "Se comprueba a ojo"
-      ],
-      "correctIndex": 0,
-      "explanation": "El paso de rosca debe verificarse con galga",
-      "tags": [
-        "Operaciones avanzadas",
-        "ROSCA Y PERFIL"
-      ]
-    },
-    {
-      "id": "to-199",
-      "question": "Respecto al apartado torneado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa la herramienta",
-        "Velocidad y avance deben ajustarse al material",
-        "No influyen en acabado",
-        "Se usan siempre valores máximos"
-      ],
-      "correctIndex": 1,
-      "explanation": "Velocidad y avance deben ajustarse al material",
-      "tags": [
-        "Máquinas y herramientas",
-        "TORNEADO"
-      ]
-    },
-    {
-      "id": "to-200",
-      "question": "Atendiendo a tolerancias, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "La tolerancia define el margen admisible de medida",
-        "Sustituye al plano",
-        "Solo se usa en montaje",
-        "No aplica en ejes"
-      ],
-      "correctIndex": 0,
-      "explanation": "La tolerancia define el margen admisible de medida",
-      "tags": [
-        "Metrología",
-        "TOLERANCIAS"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "maquinas-001",
+    "question": "¿Qué elemento de un bogie aloja los rodamientos que permiten la rotación del eje montado?",
+    "options": ["La caja de grasa", "El bastidor", "El disco de freno", "El gancho de tracción"],
+    "correctIndex": 0,
+    "explanation": "La caja de grasa",
+    "tags": ["Bogies, Tracción y Choque", "2.4 CAJA DE GRASA"]
+  },
+  {
+    "id": "maquinas-002",
+    "question": "¿Cuántos ejes soporta normalmente un bogie, según su definición?",
+    "options": ["Normalmente dos o tres", "Siempre cuatro", "Siempre uno", "Entre cinco y seis"],
+    "correctIndex": 0,
+    "explanation": "Normalmente dos o tres",
+    "tags": ["Bogies, Tracción y Choque", "1.1 DEFINICIÓN Y CONCEPTO DE BOGIE"]
+  },
+  {
+    "id": "maquinas-003",
+    "question": "Según el número de ejes, ¿qué tipo de bogie existe además de los de dos ejes?",
+    "options": ["Los de tres ejes", "Los de cinco ejes", "Los de un solo eje", "Los de seis ejes"],
+    "correctIndex": 0,
+    "explanation": "Los de tres ejes",
+    "tags": ["Bogies, Tracción y Choque", "3.2 SEGÚN EL NÚMERO DE EJES"]
+  },
+  {
+    "id": "maquinas-004",
+    "question": "Según el tipo de vehículo, ¿qué tipos de bogies se citan en el manual, además de autopropulsados y locomotoras?",
+    "options": ["Rodales y bogies de mercancías tipo Y-21", "Solo bogies de cercanías", "Solo bogies de mercancías europeos", "Ninguno más"],
+    "correctIndex": 0,
+    "explanation": "Rodales y bogies de mercancías tipo Y-21",
+    "tags": ["Bogies, Tracción y Choque", "3.3 SEGÚN EL TIPO DE VEHÍCULOS"]
+  },
+  {
+    "id": "maquinas-005",
+    "question": "¿Qué tipo de unión permite el apoyo y pivotamiento entre la caja del vehículo y el bogie mediante un punto de apoyo central?",
+    "options": ["El pivote central", "La barra de tracción-compresión", "La unión tipo Watts", "La conexión sin cabezal"],
+    "correctIndex": 0,
+    "explanation": "El pivote central",
+    "tags": ["Bogies, Tracción y Choque", "2.7.3 Pivote central"]
+  },
+  {
+    "id": "maquinas-006",
+    "question": "¿Qué elementos de suspensión primaria se citan en el manual?",
+    "options": ["Muelles helicoidales, ballestas y elementos similares", "Solo balonas neumáticas", "Solo amortiguadores hidráulicos", "Ninguno, la suspensión primaria no existe"],
+    "correctIndex": 0,
+    "explanation": "Muelles helicoidales, ballestas y elementos similares",
+    "tags": ["Bogies, Tracción y Choque", "2.6.3 Tipos de elementos de suspensión"]
+  },
+  {
+    "id": "maquinas-007",
+    "question": "¿Qué elemento del bogie protege frente a la proyección de balasto o piedras en la vía?",
+    "options": ["El quitapiedras", "El acelerómetro", "La sonda de temperatura", "El captador de velocidad"],
+    "correctIndex": 0,
+    "explanation": "El quitapiedras",
+    "tags": ["Bogies, Tracción y Choque", "2.9.7 Quitapiedras y quitarreses"]
+  },
+  {
+    "id": "maquinas-008",
+    "question": "¿Qué tipo de transmisión conecta el motor de tracción con el eje mediante un árbol con juntas cardan, permitiendo cierto desplazamiento relativo?",
+    "options": ["La transmisión indirecta por eje Cardan", "La transmisión directa", "La transmisión por coronas dentadas exclusivamente", "No existe ese tipo de transmisión"],
+    "correctIndex": 0,
+    "explanation": "La transmisión indirecta por eje Cardan",
+    "tags": ["Bogies, Tracción y Choque", "2.5.4 Transmisión indirecta por eje Cardan"]
+  },
+  {
+    "id": "maquinas-009",
+    "question": "¿Qué dispositivo del bogie mide la aceleración/deceleración para el control de la adherencia y el antibloqueo?",
+    "options": ["El acelerómetro", "El engrasador de pestaña", "El arenero", "El quitapiedras"],
+    "correctIndex": 0,
+    "explanation": "El acelerómetro",
+    "tags": ["Bogies, Tracción y Choque", "2.9.2 Acelerómetros"]
+  },
+  {
+    "id": "maquinas-010",
+    "question": "¿Qué elemento del sistema de tracción de un bogie soporta el esfuerzo de tracción y lo transmite al vehículo?",
+    "options": ["El conjunto gancho de tracción", "La caja de grasa", "El acelerómetro", "El quitapiedras"],
+    "correctIndex": 0,
+    "explanation": "El conjunto gancho de tracción",
+    "tags": ["Bogies, Tracción y Choque", "5.1 CONJUNTO DE TRACCIÓN"]
+  },
+  {
+    "id": "maquinas-011",
+    "question": "¿Cuál es actualmente el principal tipo de daño en las ruedas ferroviarias, sustituyendo al desgaste como principal problema?",
+    "options": ["La fatiga", "La corrosión", "El sobrecalentamiento", "La deformación plástica exclusivamente"],
+    "correctIndex": 0,
+    "explanation": "La fatiga",
+    "tags": ["Defectos en Ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "maquinas-012",
+    "question": "¿Qué factores han contribuido al aumento de tensiones en el contacto rueda-carril, según el manual?",
+    "options": [
+      "El aumento de la velocidad y de la carga por eje de los vehículos ferroviarios",
+      "La disminución de la velocidad",
+      "El uso exclusivo de ruedas de aluminio",
+      "La reducción del peso de los vagones"
+    ],
+    "correctIndex": 0,
+    "explanation": "El aumento de la velocidad y de la carga por eje de los vehículos ferroviarios",
+    "tags": ["Defectos en Ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "maquinas-013",
+    "question": "A diferencia del desgaste, ¿cómo se manifiesta el daño por fatiga en las ruedas?",
+    "options": [
+      "Causando fracturas o pérdidas de material en la banda de rodadura, de forma más súbita que el lento deterioro por desgaste",
+      "De forma idéntica al desgaste, sin diferencias",
+      "Solo afecta al cubo de la rueda",
+      "Solo se produce en clima húmedo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Causando fracturas o pérdidas de material en la banda de rodadura, de forma más súbita que el lento deterioro por desgaste",
+    "tags": ["Defectos en Ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "maquinas-014",
+    "question": "¿Qué consecuencia extrema, aunque poco frecuente, pueden llegar a causar los fallos por fatiga en ruedas?",
+    "options": ["El descarrilamiento del tren", "El aumento de la velocidad comercial", "La mejora de la adherencia", "Ninguna, son totalmente inocuos"],
+    "correctIndex": 0,
+    "explanation": "El descarrilamiento del tren",
+    "tags": ["Defectos en Ruedas", "1. DEFECTOS EN RUEDAS"]
+  },
+  {
+    "id": "maquinas-015",
+    "question": "Además de la pestaña, la rodadura y el cubo, ¿en qué otra zona de la rueda se clasifican defectos?",
+    "options": ["En el velo de la rueda", "Solo en la banda de rodadura", "Solo en el eje", "No existen defectos en el velo"],
+    "correctIndex": 0,
+    "explanation": "En el velo de la rueda",
+    "tags": ["Defectos en Ruedas", "1.4.6 Clasificación de defectos en ruedas. En el Velo de la rueda"]
+  },
+  {
+    "id": "maquinas-016",
+    "question": "¿Qué tipo de defecto geométrico en el borde de la pestaña puede tener origen en la infraestructura, según el manual?",
+    "options": [
+      "Desprendimientos por circular en vías con perfil acanalado con objetos incrustados",
+      "Grietas producidas por fatiga subsuperficial",
+      "Fisuras por sobrecarga estática",
+      "Deformaciones producidas exclusivamente en el torno de foso"
+    ],
+    "correctIndex": 0,
+    "explanation": "Desprendimientos por circular en vías con perfil acanalado con objetos incrustados",
+    "tags": ["Defectos en Ruedas", "1.4.1 Clasificación de defectos en ruedas (Pestañas)"]
+  },
+  {
+    "id": "maquinas-017",
+    "question": "¿Qué solución propone el manual para los defectos de desprendimiento de material en el borde de la pestaña?",
+    "options": ["El reperfilado y el control de la infraestructura", "Sustituir siempre la rueda completa", "No existe solución posible", "Aumentar la velocidad de circulación"],
+    "correctIndex": 0,
+    "explanation": "El reperfilado y el control de la infraestructura",
+    "tags": ["Defectos en Ruedas", "1.4.1 Clasificación de defectos en ruedas (Pestañas)"]
+  },
+  {
+    "id": "maquinas-018",
+    "question": "¿Qué tipo de fatiga se produce justo debajo de la superficie de rodadura, sin ser visible a simple vista inicialmente?",
+    "options": ["La fatiga subsuperficial", "La fatiga superficial", "La fatiga por inclusiones profundas", "Ninguna de las anteriores"],
+    "correctIndex": 0,
+    "explanation": "La fatiga subsuperficial",
+    "tags": ["Defectos en Ruedas", "1.3.2 Fatiga Subsuperficial"]
+  },
+  {
+    "id": "maquinas-019",
+    "question": "¿Qué tipo de fatiga puede originarse por inclusiones profundas en el material de fabricación de la rueda?",
+    "options": ["La fatiga debida a inclusiones profundas en el material", "La fatiga superficial exclusivamente", "El desgaste ondulatorio", "La deformación plástica"],
+    "correctIndex": 0,
+    "explanation": "La fatiga debida a inclusiones profundas en el material",
+    "tags": ["Defectos en Ruedas", "1.3.3 Fatiga debida a inclusiones profundas en el material"]
+  },
+  {
+    "id": "maquinas-020",
+    "question": "¿En qué situaciones de circulación se generan las principales zonas de fatiga por contacto en la rueda, según el manual?",
+    "options": ["Al circular en curva y al circular en recta", "Solo al frenar", "Solo al arrancar", "Solo en vía en pendiente"],
+    "correctIndex": 0,
+    "explanation": "Al circular en curva y al circular en recta",
+    "tags": ["Defectos en Ruedas", "1.1.1/1.1.2 Zonas de fatiga"]
+  },
+  {
+    "id": "maquinas-021",
+    "question": "Además de las fisuras, ¿qué tipo de alteraciones se clasifican dentro de los defectos de rodadura?",
+    "options": ["Alteraciones volumétricas y alteraciones geométricas del perfil", "Solo alteraciones de color", "Solo alteraciones de temperatura", "Ninguna otra"],
+    "correctIndex": 0,
+    "explanation": "Alteraciones volumétricas y alteraciones geométricas del perfil",
+    "tags": ["Defectos en Ruedas", "1.4.4/1.4.5 Clasificación de defectos en ruedas"]
+  },
+  {
+    "id": "maquinas-022",
+    "question": "¿De qué depende la velocidad de propagación de las grietas o fisuras en una rueda?",
+    "options": [
+      "De las condiciones de carga y del propio material, entre otros factores",
+      "Es siempre constante e independiente de la carga",
+      "Solo depende de la temperatura ambiente",
+      "No se puede determinar"
+    ],
+    "correctIndex": 0,
+    "explanation": "De las condiciones de carga y del propio material, entre otros factores",
+    "tags": ["Defectos en Ruedas", "1.2 VELOCIDAD DE PROPAGACIÓN DE LAS GRIETAS O FISURAS"]
+  },
+  {
+    "id": "maquinas-023",
+    "question": "¿Qué tipo de defectos pueden aparecer en el cubo de la rueda, según la clasificación del manual?",
+    "options": [
+      "Defectos específicos del cubo, distintos de los de pestaña y rodadura",
+      "Únicamente fisuras de pestaña",
+      "Ninguno, el cubo no sufre defectos",
+      "Solo corrosión superficial"
+    ],
+    "correctIndex": 0,
+    "explanation": "Defectos específicos del cubo, distintos de los de pestaña y rodadura",
+    "tags": ["Defectos en Ruedas", "1.4.7 Clasificación de defectos en ruedas. En el cubo de la rueda"]
+  },
+  {
+    "id": "maquinas-024",
+    "question": "¿Qué es la Metrología?",
+    "options": [
+      "La ciencia que trata de las medidas, los sistemas de unidades y los instrumentos usados para efectuarlas e interpretarlas",
+      "La ciencia que estudia los metales",
+      "La técnica de soldadura",
+      "El estudio de las vías férreas"
+    ],
+    "correctIndex": 0,
+    "explanation": "La ciencia que trata de las medidas, los sistemas de unidades y los instrumentos usados para efectuarlas e interpretarlas",
+    "tags": ["Metrología", "1.1 METROLOGÍA (CONCEPTOS)"]
+  },
+  {
+    "id": "maquinas-025",
+    "question": "¿Qué campos abarca la Metrología, según el manual?",
+    "options": ["Térmica, eléctrica, acústica y dimensional, entre otras", "Solo la dimensional", "Solo la térmica", "Solo la eléctrica"],
+    "correctIndex": 0,
+    "explanation": "Térmica, eléctrica, acústica y dimensional, entre otras",
+    "tags": ["Metrología", "1.1 METROLOGÍA (CONCEPTOS)"]
+  },
+  {
+    "id": "maquinas-026",
+    "question": "¿Cómo se definió originariamente el metro?",
+    "options": [
+      "Como la diezmillonésima parte del cuadrante del meridiano terrestre",
+      "Como la longitud de un pie humano",
+      "Como la distancia entre dos raíles",
+      "Como la milésima parte de un kilómetro"
+    ],
+    "correctIndex": 0,
+    "explanation": "Como la diezmillonésima parte del cuadrante del meridiano terrestre",
+    "tags": ["Metrología", "1.3.1 Unidad de longitud. El metro"]
+  },
+  {
+    "id": "maquinas-027",
+    "question": "¿Cómo definió el metro la Conferencia General de Pesos y Medidas en 1960?",
+    "options": [
+      "Como 1.650.763,73 veces la longitud de onda de la radiación emitida por un átomo de kriptón 86",
+      "Como la distancia entre Madrid y París",
+      "Como el patrón de platino e iridio únicamente",
+      "Como la longitud de un brazo humano"
+    ],
+    "correctIndex": 0,
+    "explanation": "Como 1.650.763,73 veces la longitud de onda de la radiación emitida por un átomo de kriptón 86",
+    "tags": ["Metrología", "1.3.1 Unidad de longitud. El metro"]
+  },
+  {
+    "id": "maquinas-028",
+    "question": "¿A cuántos milímetros equivale una pulgada (inch)?",
+    "options": ["25,4 mm", "10 mm", "2,54 mm", "100 mm"],
+    "correctIndex": 0,
+    "explanation": "25,4 mm",
+    "tags": ["Metrología", "1.4.1 La Pulgada"]
+  },
+  {
+    "id": "maquinas-029",
+    "question": "¿Qué origen antropométrico tiene la pulgada, según el manual?",
+    "options": [
+      "El ancho de la primera falange del pulgar (falange distal)",
+      "La longitud del pie",
+      "La longitud del brazo",
+      "El ancho de la palma de la mano"
+    ],
+    "correctIndex": 0,
+    "explanation": "El ancho de la primera falange del pulgar (falange distal)",
+    "tags": ["Metrología", "1.4.1 La Pulgada"]
+  },
+  {
+    "id": "maquinas-030",
+    "question": "¿Cómo se denomina el submúltiplo de la pulgada que equivale a su milésima parte?",
+    "options": ["El Mil", "El Milímetro", "El Centésimo", "El Décimo"],
+    "correctIndex": 0,
+    "explanation": "El Mil",
+    "tags": ["Metrología", "1.4.1 La Pulgada"]
+  },
+  {
+    "id": "maquinas-031",
+    "question": "¿Qué diferencia hay entre medición directa e indirecta?",
+    "options": [
+      "En la directa se compara la magnitud con el patrón directamente; en la indirecta se calcula a partir de otras magnitudes medidas",
+      "Son sinónimos",
+      "La indirecta solo se usa en pulgadas",
+      "La directa solo se usa con el micrómetro"
+    ],
+    "correctIndex": 0,
+    "explanation": "En la directa se compara la magnitud con el patrón directamente; en la indirecta se calcula a partir de otras magnitudes medidas",
+    "tags": ["Metrología", "1.5.2/1.5.3 Medición directa / Medición indirecta"]
+  },
+  {
+    "id": "maquinas-032",
+    "question": "¿Qué instrumento de medida directa incorpora un nonio para aumentar la precisión de lectura?",
+    "options": ["El calibre", "El mármol de verificación", "El gramil", "El compás"],
+    "correctIndex": 0,
+    "explanation": "El calibre",
+    "tags": ["Metrología", "2.1.3 Nonio / 2.1.4 Calibre"]
+  },
+  {
+    "id": "maquinas-033",
+    "question": "¿Qué instrumento se emplea específicamente para medir los parámetros del perfil de rodadura de una rueda ferroviaria, como el grosor y altura de pestaña?",
+    "options": ["El calibre especial para perfiles de rodadura", "El micrómetro de exteriores", "El reloj comparador", "El gramil"],
+    "correctIndex": 0,
+    "explanation": "El calibre especial para perfiles de rodadura",
+    "tags": ["Metrología", "2.1.7 Calibre especial para perfiles de rodadura"]
+  },
+  {
+    "id": "maquinas-034",
+    "question": "¿Qué parte del micrómetro permite realizar la lectura de las milésimas de milímetro mediante su giro?",
+    "options": ["El husillo y el tambor", "El nonio del calibre", "La regla graduada", "El mármol"],
+    "correctIndex": 0,
+    "explanation": "El husillo y el tambor",
+    "tags": ["Metrología", "2.1.16 Husillo y tambor"]
+  },
+  {
+    "id": "maquinas-035",
+    "question": "¿Qué tipo de micrómetro se emplea para medir diámetros interiores con tres puntos de contacto?",
+    "options": ["El micrómetro para interiores de tres puntas", "El micrómetro milesimal", "El calibre pasa no pasa", "El reloj comparador"],
+    "correctIndex": 0,
+    "explanation": "El micrómetro para interiores de tres puntas",
+    "tags": ["Metrología", "2.1.18 Micrómetro para interiores de tres puntas"]
+  },
+  {
+    "id": "maquinas-036",
+    "question": "¿Qué instrumento comparador permite detectar pequeñas variaciones dimensionales mediante una aguja indicadora?",
+    "options": ["El reloj comparador", "El gramil", "El compás", "La escuadra"],
+    "correctIndex": 0,
+    "explanation": "El reloj comparador",
+    "tags": ["Metrología", "2.2.1 Reloj comparador"]
+  },
+  {
+    "id": "maquinas-037",
+    "question": "¿Qué instrumento de verificación permite comprobar si una pieza está dentro de un rango de tolerancia aceptado, sin dar una medida exacta?",
+    "options": ["El calibre Pasa no Pasa", "El alexómetro", "El reloj comparador", "El micrómetro milesimal"],
+    "correctIndex": 0,
+    "explanation": "El calibre Pasa no Pasa",
+    "tags": ["Metrología", "2.3.4 Calibre Pasa no Pasa"]
+  },
+  {
+    "id": "maquinas-038",
+    "question": "¿Qué instrumento se utiliza para medir diámetros interiores con gran precisión, amplificando mecánicamente la medida?",
+    "options": ["El alexómetro", "El gramil", "El compás", "La regla graduada"],
+    "correctIndex": 0,
+    "explanation": "El alexómetro",
+    "tags": ["Metrología", "2.3.7 Alexómetro"]
+  },
+  {
+    "id": "maquinas-039",
+    "question": "¿Qué diferencia existe entre exactitud y precisión en una medición?",
+    "options": [
+      "La exactitud indica cercanía al valor real; la precisión indica la repetibilidad de las mediciones entre sí",
+      "Son sinónimos exactos",
+      "La precisión depende solo del operario",
+      "La exactitud depende solo del instrumento"
+    ],
+    "correctIndex": 0,
+    "explanation": "La exactitud indica cercanía al valor real; la precisión indica la repetibilidad de las mediciones entre sí",
+    "tags": ["Metrología", "1.5.10 Exactitud y precisión"]
+  },
+  {
+    "id": "maquinas-040",
+    "question": "¿Qué proceso es necesario realizar periódicamente sobre los instrumentos de medida para garantizar la fiabilidad de sus lecturas?",
+    "options": ["La calibración", "El engrasado", "El repintado", "El desmontaje total"],
+    "correctIndex": 0,
+    "explanation": "La calibración",
+    "tags": ["Metrología", "3. CALIBRACIÓN"]
+  },
+  {
+    "id": "maquinas-041",
+    "question": "¿Para qué está diseñado el torno de foso, según el manual de seguridad?",
+    "options": [
+      "Para el mecanizado de ruedas de ferrocarril de revolución y discos de freno",
+      "Para soldar chapas",
+      "Para pintar vehículos",
+      "Para calibrar instrumentos de medida"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para el mecanizado de ruedas de ferrocarril de revolución y discos de freno",
+    "tags": ["Torno de Foso", "6.1 USO PREVISTO DE LA MAQUINA"]
+  },
+  {
+    "id": "maquinas-042",
+    "question": "¿Cuál es la carga máxima de los ejes a tornear con apoyo en caja de grasa interior?",
+    "options": ["18.000 kg", "25.000 kg", "10.000 kg", "30.000 kg"],
+    "correctIndex": 0,
+    "explanation": "18.000 kg",
+    "tags": ["Torno de Foso", "6.1 USO PREVISTO DE LA MAQUINA"]
+  },
+  {
+    "id": "maquinas-043",
+    "question": "¿Cuál es la carga máxima de los ejes a tornear con apoyo exterior?",
+    "options": ["25.000 kg", "18.000 kg", "15.000 kg", "20.000 kg"],
+    "correctIndex": 0,
+    "explanation": "25.000 kg",
+    "tags": ["Torno de Foso", "6.1 USO PREVISTO DE LA MAQUINA"]
+  },
+  {
+    "id": "maquinas-044",
+    "question": "¿Qué color de semáforo de vía informa al tren de que NO puede circular sobre el torno de foso?",
+    "options": ["Rojo", "Verde", "Amarillo", "Azul"],
+    "correctIndex": 0,
+    "explanation": "Rojo",
+    "tags": ["Torno de Foso", "6.7 SEÑALIZACIÓN EN VÍA"]
+  },
+  {
+    "id": "maquinas-045",
+    "question": "¿Quién es responsable de la instalación de los semáforos de vía junto al torno de foso, según el manual?",
+    "options": ["El cliente (propietario de la instalación)", "El fabricante de la máquina en todo caso", "Renfe Operadora exclusivamente", "No es necesaria su instalación"],
+    "correctIndex": 0,
+    "explanation": "El cliente (propietario de la instalación)",
+    "tags": ["Torno de Foso", "6.7 SEÑALIZACIÓN EN VÍA"]
+  },
+  {
+    "id": "maquinas-046",
+    "question": "Durante la elevación de rodillos del torno de foso, ¿qué debe ocurrir con los frenos del tren?",
+    "options": [
+      "Deben estar libres durante la elevación, y frenarse los bogies anterior y posterior una vez concluido el proceso",
+      "Deben estar siempre aplicados",
+      "Es indiferente",
+      "Deben desmontarse"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deben estar libres durante la elevación, y frenarse los bogies anterior y posterior una vez concluido el proceso",
+    "tags": ["Torno de Foso", "6.8 ATENCIÓN ESPECIAL"]
+  },
+  {
+    "id": "maquinas-047",
+    "question": "Ante el peligro de alta tensión, ¿qué debe hacerse antes de trabajar en los circuitos eléctricos del torno de foso?",
+    "options": [
+      "Poner el interruptor principal en posición OFF y bloquearlo",
+      "Aumentar la tensión para verificar el circuito",
+      "Nada especial, se puede trabajar con tensión",
+      "Desconectar solo el panel de control"
+    ],
+    "correctIndex": 0,
+    "explanation": "Poner el interruptor principal en posición OFF y bloquearlo",
+    "tags": ["Torno de Foso", "6.8.1.1 Peligro: Alta Tensión"]
+  },
+  {
+    "id": "maquinas-048",
+    "question": "¿Qué cartel debe colocarse en los paneles de pulsadores cuando se realizan tareas de mantenimiento lejos del interruptor principal no bloqueado?",
+    "options": ["'NO PONER EN MARCHA'", "'PELIGRO DE MUERTE'", "'FUERA DE SERVICIO'", "No es necesario colocar ningún cartel"],
+    "correctIndex": 0,
+    "explanation": "'NO PONER EN MARCHA'",
+    "tags": ["Torno de Foso", "6.8.1.1 Peligro: Alta Tensión"]
+  },
+  {
+    "id": "maquinas-049",
+    "question": "¿Qué equipo de protección individual debe emplearse siempre cuando la máquina está mecanizando, para prevenir quemaduras o cortes por virutas?",
+    "options": ["La ropa de protección", "Solo el casco", "Solo las gafas", "Ningún EPI es obligatorio durante el mecanizado"],
+    "correctIndex": 0,
+    "explanation": "La ropa de protección",
+    "tags": ["Torno de Foso", "6.3 EQUIPO DE PROTECCIÓN INDIVIDUAL"]
+  },
+  {
+    "id": "maquinas-050",
+    "question": "¿Qué debe evitarse cerca de la cinta transportadora y el triturador de viruta cuando están en funcionamiento?",
+    "options": [
+      "Acercar partes del cuerpo u objetos a las charnelas de la cinta o a los dientes del triturador",
+      "Nada en especial, son elementos seguros",
+      "Solo evitar el ruido",
+      "Solo evitar la luz directa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Acercar partes del cuerpo u objetos a las charnelas de la cinta o a los dientes del triturador",
+    "tags": ["Torno de Foso", "6.8 ATENCIÓN ESPECIAL"]
+  }
+]

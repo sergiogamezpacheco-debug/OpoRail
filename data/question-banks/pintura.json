@@ -1,3205 +1,517 @@
-{
-  "name": "Pintura",
-  "questions": [
-    {
-      "id": "pi-001",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-002",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-003",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-004",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-005",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-006",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "No se registran"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-007",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-008",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-009",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-010",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Empeora secado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-011",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-012",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-013",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-014",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-015",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-016",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-017",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-018",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-019",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-020",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-021",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-022",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-023",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-024",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-025",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-026",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-027",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-028",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-029",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-030",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-031",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-032",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-033",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-034",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-035",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-036",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-037",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-038",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa color",
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-039",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-040",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-041",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-042",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-043",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-044",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-045",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-046",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-047",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-048",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-049",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "No afecta acabado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-050",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-051",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-052",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-053",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-054",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "No se registran"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-055",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-056",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-057",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-058",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-059",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-060",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-061",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-062",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-063",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-064",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-065",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-066",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-067",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-068",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-069",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-070",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-071",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-072",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-073",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-074",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-075",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-076",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-077",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-078",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-079",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-080",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-081",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-082",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-083",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "No influye en protección",
-        "Se define por intuición"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-084",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-085",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Sustituye lijado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-086",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-087",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-088",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-089",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-090",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-091",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-092",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-093",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-094",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-095",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-096",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-097",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-098",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-099",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-100",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-101",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-102",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-103",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-104",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-105",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-106",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-107",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-108",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-109",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-110",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-111",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-112",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-113",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-114",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-115",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Empeora secado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-116",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-117",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Se ocultan con barniz",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-118",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-119",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importa color",
-        "No influye en protección",
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-120",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-121",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Empeora secado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-122",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-123",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-124",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-125",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-126",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior",
-        "No se registran",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-127",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "No afecta acabado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-128",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-129",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-130",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-131",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-132",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-133",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "No afecta acabado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-134",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-135",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-136",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-137",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-138",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-139",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-140",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa color",
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-141",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Se ocultan con barniz",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-142",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "Empeora secado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-143",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Se define por intuición",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-144",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-145",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-146",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-147",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-148",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-149",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica"
-      ],
-      "correctIndex": 3,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-150",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-151",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-152",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-153",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Solo importan en exterior",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-154",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-155",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-156",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-157",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-158",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-159",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Se ocultan con barniz",
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-160",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-161",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-162",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-163",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-164",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-165",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-166",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Sustituye lijado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-167",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-168",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-169",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-170",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "Solo importa color",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-171",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran",
-        "Solo importan en exterior",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-172",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-173",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-174",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-175",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "Empeora secado",
-        "No afecta acabado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-176",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-177",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-178",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación"
-      ],
-      "correctIndex": 3,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-179",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "Se define por intuición",
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-180",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-181",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-182",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "Se define por intuición"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-183",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "Solo importan en exterior",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "No se registran"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-184",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "No afecta acabado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-185",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-186",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega"
-      ],
-      "correctIndex": 3,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-187",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta acabado",
-        "Empeora secado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-188",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No influye en protección",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "Solo importa color"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-189",
-      "question": "En relación con control de defectos, señala la afirmación correcta.",
-      "options": [
-        "Solo importan en exterior",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "No se registran"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-190",
-      "question": "Dentro de pintura ferroviaria, ¿qué opción es la más adecuada?",
-      "options": [
-        "Empeora secado",
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 2,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-191",
-      "question": "Respecto al apartado imprimación y acabado, ¿qué respuesta es válida?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color",
-        "No influye en protección",
-        "Se define por intuición"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-192",
-      "question": "Atendiendo a control de defectos, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No se registran",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Se ocultan con barniz",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 1,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-193",
-      "question": "En relación con preparación de superficies, señala la afirmación correcta.",
-      "options": [
-        "Desengrasar mejora adherencia de imprimación",
-        "Sustituye lijado",
-        "No afecta acabado",
-        "Empeora secado"
-      ],
-      "correctIndex": 0,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-194",
-      "question": "Dentro de aplicación, ¿qué opción es la más adecuada?",
-      "options": [
-        "El espesor de capa debe cumplir ficha técnica",
-        "Se define por intuición",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 0,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-195",
-      "question": "Respecto al apartado control de defectos, ¿qué respuesta es válida?",
-      "options": [
-        "No se registran",
-        "Se ocultan con barniz",
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior"
-      ],
-      "correctIndex": 2,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-196",
-      "question": "Atendiendo a preparación de superficies, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-197",
-      "question": "En relación con imprimación y acabado, señala la afirmación correcta.",
-      "options": [
-        "No influye en protección",
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica",
-        "Solo importa color"
-      ],
-      "correctIndex": 2,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    },
-    {
-      "id": "pi-198",
-      "question": "Dentro de calidad, ¿qué opción es la más adecuada?",
-      "options": [
-        "Descuelgues y poros deben corregirse antes de entrega",
-        "Solo importan en exterior",
-        "No se registran",
-        "Se ocultan con barniz"
-      ],
-      "correctIndex": 0,
-      "explanation": "Descuelgues y poros deben corregirse antes de entrega",
-      "tags": [
-        "Calidad",
-        "CONTROL DE DEFECTOS"
-      ]
-    },
-    {
-      "id": "pi-199",
-      "question": "Respecto al apartado preparación de superficies, ¿qué respuesta es válida?",
-      "options": [
-        "No afecta acabado",
-        "Desengrasar mejora adherencia de imprimación",
-        "Empeora secado",
-        "Sustituye lijado"
-      ],
-      "correctIndex": 1,
-      "explanation": "Desengrasar mejora adherencia de imprimación",
-      "tags": [
-        "Pintura ferroviaria",
-        "PREPARACIÓN DE SUPERFICIES"
-      ]
-    },
-    {
-      "id": "pi-200",
-      "question": "Atendiendo a imprimación y acabado, ¿cuál de las siguientes opciones es correcta?",
-      "options": [
-        "Se define por intuición",
-        "El espesor de capa debe cumplir ficha técnica",
-        "No influye en protección",
-        "Solo importa color"
-      ],
-      "correctIndex": 1,
-      "explanation": "El espesor de capa debe cumplir ficha técnica",
-      "tags": [
-        "Aplicación",
-        "IMPRIMACIÓN Y ACABADO"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "pintura-001",
+    "question": "¿Qué elemento de la pintura da lugar a la formación de la película, cubriendo la superficie y aglutinando los pigmentos?",
+    "options": ["La resina", "El disolvente", "El aditivo", "El pigmento"],
+    "correctIndex": 0,
+    "explanation": "La resina",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-002",
+    "question": "¿Cómo se denomina una pintura constituida solo por resina, sin pigmentos?",
+    "options": ["Barniz o laca", "Esmalte", "Imprimación", "Fondo"],
+    "correctIndex": 0,
+    "explanation": "Barniz o laca",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-003",
+    "question": "¿Qué son los pigmentos en la composición de una pintura?",
+    "options": [
+      "Partículas sólidas con diferentes finalidades: color, anticorrosivos, ignífugos, cargas de relleno, etc.",
+      "El vehículo volátil que se evapora",
+      "El elemento que da nombre a la pintura por su naturaleza química",
+      "Un tipo de disolvente orgánico"
+    ],
+    "correctIndex": 0,
+    "explanation": "Partículas sólidas con diferentes finalidades: color, anticorrosivos, ignífugos, cargas de relleno, etc.",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-004",
+    "question": "¿Qué son los aditivos en una formulación de pintura?",
+    "options": [
+      "Productos de actividad muy especializada añadidos en pequeñas concentraciones (dispersantes, humectantes, acelerantes, etc.)",
+      "El componente mayoritario de cualquier pintura",
+      "Sinónimo de disolvente",
+      "El pigmento principal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Productos de actividad muy especializada añadidos en pequeñas concentraciones (dispersantes, humectantes, acelerantes, etc.)",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-005",
+    "question": "¿Qué función cumplen los disolventes en una pintura?",
+    "options": [
+      "Constituyen el vehículo volátil que se evapora durante la formación de la película, facilitando la aplicación",
+      "Dan color a la pintura",
+      "Aportan resistencia mecánica final",
+      "Sustituyen a la resina"
+    ],
+    "correctIndex": 0,
+    "explanation": "Constituyen el vehículo volátil que se evapora durante la formación de la película, facilitando la aplicación",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-006",
+    "question": "¿Qué tipo de pinturas no contienen disolventes, según el manual?",
+    "options": ["Las pinturas en polvo", "Las pinturas epoxi", "Las pinturas de poliuretano", "Todas las pinturas contienen disolventes"],
+    "correctIndex": 0,
+    "explanation": "Las pinturas en polvo",
+    "tags": ["Tecnología de Pinturas Industriales", "2. Componentes básicos de una pintura"]
+  },
+  {
+    "id": "pintura-007",
+    "question": "¿Qué propiedad general destaca en las pinturas epoxi, según sus propiedades generales?",
+    "options": ["Muy buena adherencia a toda clase de soportes y gran tenacidad", "Muy baja resistencia química", "Nula resistencia al agua", "Escasa dureza superficial"],
+    "correctIndex": 0,
+    "explanation": "Muy buena adherencia a toda clase de soportes y gran tenacidad",
+    "tags": ["Tecnología de Pinturas Industriales", "3. Tipos de pinturas: tecnologías (Pinturas Epoxi)"]
+  },
+  {
+    "id": "pintura-008",
+    "question": "¿Cuál es una limitación de las pinturas epoxi, según el manual?",
+    "options": [
+      "Baja retención de color y brillo, con marcada tendencia a amarillear y calear a la intemperie",
+      "Nula resistencia química",
+      "Mala adherencia a cualquier soporte",
+      "Imposibilidad de usarlas como imprimación"
+    ],
+    "correctIndex": 0,
+    "explanation": "Baja retención de color y brillo, con marcada tendencia a amarillear y calear a la intemperie",
+    "tags": ["Tecnología de Pinturas Industriales", "3. Tipos de pinturas: tecnologías (Pinturas Epoxi)"]
+  },
+  {
+    "id": "pintura-009",
+    "question": "¿Para qué usos generales se recomiendan las pinturas epoxi, según el manual?",
+    "options": [
+      "Imprimaciones anticorrosivas y esmaltes/recubrimientos monocapa de gran resistencia química para interiores",
+      "Solo para pintar exteriores expuestos al sol",
+      "Solo como laca transparente final",
+      "Solo para vidrio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imprimaciones anticorrosivas y esmaltes/recubrimientos monocapa de gran resistencia química para interiores",
+    "tags": ["Tecnología de Pinturas Industriales", "3. Tipos de pinturas: tecnologías (Pinturas Epoxi)"]
+  },
+  {
+    "id": "pintura-010",
+    "question": "En la preparación de superficies, ¿qué proceso elimina las materias extrañas de tipo orgánico como grasa o aceite?",
+    "options": ["El desengrasado", "El decapado", "El chorreado", "El fondeado"],
+    "correctIndex": 0,
+    "explanation": "El desengrasado",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Desengrasado)"]
+  },
+  {
+    "id": "pintura-011",
+    "question": "¿Por qué el desengrasado por sí solo es un proceso insuficiente antes de pintar?",
+    "options": [
+      "Porque no produce la rugosidad que favorece la adherencia de la pintura",
+      "Porque elimina toda la corrosión",
+      "Porque deja la superficie demasiado brillante",
+      "Porque solo funciona sobre aluminio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Porque no produce la rugosidad que favorece la adherencia de la pintura",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Desengrasado)"]
+  },
+  {
+    "id": "pintura-012",
+    "question": "¿Qué proceso de preparación de superficies elimina materias extrañas de tipo inorgánico, como óxidos metálicos o calamina?",
+    "options": ["El decapado", "El desengrasado", "El chorreado", "El pintado"],
+    "correctIndex": 0,
+    "explanation": "El decapado",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Decapado)"]
+  },
+  {
+    "id": "pintura-013",
+    "question": "¿Qué medios se emplean para el decapado, según el manual?",
+    "options": [
+      "Medios químicos (baños ácidos) y medios mecánicos (abrasivos, lijado o cepillado)",
+      "Solo agua a presión",
+      "Solo disolventes orgánicos",
+      "Solo calor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Medios químicos (baños ácidos) y medios mecánicos (abrasivos, lijado o cepillado)",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Decapado)"]
+  },
+  {
+    "id": "pintura-014",
+    "question": "¿Qué proceso de preparación de superficies consiste en la limpieza por impacto de partículas abrasivas impulsadas a gran velocidad?",
+    "options": ["El chorreado", "El desengrasado", "El decapado químico", "El fondeado"],
+    "correctIndex": 0,
+    "explanation": "El chorreado",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Chorreado)"]
+  },
+  {
+    "id": "pintura-015",
+    "question": "¿Con qué materiales se puede realizar el chorreado, según el manual?",
+    "options": [
+      "Arena húmeda, vapor de agua o granalla (hierro, acero, aluminio, corindón, etc.)",
+      "Solo agua fría",
+      "Solo aire comprimido sin abrasivo",
+      "Solo disolvente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Arena húmeda, vapor de agua o granalla (hierro, acero, aluminio, corindón, etc.)",
+    "tags": ["Tecnología de Pinturas Industriales", "4. Preparación de superficies (Chorreado)"]
+  },
+  {
+    "id": "pintura-016",
+    "question": "¿Qué velocidad máxima de aire se recomienda en la cabina de pintura durante la aplicación?",
+    "options": ["No superior a 2 m/s", "20 m/s", "0,2 m/s", "No hay límite recomendado"],
+    "correctIndex": 0,
+    "explanation": "No superior a 2 m/s",
+    "tags": ["Tecnología de Pinturas Industriales", "5. Aplicación de pinturas industriales (Condiciones básicas)"]
+  },
+  {
+    "id": "pintura-017",
+    "question": "¿Qué ligera sobrepresión se recomienda mantener en la cabina de pintura?",
+    "options": ["5 Pa", "500 Pa", "50.000 Pa", "0 Pa"],
+    "correctIndex": 0,
+    "explanation": "5 Pa",
+    "tags": ["Tecnología de Pinturas Industriales", "5. Aplicación de pinturas industriales (Condiciones básicas)"]
+  },
+  {
+    "id": "pintura-018",
+    "question": "¿Cuál es la temperatura óptima de aplicación de la pintura, según el manual?",
+    "options": ["Entre 15 y 25 °C", "Entre 0 y 5 °C", "Entre 40 y 60 °C", "Entre -10 y 0 °C"],
+    "correctIndex": 0,
+    "explanation": "Entre 15 y 25 °C",
+    "tags": ["Tecnología de Pinturas Industriales", "5. Aplicación de pinturas industriales (Temperatura de aplicación)"]
+  },
+  {
+    "id": "pintura-019",
+    "question": "En un sistema de pintado de acabado monocapa, ¿qué capas se aplican, de la base a la superficie final?",
+    "options": [
+      "Imprimación, fondo/sellador y esmalte",
+      "Imprimación, base color y laca transparente",
+      "Solo esmalte directamente sobre metal",
+      "Solo laca transparente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imprimación, fondo/sellador y esmalte",
+    "tags": ["Tecnología de Pinturas Industriales", "6. Sistemas de pintado para trenes (Acabado monocapa)"]
+  },
+  {
+    "id": "pintura-020",
+    "question": "En un sistema de pintado de acabado bicapa, ¿qué capas se aplican, de la base a la superficie final?",
+    "options": [
+      "Imprimación, fondo/sellador, base color y laca transparente",
+      "Solo imprimación y esmalte",
+      "Solo fondo y laca",
+      "Imprimación y esmalte únicamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imprimación, fondo/sellador, base color y laca transparente",
+    "tags": ["Tecnología de Pinturas Industriales", "6. Sistemas de pintado para trenes (Acabado bicapa)"]
+  },
+  {
+    "id": "pintura-021",
+    "question": "¿Qué diferencia principal existe entre el acabado monocapa y el bicapa en los sistemas de pintado para trenes?",
+    "options": [
+      "El bicapa añade una base color y una laca transparente sobre el fondo/sellador, en lugar de un único esmalte",
+      "Son exactamente iguales",
+      "El monocapa lleva más capas que el bicapa",
+      "El bicapa no lleva imprimación"
+    ],
+    "correctIndex": 0,
+    "explanation": "El bicapa añade una base color y una laca transparente sobre el fondo/sellador, en lugar de un único esmalte",
+    "tags": ["Tecnología de Pinturas Industriales", "6. Sistemas de pintado para trenes"]
+  },
+  {
+    "id": "pintura-022",
+    "question": "¿Qué tipo de esmaltes se evalúan en el manual mediante ensayos de resistencia a ácidos, álcalis, disolventes y a la intemperie?",
+    "options": ["Esmaltes de poliuretano de 2 componentes", "Esmaltes al agua de 1 componente", "Esmaltes epoxi de secado UV", "Esmaltes celulósicos"],
+    "correctIndex": 0,
+    "explanation": "Esmaltes de poliuretano de 2 componentes",
+    "tags": ["Tecnología de Pinturas Industriales", "6. Sistemas de pintado (Esmaltes poliuretano 2 componentes)"]
+  },
+  {
+    "id": "pintura-023",
+    "question": "Dentro del control de calidad del producto terminado, ¿qué característica de la película seca hace referencia a la capacidad de la pintura de no agrietarse al doblar o deformar el soporte?",
+    "options": ["La flexibilidad", "El brillo", "El espesor", "La opacidad"],
+    "correctIndex": 0,
+    "explanation": "La flexibilidad",
+    "tags": ["Tecnología de Pinturas Industriales", "7. Control de calidad del producto terminado"]
+  },
+  {
+    "id": "pintura-024",
+    "question": "¿Qué característica de la película seca mide la capacidad de la pintura de resistir un golpe sin desprenderse ni agrietarse?",
+    "options": ["La resistencia al impacto", "El aspecto", "El secado", "El color"],
+    "correctIndex": 0,
+    "explanation": "La resistencia al impacto",
+    "tags": ["Tecnología de Pinturas Industriales", "7. Control de calidad del producto terminado"]
+  },
+  {
+    "id": "pintura-025",
+    "question": "Además de aspecto, brillo y color, ¿qué otras características se controlan en la película seca de una pintura?",
+    "options": [
+      "Espesor, opacidad, secado, flexibilidad, impacto, adherencia, resistencia a la corrosión, a la intemperie y amarillamiento",
+      "Solo el precio del producto",
+      "Solo el olor",
+      "Solo el tiempo de fabricación"
+    ],
+    "correctIndex": 0,
+    "explanation": "Espesor, opacidad, secado, flexibilidad, impacto, adherencia, resistencia a la corrosión, a la intemperie y amarillamiento",
+    "tags": ["Tecnología de Pinturas Industriales", "7. Control de calidad del producto terminado"]
+  },
+  {
+    "id": "pintura-026",
+    "question": "¿Qué defecto de pintura se caracteriza por un aspecto defectuoso de la película y reparación difícil, causado porque la superficie seca más rápido que el fondo o por una aplicación en capas espesas?",
+    "options": ["El arrugamiento", "El descolgamiento", "La eflorescencia", "El cráter"],
+    "correctIndex": 0,
+    "explanation": "El arrugamiento",
+    "tags": ["Tecnología de Pinturas Industriales", "8. Defectos más comunes (Arrugamiento)"]
+  },
+  {
+    "id": "pintura-027",
+    "question": "¿Qué defecto de pintura se produce por una aplicación demasiado cargada o irregular, o por excesiva dilución, con riesgo de arrugamiento posterior?",
+    "options": ["El descolgamiento", "El arrugamiento", "La eflorescencia", "El amarillamiento"],
+    "correctIndex": 0,
+    "explanation": "El descolgamiento",
+    "tags": ["Tecnología de Pinturas Industriales", "8. Defectos más comunes (Descolgamientos)"]
+  },
+  {
+    "id": "pintura-028",
+    "question": "¿Qué defecto se produce cuando el sustrato tiene trazas alcalinas o ácidas, y se soluciona empleando pinturas especiales sobre material alcalino?",
+    "options": ["La eflorescencia", "El arrugamiento", "El descolgamiento", "El cráter"],
+    "correctIndex": 0,
+    "explanation": "La eflorescencia",
+    "tags": ["Tecnología de Pinturas Industriales", "8. Defectos comprobados durante la exposición (Eflorescencias)"]
+  },
+  {
+    "id": "pintura-029",
+    "question": "¿Qué defecto se produce por aplicar pintura relativamente impermeable sobre un sustrato húmedo, o antes del secado completo del fondo?",
+    "options": ["El ampollamiento", "El arrugamiento", "La decoloración", "El amarillamiento"],
+    "correctIndex": 0,
+    "explanation": "El ampollamiento",
+    "tags": ["Tecnología de Pinturas Industriales", "8. Defectos comprobados durante la exposición (Ampollamiento)"]
+  },
+  {
+    "id": "pintura-030",
+    "question": "¿Qué remedio se propone frente al defecto de amarilleamiento de la película de pintura con el paso del tiempo?",
+    "options": ["Emplear pinturas que amarilleen poco", "Aumentar el espesor de la capa", "Aplicar más capas de la misma pintura", "No existe remedio posible"],
+    "correctIndex": 0,
+    "explanation": "Emplear pinturas que amarilleen poco",
+    "tags": ["Tecnología de Pinturas Industriales", "8. Defectos comprobados durante la exposición (Amarilleamiento)"]
+  },
+  {
+    "id": "pintura-031",
+    "question": "¿Cuál es el objeto del Real Decreto 374/2001 sobre agentes químicos?",
+    "options": [
+      "Establecer las disposiciones mínimas para la protección de los trabajadores contra los riesgos derivados de la presencia de agentes químicos en el lugar de trabajo",
+      "Regular el transporte de mercancías por carretera",
+      "Establecer el salario mínimo interprofesional",
+      "Regular la jornada laboral"
+    ],
+    "correctIndex": 0,
+    "explanation": "Establecer las disposiciones mínimas para la protección de los trabajadores contra los riesgos derivados de la presencia de agentes químicos en el lugar de trabajo",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 1. Objeto y ámbito de aplicación"]
+  },
+  {
+    "id": "pintura-032",
+    "question": "¿En el marco de qué ley se enmarca el Real Decreto 374/2001?",
+    "options": ["La Ley 31/1995 de Prevención de Riesgos Laborales", "El Estatuto de los Trabajadores", "El Código Penal", "La Ley de Seguridad Vial"],
+    "correctIndex": 0,
+    "explanation": "La Ley 31/1995 de Prevención de Riesgos Laborales",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 1. Objeto y ámbito de aplicación"]
+  },
+  {
+    "id": "pintura-033",
+    "question": "Según el Artículo 2 del RD 374/2001, ¿qué se entiende por 'agente químico'?",
+    "options": [
+      "Todo elemento o compuesto químico, solo o mezclado, tal como se presenta en estado natural o es producido, utilizado o vertido en una actividad laboral",
+      "Solo las sustancias etiquetadas como tóxicas",
+      "Solo los gases inflamables",
+      "Solo los productos de limpieza"
+    ],
+    "correctIndex": 0,
+    "explanation": "Todo elemento o compuesto químico, solo o mezclado, tal como se presenta en estado natural o es producido, utilizado o vertido en una actividad laboral",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones"]
+  },
+  {
+    "id": "pintura-034",
+    "question": "¿Qué se entiende por 'exposición a un agente químico', según el RD 374/2001?",
+    "options": [
+      "La presencia de un agente químico en el lugar de trabajo que implica el contacto de este con el trabajador, normalmente por inhalación o vía dérmica",
+      "La simple existencia del agente en el almacén, sin contacto posible",
+      "Solo el contacto por vía digestiva",
+      "Solo la exposición accidental"
+    ],
+    "correctIndex": 0,
+    "explanation": "La presencia de un agente químico en el lugar de trabajo que implica el contacto de este con el trabajador, normalmente por inhalación o vía dérmica",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones"]
+  },
+  {
+    "id": "pintura-035",
+    "question": "¿Qué se entiende por 'peligro' de un agente químico, según el RD 374/2001?",
+    "options": [
+      "La capacidad intrínseca de un agente químico para causar daño",
+      "La probabilidad de que ocurra un accidente",
+      "El coste económico derivado de un accidente",
+      "El tiempo de exposición diario"
+    ],
+    "correctIndex": 0,
+    "explanation": "La capacidad intrínseca de un agente químico para causar daño",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones"]
+  },
+  {
+    "id": "pintura-036",
+    "question": "¿Qué se entiende por 'riesgo' derivado de agentes químicos, según el RD 374/2001?",
+    "options": [
+      "La posibilidad de que un trabajador sufra un determinado daño derivado de la exposición, valorando probabilidad y severidad",
+      "Únicamente la severidad del daño",
+      "Únicamente la probabilidad de exposición",
+      "La cantidad de producto almacenado"
+    ],
+    "correctIndex": 0,
+    "explanation": "La posibilidad de que un trabajador sufra un determinado daño derivado de la exposición, valorando probabilidad y severidad",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones"]
+  },
+  {
+    "id": "pintura-037",
+    "question": "¿Qué dos factores deben valorarse conjuntamente para calificar un riesgo por agentes químicos según su gravedad?",
+    "options": ["La probabilidad de que se produzca el daño y la severidad del mismo", "Solo el precio del producto", "Solo la cantidad almacenada", "Solo la fecha de caducidad del producto"],
+    "correctIndex": 0,
+    "explanation": "La probabilidad de que se produzca el daño y la severidad del mismo",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones"]
+  },
+  {
+    "id": "pintura-038",
+    "question": "¿Qué actividades quedan prohibidas según el Artículo 8 del RD 374/2001?",
+    "options": [
+      "La producción, fabricación o utilización de determinados agentes químicos y actividades recogidas en el Anexo III",
+      "Todas las actividades con disolventes orgánicos sin excepción",
+      "El uso de cualquier pintura industrial",
+      "El transporte de mercancías peligrosas en general"
+    ],
+    "correctIndex": 0,
+    "explanation": "La producción, fabricación o utilización de determinados agentes químicos y actividades recogidas en el Anexo III",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 8. Prohibiciones"]
+  },
+  {
+    "id": "pintura-039",
+    "question": "¿Qué actividades quedan exceptuadas de la prohibición general del Artículo 8?",
+    "options": [
+      "Las actividades de investigación y experimentación científica, y las de eliminación de agentes como subproductos o residuos",
+      "Ninguna, la prohibición es absoluta",
+      "Solo las actividades militares",
+      "Solo las actividades de más de 40 años de antigüedad"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las actividades de investigación y experimentación científica, y las de eliminación de agentes como subproductos o residuos",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 8. Prohibiciones"]
+  },
+  {
+    "id": "pintura-040",
+    "question": "En los casos exceptuados de la prohibición del artículo 8, ¿qué debe garantizar el empresario respecto a la exposición de los trabajadores?",
+    "options": [
+      "Tomar las precauciones apropiadas para proteger la seguridad y salud de los trabajadores, evitando su exposición",
+      "No tiene obligación adicional alguna",
+      "Solo informar verbalmente sin más medidas",
+      "Solo asegurar el transporte del producto"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tomar las precauciones apropiadas para proteger la seguridad y salud de los trabajadores, evitando su exposición",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 8. Prohibiciones"]
+  },
+  {
+    "id": "pintura-041",
+    "question": "¿Qué establece el Artículo 9 del RD 374/2001 respecto a los trabajadores?",
+    "options": [
+      "La información y formación de los trabajadores sobre los agentes químicos presentes en su puesto de trabajo",
+      "El salario que deben percibir",
+      "El horario laboral",
+      "Las vacaciones anuales"
+    ],
+    "correctIndex": 0,
+    "explanation": "La información y formación de los trabajadores sobre los agentes químicos presentes en su puesto de trabajo",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 9. Información y formación de los trabajadores"]
+  },
+  {
+    "id": "pintura-042",
+    "question": "¿Qué regula el Artículo 10 del RD 374/2001?",
+    "options": ["La consulta y participación de los trabajadores en materia de agentes químicos", "El régimen sancionador", "Los precios de los EPI", "El calendario laboral"],
+    "correctIndex": 0,
+    "explanation": "La consulta y participación de los trabajadores en materia de agentes químicos",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 10. Consulta y participación de los trabajadores"]
+  },
+  {
+    "id": "pintura-043",
+    "question": "¿Qué regula el Artículo 6 del RD 374/2001?",
+    "options": [
+      "La vigilancia de la salud de los trabajadores expuestos a agentes químicos",
+      "La vigilancia por videocámaras del centro de trabajo",
+      "El control de accesos al almacén",
+      "La vigilancia de la calidad del producto final"
+    ],
+    "correctIndex": 0,
+    "explanation": "La vigilancia de la salud de los trabajadores expuestos a agentes químicos",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 6. Vigilancia de la salud"]
+  },
+  {
+    "id": "pintura-044",
+    "question": "¿Qué establece el Artículo 7 del RD 374/2001?",
+    "options": [
+      "Las medidas a adoptar frente a accidentes, incidentes y emergencias relacionados con agentes químicos",
+      "Las medidas de ascenso profesional",
+      "Las medidas de conciliación familiar",
+      "Las medidas de movilidad geográfica"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las medidas a adoptar frente a accidentes, incidentes y emergencias relacionados con agentes químicos",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 7. Medidas a adoptar frente a accidentes, incidentes y emergencias"]
+  },
+  {
+    "id": "pintura-045",
+    "question": "¿Qué determina el Artículo 3 del RD 374/2001?",
+    "options": ["Los criterios para la evaluación de los riesgos derivados de agentes químicos", "El salario base de los trabajadores", "El horario de los turnos", "El número de vacaciones anuales"],
+    "correctIndex": 0,
+    "explanation": "Los criterios para la evaluación de los riesgos derivados de agentes químicos",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 3. Evaluación de los riesgos"]
+  },
+  {
+    "id": "pintura-046",
+    "question": "El Valor Límite Ambiental de Exposición Diaria (VLA-ED) se compara con la concentración de un agente químico ponderada normalmente durante:",
+    "options": ["Toda la jornada laboral, referida a un periodo de 8 horas", "Solo el primer minuto de exposición", "Solo los fines de semana", "Solo durante las vacaciones"],
+    "correctIndex": 0,
+    "explanation": "Toda la jornada laboral, referida a un periodo de 8 horas",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Apéndice 4. Método de evaluación de la exposición por inhalación"]
+  },
+  {
+    "id": "pintura-047",
+    "question": "¿Cómo se distribuyen habitualmente, según una ley de probabilidad, los valores de concentración de un agente químico en el aire?",
+    "options": ["Siguiendo una ley logarítmico-normal", "Siempre de forma uniforme", "Siempre de forma constante, sin variación", "De forma aleatoria sin ningún patrón"],
+    "correctIndex": 0,
+    "explanation": "Siguiendo una ley logarítmico-normal",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Apéndice 4"]
+  },
+  {
+    "id": "pintura-048",
+    "question": "¿Qué vías de entrada al organismo considera principalmente el RD 374/2001 para la evaluación del riesgo por agentes químicos?",
+    "options": ["Principalmente la inhalación y la vía dérmica", "Solo la vía digestiva", "Solo la vía parenteral", "Ninguna vía en concreto"],
+    "correctIndex": 0,
+    "explanation": "Principalmente la inhalación y la vía dérmica",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "Artículo 2. Definiciones / Apéndice 4"]
+  },
+  {
+    "id": "pintura-049",
+    "question": "¿Qué apéndice de la Guía Técnica trata sobre los criterios para la elección y utilización de equipos de protección individual frente a agentes químicos?",
+    "options": ["El Apéndice 8", "El Apéndice 1", "El Apéndice 3", "El Apéndice 5"],
+    "correctIndex": 0,
+    "explanation": "El Apéndice 8",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "III. Apéndices (Apéndice 8)"]
+  },
+  {
+    "id": "pintura-050",
+    "question": "¿Qué apéndice trata sobre las técnicas de ventilación para el control de agentes químicos en el lugar de trabajo?",
+    "options": ["El Apéndice 7", "El Apéndice 2", "El Apéndice 4", "El Apéndice 6"],
+    "correctIndex": 0,
+    "explanation": "El Apéndice 7",
+    "tags": ["Guía Técnica de Prevención de Agentes Químicos", "III. Apéndices (Apéndice 7)"]
+  }
+]
