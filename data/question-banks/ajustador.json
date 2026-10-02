@@ -22,11 +22,11 @@
       "question": "¿Cómo se denomina el motor cuya combustión se produce por el salto de una chispa en la bujía?",
       "options": [
         "Motor de Encendido por Compresión (MEC)",
-        "Motor de Encendido Provocado (MEP) o de Ciclo Otto",
         "Motor diésel-hidráulico",
-        "Motor de dos tiempos Uniflow"
+        "Motor de dos tiempos Uniflow",
+        "Motor de Encendido Provocado (MEP) o de Ciclo Otto"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Motor de Encendido Provocado (MEP) o de Ciclo Otto",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -37,12 +37,12 @@
       "id": "ajustador-003",
       "question": "¿Qué es el Punto Muerto Superior (PMS) en un motor diésel?",
       "options": [
-        "Cuando el pistón alcanza la cota más próxima a la cámara de combustión",
         "Cuando el pistón alcanza la cota más alejada de la cámara de combustión",
         "La distancia que recorre el pistón entre PMS y PMI",
-        "El diámetro interior del cilindro"
+        "El diámetro interior del cilindro",
+        "Cuando el pistón alcanza la cota más próxima a la cámara de combustión"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Cuando el pistón alcanza la cota más próxima a la cámara de combustión",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -53,12 +53,12 @@
       "id": "ajustador-004",
       "question": "¿Qué es la Carrera (C) de un motor diésel?",
       "options": [
-        "El diámetro interior del cilindro",
         "La distancia que recorre el pistón dentro del cilindro entre el PMS y el PMI",
+        "El diámetro interior del cilindro",
         "El punto más próximo a la cámara de combustión",
         "El volumen de la cámara de combustión"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "La distancia que recorre el pistón dentro del cilindro entre el PMS y el PMI",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -69,12 +69,12 @@
       "id": "ajustador-005",
       "question": "En el ciclo diésel, ¿cómo se regula la carga (potencia) del motor?",
       "options": [
-        "De forma cualitativa: varía la proporción de combustible inyectado según la demanda de potencia, admitiendo siempre la mayor cantidad de aire posible",
         "De forma cuantitativa, variando la mezcla aire-combustible antes de la admisión",
+        "De forma cualitativa: varía la proporción de combustible inyectado según la demanda de potencia, admitiendo siempre la mayor cantidad de aire posible",
         "Mediante el cierre parcial de la válvula de admisión de aire",
         "No se regula, funciona siempre a carga constante"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "De forma cualitativa: varía la proporción de combustible inyectado según la demanda de potencia, admitiendo siempre la mayor cantidad de aire posible",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -87,10 +87,10 @@
       "options": [
         "Solo de cuatro tiempos",
         "Solo de dos tiempos",
-        "De dos tiempos o de cuatro tiempos",
-        "Ninguno, todos son eléctricos"
+        "Ninguno, todos son eléctricos",
+        "De dos tiempos o de cuatro tiempos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "De dos tiempos o de cuatro tiempos",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -101,12 +101,12 @@
       "id": "ajustador-007",
       "question": "En los motores GM EMD montados en las series S/333, 334 y 335, ¿qué sistema de sobrealimentación sustituye a los sopladores tipo Roots?",
       "options": [
-        "El turbo-compresor, que aprovecha la presión de los gases de escape",
         "Un compresor de tornillo",
         "Un ventilador centrífugo auxiliar",
-        "No llevan sistema de sobrealimentación"
+        "No llevan sistema de sobrealimentación",
+        "El turbo-compresor, que aprovecha la presión de los gases de escape"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El turbo-compresor, que aprovecha la presión de los gases de escape",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -117,12 +117,12 @@
       "id": "ajustador-008",
       "question": "¿Cuál es la presión máxima de rendimiento que puede alcanzar un soplador tipo Roots?",
       "options": [
-        "1 bar",
         "5 bar",
         "0,1 bar",
+        "1 bar",
         "10 bar"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "1 bar",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -133,12 +133,12 @@
       "id": "ajustador-009",
       "question": "¿A qué presión aproximada se ajusta la válvula del circuito de retorno de combustible para mantener la presión de transferencia?",
       "options": [
-        "A unos 0,35 bar",
         "A unos 10 bar",
+        "A unos 0,35 bar",
         "A 1 bar",
         "A 10 psi"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "A unos 0,35 bar",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -165,12 +165,12 @@
       "id": "ajustador-011",
       "question": "En el motor EMD 16-710 G3B-T2 de las locomotoras S/335, ¿qué sustituye al regulador Woodward tradicional?",
       "options": [
-        "Un procesador electrónico (EMDEC)",
         "Un soplador Roots",
         "Un convertidor de par mecánico",
-        "Un turbocompresor de accionamiento mecánico"
+        "Un turbocompresor de accionamiento mecánico",
+        "Un procesador electrónico (EMDEC)"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Un procesador electrónico (EMDEC)",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -182,11 +182,11 @@
       "question": "Además de regular la velocidad, ¿qué otra función importante tiene el regulador (Woodward) de un motor diésel?",
       "options": [
         "Ninguna otra función",
-        "Parar el motor cuando se activa alguna vigilancia, como la caída de presión de aceite lubricante",
         "Regular la temperatura del refrigerante",
+        "Parar el motor cuando se activa alguna vigilancia, como la caída de presión de aceite lubricante",
         "Controlar el pantógrafo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Parar el motor cuando se activa alguna vigilancia, como la caída de presión de aceite lubricante",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -197,12 +197,12 @@
       "id": "ajustador-013",
       "question": "¿Cuántos circuitos se distinguen en el circuito de lubricación de este tipo de motores diésel?",
       "options": [
+        "Tres",
         "Uno",
         "Dos",
-        "Tres",
         "Cuatro"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Tres",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -213,12 +213,12 @@
       "id": "ajustador-014",
       "question": "¿Qué elementos son los encargados de suministrar aire limpio a los sopladores/turbocompresores, evitando daños por impurezas?",
       "options": [
-        "Los filtros de aire",
         "Los inyectores",
+        "Los filtros de aire",
         "Los decantadores de agua",
         "El cárter"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Los filtros de aire",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -229,12 +229,12 @@
       "id": "ajustador-015",
       "question": "Respecto a la transmisión diésel-mecánica en automotores, ¿qué elementos transmiten el par motor a los ejes?",
       "options": [
-        "Embrague, caja de cambios e inversor",
         "Generador, convertidor y motores eléctricos",
         "Convertidor de par hidráulico únicamente",
+        "Embrague, caja de cambios e inversor",
         "Cardan y reductor únicamente"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Embrague, caja de cambios e inversor",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -261,12 +261,12 @@
       "id": "ajustador-017",
       "question": "A diferencia de la transmisión diésel-eléctrica de las locomotoras, ¿qué dos tipos de transmisión disponen los automotores diésel para transmitir el par a los ejes?",
       "options": [
-        "Transmisión diésel-mecánica y transmisión diésel-hidráulica",
         "Transmisión por cardan y por correa",
         "Transmisión directa e indirecta",
-        "Transmisión eléctrica y neumática"
+        "Transmisión eléctrica y neumática",
+        "Transmisión diésel-mecánica y transmisión diésel-hidráulica"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Transmisión diésel-mecánica y transmisión diésel-hidráulica",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -277,12 +277,12 @@
       "id": "ajustador-018",
       "question": "¿A qué serie de locomotora corresponde el motor diésel de dos tiempos mostrado como ejemplo en el manual (Figura 1-2)?",
       "options": [
-        "Loc. S/334",
         "Loc. S/252",
+        "Loc. S/334",
         "Loc. S/103",
         "UT S/440"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Loc. S/334",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -293,12 +293,12 @@
       "id": "ajustador-019",
       "question": "¿Qué componentes forman un conjunto inseparable dentro del sistema de inyección de combustible?",
       "options": [
-        "Los émbolos y sus cilindros, así como la aguja y la tobera del inyector",
         "El regulador y el turbocompresor",
         "El embrague y la caja de cambios",
+        "Los émbolos y sus cilindros, así como la aguja y la tobera del inyector",
         "El cárter y el cigüeñal"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Los émbolos y sus cilindros, así como la aguja y la tobera del inyector",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
@@ -309,29 +309,28 @@
       "id": "ajustador-020",
       "question": "¿Quién mueve las bombas de inyección de combustible, y en qué secuencia lo hace?",
       "options": [
-        "Los árboles de levas, en la secuencia correspondiente al orden de encendido del motor",
         "El regulador Woodward directamente",
         "El turbocompresor",
-        "La caja de cambios"
+        "La caja de cambios",
+        "Los árboles de levas, en la secuencia correspondiente al orden de encendido del motor"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Los árboles de levas, en la secuencia correspondiente al orden de encendido del motor",
       "tags": [
         "Tracción Diésel (Motores térmicos)",
         "3.8 ALIMENTACIÓN DE COMBUSTIBLE"
       ]
     },
-
     {
       "id": "ajustador-021",
       "question": "¿Qué es la neumática, según la definición del manual?",
       "options": [
-        "La tecnología que emplea el aire comprimido como medio de transmisión de la energía necesaria para mover y hacer funcionar mecanismos",
         "La ciencia que estudia los fluidos hidráulicos",
         "La disciplina que estudia los circuitos eléctricos de baja tensión",
-        "El estudio de los gases licuados"
+        "El estudio de los gases licuados",
+        "La tecnología que emplea el aire comprimido como medio de transmisión de la energía necesaria para mover y hacer funcionar mecanismos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "La tecnología que emplea el aire comprimido como medio de transmisión de la energía necesaria para mover y hacer funcionar mecanismos",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -342,12 +341,12 @@
       "id": "ajustador-022",
       "question": "¿Por qué es importante el tratamiento y acondicionamiento del aire comprimido en los sistemas neumáticos ferroviarios?",
       "options": [
-        "Un aire contaminado por agua, barros o carbón acorta la vida de los componentes y disminuye la fiabilidad del sistema",
         "No tiene ninguna importancia real",
         "Solo afecta al confort de los viajeros",
+        "Un aire contaminado por agua, barros o carbón acorta la vida de los componentes y disminuye la fiabilidad del sistema",
         "Solo es relevante en climas muy fríos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Un aire contaminado por agua, barros o carbón acorta la vida de los componentes y disminuye la fiabilidad del sistema",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -358,12 +357,12 @@
       "id": "ajustador-023",
       "question": "Dentro de la unidad de fabricación y acondicionamiento de aire, ¿qué elemento se encarga de eliminar la humedad del aire comprimido?",
       "options": [
-        "El secador",
         "El compresor",
         "Las válvulas de seguridad",
+        "El secador",
         "Los depósitos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El secador",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -374,12 +373,12 @@
       "id": "ajustador-024",
       "question": "¿Qué función cumple la llave de aislamiento para TFA y TDP?",
       "options": [
-        "Aislar los circuitos de freno (TFA) y de alimentación (TDP) para labores de mantenimiento",
         "Medir la presión del circuito",
         "Convertir una señal eléctrica en neumática",
-        "Amplificar el caudal de aire"
+        "Amplificar el caudal de aire",
+        "Aislar los circuitos de freno (TFA) y de alimentación (TDP) para labores de mantenimiento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Aislar los circuitos de freno (TFA) y de alimentación (TDP) para labores de mantenimiento",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -390,12 +389,12 @@
       "id": "ajustador-025",
       "question": "¿Qué elemento del sistema neumático amplifica el caudal de aire en el circuito de freno?",
       "options": [
-        "El relé de freno (amplificador de caudal)",
         "El manómetro",
+        "El relé de freno (amplificador de caudal)",
         "El presostato",
         "La válvula de flujo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El relé de freno (amplificador de caudal)",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -406,12 +405,12 @@
       "id": "ajustador-026",
       "question": "¿Qué fabricantes de convertidores electroneumáticos (EPC) se citan en el manual?",
       "options": [
-        "Faiveley y Knorr",
         "Siemens y Alstom",
         "Bombardier y CAF",
+        "Faiveley y Knorr",
         "BASF y Talgo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Faiveley y Knorr",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -422,12 +421,12 @@
       "id": "ajustador-027",
       "question": "¿Cuántos tipos de freno se describen en el apartado 'Diferentes formas de frenar'?",
       "options": [
-        "Seis: directo, indirecto automático, estacionamiento, auxilio, urgencia y antibloqueo",
         "Tres",
         "Dos",
+        "Seis: directo, indirecto automático, estacionamiento, auxilio, urgencia y antibloqueo",
         "Cuatro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Seis: directo, indirecto automático, estacionamiento, auxilio, urgencia y antibloqueo",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -438,12 +437,12 @@
       "id": "ajustador-028",
       "question": "¿Qué caracteriza al freno directo, a diferencia del freno indirecto automático?",
       "options": [
-        "Acciona directamente sobre los cilindros de freno, sin pasar por el distribuidor",
         "Actúa mediante la presión de control sobre el distribuidor",
+        "Acciona directamente sobre los cilindros de freno, sin pasar por el distribuidor",
         "Solo se usa en caso de emergencia",
         "Es exclusivo de los vehículos remolcados"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Acciona directamente sobre los cilindros de freno, sin pasar por el distribuidor",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -454,12 +453,12 @@
       "id": "ajustador-029",
       "question": "¿Qué es el freno de urgencia?",
       "options": [
-        "El tipo de frenado que provoca la máxima deceleración posible ante una situación de emergencia",
         "El freno habitual de servicio",
         "El freno de estacionamiento manual",
-        "Un sistema exclusivamente hidráulico"
+        "Un sistema exclusivamente hidráulico",
+        "El tipo de frenado que provoca la máxima deceleración posible ante una situación de emergencia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El tipo de frenado que provoca la máxima deceleración posible ante una situación de emergencia",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -470,12 +469,12 @@
       "id": "ajustador-030",
       "question": "¿Qué sistema evita el bloqueo de las ruedas durante una frenada intensa?",
       "options": [
-        "El antibloqueo",
         "El freno de auxilio",
+        "El antibloqueo",
         "El freno directo",
         "El distribuidor de freno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El antibloqueo",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -486,12 +485,12 @@
       "id": "ajustador-031",
       "question": "¿Qué elemento del distribuidor de freno permite seleccionar entre los modos Viajeros/Mercancías y Pasajero/Genérico (V/M-P/G)?",
       "options": [
-        "La palanca selectora",
         "El depósito auxiliar de freno",
         "La válvula de vaciado",
-        "La llave de aislamiento del distribuidor"
+        "La llave de aislamiento del distribuidor",
+        "La palanca selectora"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "La palanca selectora",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -502,12 +501,12 @@
       "id": "ajustador-032",
       "question": "¿Qué depósito almacena la reserva de aire necesaria para la actuación del distribuidor de freno?",
       "options": [
-        "El depósito auxiliar de freno",
         "El depósito de control únicamente",
         "El depósito de la TFA",
-        "El tanque de combustible"
+        "El tanque de combustible",
+        "El depósito auxiliar de freno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El depósito auxiliar de freno",
       "tags": [
         "FTV Básico Neumática y Freno",
@@ -550,29 +549,28 @@
       "id": "ajustador-035",
       "question": "¿Qué válvula impide el retroceso del aire, permitiendo el flujo en un único sentido?",
       "options": [
-        "La válvula de retención",
         "La válvula de flujo",
+        "La válvula de retención",
         "El presostato",
         "El relé de freno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "La válvula de retención",
       "tags": [
         "FTV Básico Neumática y Freno",
         "5.6 VÁLVULAS DE RETENCIÓN"
       ]
     },
-
     {
       "id": "ajustador-036",
       "question": "¿Cómo se define un bogie según el manual?",
       "options": [
-        "El conjunto-estructura que soporta un número determinado de ejes (normalmente dos o tres), conectado de manera articulada al bastidor del vehículo",
         "Un tipo de motor de tracción",
+        "El conjunto-estructura que soporta un número determinado de ejes (normalmente dos o tres), conectado de manera articulada al bastidor del vehículo",
         "Un sistema de frenado neumático",
         "Un elemento exclusivo de las locomotoras diésel"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El conjunto-estructura que soporta un número determinado de ejes (normalmente dos o tres), conectado de manera articulada al bastidor del vehículo",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -583,12 +581,12 @@
       "id": "ajustador-037",
       "question": "¿Qué elemento tiene la misión de asegurar la unión entre los ejes y el bastidor, alojando la suspensión primaria?",
       "options": [
-        "La caja de grasa",
         "El pantógrafo",
+        "La caja de grasa",
         "El disco de freno",
         "El gancho de tracción"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "La caja de grasa",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -599,12 +597,12 @@
       "id": "ajustador-038",
       "question": "¿Qué diferencia principal tiene un vehículo ferroviario respecto a otros vehículos de transporte terrestre, en cuanto al bogie?",
       "options": [
-        "El sistema de guiado, proporcionado por los carriles",
         "El número de ruedas",
         "El tipo de neumáticos",
+        "El sistema de guiado, proporcionado por los carriles",
         "La ausencia de suspensión"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El sistema de guiado, proporcionado por los carriles",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -615,12 +613,12 @@
       "id": "ajustador-039",
       "question": "Según su función, ¿en qué dos tipos se clasifican los bogies?",
       "options": [
-        "Bogies motores y bogies portantes",
         "Bogies de dos y tres ejes",
         "Bogies rígidos y articulados",
+        "Bogies motores y bogies portantes",
         "Bogies primarios y secundarios"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Bogies motores y bogies portantes",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -631,12 +629,12 @@
       "id": "ajustador-040",
       "question": "¿Cómo se denomina el bogie de mercancías citado específicamente en el manual?",
       "options": [
-        "Bogie tipo Y-21",
         "Bogie tipo S104",
+        "Bogie tipo Y-21",
         "Bogie tipo MVB",
         "Bogie tipo WTB"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Bogie tipo Y-21",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -647,12 +645,12 @@
       "id": "ajustador-041",
       "question": "¿Qué tipos de transmisión indirecta se citan para unir el motor con el eje montado?",
       "options": [
-        "Por coronas dentadas, elástica con engranajes y por eje Cardan",
         "Solo por correa dentada",
         "Únicamente hidrostática",
+        "Por coronas dentadas, elástica con engranajes y por eje Cardan",
         "Solo por cadena"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Por coronas dentadas, elástica con engranajes y por eje Cardan",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -663,12 +661,12 @@
       "id": "ajustador-042",
       "question": "¿Qué diferencia hay entre la suspensión primaria y la secundaria de un bogie?",
       "options": [
-        "La primaria actúa entre el eje y el bastidor del bogie; la secundaria entre el bastidor del bogie y la caja del vehículo",
         "Son sinónimos",
         "La secundaria solo existe en vagones de mercancías",
-        "La primaria es siempre neumática y la secundaria siempre metálica"
+        "La primaria es siempre neumática y la secundaria siempre metálica",
+        "La primaria actúa entre el eje y el bastidor del bogie; la secundaria entre el bastidor del bogie y la caja del vehículo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "La primaria actúa entre el eje y el bastidor del bogie; la secundaria entre el bastidor del bogie y la caja del vehículo",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -679,12 +677,12 @@
       "id": "ajustador-043",
       "question": "¿Qué sistema permite a un mismo vehículo circular por vías de diferente ancho, cambiando la posición de las ruedas sobre el eje?",
       "options": [
-        "La rodadura desplazable (sistema de ancho variable)",
         "El sistema pendular",
         "El engrase de pestañas",
-        "El sistema antibloqueo"
+        "El sistema antibloqueo",
+        "La rodadura desplazable (sistema de ancho variable)"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "La rodadura desplazable (sistema de ancho variable)",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -695,12 +693,12 @@
       "id": "ajustador-044",
       "question": "¿Qué diferencia existe entre un sistema de basculación pasiva y uno de basculación activa?",
       "options": [
-        "La pasiva se produce por la propia geometría/fuerza centrífuga en curva; la activa se controla mediante actuadores",
         "Son exactamente iguales",
         "La activa solo existe en vagones de mercancías",
-        "La pasiva requiere de un motor eléctrico dedicado"
+        "La pasiva requiere de un motor eléctrico dedicado",
+        "La pasiva se produce por la propia geometría/fuerza centrífuga en curva; la activa se controla mediante actuadores"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "La pasiva se produce por la propia geometría/fuerza centrífuga en curva; la activa se controla mediante actuadores",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -727,12 +725,12 @@
       "id": "ajustador-046",
       "question": "¿Qué elementos amortiguan el impacto de choque entre vehículos en caso de colisión?",
       "options": [
-        "Los sistemas de absorción de impactos",
         "Las cajas de grasa",
         "Los acelerómetros",
+        "Los sistemas de absorción de impactos",
         "Los areneros"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Los sistemas de absorción de impactos",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -743,12 +741,12 @@
       "id": "ajustador-047",
       "question": "¿Qué elemento permite el retorno de la corriente eléctrica de tracción a través del eje hasta el carril?",
       "options": [
-        "El retorno eléctrico en caja de grasa",
         "El engrase de pestañas",
+        "El retorno eléctrico en caja de grasa",
         "El quitapiedras",
         "El acelerómetro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El retorno eléctrico en caja de grasa",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -759,12 +757,12 @@
       "id": "ajustador-048",
       "question": "¿Qué función cumplen los areneros en un bogie?",
       "options": [
-        "Depositar arena sobre el carril para mejorar la adherencia rueda-carril",
         "Lubricar la pestaña de la rueda",
+        "Depositar arena sobre el carril para mejorar la adherencia rueda-carril",
         "Medir la velocidad del eje",
         "Detectar el descarrilamiento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Depositar arena sobre el carril para mejorar la adherencia rueda-carril",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -775,12 +773,12 @@
       "id": "ajustador-049",
       "question": "¿Qué dispositivo protege al bogie de la proyección de piedras o restos que pudieran dañar componentes bajos?",
       "options": [
-        "El quitapiedras (y quitarreses)",
         "El patín electromagnético",
         "El disco de freno",
-        "La barra de tracción-compresión"
+        "La barra de tracción-compresión",
+        "El quitapiedras (y quitarreses)"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El quitapiedras (y quitarreses)",
       "tags": [
         "Bogies, Tracción y Choque",
@@ -791,64 +789,16 @@
       "id": "ajustador-050",
       "question": "Además de los discos y cilindros de freno, ¿qué otros elementos de freno forman parte del conjunto del bogie?",
       "options": [
-        "Zapatas, portazapatas, timonería de freno y patines electromagnéticos",
         "Solo el freno de estacionamiento",
+        "Zapatas, portazapatas, timonería de freno y patines electromagnéticos",
         "Únicamente el freno regenerativo",
         "Solo el freno hidrodinámico"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Zapatas, portazapatas, timonería de freno y patines electromagnéticos",
       "tags": [
         "Bogies, Tracción y Choque",
         "2.8 ELEMENTOS DE FRENO"
-      ]
-    },
-    {
-      "id": "ajustador-051",
-      "question": "En relación con motores térmicos, señala la afirmación correcta.",
-      "options": [
-        "Funciona sin admisión de aire",
-        "La compresión y combustión se producen en el cilindro",
-        "No requiere lubricación",
-        "Solo opera en frío"
-      ],
-      "correctIndex": 1,
-      "explanation": "La compresión y combustión se producen en el cilindro",
-      "tags": [
-        "Tracción Diésel (Motores térmicos)",
-        "MOTORES TÉRMICOS"
-      ]
-    },
-    {
-      "id": "ajustador-052",
-      "question": "Dentro de FTV básico neumática y freno, ¿qué opción es la más adecuada?",
-      "options": [
-        "Depende solo del circuito eléctrico",
-        "No necesita compresor",
-        "No se revisa en mantenimiento",
-        "La presión de freno se controla por circuito neumático"
-      ],
-      "correctIndex": 3,
-      "explanation": "La presión de freno se controla por circuito neumático",
-      "tags": [
-        "FTV Básico Neumática y Freno",
-        "NEUMÁTICA Y FRENO"
-      ]
-    },
-    {
-      "id": "ajustador-053",
-      "question": "Respecto al apartado bogies, tracción y choque, ¿qué respuesta es válida?",
-      "options": [
-        "El bogie mejora estabilidad y guiado",
-        "No influye en confort",
-        "Sustituye al bastidor",
-        "Solo existe en mercancías"
-      ],
-      "correctIndex": 0,
-      "explanation": "El bogie mejora estabilidad y guiado",
-      "tags": [
-        "Bogies, Tracción y Choque",
-        "BOGIES, TRACCIÓN Y CHOQUE"
       ]
     }
   ]

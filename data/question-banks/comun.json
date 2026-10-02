@@ -3,3202 +3,3202 @@
   "questions": [
     {
       "id": "comun-001",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué ha permitido el desarrollo y perfeccionamiento de los motores de combustión y eléctricos en el ferrocarril?",
       "options": [
-        "Vehículos motores",
-        "Funicular",
-        "Travi-tren",
-        "Bogie"
+        "Crear nuevas locomotoras y automotores capaces de desarrollar mayores potencias y alcanzar velocidades más elevadas",
+        "Eliminar por completo la tracción a vapor en 1900",
+        "Estandarizar el ancho de vía en toda Europa",
+        "Reducir el número de vehículos remolcados"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "Crear nuevas locomotoras y automotores capaces de desarrollar mayores potencias y alcanzar velocidades más elevadas",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.1 INTRODUCCIÓN"
       ]
     },
     {
       "id": "comun-002",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "Según la introducción de Formación Técnica de Vehículos, ¿qué elementos han ido adoptando las mejoras tecnológicas junto a las locomotoras y automotores?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Coche de viajeros",
-        "Dresina"
+        "Solo los coches de viajeros",
+        "Coches, vagones, material rodante auxiliar, material especial y material histórico",
+        "Únicamente las vías y catenarias",
+        "Los sistemas de facturación de billetes"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "Coches, vagones, material rodante auxiliar, material especial y material histórico",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.1 INTRODUCCIÓN"
       ]
     },
     {
       "id": "comun-003",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué objetivos persigue la adopción de mejoras tecnológicas en los vehículos ferroviarios, según la introducción?",
       "options": [
-        "Unidad AVE",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea"
+        "Mejor funcionamiento, mayor seguridad y mejor rendimiento de cara a la explotación",
+        "Reducir el número de conductores necesarios",
+        "Aumentar exclusivamente la velocidad comercial",
+        "Disminuir el peso de las locomotoras únicamente"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Mejor funcionamiento, mayor seguridad y mejor rendimiento de cara a la explotación",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.1 INTRODUCCIÓN"
       ]
     },
     {
       "id": "comun-004",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "Atendiendo a su finalidad, ¿en cuántos apartados generales se clasifican los vehículos ferroviarios?",
       "options": [
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central"
+        "Tres: remolcados, motores y auxiliares",
+        "Dos: vehículos remolcados y vehículos motores",
+        "Cuatro: coches, vagones, locomotoras y automotores",
+        "Uno: vehículos motores únicamente"
       ],
       "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "Dos: vehículos remolcados y vehículos motores",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2 TIPOS DE VEHÍCULOS"
       ]
     },
     {
       "id": "comun-005",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Cuáles son los dos apartados generales de clasificación de vehículos ferroviarios según su finalidad?",
       "options": [
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación"
+        "Vehículos remolcados y vehículos motores",
+        "Vehículos de viajeros y vehículos de mercancías",
+        "Vehículos eléctricos y vehículos diésel",
+        "Vehículos articulados y vehículos simples"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Vehículos remolcados y vehículos motores",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2 TIPOS DE VEHÍCULOS"
       ]
     },
     {
       "id": "comun-006",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "Atendiendo a su finalidad, ¿qué vehículos se pueden clasificar dentro del apartado de vehículos motores?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base"
+        "Trenes articulados únicamente",
+        "Vagones de mercancías",
+        "Automotores y locomotoras",
+        "Coches de viajeros"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 2,
+      "explanation": "Automotores y locomotoras",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2 TIPOS DE VEHÍCULOS"
       ]
     },
     {
       "id": "comun-007",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Cómo se define un vehículo remolcado?",
       "options": [
-        "Vehículos motores",
-        "Travi-tren",
-        "Bogie",
-        "Funicular"
+        "Una unidad tractora capaz de circular independientemente",
+        "Una unidad inerte, susceptible de ser arrastrada por un vehículo motor",
+        "Un vehículo con capacidad tractora propia pero sin carga",
+        "Un vehículo exclusivamente destinado al mantenimiento de vías"
       ],
-      "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "correctIndex": 1,
+      "explanation": "Una unidad inerte, susceptible de ser arrastrada por un vehículo motor",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-008",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué dos grupos de vehículos remolcados se diferencian en el manual?",
       "options": [
-        "Coche de viajeros",
-        "Automotor",
-        "Locomotora",
-        "Dresina"
+        "Coches y vagones",
+        "Locomotoras y automotores",
+        "Bogies y rodales",
+        "Material auxiliar y material histórico"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "Coches y vagones",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-009",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué son los coches, dentro de los vehículos remolcados?",
       "options": [
-        "Coche cama",
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea"
+        "Vehículos remolcados destinados al transporte de mercancías",
+        "Vehículos remolcados destinados al transporte de viajeros",
+        "Vehículos motores destinados al transporte de viajeros",
+        "Vehículos auxiliares de mantenimiento"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "Vehículos remolcados destinados al transporte de viajeros",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-010",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué son los vagones, dentro de los vehículos remolcados?",
       "options": [
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones",
-        "Sustituye al correctivo"
+        "Vehículos destinados al transporte de mercancías",
+        "Vehículos destinados exclusivamente a labores de mantenimiento en vías",
+        "Vehículos destinados al transporte de viajeros",
+        "Vehículos motores con capacidad tractora"
       ],
-      "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Vehículos destinados al transporte de mercancías",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-011",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Cómo se define un vehículo motor?",
       "options": [
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "No aplica a equipos eléctricos"
+        "Una unidad tractora capaz de circular por la línea férrea, impulsada por el par motor de su propio sistema de tracción",
+        "Una unidad inerte arrastrada por otro vehículo",
+        "Un vehículo exclusivamente destinado al remolcado de trenes averiados",
+        "Un vehículo sin capacidad tractora propia"
       ],
       "correctIndex": 0,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "Una unidad tractora capaz de circular por la línea férrea, impulsada por el par motor de su propio sistema de tracción",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.2 VEHÍCULO MOTOR"
       ]
     },
     {
       "id": "comun-012",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué es un automotor o autopropulsado?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Debe registrarse en la orden de trabajo"
+        "Un vehículo motor que no puede llevar carga comercial",
+        "Un vehículo motor propulsado cuya planta motriz permite el transporte de viajeros en el interior del habitáculo, con capacidad tractora y que puede llevar carga comercial",
+        "Una unidad inerte remolcada por una locomotora",
+        "Un vehículo exclusivamente diésel-hidráulico"
       ],
-      "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 1,
+      "explanation": "Un vehículo motor propulsado cuya planta motriz permite el transporte de viajeros en el interior del habitáculo, con capacidad tractora y que puede llevar carga comercial",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.2.1 AUTOMOTOR O AUTOPROPULSADO"
       ]
     },
     {
       "id": "comun-013",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "En un automotor, ¿qué distingue a un coche motor de un coche remolque?",
       "options": [
-        "Funicular",
-        "Vehículos motores",
-        "Bogie",
-        "Travi-tren"
+        "El coche motor es el que se encarga de generar la tracción del conjunto",
+        "El coche remolque es el que genera la tracción",
+        "No existe diferencia entre ambos",
+        "El coche motor solo transporta mercancías"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "El coche motor es el que se encarga de generar la tracción del conjunto",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.2.2.1 AUTOMOTOR O AUTOPROPULSADO"
       ]
     },
     {
       "id": "comun-014",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué es una locomotora, según el manual?",
       "options": [
-        "Locomotora",
-        "Coche de viajeros",
-        "Dresina",
-        "Automotor"
+        "Un vehículo motor propulsado mediante motores eléctricos, diésel o combinación de ambos, vehículo independiente que remolca vagones o coches y no puede llevar carga comercial",
+        "Un vehículo remolcado destinado al transporte de mercancías",
+        "Un vehículo motor que solo puede ser eléctrico",
+        "Un automotor con capacidad para transportar carga comercial"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Un vehículo motor propulsado mediante motores eléctricos, diésel o combinación de ambos, vehículo independiente que remolca vagones o coches y no puede llevar carga comercial",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.2.2.2 LOCOMOTORA"
       ]
     },
     {
       "id": "comun-015",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Cuál es la principal diferencia entre un automotor y una locomotora?",
       "options": [
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE",
-        "Coche cama"
+        "El automotor permite el transporte de viajeros en su propio habitáculo y puede llevar carga comercial; la locomotora es un vehículo independiente que no puede llevar carga comercial",
+        "La locomotora siempre es eléctrica y el automotor siempre diésel",
+        "El automotor no tiene capacidad tractora",
+        "No existe diferencia relevante entre ambos"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "El automotor permite el transporte de viajeros en su propio habitáculo y puede llevar carga comercial; la locomotora es un vehículo independiente que no puede llevar carga comercial",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.2.2.2 LOCOMOTORA"
       ]
     },
     {
       "id": "comun-016",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Puede una locomotora llevar carga comercial?",
       "options": [
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones",
-        "Sustituye al correctivo"
+        "Sí, siempre",
+        "No, no puede llevar carga comercial",
+        "Solo si es de tracción diésel-eléctrica",
+        "Solo las locomotoras de mercancías"
       ],
       "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "No, no puede llevar carga comercial",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.2.2 LOCOMOTORA"
       ]
     },
     {
       "id": "comun-017",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué se entiende por material auxiliar?",
       "options": [
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "Todo vehículo que sirve tanto para el remolcado de unidades de tren averiadas como para labores de mantenimiento en vías",
+        "Únicamente los vehículos de más de 50 años de antigüedad",
+        "Los coches destinados a restauración",
+        "Los vagones de mercancías peligrosas"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Todo vehículo que sirve tanto para el remolcado de unidades de tren averiadas como para labores de mantenimiento en vías",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.3 MATERIAL AUXILIAR Y MATERIAL HISTÓRICO"
       ]
     },
     {
       "id": "comun-018",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Requieren mantenimiento periódico el material auxiliar y el material histórico?",
       "options": [
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base"
+        "No, están exentos de mantenimiento",
+        "Sí, asimismo requieren de un mantenimiento periódico",
+        "Solo el material histórico lo requiere",
+        "Solo si circulan a más de 200 km/h"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 1,
+      "explanation": "Sí, asimismo requieren de un mantenimiento periódico",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.3 MATERIAL AUXILIAR Y MATERIAL HISTÓRICO"
       ]
     },
     {
       "id": "comun-019",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "Además de vehículos remolcados y motores, ¿qué otros grupos de vehículos con propósitos especiales se mencionan en el manual?",
       "options": [
-        "Travi-tren",
-        "Funicular",
-        "Vehículos motores",
-        "Bogie"
+        "Material auxiliar y material histórico",
+        "Material de señalización y balizamiento",
+        "Material de vía y catenaria",
+        "Material de facturación"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Material auxiliar y material histórico",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.2.3 MATERIAL AUXILIAR Y MATERIAL HISTÓRICO"
       ]
     },
     {
       "id": "comun-020",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué tipo de ejes tienen las locomotoras actuales?",
       "options": [
-        "Coche de viajeros",
-        "Automotor",
-        "Dresina",
-        "Locomotora"
+        "Todos sus ejes son motores",
+        "Solo la mitad de sus ejes son motores",
+        "Ningún eje es motor",
+        "Dependen del tipo de bogie"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "Todos sus ejes son motores",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-021",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "En los vehículos automotores, ¿cómo se disponen los ejes?",
       "options": [
-        "Locomotora de línea",
-        "Coche cama",
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía"
+        "Todos son motores obligatoriamente",
+        "Tanto ejes motores como ejes portadores, distribuidos según soluciones técnicas del fabricante",
+        "Todos son portadores",
+        "Solo llevan ejes motores en la cabeza motriz"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "Tanto ejes motores como ejes portadores, distribuidos según soluciones técnicas del fabricante",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-022",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué es la tracción concentrada?",
       "options": [
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas"
+        "Aquella en la que todos los ejes motores se agrupan en vehículos llamados motrices (ej. S100, S102, S130)",
+        "Aquella en la que los ejes motores están repartidos por toda la composición",
+        "Un sistema exclusivo de las locomotoras diésel",
+        "Un tipo de freno dinámico"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Aquella en la que todos los ejes motores se agrupan en vehículos llamados motrices (ej. S100, S102, S130)",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-023",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué ejemplo de serie corresponde a la tracción distribuida?",
       "options": [
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "S100",
+        "S102",
+        "S104",
+        "S130"
       ],
       "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "S104",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-024",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuál es el principal inconveniente de la tracción distribuida frente a la concentrada?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo"
+        "Menor aprovechamiento del espacio",
+        "Construcción y mantenimiento más complejo",
+        "Peor distribución de masas",
+        "Menor número de plazas"
       ],
-      "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 1,
+      "explanation": "Construcción y mantenimiento más complejo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-025",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "En una composición múltiple, ¿qué diferencia hay entre mando múltiple y tracción múltiple?",
       "options": [
-        "Travi-tren",
-        "Vehículos motores",
-        "Bogie",
-        "Funicular"
+        "En mando múltiple toda la composición se controla desde una sola cabina; en tracción múltiple cada vehículo se controla de forma independiente",
+        "Son sinónimos, no existe diferencia",
+        "El mando múltiple solo aplica a vehículos remolcados",
+        "La tracción múltiple solo existe en vehículos articulados"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "En mando múltiple toda la composición se controla desde una sola cabina; en tracción múltiple cada vehículo se controla de forma independiente",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-026",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Cuántos tipos de tracción diésel se distinguen según la forma de transmitir el esfuerzo a los ejes motores?",
       "options": [
-        "Locomotora",
-        "Dresina",
-        "Coche de viajeros",
-        "Automotor"
+        "Dos",
+        "Tres: diésel-mecánica, diésel-eléctrica y diésel-hidráulica",
+        "Cuatro",
+        "Uno solo, diésel-eléctrica"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "Tres: diésel-mecánica, diésel-eléctrica y diésel-hidráulica",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.4.1 TRACCIÓN DIÉSEL"
       ]
     },
     {
       "id": "comun-027",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "En la tracción diésel-mecánica, ¿cómo se transfiere la potencia a los ejes?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea",
-        "Coche cama",
-        "Unidad AVE"
+        "Mediante un generador eléctrico y motores eléctricos",
+        "De forma mecánica, mediante acoplamientos de piñones y árboles de transmisión",
+        "A través de convertidores de par hidráulicos",
+        "Mediante catenaria"
       ],
-      "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "De forma mecánica, mediante acoplamientos de piñones y árboles de transmisión",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.4.1.1 TRACCIÓN DIESEL – MECÁNICA"
       ]
     },
     {
       "id": "comun-028",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué locomotoras utilizan tracción diésel-eléctrica con motores de corriente continua?",
       "options": [
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones"
+        "Loc. S310, S319, S333 y S334",
+        "Loc. S311 únicamente",
+        "Automotores S592, S594 y S596",
+        "UT S440"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Loc. S310, S319, S333 y S334",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.1.2 TRACCIÓN DIESEL – ELÉCTRICA"
       ]
     },
     {
       "id": "comun-029",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué locomotora diésel-eléctrica utiliza un sistema de control de potencia basado en un conjunto rectificador-ondulador y motores de tracción de corriente alterna trifásica?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención"
+        "Loc. S310",
+        "Loc. S311",
+        "Loc. S319",
+        "Loc. S333"
       ],
-      "correctIndex": 3,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "Loc. S311",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.1.2 TRACCIÓN DIESEL – ELÉCTRICA"
       ]
     },
     {
       "id": "comun-030",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cómo se efectúa la transferencia del par motor a las ruedas en la tracción diésel-hidráulica?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual"
+        "Mediante uno o varios convertidores de par hidráulicos",
+        "Mediante un generador eléctrico",
+        "Mediante acoplamientos de piñones",
+        "A través de un pantógrafo"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Mediante uno o varios convertidores de par hidráulicos",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.1.3 TRACCIÓN DIESEL – HIDRÁULICA"
       ]
     },
     {
       "id": "comun-031",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué series de automotores utilizan tracción diésel-hidráulica?",
       "options": [
-        "Travi-tren",
-        "Bogie",
-        "Vehículos motores",
-        "Funicular"
+        "S310, S319 y S333",
+        "S592, S594 y S596",
+        "S100, S102 y S130",
+        "S440 y S446"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 1,
+      "explanation": "S592, S594 y S596",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.4.1.3 TRACCIÓN DIESEL – HIDRÁULICA"
       ]
     },
     {
       "id": "comun-032",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuántos tipos básicos de tracción eléctrica se distinguen según el modo de controlar la potencia y el tipo de motores?",
       "options": [
-        "Automotor",
-        "Dresina",
-        "Coche de viajeros",
-        "Locomotora"
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
       ],
       "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "explanation": "Cuatro",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.4.2 TRACCIÓN ELÉCTRICA"
       ]
     },
     {
       "id": "comun-033",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué vehículos utilizan alimentación CC con control reostático y motores CC?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE",
-        "Coche cama",
-        "Locomotora de línea"
+        "UT S440 y Loc. S269.4",
+        "UT S446 y Loc. S251",
+        "Loc. S252 y S253",
+        "AVE S100 y S102"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "UT S440 y Loc. S269.4",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.4.2.1 ALIMENTACIÓN CC – CONTROL REOSTÁTICO – MOTORES CC"
       ]
     },
     {
       "id": "comun-034",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué esquema de tracción corresponde a la UT S446 y la Loc. S251?",
       "options": [
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo"
+        "Alimentación CC – Control reostático – Motores CC",
+        "Alimentación CC – Control semiconductores Chopper CC – Motores CC",
+        "Alimentación CA monofásica – Control semiconductores – Motores CA trifásica",
+        "Alimentación CC – Control semiconductores – Motores CA trifásica"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 1,
+      "explanation": "Alimentación CC – Control semiconductores Chopper CC – Motores CC",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.2.2 ALIMENTACIÓN CC – CONTROL SEMICONDUCTORES CHOPPER – MOTORES CC"
       ]
     },
     {
       "id": "comun-035",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué serie de alta velocidad (AVE) utiliza alimentación CA monofásica, control por semiconductores (rectificador-ondulador) y motores CA trifásicos?",
       "options": [
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación"
+        "S100, S102, S103, S104, S120",
+        "S251, S252, S253",
+        "S310, S319, S333",
+        "S440, S446, S447"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "S100, S102, S103, S104, S120",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.2.4 ALIMENTACIÓN CA MONOFÁSICA – CONTROL SEMICONDUCTORES – MOTORES CA TRIFÁSICA"
       ]
     },
     {
       "id": "comun-036",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué elementos componen la cadena de tracción en el esquema Alimentación CC – Control reostático – Motores CC?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base"
+        "Pantógrafo CC → Disyuntor extrarrápido → Control reostático → Motores CC",
+        "Pantógrafo CA → Transformador → Convertidor CA/CA → Motores CA",
+        "Motor diésel → Generador → Motores eléctricos",
+        "Pantógrafo CC → Convertidor CC/CA → Motores CA"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Pantógrafo CC → Disyuntor extrarrápido → Control reostático → Motores CC",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.2.1 ALIMENTACIÓN CC – CONTROL REOSTÁTICO – MOTORES CC"
       ]
     },
     {
       "id": "comun-037",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué vehículos usan el esquema Alimentación CC – Control semiconductores – Motores CA trifásica?",
       "options": [
-        "Vehículos motores",
-        "Bogie",
-        "Travi-tren",
-        "Funicular"
+        "Loc. S252, Loc. S253, UT S447 y Civias",
+        "UT S440 y Loc. S269.4",
+        "AVE S100 y S120",
+        "Loc. S310 y S311"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "Loc. S252, Loc. S253, UT S447 y Civias",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.4.2.3 ALIMENTACIÓN CC – CONTROL SEMICONDUCTORES – MOTORES CA TRIFÁSICA"
       ]
     },
     {
       "id": "comun-038",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué se entiende por freno dinámico?",
       "options": [
-        "Dresina",
-        "Automotor",
-        "Locomotora",
-        "Coche de viajeros"
+        "Aquel que origina el propio sistema de tracción al generar un esfuerzo contrario al de arrastre",
+        "Un freno exclusivamente neumático accionado por el maquinista",
+        "El freno de estacionamiento manual",
+        "El freno de urgencia accionado por seta"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Aquel que origina el propio sistema de tracción al generar un esfuerzo contrario al de arrastre",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.4.3 FRENO DINÁMICO"
       ]
     },
     {
       "id": "comun-039",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "En la tracción diésel-mecánica, ¿qué tipo de freno dinámico se emplea?",
       "options": [
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE",
-        "Coche cama"
+        "Freno eléctrico reostático",
+        "Freno motor",
+        "Freno hidrodinámico",
+        "Freno regenerativo"
       ],
       "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "Freno motor",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.4.3 FRENO DINÁMICO"
       ]
     },
     {
       "id": "comun-040",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "En la tracción diésel-hidráulica, ¿qué tipo de freno dinámico se emplea?",
       "options": [
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo"
+        "Freno motor",
+        "Freno eléctrico reostático",
+        "Freno hidrodinámico",
+        "Freno regenerativo"
       ],
       "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "Freno hidrodinámico",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.3 FRENO DINÁMICO"
       ]
     },
     {
       "id": "comun-041",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "En la tracción eléctrica, ¿qué dos tipos de freno dinámico se distinguen?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "Freno motor y freno hidrodinámico",
+        "Freno reostático y freno regenerativo",
+        "Freno directo y freno automático",
+        "Freno de estacionamiento y freno de urgencia"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "Freno reostático y freno regenerativo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.3 FRENO DINÁMICO"
       ]
     },
     {
       "id": "comun-042",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componentes forman parte de la alimentación eléctrica auxiliar?",
       "options": [
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base",
-        "Debe registrarse en la orden de trabajo"
+        "Convertidores auxiliares, generadores auxiliares, cargadores de batería y baterías",
+        "Pantógrafo, disyuntor extrarrápido y transformador",
+        "Compresor principal y compresor auxiliar",
+        "Timonería, portazapatas y zapatas"
       ],
-      "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Convertidores auxiliares, generadores auxiliares, cargadores de batería y baterías",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.4 ALIMENTACIÓN ELÉCTRICA AUXILIAR"
       ]
     },
     {
       "id": "comun-043",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué tipos de alimentación auxiliar se distinguen en el manual?",
       "options": [
-        "Bogie",
-        "Funicular",
-        "Vehículos motores",
-        "Travi-tren"
+        "Trifásica 400V/50Hz, monofásica 240V/50Hz y continua 24V, 72V, 110V",
+        "Solo corriente continua a 3000V",
+        "Únicamente 25kV monofásica",
+        "Trifásica 690V y continua 1500V"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Trifásica 400V/50Hz, monofásica 240V/50Hz y continua 24V, 72V, 110V",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.4.4 ALIMENTACIÓN ELÉCTRICA AUXILIAR"
       ]
     },
     {
       "id": "comun-044",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿A qué circuito se limita la alimentación de tracción, a diferencia de la auxiliar?",
       "options": [
-        "Coche de viajeros",
-        "Dresina",
-        "Automotor",
-        "Locomotora"
+        "Al circuito eléctrico de potencia o alta tensión",
+        "Al circuito de comunicaciones",
+        "Al circuito neumático de freno",
+        "Al circuito de climatización"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "Al circuito eléctrico de potencia o alta tensión",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.4.4 ALIMENTACIÓN ELÉCTRICA AUXILIAR"
       ]
     },
     {
       "id": "comun-045",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿En qué grupos se engloban los equipos que componen un vehículo motor?",
       "options": [
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE",
-        "Coche cama"
+        "Estructuras de caja y bogies, sistemas mecánicos, neumáticos, electrónicos, eléctricos e hidráulicos",
+        "Solo sistemas eléctricos y neumáticos",
+        "Estructuras de caja, sistemas de confort y climatización",
+        "Sistemas de seguridad y registradores jurídicos únicamente"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Estructuras de caja y bogies, sistemas mecánicos, neumáticos, electrónicos, eléctricos e hidráulicos",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.1 SISTEMAS DIFERENCIADOS EN UN VEHÍCULO FERROVIARIO"
       ]
     },
     {
       "id": "comun-046",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sistema NO está presente en un vagón, a diferencia de un coche?",
       "options": [
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas"
+        "Sistemas mecánicos",
+        "Sistemas neumáticos",
+        "Sistemas electrónicos",
+        "Sistemas eléctricos"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 2,
+      "explanation": "Sistemas electrónicos",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.1.2 VEHÍCULOS REMOLCADOS"
       ]
     },
     {
       "id": "comun-047",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué manipuladores se encuentran en el pupitre de conducción?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención"
+        "Tracción/freno dinámico, velocidad prefijada, freno directo y freno automático",
+        "Solo el manipulador de tracción",
+        "Únicamente los interruptores de luces",
+        "El volante de freno de estacionamiento"
       ],
-      "correctIndex": 3,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Tracción/freno dinámico, velocidad prefijada, freno directo y freno automático",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-048",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué manómetros se encuentran en la cabina de conducción?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "TDP, TFA, cilindro de freno y presión control o pilotaje",
+        "Solo el manómetro de aceite del motor",
+        "Manómetro de climatización únicamente",
+        "Manómetro de combustible y de agua"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "TDP, TFA, cilindro de freno y presión control o pilotaje",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-049",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿A qué acciona el freno directo en la cabina de conducción?",
       "options": [
-        "Vehículos motores",
-        "Bogie",
-        "Travi-tren",
-        "Funicular"
+        "Acciona directamente sobre los cilindros de freno (solo locomotora)",
+        "Acciona la presión de control sobre el distribuidor",
+        "Solo funciona en automotores",
+        "Es exclusivo de los vehículos remolcados"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "Acciona directamente sobre los cilindros de freno (solo locomotora)",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-050",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué elemento de seguridad de la cabina se relaciona con la vigilancia de la presencia activa del maquinista?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Dresina",
-        "Coche de viajeros"
+        "Asfa",
+        "Hombre muerto",
+        "Tren tierra",
+        "Panel de mandos"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "Hombre muerto",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-051",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué sistema de control del vehículo corresponde al fabricante Siemens?",
       "options": [
-        "Coche cama",
-        "Locomotora de línea",
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía"
+        "Sibas",
+        "TCMS",
+        "MITRAC",
+        "Cosmos"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Sibas",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.3 CONTROL DEL VEHÍCULO"
       ]
     },
     {
       "id": "comun-052",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué sistema de control del vehículo corresponde a Alstom?",
       "options": [
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central"
+        "Sibas",
+        "TCMS",
+        "MITRAC",
+        "Cosmos"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 1,
+      "explanation": "TCMS",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.3 CONTROL DEL VEHÍCULO"
       ]
     },
     {
       "id": "comun-053",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿A qué fabricante corresponde el sistema de control MITRAC-DCPU?",
       "options": [
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "No aplica a equipos eléctricos"
+        "Siemens",
+        "Alstom",
+        "Bombardier",
+        "CAF"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 2,
+      "explanation": "Bombardier",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.3 CONTROL DEL VEHÍCULO"
       ]
     },
     {
       "id": "comun-054",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cuáles de los siguientes son protocolos/buses de comunicaciones citados en el manual?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Debe registrarse en la orden de trabajo"
+        "RS232, RS422, RS485, Ethernet, CAN bus, MVB y WTB",
+        "Solo TCP-IP",
+        "Únicamente Bluetooth y WiFi",
+        "HTTP y XML exclusivamente"
       ],
-      "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "RS232, RS422, RS485, Ethernet, CAN bus, MVB y WTB",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.4 COMUNICACIONES"
       ]
     },
     {
       "id": "comun-055",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué buses de comunicaciones son específicos de la red TCN ferroviaria, además de los estándar informáticos?",
       "options": [
-        "Bogie",
-        "Vehículos motores",
-        "Travi-tren",
-        "Funicular"
+        "MVB y WTB",
+        "RS232 y RS422",
+        "Ethernet y CAN bus",
+        "RS485 únicamente"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "MVB y WTB",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.4 COMUNICACIONES"
       ]
     },
     {
       "id": "comun-056",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "Dentro de los componentes de tracción diésel, ¿qué tipos de caja de cambios se citan?",
       "options": [
-        "Automotor",
-        "Coche de viajeros",
-        "Dresina",
-        "Locomotora"
+        "Caja de cambios por engranajes y caja de cambios hidráulica",
+        "Solo caja de cambios manual",
+        "Caja de cambios automática y semiautomática",
+        "No se menciona ningún tipo de caja de cambios"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Caja de cambios por engranajes y caja de cambios hidráulica",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.5 TRACCIÓN"
       ]
     },
     {
       "id": "comun-057",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué elemento capta la corriente de la catenaria en la tracción eléctrica?",
       "options": [
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Locomotora de línea"
+        "El pantógrafo",
+        "El seccionador",
+        "El pararrayos",
+        "El disyuntor extrarrápido"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "El pantógrafo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.5 TRACCIÓN"
       ]
     },
     {
       "id": "comun-058",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué función cumple el disyuntor extrarrápido en un vehículo de tracción eléctrica?",
       "options": [
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas"
+        "Es parte de los elementos de tracción eléctrica de alta tensión, situado en la cadena tras el pantógrafo",
+        "Sirve para climatizar el vehículo",
+        "Regula la velocidad prefijada",
+        "Es un elemento del sistema neumático de caja"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Es parte de los elementos de tracción eléctrica de alta tensión, situado en la cadena tras el pantógrafo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.5 TRACCIÓN"
       ]
     },
     {
       "id": "comun-059",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué elementos se sitúan en el techo como elementos de alta tensión en un vehículo eléctrico?",
       "options": [
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "Pantógrafo, aisladores, pararrayos y seccionadores, entre otros",
+        "Compresor principal y compresor auxiliar",
+        "Timonería y portazapatas",
+        "Muelles helicoidales de suspensión"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Pantógrafo, aisladores, pararrayos y seccionadores, entre otros",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.5 TRACCIÓN"
       ]
     },
     {
       "id": "comun-060",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué elemento disipa la energía en el freno reostático de un vehículo eléctrico?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "Las resistencias de freno",
+        "El pantógrafo",
+        "El transformador",
+        "El seccionador"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Las resistencias de freno",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.5 TRACCIÓN"
       ]
     },
     {
       "id": "comun-061",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué componentes forman el sistema de alimentación auxiliar de un vehículo?",
       "options": [
-        "Bogie",
-        "Travi-tren",
-        "Vehículos motores",
-        "Funicular"
+        "Convertidores auxiliares, generadores auxiliares, cargador de batería y batería",
+        "Pantógrafo y disyuntor extrarrápido",
+        "Compresor principal y secador de aire",
+        "Manipuladores de tracción y freno dinámico"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Convertidores auxiliares, generadores auxiliares, cargador de batería y batería",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.6 ALIMENTACIÓN AUXILIAR"
       ]
     },
     {
       "id": "comun-062",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componente almacena la energía de emergencia en el sistema de alimentación auxiliar?",
       "options": [
-        "Automotor",
-        "Dresina",
-        "Locomotora",
-        "Coche de viajeros"
+        "La batería",
+        "El transformador",
+        "El pantógrafo",
+        "El disyuntor extrarrápido"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "La batería",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.6 ALIMENTACIÓN AUXILIAR"
       ]
     },
     {
       "id": "comun-063",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué circuitos principales forman parte del sistema neumático de caja?",
       "options": [
-        "Unidad AVE",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea"
+        "Circuito de TDP y circuito de freno TFA, entre otros",
+        "Solo el circuito de climatización",
+        "Circuito de combustible y circuito de refrigeración",
+        "Circuito de alta tensión"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Circuito de TDP y circuito de freno TFA, entre otros",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-064",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuál de los siguientes es un circuito neumático auxiliar mencionado en el sistema neumático de caja?",
       "options": [
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central"
+        "El arenado",
+        "El transformador",
+        "El disyuntor extrarrápido",
+        "La batería"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "El arenado",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-065",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué componente se encarga de eliminar la humedad del aire comprimido en el sistema neumático?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "El secador de aire",
+        "El presostato",
+        "El transductor",
+        "La electroválvula"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "El secador de aire",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-066",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componente NO forma parte del sistema neumático de caja?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo"
+        "Compresor principal",
+        "Aisladores de alta tensión",
+        "Válvulas",
+        "Depósitos"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 1,
+      "explanation": "Aisladores de alta tensión",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-067",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué elemento del sistema neumático permite accionar la megafonía en caso de urgencia?",
       "options": [
-        "Travi-tren",
-        "Bogie",
-        "Vehículos motores",
-        "Funicular"
+        "Los tiradores de urgencia",
+        "El compresor auxiliar",
+        "Las llaves de aislamiento",
+        "Los presostatos"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Los tiradores de urgencia",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-068",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué elementos componen la caja de un vehículo ferroviario?",
       "options": [
-        "Automotor",
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina"
+        "Bastidor, estructuras de cabina, paredes laterales, testeros, techos, puertas, ventanas y pintura",
+        "Solo el bastidor",
+        "Únicamente puertas y ventanas",
+        "Bogies y ejes montados"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Bastidor, estructuras de cabina, paredes laterales, testeros, techos, puertas, ventanas y pintura",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.8 CAJA"
       ]
     },
     {
       "id": "comun-069",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿A qué parte de la caja se denomina 'testero'?",
       "options": [
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Locomotora de línea"
+        "A las paredes laterales",
+        "A la estructura frontal/trasera del vehículo",
+        "Al techo",
+        "Al bastidor inferior"
       ],
       "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "A la estructura frontal/trasera del vehículo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.8 CAJA"
       ]
     },
     {
       "id": "comun-070",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sistemas se engloban dentro de los sistemas de confort de un vehículo?",
       "options": [
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones"
+        "Audio-video, megafonía, climatización, asientos, restauración y WC",
+        "Pantógrafo y disyuntor extrarrápido",
+        "Timonería y portazapatas",
+        "Compresor principal y secador de aire"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Audio-video, megafonía, climatización, asientos, restauración y WC",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-071",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Cómo se denomina el sistema de megafonía citado en el manual?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "Solo es documental"
+        "IRIS",
+        "ASFA",
+        "TCMS",
+        "MVB"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "IRIS",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-072",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué componente del sistema de climatización mide la temperatura del aire externo?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual"
+        "La sonda térmica del aire externo",
+        "El compresor",
+        "El condensador",
+        "El presostato de seguridad por alta presión"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "La sonda térmica del aire externo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-073",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué elementos forman parte del sistema de choque/tracción de un vehículo?",
       "options": [
-        "Travi-tren",
-        "Vehículos motores",
-        "Bogie",
-        "Funicular"
+        "Conjunto gancho de tracción, topes, acoplamientos automáticos y acoplamientos semipermanentes",
+        "Bastidor de bogie y ejes montados",
+        "Compresor principal y secador de aire",
+        "Pantógrafo y aisladores"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Conjunto gancho de tracción, topes, acoplamientos automáticos y acoplamientos semipermanentes",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-074",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Cómo se denomina el acoplamiento automático mencionado en el manual?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Dresina",
-        "Coche de viajeros"
+        "Scharfenberg",
+        "MVB",
+        "WTB",
+        "Cosmos"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Scharfenberg",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-075",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué elemento NO pertenece a choque/tracción?",
       "options": [
-        "Unidad AVE",
-        "Coche cama",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía"
+        "Topes",
+        "Acoplamientos semipermanentes",
+        "Bastidor",
+        "Conjunto gancho de tracción"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 2,
+      "explanation": "Bastidor",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-076",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿De qué tipo es el freno de ejes descrito en el manual?",
       "options": [
-        "Sustituye al correctivo",
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas"
+        "Neumático",
+        "Hidráulico exclusivamente",
+        "Eléctrico regenerativo",
+        "Magnético"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Neumático",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.11 FRENO DE EJES"
       ]
     },
     {
       "id": "comun-077",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué elemento del freno de ejes permite el frenado de estacionamiento manual?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "Los volantes para freno de estacionamiento",
+        "Las zapatas",
+        "El regulador",
+        "La timonería"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Los volantes para freno de estacionamiento",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.11 FRENO DE EJES"
       ]
     },
     {
       "id": "comun-078",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componente transmite el esfuerzo de frenado desde el cilindro hasta las zapatas?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "La timonería",
+        "El regulador",
+        "El portazapatas",
+        "Todas son correctas"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 3,
+      "explanation": "Todas son correctas",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.11 FRENO DE EJES"
       ]
     },
     {
       "id": "comun-079",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué elementos forman la suspensión de ejes descrita en el manual?",
       "options": [
-        "Travi-tren",
-        "Bogie",
-        "Funicular",
-        "Vehículos motores"
+        "Ballestas, anillas, carretes, bulones y pasadores",
+        "Muelles helicoidales de carga únicamente",
+        "Balonas neumáticas exclusivamente",
+        "Amortiguadores antilazo"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Ballestas, anillas, carretes, bulones y pasadores",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.12 SUSPENSIÓN DE EJES"
       ]
     },
     {
       "id": "comun-080",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué elemento de suspensión de ejes es uno de los componentes más antiguos y todavía se usa por su capacidad de soportar grandes cargas?",
       "options": [
-        "Locomotora",
-        "Coche de viajeros",
-        "Dresina",
-        "Automotor"
+        "La ballesta",
+        "La balona neumática",
+        "El muelle helicoidal secundario",
+        "El amortiguador antilazo"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "La ballesta",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.12 SUSPENSIÓN DE EJES"
       ]
     },
     {
       "id": "comun-081",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué dos tipos de ejes se distinguen en el rodaje de un bogie?",
       "options": [
-        "Locomotora de línea",
-        "Unidad AVE",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía"
+        "Ejes motores y ejes portadores o remolques",
+        "Ejes de suspensión primaria y secundaria",
+        "Ejes de freno y ejes de tracción",
+        "Ejes delanteros y traseros únicamente"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Ejes motores y ejes portadores o remolques",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-082",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componentes incluye un eje motor de bogie?",
       "options": [
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo",
-        "Elimina inspecciones",
-        "Solo se aplica en taller central"
+        "Eje, rueda, discos y reductoras",
+        "Solo el eje y la rueda",
+        "Únicamente el disco de freno",
+        "Eje, caja de grasa y muelle"
       ],
       "correctIndex": 0,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "Eje, rueda, discos y reductoras",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-083",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué elemento estructural soporta el rodaje y demás componentes del bogie?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "El bastidor",
+        "La caja",
+        "El testero",
+        "El pantógrafo"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "El bastidor",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-084",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué tipos de transmisión se citan en el apartado de transmisiones?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base"
+        "Acoplamientos elásticos con engranajes y cardan",
+        "Transmisión hidrostática exclusivamente",
+        "Transmisión por correa dentada",
+        "Transmisión magnética"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Acoplamientos elásticos con engranajes y cardan",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.14 TRANSMISIONES"
       ]
     },
     {
       "id": "comun-085",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué elemento de transmisión conecta el motor de tracción con el reductor mediante un eje flexible con juntas universales?",
       "options": [
-        "Vehículos motores",
-        "Bogie",
-        "Funicular",
-        "Travi-tren"
+        "La transmisión cardan",
+        "El acoplamiento elástico con engranajes",
+        "El pantógrafo",
+        "El disyuntor extrarrápido"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "La transmisión cardan",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.14 TRANSMISIONES"
       ]
     },
     {
       "id": "comun-086",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sistemas de seguridad se citan en el manual?",
       "options": [
-        "Dresina",
-        "Coche de viajeros",
-        "Locomotora",
-        "Automotor"
+        "Hombre muerto, ASFA, LZB y ERTMS",
+        "Solo ASFA",
+        "Únicamente ERTMS",
+        "TCMS y Cosmos"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Hombre muerto, ASFA, LZB y ERTMS",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-087",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué sistema de seguridad europeo se menciona junto a ASFA y LZB?",
       "options": [
-        "Coche cama",
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea",
-        "Unidad AVE"
+        "ERTMS",
+        "MVB",
+        "WTB",
+        "Sibas"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "ERTMS",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-088",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué sensores se citan en el sistema de distribución bajo bastidor de antenas de seguridad?",
       "options": [
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas"
+        "Sensores de radar Doppler",
+        "Sensores de temperatura de caja de grasa",
+        "Sensores de presión de freno",
+        "Sensores de velocidad del ventilador"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Sensores de radar Doppler",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-089",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué registradores jurídicos se mencionan en el manual?",
       "options": [
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación"
+        "Teloc, Cesis, Deuta y Memotel",
+        "Sibas, TCMS, MITRAC y Cosmos",
+        "MVB y WTB",
+        "ASFA y ERTMS"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Teloc, Cesis, Deuta y Memotel",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.16 REGISTRADORES JURÍDICOS"
       ]
     },
     {
       "id": "comun-090",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué fabricante aparece asociado al registrador jurídico Teloc en la imagen del manual?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo"
+        "Alstom",
+        "Siemens",
+        "Bombardier",
+        "CAF"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Alstom",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.16 REGISTRADORES JURÍDICOS"
       ]
     },
     {
       "id": "comun-091",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Para qué sirven los registradores jurídicos como Teloc, Cesis, Deuta o Memotel?",
       "options": [
-        "Bogie",
-        "Vehículos motores",
-        "Funicular",
-        "Travi-tren"
+        "Para registrar de forma legal los parámetros de circulación y funcionamiento del vehículo",
+        "Para climatizar el vehículo",
+        "Para controlar la megafonía",
+        "Para el arenado de las vías"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Para registrar de forma legal los parámetros de circulación y funcionamiento del vehículo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.16 REGISTRADORES JURÍDICOS"
       ]
     },
     {
       "id": "comun-092",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué plan fue responsable de la aparición de los vehículos de última generación en España?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Coche de viajeros",
-        "Dresina"
+        "El Plan estratégico de infraestructuras y transportes del Ministerio de Fomento 2004-2010",
+        "El Libro Blanco del Transporte de 2001",
+        "El Plan Shift2Rail",
+        "El 7º Programa Marco"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "El Plan estratégico de infraestructuras y transportes del Ministerio de Fomento 2004-2010",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "1.1 PLAN ESTRATÉGICO 2004-2010 DEL MINISTERIO DE FOMENTO"
       ]
     },
     {
       "id": "comun-093",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "Según UNIFE, ¿cómo es calificada la flota de trenes españoles?",
       "options": [
-        "Locomotora de línea",
-        "Unidad AVE",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía"
+        "La más antigua de Europa",
+        "La más moderna y joven de Europa, una de las más novedosas del mundo",
+        "La de menor inversión de Europa",
+        "La menos interoperable de Europa"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "La más moderna y joven de Europa, una de las más novedosas del mundo",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "1.1 PLAN ESTRATÉGICO 2004-2010 DEL MINISTERIO DE FOMENTO"
       ]
     },
     {
       "id": "comun-094",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cuántos vehículos para líneas convencionales entraron a formar parte de las flotas de Renfe en el plan 2004-2010?",
       "options": [
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo",
-        "Elimina inspecciones"
+        "103",
+        "122",
+        "223",
+        "438"
       ],
       "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "122",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "1.1 PLAN ESTRATÉGICO 2004-2010 DEL MINISTERIO DE FOMENTO"
       ]
     },
     {
       "id": "comun-095",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿A qué tipo de red se puede catalogar la red informática exclusiva del vehículo?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos",
-        "Solo es documental"
+        "LAN (Local Área Network)",
+        "WAN",
+        "Internet público",
+        "Red satelital"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "LAN (Local Área Network)",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "1.2 LA INNOVACIÓN GRACIAS A LA INFORMÁTICA"
       ]
     },
     {
       "id": "comun-096",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Por qué no representa un problema que los dispositivos embarcados sean de diferentes fabricantes y países?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo"
+        "Porque respetan y cumplen con la estandarización de la red y sus protocolos de comunicación",
+        "Porque siempre son del mismo fabricante",
+        "Porque no se comunican entre sí",
+        "Porque cada uno usa su propia red aislada"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Porque respetan y cumplen con la estandarización de la red y sus protocolos de comunicación",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "1.2 LA INNOVACIÓN GRACIAS A LA INFORMÁTICA"
       ]
     },
     {
       "id": "comun-097",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué vehículos se citan como ejemplo de que 'ya apuntaban maneras' antes de la llegada masiva de vehículos de última generación?",
       "options": [
-        "Bogie",
-        "Travi-tren",
-        "Vehículos motores",
-        "Funicular"
+        "Las locomotoras 252 y los autopropulsados 447",
+        "Las locomotoras de vapor",
+        "Los vagones de mercancías clásicos",
+        "Los coches Talgo históricos"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Las locomotoras 252 y los autopropulsados 447",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "1.3 EL SALTO TECNOLÓGICO Y EL CAMBIO CULTURAL VAN DE LA MANO"
       ]
     },
     {
       "id": "comun-098",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué dificulta la aplicación del salto tecnológico y cambio cultural necesario en el mantenimiento, según el manual?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Coche de viajeros",
-        "Dresina"
+        "Que no ha habido relevo generacional ni se han incorporado nuevos perfiles profesionales como informática",
+        "El exceso de personal cualificado",
+        "La falta de vehículos nuevos",
+        "El exceso de presupuesto disponible"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Que no ha habido relevo generacional ni se han incorporado nuevos perfiles profesionales como informática",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "1.3 EL SALTO TECNOLÓGICO Y EL CAMBIO CULTURAL VAN DE LA MANO"
       ]
     },
     {
       "id": "comun-099",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Aproximadamente cuántas variables de información se manejan en un CIVIA, según el manual?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Locomotora de línea",
-        "Unidad AVE"
+        "900",
+        "9.000",
+        "90.000",
+        "900.000"
       ],
-      "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "9.000",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "1.4 ¿PORQUE ERA NECESARIO EL DESARROLLO DE LAS COMUNICACIONES Y SU ESTANDARIZACIÓN?"
       ]
     },
     {
       "id": "comun-100",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Por qué es necesaria la estandarización de las comunicaciones entre los diferentes dispositivos embarcados?",
       "options": [
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones"
+        "Porque sin ella sería difícil y muy costoso conseguir que los subsistemas trabajen coordinados",
+        "Porque lo exige exclusivamente la UIC",
+        "Porque reduce el peso del vehículo",
+        "Porque mejora únicamente la estética del vehículo"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Porque sin ella sería difícil y muy costoso conseguir que los subsistemas trabajen coordinados",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "1.4 ¿PORQUE ERA NECESARIO EL DESARROLLO DE LAS COMUNICACIONES Y SU ESTANDARIZACIÓN?"
       ]
     },
     {
       "id": "comun-101",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué ventaja aporta la estandarización de los propios vehículos ferroviarios?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental",
-        "No aplica a equipos eléctricos"
+        "Que puedan operar juntos y por cualquier territorio con independencia del fabricante",
+        "Que se reduzca el número de asientos",
+        "Que se elimine la necesidad de mantenimiento",
+        "Que se prescinda de la catenaria"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Que puedan operar juntos y por cualquier territorio con independencia del fabricante",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "1.4 ¿PORQUE ERA NECESARIO EL DESARROLLO DE LAS COMUNICACIONES Y SU ESTANDARIZACIÓN?"
       ]
     },
     {
       "id": "comun-102",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué organismo publicó en 1999, junto con la UIC, el primer estándar de comunicaciones IEC61375-1?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base"
+        "La IEC (Comisión Electrotécnica Internacional)",
+        "La ERA",
+        "El ERRAC",
+        "UNIFE"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "La IEC (Comisión Electrotécnica Internacional)",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.1 ACTORES EN EL PROCESO DE LA INNOVACIÓN Y LA ESTANDARIZACIÓN"
       ]
     },
     {
       "id": "comun-103",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué actores han jugado un papel importante en la incorporación de avances tecnológicos a los vehículos ferroviarios?",
       "options": [
-        "Bogie",
-        "Vehículos motores",
-        "Funicular",
-        "Travi-tren"
+        "Empresas constructoras, UIC, IEC, Comisión Europea, operadores ferroviarios y universidades",
+        "Solo los sindicatos",
+        "Únicamente los gobiernos nacionales",
+        "Solo los pasajeros"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Empresas constructoras, UIC, IEC, Comisión Europea, operadores ferroviarios y universidades",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.1 ACTORES EN EL PROCESO DE LA INNOVACIÓN Y LA ESTANDARIZACIÓN"
       ]
     },
     {
       "id": "comun-104",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿En qué periodo se desarrolló el proyecto ROSIN?",
       "options": [
-        "Dresina",
-        "Coche de viajeros",
-        "Locomotora",
-        "Automotor"
+        "1996-1999",
+        "2000-2004",
+        "2002-2005",
+        "2004-2008"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "1996-1999",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-105",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿A qué norma estándar dio lugar el proyecto ROSIN?",
       "options": [
-        "Locomotora de línea",
-        "Unidad AVE",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía"
+        "IEC-61375-1 (TCN)",
+        "CENELEC WG B14",
+        "ISO 9001",
+        "UNE 56721"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "IEC-61375-1 (TCN)",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-106",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿En qué dos buses físicos se apoya fundamentalmente la red TCN?",
       "options": [
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Elimina inspecciones"
+        "Bus MVB y bus WTB",
+        "Bus CAN y bus Ethernet",
+        "Bus RS232 y RS485",
+        "Bus HTTP y XML"
       ],
       "correctIndex": 0,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "Bus MVB y bus WTB",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-107",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿En qué periodo se desarrolló el proyecto TRAINCom?",
       "options": [
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación"
+        "2000-2004",
+        "1996-1999",
+        "2002-2005",
+        "2005-2010"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "2000-2004",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "2.2.2 Proyecto TRAINCom"
       ]
     },
     {
       "id": "comun-108",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué norma estándar resultó del proyecto TRAINCom?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo"
+        "IEC 61375-2",
+        "IEC 61375-1",
+        "CENELEC WG B14",
+        "ISO 55000"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "IEC 61375-2",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.2.2 Proyecto TRAINCom"
       ]
     },
     {
       "id": "comun-109",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿En cuántas áreas de actividad se dividió el proyecto TRAINCom?",
       "options": [
-        "Travi-tren",
-        "Vehículos motores",
-        "Bogie",
-        "Funicular"
+        "Tres",
+        "Cuatro",
+        "Cinco",
+        "Seis"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 2,
+      "explanation": "Cinco",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.2 Proyecto TRAINCom"
       ]
     },
     {
       "id": "comun-110",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿En qué periodo se desarrolló el proyecto EuRoMain?",
       "options": [
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina",
-        "Automotor"
+        "2002-2005",
+        "2000-2004",
+        "2004-2008",
+        "2006-2010"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "2002-2005",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.3 Proyecto EuRoMain"
       ]
     },
     {
       "id": "comun-111",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿A qué norma dio origen la especificación del sistema desarrollada por EuRoMain?",
       "options": [
-        "Unidad AVE",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama"
+        "CENELEC WG B14",
+        "IEC61375-1",
+        "UNE 56721",
+        "ISO 9001"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "CENELEC WG B14",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.3 Proyecto EuRoMain"
       ]
     },
     {
       "id": "comun-112",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Sobre qué tres campos actuó el proyecto EuRoMain para conseguir sus objetivos?",
       "options": [
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo"
+        "Documental, distribución e intercambio de datos, y herramientas y aplicaciones especiales del mantenimiento",
+        "Comercial, financiero y de recursos humanos",
+        "Seguridad, señalización y comunicaciones",
+        "Infraestructura, material rodante y personal"
       ],
-      "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Documental, distribución e intercambio de datos, y herramientas y aplicaciones especiales del mantenimiento",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "2.2.3 Proyecto EuRoMain"
       ]
     },
     {
       "id": "comun-113",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué periodo de actuación tiene el proyecto MODTRAIN?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "2004-2008",
+        "2002-2005",
+        "2010-2012",
+        "2008-2012"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "2004-2008",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "2.2.4 Proyecto MODTRAIN"
       ]
     },
     {
       "id": "comun-114",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué subproyecto de MODTRAIN se encarga de la normalización de los componentes de los bogies?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base"
+        "MODBOGIE",
+        "MODPOWER",
+        "MODCONTROL",
+        "MODLINK"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "MODBOGIE",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.2.4 Proyecto MODTRAIN"
       ]
     },
     {
       "id": "comun-115",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿En qué periodo se desarrolló el proyecto Railenergy?",
       "options": [
-        "Vehículos motores",
-        "Travi-tren",
-        "Funicular",
-        "Bogie"
+        "2006-2010",
+        "2005-2010",
+        "2004-2008",
+        "2002-2005"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "2006-2010",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.5 Proyecto Railenergy"
       ]
     },
     {
       "id": "comun-116",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuál es el objetivo principal del proyecto Railenergy?",
       "options": [
-        "Coche de viajeros",
-        "Locomotora",
-        "Automotor",
-        "Dresina"
+        "Abordar la eficiencia energética del sistema ferroviario integrado",
+        "Desarrollar la red de comunicaciones TCN",
+        "Fabricar trenes modulares",
+        "Crear un sistema único de información ferroviaria"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "Abordar la eficiencia energética del sistema ferroviario integrado",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.5 Proyecto Railenergy"
       ]
     },
     {
       "id": "comun-117",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Cómo se llama la plataforma que constituye la columna vertebral del proyecto InteGRail?",
       "options": [
-        "Unidad AVE",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Locomotora de línea"
+        "IGRIS",
+        "ROMAIN",
+        "TCN",
+        "ROSIN"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "IGRIS",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.6 Proyecto InteGRail"
       ]
     },
     {
       "id": "comun-118",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cuáles fueron algunas de las mejoras que se desprendieron del interface IGRIS del proyecto InteGRail?",
       "options": [
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central"
+        "Mayor eficiencia, mejor gestión del material rodante, disminución de costos y mejora de la puntualidad",
+        "Reducción del número de trenes",
+        "Eliminación del mantenimiento preventivo",
+        "Aumento del precio del billete"
       ],
       "correctIndex": 0,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "explanation": "Mayor eficiencia, mejor gestión del material rodante, disminución de costos y mejora de la puntualidad",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "2.2.6 Proyecto InteGRail"
       ]
     },
     {
       "id": "comun-119",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué aplicación de la plataforma IGRIS analiza cualquier evento no previsto e informa de él?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "El Administrador de eventos no planificados",
+        "El Optimizador de Mantenimiento",
+        "El Depósito Inteligente",
+        "El Servidor para el mantenimiento predictivo"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "El Administrador de eventos no planificados",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "2.2.6 Proyecto InteGRail"
       ]
     },
     {
       "id": "comun-120",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué organismo gestionará todo el presupuesto para la investigación ferroviaria en el horizonte 2020?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo"
+        "Shift2Rail",
+        "ERRAC",
+        "ERA",
+        "UNIFE"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Shift2Rail",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.2.7 Nuevos proyectos de I+D+I para el futuro (2020)"
       ]
     },
     {
       "id": "comun-121",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿A cuánto asciende como máximo la contribución financiera de la Unión Europea al Shift2Rail (S2R) del Programa Marco?",
       "options": [
-        "Vehículos motores",
-        "Bogie",
-        "Funicular",
-        "Travi-tren"
+        "450 millones de euros",
+        "970 millones de euros",
+        "225.000 millones de euros",
+        "920 millones de euros"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "450 millones de euros",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.7 Nuevos proyectos de I+D+I para el futuro (2020)"
       ]
     },
     {
       "id": "comun-122",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sistema, implantado gracias a la red de comunicaciones TCN, ha sido determinante para acercarnos a la interoperabilidad segura desde el punto de vista técnico?",
       "options": [
-        "Automotor",
-        "Locomotora",
-        "Dresina",
-        "Coche de viajeros"
+        "El ERTMS",
+        "El GSM-R",
+        "El Memotel",
+        "El Cesis"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "El ERTMS",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3.1 ARMONIZAR LA INTEROPERABILIDAD GARANTIZANDO LA SEGURIDAD"
       ]
     },
     {
       "id": "comun-123",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿En qué año se coloca la 'primera piedra' de la apertura de los mercados ferroviarios, según el manual?",
       "options": [
-        "Coche cama",
-        "Unidad AVE",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía"
+        "1991",
+        "2001",
+        "2008",
+        "2015"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "1991",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3.2 LA APERTURA DE LOS MERCADOS"
       ]
     },
     {
       "id": "comun-124",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuántos proyectos prioritarios de la Red Transeuropea de Transportes establece la Decisión Nº 884/2004/CE?",
       "options": [
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo"
+        "30",
+        "21",
+        "3",
+        "10"
       ],
-      "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "30",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "3.3 COMPLETAR LA RED TRANS-EUROPEA"
       ]
     },
     {
       "id": "comun-125",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Cuántos de los treinta proyectos prioritarios tienen relación directa con España?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "Solo es documental"
+        "Tres",
+        "Cinco",
+        "Diez",
+        "Ninguno"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Tres",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "3.3 COMPLETAR LA RED TRANS-EUROPEA"
       ]
     },
     {
       "id": "comun-126",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué se recomienda alimentar y utilizar, adaptado a los recursos que aportan los vehículos, para mejorar la credibilidad del mantenimiento?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo"
+        "Un GMAO (Gestión de Mantenimiento Asistido por Ordenador)",
+        "Un ERP genérico",
+        "Una hoja de cálculo manual",
+        "Un sistema de facturación"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Un GMAO (Gestión de Mantenimiento Asistido por Ordenador)",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "3.4 MEJORAR LA CREDIBILIDAD Y LA CONFIANZA"
       ]
     },
     {
       "id": "comun-127",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué fabricantes se citan como principales impulsores de la innovación en el mantenimiento, junto con las instituciones?",
       "options": [
-        "Funicular",
-        "Bogie",
-        "Travi-tren",
-        "Vehículos motores"
+        "Bombardier, CAF, Alstom, Siemens, entre otros",
+        "Solo Renfe",
+        "Únicamente la Comisión Europea",
+        "Solo la UIC"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Bombardier, CAF, Alstom, Siemens, entre otros",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "3.4 MEJORAR LA CREDIBILIDAD Y LA CONFIANZA"
       ]
     },
     {
       "id": "comun-128",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué tipos de vehículos han ido adoptando mejoras tecnológicas para tener mejor funcionamiento, mayor seguridad y mejor rendimiento de cara a la explotación, además de los coches y vagones?",
       "options": [
-        "Locomotora",
-        "Coche de viajeros",
-        "Automotor",
-        "Dresina"
+        "Material rodante auxiliar, material especial y material histórico",
+        "Únicamente las locomotoras de mercancías",
+        "Solo los AVE de nueva generación",
+        "Solo los vehículos de ancho variable"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 0,
+      "explanation": "Material rodante auxiliar, material especial y material histórico",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.1 INTRODUCCIÓN"
       ]
     },
     {
       "id": "comun-129",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué tipo de motores han marcado la evolución del transporte ferroviario y permitido crear nuevas locomotoras y automotores de mayor potencia?",
       "options": [
-        "Coche cama",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE"
+        "Los motores de combustión y los motores eléctricos",
+        "Solo los motores de vapor",
+        "Solo los motores hidráulicos",
+        "Los motores de aire comprimido"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Los motores de combustión y los motores eléctricos",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.1 INTRODUCCIÓN"
       ]
     },
     {
       "id": "comun-130",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cuál de los siguientes NO es un vehículo remolcado, según la clasificación del manual?",
       "options": [
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas"
+        "Coche",
+        "Vagón",
+        "Locomotora",
+        "Funicular"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 2,
+      "explanation": "Locomotora",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2 TIPOS DE VEHÍCULOS"
       ]
     },
     {
       "id": "comun-131",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Cuál de los siguientes NO es un vehículo motor, según la clasificación del manual?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "Solo es documental"
+        "Automotor",
+        "Vagón",
+        "Locomotora",
+        "Autopropulsado"
       ],
       "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "Vagón",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2 TIPOS DE VEHÍCULOS"
       ]
     },
     {
       "id": "comun-132",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "Dentro de los vehículos remolcados, ¿a qué transporte están destinados los coches?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base"
+        "Al transporte de mercancías",
+        "Al transporte de viajeros",
+        "Al mantenimiento de vías",
+        "Al remolcado de unidades averiadas"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 1,
+      "explanation": "Al transporte de viajeros",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-133",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Un vehículo remolcado puede circular por la línea férrea de forma completamente independiente?",
       "options": [
-        "Travi-tren",
-        "Bogie",
-        "Funicular",
-        "Vehículos motores"
+        "Sí, siempre que disponga de freno",
+        "No, es una unidad inerte que necesita ser arrastrada por un vehículo motor",
+        "Solo si es un coche de viajeros",
+        "Solo si la vía está en pendiente"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 1,
+      "explanation": "No, es una unidad inerte que necesita ser arrastrada por un vehículo motor",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.2.1 VEHÍCULO REMOLCADO"
       ]
     },
     {
       "id": "comun-134",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Puede una locomotora llevar carga comercial, a diferencia del automotor?",
       "options": [
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina",
-        "Automotor"
+        "No; la locomotora tiene capacidad tractora pero no puede llevar carga comercial",
+        "Sí, siempre que sea de tracción eléctrica",
+        "Sí, si lleva bogies de mercancías",
+        "Solo las locomotoras diésel pueden llevar carga comercial"
       ],
       "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "explanation": "No; la locomotora tiene capacidad tractora pero no puede llevar carga comercial",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.2.2.2 LOCOMOTORA"
       ]
     },
     {
       "id": "comun-135",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Para qué dos aplicaciones sirve una locomotora, según el manual?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Unidad AVE",
-        "Locomotora de línea"
+        "Para remolcar vagones o coches, utilizándose como vehículo independiente",
+        "Para transportar viajeros y mercancías simultáneamente",
+        "Para mantenimiento de vías únicamente",
+        "Para ser arrastrada por un automotor en composición múltiple"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "Para remolcar vagones o coches, utilizándose como vehículo independiente",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.2.2.2 LOCOMOTORA"
       ]
     },
     {
       "id": "comun-136",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Puede un automotor estar formado por varios vehículos independientes?",
       "options": [
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones"
+        "No; el automotor es siempre una unidad única e indivisible de fábrica",
+        "Solo si todos los coches son motores",
+        "Solo si la composición no supera dos unidades",
+        "Sí; puede formarse con diversas combinaciones de vehículos que constituyen un conjunto indivisible de cara a la explotación"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 3,
+      "explanation": "Sí; puede formarse con diversas combinaciones de vehículos que constituyen un conjunto indivisible de cara a la explotación",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.2.1 AUTOMOTOR O AUTOPROPULSADO"
       ]
     },
     {
       "id": "comun-137",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "En un automotor, ¿qué diferencia hay entre un coche motor y un coche remolque?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Solo es documental",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención"
+        "Los coches motores generan la tracción del conjunto; los coches remolque no",
+        "Los coches remolque tienen mayor capacidad de viajeros siempre",
+        "Los coches motores solo existen en automotores de alta velocidad",
+        "No existe ninguna diferencia funcional entre ellos"
       ],
-      "correctIndex": 3,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "Los coches motores generan la tracción del conjunto; los coches remolque no",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.2.2.1 AUTOMOTOR O AUTOPROPULSADO"
       ]
     },
     {
       "id": "comun-138",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué ejemplo de serie utiliza tracción concentrada, según el manual?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo"
+        "S100, S102 o S130",
+        "S104, S465 o S490",
+        "S592, S594 o S596",
+        "S440, S446 o S447"
       ],
-      "correctIndex": 2,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "S100, S102 o S130",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-139",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Cuál es una ventaja de la tracción distribuida sobre la tracción concentrada?",
       "options": [
-        "Funicular",
-        "Travi-tren",
-        "Vehículos motores",
-        "Bogie"
+        "Mayor aprovechamiento del espacio sobre bastidor, lo que incrementa el número de plazas",
+        "Construcción y mantenimiento más sencillos",
+        "Todos los ejes motores se agrupan en un único vehículo",
+        "Permite siempre composiciones articuladas"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Mayor aprovechamiento del espacio sobre bastidor, lo que incrementa el número de plazas",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-140",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "En una composición articulada, ¿qué ocurre con la composición si se produce un descarrilamiento?",
       "options": [
-        "Locomotora",
-        "Coche de viajeros",
-        "Automotor",
-        "Dresina"
+        "Cada caja puede volcarse de manera individual e independiente",
+        "Permanecerá solidaria, siendo imposible el vuelco individual de una caja",
+        "La composición se separa automáticamente en sus unidades originales",
+        "El descarrilamiento es imposible en composiciones articuladas"
       ],
       "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "explanation": "Permanecerá solidaria, siendo imposible el vuelco individual de una caja",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-141",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué ventaja aerodinámica tienen las composiciones articuladas respecto a las no articuladas?",
       "options": [
-        "Coche cama",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE"
+        "Al disponer de más bogies, se mejoran los efectos aerodinámicos",
+        "Al disponer de menos bogies, se mejoran los efectos aerodinámicos",
+        "No existe diferencia aerodinámica entre ambas",
+        "La aerodinámica solo depende de la forma del testero"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "Al disponer de menos bogies, se mejoran los efectos aerodinámicos",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-142",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué inconveniente presenta el menor número de ejes en una composición articulada?",
       "options": [
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central"
+        "Obliga a utilizar materiales más ligeros para no incrementar el peso por eje",
+        "Hace que el mantenimiento sea más sencillo pero más costoso",
+        "Reduce la velocidad máxima de la composición",
+        "Impide la instalación de freno neumático"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Obliga a utilizar materiales más ligeros para no incrementar el peso por eje",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-143",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Cómo se denomina la composición formada por un único conjunto motriz (locomotora o automotor)?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "Composición múltiple",
+        "Composición sencilla",
+        "Mando múltiple",
+        "Tracción distribuida"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "Composición sencilla",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.3 CONFIGURACIONES DE LOS VEHÍCULOS MOTORES"
       ]
     },
     {
       "id": "comun-144",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuántos sistemas generales de tracción existen actualmente en los vehículos ferroviarios, según el manual?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Sustituye a la inspección visual",
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base"
+        "Tres: diésel, eléctrica e hidráulica",
+        "Cuatro: diésel, eléctrica, hidráulica y vapor",
+        "Solo uno: la tracción eléctrica",
+        "Dos: tracción diésel y tracción eléctrica"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 3,
+      "explanation": "Dos: tracción diésel y tracción eléctrica",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4 SISTEMAS DE TRACCIÓN"
       ]
     },
     {
       "id": "comun-145",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "En la tracción diésel-mecánica, ¿qué elemento une el cigüeñal del motor con la caja de cambios?",
       "options": [
-        "Bogie",
-        "Vehículos motores",
-        "Travi-tren",
-        "Funicular"
+        "Un generador eléctrico",
+        "Los árboles de transmisión de giro, unidos por juntas fijas o articuladas",
+        "Un convertidor de par hidráulico",
+        "Un pantógrafo"
       ],
       "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "explanation": "Los árboles de transmisión de giro, unidos por juntas fijas o articuladas",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.4.1.1 TRACCIÓN DIESEL – MECÁNICA"
       ]
     },
     {
       "id": "comun-146",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué tipo de motores de tracción utilizan las locomotoras S310, S319, S333 y S334 en su sistema diésel-eléctrico?",
       "options": [
-        "Automotor",
-        "Dresina",
-        "Coche de viajeros",
-        "Locomotora"
+        "Motores de tracción de corriente alterna trifásica",
+        "Motores hidráulicos",
+        "Motores de vapor",
+        "Motores de tracción de corriente continua"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 3,
+      "explanation": "Motores de tracción de corriente continua",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.4.1.2 TRACCIÓN DIESEL – ELÉCTRICA"
       ]
     },
     {
       "id": "comun-147",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué tipo de convertidor utiliza la Loc. S311 en su sistema de tracción diésel-eléctrica?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE",
-        "Coche cama",
-        "Locomotora de línea"
+        "Un convertidor chopper con motores de corriente continua",
+        "Un transformador reductor de 25 kV",
+        "Un conjunto rectificador-ondulador con motores de corriente alterna trifásica",
+        "Un convertidor de par hidráulico"
       ],
-      "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 2,
+      "explanation": "Un conjunto rectificador-ondulador con motores de corriente alterna trifásica",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.4.1.2 TRACCIÓN DIESEL – ELÉCTRICA"
       ]
     },
     {
       "id": "comun-148",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué tensión de catenaria necesita adaptar el transformador reductor del sistema de alimentación CA monofásica?",
       "options": [
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo"
+        "25 kV monofásica de catenaria",
+        "3.000 V de corriente continua",
+        "1.500 V de corriente continua",
+        "400 V trifásica"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "25 kV monofásica de catenaria",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.2.4 ALIMENTACIÓN CA MONOFÁSICA"
       ]
     },
     {
       "id": "comun-149",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿En qué se diferencia el freno reostático del freno regenerativo en la tracción eléctrica?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Aumenta la velocidad de reparación",
-        "Evita energizaciones accidentales durante la intervención",
-        "Solo es documental"
+        "Son exactamente el mismo tipo de freno, con distinto nombre según el fabricante",
+        "El regenerativo devuelve energía a la red de catenaria; el reostático la disipa en forma de calor a través de resistencias",
+        "El reostático solo funciona en corriente alterna y el regenerativo en corriente continua",
+        "El regenerativo no utiliza los motores de tracción como freno"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "El regenerativo devuelve energía a la red de catenaria; el reostático la disipa en forma de calor a través de resistencias",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.3 FRENO DINÁMICO"
       ]
     },
     {
       "id": "comun-150",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué tensiones continuas se citan como tipos de alimentación auxiliar en el manual?",
       "options": [
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo"
+        "12 V, 24 V y 48 V",
+        "110 V, 220 V y 380 V",
+        "72 V y 1.500 V",
+        "24 V, 72 V y 110 V"
       ],
       "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "24 V, 72 V y 110 V",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.4.4 ALIMENTACIÓN ELÉCTRICA AUXILIAR"
       ]
     },
     {
       "id": "comun-151",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué tipos de alimentación auxiliar en corriente alterna se citan en el manual?",
       "options": [
-        "Funicular",
-        "Vehículos motores",
-        "Travi-tren",
-        "Bogie"
+        "Monofásica 230 V / 60 Hz y trifásica 690 V / 50 Hz",
+        "Trifásica 400 V / 60 Hz únicamente",
+        "Trifásica 400 V / 50 Hz y monofásica 240 V / 50 Hz",
+        "25 kV monofásica únicamente"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 2,
+      "explanation": "Trifásica 400 V / 50 Hz y monofásica 240 V / 50 Hz",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.4.4 ALIMENTACIÓN ELÉCTRICA AUXILIAR"
       ]
     },
     {
       "id": "comun-152",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué sistema NO forma parte de los equipos de un vagón, a diferencia de los coches y vehículos motores?",
       "options": [
-        "Automotor",
-        "Dresina",
-        "Coche de viajeros",
-        "Locomotora"
+        "Estructuras de caja y bogies",
+        "Sistemas neumáticos",
+        "Sistemas electrónicos",
+        "Sistemas mecánicos"
       ],
       "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "explanation": "Sistemas electrónicos",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.1.2 VEHÍCULOS REMOLCADOS"
       ]
     },
     {
       "id": "comun-153",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Por qué no siempre está claramente definida la frontera entre los sistemas de un vehículo ferroviario?",
       "options": [
-        "Unidad AVE",
-        "Coche cama",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía"
+        "Porque todos los sistemas son idénticos en todos los vehículos",
+        "Porque un dispositivo de un sistema puede interactuar con otro sistema diferente, como el neumático con el eléctrico",
+        "Porque los sistemas no tienen ninguna relación entre sí",
+        "Porque solo existe un sistema funcional en cada vehículo"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "Porque un dispositivo de un sistema puede interactuar con otro sistema diferente, como el neumático con el eléctrico",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.1 SISTEMAS DIFERENCIADOS EN UN VEHÍCULO FERROVIARIO"
       ]
     },
     {
       "id": "comun-154",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sistema de un vehículo motor NO tiene equivalente directo en un vagón?",
       "options": [
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones",
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo"
+        "Sistemas mecánicos",
+        "Sistemas hidráulicos",
+        "Sistemas neumáticos",
+        "Estructuras de caja y bogies"
       ],
-      "correctIndex": 0,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 1,
+      "explanation": "Sistemas hidráulicos",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.1 SISTEMAS DIFERENCIADOS EN UN VEHÍCULO FERROVIARIO"
       ]
     },
     {
       "id": "comun-155",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué tipo de freno actúa exclusivamente en las locomotoras a través de los cilindros de freno de manera directa?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación"
+        "El freno automático",
+        "El freno dinámico regenerativo",
+        "El freno directo",
+        "El freno de urgencia"
       ],
       "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "El freno directo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-156",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cómo actúa el freno automático (freno indirecto) en la cabina de conducción?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "Mediante presión de control sobre el distribuidor",
+        "Mediante accionamiento directo sobre los cilindros de freno",
+        "Solo mediante freno dinámico",
+        "Únicamente a través del hombre muerto"
       ],
       "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Mediante presión de control sobre el distribuidor",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-157",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué indicadores de velocidad existen en el pupitre de conducción, según el manual?",
       "options": [
-        "Funicular",
-        "Vehículos motores",
-        "Travi-tren",
-        "Bogie"
+        "Velocidad real y velocidad prefijada",
+        "Solo la velocidad máxima permitida",
+        "Velocidad media y velocidad instantánea",
+        "Únicamente el velocímetro analógico"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "Velocidad real y velocidad prefijada",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-158",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué elemento de seguridad en cabina activa el freno si el maquinista no da señales de estar consciente y activo?",
       "options": [
-        "Locomotora",
-        "Dresina",
-        "Coche de viajeros",
-        "Automotor"
+        "El ASFA",
+        "El LZB",
+        "El ERTMS",
+        "El hombre muerto"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 3,
+      "explanation": "El hombre muerto",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-159",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué es el 'tren tierra' en el apartado de cabina?",
       "options": [
-        "Locomotora de línea",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE"
+        "Un dispositivo que conecta eléctricamente el vehículo con la tierra para evitar tensiones peligrosas en la caja",
+        "Un tipo especial de freno de estacionamiento",
+        "Una señal de radio entre el tren y la tierra",
+        "El sistema de control del pantógrafo"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Un dispositivo que conecta eléctricamente el vehículo con la tierra para evitar tensiones peligrosas en la caja",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.2 CONDUCCIÓN/CABINA"
       ]
     },
     {
       "id": "comun-160",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿A qué fabricante de vehículos ferroviarios corresponde el sistema de control Cosmos?",
       "options": [
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Solo se aplica en taller central",
-        "Reduce averías mediante revisiones programadas"
+        "Siemens",
+        "Alstom",
+        "CAF",
+        "Bombardier"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 2,
+      "explanation": "CAF",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.3 CONTROL DEL VEHÍCULO"
       ]
     },
     {
       "id": "comun-161",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Cuántos sistemas de control del vehículo se mencionan en el manual?",
       "options": [
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "Solo es documental"
+        "Dos: Sibas y TCMS",
+        "Tres: Sibas, TCMS y Cosmos",
+        "Cuatro: Sibas, TCMS, MITRAC-DCPU y Cosmos",
+        "Solo uno, el TCMS"
       ],
-      "correctIndex": 1,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 2,
+      "explanation": "Cuatro: Sibas, TCMS, MITRAC-DCPU y Cosmos",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.3 CONTROL DEL VEHÍCULO"
       ]
     },
     {
       "id": "comun-162",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué circuito neumático controla la suspensión neumática de caja del vehículo?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual",
-        "Solo la usa el jefe de base"
+        "El circuito de TDP (tubería de depósito principal)",
+        "El circuito de freno TFA",
+        "El circuito neumático auxiliar de suspensión neumática",
+        "El circuito del pantógrafo"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 2,
+      "explanation": "El circuito neumático auxiliar de suspensión neumática",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-163",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué función cumple el compresor principal en el sistema neumático de caja?",
       "options": [
-        "Vehículos motores",
-        "Bogie",
-        "Funicular",
-        "Travi-tren"
+        "Producir el aire comprimido necesario para todos los circuitos neumáticos del vehículo",
+        "Secar el aire comprimido antes de su distribución",
+        "Regular la presión de los cilindros de freno",
+        "Accionar el pantógrafo directamente"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos motores",
+      "explanation": "Producir el aire comprimido necesario para todos los circuitos neumáticos del vehículo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-164",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué diferencia hay entre el compresor principal y el compresor auxiliar en el sistema neumático?",
       "options": [
-        "Automotor",
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina"
+        "Son idénticos en capacidad y función",
+        "El auxiliar solo existe en locomotoras diésel",
+        "El principal solo produce aire para el freno y el auxiliar para todo lo demás",
+        "El auxiliar es de menor capacidad y sirve como respaldo; el principal abastece el sistema completo"
       ],
-      "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 3,
+      "explanation": "El auxiliar es de menor capacidad y sirve como respaldo; el principal abastece el sistema completo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-165",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué elemento del sistema neumático activa una señal cuando se alcanza una determinada presión?",
       "options": [
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Unidad AVE"
+        "El presostato",
+        "El manómetro",
+        "El transductor",
+        "La electroválvula"
       ],
-      "correctIndex": 1,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "El presostato",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-166",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué permite el sistema antibloqueo en el sistema neumático de caja?",
       "options": [
-        "Sustituye al correctivo",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central"
+        "Bloquear el freno de estacionamiento automáticamente",
+        "Aislar el circuito neumático en caso de avería",
+        "Controlar la apertura de puertas de forma automática",
+        "Evitar el bloqueo de las ruedas durante una frenada intensa, preservando la adherencia"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 3,
+      "explanation": "Evitar el bloqueo de las ruedas durante una frenada intensa, preservando la adherencia",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.7 SISTEMA NEUMÁTICO DE CAJA"
       ]
     },
     {
       "id": "comun-167",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué parte de la caja soporta estructuralmente el peso de toda la caja y transmite los esfuerzos a los bogies?",
       "options": [
-        "Solo es documental",
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación"
+        "El bastidor",
+        "El testero",
+        "Las paredes laterales",
+        "El techo"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 0,
+      "explanation": "El bastidor",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.8 CAJA"
       ]
     },
     {
       "id": "comun-168",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué se entiende por 'testeros' de la caja de un vehículo ferroviario?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "Las paredes laterales de la caja",
+        "Los techos del vehículo",
+        "Las partes frontales y traseras de la caja, que cierran la estructura longitudinalmente",
+        "Los soportes de los bogies"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 2,
+      "explanation": "Las partes frontales y traseras de la caja, que cierran la estructura longitudinalmente",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.8 CAJA"
       ]
     },
     {
       "id": "comun-169",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué componente del sistema de climatización mide la temperatura del aire ya acondicionado antes de su distribución?",
       "options": [
-        "Travi-tren",
-        "Funicular",
-        "Bogie",
-        "Vehículos motores"
+        "El condensador",
+        "El evaporador",
+        "La sonda térmica del aire acondicionado",
+        "La sonda térmica del aire externo"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 2,
+      "explanation": "La sonda térmica del aire acondicionado",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-170",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componente del sistema de climatización intercambia calor con el aire exterior, rechazando el calor absorbido?",
       "options": [
-        "Locomotora",
-        "Automotor",
-        "Coche de viajeros",
-        "Dresina"
+        "El evaporador",
+        "El condensador",
+        "El compresor",
+        "El calefactor"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "El condensador",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-171",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Cuál de los siguientes NO es un elemento del sistema de confort citado en el manual?",
       "options": [
-        "Coche cama",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE"
+        "Pantógrafo",
+        "Audio-vídeo",
+        "Megafonía",
+        "WC"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 0,
+      "explanation": "Pantógrafo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.9 CONFORT"
       ]
     },
     {
       "id": "comun-172",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué elemento absorbe los esfuerzos de choque entre vehículos en los extremos de la caja?",
       "options": [
-        "Solo se aplica en taller central",
-        "Elimina inspecciones",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas"
+        "Los topes",
+        "El acoplamiento Scharfenberg",
+        "La caja de grasa",
+        "La traviesa portadora"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "Los topes",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-173",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué tipo de acoplamiento permite la unión mecánica, neumática y eléctrica entre dos vehículos de forma automática?",
       "options": [
-        "Solo es documental",
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación"
+        "El gancho de tracción convencional con manguitos neumáticos",
+        "El acoplamiento automático Scharfenberg",
+        "El acoplamiento semipermanente",
+        "Los topes"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "El acoplamiento automático Scharfenberg",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-174",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué diferencia principal existe entre un acoplamiento semipermanente y un acoplamiento automático?",
       "options": [
-        "Solo la usa el jefe de base",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "El automático no transmite esfuerzos neumáticos ni eléctricos",
+        "El semipermanente es exclusivo de locomotoras de alta velocidad",
+        "El semipermanente requiere intervención del personal; el automático se realiza solo",
+        "No existe diferencia, son sinónimos"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 2,
+      "explanation": "El semipermanente requiere intervención del personal; el automático se realiza solo",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.10 CHOQUE/TRACCIÓN"
       ]
     },
     {
       "id": "comun-175",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué elemento del freno de ejes actúa sobre la llanta de la rueda para generar la fuerza de frenada?",
       "options": [
-        "Bogie",
-        "Travi-tren",
-        "Funicular",
-        "Vehículos motores"
+        "La zapata",
+        "El cilindro de freno",
+        "El regulador",
+        "El portazapatas"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "La zapata",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.11 FRENO DE EJES"
       ]
     },
     {
       "id": "comun-176",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué función cumple el regulador de freno en el sistema de freno de ejes?",
       "options": [
-        "Dresina",
-        "Automotor",
-        "Locomotora",
-        "Coche de viajeros"
+        "Regular la presión de la tubería de freno",
+        "Mantener automáticamente el juego correcto entre zapatas y ruedas a medida que se desgastan",
+        "Controlar la velocidad del vehículo",
+        "Distribuir el aire a cada cilindro de freno"
       ],
-      "correctIndex": 3,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "Mantener automáticamente el juego correcto entre zapatas y ruedas a medida que se desgastan",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.11 FRENO DE EJES"
       ]
     },
     {
       "id": "comun-177",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Qué elementos de suspensión de ejes se citan en el manual además de las ballestas?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Coche cama",
-        "Unidad AVE",
-        "Locomotora de línea"
+        "Anillas, carretes, bulones y pasadores",
+        "Muelles helicoidales de carga y balonas neumáticas",
+        "Amortiguadores horizontales y verticales",
+        "Traviesas portadoras"
       ],
       "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "Anillas, carretes, bulones y pasadores",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.12 SUSPENSIÓN DE EJES"
       ]
     },
     {
       "id": "comun-178",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué componen los 'ejes portadores o remolques' de un bogie, según el manual?",
       "options": [
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Elimina inspecciones"
+        "Eje, rueda, discos y reductoras",
+        "Solo el eje y los discos de freno",
+        "El eje, la rueda y el captador de velocidad únicamente",
+        "Eje, rueda y discos (sin reductoras, ya que no generan tracción)"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 3,
+      "explanation": "Eje, rueda y discos (sin reductoras, ya que no generan tracción)",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-179",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Qué tipos de tapas de caja de grasa se citan en el manual además de la tapa simple?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Solo es documental",
-        "Evita energizaciones accidentales durante la intervención",
-        "No aplica a equipos eléctricos"
+        "Con dispositivo de engrase automático únicamente",
+        "Con sensor de presión de aceite",
+        "Con dispositivo de retorno de tierra, captadores de sentido y velocidad, captadores de bloqueo y de temperatura",
+        "Solo con captador de temperatura"
       ],
       "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "Con dispositivo de retorno de tierra, captadores de sentido y velocidad, captadores de bloqueo y de temperatura",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-180",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuántos tipos de suspensión se diferencian en el bogie: la que actúa sobre el eje y la que une bogie con caja?",
       "options": [
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo"
+        "Suspensión rígida y suspensión flexible",
+        "Suspensión de tara y suspensión de carga",
+        "Suspensión neumática y suspensión mecánica únicamente",
+        "Suspensión primaria (eje-bogie) y suspensión secundaria (bogie-caja)"
       ],
       "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "explanation": "Suspensión primaria (eje-bogie) y suspensión secundaria (bogie-caja)",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-181",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Qué tipo de amortiguadores existen en la suspensión de bogie, según el manual?",
       "options": [
-        "Bogie",
-        "Travi-tren",
-        "Funicular",
-        "Vehículos motores"
+        "Solo verticales",
+        "Solo horizontales y antilazo",
+        "Horizontales, verticales y antilazo",
+        "Solo amortiguadores hidráulicos verticales"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 2,
+      "explanation": "Horizontales, verticales y antilazo",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-182",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Qué sensores o transductores se citan en el bogie para la captación de magnitudes?",
       "options": [
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina",
-        "Automotor"
+        "Solo velocidad y temperatura",
+        "Velocidad, sentido de movimiento, antibloqueo, revoluciones de motores, acelerómetros y temperatura de caja de grasa",
+        "Solo antibloqueo y aceleración",
+        "Solo revoluciones de motor"
       ],
-      "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "Velocidad, sentido de movimiento, antibloqueo, revoluciones de motores, acelerómetros y temperatura de caja de grasa",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-183",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Qué tipo de freno de bogie actúa directamente sobre el carril mediante la fuerza electromagnética, sin contactar con la rueda?",
       "options": [
-        "Vehículos para mantenimiento de vía",
-        "Locomotora de línea",
-        "Unidad AVE",
-        "Coche cama"
+        "El freno de disco",
+        "Las zapatas",
+        "El patín electromagnético",
+        "El freno regenerativo"
       ],
-      "correctIndex": 0,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 2,
+      "explanation": "El patín electromagnético",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-184",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿De qué están formados los elementos de suspensión secundaria del bogie de tipo neumático?",
       "options": [
-        "Sustituye al correctivo",
-        "Reduce averías mediante revisiones programadas",
-        "Solo se aplica en taller central",
-        "Elimina inspecciones"
+        "Muelles helicoidales de tara",
+        "Ballestas",
+        "Balonas neumáticas",
+        "Amortiguadores antilazo"
       ],
-      "correctIndex": 1,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 2,
+      "explanation": "Balonas neumáticas",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.13 BOGIES"
       ]
     },
     {
       "id": "comun-185",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Cuál es la función del acoplamiento elástico con engranajes en la transmisión de un bogie motor?",
       "options": [
-        "Solo es documental",
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación"
+        "Conectar el pantógrafo con el motor de tracción",
+        "Transmitir el par motor al eje, absorbiendo las pequeñas desalineaciones entre motor y reductora",
+        "Unir mecánicamente dos cajas del automotor",
+        "Regular la velocidad del motor"
       ],
-      "correctIndex": 2,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "Transmitir el par motor al eje, absorbiendo las pequeñas desalineaciones entre motor y reductora",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.14 TRANSMISIONES"
       ]
     },
     {
       "id": "comun-186",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué elementos componen la transmisión Cardan según el diagrama del manual?",
       "options": [
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base",
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo"
+        "Pantógrafo, transformador, ondulador y motor",
+        "Compresor, secador, depósito y cilindro de freno",
+        "Motor de tracción, transmisión cardan, reductor y eje motor",
+        "Manómetro, presostato, electroválvula y transductor"
       ],
-      "correctIndex": 3,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 2,
+      "explanation": "Motor de tracción, transmisión cardan, reductor y eje motor",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.14 TRANSMISIONES"
       ]
     },
     {
       "id": "comun-187",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué sistema de seguridad actúa recibiendo la información de las balizas en la vía y supervisando la velocidad del tren?",
       "options": [
-        "Funicular",
-        "Travi-tren",
-        "Bogie",
-        "Vehículos motores"
+        "El ASFA",
+        "El ERTMS",
+        "El LZB",
+        "El hombre muerto"
       ],
-      "correctIndex": 3,
-      "explanation": "Vehículos motores",
+      "correctIndex": 0,
+      "explanation": "El ASFA",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-188",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué sistema europeo de gestión del tráfico ferroviario permite la circulación de trenes entre distintos países con un único sistema de señalización?",
       "options": [
-        "Dresina",
-        "Coche de viajeros",
-        "Automotor",
-        "Locomotora"
+        "El ASFA",
+        "El ERTMS",
+        "El LZB",
+        "El hombre muerto"
       ],
       "correctIndex": 1,
-      "explanation": "Coche de viajeros",
+      "explanation": "El ERTMS",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-189",
-      "question": "En relación con material auxiliar, señala la afirmación correcta.",
+      "question": "¿Cuál es la diferencia entre el LZB y el ERTMS en los sistemas de seguridad ferroviaria?",
       "options": [
-        "Locomotora de línea",
-        "Coche cama",
-        "Vehículos para mantenimiento de vía",
-        "Unidad AVE"
+        "El LZB es el sistema europeo y el ERTMS es exclusivamente alemán",
+        "El LZB es un sistema alemán de control continuo de velocidad; el ERTMS es el estándar europeo de gestión del tráfico",
+        "Son el mismo sistema con distinto nombre según el país",
+        "El LZB solo funciona en tren de alta velocidad"
       ],
-      "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "correctIndex": 1,
+      "explanation": "El LZB es un sistema alemán de control continuo de velocidad; el ERTMS es el estándar europeo de gestión del tráfico",
       "tags": [
         "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "1.5.15 SISTEMAS DE SEGURIDAD"
       ]
     },
     {
       "id": "comun-190",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Cuál es la finalidad de los registradores jurídicos como Teloc, Cesis, Deuta y Memotel?",
       "options": [
-        "Solo se aplica en taller central",
-        "Sustituye al correctivo",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas"
+        "Regular la velocidad máxima del vehículo automáticamente",
+        "Registrar los parámetros de conducción con valor legal para el análisis de incidencias y accidentes",
+        "Almacenar los datos de mantenimiento preventivo del taller",
+        "Controlar el sistema de climatización del vehículo"
       ],
-      "correctIndex": 3,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 1,
+      "explanation": "Registrar los parámetros de conducción con valor legal para el análisis de incidencias y accidentes",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.16 REGISTRADORES JURÍDICOS"
       ]
     },
     {
       "id": "comun-191",
-      "question": "Respecto al apartado consignación y loto, ¿qué respuesta es válida?",
+      "question": "¿Cuál de los siguientes NO es un registrador jurídico citado en el manual?",
       "options": [
-        "Aumenta la velocidad de reparación",
-        "Solo es documental",
-        "No aplica a equipos eléctricos",
-        "Evita energizaciones accidentales durante la intervención"
+        "Teloc",
+        "Cesis",
+        "Memotel",
+        "Sibas"
       ],
       "correctIndex": 3,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "explanation": "Sibas",
       "tags": [
-        "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "Formación Técnica de Vehículos – Introducción",
+        "1.5.16 REGISTRADORES JURÍDICOS"
       ]
     },
     {
       "id": "comun-192",
-      "question": "Atendiendo a documentación técnica, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Cuántos dispositivos puede direccionar el Bus MVB, y cuántos tienen capacidad de mensajería esporádica?",
       "options": [
-        "Debe registrarse en la orden de trabajo",
-        "Solo la usa el jefe de base",
-        "Es opcional en preventivo",
-        "Sustituye a la inspección visual"
+        "Hasta 256 dispositivos en total",
+        "Hasta 32 dispositivos en total",
+        "Dispositivos ilimitados, con mensajería esporádica en todos",
+        "Hasta 4.095 dispositivos, pero solo 256 tienen capacidad de mensajería esporádica"
       ],
-      "correctIndex": 0,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 3,
+      "explanation": "Hasta 4.095 dispositivos, pero solo 256 tienen capacidad de mensajería esporádica",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-193",
-      "question": "En relación con tipos de vehículos, señala la afirmación correcta.",
+      "question": "¿Cuál es la velocidad de transmisión del Bus MVB?",
       "options": [
-        "Bogie",
-        "Funicular",
-        "Vehículos motores",
-        "Travi-tren"
+        "1,0 Mbit/s",
+        "10 Mbit/s",
+        "1,5 Mbit/s",
+        "100 Mbit/s"
       ],
       "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "explanation": "1,5 Mbit/s",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-194",
-      "question": "Dentro de formación técnica de vehículos – introducción, ¿qué opción es la más adecuada?",
+      "question": "¿Cuál es la velocidad de transmisión del Bus WTB?",
       "options": [
-        "Coche de viajeros",
-        "Locomotora",
-        "Dresina",
-        "Automotor"
+        "1,5 Mbit/s",
+        "1,0 Mbit/s",
+        "100 Mbit/s",
+        "10 Mbit/s"
       ],
-      "correctIndex": 0,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 1,
+      "explanation": "1,0 Mbit/s",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-195",
-      "question": "Respecto al apartado material auxiliar, ¿qué respuesta es válida?",
+      "question": "¿Cuántos vehículos y nodos puede interconectar como máximo un Bus WTB en una misma formación?",
       "options": [
-        "Unidad AVE",
-        "Locomotora de línea",
-        "Vehículos para mantenimiento de vía",
-        "Coche cama"
+        "256 dispositivos en total",
+        "4.095 dispositivos en total",
+        "22 vehículos y 32 nodos",
+        "Solo 4 vehículos y 8 nodos"
       ],
       "correctIndex": 2,
-      "explanation": "Vehículos para mantenimiento de vía",
+      "explanation": "22 vehículos y 32 nodos",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "MATERIAL AUXILIAR"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-196",
-      "question": "Atendiendo a mantenimiento preventivo, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿A qué longitud máxima puede llegar el cable de un Bus WTB?",
       "options": [
-        "Solo se aplica en taller central",
-        "Elimina inspecciones",
-        "Reduce averías mediante revisiones programadas",
-        "Sustituye al correctivo"
+        "860 metros",
+        "200 metros",
+        "20 metros",
+        "2.000 metros"
       ],
-      "correctIndex": 2,
-      "explanation": "Reduce averías mediante revisiones programadas",
+      "correctIndex": 0,
+      "explanation": "860 metros",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "MANTENIMIENTO PREVENTIVO"
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-197",
-      "question": "En relación con consignación y loto, señala la afirmación correcta.",
+      "question": "¿Qué elemento físico conecta el Bus MVB con el Bus WTB en la red TCN?",
       "options": [
-        "Evita energizaciones accidentales durante la intervención",
-        "Aumenta la velocidad de reparación",
-        "No aplica a equipos eléctricos",
-        "Solo es documental"
+        "El repetidor",
+        "El Gateway (pasarela)",
+        "El administrador de bus",
+        "El procesador esclavo"
       ],
-      "correctIndex": 0,
-      "explanation": "Evita energizaciones accidentales durante la intervención",
+      "correctIndex": 1,
+      "explanation": "El Gateway (pasarela)",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "CONSIGNACIÓN Y LOTO"
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-198",
-      "question": "Dentro de el mantenimiento en vehículos de última generación, ¿qué opción es la más adecuada?",
+      "question": "¿Qué hace el Bus WTB para garantizar la integridad del contacto en los conectores entre vehículos?",
       "options": [
-        "Sustituye a la inspección visual",
-        "Debe registrarse en la orden de trabajo",
-        "Es opcional en preventivo",
-        "Solo la usa el jefe de base"
+        "Superpone impulsos de tensión para limpiar los contactos del conector oxidado",
+        "Utiliza conectores herméticamente cerrados que nunca se oxidan",
+        "Recubre los contactores con oro para evitar la oxidación",
+        "Los conectores son desechables y se sustituyen en cada servicio"
       ],
-      "correctIndex": 1,
-      "explanation": "Debe registrarse en la orden de trabajo",
+      "correctIndex": 0,
+      "explanation": "Superpone impulsos de tensión para limpiar los contactos del conector oxidado",
       "tags": [
         "El Mantenimiento en Vehículos de Última Generación",
-        "DOCUMENTACIÓN TÉCNICA"
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-199",
-      "question": "Respecto al apartado tipos de vehículos, ¿qué respuesta es válida?",
+      "question": "¿Qué tres servicios ofrecen los protocolos en tiempo real (RTP) de la red TCN?",
       "options": [
-        "Travi-tren",
-        "Bogie",
-        "Vehículos motores",
-        "Funicular"
+        "Solo mensajería y supervisión",
+        "Solo variables de proceso",
+        "Variables (process data), mensajes (message data) y supervisión de la red y los dispositivos",
+        "Variables, alarmas y eventos programados"
       ],
       "correctIndex": 2,
-      "explanation": "Vehículos motores",
+      "explanation": "Variables (process data), mensajes (message data) y supervisión de la red y los dispositivos",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "TIPOS DE VEHÍCULOS"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.1 Proyecto ROSIN"
       ]
     },
     {
       "id": "comun-200",
-      "question": "Atendiendo a vehículo remolcado, ¿cuál de las siguientes opciones es correcta?",
+      "question": "¿Qué objetivo tenía el programa Shift2Rail con vistas al horizonte del 2020 para el transporte de viajeros, según el manual?",
       "options": [
-        "Locomotora",
-        "Dresina",
-        "Coche de viajeros",
-        "Automotor"
+        "Eliminar por completo el transporte por carretera en Europa",
+        "Reducir el número de trenes en servicio un 50%",
+        "Cerrar el ferrocarril convencional y sustituirlo exclusivamente por alta velocidad",
+        "Aumentar la cuota de mercado del 6% al 10% del tráfico de viajeros"
       ],
-      "correctIndex": 2,
-      "explanation": "Coche de viajeros",
+      "correctIndex": 3,
+      "explanation": "Aumentar la cuota de mercado del 6% al 10% del tráfico de viajeros",
       "tags": [
-        "Formación Técnica de Vehículos – Introducción",
-        "VEHÍCULO REMOLCADO"
+        "El Mantenimiento en Vehículos de Última Generación",
+        "2.2.7 Nuevos proyectos de I+D+I para el futuro (2020)"
       ]
     }
   ]

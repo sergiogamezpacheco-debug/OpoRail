@@ -1,0 +1,1417 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Psicotécnicos · OpoRail</title><style>
+:root{
+ --pur:#7C3AED; --pur-d:#5B21B6; --pur-l:#EDE9FE;
+ --bg:#FBFAFF; --card:#FFFFFF; --line:#E7E5F0;
+ --ink:#1F2430; --mut:#6B7280;
+ --okbg:#F0FDF4; --okbd:#86EFAC; --oktx:#15803D;
+ --solbg:#FFFBEB; --solbd:#FDE68A; --soltx:#92400E;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+ padding:0 0 60px;position:relative;overflow-x:hidden}
+/* marca de agua OpoRail */
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+ background-image:
+   repeating-linear-gradient(0deg,transparent 0 180px,transparent 180px);
+}
+.wm{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.wm span{position:absolute;font-weight:800;font-size:46px;letter-spacing:-1px;
+ transform:rotate(-18deg);white-space:nowrap;font-family:ui-sans-serif,system-ui,sans-serif}
+.wm .a{color:#EDE7FB}.wm .b{color:#E8F3EA}
+.wrap{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:0 16px}
+header{padding:30px 0 18px}
+.brand{font-weight:800;font-size:15px;color:var(--pur);letter-spacing:.02em}
+h1{font-size:27px;line-height:1.2;margin:8px 0 8px;color:var(--pur-d);font-weight:800}
+.sub{color:var(--mut);font-size:14px;line-height:1.55}
+.bar{position:sticky;top:0;z-index:5;background:rgba(251,250,255,.94);
+ backdrop-filter:blur(8px);padding:10px 0;margin-bottom:14px;border-bottom:1px solid var(--line);
+ display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+button{font:inherit;font-weight:700;font-size:13.5px;cursor:pointer;border-radius:10px;padding:9px 15px;
+ border:2px solid var(--pur);background:#fff;color:var(--pur);transition:.15s}
+button.primary{background:var(--pur);color:#fff}
+button:hover{filter:brightness(.95)}
+.score{font-size:13px;color:var(--mut);font-weight:600;margin-left:auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+ padding:18px 16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(80,60,140,.05)}
+.qhead{display:flex;gap:8px;align-items:baseline;margin-bottom:8px;flex-wrap:wrap}
+.qnum{font-weight:800;font-size:16px;color:var(--ink)}
+.qtag{font-size:11px;font-weight:700;color:var(--pur);background:var(--pur-l);
+ padding:3px 9px;border-radius:20px}
+.qtext{font-size:15px;line-height:1.6;margin-bottom:12px;font-weight:600}
+.qtext b{font-weight:800}
+.pasaje{background:#F8F7FE;border-left:4px solid var(--pur);padding:12px 14px;border-radius:0 10px 10px 0;
+ font-size:13.5px;line-height:1.7;color:#3F4454;margin-bottom:12px;font-weight:400;text-align:justify}
+.figlbl{font-size:11.5px;color:var(--mut);font-weight:700;margin-bottom:5px;text-transform:uppercase;letter-spacing:.04em}
+.figbox{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;
+ margin-bottom:12px;overflow-x:auto;text-align:center}
+.figbox svg{vertical-align:middle;margin:2px}
+.figbox.col svg{display:block;margin:0 auto}
+.matrix{display:inline-block}
+.mrow{display:flex;gap:4px;margin-bottom:4px;justify-content:center}
+.analogy{display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:nowrap}
+.anop{font-weight:800;color:var(--pur);font-size:17px}
+.seq{display:flex;gap:5px;justify-content:center;flex-wrap:nowrap}
+.legwrap{margin-bottom:12px}
+table.leg{border-collapse:collapse;font-size:13px;width:100%}
+table.leg td{border:1px solid var(--line);padding:6px 10px}
+table.leg td:first-child{width:42px;text-align:center;background:var(--pur-l);color:var(--pur-d);font-weight:800}
+.colcell{margin:0 auto 4px}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;align-items:center;gap:10px;border:1.5px solid var(--line);border-radius:12px;
+ padding:10px 12px;cursor:pointer;background:#fff;transition:.13s;position:relative}
+.opt:hover{border-color:#C4B5FD;background:#FDFCFF}
+.opt input{display:none}
+.dot{width:18px;height:18px;border-radius:50%;border:2px solid #C7C9D4;flex:none}
+.opt.sel .dot{border-color:var(--pur);box-shadow:inset 0 0 0 4px var(--pur)}
+.opt.sel{border-color:var(--pur);background:#FAF8FF}
+.olet{font-weight:800;font-size:13px;color:var(--mut);flex:none;width:14px}
+.otxt{font-size:14px;line-height:1.45}
+.osvg{display:flex;align-items:center}
+.ocol{display:flex;flex-direction:column;gap:3px}
+.tick{display:none;margin-left:auto;font-size:15px}
+.sol{display:none;margin-top:13px;background:var(--solbg);border:1px solid var(--solbd);
+ border-radius:12px;padding:12px 14px}
+.sol-t{font-size:13.5px;font-weight:800;color:var(--soltx);margin-bottom:6px}
+.sol-b{font-size:13.5px;line-height:1.65;color:#57431A}
+body.rev .sol{display:block}
+body.rev .opt.ok{border-color:var(--okbd);background:var(--okbg)}
+body.rev .opt.ok .olet,body.rev .opt.ok .otxt{color:var(--oktx);font-weight:800}
+body.rev .opt.ok .tick{display:inline}
+body.rev .opt{cursor:default}
+@media(max-width:520px){
+ .figbox{padding:8px 6px}
+ h1{font-size:23px}
+ .seq svg,.mrow svg{width:64px;height:64px}
+ .analogy svg{width:58px;height:58px}
+ .osvg svg{max-width:74px;height:auto}
+}
+</style></head><body>
+<div class="wm"><span class="a" style="top:-40px;left:-60px">OpoRail</span><span class="b" style="top:-40px;left:240px">OpoRail</span><span class="a" style="top:-40px;left:540px">OpoRail</span><span class="b" style="top:-40px;left:840px">OpoRail</span><span class="b" style="top:110px;left:70px">OpoRail</span><span class="a" style="top:110px;left:370px">OpoRail</span><span class="b" style="top:110px;left:670px">OpoRail</span><span class="a" style="top:110px;left:970px">OpoRail</span><span class="a" style="top:260px;left:-60px">OpoRail</span><span class="b" style="top:260px;left:240px">OpoRail</span><span class="a" style="top:260px;left:540px">OpoRail</span><span class="b" style="top:260px;left:840px">OpoRail</span><span class="b" style="top:410px;left:70px">OpoRail</span><span class="a" style="top:410px;left:370px">OpoRail</span><span class="b" style="top:410px;left:670px">OpoRail</span><span class="a" style="top:410px;left:970px">OpoRail</span><span class="a" style="top:560px;left:-60px">OpoRail</span><span class="b" style="top:560px;left:240px">OpoRail</span><span class="a" style="top:560px;left:540px">OpoRail</span><span class="b" style="top:560px;left:840px">OpoRail</span><span class="b" style="top:710px;left:70px">OpoRail</span><span class="a" style="top:710px;left:370px">OpoRail</span><span class="b" style="top:710px;left:670px">OpoRail</span><span class="a" style="top:710px;left:970px">OpoRail</span><span class="a" style="top:860px;left:-60px">OpoRail</span><span class="b" style="top:860px;left:240px">OpoRail</span><span class="a" style="top:860px;left:540px">OpoRail</span><span class="b" style="top:860px;left:840px">OpoRail</span><span class="b" style="top:1010px;left:70px">OpoRail</span><span class="a" style="top:1010px;left:370px">OpoRail</span><span class="b" style="top:1010px;left:670px">OpoRail</span><span class="a" style="top:1010px;left:970px">OpoRail</span><span class="a" style="top:1160px;left:-60px">OpoRail</span><span class="b" style="top:1160px;left:240px">OpoRail</span><span class="a" style="top:1160px;left:540px">OpoRail</span><span class="b" style="top:1160px;left:840px">OpoRail</span><span class="b" style="top:1310px;left:70px">OpoRail</span><span class="a" style="top:1310px;left:370px">OpoRail</span><span class="b" style="top:1310px;left:670px">OpoRail</span><span class="a" style="top:1310px;left:970px">OpoRail</span><span class="a" style="top:1460px;left:-60px">OpoRail</span><span class="b" style="top:1460px;left:240px">OpoRail</span><span class="a" style="top:1460px;left:540px">OpoRail</span><span class="b" style="top:1460px;left:840px">OpoRail</span><span class="b" style="top:1610px;left:70px">OpoRail</span><span class="a" style="top:1610px;left:370px">OpoRail</span><span class="b" style="top:1610px;left:670px">OpoRail</span><span class="a" style="top:1610px;left:970px">OpoRail</span><span class="a" style="top:1760px;left:-60px">OpoRail</span><span class="b" style="top:1760px;left:240px">OpoRail</span><span class="a" style="top:1760px;left:540px">OpoRail</span><span class="b" style="top:1760px;left:840px">OpoRail</span><span class="b" style="top:1910px;left:70px">OpoRail</span><span class="a" style="top:1910px;left:370px">OpoRail</span><span class="b" style="top:1910px;left:670px">OpoRail</span><span class="a" style="top:1910px;left:970px">OpoRail</span></div>
+<div class="wrap">
+<header>
+ <div class="brand">OpoRail</div>
+ <h1>Psicotécnicos · Modelo de tipos</h1>
+ <p class="sub">Un ejemplo de cada tipo de prueba de las convocatorias de Mantenimiento Renfe (2016–2025).
+ Contesta y pulsa <b>Terminar test</b> para ver las soluciones desplegadas.</p>
+</header>
+<div class="bar">
+ <button class="primary" id="fin">✔ Terminar test</button>
+ <button id="rst">↺ Reiniciar</button>
+ <span class="score" id="sc"></span>
+</div>
+<article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">1.</span><span class="qtag">Razonamiento Mecánico · Engranajes</span></div>
+  <div class="qtext">Las tres ruedas dentadas <b>A</b>, <b>B</b> y <b>C</b> están engranadas entre sí. Si <b>A</b> gira en el sentido que indica la flecha roja (horario), ¿en qué sentido gira <b>C</b>?</div>
+  <div class="figbox"><svg class="fig" viewBox="0 0 258 206" width="258" height="206" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><path d="M 101.78 107.82 L 109.91 108.99 L 109.91 115.01 L 101.78 116.18 A 40.00 40.00 0 0 1 100.04 124.36 L 106.99 128.73 L 104.54 134.24 L 96.64 132.00 A 40.00 40.00 0 0 1 91.73 138.77 L 96.29 145.58 L 91.82 149.62 L 85.51 144.36 A 40.00 40.00 0 0 1 78.27 148.54 L 79.67 156.63 L 73.94 158.49 L 70.32 151.13 A 40.00 40.00 0 0 1 62.00 152.00 L 59.99 159.96 L 54.00 159.33 L 53.68 151.13 A 40.00 40.00 0 0 1 45.73 148.54 L 40.66 154.99 L 35.44 151.98 L 38.49 144.36 A 40.00 40.00 0 0 1 32.27 138.77 L 25.02 142.60 L 21.47 137.72 L 27.36 132.00 A 40.00 40.00 0 0 1 23.96 124.36 L 15.77 124.91 L 14.51 119.01 L 22.22 116.18 A 40.00 40.00 0 0 1 22.22 107.82 L 14.51 104.99 L 15.77 99.09 L 23.96 99.64 A 40.00 40.00 0 0 1 27.36 92.00 L 21.47 86.28 L 25.02 81.40 L 32.27 85.23 A 40.00 40.00 0 0 1 38.49 79.64 L 35.44 72.02 L 40.66 69.01 L 45.73 75.46 A 40.00 40.00 0 0 1 53.68 72.87 L 54.00 64.67 L 59.99 64.04 L 62.00 72.00 A 40.00 40.00 0 0 1 70.32 72.87 L 73.94 65.51 L 79.67 67.37 L 78.27 75.46 A 40.00 40.00 0 0 1 85.51 79.64 L 91.82 74.38 L 96.29 78.42 L 91.73 85.23 A 40.00 40.00 0 0 1 96.64 92.00 L 104.54 89.76 L 106.99 95.27 L 100.04 99.64 A 40.00 40.00 0 0 1 101.78 107.82 Z" fill="#EDE9FE" stroke="#1F2430" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="62.00" cy="112.00" r="9.60" fill="#fff" stroke="#1F2430" stroke-width="2"/><circle cx="62.00" cy="112.00" r="3.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><text x="62.00" y="92.00" font-size="14" font-weight="800" text-anchor="middle" fill="#5B21B6" font-family="ui-sans-serif,system-ui,sans-serif">A</text><path d="M 160.07 107.78 L 168.24 108.71 L 168.24 115.29 L 160.07 116.22 A 27.00 27.00 0 0 1 157.46 124.26 L 163.53 129.82 L 159.65 135.15 L 152.49 131.09 A 27.00 27.00 0 0 1 145.66 136.06 L 147.30 144.12 L 141.04 146.16 L 137.62 138.67 A 27.00 27.00 0 0 1 129.18 138.67 L 125.76 146.16 L 119.50 144.12 L 121.14 136.06 A 27.00 27.00 0 0 1 114.31 131.09 L 107.15 135.15 L 103.27 129.82 L 109.34 124.26 A 27.00 27.00 0 0 1 106.73 116.22 L 98.56 115.29 L 98.56 108.71 L 106.73 107.78 A 27.00 27.00 0 0 1 109.34 99.74 L 103.27 94.18 L 107.15 88.85 L 114.31 92.91 A 27.00 27.00 0 0 1 121.14 87.94 L 119.50 79.88 L 125.76 77.84 L 129.18 85.33 A 27.00 27.00 0 0 1 137.62 85.33 L 141.04 77.84 L 147.30 79.88 L 145.66 87.94 A 27.00 27.00 0 0 1 152.49 92.91 L 159.65 88.85 L 163.53 94.18 L 157.46 99.74 A 27.00 27.00 0 0 1 160.07 107.78 Z" fill="#F5F3FF" stroke="#1F2430" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="133.40" cy="112.00" r="6.48" fill="#fff" stroke="#1F2430" stroke-width="2"/><circle cx="133.40" cy="112.00" r="2.16" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><text x="133.40" y="98.50" font-size="14" font-weight="800" text-anchor="middle" fill="#5B21B6" font-family="ui-sans-serif,system-ui,sans-serif">B</text><path d="M 234.54 107.78 L 242.69 108.89 L 242.69 115.11 L 234.54 116.22 A 35.00 35.00 0 0 1 232.53 124.41 L 239.22 129.17 L 236.33 134.69 L 228.60 131.88 A 35.00 35.00 0 0 1 223.01 138.20 L 226.73 145.53 L 221.60 149.06 L 216.07 142.99 A 35.00 35.00 0 0 1 208.18 145.98 L 208.06 154.20 L 201.88 154.95 L 199.80 147.00 A 35.00 35.00 0 0 1 191.42 145.98 L 187.50 153.20 L 181.68 151.00 L 183.53 142.99 A 35.00 35.00 0 0 1 176.59 138.20 L 169.76 142.77 L 165.63 138.11 L 171.00 131.88 A 35.00 35.00 0 0 1 167.07 124.41 L 158.90 125.29 L 157.41 119.24 L 165.06 116.22 A 35.00 35.00 0 0 1 165.06 107.78 L 157.41 104.76 L 158.90 98.71 L 167.07 99.59 A 35.00 35.00 0 0 1 171.00 92.12 L 165.63 85.89 L 169.76 81.23 L 176.59 85.80 A 35.00 35.00 0 0 1 183.53 81.01 L 181.68 73.00 L 187.50 70.80 L 191.42 78.02 A 35.00 35.00 0 0 1 199.80 77.00 L 201.88 69.05 L 208.06 69.80 L 208.18 78.02 A 35.00 35.00 0 0 1 216.07 81.01 L 221.60 74.94 L 226.73 78.47 L 223.01 85.80 A 35.00 35.00 0 0 1 228.60 92.12 L 236.33 89.31 L 239.22 94.83 L 232.53 99.59 A 35.00 35.00 0 0 1 234.54 107.78 Z" fill="#EDE9FE" stroke="#1F2430" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="199.80" cy="112.00" r="8.40" fill="#fff" stroke="#1F2430" stroke-width="2"/><circle cx="199.80" cy="112.00" r="2.80" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><text x="199.80" y="94.50" font-size="14" font-weight="800" text-anchor="middle" fill="#5B21B6" font-family="ui-sans-serif,system-ui,sans-serif">C</text><path d="M 11.21 76.44 A 62.00 62.00 0 0 1 115.69 81.00" fill="none" stroke="#DC2626" stroke-width="3.4" stroke-linecap="round"/><polygon points="115.69,81.00 105.52,74.64 115.27,69.01" fill="#DC2626" stroke="#DC2626" stroke-width="1" stroke-linejoin="round"/></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q1"><span class="dot"></span><span class="olet">A</span><span class="otxt">Permanece inmóvil</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q1"><span class="dot"></span><span class="olet">B</span><span class="otxt">Horario (el mismo que A)</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q1"><span class="dot"></span><span class="olet">C</span><span class="otxt">Depende del número de dientes de B</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q1"><span class="dot"></span><span class="olet">D</span><span class="otxt">Antihorario (contrario a A)</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">Dos ruedas engranadas giran siempre en sentidos opuestos. A (horario) → B (antihorario) → C (horario). Con un número impar de ruedas en línea, la primera y la última coinciden en sentido. El número de dientes afecta a la velocidad, no al sentido.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">2.</span><span class="qtag">Razonamiento Mecánico · Poleas y cuerdas</span></div>
+  <div class="qtext">El sistema tiene una polea fija (<b>A</b>) y una polea móvil (<b>B</b>) de la que cuelga una carga de <b>100&nbsp;kg</b>. Despreciando rozamientos y el peso de las poleas, ¿qué fuerza <b>F</b> hay que aplicar para mantener la carga en equilibrio?</div>
+  <div class="figbox"><svg class="fig" viewBox="0 0 268 214" width="268" height="214" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><line x1="18.00" y1="28.00" x2="258.00" y2="28.00" stroke="#6B7280" stroke-width="5" stroke-linecap="round"/><line x1="20.00" y1="28.00" x2="12.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="40.00" y1="28.00" x2="32.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="60.00" y1="28.00" x2="52.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="80.00" y1="28.00" x2="72.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="28.00" x2="92.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="120.00" y1="28.00" x2="112.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="140.00" y1="28.00" x2="132.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="160.00" y1="28.00" x2="152.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="180.00" y1="28.00" x2="172.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="200.00" y1="28.00" x2="192.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="220.00" y1="28.00" x2="212.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="240.00" y1="28.00" x2="232.00" y2="19.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="95.00" y1="28.00" x2="95.00" y2="34.00" stroke="#1F2430" stroke-width="2.6" stroke-linecap="round"/><path d="M 192 28 L 192 142" fill="none" stroke="#B45309" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M 192 142 A 22 22 0 0 1 148 142" fill="none" stroke="#B45309" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M 148 142 L 73 56" fill="none" stroke="#B45309" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M 73 56 A 22 22 0 0 1 117 56" fill="none" stroke="#B45309" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M 117 56 L 117 186" fill="none" stroke="#B45309" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><circle cx="95.00" cy="56.00" r="22.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.4"/><circle cx="95.00" cy="56.00" r="3.96" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><text x="95.00" y="61.00" font-size="13" font-weight="800" text-anchor="middle" fill="#5B21B6" font-family="ui-sans-serif,system-ui,sans-serif">A</text><circle cx="170.00" cy="142.00" r="22.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.4"/><circle cx="170.00" cy="142.00" r="3.96" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><text x="170.00" y="147.00" font-size="13" font-weight="800" text-anchor="middle" fill="#5B21B6" font-family="ui-sans-serif,system-ui,sans-serif">B</text><line x1="170.00" y1="164.00" x2="170.00" y2="168.00" stroke="#1F2430" stroke-width="2.4" stroke-linecap="round"/><rect x="143.00" y="168.00" width="54.00" height="32.00" rx="3" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2"/><text x="170.00" y="189.00" font-size="11" font-weight="700" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">100 kg</text><polygon points="117.00,196.00 110.00,183.00 124.00,183.00" fill="#DC2626" stroke="#DC2626" stroke-width="1" stroke-linejoin="round"/><text x="101.00" y="196.00" font-size="15" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">F</text></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q2"><span class="dot"></span><span class="olet">A</span><span class="otxt">100 kg</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q2"><span class="dot"></span><span class="olet">B</span><span class="otxt">50 kg</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q2"><span class="dot"></span><span class="olet">C</span><span class="otxt">25 kg</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q2"><span class="dot"></span><span class="olet">D</span><span class="otxt">200 kg</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La polea móvil se sostiene con dos ramales de cuerda, y la tensión es la misma en toda la cuerda. Cada ramal soporta la mitad del peso: F = 100/2 = 50 kg. La polea fija solo cambia la dirección de la fuerza, no su valor.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">3.</span><span class="qtag">Razonamiento Mecánico · Palanca y punto de apoyo</span></div>
+  <div class="qtext">Una barra rígida se apoya sobre un punto de apoyo. A <b>1&nbsp;m</b> del apoyo hay una carga de <b>60&nbsp;kg</b>; la fuerza <b>F</b> se aplica a <b>3&nbsp;m</b> del apoyo, al otro lado. ¿Qué valor debe tener <b>F</b> para equilibrar la palanca?</div>
+  <div class="figbox"><svg class="fig" viewBox="0 0 320 232" width="320" height="232" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="28.00" y="126.00" width="278.00" height="12.00" rx="2" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2"/><polygon points="110.00,138.00 89.00,180.00 131.00,180.00" fill="#9CA3AF" stroke="#1F2430" stroke-width="2" stroke-linejoin="round"/><line x1="84.00" y1="184.00" x2="77.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="93.00" y1="184.00" x2="86.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="102.00" y1="184.00" x2="95.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="111.00" y1="184.00" x2="104.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="120.00" y1="184.00" x2="113.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="129.00" y1="184.00" x2="122.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><line x1="138.00" y1="184.00" x2="131.00" y2="193.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="26.00" y="86.00" width="48.00" height="40.00" rx="3" fill="#E9D5FF" stroke="#1F2430" stroke-width="2.2"/><text x="50.00" y="111.00" font-size="11" font-weight="700" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">60 kg</text><line x1="290.00" y1="78.00" x2="290.00" y2="116.00" stroke="#DC2626" stroke-width="3.2" stroke-linecap="round"/><polygon points="290.00,124.00 283.00,111.00 297.00,111.00" fill="#DC2626" stroke="#DC2626" stroke-width="1" stroke-linejoin="round"/><text x="290.00" y="68.00" font-size="14" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">F = ?</text><line x1="50.00" y1="206.00" x2="110.00" y2="206.00" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="butt"/><line x1="110.00" y1="206.00" x2="290.00" y2="206.00" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="butt"/><line x1="50.00" y1="200.00" x2="50.00" y2="212.00" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="butt"/><line x1="110.00" y1="200.00" x2="110.00" y2="212.00" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="butt"/><line x1="290.00" y1="200.00" x2="290.00" y2="212.00" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="butt"/><text x="80.00" y="226.00" font-size="12" font-weight="800" text-anchor="middle" fill="#7C3AED" font-family="ui-sans-serif,system-ui,sans-serif">1 m</text><text x="200.00" y="226.00" font-size="12" font-weight="800" text-anchor="middle" fill="#7C3AED" font-family="ui-sans-serif,system-ui,sans-serif">3 m</text></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q3"><span class="dot"></span><span class="olet">A</span><span class="otxt">30 kg</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q3"><span class="dot"></span><span class="olet">B</span><span class="otxt">180 kg</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q3"><span class="dot"></span><span class="olet">C</span><span class="otxt">60 kg</span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q3"><span class="dot"></span><span class="olet">D</span><span class="otxt">20 kg</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">En equilibrio, los momentos respecto al punto de apoyo se igualan: carga × brazo de carga = F × brazo de fuerza. 60 × 1 = F × 3, de donde F = 20 kg. Cuanto mayor es el brazo, menor es la fuerza necesaria.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">4.</span><span class="qtag">Razonamiento Espacial · Desarrollo de cubo</span></div>
+  <div class="qtext">El siguiente desarrollo plano corresponde a un cubo. ¿Cuál de los cubos de las opciones se obtiene al plegarlo?</div>
+  <div class="figbox"><svg class="fig" viewBox="0 0 204 154" width="204" height="154" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="50.00" y="0.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="75.00" y="32.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">B</text><rect x="0.00" y="50.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="25.00" y="82.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">A</text><rect x="50.00" y="50.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="75.00" y="82.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">C</text><rect x="100.00" y="50.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="125.00" y="82.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">D</text><rect x="150.00" y="50.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="175.00" y="82.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">E</text><rect x="50.00" y="100.00" width="50.00" height="50.00" rx="0" fill="#F5F3FF" stroke="#1F2430" stroke-width="2.2"/><text x="75.00" y="132.00" font-size="20" font-weight="800" text-anchor="middle" fill="#4C1D95" font-family="ui-sans-serif,system-ui,sans-serif">F</text></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q4"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 112 96" width="112" height="96" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="10.00,34.00 33.00,21.35 79.00,21.35 56.00,34.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="10.00,34.00 56.00,34.00 56.00,80.00 10.00,80.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="56.00,34.00 79.00,21.35 79.00,67.35 56.00,80.00" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><text x="44.50" y="33.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">B</text><text x="33.00" y="63.00" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">C</text><text x="67.50" y="56.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">A</text></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q4"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 112 96" width="112" height="96" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="10.00,34.00 33.00,21.35 79.00,21.35 56.00,34.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="10.00,34.00 56.00,34.00 56.00,80.00 10.00,80.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="56.00,34.00 79.00,21.35 79.00,67.35 56.00,80.00" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><text x="44.50" y="33.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">F</text><text x="33.00" y="63.00" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">C</text><text x="67.50" y="56.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">D</text></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q4"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 112 96" width="112" height="96" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="10.00,34.00 33.00,21.35 79.00,21.35 56.00,34.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="10.00,34.00 56.00,34.00 56.00,80.00 10.00,80.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="56.00,34.00 79.00,21.35 79.00,67.35 56.00,80.00" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><text x="44.50" y="33.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">B</text><text x="33.00" y="63.00" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">E</text><text x="67.50" y="56.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">D</text></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q4"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 112 96" width="112" height="96" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="10.00,34.00 33.00,21.35 79.00,21.35 56.00,34.00" fill="#EDE9FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="10.00,34.00 56.00,34.00 56.00,80.00 10.00,80.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><polygon points="56.00,34.00 79.00,21.35 79.00,67.35 56.00,80.00" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.2" stroke-linejoin="round"/><text x="44.50" y="33.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">B</text><text x="33.00" y="63.00" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">C</text><text x="67.50" y="56.67" font-size="17" font-weight="800" text-anchor="middle" fill="#3730A3" font-family="ui-sans-serif,system-ui,sans-serif">D</text></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">Al plegar el desarrollo quedan enfrentadas (nunca visibles a la vez) las caras B-F, A-D y C-E. Las opciones descartadas muestran juntas dos caras opuestas o una cara en posición imposible. Solo una respeta las tres parejas y la orientación relativa: Arriba = B, Frente = C, Derecha = D.</div>
+  </div>
+</article><article class="card" data-correct="0">
+  <div class="qhead"><span class="qnum">5.</span><span class="qtag">Razonamiento Espacial · Fichas de dominó</span></div>
+  <div class="qtext">Observe la secuencia de fichas de dominó. ¿Qué ficha continúa lógicamente la serie?</div>
+  <div class="figbox"><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="27.00" cy="25.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="25.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg><svg class="fig" viewBox="0 0 58 100" width="58" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2" y="2" width="54" height="96" rx="6" fill="#FFF7ED" stroke="#DC2626" stroke-width="2.4" stroke-dasharray="6,4"/><text x="29.00" y="61.00" font-size="34" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">?</text></svg></div>
+  <div class="opts"><label class="opt ok" data-i="0"><input type="radio" name="q5"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="25.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q5"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q5"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="25.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="27.00" cy="75.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q5"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 54 100" width="54" height="100" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="50.00" height="96.00" rx="6" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><line x1="5.00" y1="50.00" x2="49.00" y2="50.00" stroke="#1F2430" stroke-width="2.2" stroke-linecap="round"/><circle cx="16.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="14.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="36.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="16.00" cy="64.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/><circle cx="38.00" cy="86.00" r="4.20" fill="#1F2430" stroke="#1F2430" stroke-width="0"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>A</b></div>
+    <div class="sol-b">El número superior aumenta de uno en uno (1, 2, 3, 4…) mientras que el inferior disminuye de uno en uno (6, 5, 4, 3…). La ficha siguiente debe tener 5 puntos arriba y 2 abajo. La opción con 2 arriba y 5 abajo es la misma ficha invertida, pero rompe la progresión.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">6.</span><span class="qtag">Razonamiento Espacial · Rotación de figuras</span></div>
+  <div class="qtext">¿Cuál de las cuatro opciones es <b>exactamente la misma figura</b> de referencia, únicamente <b>girada</b> (no volteada ni reflejada)?</div>
+  <div class="figlbl">Figura de referencia</div><div class="figbox"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="17.00,23.00 63.00,23.00 63.00,37.00 45.00,37.00 45.00,49.00 69.00,49.00 69.00,63.00 17.00,63.00" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q6"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="73.32,55.52 50.32,15.68 38.20,22.68 47.20,38.27 36.80,44.27 24.80,23.48 12.68,30.48 38.68,75.52" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q6"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="10.48,47.32 50.32,70.32 57.32,58.20 41.73,49.20 47.73,38.80 68.52,50.80 75.52,38.68 30.48,12.68" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q6"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="75.52,47.32 35.68,70.32 28.68,58.20 44.27,49.20 38.27,38.80 17.48,50.80 10.48,38.68 55.52,12.68" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q6"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="38.68,10.48 15.68,50.32 27.80,57.32 36.80,41.73 47.20,47.73 35.20,68.52 47.32,75.52 73.32,30.48" fill="#DDD6FE" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">Tres opciones son la imagen especular de la figura, giradas a distintos ángulos: por mucho que se giren sobre el papel nunca coincidirán con el original, igual que la mano izquierda no puede superponerse a la derecha. Solo una conserva la orientación interna de la muesca y es, por tanto, una rotación pura.</div>
+  </div>
+</article><article class="card" data-correct="0">
+  <div class="qhead"><span class="qnum">7.</span><span class="qtag">Razonamiento Abstracto · Matriz 3×3</span></div>
+  <div class="qtext">En cada fila, la <b>tercera figura</b> se obtiene combinando las dos primeras: se conservan las líneas que aparecen <b>en una sola</b> de ellas y desaparecen las que están <b>en ambas</b>. ¿Qué figura completa la matriz?</div>
+  <div class="figbox"><div class="matrix"><div class="mrow"><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div></div><div class="mrow"><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div></div><div class="mrow"><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></div><div class="mcell"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2" y="2" width="82" height="82" fill="#FFF7ED" stroke="#DC2626" stroke-width="2.4" stroke-dasharray="7,5"/><text x="43.00" y="55.00" font-size="34" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">?</text></svg></div></div></div></div>
+  <div class="opts"><label class="opt ok" data-i="0"><input type="radio" name="q7"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q7"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q7"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="43.00" y1="14.00" x2="43.00" y2="72.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="14.00" y1="43.00" x2="72.00" y2="43.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q7"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="14" y="14" width="58" height="58" fill="none" stroke="#E5E7EB" stroke-width="1"/><line x1="18.00" y1="18.00" x2="68.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/><line x1="68.00" y1="18.00" x2="18.00" y2="68.00" stroke="#1F2430" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>A</b></div>
+    <div class="sol-b">Es una combinación por diferencia (XOR): las líneas comunes a las dos primeras figuras se anulan y sobreviven las que aparecen solo en una. En la fila 3, la primera tiene vertical + horizontal + diagonal descendente y la segunda horizontal + diagonal ascendente; se anula la horizontal y quedan la vertical y las dos diagonales.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">8.</span><span class="qtag">Razonamiento Abstracto · Analogía figurativa</span></div>
+  <div class="qtext">Seleccione la figura que mejor completa la analogía.</div>
+  <div class="figbox"><div class="analogy"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><circle cx="43.00" cy="43.00" r="27.00" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4"/></svg><span class="anop">:</span><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><circle cx="43.00" cy="43.00" r="27.00" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4"/><circle cx="43.00" cy="43.00" r="10.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.6"/></svg><span class="anop">::</span><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="18.00" y="18.00" width="50.00" height="50.00" rx="0" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4"/></svg><span class="anop">:</span><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2" y="2" width="82" height="82" fill="#FFF7ED" stroke="#DC2626" stroke-width="2.4" stroke-dasharray="7,5"/><text x="43.00" y="55.00" font-size="34" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">?</text></svg></div></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q8"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="18.00" y="18.00" width="50.00" height="50.00" rx="0" fill="#1F2430" stroke="#1F2430" stroke-width="2.4"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q8"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="18.00" y="18.00" width="50.00" height="50.00" rx="0" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4"/><rect x="34.00" y="34.00" width="18.00" height="18.00" rx="0" fill="#1F2430" stroke="#1F2430" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q8"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,15.00 67.25,29.00 67.25,57.00 43.00,71.00 18.75,57.00 18.75,29.00" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,32.00 52.53,37.50 52.53,48.50 43.00,54.00 33.47,48.50 33.47,37.50" fill="#1F2430" stroke="#1F2430" stroke-width="1.6" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q8"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><circle cx="43.00" cy="43.00" r="27.00" fill="url(#hx)" stroke="#1F2430" stroke-width="2.4"/><circle cx="43.00" cy="43.00" r="10.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La relación entre la primera y la segunda figura consiste en añadir en el centro una copia reducida y totalmente negra de la misma forma, conservando la trama exterior. Aplicando la misma transformación al cuadrado tramado, el resultado es un cuadrado tramado con un cuadrado negro pequeño en su centro. Las demás opciones cambian la forma exterior o eliminan la trama.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">9.</span><span class="qtag">Razonamiento Abstracto · Serie de figuras</span></div>
+  <div class="qtext">¿Qué figura completa lógicamente la serie?</div>
+  <div class="figbox"><div class="seq"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 21.79,21.79 43.00,13.00 64.21,21.79" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 64.21,21.79 73.00,43.00 64.21,64.21" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 64.21,64.21 43.00,73.00 21.79,64.21" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 21.79,64.21 13.00,43.00 21.79,21.79" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2" y="2" width="82" height="82" fill="#FFF7ED" stroke="#DC2626" stroke-width="2.4" stroke-dasharray="7,5"/><text x="43.00" y="55.00" font-size="34" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">?</text></svg></div></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q9"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 64.21,21.79 73.00,43.00 64.21,64.21" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q9"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 21.79,21.79 43.00,13.00 64.21,21.79" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q9"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 21.79,21.79 43.00,13.00 64.21,21.79" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="15.00,15.00 71.00,15.00 71.00,71.00 15.00,71.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q9"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="#fff" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/><polygon points="43.00,43.00 21.79,64.21 13.00,43.00 21.79,21.79" fill="#1F2430" stroke="#1F2430" stroke-width="1.4" stroke-linejoin="round"/><polygon points="43.00,13.00 73.00,43.00 43.00,73.00 13.00,43.00" fill="none" stroke="#1F2430" stroke-width="2.4" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">Actúan dos reglas a la vez. La forma alterna rombo–cuadrado–rombo–cuadrado, por lo que la quinta debe ser un rombo. Además, el sector negro avanza 90° en sentido horario en cada paso (arriba, derecha, abajo, izquierda), de modo que vuelve a la posición superior. La figura buscada es un rombo con el sector superior en negro.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">10.</span><span class="qtag">Razonamiento Abstracto · Serie alterna con conteo</span></div>
+  <div class="qtext">¿Qué figura completa lógicamente la serie?</div>
+  <div class="figbox"><div class="seq"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><line x1="23.50" y1="19.00" x2="23.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="36.50" y1="19.00" x2="36.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="49.50" y1="19.00" x2="49.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="62.50" y1="19.00" x2="62.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="24.00" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><rect x="37.00" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><rect x="50.00" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><line x1="30.00" y1="19.00" x2="30.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="43.00" y1="19.00" x2="43.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="56.00" y1="19.00" x2="56.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="30.50" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/><rect x="43.50" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/></svg><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2" y="2" width="82" height="82" fill="#FFF7ED" stroke="#DC2626" stroke-width="2.4" stroke-dasharray="7,5"/><text x="43.00" y="55.00" font-size="34" font-weight="800" text-anchor="middle" fill="#DC2626" font-family="ui-sans-serif,system-ui,sans-serif">?</text></svg></div></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q10"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><line x1="30.00" y1="19.00" x2="30.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="43.00" y1="19.00" x2="43.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="56.00" y1="19.00" x2="56.00" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q10"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><line x1="36.50" y1="19.00" x2="36.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="49.50" y1="19.00" x2="49.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q10"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><rect x="37.00" y="37.00" width="12.00" height="12.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.4"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q10"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 86 86" width="86" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="2.00" y="2.00" width="82.00" height="82.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.2"/><line x1="23.50" y1="19.00" x2="23.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="36.50" y1="19.00" x2="36.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="49.50" y1="19.00" x2="49.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/><line x1="62.50" y1="19.00" x2="62.50" y2="67.00" stroke="#1F2430" stroke-width="3.2" stroke-linecap="round"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">Se alternan dos tipos de elemento: líneas verticales y cuadrados. Las líneas van disminuyendo (4 y luego 3) y los cuadrados también (3 y luego 2). Como la última figura mostrada son cuadrados, la siguiente corresponde a líneas, y debe llevar una menos que la vez anterior: 2 líneas.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">11.</span><span class="qtag">Razonamiento Abstracto · Órdenes con figuras</span></div>
+  <div class="qtext">Sobre la fila inicial (cuadrado, círculo, triángulo, estrella, pentágono) aplique estas órdenes <b>en este orden</b>:<br><b>1.</b> Intercambie la posición del cuadrado y la estrella.<br><b>2.</b> Elimine el círculo.<br><b>3.</b> Añada un triángulo al principio de la fila.<br>¿Cuál es el resultado final?</div>
+  <div class="figlbl">Fila inicial</div><div class="figbox"><svg class="fig" viewBox="0 0 320 56" width="320" height="56" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="38.33,13.00 68.33,13.00 68.33,43.00 38.33,43.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><circle cx="106.67" cy="28.00" r="15.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5"/><polygon points="160.00,10.30 175.33,36.85 144.67,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="213.33,8.80 217.92,21.69 231.59,22.07 220.75,30.41 224.62,43.53 213.33,35.80 202.05,43.53 205.92,30.41 195.07,22.07 208.75,21.69" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="266.67,11.20 282.64,22.81 276.54,41.59 256.79,41.59 250.69,22.81" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q11"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 320 56" width="320" height="56" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="53.33,8.80 57.92,21.69 71.59,22.07 60.75,30.41 64.62,43.53 53.33,35.80 42.05,43.53 45.92,30.41 35.07,22.07 48.75,21.69" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="106.67,10.30 122.00,36.85 91.34,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="145.00,13.00 175.00,13.00 175.00,43.00 145.00,43.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="213.33,11.20 229.31,22.81 223.21,41.59 203.46,41.59 197.36,22.81" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><circle cx="266.67" cy="28.00" r="15.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q11"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 320 56" width="320" height="56" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="53.33,10.30 68.66,36.85 38.00,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="91.67,13.00 121.67,13.00 121.67,43.00 91.67,43.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="160.00,8.80 164.58,21.69 178.26,22.07 167.42,30.41 171.29,43.53 160.00,35.80 148.71,43.53 152.58,30.41 141.74,22.07 155.42,21.69" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="213.33,10.30 228.66,36.85 198.00,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="266.67,11.20 282.64,22.81 276.54,41.59 256.79,41.59 250.69,22.81" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q11"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 320 56" width="320" height="56" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="64.00,8.80 68.58,21.69 82.26,22.07 71.42,30.41 75.29,43.53 64.00,35.80 52.71,43.53 56.58,30.41 45.74,22.07 59.42,21.69" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="128.00,10.30 143.33,36.85 112.67,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="177.00,13.00 207.00,13.00 207.00,43.00 177.00,43.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="256.00,11.20 271.98,22.81 265.87,41.59 246.13,41.59 240.02,22.81" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q11"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 320 56" width="320" height="56" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><polygon points="53.33,10.30 68.66,36.85 38.00,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="106.67,8.80 111.25,21.69 124.93,22.07 114.08,30.41 117.95,43.53 106.67,35.80 95.38,43.53 99.25,30.41 88.41,22.07 102.08,21.69" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="160.00,10.30 175.33,36.85 144.67,36.85" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="198.33,13.00 228.33,13.00 228.33,43.00 198.33,43.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/><polygon points="266.67,11.20 282.64,22.81 276.54,41.59 256.79,41.59 250.69,22.81" fill="#1F2430" stroke="#1F2430" stroke-width="1.5" stroke-linejoin="round"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">Paso 1 → estrella, círculo, triángulo, cuadrado, pentágono. Paso 2 → estrella, triángulo, cuadrado, pentágono. Paso 3 → triángulo, estrella, triángulo, cuadrado, pentágono. Los errores habituales son olvidar eliminar el círculo o no añadir el triángulo inicial.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">12.</span><span class="qtag">Instrucciones Complejas · Interruptores</span></div>
+  <div class="qtext">Posición inicial de 4 interruptores: <b>1-ARRIBA, 2-ABAJO, 3-ABAJO, 4-ARRIBA</b>.<br>Aplique las reglas <b>una sola vez y en este orden</b>:<br><b>Regla A:</b> si el interruptor 1 está ARRIBA, cambie el 3.<br><b>Regla B:</b> si el interruptor 2 está ABAJO, cambie el 4.<br><b>Regla C:</b> si hay dos o más interruptores ARRIBA, cambie el 2.</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q12"><span class="dot"></span><span class="olet">A</span><span class="otxt">1-ARRIBA · 2-ABAJO · 3-ARRIBA · 4-ABAJO</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q12"><span class="dot"></span><span class="olet">B</span><span class="otxt">1-ARRIBA · 2-ARRIBA · 3-ABAJO · 4-ARRIBA</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q12"><span class="dot"></span><span class="olet">C</span><span class="otxt">1-ABAJO · 2-ARRIBA · 3-ARRIBA · 4-ABAJO</span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q12"><span class="dot"></span><span class="olet">D</span><span class="otxt">1-ARRIBA · 2-ARRIBA · 3-ARRIBA · 4-ABAJO</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">Regla A (1 está ARRIBA): el 3 pasa a ARRIBA → 1↑ 2↓ 3↑ 4↑. Regla B (2 está ABAJO): el 4 pasa a ABAJO → 1↑ 2↓ 3↑ 4↓. Regla C (hay dos ARRIBA, el 1 y el 3): el 2 pasa a ARRIBA. Resultado: 1-ARRIBA, 2-ARRIBA, 3-ARRIBA, 4-ABAJO.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">13.</span><span class="qtag">Instrucciones Complejas · Bombillas</span></div>
+  <div class="qtext">El panel muestra el estado inicial de 5 bombillas. Aplique las reglas <b>una sola vez y en este orden</b>:<br><b>Regla 1:</b> si la bombilla 1 está encendida, cambie el estado de la 2 y de la 3.<br><b>Regla 2:</b> si hay tres o más bombillas encendidas, apague la 1.<br><b>Regla 3:</b> si la bombilla 5 está apagada, cambie el estado de la 4.<br>¿Cuál es el estado final del panel?</div>
+  <div class="figlbl">Estado inicial</div><div class="figbox"><svg class="fig" viewBox="0 0 300 86" width="300" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><circle cx="50.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="71.00" y1="39.00" x2="77.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="64.85" y1="53.85" x2="69.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="50.00" y1="60.00" x2="50.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="35.15" y1="53.85" x2="30.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="29.00" y1="39.00" x2="23.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="35.15" y1="24.15" x2="30.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="50.00" y1="18.00" x2="50.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="64.85" y1="24.15" x2="69.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="43.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="50.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">1</text><circle cx="100.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="92.00" y1="31.00" x2="108.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="93.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="100.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">2</text><circle cx="150.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="142.00" y1="31.00" x2="158.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="143.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="150.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">3</text><circle cx="200.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="221.00" y1="39.00" x2="227.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="214.85" y1="53.85" x2="219.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="200.00" y1="60.00" x2="200.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="185.15" y1="53.85" x2="180.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="179.00" y1="39.00" x2="173.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="185.15" y1="24.15" x2="180.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="200.00" y1="18.00" x2="200.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="214.85" y1="24.15" x2="219.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="193.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="200.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">4</text><circle cx="250.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="242.00" y1="31.00" x2="258.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="243.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="250.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">5</text></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q13"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 300 86" width="300" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><circle cx="50.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="42.00" y1="31.00" x2="58.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="43.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="50.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">1</text><circle cx="100.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="121.00" y1="39.00" x2="127.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="53.85" x2="119.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="60.00" x2="100.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="53.85" x2="80.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="79.00" y1="39.00" x2="73.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="24.15" x2="80.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="18.00" x2="100.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="24.15" x2="119.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="93.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="100.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">2</text><circle cx="150.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="171.00" y1="39.00" x2="177.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="53.85" x2="169.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="60.00" x2="150.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="53.85" x2="130.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="129.00" y1="39.00" x2="123.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="24.15" x2="130.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="18.00" x2="150.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="24.15" x2="169.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="143.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="150.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">3</text><circle cx="200.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="221.00" y1="39.00" x2="227.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="214.85" y1="53.85" x2="219.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="200.00" y1="60.00" x2="200.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="185.15" y1="53.85" x2="180.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="179.00" y1="39.00" x2="173.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="185.15" y1="24.15" x2="180.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="200.00" y1="18.00" x2="200.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="214.85" y1="24.15" x2="219.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="193.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="200.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">4</text><circle cx="250.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="242.00" y1="31.00" x2="258.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="243.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="250.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">5</text></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q13"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 300 86" width="300" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><circle cx="50.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="42.00" y1="31.00" x2="58.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="43.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="50.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">1</text><circle cx="100.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="92.00" y1="31.00" x2="108.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="93.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="100.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">2</text><circle cx="150.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="142.00" y1="31.00" x2="158.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="143.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="150.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">3</text><circle cx="200.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="192.00" y1="31.00" x2="208.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="193.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="200.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">4</text><circle cx="250.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="242.00" y1="31.00" x2="258.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="243.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="250.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">5</text></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q13"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 300 86" width="300" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><circle cx="50.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="42.00" y1="31.00" x2="58.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="43.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="50.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">1</text><circle cx="100.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="121.00" y1="39.00" x2="127.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="53.85" x2="119.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="60.00" x2="100.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="53.85" x2="80.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="79.00" y1="39.00" x2="73.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="24.15" x2="80.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="18.00" x2="100.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="24.15" x2="119.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="93.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="100.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">2</text><circle cx="150.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="171.00" y1="39.00" x2="177.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="53.85" x2="169.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="60.00" x2="150.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="53.85" x2="130.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="129.00" y1="39.00" x2="123.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="24.15" x2="130.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="18.00" x2="150.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="24.15" x2="169.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="143.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="150.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">3</text><circle cx="200.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="192.00" y1="31.00" x2="208.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="193.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="200.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">4</text><circle cx="250.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="242.00" y1="31.00" x2="258.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="243.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="250.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">5</text></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q13"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 300 86" width="300" height="86" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><circle cx="50.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="71.00" y1="39.00" x2="77.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="64.85" y1="53.85" x2="69.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="50.00" y1="60.00" x2="50.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="35.15" y1="53.85" x2="30.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="29.00" y1="39.00" x2="23.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="35.15" y1="24.15" x2="30.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="50.00" y1="18.00" x2="50.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="64.85" y1="24.15" x2="69.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="43.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="50.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">1</text><circle cx="100.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="121.00" y1="39.00" x2="127.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="53.85" x2="119.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="60.00" x2="100.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="53.85" x2="80.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="79.00" y1="39.00" x2="73.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="85.15" y1="24.15" x2="80.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="100.00" y1="18.00" x2="100.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="114.85" y1="24.15" x2="119.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="93.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="100.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">2</text><circle cx="150.00" cy="39.00" r="17.00" fill="#FCD34D" stroke="#1F2430" stroke-width="2.4"/><line x1="171.00" y1="39.00" x2="177.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="53.85" x2="169.09" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="60.00" x2="150.00" y2="66.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="53.85" x2="130.91" y2="58.09" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="129.00" y1="39.00" x2="123.00" y2="39.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="135.15" y1="24.15" x2="130.91" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="150.00" y1="18.00" x2="150.00" y2="12.00" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><line x1="164.85" y1="24.15" x2="169.09" y2="19.91" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/><rect x="143.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="150.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">3</text><circle cx="200.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="192.00" y1="31.00" x2="208.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="193.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="200.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">4</text><circle cx="250.00" cy="39.00" r="17.00" fill="#FFFFFF" stroke="#1F2430" stroke-width="2.4"/><line x1="242.00" y1="31.00" x2="258.00" y2="47.00" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/><rect x="243.00" y="56.00" width="14.00" height="8.00" rx="1" fill="#9CA3AF" stroke="#1F2430" stroke-width="1.6"/><text x="250.00" y="84.00" font-size="12" font-weight="700" text-anchor="middle" fill="#6B7280" font-family="ui-sans-serif,system-ui,sans-serif">5</text></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">Estado inicial: 1 encendida, 2 y 3 apagadas, 4 encendida, 5 apagada. Regla 1 (la 1 está encendida): se encienden la 2 y la 3 → 1,2,3,4 encendidas. Regla 2 (hay 4 encendidas, ≥3): se apaga la 1. Regla 3 (la 5 sigue apagada): se apaga la 4. Estado final: solo la 2 y la 3 encendidas. El error más frecuente es detenerse antes de aplicar la regla 3.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">14.</span><span class="qtag">Instrucciones Complejas · Semáforos</span></div>
+  <div class="qtext">Tres semáforos muestran, de izquierda a derecha, <b>rojo</b>, <b>verde</b> y <b>ámbar</b>. Aplique las reglas <b>en este orden</b>:<br><b>Regla 1:</b> todos los semáforos avanzan un paso en el ciclo <b>rojo → verde → ámbar → rojo</b>.<br><b>Regla 2:</b> si después del paso anterior algún semáforo está en rojo, el <b>primero</b> pasa a verde.<br>¿Cómo quedan los tres semáforos?</div>
+  <div class="figlbl">Estado inicial</div><div class="figbox"><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#EF4444" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#22C55E" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#F59E0B" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg></div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q14"><span class="dot"></span><span class="olet">A</span><span class="osvg"><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#EF4444" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#F59E0B" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#22C55E" stroke="#1F2937" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q14"><span class="dot"></span><span class="olet">B</span><span class="osvg"><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#F59E0B" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#EF4444" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#22C55E" stroke="#1F2937" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q14"><span class="dot"></span><span class="olet">C</span><span class="osvg"><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#22C55E" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#F59E0B" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#EF4444" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q14"><span class="dot"></span><span class="olet">D</span><span class="osvg"><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#22C55E" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#EF4444" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg><svg class="fig" viewBox="0 0 54 124" width="54" height="124" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="48.00" height="118.00" rx="8" fill="#374151" stroke="#1F2430" stroke-width="2"/><circle cx="27.00" cy="26.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="62.00" r="13.00" fill="#F59E0B" stroke="#1F2937" stroke-width="1.6"/><circle cx="27.00" cy="98.00" r="13.00" fill="#4B5563" stroke="#1F2937" stroke-width="1.6"/></svg></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">Regla 1: el rojo pasa a verde, el verde a ámbar y el ámbar a rojo → verde, ámbar, rojo. Regla 2: el tercero está en rojo, así que se comprueba el primero, que ya está en verde y no cambia. Resultado final: verde, ámbar, rojo.</div>
+  </div>
+</article><article class="card" data-correct="0">
+  <div class="qhead"><span class="qnum">15.</span><span class="qtag">Instrucciones Complejas · Letras-comando</span></div>
+  <div class="qtext">Aplique a la columna de figuras la secuencia de comandos <b>A · B · C · A</b>, en ese orden, según la leyenda. ¿Qué columna resulta?</div>
+  <div class="figlbl">Columna inicial</div><div class="figbox col"><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="8.00,8.00 34.00,8.00 8.00,34.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="37.00,14.00 50.00,34.00 42.00,34.00 42.00,58.00 32.00,58.00 32.00,34.00 24.00,34.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="12.00,12.00 37.00,12.00 37.00,62.00 12.00,62.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/><polygon points="12.00,12.00 62.00,12.00 62.00,62.00 12.00,62.00" fill="none" stroke="#1F2430" stroke-width="2" stroke-linejoin="round"/></svg></div></div><div class="legwrap"><div class="figlbl">Leyenda de comandos</div><table class="leg"><tr><td><b>A</b></td><td>Girar la columna 90° a la derecha</td></tr><tr><td><b>B</b></td><td>Girar la columna 180°</td></tr><tr><td><b>C</b></td><td>Anula el comando inmediatamente anterior</td></tr><tr><td><b>D</b></td><td>Invertir el relleno (negro ↔ blanco)</td></tr></table></div>
+  <div class="opts"><label class="opt ok" data-i="0"><input type="radio" name="q15"><span class="dot"></span><span class="olet">A</span><span class="ocol"><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="66.00,66.00 40.00,66.00 66.00,40.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="37.00,60.00 24.00,40.00 32.00,40.00 32.00,16.00 42.00,16.00 42.00,40.00 50.00,40.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="62.00,62.00 37.00,62.00 37.00,12.00 62.00,12.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/><polygon points="62.00,62.00 12.00,62.00 12.00,12.00 62.00,12.00" fill="none" stroke="#1F2430" stroke-width="2" stroke-linejoin="round"/></svg></div></span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q15"><span class="dot"></span><span class="olet">B</span><span class="ocol"><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="66.00,8.00 66.00,34.00 40.00,8.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="60.00,37.00 40.00,50.00 40.00,42.00 16.00,42.00 16.00,32.00 40.00,32.00 40.00,24.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="62.00,12.00 62.00,37.00 12.00,37.00 12.00,12.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/><polygon points="62.00,12.00 62.00,62.00 12.00,62.00 12.00,12.00" fill="none" stroke="#1F2430" stroke-width="2" stroke-linejoin="round"/></svg></div></span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q15"><span class="dot"></span><span class="olet">C</span><span class="ocol"><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="8.00,66.00 8.00,40.00 34.00,66.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="14.00,37.00 34.00,24.00 34.00,32.00 58.00,32.00 58.00,42.00 34.00,42.00 34.00,50.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#fff" stroke="#1F2430" stroke-width="2.3"/><polygon points="12.00,62.00 12.00,37.00 62.00,37.00 62.00,62.00" fill="#1F2430" stroke="#1F2430" stroke-width="1.2" stroke-linejoin="round"/><polygon points="12.00,62.00 12.00,12.00 62.00,12.00 62.00,62.00" fill="none" stroke="#1F2430" stroke-width="2" stroke-linejoin="round"/></svg></div></span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q15"><span class="dot"></span><span class="olet">D</span><span class="ocol"><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#1F2430" stroke="#1F2430" stroke-width="2.3"/><polygon points="66.00,66.00 40.00,66.00 66.00,40.00" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#1F2430" stroke="#1F2430" stroke-width="2.3"/><polygon points="37.00,60.00 24.00,40.00 32.00,40.00 32.00,16.00 42.00,16.00 42.00,40.00 50.00,40.00" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/></svg></div><div class="colcell"><svg class="fig" viewBox="0 0 74 74" width="74" height="74" xmlns="http://www.w3.org/2000/svg"><defs>
+<pattern id="hx" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="6" stroke="#1F2430" stroke-width="1.6"/>
+</pattern>
+<pattern id="hx2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="5" stroke="#1F2430" stroke-width="1.3"/>
+</pattern>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+  <path d="M10 0 L0 0 0 10" fill="none" stroke="#C9CEDA" stroke-width="1"/>
+</pattern>
+</defs><rect x="3.00" y="3.00" width="68.00" height="68.00" rx="0" fill="#1F2430" stroke="#1F2430" stroke-width="2.3"/><polygon points="62.00,62.00 37.00,62.00 37.00,12.00 62.00,12.00" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"/><polygon points="62.00,62.00 12.00,62.00 12.00,12.00 62.00,12.00" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/></svg></div></span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>A</b></div>
+    <div class="sol-b">Se acumulan los giros: A gira 90° (total 90°); B gira 180° (total 270°); C anula el comando anterior, es decir, deshace la B y devuelve el total a 90°; la última A suma otros 90° (total 180°). Ningún comando D interviene, por lo que el relleno no se invierte. El resultado es la columna girada 180°.</div>
+  </div>
+</article><article class="card" data-correct="0">
+  <div class="qhead"><span class="qnum">16.</span><span class="qtag">Series de Números y Letras · Serie numérica</span></div>
+  <div class="qtext">Complete la serie: <b>3, 6, 11, 18, 27, …?</b></div>
+  
+  <div class="opts"><label class="opt ok" data-i="0"><input type="radio" name="q16"><span class="dot"></span><span class="olet">A</span><span class="otxt">38</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q16"><span class="dot"></span><span class="olet">B</span><span class="otxt">36</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q16"><span class="dot"></span><span class="olet">C</span><span class="otxt">40</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q16"><span class="dot"></span><span class="olet">D</span><span class="otxt">33</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>A</b></div>
+    <div class="sol-b">Las diferencias entre términos consecutivos son los impares crecientes: +3, +5, +7, +9. La siguiente diferencia es +11, luego 27 + 11 = 38.</div>
+  </div>
+</article><article class="card" data-correct="0">
+  <div class="qhead"><span class="qnum">17.</span><span class="qtag">Series de Números y Letras · Serie numérica</span></div>
+  <div class="qtext">Complete la serie: <b>2, 3, 5, 8, 13, …?</b></div>
+  
+  <div class="opts"><label class="opt ok" data-i="0"><input type="radio" name="q17"><span class="dot"></span><span class="olet">A</span><span class="otxt">21</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q17"><span class="dot"></span><span class="olet">B</span><span class="otxt">18</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q17"><span class="dot"></span><span class="olet">C</span><span class="otxt">26</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q17"><span class="dot"></span><span class="olet">D</span><span class="otxt">20</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>A</b></div>
+    <div class="sol-b">Cada término es la suma de los dos anteriores (serie de Fibonacci): 2+3=5, 3+5=8, 5+8=13 y, por tanto, 8+13=21.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">18.</span><span class="qtag">Series de Números y Letras · Serie de letras</span></div>
+  <div class="qtext">Complete la serie de letras (alfabeto sin la ñ): <b>A, C, F, J, O, …?</b></div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q18"><span class="dot"></span><span class="olet">A</span><span class="otxt">V</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q18"><span class="dot"></span><span class="olet">B</span><span class="otxt">T</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q18"><span class="dot"></span><span class="olet">C</span><span class="otxt">S</span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q18"><span class="dot"></span><span class="olet">D</span><span class="otxt">U</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">Los saltos entre letras crecen de uno en uno: de A a C hay +2, de C a F +3, de F a J +4 y de J a O +5. El salto siguiente es +6, que desde la O lleva a la U.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">19.</span><span class="qtag">Series de Números y Letras · Serie numérica</span></div>
+  <div class="qtext">Complete la serie: <b>4, 9, 16, 25, 36, …?</b></div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q19"><span class="dot"></span><span class="olet">A</span><span class="otxt">42</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q19"><span class="dot"></span><span class="olet">B</span><span class="otxt">48</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q19"><span class="dot"></span><span class="olet">C</span><span class="otxt">45</span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q19"><span class="dot"></span><span class="olet">D</span><span class="otxt">49</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">Son los cuadrados perfectos consecutivos: 2², 3², 4², 5², 6². El siguiente es 7² = 49.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">20.</span><span class="qtag">Comprensión Lectora · Texto 1 · Pregunta 1</span></div>
+  <div class="qtext">Según el texto, ¿qué distingue al mantenimiento predictivo del preventivo clásico?</div>
+  <div class="pasaje">El mantenimiento predictivo se apoya en la monitorización continua del estado real de los equipos: sensores instalados en ejes, motores y sistemas de freno registran vibraciones, temperaturas y consumos, y esos datos se analizan para detectar desviaciones antes de que deriven en avería. Se diferencia así del mantenimiento preventivo clásico, que interviene según un calendario fijo con independencia del estado del componente, y del correctivo, que actúa una vez producido el fallo. Su principal ventaja es que evita sustituir piezas que aún conservan vida útil, lo que reduce costes de material y paradas innecesarias. A cambio, exige una inversión inicial considerable en instrumentación y en formación del personal, y no resulta rentable en componentes de bajo coste o de fallo poco probable, donde sigue siendo preferible el enfoque preventivo tradicional.</div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q20"><span class="dot"></span><span class="olet">A</span><span class="otxt">El predictivo actúa una vez producido el fallo y el preventivo antes</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q20"><span class="dot"></span><span class="olet">B</span><span class="otxt">El preventivo utiliza sensores y el predictivo no</span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q20"><span class="dot"></span><span class="olet">C</span><span class="otxt">El predictivo interviene según el estado real del equipo, mientras que el preventivo lo hace según un calendario fijo</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q20"><span class="dot"></span><span class="olet">D</span><span class="otxt">No existe diferencia: el texto los presenta como sinónimos</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">El texto opone explícitamente ambos enfoques: el predictivo se basa en la monitorización del estado real del equipo, mientras que el preventivo clásico interviene según un calendario fijo, con independencia del estado del componente.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">21.</span><span class="qtag">Comprensión Lectora · Texto 1 · Pregunta 2</span></div>
+  <div class="qtext">¿Cuál es, según el texto, la principal ventaja del mantenimiento predictivo?</div>
+  <div class="pasaje">El mantenimiento predictivo se apoya en la monitorización continua del estado real de los equipos: sensores instalados en ejes, motores y sistemas de freno registran vibraciones, temperaturas y consumos, y esos datos se analizan para detectar desviaciones antes de que deriven en avería. Se diferencia así del mantenimiento preventivo clásico, que interviene según un calendario fijo con independencia del estado del componente, y del correctivo, que actúa una vez producido el fallo. Su principal ventaja es que evita sustituir piezas que aún conservan vida útil, lo que reduce costes de material y paradas innecesarias. A cambio, exige una inversión inicial considerable en instrumentación y en formación del personal, y no resulta rentable en componentes de bajo coste o de fallo poco probable, donde sigue siendo preferible el enfoque preventivo tradicional.</div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q21"><span class="dot"></span><span class="olet">A</span><span class="otxt">Eliminar por completo la necesidad de personal de mantenimiento</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q21"><span class="dot"></span><span class="olet">B</span><span class="otxt">Reducir a cero la probabilidad de avería</span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q21"><span class="dot"></span><span class="olet">C</span><span class="otxt">Evitar la sustitución de piezas que todavía conservan vida útil</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q21"><span class="dot"></span><span class="olet">D</span><span class="otxt">Abaratar la inversión inicial en instrumentación</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">El texto señala como ventaja principal que evita sustituir piezas que aún conservan vida útil, lo que reduce costes de material y paradas innecesarias. La inversión inicial se presenta como inconveniente, no como ventaja.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">22.</span><span class="qtag">Comprensión Lectora · Texto 1 · Pregunta 3</span></div>
+  <div class="qtext">¿En qué caso el texto considera preferible el mantenimiento preventivo tradicional?</div>
+  <div class="pasaje">El mantenimiento predictivo se apoya en la monitorización continua del estado real de los equipos: sensores instalados en ejes, motores y sistemas de freno registran vibraciones, temperaturas y consumos, y esos datos se analizan para detectar desviaciones antes de que deriven en avería. Se diferencia así del mantenimiento preventivo clásico, que interviene según un calendario fijo con independencia del estado del componente, y del correctivo, que actúa una vez producido el fallo. Su principal ventaja es que evita sustituir piezas que aún conservan vida útil, lo que reduce costes de material y paradas innecesarias. A cambio, exige una inversión inicial considerable en instrumentación y en formación del personal, y no resulta rentable en componentes de bajo coste o de fallo poco probable, donde sigue siendo preferible el enfoque preventivo tradicional.</div>
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q22"><span class="dot"></span><span class="olet">A</span><span class="otxt">En los componentes más críticos para la seguridad</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q22"><span class="dot"></span><span class="olet">B</span><span class="otxt">Siempre que existan sensores disponibles</span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q22"><span class="dot"></span><span class="olet">C</span><span class="otxt">En componentes de bajo coste o con poca probabilidad de fallo</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q22"><span class="dot"></span><span class="olet">D</span><span class="otxt">Únicamente cuando ya se ha producido la avería</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">El último párrafo indica que el predictivo no resulta rentable en componentes de bajo coste o de fallo poco probable, y que en esos casos sigue siendo preferible el enfoque preventivo tradicional.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">23.</span><span class="qtag">Sinónimos y Antónimos · General (con matiz)</span></div>
+  <div class="qtext">Señale el <b>sinónimo más preciso</b> de <b>MERMAR</b>.</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q23"><span class="dot"></span><span class="olet">A</span><span class="otxt">Acabar</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q23"><span class="dot"></span><span class="olet">B</span><span class="otxt">Menguar</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q23"><span class="dot"></span><span class="olet">C</span><span class="otxt">Estropear</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q23"><span class="dot"></span><span class="olet">D</span><span class="otxt">Disminuir</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">«Disminuir» es correcto pero genérico: sirve para cualquier reducción. «Menguar» es el sinónimo más preciso porque comparte con «mermar» el matiz de reducción progresiva de algo que va perdiendo parte de su cantidad o intensidad. «Acabar» implica desaparición total y «estropear» un deterioro, no una reducción.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">24.</span><span class="qtag">Sinónimos y Antónimos · General (con matiz)</span></div>
+  <div class="qtext">Señale el <b>antónimo más preciso</b> de <b>EFÍMERO</b>.</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q24"><span class="dot"></span><span class="olet">A</span><span class="otxt">Lento</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q24"><span class="dot"></span><span class="olet">B</span><span class="otxt">Perdurable</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q24"><span class="dot"></span><span class="olet">C</span><span class="otxt">Largo</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q24"><span class="dot"></span><span class="olet">D</span><span class="otxt">Eterno</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">«Efímero» significa de muy corta duración. «Eterno» es un antónimo demasiado absoluto (sin fin) y «largo» solo indica extensión. «Perdurable» es el antónimo exacto: aquello que dura mucho tiempo o se mantiene en el tiempo, que es justo la oposición del matiz de brevedad.</div>
+  </div>
+</article><article class="card" data-correct="3">
+  <div class="qhead"><span class="qnum">25.</span><span class="qtag">Sinónimos y Antónimos · Especialidad</span></div>
+  <div class="qtext">En el contexto del ajuste mecánico entre dos piezas, señale el <b>antónimo</b> de <b>HOLGURA</b>.</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q25"><span class="dot"></span><span class="olet">A</span><span class="otxt">Lubricación</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q25"><span class="dot"></span><span class="olet">B</span><span class="otxt">Vibración</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q25"><span class="dot"></span><span class="olet">C</span><span class="otxt">Desgaste</span><span class="tick">✅</span></label><label class="opt ok" data-i="3"><input type="radio" name="q25"><span class="dot"></span><span class="olet">D</span><span class="otxt">Apriete</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>D</b></div>
+    <div class="sol-b">La holgura es el juego o separación entre dos piezas acopladas. Su opuesto es el apriete: el ajuste ceñido o forzado sin juego entre ambas. El desgaste y la vibración son consecuencias posibles de una holgura excesiva, no su antónimo.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">26.</span><span class="qtag">Sinónimos y Antónimos · Especialidad</span></div>
+  <div class="qtext">Señale el <b>sinónimo</b> de <b>ESTANQUEIDAD</b> en el contexto de un circuito neumático.</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q26"><span class="dot"></span><span class="olet">A</span><span class="otxt">Aislamiento térmico</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q26"><span class="dot"></span><span class="olet">B</span><span class="otxt">Hermeticidad</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q26"><span class="dot"></span><span class="olet">C</span><span class="otxt">Rigidez</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q26"><span class="dot"></span><span class="olet">D</span><span class="otxt">Resistencia</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La estanqueidad es la propiedad de un circuito o recipiente que impide fugas de fluido. Su sinónimo es hermeticidad. El aislamiento térmico se refiere al calor, no al paso de fluidos.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">27.</span><span class="qtag">Analogías Verbales · Herramienta – objeto</span></div>
+  <div class="qtext">MARTILLO es a CLAVO como <b>LLAVE</b> es a …</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q27"><span class="dot"></span><span class="olet">A</span><span class="otxt">Cerradura</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q27"><span class="dot"></span><span class="olet">B</span><span class="otxt">Tuerca</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q27"><span class="dot"></span><span class="olet">C</span><span class="otxt">Metal</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q27"><span class="dot"></span><span class="olet">D</span><span class="otxt">Puerta</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La relación es «herramienta – elemento sobre el que actúa»: el martillo golpea el clavo y la llave (de tuercas) aprieta o afloja la tuerca. «Puerta» y «cerradura» remiten a otra acepción de «llave» que rompe la analogía con el ámbito de las herramientas.</div>
+  </div>
+</article><article class="card" data-correct="2">
+  <div class="qhead"><span class="qnum">28.</span><span class="qtag">Analogías Verbales · Parte – conjunto</span></div>
+  <div class="qtext">PESTAÑA es a RUEDA como <b>ZAPATA</b> es a …</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q28"><span class="dot"></span><span class="olet">A</span><span class="otxt">Bogie</span><span class="tick">✅</span></label><label class="opt " data-i="1"><input type="radio" name="q28"><span class="dot"></span><span class="olet">B</span><span class="otxt">Motor</span><span class="tick">✅</span></label><label class="opt ok" data-i="2"><input type="radio" name="q28"><span class="dot"></span><span class="olet">C</span><span class="otxt">Freno</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q28"><span class="dot"></span><span class="olet">D</span><span class="otxt">Eje</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>C</b></div>
+    <div class="sol-b">La relación es «parte – conjunto al que pertenece»: la pestaña es un elemento de la rueda y la zapata lo es del freno. El eje y el bogie son conjuntos superiores, pero la zapata no forma parte de ellos de manera directa.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">29.</span><span class="qtag">Analogías Verbales · Causa – efecto</span></div>
+  <div class="qtext">ROZAMIENTO es a DESGASTE como <b>HUMEDAD</b> es a …</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q29"><span class="dot"></span><span class="olet">A</span><span class="otxt">Lluvia</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q29"><span class="dot"></span><span class="olet">B</span><span class="otxt">Corrosión</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q29"><span class="dot"></span><span class="olet">C</span><span class="otxt">Filtro</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q29"><span class="dot"></span><span class="olet">D</span><span class="otxt">Frío</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La relación es «causa – efecto que produce»: el rozamiento provoca desgaste y la humedad provoca corrosión. La lluvia sería otra causa, no un efecto, y el frío no guarda relación causal directa.</div>
+  </div>
+</article><article class="card" data-correct="1">
+  <div class="qhead"><span class="qnum">30.</span><span class="qtag">Analogías Verbales · Instrumento – magnitud</span></div>
+  <div class="qtext">MANÓMETRO es a PRESIÓN como <b>CALIBRE</b> es a …</div>
+  
+  <div class="opts"><label class="opt " data-i="0"><input type="radio" name="q30"><span class="dot"></span><span class="olet">A</span><span class="otxt">Peso</span><span class="tick">✅</span></label><label class="opt ok" data-i="1"><input type="radio" name="q30"><span class="dot"></span><span class="olet">B</span><span class="otxt">Longitud</span><span class="tick">✅</span></label><label class="opt " data-i="2"><input type="radio" name="q30"><span class="dot"></span><span class="olet">C</span><span class="otxt">Caudal</span><span class="tick">✅</span></label><label class="opt " data-i="3"><input type="radio" name="q30"><span class="dot"></span><span class="olet">D</span><span class="otxt">Temperatura</span><span class="tick">✅</span></label></div>
+  <div class="sol">
+    <div class="sol-t">Respuesta correcta: <b>B</b></div>
+    <div class="sol-b">La relación es «instrumento – magnitud que mide»: el manómetro mide presión y el calibre mide longitudes o dimensiones (espesores, diámetros). El peso se mide con báscula y la temperatura con termómetro.</div>
+  </div>
+</article>
+</div>
+<script>
+document.querySelectorAll('.opt').forEach(o=>{
+  o.addEventListener('click',()=>{
+    if(document.body.classList.contains('rev'))return;
+    o.closest('.opts').querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));
+    o.classList.add('sel'); upd();
+  });
+});
+function upd(){
+  const c=document.querySelectorAll('.card').length;
+  const a=document.querySelectorAll('.opt.sel').length;
+  document.getElementById('sc').textContent=a+' de '+c+' contestadas';
+}
+document.getElementById('fin').onclick=()=>{
+  document.body.classList.add('rev');
+  let ok=0;
+  document.querySelectorAll('.card').forEach(cd=>{
+    const s=cd.querySelector('.opt.sel');
+    if(s&&s.classList.contains('ok'))ok++;
+  });
+  const t=document.querySelectorAll('.card').length;
+  document.getElementById('sc').textContent='Aciertos: '+ok+' de '+t;
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+document.getElementById('rst').onclick=()=>{
+  document.body.classList.remove('rev');
+  document.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel'));
+  upd(); window.scrollTo({top:0,behavior:'smooth'});
+};
+upd();
+</script></body></html>
