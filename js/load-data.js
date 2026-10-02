@@ -208,12 +208,14 @@ function getFallbackCourseBlueprint(courseTitle) {
         title: 'Psicotécnicos (bloques habituales en OEP de mantenimiento)',
         description: 'Estructura propuesta según tipologías frecuentes en procesos selectivos de perfil mantenimiento.',
         items: [
-          'Omnibus',
-          'Sinónimos y antónimos',
-          'Series numéricas',
+          'Omnibus (35 preguntas aleatorias, 30 min)',
+          'Razonamiento mecánico',
           'Razonamiento abstracto',
-          'Razonamiento verbal',
-          'Atención y percepción',
+          'Razonamiento espacial',
+          'Instrucciones complejas',
+          'Series de Números / Letras',
+          'Comprensión lectora',
+          'Vocabulario y Analogías Verbales',
         ],
       },
       {
@@ -450,11 +452,13 @@ function getFallbackQuestionBank() {
     'test-especifico': [],
     psicotecnicos: {
       omnibus: [],
-      sinonimosAntonimos: [],
-      seriesNumericas: [],
+      razonamientoMecanico: [],
       razonamientoAbstracto: [],
-      razonamientoVerbal: [],
-      atencionPercepcion: [],
+      razonamientoEspacial: [],
+      instruccionesComplejas: [],
+      seriesNumerosLetras: [],
+      comprensionLectora: [],
+      vocabularioAnalogias: [],
     },
   };
 }
@@ -519,21 +523,27 @@ function mergeQuestionBank(base, override = {}) {
     'test-especifico': Array.isArray(override['test-especifico']) ? override['test-especifico'] : base['test-especifico'],
     psicotecnicos: {
       omnibus: Array.isArray(override.psicotecnicos?.omnibus) ? override.psicotecnicos.omnibus : base.psicotecnicos.omnibus,
-      sinonimosAntonimos: Array.isArray(override.psicotecnicos?.sinonimosAntonimos)
-        ? override.psicotecnicos.sinonimosAntonimos
-        : base.psicotecnicos.sinonimosAntonimos,
-      seriesNumericas: Array.isArray(override.psicotecnicos?.seriesNumericas)
-        ? override.psicotecnicos.seriesNumericas
-        : base.psicotecnicos.seriesNumericas,
+      razonamientoMecanico: Array.isArray(override.psicotecnicos?.razonamientoMecanico)
+        ? override.psicotecnicos.razonamientoMecanico
+        : base.psicotecnicos.razonamientoMecanico,
       razonamientoAbstracto: Array.isArray(override.psicotecnicos?.razonamientoAbstracto)
         ? override.psicotecnicos.razonamientoAbstracto
         : base.psicotecnicos.razonamientoAbstracto,
-      razonamientoVerbal: Array.isArray(override.psicotecnicos?.razonamientoVerbal)
-        ? override.psicotecnicos.razonamientoVerbal
-        : base.psicotecnicos.razonamientoVerbal,
-      atencionPercepcion: Array.isArray(override.psicotecnicos?.atencionPercepcion)
-        ? override.psicotecnicos.atencionPercepcion
-        : base.psicotecnicos.atencionPercepcion,
+      razonamientoEspacial: Array.isArray(override.psicotecnicos?.razonamientoEspacial)
+        ? override.psicotecnicos.razonamientoEspacial
+        : base.psicotecnicos.razonamientoEspacial,
+      instruccionesComplejas: Array.isArray(override.psicotecnicos?.instruccionesComplejas)
+        ? override.psicotecnicos.instruccionesComplejas
+        : base.psicotecnicos.instruccionesComplejas,
+      seriesNumerosLetras: Array.isArray(override.psicotecnicos?.seriesNumerosLetras)
+        ? override.psicotecnicos.seriesNumerosLetras
+        : base.psicotecnicos.seriesNumerosLetras,
+      comprensionLectora: Array.isArray(override.psicotecnicos?.comprensionLectora)
+        ? override.psicotecnicos.comprensionLectora
+        : base.psicotecnicos.comprensionLectora,
+      vocabularioAnalogias: Array.isArray(override.psicotecnicos?.vocabularioAnalogias)
+        ? override.psicotecnicos.vocabularioAnalogias
+        : base.psicotecnicos.vocabularioAnalogias,
     },
   };
 }
@@ -558,12 +568,14 @@ function renderQuestionBankSummary(questionBank) {
   const specificCount = questionBank['test-especifico'].length;
 
   const psychoMap = [
-    ['Omnibus', questionBank.psicotecnicos.omnibus.length],
-    ['Sinónimos y antónimos', questionBank.psicotecnicos.sinonimosAntonimos.length],
-    ['Series numéricas', questionBank.psicotecnicos.seriesNumericas.length],
+    ['Omnibus (35 aleatorias)', '(mixto)'],
+    ['Razonamiento mecánico', questionBank.psicotecnicos.razonamientoMecanico.length],
     ['Razonamiento abstracto', questionBank.psicotecnicos.razonamientoAbstracto.length],
-    ['Razonamiento verbal', questionBank.psicotecnicos.razonamientoVerbal.length],
-    ['Atención y percepción', questionBank.psicotecnicos.atencionPercepcion.length],
+    ['Razonamiento espacial', questionBank.psicotecnicos.razonamientoEspacial.length],
+    ['Instrucciones complejas', questionBank.psicotecnicos.instruccionesComplejas.length],
+    ['Series de Números / Letras', questionBank.psicotecnicos.seriesNumerosLetras.length],
+    ['Comprensión lectora', questionBank.psicotecnicos.comprensionLectora.length],
+    ['Vocabulario y Analogías Verbales', questionBank.psicotecnicos.vocabularioAnalogias.length],
   ];
 
   return `
@@ -601,38 +613,51 @@ function getPsychotechnicalMeta() {
     {
       id: 'omnibus',
       label: 'Omnibus',
-      time: '12 min',
-      description: 'Ejercicios combinados de comprensión, razonamiento y agilidad mental.',
+      time: '30 min',
+      description: 'Test combinado: 5 preguntas de cada tipo de psicotécnico (35 en total), seleccionadas al azar. Reproduce las condiciones reales del examen.',
+      isOmnibus: true,
     },
     {
-      id: 'sinonimosAntonimos',
-      label: 'Sinónimos y antónimos',
-      time: '10 min',
-      description: 'Evaluación de vocabulario, precisión léxica y rapidez verbal.',
-    },
-    {
-      id: 'seriesNumericas',
-      label: 'Matemáticas (series numéricas)',
-      time: '15 min',
-      description: 'Secuencias numéricas para medir razonamiento lógico-matemático.',
+      id: 'razonamientoMecanico',
+      label: 'Razonamiento mecánico',
+      time: '14 min',
+      description: 'Engranajes, poleas, palancas y principios físicos básicos aplicados a maquinaria de mantenimiento ferroviario.',
     },
     {
       id: 'razonamientoAbstracto',
       label: 'Razonamiento abstracto',
       time: '14 min',
-      description: 'Patrones visuales para evaluar pensamiento lógico y espacial.',
+      description: 'Matrices, series y analogías de figuras para evaluar el pensamiento lógico no verbal.',
     },
     {
-      id: 'razonamientoVerbal',
-      label: 'Razonamiento verbal',
+      id: 'razonamientoEspacial',
+      label: 'Razonamiento espacial',
       time: '12 min',
-      description: 'Comprensión de textos breves y relaciones entre conceptos.',
+      description: 'Desarrollo de cubos, rotación de figuras y fichas de dominó para medir la visualización tridimensional.',
     },
     {
-      id: 'atencionPercepcion',
-      label: 'Atención y percepción',
-      time: '9 min',
-      description: 'Foco, rapidez y precisión ante estímulos visuales.',
+      id: 'instruccionesComplejas',
+      label: 'Instrucciones complejas',
+      time: '15 min',
+      description: 'Interruptores, bombillas, semáforos y letras-comando: aplica reglas encadenadas para determinar el estado final.',
+    },
+    {
+      id: 'seriesNumerosLetras',
+      label: 'Series de Números / Letras',
+      time: '10 min',
+      description: 'Secuencias numéricas y alfabéticas con patrones de progresión para medir el razonamiento lógico-matemático.',
+    },
+    {
+      id: 'comprensionLectora',
+      label: 'Comprensión lectora',
+      time: '12 min',
+      description: 'Lectura de textos breves seguida de preguntas sobre contenido, vocabulario en contexto e inferencias.',
+    },
+    {
+      id: 'vocabularioAnalogias',
+      label: 'Vocabulario y Analogías Verbales',
+      time: '10 min',
+      description: 'Sinónimos, antónimos y analogías verbales (herramienta–objeto, parte–todo, causa–efecto) con vocabulario técnico ferroviario.',
     },
   ];
 }
@@ -1213,6 +1238,25 @@ if (testRunner) {
       }
 
       const testQuestions = (() => {
+        if (activeTest.id === 'psy-omnibus') {
+          // Omnibus: 5 preguntas aleatorias de cada uno de los 7 tipos (35 total)
+          const omnibusTypes = [
+            'razonamientoMecanico',
+            'razonamientoAbstracto',
+            'razonamientoEspacial',
+            'instruccionesComplejas',
+            'seriesNumerosLetras',
+            'comprensionLectora',
+            'vocabularioAnalogias',
+          ];
+          const picked = [];
+          for (const type of omnibusTypes) {
+            const pool = questionBank.psicotecnicos?.[type] || [];
+            const shuffled = [...pool].sort(() => Math.random() - 0.5);
+            picked.push(...shuffled.slice(0, 5));
+          }
+          return picked;
+        }
         if (activeTest.id.startsWith('psy-')) {
           const key = activeTest.id.replace('psy-', '');
           return questionBank.psicotecnicos?.[key] || [];
@@ -1230,12 +1274,13 @@ if (testRunner) {
         const shuffled = [...normalizedQuestions].sort(() => Math.random() - 0.5);
         normalizedQuestions = shuffled;
       }
-      while (normalizedQuestions.length < 20) {
+      // El Omnibus siempre es 35 preguntas (5 de cada tipo); el resto 20
+      const totalQuestions = activeTest.id === 'psy-omnibus' ? 35 : 20;
+      while (normalizedQuestions.length < totalQuestions) {
         const fallback = getFallbackQuestion();
         fallback.question = `Pregunta de ejemplo ${normalizedQuestions.length + 1}`;
         normalizedQuestions.push(fallback);
       }
-      const totalQuestions = 20;
       const trimmedQuestions = normalizedQuestions.slice(0, totalQuestions).map((question) => {
         if (activeTest.id !== 'psy-razonamientoAbstracto') return question;
         const options = Array.isArray(question.options) ? question.options.slice(0, 4) : ['A', 'B', 'C', 'D'];

@@ -83,38 +83,27 @@
       }
     ],
     "psicotecnicos": {
-      "omnibus": [
-        {
-          "id": "psi-omni-001",
-          "oepYear": 2023,
-          "source": "simulacion",
-          "difficulty": "media",
-          "question": "Selecciona la opción correcta según el enunciado del bloque ómnibus.",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ],
-          "correctIndex": 2,
-          "explanation": "Ejemplo de estructura para completar más adelante.",
-          "tags": [
-            "omnibus"
-          ]
-        }
-      ],
-      "sinonimosAntonimos": [],
-      "seriesNumericas": [],
+      "omnibus": [],
+      "razonamientoMecanico": [],
       "razonamientoAbstracto": [],
-      "razonamientoVerbal": [],
-      "atencionPercepcion": []
+      "razonamientoEspacial": [],
+      "instruccionesComplejas": [],
+      "seriesNumerosLetras": [],
+      "comprensionLectora": [],
+      "vocabularioAnalogias": []
     }
   },
   "byCourseTitle": {
     "Ajustador-Montador": {
       "test-especifico": [],
       "psicotecnicos": {
-        "seriesNumericas": []
+        "razonamientoMecanico": [],
+        "razonamientoAbstracto": [],
+        "razonamientoEspacial": [],
+        "instruccionesComplejas": [],
+        "seriesNumerosLetras": [],
+        "comprensionLectora": [],
+        "vocabularioAnalogias": []
       }
     }
   }
