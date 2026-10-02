@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+  <rect width='100%' height='100%' fill='#f6f7f9'/>
+  <text x='30' y='45' font-family='Arial' font-size='24' font-weight='700' fill='#1f4a73'>16. ¿Qué figura completa la serie? (sustitución de pieza)</text>
+  <rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
+  <circle cx='68' cy='135' r='18' fill='#222' stroke='#222' stroke-width='2'/>
+  <rect x='100' y='117' width='36' height='36' fill='#222' stroke='#222' stroke-width='2'/>
+  <rect x='165' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
+  <rect x='180' y='117' width='36' height='36' fill='#222' stroke='#222' stroke-width='2'/>
+  <polygon points='240.0,155.0 222.7,125.0 257.3,125.0' fill='#222' stroke='#222' stroke-width='2'/>
+  <rect x='290' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
+  <polygon points='320.0,115.0 337.3,145.0 302.7,145.0' fill='#222' stroke='#222' stroke-width='2'/>
+  <circle cx='368' cy='135' r='18' fill='#222' stroke='#222' stroke-width='2'/>
+  <rect x='415' y='80' width='110' height='110' fill='none' stroke='#999' stroke-width='3' stroke-dasharray='10 8'/>
+  <text x='470' y='147' font-family='Arial' font-size='48' text-anchor='middle' fill='#888'>?</text>
+  <line x1='30' y1='285' x2='870' y2='285' stroke='#ccc' stroke-width='1'/>
+  <text x='30' y='300' font-family='Arial' font-size='17' fill='#666'>Opciones:</text>
+  <rect x='40' y='310' width='110' height='110' fill='white' stroke='#2a7a2a' stroke-width='4'/>
+  <circle cx='68' cy='365' r='18' fill='#222' stroke='#222' stroke-width='2'/>
+  <rect x='100' y='347' width='36' height='36' fill='#222' stroke='#222' stroke-width='2'/>
+  <text x='95' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#2a7a2a'>a</text>
+  <rect x='165' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <circle cx='193' cy='365' r='18' fill='#222' stroke='#222' stroke-width='2'/>
+  <polygon points='243.0,385.0 225.7,355.0 260.3,355.0' fill='#222' stroke='#222' stroke-width='2'/>
+  <text x='220' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>b</text>
+  <rect x='290' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <rect x='305' y='347' width='36' height='36' fill='#222' stroke='#222' stroke-width='2'/>
+  <polygon points='365.0,385.0 347.7,355.0 382.3,355.0' fill='#222' stroke='#222' stroke-width='2'/>
+  <text x='345' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>c</text>
+  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='445.0,345.0 462.3,375.0 427.7,375.0' fill='#222' stroke='#222' stroke-width='2'/>
+  <circle cx='493' cy='365' r='18' fill='#222' stroke='#222' stroke-width='2'/>
+  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>d</text>
+</svg>

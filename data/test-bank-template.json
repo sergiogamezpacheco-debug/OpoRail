@@ -3207,8 +3207,412 @@
     "test-especifico": [],
     "psicotecnicos": {
       "omnibus": [],
-      "sinonimosAntonimos": [],
-      "seriesNumericas": [],
+      "razonamientoMecanico": [
+        {
+          "id": "psi-mec-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Dos engranajes están en contacto. El engranaje A tiene 20 dientes y el B tiene 40 dientes. Si A da 2 vueltas, ¿cuántas vueltas da B?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "Relación de transmisión = dientes_A / dientes_B = 20/40 = 0.5. 2 × 0.5 = 1 vuelta.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "engranajes"
+          ]
+        },
+        {
+          "id": "psi-mec-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "En una palanca de primer grado, el brazo de potencia mide 60 cm y el brazo de resistencia 20 cm. Si la resistencia es 90 N, ¿qué fuerza mínima se necesita para equilibrarla?",
+          "options": [
+            "10 N",
+            "20 N",
+            "30 N",
+            "45 N"
+          ],
+          "correctIndex": 2,
+          "explanation": "Equilibrio: F × 60 = 90 × 20 → F = 1800 / 60 = 30 N.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "palancas"
+          ]
+        },
+        {
+          "id": "psi-mec-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Una polea fija se usa para levantar una carga. ¿Qué ventaja mecánica proporciona?",
+          "options": [
+            "Multiplica la fuerza por 2",
+            "Cambia la dirección de la fuerza sin ventaja mecánica",
+            "Reduce la fuerza necesaria a la mitad",
+            "Elimina el peso de la carga"
+          ],
+          "correctIndex": 1,
+          "explanation": "Una polea fija solo cambia la dirección de la fuerza; no proporciona ventaja mecánica (la fuerza necesaria es igual a la carga).",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "poleas"
+          ]
+        },
+        {
+          "id": "psi-mec-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Una polea móvil se une a la carga. Si la carga pesa 200 N, ¿qué fuerza se necesita para levantarla idealmente?",
+          "options": [
+            "200 N",
+            "150 N",
+            "100 N",
+            "50 N"
+          ],
+          "correctIndex": 2,
+          "explanation": "Con una polea móvil, la ventaja mecánica es 2. Fuerza = 200 / 2 = 100 N.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "poleas-moviles"
+          ]
+        },
+        {
+          "id": "psi-mec-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Dos engranajes giran en contacto. Si el engranaje A gira en sentido horario, ¿en qué sentido gira el engranaje B?",
+          "options": [
+            "En el mismo sentido horario",
+            "En sentido antihorario",
+            "No gira",
+            "Depende del tamaño"
+          ],
+          "correctIndex": 1,
+          "explanation": "Los engranajes en contacto directo giran en sentidos opuestos. A=horario → B=antihorario.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "engranajes",
+            "direccion"
+          ]
+        },
+        {
+          "id": "psi-mec-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Un plano inclinado de 5 m de largo eleva una carga hasta 1 m de altura. ¿Cuál es la ventaja mecánica teórica del plano?",
+          "options": [
+            "1",
+            "5",
+            "10",
+            "0.2"
+          ],
+          "correctIndex": 1,
+          "explanation": "VM = longitud / altura = 5 / 1 = 5. Se necesita solo 1/5 de la fuerza.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "plano-inclinado"
+          ]
+        },
+        {
+          "id": "psi-mec-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Un sistema de poleas tipo cuadernal tiene 4 cuerdas sustentando la carga. ¿Cuál es su ventaja mecánica ideal?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "La ventaja mecánica de un aparejo de poleas es igual al número de cuerdas que soportan la carga. Con 4 cuerdas, VM=4.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "poleas-compuestas"
+          ]
+        },
+        {
+          "id": "psi-mec-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Cuál de los siguientes elementos convierte el movimiento lineal en rotacional?",
+          "options": [
+            "Engranaje cónico",
+            "Cremallera y piñón",
+            "Polea fija",
+            "Palanca de segundo grado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Una cremallera (movimiento lineal) engranada con un piñón (movimiento rotacional) convierte uno en otro.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "cremallera"
+          ]
+        },
+        {
+          "id": "psi-mec-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Un husillo de bolas tiene un paso de rosca de 5 mm. Si el eje gira 3 vueltas completas, ¿cuánto avanza linealmente?",
+          "options": [
+            "5 mm",
+            "10 mm",
+            "15 mm",
+            "20 mm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Avance = número de vueltas × paso = 3 × 5 mm = 15 mm.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "husillo"
+          ]
+        },
+        {
+          "id": "psi-mec-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Qué tipo de llave de apriete permite aplicar un par de torsión específico sin sobrepasarlo?",
+          "options": [
+            "Llave inglesa",
+            "Llave dinamométrica",
+            "Llave de vaso",
+            "Llave allen"
+          ],
+          "correctIndex": 1,
+          "explanation": "La llave dinamométrica (o torsiométrica) está calibrada para limitar el par de apriete a un valor prefijado.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "herramientas"
+          ]
+        },
+        {
+          "id": "psi-mec-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "En un circuito hidráulico, si el pistón A tiene 10 cm² de área y el pistón B tiene 50 cm², al aplicar 200 N sobre A, ¿qué fuerza ejerce B?",
+          "options": [
+            "40 N",
+            "200 N",
+            "1000 N",
+            "2000 N"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pascal: P = F/A. P_A = 200/10 = 20 N/cm². F_B = P × A_B = 20 × 50 = 1000 N.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "hidraulica",
+            "pascal"
+          ]
+        },
+        {
+          "id": "psi-mec-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Qué función tiene un rodamiento de bolas?",
+          "options": [
+            "Transmitir par de torsión entre ejes no paralelos",
+            "Reducir la fricción entre partes móviles",
+            "Aumentar la velocidad de giro",
+            "Convertir movimiento lineal en rotacional"
+          ],
+          "correctIndex": 1,
+          "explanation": "Los rodamientos de bolas reducen la fricción entre el eje giratorio y su soporte.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "rodamientos"
+          ]
+        },
+        {
+          "id": "psi-mec-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Un motor de 10 kW gira a 1000 rpm. ¿Cuál es su par motor aproximado en N·m?",
+          "options": [
+            "10 N·m",
+            "50 N·m",
+            "95.5 N·m",
+            "100 N·m"
+          ],
+          "correctIndex": 2,
+          "explanation": "Par = Potencia / (ω) = 10000 / (1000 × 2π/60) = 10000 / 104.7 ≈ 95.5 N·m.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "par-motor"
+          ]
+        },
+        {
+          "id": "psi-mec-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Una correa dentada une dos poleas de 100 mm y 200 mm de diámetro respectivamente. Si la polea pequeña gira a 800 rpm, ¿a qué velocidad gira la grande?",
+          "options": [
+            "200 rpm",
+            "400 rpm",
+            "800 rpm",
+            "1600 rpm"
+          ],
+          "correctIndex": 1,
+          "explanation": "N₁×D₁ = N₂×D₂ → 800×100 = N₂×200 → N₂ = 400 rpm.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "correas",
+            "poleas"
+          ]
+        },
+        {
+          "id": "psi-mec-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Para qué sirve una junta tórica (O-ring)?",
+          "options": [
+            "Aumentar la fricción entre piezas",
+            "Transmitir potencia entre ejes",
+            "Asegurar la estanqueidad evitando fugas de fluido",
+            "Centrar dos ejes coaxiales"
+          ],
+          "correctIndex": 2,
+          "explanation": "Las juntas tóricas (O-rings) son elementos de estanqueidad que impiden la fuga de fluidos o gases.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "estanqueidad"
+          ]
+        },
+        {
+          "id": "psi-mec-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "¿Qué tipo de engranaje se usa para transmitir movimiento entre ejes perpendiculares?",
+          "options": [
+            "Engranaje recto",
+            "Engranaje cónico",
+            "Engranaje helicoidal",
+            "Cremallera"
+          ],
+          "correctIndex": 1,
+          "explanation": "Los engranajes cónicos transmiten movimiento entre ejes que se cortan, habitualmente en ángulo recto.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "engranajes-conicos"
+          ]
+        },
+        {
+          "id": "psi-mec-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Si un pistón de 5 cm de diámetro se mueve 20 mm hacia adentro, ¿qué volumen de fluido desplaza?",
+          "options": [
+            "1.57 cm³",
+            "3.93 cm³",
+            "7.85 cm³",
+            "15.7 cm³"
+          ],
+          "correctIndex": 1,
+          "explanation": "V = π × (D/2)² × L = π × (2.5)² × 2 = π × 6.25 × 2 ≈ 39.27 mm³ = 3.93 cm³.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "hidraulica",
+            "volumen"
+          ]
+        },
+        {
+          "id": "psi-mec-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "¿Cuál de las siguientes leyes describe la relación entre fuerza, masa y aceleración?",
+          "options": [
+            "Ley de Ohm",
+            "Segunda ley de Newton",
+            "Principio de Arquímedes",
+            "Ley de Hooke"
+          ],
+          "correctIndex": 1,
+          "explanation": "La segunda ley de Newton establece que F = m × a.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "newton"
+          ]
+        },
+        {
+          "id": "psi-mec-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Qué tipo de acoplamiento absorbe desalineaciones entre dos ejes?",
+          "options": [
+            "Acoplamiento rígido",
+            "Acoplamiento flexible",
+            "Engranaje cónico",
+            "Tornillo de potencia"
+          ],
+          "correctIndex": 1,
+          "explanation": "Los acoplamientos flexibles admiten pequeñas desalineaciones angulares y axiales entre ejes.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "acoplamientos"
+          ]
+        },
+        {
+          "id": "psi-mec-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En un sistema de tornillo sin fin, el tornillo tiene 1 entrada y la rueda tiene 40 dientes. ¿Cuántas vueltas debe dar el tornillo para que la rueda gire 1 vuelta completa?",
+          "options": [
+            "1",
+            "10",
+            "20",
+            "40"
+          ],
+          "correctIndex": 3,
+          "explanation": "Relación de transmisión = número de dientes rueda / entradas tornillo = 40/1 = 40. La rueda gira 1 vuelta por cada 40 vueltas del tornillo.",
+          "tags": [
+            "psicotecnico",
+            "mecanico",
+            "tornillo-sin-fin"
+          ]
+        }
+      ],
       "razonamientoAbstracto": [
         {
           "id": "psi-abs-001",
@@ -3629,2110 +4033,2056 @@
             "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-020.svg"
-        },
-        {
-          "id": "psi-abs-021",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-021.svg"
-        },
-        {
-          "id": "psi-abs-022",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-022.svg"
-        },
-        {
-          "id": "psi-abs-023",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-023.svg"
-        },
-        {
-          "id": "psi-abs-024",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-024.svg"
-        },
-        {
-          "id": "psi-abs-025",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-025.svg"
-        },
-        {
-          "id": "psi-abs-026",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-026.svg"
-        },
-        {
-          "id": "psi-abs-027",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-027.svg"
-        },
-        {
-          "id": "psi-abs-028",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-028.svg"
-        },
-        {
-          "id": "psi-abs-029",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-029.svg"
-        },
-        {
-          "id": "psi-abs-030",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-030.svg"
-        },
-        {
-          "id": "psi-abs-031",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-031.svg"
-        },
-        {
-          "id": "psi-abs-032",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-032.svg"
-        },
-        {
-          "id": "psi-abs-033",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-033.svg"
-        },
-        {
-          "id": "psi-abs-034",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-034.svg"
-        },
-        {
-          "id": "psi-abs-035",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-035.svg"
-        },
-        {
-          "id": "psi-abs-036",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-036.svg"
-        },
-        {
-          "id": "psi-abs-037",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-037.svg"
-        },
-        {
-          "id": "psi-abs-038",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-038.svg"
-        },
-        {
-          "id": "psi-abs-039",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-039.svg"
-        },
-        {
-          "id": "psi-abs-040",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-040.svg"
-        },
-        {
-          "id": "psi-abs-041",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-041.svg"
-        },
-        {
-          "id": "psi-abs-042",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-042.svg"
-        },
-        {
-          "id": "psi-abs-043",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-043.svg"
-        },
-        {
-          "id": "psi-abs-044",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-044.svg"
-        },
-        {
-          "id": "psi-abs-045",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-045.svg"
-        },
-        {
-          "id": "psi-abs-046",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-046.svg"
-        },
-        {
-          "id": "psi-abs-047",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-047.svg"
-        },
-        {
-          "id": "psi-abs-048",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-048.svg"
-        },
-        {
-          "id": "psi-abs-049",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-049.svg"
-        },
-        {
-          "id": "psi-abs-050",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-050.svg"
-        },
-        {
-          "id": "psi-abs-051",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-051.svg"
-        },
-        {
-          "id": "psi-abs-052",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-052.svg"
-        },
-        {
-          "id": "psi-abs-053",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-053.svg"
-        },
-        {
-          "id": "psi-abs-054",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-054.svg"
-        },
-        {
-          "id": "psi-abs-055",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-055.svg"
-        },
-        {
-          "id": "psi-abs-056",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-056.svg"
-        },
-        {
-          "id": "psi-abs-057",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-057.svg"
-        },
-        {
-          "id": "psi-abs-058",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-058.svg"
-        },
-        {
-          "id": "psi-abs-059",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-059.svg"
-        },
-        {
-          "id": "psi-abs-060",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-060.svg"
-        },
-        {
-          "id": "psi-abs-061",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-061.svg"
-        },
-        {
-          "id": "psi-abs-062",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-062.svg"
-        },
-        {
-          "id": "psi-abs-063",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-063.svg"
-        },
-        {
-          "id": "psi-abs-064",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-064.svg"
-        },
-        {
-          "id": "psi-abs-065",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-065.svg"
-        },
-        {
-          "id": "psi-abs-066",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-066.svg"
-        },
-        {
-          "id": "psi-abs-067",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-067.svg"
-        },
-        {
-          "id": "psi-abs-068",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-068.svg"
-        },
-        {
-          "id": "psi-abs-069",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-069.svg"
-        },
-        {
-          "id": "psi-abs-070",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-070.svg"
-        },
-        {
-          "id": "psi-abs-071",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-071.svg"
-        },
-        {
-          "id": "psi-abs-072",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-072.svg"
-        },
-        {
-          "id": "psi-abs-073",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-073.svg"
-        },
-        {
-          "id": "psi-abs-074",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-074.svg"
-        },
-        {
-          "id": "psi-abs-075",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-075.svg"
-        },
-        {
-          "id": "psi-abs-076",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-076.svg"
-        },
-        {
-          "id": "psi-abs-077",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-077.svg"
-        },
-        {
-          "id": "psi-abs-078",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-078.svg"
-        },
-        {
-          "id": "psi-abs-079",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-079.svg"
-        },
-        {
-          "id": "psi-abs-080",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-080.svg"
-        },
-        {
-          "id": "psi-abs-081",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-081.svg"
-        },
-        {
-          "id": "psi-abs-082",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-082.svg"
-        },
-        {
-          "id": "psi-abs-083",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-083.svg"
-        },
-        {
-          "id": "psi-abs-084",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-084.svg"
-        },
-        {
-          "id": "psi-abs-085",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-085.svg"
-        },
-        {
-          "id": "psi-abs-086",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-086.svg"
-        },
-        {
-          "id": "psi-abs-087",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-087.svg"
-        },
-        {
-          "id": "psi-abs-088",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-088.svg"
-        },
-        {
-          "id": "psi-abs-089",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-089.svg"
-        },
-        {
-          "id": "psi-abs-090",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-090.svg"
-        },
-        {
-          "id": "psi-abs-091",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-091.svg"
-        },
-        {
-          "id": "psi-abs-092",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-092.svg"
-        },
-        {
-          "id": "psi-abs-093",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-093.svg"
-        },
-        {
-          "id": "psi-abs-094",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-094.svg"
-        },
-        {
-          "id": "psi-abs-095",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-095.svg"
-        },
-        {
-          "id": "psi-abs-096",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-096.svg"
-        },
-        {
-          "id": "psi-abs-097",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-097.svg"
-        },
-        {
-          "id": "psi-abs-098",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-098.svg"
-        },
-        {
-          "id": "psi-abs-099",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-099.svg"
-        },
-        {
-          "id": "psi-abs-100",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-100.svg"
-        },
-        {
-          "id": "psi-abs-101",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-101.svg"
-        },
-        {
-          "id": "psi-abs-102",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-102.svg"
-        },
-        {
-          "id": "psi-abs-103",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-103.svg"
-        },
-        {
-          "id": "psi-abs-104",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-104.svg"
-        },
-        {
-          "id": "psi-abs-105",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-105.svg"
-        },
-        {
-          "id": "psi-abs-106",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-106.svg"
-        },
-        {
-          "id": "psi-abs-107",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-107.svg"
-        },
-        {
-          "id": "psi-abs-108",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-108.svg"
-        },
-        {
-          "id": "psi-abs-109",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-109.svg"
-        },
-        {
-          "id": "psi-abs-110",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-110.svg"
-        },
-        {
-          "id": "psi-abs-111",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-111.svg"
-        },
-        {
-          "id": "psi-abs-112",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-112.svg"
-        },
-        {
-          "id": "psi-abs-113",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-113.svg"
-        },
-        {
-          "id": "psi-abs-114",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-114.svg"
-        },
-        {
-          "id": "psi-abs-115",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-115.svg"
-        },
-        {
-          "id": "psi-abs-116",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-116.svg"
-        },
-        {
-          "id": "psi-abs-117",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-117.svg"
-        },
-        {
-          "id": "psi-abs-118",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-118.svg"
-        },
-        {
-          "id": "psi-abs-119",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-119.svg"
-        },
-        {
-          "id": "psi-abs-120",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
-          "options": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
-          "tags": [
-            "psicotecnico",
-            "abstracto",
-            "serie-visual"
-          ],
-          "image": "/img/psychotecnicos/abstracto-120.svg"
         }
       ],
-      "razonamientoVerbal": [],
-      "atencionPercepcion": []
+      "razonamientoEspacial": [
+        {
+          "id": "psi-esp-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Cuántas caras tiene un cubo?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un cubo tiene 6 caras cuadradas.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cubo"
+          ]
+        },
+        {
+          "id": "psi-esp-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Si despliegas el desarrollo plano de un cubo, ¿cuántos cuadrados obtienes?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "El desarrollo de un cubo consta de 6 cuadrados.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "desarrollo-cubo"
+          ]
+        },
+        {
+          "id": "psi-esp-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Una pieza cúbica tiene pintadas las caras superior e inferior de rojo. Si se corta en 27 cubos iguales (3×3×3), ¿cuántos cubos tendrán exactamente 2 caras rojas?",
+          "options": [
+            "0",
+            "4",
+            "8",
+            "12"
+          ],
+          "correctIndex": 0,
+          "explanation": "Solo las caras superior e inferior están pintadas de rojo. Ningún cubito pequeño puede tener 2 caras rojas, pues las caras rojas están en planos opuestos y ningún cubito toca ambas.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cubos-pintados"
+          ]
+        },
+        {
+          "id": "psi-esp-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "¿Cuántos cubos unitarios ven exactamente 3 caras externas en un cubo 3×3×3?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Los cubos que ven 3 caras son los de las esquinas. Un cubo 3×3×3 tiene 8 esquinas.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cubos-esquinas"
+          ]
+        },
+        {
+          "id": "psi-esp-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Una figura en 3D tiene 8 vértices, 12 aristas y 6 caras. ¿Qué figura es?",
+          "options": [
+            "Tetraedro",
+            "Pirámide cuadrangular",
+            "Cubo",
+            "Prisma triangular"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un cubo: 8 vértices, 12 aristas, 6 caras. Cumple la fórmula de Euler: V-A+C=2 → 8-12+6=2.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "euler"
+          ]
+        },
+        {
+          "id": "psi-esp-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Si giras un cuadrado 90° cuatro veces, ¿cuántas veces has recorrido una vuelta completa?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "4 rotaciones de 90° = 4 × 90° = 360° = 1 vuelta completa.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "rotaciones"
+          ]
+        },
+        {
+          "id": "psi-esp-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "¿Cuántos triángulos equiláteros se necesitan para construir un octaedro regular?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un octaedro regular tiene 8 caras triangulares equiláteras.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "octaedro"
+          ]
+        },
+        {
+          "id": "psi-esp-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Un objeto cúbico se ve desde arriba como un cuadrado y desde un lateral como un rectángulo. ¿Cómo se ve desde el frente?",
+          "options": [
+            "Triángulo",
+            "Círculo",
+            "Rectángulo",
+            "Trapecio"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un cubo o paralelepípedo visto desde el frente muestra un rectángulo (o cuadrado si es un cubo perfecto).",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "vistas"
+          ]
+        },
+        {
+          "id": "psi-esp-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Si doblas una hoja de papel por la mitad y haces un corte triangular en el centro, ¿qué figura obtienes al desdoblarla?",
+          "options": [
+            "Un triángulo",
+            "Un rombo",
+            "Dos triángulos",
+            "Un cuadrado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Al doblar y cortar un triángulo, la simetría produce un rombo (dos triángulos iguales espejados).",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "papiroflexia"
+          ]
+        },
+        {
+          "id": "psi-esp-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Cuántos ejes de simetría tiene un cuadrado?",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un cuadrado tiene 4 ejes de simetría: 2 que unen lados opuestos y 2 diagonales.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "simetria"
+          ]
+        },
+        {
+          "id": "psi-esp-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Una barra metálica tiene sección circular y se dobla 90°. Vistas desde arriba, ¿qué forma tiene?",
+          "options": [
+            "Línea recta",
+            "Dos segmentos en L",
+            "Un arco de círculo",
+            "Una espiral"
+          ],
+          "correctIndex": 1,
+          "explanation": "Al doblar una barra recta 90°, la vista desde arriba muestra dos segmentos rectos formando una L.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "vistas-ortogonales"
+          ]
+        },
+        {
+          "id": "psi-esp-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "¿Cuántas aristas tiene una pirámide de base cuadrada?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pirámide de base cuadrada: 4 aristas de la base + 4 aristas laterales = 8 aristas.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "piramide"
+          ]
+        },
+        {
+          "id": "psi-esp-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Un cilindro tiene 10 cm de altura y 6 cm de diámetro. ¿Cuántas caras tiene?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un cilindro tiene 3 caras: 2 bases circulares planas y 1 cara lateral curva.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cilindro"
+          ]
+        },
+        {
+          "id": "psi-esp-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Si observas un tornillo hexagonal de frente, ¿qué figura describe su cabeza?",
+          "options": [
+            "Cuadrado",
+            "Pentágono",
+            "Hexágono",
+            "Octágono"
+          ],
+          "correctIndex": 2,
+          "explanation": "La cabeza de un tornillo estándar (tipo hex bolt) es hexagonal.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "herramientas"
+          ]
+        },
+        {
+          "id": "psi-esp-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Una pieza tiene perfil en T vista de frente, perfil rectangular de lado y perfil rectangular desde arriba. ¿Qué pieza describe mejor esta descripción?",
+          "options": [
+            "Un cubo",
+            "Una barra en T",
+            "Un cilindro",
+            "Un prisma hexagonal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Las tres vistas (T de frente, rectángulo de lado y desde arriba) corresponden a una barra de perfil T.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "vistas-tres-planos"
+          ]
+        },
+        {
+          "id": "psi-esp-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "¿Cuántos planos de simetría tiene una esfera?",
+          "options": [
+            "1",
+            "4",
+            "8",
+            "Infinitos"
+          ],
+          "correctIndex": 3,
+          "explanation": "Una esfera tiene infinitos planos de simetría, ya que cualquier plano que pase por su centro divide la esfera en dos mitades iguales.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "simetria-esfera"
+          ]
+        },
+        {
+          "id": "psi-esp-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Un cubo de 3×3×3 se pinta completamente por fuera y luego se corta en 27 cubos iguales. ¿Cuántos cubos tendrán exactamente 1 cara pintada?",
+          "options": [
+            "6",
+            "12",
+            "24",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "Los cubos con 1 cara pintada son los del centro de cada cara: 1 por cara × 6 caras = 6 cubos.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cubos-pintados"
+          ]
+        },
+        {
+          "id": "psi-esp-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "¿Qué tipo de proyección se usa en los planos técnicos industriales europeos?",
+          "options": [
+            "Perspectiva isométrica",
+            "Diedro del primer cuadrante (proyección europea)",
+            "Proyección ortogonal americana",
+            "Perspectiva caballera"
+          ],
+          "correctIndex": 1,
+          "explanation": "En Europa se utiliza el sistema diedro del primer cuadrante (ISO), donde el plano de proyección está entre el observador y el objeto.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "planos-tecnicos"
+          ]
+        },
+        {
+          "id": "psi-esp-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "¿Cuántos vértices tiene un prisma triangular?",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "9"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un prisma triangular tiene 2 bases triangulares con 3 vértices cada una = 6 vértices en total.",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "prisma-triangular"
+          ]
+        },
+        {
+          "id": "psi-esp-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Si una lámina metálica rectangular (20×10 cm) se enrolla para formar un cilindro, ¿cuál sería la longitud aproximada de la circunferencia de la base?",
+          "options": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "40 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Al enrollar el lado de 20 cm, la circunferencia del cilindro es 20 cm (el lado largo se convierte en el perímetro).",
+          "tags": [
+            "psicotecnico",
+            "espacial",
+            "cilindro-lamina"
+          ]
+        }
+      ],
+      "instruccionesComplejas": [
+        {
+          "id": "psi-ins-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla: si el interruptor A está ON, la bombilla X se enciende. Si X está encendida, la alarma Y suena. A está ON. ¿Qué ocurre?",
+          "options": [
+            "X apagada, Y en silencio",
+            "X encendida, Y en silencio",
+            "X encendida, Y suena",
+            "X apagada, Y suena"
+          ],
+          "correctIndex": 2,
+          "explanation": "A=ON → X encendida → Y suena. Resultado: X encendida y Y sonando.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "logica"
+          ]
+        },
+        {
+          "id": "psi-ins-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla: el semáforo muestra VERDE si la vía está libre Y el tren se ha detenido. La vía está ocupada. ¿Color del semáforo?",
+          "options": [
+            "Verde",
+            "Amarillo",
+            "Rojo",
+            "Apagado"
+          ],
+          "correctIndex": 2,
+          "explanation": "Para VERDE se necesitan ambas condiciones: vía libre Y tren detenido. Al estar la vía ocupada, se muestra ROJO.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo"
+          ]
+        },
+        {
+          "id": "psi-ins-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Reglas: A→B, B→C, ¬C→D. Si A es verdadero, ¿cuál es el estado de D?",
+          "options": [
+            "Verdadero",
+            "Falso",
+            "Indeterminado",
+            "C y D ambos verdaderos"
+          ],
+          "correctIndex": 1,
+          "explanation": "A=V → B=V → C=V. Como C es verdadero, ¬C es falso, así que D=Falso.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "logica"
+          ]
+        },
+        {
+          "id": "psi-ins-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Instrucción: la palanca P sube si se activan los botones 1 Y 2 simultáneamente. El botón 1 está pulsado, el 2 no. ¿Qué ocurre con P?",
+          "options": [
+            "P sube",
+            "P baja",
+            "P no se mueve",
+            "P oscila"
+          ],
+          "correctIndex": 2,
+          "explanation": "Se necesitan 1 Y 2 activos al mismo tiempo. Si el 2 no está activo, P no se mueve.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "condicion-and"
+          ]
+        },
+        {
+          "id": "psi-ins-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla: la válvula V se abre si la presión supera 5 bar O si la temperatura supera 80°C. Presión=4 bar, Temperatura=90°C. ¿Estado de V?",
+          "options": [
+            "V cerrada",
+            "V abierta",
+            "V bloqueada",
+            "V en posición media"
+          ],
+          "correctIndex": 1,
+          "explanation": "Condición OR: basta una condición. Temperatura=90°C > 80°C, así que V se abre.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "condicion-or"
+          ]
+        },
+        {
+          "id": "psi-ins-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Secuencia de comandos: [L] apaga luces, [F] frena, [A] abre puertas. Código: F-L-A. ¿Cuál es el orden correcto de acciones?",
+          "options": [
+            "Abre puertas, apaga luces, frena",
+            "Frena, apaga luces, abre puertas",
+            "Apaga luces, frena, abre puertas",
+            "Frena, abre puertas, apaga luces"
+          ],
+          "correctIndex": 1,
+          "explanation": "El código F-L-A indica la secuencia: F=Frena → L=Apaga luces → A=Abre puertas.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "secuencia"
+          ]
+        },
+        {
+          "id": "psi-ins-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla: si sensor S1=1 Y sensor S2=0, activar relé R. S1=1, S2=0. ¿Se activa R?",
+          "options": [
+            "Sí",
+            "No",
+            "Solo S1",
+            "Solo S2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ambas condiciones se cumplen: S1=1 (V) y S2=0 (la condición pide que S2=0, que es V). Se activa R.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "relay"
+          ]
+        },
+        {
+          "id": "psi-ins-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Instrucciones: X se activa si A=1 y B=0. Y se activa si X=1 o C=1. A=1, B=0, C=0. ¿Estado de Y?",
+          "options": [
+            "Y=0",
+            "Y=1",
+            "X=0, Y=0",
+            "Indeterminado"
+          ],
+          "correctIndex": 1,
+          "explanation": "A=1 y B=0 → X=1. Como X=1, la condición OR de Y se cumple → Y=1.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "logica-encadenada"
+          ]
+        },
+        {
+          "id": "psi-ins-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla de prioridad: si hay avería crítica, actuar PRIMERO en seguridad, luego en comunicaciones, luego en reparación. ¿Cuál es el segundo paso?",
+          "options": [
+            "Seguridad",
+            "Comunicaciones",
+            "Reparación",
+            "Evaluación"
+          ],
+          "correctIndex": 1,
+          "explanation": "El orden de prioridad es: 1º Seguridad, 2º Comunicaciones, 3º Reparación.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "prioridad"
+          ]
+        },
+        {
+          "id": "psi-ins-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Código de letras: A=1, B=2, C=3. Instrucción: suma los valores del código 'BAC'. ¿Resultado?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "B=2, A=1, C=3 → 2+1+3=6.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "codigo"
+          ]
+        },
+        {
+          "id": "psi-ins-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla de semáforo: VERDE si libre, AMARILLO si precaución requerida, ROJO si peligro. Hay una fuga de gas. ¿Cuál es la señal correcta?",
+          "options": [
+            "Verde",
+            "Amarillo",
+            "Rojo",
+            "Apagado"
+          ],
+          "correctIndex": 2,
+          "explanation": "Una fuga de gas es una situación de peligro que requiere señal ROJA.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo",
+            "seguridad"
+          ]
+        },
+        {
+          "id": "psi-ins-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Secuencia: si el contador C es par, sumar 10; si es impar, restar 5. C empieza en 4. ¿Valor de C tras dos pasos?",
+          "options": [
+            "14",
+            "9",
+            "19",
+            "24"
+          ],
+          "correctIndex": 3,
+          "explanation": "Paso 1: C=4 (par) → C=4+10=14. Paso 2: C=14 (par) → C=14+10=24. Resultado: 24.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "contador"
+          ]
+        },
+        {
+          "id": "psi-ins-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Instrucción: mover objeto a almacén A si pesa < 10 kg, a almacén B si pesa ≥ 10 kg y < 50 kg, a almacén C si pesa ≥ 50 kg. Peso=35 kg. ¿Destino?",
+          "options": [
+            "Almacén A",
+            "Almacén B",
+            "Almacén C",
+            "Sin destino"
+          ],
+          "correctIndex": 1,
+          "explanation": "35 kg ≥ 10 y < 50 → almacén B.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "clasificacion"
+          ]
+        },
+        {
+          "id": "psi-ins-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla: activar alarma si temperatura > 100°C O si la presión > 8 bar. Si temperatura=95°C y presión=9 bar, ¿se activa la alarma?",
+          "options": [
+            "Sí, por temperatura",
+            "Sí, por presión",
+            "No",
+            "Sí, por ambas"
+          ],
+          "correctIndex": 1,
+          "explanation": "Temperatura=95°C (no supera 100), pero presión=9 bar > 8 bar → alarma activada por presión.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "condicion-or"
+          ]
+        },
+        {
+          "id": "psi-ins-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Código posicional: en la cadena 'MRTX', la posición 1 es M, 2 es R, 3 es T, 4 es X. ¿Qué letra está en la posición 3?",
+          "options": [
+            "M",
+            "R",
+            "T",
+            "X"
+          ],
+          "correctIndex": 2,
+          "explanation": "Posición 3 → T.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "posicion"
+          ]
+        },
+        {
+          "id": "psi-ins-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Interruptores: los interruptores 1 y 3 están en ON; el 2 está en OFF. Regla: la luz se enciende si los tres interruptores están en ON. ¿Está encendida la luz?",
+          "options": [
+            "Sí",
+            "No",
+            "Solo parcialmente",
+            "Parpadea"
+          ],
+          "correctIndex": 1,
+          "explanation": "Se requieren los tres en ON. El interruptor 2 está en OFF, así que la luz NO se enciende.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Instrucción encadenada: si A→B y B→C y C→¬A, ¿puede A ser verdadero indefinidamente?",
+          "options": [
+            "Sí, siempre",
+            "No, A se vuelve falso",
+            "Solo al inicio",
+            "Depende de B"
+          ],
+          "correctIndex": 1,
+          "explanation": "A→B→C→¬A: si A=V, se genera C=V que hace A=F. Por tanto, A no puede mantenerse verdadero.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "logica-recursiva"
+          ]
+        },
+        {
+          "id": "psi-ins-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Regla de acceso: se permite la entrada si el código es correcto Y el turno es de día Y la zona no está restringida. Código correcto, turno de noche, zona libre. ¿Se permite la entrada?",
+          "options": [
+            "Sí",
+            "No",
+            "Solo con supervisor",
+            "Solo en emergencias"
+          ],
+          "correctIndex": 1,
+          "explanation": "La condición AND requiere los tres factores. El turno es de noche, no de día → acceso denegado.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "acceso"
+          ]
+        },
+        {
+          "id": "psi-ins-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Secuencia de estados: PARADO → ARRANQUE → MARCHA → PARADA. Si estás en MARCHA y aplicas PARADA, ¿cuál es el estado siguiente?",
+          "options": [
+            "ARRANQUE",
+            "MARCHA",
+            "PARADO",
+            "PARADA"
+          ],
+          "correctIndex": 2,
+          "explanation": "MARCHA + acción PARADA → estado PARADO.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "estado"
+          ]
+        },
+        {
+          "id": "psi-ins-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Tabla de verdad: X=A AND (B OR C). A=1, B=0, C=1. ¿Valor de X?",
+          "options": [
+            "0",
+            "1",
+            "Indefinido",
+            "Depende de A"
+          ],
+          "correctIndex": 1,
+          "explanation": "B OR C = 0 OR 1 = 1. A AND 1 = 1 AND 1 = 1. X=1.",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "tabla-verdad"
+          ]
+        }
+      ],
+      "seriesNumerosLetras": [
+        {
+          "id": "psi-ser-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie numérica: 2, 4, 6, 8, … ¿Qué número sigue?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie aritmética de diferencia +2. Tras 8 sigue 10.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "aritmetica"
+          ]
+        },
+        {
+          "id": "psi-ser-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie numérica: 1, 3, 9, 27, … ¿Qué número sigue?",
+          "options": [
+            "36",
+            "54",
+            "81",
+            "108"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie geométrica de razón ×3. 27 × 3 = 81.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "geometrica"
+          ]
+        },
+        {
+          "id": "psi-ser-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 1, 2, 3, 5, 8, … ¿Qué número sigue?",
+          "options": [
+            "10",
+            "11",
+            "13",
+            "16"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie de Fibonacci: cada término es la suma de los dos anteriores. 5+8=13.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "fibonacci"
+          ]
+        },
+        {
+          "id": "psi-ser-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 100, 90, 81, 73, … ¿Qué número sigue?",
+          "options": [
+            "64",
+            "66",
+            "68",
+            "70"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: -10, -9, -8, -7 → siguiente diferencia es -7, pero el patrón es decreciente: -7 da 66.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "decreciente"
+          ]
+        },
+        {
+          "id": "psi-ser-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, C, E, G, … ¿Qué letra sigue?",
+          "options": [
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras alternas (salto de +2). Tras G sigue I.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: Z, X, V, T, … ¿Qué letra sigue?",
+          "options": [
+            "P",
+            "R",
+            "S",
+            "Q"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras alternas descendentes (salto de -2). Tras T sigue R.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie mixta: A1, B2, C3, D4, … ¿Qué elemento sigue?",
+          "options": [
+            "E4",
+            "E5",
+            "F5",
+            "D5"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letra avanza +1 y número avanza +1 simultáneamente. Sigue E5.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta"
+          ]
+        },
+        {
+          "id": "psi-ser-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie numérica: 2, 3, 5, 7, 11, 13, … ¿Qué número sigue?",
+          "options": [
+            "14",
+            "15",
+            "17",
+            "19"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie de números primos. El siguiente primo tras 13 es 17.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "primos"
+          ]
+        },
+        {
+          "id": "psi-ser-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 3, 6, 12, 24, … ¿Qué número sigue?",
+          "options": [
+            "36",
+            "42",
+            "48",
+            "60"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie geométrica de razón ×2. 24 × 2 = 48.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "geometrica"
+          ]
+        },
+        {
+          "id": "psi-ser-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie numérica: 1, 4, 9, 16, 25, … ¿Qué número sigue?",
+          "options": [
+            "30",
+            "32",
+            "36",
+            "42"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie de cuadrados perfectos: 1², 2², 3², 4², 5², 6²=36.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "cuadrados"
+          ]
+        },
+        {
+          "id": "psi-ser-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 50, 45, 41, 38, 36, … ¿Qué número sigue?",
+          "options": [
+            "33",
+            "34",
+            "35",
+            "37"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diferencias: -5, -4, -3, -2, -1 → siguiente diferencia es -1, así: 36-1=35.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "progresiva"
+          ]
+        },
+        {
+          "id": "psi-ser-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: B, D, F, H, … ¿Qué letra sigue?",
+          "options": [
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras pares del abecedario, salto +2. Tras H sigue J.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 7, 14, 21, 28, … ¿Qué número sigue?",
+          "options": [
+            "32",
+            "35",
+            "36",
+            "42"
+          ],
+          "correctIndex": 1,
+          "explanation": "Múltiplos de 7. El siguiente es 7 × 5 = 35.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "multiplos"
+          ]
+        },
+        {
+          "id": "psi-ser-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie mixta: A2, C4, E8, G16, … ¿Qué elemento sigue?",
+          "options": [
+            "H18",
+            "H32",
+            "I32",
+            "I18"
+          ],
+          "correctIndex": 2,
+          "explanation": "La letra salta +2 (A,C,E,G,I) y el número se duplica (2,4,8,16,32). Sigue I32.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "doble"
+          ]
+        },
+        {
+          "id": "psi-ser-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 2, 4, 7, 11, … ¿Qué número sigue?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diferencias crecientes: +1, +2, +3, +4, +5 → 11+5=16.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "diferencias"
+          ]
+        },
+        {
+          "id": "psi-ser-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie numérica: 100, 50, 25, 12.5, … ¿Qué número sigue?",
+          "options": [
+            "5",
+            "6.25",
+            "7.5",
+            "10"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie geométrica de razón ÷2. 12.5 ÷ 2 = 6.25.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "geometrica",
+            "division"
+          ]
+        },
+        {
+          "id": "psi-ser-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, Z, B, Y, C, X, … ¿Qué letra sigue?",
+          "options": [
+            "D",
+            "W",
+            "V",
+            "E"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna letras desde el inicio y el final del abecedario. Tras C (3ª) y X (6ª desde el fin) sigue D.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras",
+            "alternada"
+          ]
+        },
+        {
+          "id": "psi-ser-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, … ¿Qué número sigue?",
+          "options": [
+            "29",
+            "32",
+            "34",
+            "39"
+          ],
+          "correctIndex": 2,
+          "explanation": "Serie de Fibonacci. 13+21=34.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "fibonacci"
+          ]
+        },
+        {
+          "id": "psi-ser-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 6, 18, 54, … ¿Qué número sigue?",
+          "options": [
+            "108",
+            "162",
+            "216",
+            "270"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie geométrica de razón ×3. 54 × 3 = 162.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "geometrica"
+          ]
+        },
+        {
+          "id": "psi-ser-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie mixta: 1A, 4D, 9G, 16J, … ¿Qué elemento sigue?",
+          "options": [
+            "20L",
+            "25L",
+            "25M",
+            "20M"
+          ],
+          "correctIndex": 2,
+          "explanation": "Números cuadrados (1,4,9,16,25) y letras +3 posiciones (A,D,G,J,M). Sigue 25M.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "cuadrados"
+          ]
+        }
+      ],
+      "comprensionLectora": [
+        {
+          "id": "psi-com-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El mantenimiento preventivo consiste en revisiones programadas que buscan evitar averías antes de que se produzcan. A diferencia del mantenimiento correctivo, que actúa tras el fallo, el preventivo reduce el tiempo de parada y los costes de reparación.»</em>Según el texto, ¿cuál es la principal ventaja del mantenimiento preventivo?",
+          "options": [
+            "Actúa después del fallo",
+            "Reduce paradas y costes",
+            "Es más barato que el correctivo siempre",
+            "No requiere planificación"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto menciona explícitamente que el mantenimiento preventivo reduce el tiempo de parada y los costes.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "mantenimiento"
+          ]
+        },
+        {
+          "id": "psi-com-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La tensión eléctrica, medida en voltios, es la diferencia de potencial entre dos puntos de un circuito. Cuanto mayor sea la tensión, mayor será la energía disponible para mover los electrones a través del conductor.»</em>¿En qué unidad se mide la tensión eléctrica?",
+          "options": [
+            "Amperios",
+            "Ohmios",
+            "Vatios",
+            "Voltios"
+          ],
+          "correctIndex": 3,
+          "explanation": "El texto indica explícitamente que la tensión se mide en voltios.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-com-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Las vías ferroviarias se componen principalmente de dos carriles paralelos sobre los que ruedan los trenes. La distancia entre los carriles se denomina ancho de vía y en España es de 1668 mm para la red convencional, frente a los 1435 mm del estándar europeo.»</em>¿Cuál es el ancho de vía convencional en España?",
+          "options": [
+            "1435 mm",
+            "1520 mm",
+            "1668 mm",
+            "1500 mm"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que el ancho de vía en la red convencional española es de 1668 mm.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "ferroviario",
+            "via"
+          ]
+        },
+        {
+          "id": "psi-com-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El procedimiento LOTO (Lockout-Tagout) obliga al trabajador a bloquear y etiquetar los puntos de energía de un equipo antes de intervenir en él. Su objetivo es evitar el rearme accidental durante las tareas de mantenimiento.»</em>¿Cuál es el objetivo del procedimiento LOTO?",
+          "options": [
+            "Aumentar la producción",
+            "Etiquetar materiales nuevos",
+            "Evitar el rearme accidental durante mantenimiento",
+            "Registrar fallos del sistema"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice explícitamente que LOTO busca evitar el rearme accidental durante las tareas de mantenimiento.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "loto",
+            "seguridad"
+          ]
+        },
+        {
+          "id": "psi-com-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los engranajes son ruedas dentadas que transmiten movimiento rotacional entre ejes. Si el engranaje motriz tiene más dientes que el conducido, la velocidad del conducido aumenta mientras su par disminuye.»</em>Si el engranaje motriz tiene 40 dientes y el conducido tiene 20, ¿qué ocurre con la velocidad del conducido respecto al motriz?",
+          "options": [
+            "Se reduce a la mitad",
+            "Se mantiene igual",
+            "Se duplica",
+            "Se triplica"
+          ],
+          "correctIndex": 2,
+          "explanation": "Más dientes en el motriz que en el conducido → la velocidad del conducido aumenta (en este caso se duplica: razón 40/20=2).",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "engranajes",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-com-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La tracción eléctrica de los trenes de Renfe utiliza catenaria aérea que suministra corriente a 3000 V en corriente continua para la red convencional y a 25 000 V en corriente alterna para la línea de alta velocidad.»</em>¿Qué tensión reciben los trenes de alta velocidad de la catenaria?",
+          "options": [
+            "3000 V en CC",
+            "25 000 V en CA",
+            "1500 V en CC",
+            "15 000 V en CA"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica 25 000 V en corriente alterna para la alta velocidad.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "traccion",
+            "renfe"
+          ]
+        },
+        {
+          "id": "psi-com-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La inspección visual de una soldadura incluye la verificación de la geometría del cordón, la detección de fisuras superficiales, porosidades y morfología general. Es el primer nivel de control y no sustituye a los ensayos no destructivos como el ultrasonido o las radiografías.»</em>Según el texto, ¿qué NO puede sustituir la inspección visual?",
+          "options": [
+            "La geometría del cordón",
+            "Los ensayos no destructivos",
+            "La detección de porosidades",
+            "La morfología general"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto afirma expresamente que la inspección visual no sustituye a los ensayos no destructivos.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "soldadura",
+            "inspeccion"
+          ]
+        },
+        {
+          "id": "psi-com-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El plan de mantenimiento de una instalación ferroviaria detalla las intervenciones periódicas necesarias para garantizar la seguridad y la disponibilidad. Incluye tareas de engrase, sustitución de piezas desgastadas, revisión de tornillería y comprobación eléctrica.»</em>¿Cuál de las siguientes tareas NO se menciona en el texto?",
+          "options": [
+            "Engrase",
+            "Sustitución de piezas",
+            "Comprobación eléctrica",
+            "Pintura de señales"
+          ],
+          "correctIndex": 3,
+          "explanation": "El texto no menciona la pintura de señales entre las tareas del plan de mantenimiento.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "plan-mantenimiento"
+          ]
+        },
+        {
+          "id": "psi-com-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La normativa sobre riesgos laborales exige que cada puesto de trabajo cuente con una evaluación de riesgos actualizada. Si surgen nuevos riesgos o cambian las condiciones, la evaluación debe revisarse de inmediato.»</em>¿Cuándo debe revisarse la evaluación de riesgos según el texto?",
+          "options": [
+            "Cada cinco años obligatoriamente",
+            "Solo tras un accidente",
+            "Si surgen nuevos riesgos o cambian las condiciones",
+            "Una vez al final del contrato"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que la evaluación debe revisarse de inmediato si surgen nuevos riesgos o cambian las condiciones.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "riesgos-laborales"
+          ]
+        },
+        {
+          "id": "psi-com-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La dilatación térmica es el fenómeno por el que los materiales aumentan su longitud, área o volumen al calentarse. En las vías ferroviarias se dejan juntas de dilatación entre tramos de carril para absorber este efecto y evitar deformaciones.»</em>¿Para qué sirven las juntas de dilatación en las vías ferroviarias?",
+          "options": [
+            "Para unir dos carriles permanentemente",
+            "Para medir la temperatura del carril",
+            "Para absorber la dilatación y evitar deformaciones",
+            "Para facilitar el cambio de agujas"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que las juntas de dilatación sirven para absorber el efecto de la dilatación térmica y evitar deformaciones.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "dilatacion",
+            "via"
+          ]
+        },
+        {
+          "id": "psi-com-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La señal de socorro internacional es SOS, que en código Morse se representa como tres puntos, tres rayas y tres puntos: ···−−−···. No tiene ningún significado literal en español ni en inglés.»</em>¿Qué afirma el texto sobre las siglas SOS?",
+          "options": [
+            "Significan 'Save Our Ship' en inglés",
+            "Son un acrónimo ferroviario",
+            "No tienen significado literal en ningún idioma",
+            "Son un código de seguridad español"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto afirma expresamente que SOS no tiene significado literal en español ni en inglés.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "comunicacion"
+          ]
+        },
+        {
+          "id": "psi-com-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Una palanca de primer grado tiene el fulcro entre la fuerza aplicada y la carga. Con un brazo de fuerza más largo que el brazo de carga, se obtiene ventaja mecánica, es decir, se levanta más peso con menos esfuerzo.»</em>¿Cuándo se obtiene ventaja mecánica con una palanca de primer grado?",
+          "options": [
+            "Cuando la carga es mayor que la fuerza",
+            "Cuando el brazo de fuerza es más largo que el de carga",
+            "Cuando el fulcro está en el extremo",
+            "Cuando la carga y la fuerza son iguales"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que la ventaja mecánica se logra cuando el brazo de fuerza es más largo que el brazo de carga.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "palanca",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-com-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El bogie es el conjunto de dos ejes montados en un bastidor articulado que soporta el vehículo ferroviario. Permite mayor estabilidad en curvas y reduce la transmisión de vibraciones al habitáculo, mejorando la comodidad del pasajero.»</em>¿Cuántos ejes componen un bogie según el texto?",
+          "options": [
+            "Uno",
+            "Dos",
+            "Tres",
+            "Cuatro"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto define el bogie como el conjunto de dos ejes montados en un bastidor articulado.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "bogie",
+            "ferroviario"
+          ]
+        },
+        {
+          "id": "psi-com-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El par motor es el momento de fuerza que produce una rotación. Se calcula multiplicando la fuerza tangencial por el radio del eje. Un motor de alto par puede arrancar cargas pesadas aunque gire lentamente.»</em>¿Qué característica tiene un motor de alto par según el texto?",
+          "options": [
+            "Gira muy rápidamente",
+            "No puede arrancar cargas pesadas",
+            "Puede arrancar cargas pesadas aunque gire lento",
+            "Tiene bajo consumo energético"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que un motor de alto par puede arrancar cargas pesadas aunque gire lentamente.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "par-motor",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-com-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El extintor de CO₂ es adecuado para incendios eléctricos porque no conduce la electricidad y no deja residuos. No debe usarse en espacios cerrados sin ventilación ya que desplaza el oxígeno del aire.»</em>¿Por qué no se debe usar el extintor de CO₂ en espacios cerrados sin ventilación?",
+          "options": [
+            "Porque produce llamas",
+            "Porque deja residuos peligrosos",
+            "Porque desplaza el oxígeno del aire",
+            "Porque conduce la electricidad"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que en espacios cerrados el CO₂ desplaza el oxígeno del aire, lo cual es peligroso.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "extintor",
+            "seguridad"
+          ]
+        },
+        {
+          "id": "psi-com-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Las ruedas de los trenes tienen un perfil cónico en la zona de rodadura. Esta conicidad permite que el tren se autocentre en la vía: si se desplaza lateralmente, la rueda con mayor radio ejerce mayor tracción y corrige la trayectoria.»</em>¿Cuál es la función de la conicidad en las ruedas de un tren?",
+          "options": [
+            "Aumentar la velocidad",
+            "Reducir el peso del eje",
+            "Autocentrar el tren en la vía",
+            "Mejorar el frenado"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto explica que la conicidad permite el autocentrado del tren en la vía.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "ruedas",
+            "ferroviario"
+          ]
+        },
+        {
+          "id": "psi-com-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El transformador eléctrico transfiere energía entre dos circuitos mediante inducción electromagnética sin contacto galvánico. La relación de transformación determina si aumenta o disminuye la tensión: si el secundario tiene más espiras, la tensión aumenta.»</em>¿Qué ocurre si el devanado secundario de un transformador tiene más espiras que el primario?",
+          "options": [
+            "La tensión disminuye",
+            "La corriente aumenta mucho",
+            "La tensión aumenta",
+            "No hay transferencia de energía"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que si el secundario tiene más espiras, la tensión aumenta (transformador elevador).",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "transformador",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-com-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«En la gestión de residuos industriales, los residuos peligrosos deben almacenarse en recipientes homologados, etiquetados y separados de los no peligrosos. Su recogida debe realizarla un gestor autorizado.»</em>¿Quién debe recoger los residuos peligrosos?",
+          "options": [
+            "Cualquier empresa de transporte",
+            "El propio trabajador",
+            "Un gestor autorizado",
+            "El departamento de compras"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que la recogida de residuos peligrosos debe realizarla un gestor autorizado.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "residuos",
+            "medioambiente"
+          ]
+        },
+        {
+          "id": "psi-com-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La soldadura MIG/MAG utiliza un electrodo consumible en forma de hilo que se funde con el arco eléctrico. En MIG se usa un gas inerte (argón) y en MAG un gas activo (CO₂ o mezcla). La diferencia principal radica en el tipo de gas protector.»</em>¿Qué distingue la soldadura MIG de la MAG?",
+          "options": [
+            "La temperatura del arco",
+            "El tipo de hilo electrodo",
+            "El tipo de gas protector",
+            "La velocidad de avance"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que la diferencia principal entre MIG y MAG radica en el tipo de gas protector.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "soldadura",
+            "mig-mag"
+          ]
+        },
+        {
+          "id": "psi-com-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La fatiga de materiales se produce por la aplicación repetida de cargas cíclicas por debajo del límite elástico. Las grietas se inician en discontinuidades superficiales y progresan con cada ciclo hasta la rotura final. La inspección periódica permite detectarlas antes de que sean críticas.»</em>¿Dónde se inician las grietas de fatiga?",
+          "options": [
+            "En el núcleo del material",
+            "En las zonas de soldadura únicamente",
+            "En discontinuidades superficiales",
+            "En los puntos de mayor temperatura"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que las grietas de fatiga se inician en discontinuidades superficiales.",
+          "tags": [
+            "psicotecnico",
+            "comprension",
+            "fatiga",
+            "materiales"
+          ]
+        }
+      ],
+      "vocabularioAnalogias": [
+        {
+          "id": "psi-voc-001",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Sinónimo de VELOZ:",
+          "options": [
+            "lento",
+            "rápido",
+            "pesado",
+            "oscuro"
+          ],
+          "correctIndex": 1,
+          "explanation": "Veloz y rápido son sinónimos: ambos significan que algo se mueve a gran velocidad.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo"
+          ]
+        },
+        {
+          "id": "psi-voc-002",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Antónimo de DILATARSE:",
+          "options": [
+            "expandirse",
+            "calentarse",
+            "contraerse",
+            "aumentar"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dilatarse (expandirse) ↔ contraerse son antónimos directos.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "antonimo"
+          ]
+        },
+        {
+          "id": "psi-voc-003",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analogía: LLAVE es a CERRADURA como INTERRUPTOR es a …",
+          "options": [
+            "cable",
+            "bombilla",
+            "enchufe",
+            "cortocircuito"
+          ],
+          "correctIndex": 1,
+          "explanation": "La llave activa/abre la cerradura; el interruptor activa/enciende la bombilla.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "ferroviario"
+          ]
+        },
+        {
+          "id": "psi-voc-004",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analogía: CARRIL es a VÍA como CARRETERA es a …",
+          "options": [
+            "señal",
+            "autopista",
+            "vehículo",
+            "asfalto"
+          ],
+          "correctIndex": 1,
+          "explanation": "El carril es la unidad dentro de la vía; la carretera es la unidad dentro de la autopista.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "ferroviario"
+          ]
+        },
+        {
+          "id": "psi-voc-005",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Sinónimo de AVERÍA:",
+          "options": [
+            "reparación",
+            "fallo",
+            "mejora",
+            "repuesto"
+          ],
+          "correctIndex": 1,
+          "explanation": "Avería y fallo son sinónimos: ambos designan el mal funcionamiento de algo.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo",
+            "tecnico"
+          ]
+        },
+        {
+          "id": "psi-voc-006",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analogía: TORNILLO es a TUERCA como PASADOR es a …",
+          "options": [
+            "palanca",
+            "agujero",
+            "muelle",
+            "arandela"
+          ],
+          "correctIndex": 3,
+          "explanation": "El tornillo encaja en la tuerca; el pasador encaja en la arandela.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-voc-007",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Antónimo de RESISTENCIA:",
+          "options": [
+            "esfuerzo",
+            "conductividad",
+            "fricción",
+            "tensión"
+          ],
+          "correctIndex": 1,
+          "explanation": "En electrotecnia, resistencia (dificulta el paso de corriente) ↔ conductividad (facilita el paso).",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "antonimo",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-voc-008",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Sinónimo de CONSIGNAR (en contexto de mantenimiento ferroviario):",
+          "options": [
+            "registrar",
+            "bloquear y señalizar",
+            "transportar",
+            "calcular"
+          ],
+          "correctIndex": 1,
+          "explanation": "Consignar un equipo en mantenimiento ferroviario significa bloquearlo y señalizarlo para impedir su uso accidental.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo",
+            "ferroviario"
+          ]
+        },
+        {
+          "id": "psi-voc-009",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analogía: TENSIÓN es a VOLTIO como INTENSIDAD es a …",
+          "options": [
+            "Hercio",
+            "Julio",
+            "Amperio",
+            "Vatio"
+          ],
+          "correctIndex": 2,
+          "explanation": "La tensión se mide en voltios; la intensidad de corriente se mide en amperios.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-voc-010",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Antónimo de PARALELO (circuito eléctrico):",
+          "options": [
+            "alterno",
+            "continuo",
+            "serie",
+            "bifásico"
+          ],
+          "correctIndex": 2,
+          "explanation": "Los circuitos pueden ser en paralelo o en serie: son configuraciones opuestas.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "antonimo",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-voc-011",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Sinónimo de TRACCIÓN:",
+          "options": [
+            "empuje",
+            "freno",
+            "tiro",
+            "vibración"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tracción y tiro son sinónimos: ambos designan la fuerza que arrastra o impulsa algo.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-voc-012",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analogía: LUBRICANTE es a FRICCIÓN como AISLANTE es a …",
+          "options": [
+            "corriente",
+            "calor",
+            "resistencia",
+            "cortocircuito"
+          ],
+          "correctIndex": 0,
+          "explanation": "El lubricante reduce la fricción; el aislante reduce el paso de la corriente eléctrica.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-voc-013",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Antónimo de DESGASTE:",
+          "options": [
+            "rotura",
+            "conservación",
+            "erosión",
+            "fallo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Desgaste (deterioro progresivo) ↔ conservación (mantenimiento del estado óptimo).",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "antonimo",
+            "mantenimiento"
+          ]
+        },
+        {
+          "id": "psi-voc-014",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analogía: FRECUENCIA es a HERCIO como POTENCIA es a …",
+          "options": [
+            "Amperio",
+            "Voltio",
+            "Julio",
+            "Vatio"
+          ],
+          "correctIndex": 3,
+          "explanation": "La frecuencia se mide en hercios; la potencia eléctrica se mide en vatios.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "electricidad"
+          ]
+        },
+        {
+          "id": "psi-voc-015",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Sinónimo de ENGRANAJE:",
+          "options": [
+            "resorte",
+            "piñón",
+            "palanca",
+            "émbolo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un engranaje y un piñón son ruedas dentadas que transmiten movimiento.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo",
+            "mecanica"
+          ]
+        },
+        {
+          "id": "psi-voc-016",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analogía: SOLDADURA es a UNIÓN como CORTE es a …",
+          "options": [
+            "llama",
+            "herramienta",
+            "separación",
+            "metal"
+          ],
+          "correctIndex": 2,
+          "explanation": "La soldadura produce una unión; el corte produce una separación.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "soldadura"
+          ]
+        },
+        {
+          "id": "psi-voc-017",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Antónimo de COMPRESIÓN:",
+          "options": [
+            "presión",
+            "tensión",
+            "tracción",
+            "expansión"
+          ],
+          "correctIndex": 3,
+          "explanation": "Compresión (reducción de volumen bajo presión) ↔ expansión (aumento de volumen).",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "antonimo",
+            "fisica"
+          ]
+        },
+        {
+          "id": "psi-voc-018",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analogía: PLANO es a ARQUITECTO como ESQUEMA ELÉCTRICO es a …",
+          "options": [
+            "electricista",
+            "fontanero",
+            "mecánico",
+            "operario"
+          ],
+          "correctIndex": 0,
+          "explanation": "El arquitecto trabaja con planos; el electricista trabaja con esquemas eléctricos.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "oficios"
+          ]
+        },
+        {
+          "id": "psi-voc-019",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Sinónimo de CALIBRAR:",
+          "options": [
+            "medir",
+            "ajustar",
+            "limpiar",
+            "reparar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Calibrar significa ajustar un instrumento de medida a un patrón de referencia.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "sinonimo",
+            "metrologia"
+          ]
+        },
+        {
+          "id": "psi-voc-020",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analogía: DIAGRAMA de GANTT es a PLANIFICACIÓN como FICHA TÉCNICA es a …",
+          "options": [
+            "reparación",
+            "especificación",
+            "inventario",
+            "presupuesto"
+          ],
+          "correctIndex": 1,
+          "explanation": "El diagrama de Gantt organiza la planificación; la ficha técnica organiza la especificación de un equipo.",
+          "tags": [
+            "psicotecnico",
+            "vocabulario",
+            "analogia",
+            "gestion"
+          ]
+        }
+      ]
     }
   },
   "byCourseTitle": {
