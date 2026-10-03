@@ -26,10 +26,10 @@
   <rect x='334' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='364' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
   <text x='345' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>c</text>
-  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#2a7a2a' stroke-width='4'/>
+  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
   <rect x='414' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='444' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='474' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='504' y='354' width='22' height='22' fill='#222' stroke='#222' stroke-width='2'/>
-  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#2a7a2a'>d</text>
+  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>d</text>
 </svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Vistas ortogonales — Planta, Alzado, Perfil</text>
+  <!-- 3D object -->
+  <g transform="translate(15,30)">
+    <polygon points="0,40 30,20 60,40 30,60" fill="#e5e7eb" stroke="#374151" stroke-width="1.5"/>
+    <polygon points="0,40 0,80 30,100 30,60" fill="#d1d5db" stroke="#374151" stroke-width="1.5"/>
+    <polygon points="60,40 60,80 30,100 30,60" fill="#9ca3af" stroke="#374151" stroke-width="1.5"/>
+    <!-- Extra block on top -->
+    <polygon points="0,40 20,30 40,40 20,50" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
+    <polygon points="0,40 0,50 20,60 20,50" fill="#93c5fd" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="30" y="116" text-anchor="middle" font-size="8" fill="#374151" font-family="Arial">Sólido 3D</text>
+  </g>
+  <!-- Views -->
+  <!-- Plant view (top) -->
+  <g transform="translate(100,30)">
+    <rect x="0" y="0" width="50" height="50" fill="#e5e7eb" stroke="#374151" stroke-width="1.5"/>
+    <rect x="0" y="0" width="20" height="20" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="25" y="65" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Planta (↓)</text>
+  </g>
+  <!-- Front view (alzado) -->
+  <g transform="translate(170,30)">
+    <rect x="0" y="0" width="50" height="50" fill="#e5e7eb" stroke="#374151" stroke-width="1.5"/>
+    <rect x="0" y="0" width="20" height="20" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="50" y2="20" stroke="#374151" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="25" y="65" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Alzado (→)</text>
+  </g>
+  <!-- Side view (perfil) -->
+  <g transform="translate(240,30)">
+    <rect x="0" y="0" width="35" height="50" fill="#d1d5db" stroke="#374151" stroke-width="1.5"/>
+    <text x="17" y="65" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Perfil (↗)</text>
+  </g>
+  <text x="150" y="120" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">Identifica qué vista corresponde a cada perspectiva</text>
+  <text x="150" y="140" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">Planta = vista desde arriba</text>
+  <text x="150" y="155" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">Alzado = vista frontal</text>
+  <text x="150" y="170" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">Perfil = vista lateral</text>
+</svg>

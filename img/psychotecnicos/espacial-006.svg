@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
+  <rect width="300" height="180" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Imagen especular — ¿Cuál es el reflejo?</text>
+  <!-- Mirror line -->
+  <line x1="150" y1="25" x2="150" y2="165" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="150" y="23" text-anchor="middle" font-size="9" fill="#9ca3af" font-family="Arial">espejo</text>
+  <!-- Original figure (left): arrow pointing top-right -->
+  <g transform="translate(30,45)">
+    <polygon points="0,40 60,40 60,50 75,30 60,10 60,20 0,20" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="37" y="68" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Original</text>
+  </g>
+  <!-- Reflected (right): arrow pointing top-left (correct) -->
+  <g transform="translate(165,45)">
+    <polygon points="15,10 15,20 75,20 75,40 15,40 15,50 0,30" fill="#d1fae5" stroke="#16a34a" stroke-width="2"/>
+    <text x="37" y="68" text-anchor="middle" font-size="9" fill="#16a34a" font-family="Arial">✓ Reflejo</text>
+  </g>
+  <text x="150" y="140" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">El eje horizontal y vertical se invierten respecto al espejo</text>
+  <text x="150" y="160" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">La flecha apunta al lado contrario del espejo</text>
+</svg>

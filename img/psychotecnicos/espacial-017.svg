@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" width="300" height="190">
+  <rect width="300" height="190" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Desarrollo de pirámide — ¿Cuál es el resultado?</text>
+  <!-- Net: square base + 4 triangles -->
+  <g transform="translate(15,30)">
+    <!-- Center square (base) -->
+    <rect x="35" y="35" width="45" height="45" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="57" y="62" text-anchor="middle" font-size="9" fill="#92400e" font-family="Arial">BASE</text>
+    <!-- Top triangle -->
+    <polygon points="35,35 80,35 57,5" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="57" y="28" text-anchor="middle" font-size="8" fill="#1e40af" font-family="Arial">T1</text>
+    <!-- Bottom triangle -->
+    <polygon points="35,80 80,80 57,110" fill="#d1fae5" stroke="#16a34a" stroke-width="2"/>
+    <text x="57" y="102" text-anchor="middle" font-size="8" fill="#065f46" font-family="Arial">T2</text>
+    <!-- Left triangle -->
+    <polygon points="35,35 35,80 5,57" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+    <text x="18" y="62" text-anchor="middle" font-size="8" fill="#dc2626" font-family="Arial">T3</text>
+    <!-- Right triangle -->
+    <polygon points="80,35 80,80 110,57" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="97" y="62" text-anchor="middle" font-size="8" fill="#6d28d9" font-family="Arial">T4</text>
+    <text x="57" y="128" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">Desarrollo (plano)</text>
+  </g>
+  <text x="155" y="85" text-anchor="middle" font-size="18" fill="#374151">→</text>
+  <!-- Assembled pyramid -->
+  <g transform="translate(170,25)">
+    <!-- Base -->
+    <polygon points="10,80 70,80 90,60 30,60" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <!-- Front face (T1) -->
+    <polygon points="10,80 70,80 40,25" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <!-- Right face (T4) -->
+    <polygon points="70,80 90,60 40,25" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+    <!-- Left face (T3) -->
+    <polygon points="10,80 30,60 40,25" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="50" y="105" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Pirámide formada</text>
+  </g>
+  <text x="150" y="155" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">¿Qué cara queda opuesta a la BASE?</text>
+  <text x="150" y="172" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">a) T1 (azul)   b) T2 (verde)   c) el ápice   d) T4</text>
+</svg>

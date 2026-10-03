@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="560" height="260" fill="#f8f9fa" rx="10"/>
+  <text x="280" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#374151">Tabla de interruptores</text>
+
+  <!-- Table header row -->
+  <rect x="20" y="32" width="120" height="28" fill="#4f46e5" rx="3"/>
+  <rect x="144" y="32" width="90" height="28" fill="#dc2626" rx="3"/>
+  <rect x="238" y="32" width="90" height="28" fill="#dc2626" rx="3"/>
+  <rect x="332" y="32" width="90" height="28" fill="#2563eb" rx="3"/>
+  <rect x="426" y="32" width="90" height="28" fill="#d97706" rx="3"/>
+
+  <text x="80" y="50" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Interruptor</text>
+  <text x="189" y="50" text-anchor="middle" font-size="11" fill="white" font-weight="bold">🔴 Rojo</text>
+  <text x="283" y="50" text-anchor="middle" font-size="11" fill="white" font-weight="bold">🔴 Rojo</text>
+  <text x="377" y="50" text-anchor="middle" font-size="11" fill="white" font-weight="bold">🔵 Azul</text>
+  <text x="471" y="50" text-anchor="middle" font-size="11" fill="white" font-weight="bold">🟡 Amarillo</text>
+
+  <!-- Subheaders -->
+  <text x="189" y="72" text-anchor="middle" font-size="10" fill="#6b7280">(posición 1ª y 2ª)</text>
+  <text x="283" y="72" text-anchor="middle" font-size="10" fill="#6b7280">(posición 3ª y 4ª)</text>
+  <text x="377" y="72" text-anchor="middle" font-size="10" fill="#6b7280">(posición 1ª–4ª)</text>
+  <text x="471" y="72" text-anchor="middle" font-size="10" fill="#6b7280">(posición 1ª–4ª)</text>
+
+  <!-- Row separators -->
+  <line x1="20" y1="80" x2="516" y2="80" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="20" y1="110" x2="516" y2="110" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="20" y1="140" x2="516" y2="140" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="20" y1="170" x2="516" y2="170" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="140" y1="32" x2="140" y2="200" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="32" x2="234" y2="200" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="328" y1="32" x2="328" y2="200" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="422" y1="32" x2="422" y2="200" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="80" y="99" text-anchor="middle" font-size="11" fill="#1f2937">Bombilla 1ª</text>
+  <rect x="155" y="85" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="189" y="97" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="249" y="85" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="283" y="97" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="343" y="85" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="377" y="97" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="437" y="85" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="471" y="97" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+
+  <!-- Row 2 -->
+  <text x="80" y="129" text-anchor="middle" font-size="11" fill="#1f2937">Bombilla 2ª</text>
+  <rect x="155" y="115" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="189" y="127" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="249" y="115" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="283" y="127" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="343" y="115" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="377" y="127" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+  <rect x="437" y="115" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="471" y="127" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+
+  <!-- Row 3 -->
+  <text x="80" y="159" text-anchor="middle" font-size="11" fill="#1f2937">Bombilla 3ª</text>
+  <rect x="155" y="145" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="189" y="157" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+  <rect x="249" y="145" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="283" y="157" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="343" y="145" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="377" y="157" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+  <rect x="437" y="145" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="471" y="157" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+
+  <!-- Row 4 -->
+  <text x="80" y="189" text-anchor="middle" font-size="11" fill="#1f2937">Bombilla 4ª</text>
+  <rect x="155" y="175" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="189" y="187" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+  <rect x="249" y="175" width="68" height="18" fill="#d1fae5" rx="2"/>
+  <text x="283" y="187" text-anchor="middle" font-size="10" fill="#065f46">Encendido</text>
+  <rect x="343" y="175" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="377" y="187" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+  <rect x="437" y="175" width="68" height="18" fill="#fecaca" rx="2"/>
+  <text x="471" y="187" text-anchor="middle" font-size="10" fill="#991b1b">Apagado</text>
+
+  <!-- Border -->
+  <rect x="20" y="32" width="496" height="168" fill="none" stroke="#6366f1" stroke-width="1.5" rx="4"/>
+
+  <!-- Legend at bottom: 3 light bulbs representing the switches -->
+  <text x="280" y="222" text-anchor="middle" font-size="11" fill="#6b7280">Señales: A activa 1ª rojo + 3ª azul · B activa 2ª rojo + 4ª azul · C activa 1ª amarillo + 2ª azul</text>
+
+  <!-- Bulb icons row -->
+  <!-- Bulb 1 -->
+  <circle cx="90" cy="244" r="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="90" y="248" text-anchor="middle" font-size="8" fill="#78350f" font-weight="bold">1</text>
+  <!-- Bulb 2 -->
+  <circle cx="130" cy="244" r="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="130" y="248" text-anchor="middle" font-size="8" fill="#78350f" font-weight="bold">2</text>
+  <!-- Bulb 3 -->
+  <circle cx="170" cy="244" r="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="170" y="248" text-anchor="middle" font-size="8" fill="#78350f" font-weight="bold">3</text>
+  <!-- Bulb 4 -->
+  <circle cx="210" cy="244" r="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="210" y="248" text-anchor="middle" font-size="8" fill="#78350f" font-weight="bold">4</text>
+  <text x="270" y="248" text-anchor="start" font-size="10" fill="#374151">← Las 4 bombillas del panel</text>
+</svg>

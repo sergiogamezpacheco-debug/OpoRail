@@ -18,10 +18,10 @@
   <rect x='75' y='335' width='10' height='60' fill='#222' stroke='#222' stroke-width='2'/>
   <polygon points='107.0,345.0 74.0,364.1 74.0,325.9' fill='#222' stroke='#222' stroke-width='2'/>
   <text x='95' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>a</text>
-  <rect x='165' y='310' width='110' height='110' fill='white' stroke='#2a7a2a' stroke-width='4'/>
+  <rect x='165' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
   <rect x='230' y='335' width='10' height='60' fill='#222' stroke='#222' stroke-width='2'/>
   <polygon points='208.0,345.0 241.0,325.9 241.0,364.1' fill='#222' stroke='#222' stroke-width='2'/>
-  <text x='220' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#2a7a2a'>b</text>
+  <text x='220' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>b</text>
   <rect x='290' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <rect x='315' y='375' width='60' height='10' fill='#222' stroke='#222' stroke-width='2'/>
   <polygon points='325.0,353.0 344.1,386.0 305.9,386.0' fill='#222' stroke='#222' stroke-width='2'/>

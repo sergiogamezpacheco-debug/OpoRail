@@ -780,13 +780,13 @@ function getPsychotechnicalTests(questionBank) {
 
 function renderTestSection(title, tests, courseId, compact = false) {
   return `
-    <section class="mt-10 bg-white border border-purple-100 rounded-xl p-6">
-      <h2 class="text-2xl font-bold text-purple-700 mb-2">${title}</h2>
+    <section class="mt-10 bg-white border-2 border-purple-500 rounded-xl p-6">
+      <h2 class="text-2xl font-bold text-gray-900 mb-2">${title}</h2>
       <div class="grid md:grid-cols-2 gap-4">
         ${tests
           .map(
             (test) => `
-          <article class="border border-gray-200 rounded-lg p-4 space-y-3">
+          <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
             <div class="flex items-start justify-between gap-3">
               <div>
                 <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
@@ -805,9 +805,14 @@ function renderTestSection(title, tests, courseId, compact = false) {
                 ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
               </div>
             `}
-            <a class="btn w-full text-center" href="/test-info.html?course=${courseId}&test=${test.id}">
-              Ver historial / Intentar test
-            </a>
+            <div class="flex gap-2">
+              <a class="flex-1 inline-flex items-center justify-center bg-emerald-600 text-white px-3 py-2 rounded-lg font-semibold text-sm hover:bg-emerald-700 transition" href="/test-info.html?course=${courseId}&test=${test.id}">
+                Ver historial
+              </a>
+              <a class="flex-1 inline-flex items-center justify-center bg-purple-700 text-white px-3 py-2 rounded-lg font-semibold text-sm hover:bg-purple-800 transition" href="/test-run.html?course=${courseId}&test=${test.id}">
+                Intentar test
+              </a>
+            </div>
           </article>
         `,
           )

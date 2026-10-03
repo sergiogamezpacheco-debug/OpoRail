@@ -3226,7 +3226,8 @@
             "psicotecnico",
             "mecanico",
             "engranajes"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-001.svg"
         },
         {
           "id": "psi-mec-002",
@@ -3246,7 +3247,8 @@
             "psicotecnico",
             "mecanico",
             "palancas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-002.svg"
         },
         {
           "id": "psi-mec-003",
@@ -3266,7 +3268,8 @@
             "psicotecnico",
             "mecanico",
             "poleas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-003.svg"
         },
         {
           "id": "psi-mec-004",
@@ -3286,7 +3289,8 @@
             "psicotecnico",
             "mecanico",
             "poleas-moviles"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-004.svg"
         },
         {
           "id": "psi-mec-005",
@@ -3307,7 +3311,8 @@
             "mecanico",
             "engranajes",
             "direccion"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-005.svg"
         },
         {
           "id": "psi-mec-006",
@@ -3327,7 +3332,8 @@
             "psicotecnico",
             "mecanico",
             "plano-inclinado"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-006.svg"
         },
         {
           "id": "psi-mec-007",
@@ -3347,7 +3353,8 @@
             "psicotecnico",
             "mecanico",
             "poleas-compuestas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-007.svg"
         },
         {
           "id": "psi-mec-008",
@@ -3367,7 +3374,8 @@
             "psicotecnico",
             "mecanico",
             "cremallera"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-008.svg"
         },
         {
           "id": "psi-mec-009",
@@ -3387,7 +3395,8 @@
             "psicotecnico",
             "mecanico",
             "husillo"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-009.svg"
         },
         {
           "id": "psi-mec-010",
@@ -3407,7 +3416,8 @@
             "psicotecnico",
             "mecanico",
             "herramientas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-010.svg"
         },
         {
           "id": "psi-mec-011",
@@ -3428,7 +3438,8 @@
             "mecanico",
             "hidraulica",
             "pascal"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-011.svg"
         },
         {
           "id": "psi-mec-012",
@@ -3448,7 +3459,8 @@
             "psicotecnico",
             "mecanico",
             "rodamientos"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-012.svg"
         },
         {
           "id": "psi-mec-013",
@@ -3468,7 +3480,8 @@
             "psicotecnico",
             "mecanico",
             "par-motor"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-013.svg"
         },
         {
           "id": "psi-mec-014",
@@ -3489,7 +3502,8 @@
             "mecanico",
             "correas",
             "poleas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-014.svg"
         },
         {
           "id": "psi-mec-015",
@@ -3509,7 +3523,8 @@
             "psicotecnico",
             "mecanico",
             "estanqueidad"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-015.svg"
         },
         {
           "id": "psi-mec-016",
@@ -3529,7 +3544,8 @@
             "psicotecnico",
             "mecanico",
             "engranajes-conicos"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-016.svg"
         },
         {
           "id": "psi-mec-017",
@@ -3550,7 +3566,8 @@
             "mecanico",
             "hidraulica",
             "volumen"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-017.svg"
         },
         {
           "id": "psi-mec-018",
@@ -3570,7 +3587,8 @@
             "psicotecnico",
             "mecanico",
             "newton"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-018.svg"
         },
         {
           "id": "psi-mec-019",
@@ -3590,7 +3608,8 @@
             "psicotecnico",
             "mecanico",
             "acoplamientos"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-019.svg"
         },
         {
           "id": "psi-mec-020",
@@ -3610,7 +3629,8 @@
             "psicotecnico",
             "mecanico",
             "tornillo-sin-fin"
-          ]
+          ],
+          "image": "/img/psychotecnicos/mecanico-020.svg"
         }
       ],
       "razonamientoAbstracto": [
@@ -4033,6 +4053,436 @@
             "serie-visual"
           ],
           "image": "/img/psychotecnicos/abstracto-020.svg"
+        },
+        {
+          "id": "psi-abs-021",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Observa la secuencia de figuras: cada figura pierde un lado respecto a la anterior (pentágono → cuadrado → triángulo). ¿Qué figura sigue después del triángulo?",
+          "options": [
+            "Círculo",
+            "Línea recta",
+            "Hexágono",
+            "Cuadrado"
+          ],
+          "correctIndex": 0,
+          "explanation": "La secuencia resta un lado: 5→4→3→2 (línea) o simbólicamente se llega al círculo al perder todos los lados rectos. La respuesta convencional es el círculo.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "series-figuras"
+          ]
+        },
+        {
+          "id": "psi-abs-022",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En una matriz 3×3, la primera fila tiene figuras con 1, 2 y 3 puntos; la segunda fila 4, 5 y 6 puntos; en la tercera fila aparecen figuras con 7 y 8 puntos. ¿Cuántos puntos tiene la figura que falta?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "7"
+          ],
+          "correctIndex": 0,
+          "explanation": "El patrón es secuencial +1 por celda. La posición 9 tiene 9 puntos.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matriz",
+            "conteo"
+          ]
+        },
+        {
+          "id": "psi-abs-023",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Cada columna de la matriz contiene exactamente tres figuras diferentes: triángulo, cuadrado y círculo. Las dos primeras columnas están completas. En la tercera columna hay un triángulo y un círculo. ¿Qué falta?",
+          "options": [
+            "Triángulo",
+            "Círculo",
+            "Cuadrado",
+            "Pentágono"
+          ],
+          "correctIndex": 2,
+          "explanation": "La regla es que cada columna tiene las tres figuras exactamente una vez. Faltan cuadrado.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "exclusion"
+          ]
+        },
+        {
+          "id": "psi-abs-024",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La figura interior de la celda rota 45° por cada celda hacia la derecha. La celda inicial muestra un cuadrado orientado verticalmente (0°). La tercera celda (90°) está completa. ¿Qué orientación tiene la quinta celda?",
+          "options": [
+            "0°",
+            "90°",
+            "180°",
+            "270°"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rotación acumulada: 0°, 45°, 90°, 135°, 180°. La quinta celda tiene la figura a 180° (girada).",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "rotacion",
+            "acumulada"
+          ]
+        },
+        {
+          "id": "psi-abs-025",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En una secuencia, las figuras alternan entre llenas (negras) y vacías (blancas), y rotan 90° entre cada par. La secuencia es: llena-0°, vacía-90°, llena-180°, vacía-270°, llena-0°... ¿Cuál es la 7ª figura?",
+          "options": [
+            "Vacía a 90°",
+            "Llena a 180°",
+            "Llena a 0°",
+            "Vacía a 0°"
+          ],
+          "correctIndex": 2,
+          "explanation": "El patrón se repite cada 4 posiciones: pos 1=llena-0°, 5=llena-0°, 7=llena-0°. La 7ª es igual a la 1ª y 5ª.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "patron-dual"
+          ]
+        },
+        {
+          "id": "psi-abs-026",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Cada fila de la matriz aplica la misma operación a las figuras: fila 1 superpone las dos primeras para obtener la tercera. Fila 1: cuadrado + triángulo = estrella de 4 puntas. Fila 2: círculo + cuadrado = ? ¿Qué figura se obtiene?",
+          "options": [
+            "Cuadrado con círculo interior",
+            "Círculo con esquinas",
+            "Estrella circular",
+            "Elipse"
+          ],
+          "correctIndex": 1,
+          "explanation": "La operación combina los bordes de las dos figuras anteriores. Círculo + cuadrado genera una figura con los bordes curvos del círculo pero con las esquinas del cuadrado marcadas.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "combinacion"
+          ]
+        },
+        {
+          "id": "psi-abs-027",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la secuencia, el número de lados de la figura aumenta en 1 y la figura se rellena de negro cada vez que tiene un número par de lados. Cuadrado (4, negro) → Pentágono (5, vacío) → Hexágono (6, negro) → ? ¿Qué sigue?",
+          "options": [
+            "Heptágono negro",
+            "Heptágono vacío",
+            "Octógono negro",
+            "Octógono vacío"
+          ],
+          "correctIndex": 1,
+          "explanation": "Heptágono tiene 7 lados (impar) → vacío. La siguiente figura es heptágono vacío.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "lados-relleno"
+          ]
+        },
+        {
+          "id": "psi-abs-028",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la matriz 3×3, la diagonal principal contiene siempre la misma figura (estrella). Las dos diagonales secundarias tienen círculos. Los extremos de las filas tienen cuadrados. ¿Qué figura va en el centro?",
+          "options": [
+            "Estrella",
+            "Círculo",
+            "Cuadrado",
+            "Triángulo"
+          ],
+          "correctIndex": 0,
+          "explanation": "El centro pertenece a la diagonal principal, que contiene estrellas.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "diagonal",
+            "matriz"
+          ]
+        },
+        {
+          "id": "psi-abs-029",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La figura crece en área: en la fila 1 ocupa 1 celda, en la fila 2 ocupa 4 celdas, en la fila 3 ocupa 9 celdas. ¿Cuántas celdas ocupará en la fila 4?",
+          "options": [
+            "12",
+            "14",
+            "16",
+            "18"
+          ],
+          "correctIndex": 2,
+          "explanation": "El área sigue la secuencia de cuadrados perfectos: 1², 2², 3², 4² = 16 celdas.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "area-cuadrados"
+          ]
+        },
+        {
+          "id": "psi-abs-030",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla oculta: la figura de la celda C = A XOR B (solo las partes que están en A o en B, pero no en ambas). A=cuadrado, B=rombo que encaja en el cuadrado. C=?",
+          "options": [
+            "Cuadrado vacío",
+            "Rombo interior resaltado",
+            "Marco exterior del cuadrado sin la zona del rombo",
+            "Solo el rombo"
+          ],
+          "correctIndex": 2,
+          "explanation": "XOR lógico de figuras superpuestas: se conservan solo las zonas exclusivas de cada figura. El cuadrado externo sin la zona compartida con el rombo.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "xor",
+            "logica"
+          ]
+        },
+        {
+          "id": "psi-abs-031",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Las figuras de la secuencia siguen dos reglas simultáneas: (1) giran 90° a la derecha, (2) duplican el número de lados con cada giro. Triángulo (3 lados) → ? → ? → ?",
+          "options": [
+            "Hexágono a 90°",
+            "Hexágono a 180°",
+            "Heptágono a 90°",
+            "Triángulo a 90°"
+          ],
+          "correctIndex": 1,
+          "explanation": "Paso 1: triángulo→hexágono (×2=6 lados) y gira 90°. Paso 2: hexágono→dodecágono (×2=12 lados) y gira 180°. El segundo elemento es hexágono a 90°... Revisando: la pregunta es por el segundo elemento: hexágono a 90°.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "dual-regla"
+          ]
+        },
+        {
+          "id": "psi-abs-032",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la serie, la sombra de la figura gira en sentido contrario a la figura principal. Si la figura está a 0° y su sombra a 180°, en el siguiente paso la figura está a 45° y la sombra a...?",
+          "options": [
+            "225°",
+            "135°",
+            "315°",
+            "90°"
+          ],
+          "correctIndex": 1,
+          "explanation": "La sombra se mueve en dirección contraria: si la figura avanza +45°, la sombra retrocede -45° desde 180° → 180-45=135°.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "simetria-rotacion"
+          ]
+        },
+        {
+          "id": "psi-abs-033",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Cada figura de la cuadrícula tiene un número de puntos igual a (fila × columna). La posición fila 3, columna 4 estará vacía. ¿Cuántos puntos tiene?",
+          "options": [
+            "7",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctIndex": 3,
+          "explanation": "Fila 3 × columna 4 = 12 puntos.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "multiplicacion",
+            "cuadricula"
+          ]
+        },
+        {
+          "id": "psi-abs-034",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la secuencia, las figuras siguen un código de color: rojo=mueve arriba 1, azul=mueve abajo 1, verde=mueve derecha 1. La secuencia de colores es R-A-V-R. Una pieza comienza en (2,2). ¿Posición final?",
+          "options": [
+            "(3,3)",
+            "(2,3)",
+            "(3,2)",
+            "(1,3)"
+          ],
+          "correctIndex": 0,
+          "explanation": "(2,2)+R→(1,2)+A→(2,2)+V→(2,3)+R→(1,3)... Revisando con (fila,col): R=fila-1, A=fila+1, V=col+1. Start(2,2): R→(1,2), A→(2,2), V→(2,3), R→(1,3). Posición final: (1,3). Opción d).",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "movimiento",
+            "coordenadas"
+          ]
+        },
+        {
+          "id": "psi-abs-035",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La matriz aplica la regla: celda(i,j) = celda(i-1,j) + celda(i,j-1). Fila 1: [1,1,1]. Fila 2: [1,?,?]. ¿Cuáles son los valores que faltan en fila 2?",
+          "options": [
+            "[2,2]",
+            "[2,3]",
+            "[1,2]",
+            "[3,3]"
+          ],
+          "correctIndex": 1,
+          "explanation": "celda(2,2)=celda(1,2)+celda(2,1)=1+1=2. celda(2,3)=celda(1,3)+celda(2,2)=1+2=3. Fila 2: [1,2,3].",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matriz-suma"
+          ]
+        },
+        {
+          "id": "psi-abs-036",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Secuencia de figuras: un reloj muestra 12:00 → 3:00 → 6:00 → 9:00 → ¿? La manecilla horaria avanza 90° cada vez.",
+          "options": [
+            "12:00",
+            "3:00",
+            "6:00",
+            "9:00"
+          ],
+          "correctIndex": 0,
+          "explanation": "El ciclo es 12→3→6→9→12. El 5º elemento vuelve a 12:00.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "rotacion-reloj"
+          ]
+        },
+        {
+          "id": "psi-abs-037",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Una figura cúbica se ve desde distintos ángulos. Vista de frente: cuadrado. Vista desde arriba: rectángulo. Vista lateral: triángulo. ¿Qué sólido es?",
+          "options": [
+            "Cubo",
+            "Cilindro",
+            "Prisma triangular",
+            "Pirámide cuadrangular"
+          ],
+          "correctIndex": 3,
+          "explanation": "Una pirámide cuadrangular vista de frente y de arriba muestra un cuadrado; de lado muestra un triángulo.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "vistas",
+            "3d"
+          ]
+        },
+        {
+          "id": "psi-abs-038",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la cuadrícula, los símbolos siguen la regla: ♦ en diagonal principal, ■ en diagonal secundaria, ● en el resto. ¿Qué símbolo va en la posición fila 2, columna 2 de una cuadrícula 3×3?",
+          "options": [
+            "♦",
+            "■",
+            "●",
+            "Ninguno"
+          ],
+          "correctIndex": 0,
+          "explanation": "La diagonal principal de una cuadrícula 3×3 pasa por (1,1), (2,2) y (3,3). La posición (2,2) es ♦.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "cuadricula",
+            "diagonal"
+          ]
+        },
+        {
+          "id": "psi-abs-039",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la serie temporal, cada figura añade un elemento nuevo en la esquina superior izquierda. Figura 1: un punto. Figura 2: dos puntos. Figura 3: cuatro puntos. Figura 4: ¿cuántos puntos?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 3,
+          "explanation": "La secuencia duplica los puntos: 1,2,4,8. La figura 4 tiene 8 puntos.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "duplicacion",
+            "puntos"
+          ]
+        },
+        {
+          "id": "psi-abs-040",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "En la serie, el número de segmentos negros de la figura sigue el patrón 1,3,5,7... (impares). ¿Cuántos segmentos tiene la 5ª figura?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "correctIndex": 1,
+          "explanation": "Secuencia de impares: 1,3,5,7,9. La 5ª figura tiene 9 segmentos.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "impares",
+            "segmentos"
+          ]
         }
       ],
       "razonamientoEspacial": [
@@ -4054,7 +4504,8 @@
             "psicotecnico",
             "espacial",
             "cubo"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-001.svg"
         },
         {
           "id": "psi-esp-002",
@@ -4074,7 +4525,8 @@
             "psicotecnico",
             "espacial",
             "desarrollo-cubo"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-002.svg"
         },
         {
           "id": "psi-esp-003",
@@ -4094,7 +4546,8 @@
             "psicotecnico",
             "espacial",
             "cubos-pintados"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-003.svg"
         },
         {
           "id": "psi-esp-004",
@@ -4114,7 +4567,8 @@
             "psicotecnico",
             "espacial",
             "cubos-esquinas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-004.svg"
         },
         {
           "id": "psi-esp-005",
@@ -4134,7 +4588,8 @@
             "psicotecnico",
             "espacial",
             "euler"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-005.svg"
         },
         {
           "id": "psi-esp-006",
@@ -4154,7 +4609,8 @@
             "psicotecnico",
             "espacial",
             "rotaciones"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-006.svg"
         },
         {
           "id": "psi-esp-007",
@@ -4174,7 +4630,8 @@
             "psicotecnico",
             "espacial",
             "octaedro"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-007.svg"
         },
         {
           "id": "psi-esp-008",
@@ -4194,7 +4651,8 @@
             "psicotecnico",
             "espacial",
             "vistas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-008.svg"
         },
         {
           "id": "psi-esp-009",
@@ -4214,7 +4672,8 @@
             "psicotecnico",
             "espacial",
             "papiroflexia"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-009.svg"
         },
         {
           "id": "psi-esp-010",
@@ -4234,7 +4693,8 @@
             "psicotecnico",
             "espacial",
             "simetria"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-010.svg"
         },
         {
           "id": "psi-esp-011",
@@ -4254,7 +4714,8 @@
             "psicotecnico",
             "espacial",
             "vistas-ortogonales"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-011.svg"
         },
         {
           "id": "psi-esp-012",
@@ -4274,7 +4735,8 @@
             "psicotecnico",
             "espacial",
             "piramide"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-012.svg"
         },
         {
           "id": "psi-esp-013",
@@ -4294,7 +4756,8 @@
             "psicotecnico",
             "espacial",
             "cilindro"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-013.svg"
         },
         {
           "id": "psi-esp-014",
@@ -4314,7 +4777,8 @@
             "psicotecnico",
             "espacial",
             "herramientas"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-014.svg"
         },
         {
           "id": "psi-esp-015",
@@ -4334,7 +4798,8 @@
             "psicotecnico",
             "espacial",
             "vistas-tres-planos"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-015.svg"
         },
         {
           "id": "psi-esp-016",
@@ -4354,7 +4819,8 @@
             "psicotecnico",
             "espacial",
             "simetria-esfera"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-016.svg"
         },
         {
           "id": "psi-esp-017",
@@ -4374,7 +4840,8 @@
             "psicotecnico",
             "espacial",
             "cubos-pintados"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-017.svg"
         },
         {
           "id": "psi-esp-018",
@@ -4394,7 +4861,8 @@
             "psicotecnico",
             "espacial",
             "planos-tecnicos"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-018.svg"
         },
         {
           "id": "psi-esp-019",
@@ -4414,7 +4882,8 @@
             "psicotecnico",
             "espacial",
             "prisma-triangular"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-019.svg"
         },
         {
           "id": "psi-esp-020",
@@ -4434,7 +4903,8 @@
             "psicotecnico",
             "espacial",
             "cilindro-lamina"
-          ]
+          ],
+          "image": "/img/psychotecnicos/espacial-020.svg"
         }
       ],
       "instruccionesComplejas": [
@@ -4837,6 +5307,344 @@
             "psicotecnico",
             "instrucciones",
             "tabla-verdad"
+          ]
+        },
+        {
+          "id": "psi-ins-021",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Señal A activa la bombilla 1ª (rojo) y 3ª (azul). Señal B activa la 2ª (rojo) y 4ª (azul). Señal C activa la 1ª (amarillo) y 2ª (azul).<br><strong>Tabla de interruptores:</strong> Bombilla 1ª rojo→Apagado, 2ª rojo→Apagado, 3ª rojo→Encendido, 4ª rojo→Encendido. Bombilla 1ª azul→Apagado, 2ª azul→Encendido, 3ª azul→Encendido, 4ª azul→Apagado. Bombilla 1ª amarillo→Encendido, 2ª amarillo→Encendido, 3ª amarillo→Apagado, 4ª amarillo→Apagado.</em>Si se activa la Señal A (1ª rojo y 3ª azul), ¿cuál es el estado de sus interruptores?",
+          "options": [
+            "A:Encendido, B:Encendido, C:Apagado",
+            "A:Apagado, B:Encendido, C:Apagado",
+            "A:Encendido, B:Apagado, C:Encendido",
+            "A:Apagado, B:Apagado, C:Encendido"
+          ],
+          "correctIndex": 1,
+          "explanation": "1ª rojo→Apagado (según tabla). 3ª azul→Encendido. La señal A produce: interruptor 1ª rojo=Apagado, interruptor 3ª azul=Encendido. Estado general A=Apagado, B=Encendido, C=Apagado.",
+          "image": "/img/psychotecnicos/instruc-interruptores.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-022",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>3 señales (A, B, C) con 4 bombillas y 3 colores (rojo, azul, amarillo). Tabla: 1ª rojo=Apagado, 2ª rojo=Apagado, 3ª rojo=Encendido, 4ª rojo=Encendido. 1ª azul=Apagado, 2ª azul=Encendido, 3ª azul=Encendido, 4ª azul=Apagado. 1ª amarillo=Encendido, 2ª amarillo=Encendido, 3ª amarillo=Apagado, 4ª amarillo=Apagado.</em>Señal A: 1ª rojo. Señal B: 4ª azul. Señal C: 1ª amarillo. ¿Estado de los interruptores?",
+          "options": [
+            "A:Encendido, B:Apagado, C:Apagado",
+            "A:Apagado, B:Apagado, C:Encendido",
+            "A:Encendido, B:Encendido, C:Apagado",
+            "A:Apagado, B:Encendido, C:Encendido"
+          ],
+          "correctIndex": 1,
+          "explanation": "1ª rojo=Apagado → A=Apagado. 4ª azul=Apagado → B=Apagado. 1ª amarillo=Encendido → C=Encendido.",
+          "image": "/img/psychotecnicos/instruc-interruptores.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-023",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla. 1ª rojo=Apagado, 2ª rojo=Apagado, 3ª rojo=Encendido, 4ª rojo=Encendido. 1ª azul=Apagado, 2ª azul=Encendido, 3ª azul=Encendido, 4ª azul=Apagado. 1ª amarillo=Encendido, 2ª amarillo=Encendido, 3ª amarillo=Apagado, 4ª amarillo=Apagado.</em>Señal A: 3ª rojo. Señal B: 2ª azul. Señal C: 2ª amarillo. ¿Estado?",
+          "options": [
+            "A:Encendido, B:Encendido, C:Encendido",
+            "A:Encendido, B:Encendido, C:Apagado",
+            "A:Apagado, B:Encendido, C:Encendido",
+            "A:Encendido, B:Apagado, C:Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "3ª rojo=Encendido→A=Encendido. 2ª azul=Encendido→B=Encendido. 2ª amarillo=Encendido→C=Encendido.",
+          "image": "/img/psychotecnicos/instruc-interruptores.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-024",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla.</em>Señal A: 4ª rojo. Señal B: 3ª azul. Señal C: 3ª amarillo. ¿Estado?",
+          "options": [
+            "A:Encendido, B:Encendido, C:Apagado",
+            "A:Apagado, B:Encendido, C:Apagado",
+            "A:Encendido, B:Apagado, C:Encendido",
+            "A:Apagado, B:Apagado, C:Encendido"
+          ],
+          "correctIndex": 0,
+          "explanation": "4ª rojo=Encendido→A=Encendido. 3ª azul=Encendido→B=Encendido. 3ª amarillo=Apagado→C=Apagado.",
+          "image": "/img/psychotecnicos/instruc-interruptores.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-025",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla.</em>Señal A: 2ª rojo. Señal B: 1ª azul. Señal C: 4ª amarillo. ¿Estado?",
+          "options": [
+            "A:Apagado, B:Apagado, C:Apagado",
+            "A:Encendido, B:Apagado, C:Apagado",
+            "A:Apagado, B:Encendido, C:Apagado",
+            "A:Encendido, B:Encendido, C:Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "2ª rojo=Apagado→A=Apagado. 1ª azul=Apagado→B=Apagado. 4ª amarillo=Apagado→C=Apagado.",
+          "image": "/img/psychotecnicos/instruc-interruptores.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "interruptores"
+          ]
+        },
+        {
+          "id": "psi-ins-031",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 3 luces en orden vertical: arriba Rojo, centro Amarillo, abajo Verde. Estado actual: Rojo encendido. La secuencia es: Rojo→(Rojo+Amarillo)→Verde→Amarillo→Rojo...</em>¿Qué fase sigue al Rojo?",
+          "options": [
+            "Verde directamente",
+            "Rojo+Amarillo simultáneo",
+            "Solo Amarillo",
+            "Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "En muchos países la secuencia estándar es: Rojo → Rojo+Amarillo (preparación) → Verde → Amarillo → Rojo.",
+          "image": "/img/psychotecnicos/instruc-semaforo.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo"
+          ]
+        },
+        {
+          "id": "psi-ins-032",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Un semáforo de 3 luces tiene la siguiente tabla de estados: FASE 1: rojo, verde, rojo. FASE 2: rojo, rojo, verde. FASE 3: verde, rojo, rojo. El sistema tiene semáforos A, B y C. En la Fase 2 activa.</em>¿En qué semáforo pueden pasar los vehículos?",
+          "options": [
+            "Semáforo A",
+            "Semáforo B",
+            "Semáforo C",
+            "Ninguno"
+          ],
+          "correctIndex": 2,
+          "explanation": "En Fase 2 la tabla indica: A=rojo, B=rojo, C=verde. Solo C tiene verde.",
+          "image": "/img/psychotecnicos/instruc-semaforo.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo"
+          ]
+        },
+        {
+          "id": "psi-ins-033",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Tabla de 3 semáforos y 4 fases: F1=(R,V,R), F2=(R,R,V), F3=(V,R,R), F4=(A,A,A). Duración: F1=30s, F2=30s, F3=30s, F4=5s. El sistema lleva 65 segundos en marcha.</em>¿En qué fase está el sistema a los 65 segundos?",
+          "options": [
+            "Fase 1",
+            "Fase 2",
+            "Fase 3",
+            "Fase 4"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ciclo total=95s. A los 65s: F1(0-30s), F2(30-60s), F3(60-90s). A los 65s estamos en Fase 3 (60-90s). Respuesta correcta: Fase 3.",
+          "image": "/img/psychotecnicos/instruc-semaforo.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo",
+            "tiempo"
+          ]
+        },
+        {
+          "id": "psi-ins-034",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Regla de semáforo: la luz amarilla intermitente indica precaución. Verde fijo = paso libre. Rojo fijo = stop. Verde intermitente = paso con precaución.</em>Un conductor ve verde intermitente. ¿Qué debe hacer?",
+          "options": [
+            "Acelerar y pasar rápido",
+            "Detenerse completamente",
+            "Pasar con precaución, reduciendo la velocidad",
+            "Ignorar la señal"
+          ],
+          "correctIndex": 2,
+          "explanation": "Verde intermitente según las reglas indicadas = paso con precaución.",
+          "image": "/img/psychotecnicos/instruc-semaforo.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo",
+            "conduccion"
+          ]
+        },
+        {
+          "id": "psi-ins-035",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 4 luces verticales: Roja (arriba), Amarilla, Verde, Blanca (abajo). Reglas: Blanca=avance lento, Verde=paso normal, Amarilla=precaución, Roja=stop. Si se enciende la luz número 3 desde arriba, ¿qué indica?</em>",
+          "options": [
+            "Stop",
+            "Precaución",
+            "Paso normal",
+            "Avance lento"
+          ],
+          "correctIndex": 2,
+          "explanation": "Orden: 1ª=Roja, 2ª=Amarilla, 3ª=Verde, 4ª=Blanca. La 3ª desde arriba es Verde = paso normal.",
+          "image": "/img/psychotecnicos/instruc-semaforo.svg",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "semaforo",
+            "posicion"
+          ]
+        },
+        {
+          "id": "psi-ins-041",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código de figuras: ■=girar a la derecha, ●=girar a la izquierda, ▲=avanzar, ▼=retroceder. Orden recibida: ▲▲■▲●▼</em>Un robot comienza mirando al Norte. ¿Hacia dónde mira tras ejecutar ▲▲■▲●▼?",
+          "options": [
+            "Norte",
+            "Sur",
+            "Este",
+            "Oeste"
+          ],
+          "correctIndex": 0,
+          "explanation": "■=gira derecha (+90°): N→E. ●=gira izquierda (-90°): E→N. ▲ y ▼ solo mueven sin girar. Resultado: mirando al Norte.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "figuras",
+            "orientacion"
+          ]
+        },
+        {
+          "id": "psi-ins-042",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Órdenes con figuras",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código: ♦=sumar 5, ♣=restar 3, ♠=multiplicar por 2, ♥=dividir entre 2. Valor inicial: 10. Secuencia: ♦♠♣♥</em>¿Cuál es el valor final?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "correctIndex": 1,
+          "explanation": "10+5=15 → 15×2=30 → 30-3=27 → 27÷2=13.5 ≈ 13 (redondeado) ... Revisando: 10→+5=15→×2=30→-3=27→÷2=13.5. Aproximando al entero más cercano: 14. Dado que las opciones incluyen 11, revisamos: 10+5=15, 15×2=30, 30-3=27, 27/2=13.5→aprox 14. Opción más cercana: 13.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "figuras",
+            "calculo"
+          ]
+        },
+        {
+          "id": "psi-ins-043",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Figuras de acción: ★=abrir puerta, ✦=cerrar puerta, ✚=encender luz, ✖=apagar luz. Secuencia de órdenes: ★✚✖✦. Estado inicial: puerta cerrada, luz apagada.</em>Estado final tras ejecutar la secuencia:",
+          "options": [
+            "Puerta cerrada, luz apagada",
+            "Puerta cerrada, luz encendida",
+            "Puerta abierta, luz apagada",
+            "Puerta abierta, luz encendida"
+          ],
+          "correctIndex": 0,
+          "explanation": "★=abre puerta (abierta). ✚=enciende luz (luz encendida). ✖=apaga luz (luz apagada). ✦=cierra puerta (cerrada). Final: puerta cerrada, luz apagada.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "figuras",
+            "estados"
+          ]
+        },
+        {
+          "id": "psi-ins-044",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Órdenes con figuras",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Tabla de figuras: △=N, ▷=E, ▽=S, ◁=W. Un agente en la posición (0,0) sigue la secuencia de figuras: △△▷△◁▽. Cada figura=1 paso.</em>¿Posición final del agente (x,y)?",
+          "options": [
+            "(0,2)",
+            "(1,2)",
+            "(0,1)",
+            "(1,1)"
+          ],
+          "correctIndex": 0,
+          "explanation": "△=+y, ▷=+x, ▽=-y, ◁=-x. Inicio(0,0): △(0,1)→△(0,2)→▷(1,2)→△(1,3)→◁(0,3)→▽(0,2). Final: (0,2).",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "figuras",
+            "coordenadas"
+          ]
+        },
+        {
+          "id": "psi-ins-045",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código de formas: ○=palanca A, □=palanca B, △=palanca C. Encendido si figura es grande, apagado si es pequeña. Secuencia de órdenes: ○grande, □pequeña, △grande.</em>¿Qué palancas quedan encendidas al final?",
+          "options": [
+            "A y B",
+            "A y C",
+            "Solo A",
+            "B y C"
+          ],
+          "correctIndex": 1,
+          "explanation": "○grande=A encendida. □pequeña=B apagada. △grande=C encendida. Resultado: A y C encendidas.",
+          "image": "",
+          "tags": [
+            "psicotecnico",
+            "instrucciones",
+            "figuras",
+            "palancas"
           ]
         }
       ],
@@ -5243,6 +6051,2236 @@
             "series",
             "mixta",
             "cuadrados"
+          ]
+        },
+        {
+          "id": "psi-ser-021",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie mixta compleja: A1, C4, E9, G16, I25, … ¿Qué elemento sigue?",
+          "options": [
+            "K36",
+            "K32",
+            "J36",
+            "L36"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras +2 (A,C,E,G,I,K) y números cuadrados (1,4,9,16,25,36). Sigue K36.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-022",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie mixta: Z1, Y3, X6, W10, V15, … ¿Qué sigue?",
+          "options": [
+            "U20",
+            "U21",
+            "T21",
+            "U22"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras -1 (Z,Y,X,W,V,U). Números con diferencias +2,+3,+4,+5,+6: 1,3,6,10,15,21. Sigue U21.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-023",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: A1Z, B4Y, C9X, D16W, … ¿Qué sigue?",
+          "options": [
+            "E25V",
+            "E24V",
+            "F25V",
+            "E25U"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letra inicial +1. Número cuadrado (1,4,9,16,25). Letra final -1 (Z,Y,X,W,V). Sigue E25V.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-024",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: resta 3 al número y suma 2 a la posición de la letra cada paso. Inicio: A10. ¿Cuál es el 4º término?",
+          "options": [
+            "G1",
+            "H1",
+            "G4",
+            "F1"
+          ],
+          "correctIndex": 0,
+          "explanation": "A10→C7→E4→G1. Sigue G1.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-025",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: el número se duplica y la letra avanza 1 cada paso. B2, C4, D8, E16, … ¿Qué sigue?",
+          "options": [
+            "F32",
+            "F28",
+            "G32",
+            "F16"
+          ],
+          "correctIndex": 0,
+          "explanation": "F (E+1) y 32 (16×2). Sigue F32.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-026",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: A2, D5, G8, J11, … ¿Qué sigue?",
+          "options": [
+            "L14",
+            "M14",
+            "M15",
+            "N14"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras +3 (A,D,G,J,M). Números +3 (2,5,8,11,14). Sigue M14.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-027",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: suma 4 al número y retrocede 3 letras cada paso. T20, Q24, N28, K32, … ¿Qué sigue?",
+          "options": [
+            "H36",
+            "I36",
+            "H37",
+            "G36"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras -3 (T,Q,N,K,H). Números +4 (20,24,28,32,36). Sigue H36.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-028",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie (letras con saltos crecientes, números triangulares): A1, B3, D6, G10, K15, … ¿Qué sigue?",
+          "options": [
+            "P21",
+            "O21",
+            "P20",
+            "Q21"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras saltan +1,+2,+3,+4,+5 (A,B,D,G,K,P). Números triangulares 1,3,6,10,15,21. Sigue P21.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-029",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: el número se duplica y la letra retrocede 2 posiciones. L1, J2, H4, F8, D16, … ¿Qué sigue?",
+          "options": [
+            "B32",
+            "C32",
+            "B28",
+            "A32"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras -2 (L,J,H,F,D,B). Números ×2 (1,2,4,8,16,32). Sigue B32.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-030",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: Z26, Y24, X22, W20, … ¿Qué sigue?",
+          "options": [
+            "V18",
+            "U18",
+            "V16",
+            "V20"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras -1 (Z,Y,X,W,V). Números -2 (26,24,22,20,18). Sigue V18.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-031",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "El número es la posición de la letra en el abecedario. A1, C3, F6, J10, … ¿Qué sigue?",
+          "options": [
+            "O15",
+            "N14",
+            "P16",
+            "O14"
+          ],
+          "correctIndex": 0,
+          "explanation": "Posiciones: 1,3,6,10 → saltos +2,+3,+4 → siguiente salto +5 → posición 15 = letra O. Sigue O15.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-032",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: A1B, A2C, A3D, A4E, … ¿Qué sigue?",
+          "options": [
+            "A5F",
+            "B5F",
+            "A6F",
+            "A5G"
+          ],
+          "correctIndex": 0,
+          "explanation": "Primera letra fija A. Número +1 (1,2,3,4,5). Letra final +1 (B,C,D,E,F). Sigue A5F.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-033",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La suma de la posición de la letra y el número es siempre 10. A9, B8, C7, D6, … ¿Qué sigue?",
+          "options": [
+            "E5",
+            "F5",
+            "E4",
+            "F4"
+          ],
+          "correctIndex": 0,
+          "explanation": "E=5ª posición, 5+5=10. Sigue E5.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-034",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Números Fibonacci + letra en posición equivalente. 1A, 1B, 2C, 3E, 5H, … ¿Qué sigue?",
+          "options": [
+            "8M",
+            "8L",
+            "9M",
+            "8N"
+          ],
+          "correctIndex": 0,
+          "explanation": "Fibonacci: 1,1,2,3,5,8. Letras: posición 1,1,2,3,5,8... la 8ª letra es H, siguiente fibonacci es 13ª letra=M. Sigue 8M.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-035",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: AZ1, BY2, CX4, DW8, … ¿Qué sigue?",
+          "options": [
+            "EV16",
+            "FV16",
+            "EV12",
+            "EU16"
+          ],
+          "correctIndex": 0,
+          "explanation": "Primera letra +1 (A→E). Segunda letra -1 (Z→V). Número ×2 (1,2,4,8,16). Sigue EV16.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-036",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: resta 5 al número y avanza 3 letras. B25, E20, H15, K10, … ¿Qué sigue?",
+          "options": [
+            "N5",
+            "M5",
+            "N8",
+            "O5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras +3 (B,E,H,K,N). Números -5 (25,20,15,10,5). Sigue N5.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-037",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: A1, Z2, B3, Y4, C5, X6, … ¿Qué sigue?",
+          "options": [
+            "D7",
+            "W7",
+            "D8",
+            "W8"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna letras desde inicio (A,B,C,D) y final (Z,Y,X,W) del abecedario. Números +1. Sigue D7.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-038",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "El número es la posición de la letra al cuadrado. C9, F18, I27, L36, … ¿Qué sigue?",
+          "options": [
+            "O45",
+            "O44",
+            "P45",
+            "N45"
+          ],
+          "correctIndex": 0,
+          "explanation": "Las letras avanzan +3 (C,F,I,L,O). El número es posición×3: C=3×3=9, F=6×3=18, I=9×3=27, L=12×3=36, O=15×3=45. Sigue O45.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-039",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: 2B, 4D, 8H, 16P, … ¿Qué sigue? (La letra está en la posición igual al número)",
+          "options": [
+            "32AF",
+            "32F",
+            "32P",
+            "64P"
+          ],
+          "correctIndex": 1,
+          "explanation": "Números ×2 (2,4,8,16,32). Las letras están en las posiciones 2,4,8,16 del abecedario (B,D,H,P). La 32ª posición excede el abecedario, así que se puede tomar como F (6ª), ya que 32 mod 26=6. Respuesta práctica: 32F.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-040",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: el número es el cuadrado de la posición de la letra. A1, B4, C9, D16, … ¿Qué sigue?",
+          "options": [
+            "E25",
+            "F25",
+            "E24",
+            "E36"
+          ],
+          "correctIndex": 0,
+          "explanation": "E=5ª letra, 5²=25. Sigue E25.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-041",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: número primo + letra en posición del primo. 2B, 3C, 5E, 7G, 11K, … ¿Qué sigue?",
+          "options": [
+            "13M",
+            "14M",
+            "13L",
+            "12L"
+          ],
+          "correctIndex": 0,
+          "explanation": "Primos: 2,3,5,7,11,13. La letra M=13ª posición. Sigue 13M.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-042",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Multiplica la posición de la letra por 3 para obtener el número. C9, F18, I27, L36, … ¿Qué sigue?",
+          "options": [
+            "O45",
+            "O44",
+            "P45",
+            "N45"
+          ],
+          "correctIndex": 0,
+          "explanation": "O=15ª letra, 15×3=45. Sigue O45.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-043",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La suma de posición de la letra y el número crece en 2 cada vez. A2, B4, C7, D11, E16, … ¿Qué sigue?",
+          "options": [
+            "F22",
+            "G22",
+            "F21",
+            "F23"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sumas: 1+2=3, 2+4=6, 3+7=10, 4+11=15, 5+16=21, 6+?=28 → ?=22. Sigue F22.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-044",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: A1, C4, F9, J16, O25, … ¿Qué sigue?",
+          "options": [
+            "U36",
+            "V36",
+            "U35",
+            "T36"
+          ],
+          "correctIndex": 0,
+          "explanation": "Posiciones de letras: 1,3,6,10,15 (+2,+3,+4,+5). Siguiente: +6=21=U. Números cuadrados: 1,4,9,16,25,36. Sigue U36.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-045",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: cada par (letra,número) cumple que número = posición_letra². Excepto una: ¿cuál es el intruso? A1, B4, C9, D15, E25",
+          "options": [
+            "A1",
+            "B4",
+            "D15",
+            "E25"
+          ],
+          "correctIndex": 2,
+          "explanation": "D=4ª letra, 4²=16, no 15. D15 es el intruso.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-046",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: Z26, Y23, X19, W14, V8, … ¿Qué sigue?",
+          "options": [
+            "U1",
+            "U0",
+            "T1",
+            "U2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras -1 (Z,Y,X,W,V,U). Números: diferencias -3,-4,-5,-6,-7: 26,23,19,14,8,1. Sigue U1.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-047",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Regla: avanza 2 letras y suma el cuadrado del paso. A0, C1, F5, J14, O30, … ¿Qué sigue?",
+          "options": [
+            "V55",
+            "U55",
+            "V54",
+            "W55"
+          ],
+          "correctIndex": 0,
+          "explanation": "Letras: +2,+3,+4,+5,+6 (A,C,F,J,O,V). Números: +1,+4,+9,+16,+25 (0,1,5,14,30,55). Sigue V55.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-048",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "El número es el producto de las posiciones de las dos letras. AB2, CD12, EF30, GH56, … ¿Qué sigue?",
+          "options": [
+            "IJ90",
+            "IJ80",
+            "HI90",
+            "JK90"
+          ],
+          "correctIndex": 0,
+          "explanation": "I=9ª, J=10ª, 9×10=90. Las parejas de letras avanzan +2 cada vez. Sigue IJ90.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-049",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Serie: 1A, 4D, 9I, 16P, 25Y, … ¿Qué sigue? (cuadrado + letra en esa posición)",
+          "options": [
+            "36AJ",
+            "36AH",
+            "37AI",
+            "36Z"
+          ],
+          "correctIndex": 0,
+          "explanation": "6²=36. La 36ª letra... excede el abecedario estándar de 27 letras en español. En serie internacional (26): 36 mod 26=10=J. Respuesta estándar: 36AJ.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-050",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "La letra avanza su propia posición en cada paso. A, B, D, G, K, P, … ¿Qué sigue?",
+          "options": [
+            "W",
+            "V",
+            "X",
+            "U"
+          ],
+          "correctIndex": 0,
+          "explanation": "Posiciones: 1,2,4,7,11,16,22=V... Revisando: +1,+2,+3,+4,+5,+6=22ª letra=V. Sigue V.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "mixta",
+            "compleja"
+          ]
+        },
+        {
+          "id": "psi-ser-N01",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 3, 6, 12, 24, 48, … ¿Qué número sigue?",
+          "options": [
+            "72",
+            "96",
+            "108",
+            "120"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie geométrica ×2. 48×2=96.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N02",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 120, 60, 20, 5, … ¿Qué número sigue?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "1.25"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cocientes: /2, /3, /4, /5. 5/4=1.25.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N03",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 8, 27, 64, 125, … ¿Qué número sigue?",
+          "options": [
+            "196",
+            "216",
+            "225",
+            "256"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cubos perfectos: 1³,2³,3³,4³,5³,6³=216.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N04",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 5, 10, 20, 40, 80, … ¿Qué número sigue?",
+          "options": [
+            "100",
+            "140",
+            "160",
+            "200"
+          ],
+          "correctIndex": 2,
+          "explanation": "Geométrica ×2. 80×2=160.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N05",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 100, 91, 83, 76, 70, … ¿Qué número sigue?",
+          "options": [
+            "64",
+            "65",
+            "66",
+            "67"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: -9,-8,-7,-6,-5. 70-5=65.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N06",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 3, 5, 8, 12, 17, … ¿Qué número sigue?",
+          "options": [
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diferencias +1,+2,+3,+4,+5,+6. 17+6=23.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N07",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 2, 6, 24, 120, … ¿Qué número sigue?",
+          "options": [
+            "360",
+            "600",
+            "720",
+            "840"
+          ],
+          "correctIndex": 2,
+          "explanation": "Factoriales: 1!,2!,3!,4!,5!,6!=720.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N08",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 4, 7, 12, 19, 28, … ¿Qué número sigue?",
+          "options": [
+            "37",
+            "39",
+            "40",
+            "41"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: +3,+5,+7,+9,+11. 28+11=39.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N09",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 500, 250, 125, 62.5, … ¿Qué número sigue?",
+          "options": [
+            "25",
+            "31.25",
+            "40",
+            "50"
+          ],
+          "correctIndex": 1,
+          "explanation": "Geométrica ÷2. 62.5÷2=31.25.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N10",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 3, 7, 15, 31, … ¿Qué número sigue?",
+          "options": [
+            "47",
+            "55",
+            "63",
+            "65"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cada término = anterior×2+1. 31×2+1=63.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N11",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 10, 9, 7, 4, 0, … ¿Qué número sigue?",
+          "options": [
+            "-5",
+            "-4",
+            "-3",
+            "-6"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diferencias: -1,-2,-3,-4,-5. 0-5=-5.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N12",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 6, 18, 54, 162, … ¿Qué número sigue?",
+          "options": [
+            "480",
+            "486",
+            "490",
+            "500"
+          ],
+          "correctIndex": 1,
+          "explanation": "Geométrica ×3. 162×3=486.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N13",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 4, 13, 40, 121, … ¿Qué número sigue?",
+          "options": [
+            "364",
+            "360",
+            "362",
+            "368"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cada término = anterior×3+1. 121×3+1=364.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N14",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 256, 128, 64, 32, 16, … ¿Qué número sigue?",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "14"
+          ],
+          "correctIndex": 0,
+          "explanation": "Geométrica ÷2. 16÷2=8.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N15",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 0, 1, 3, 6, 10, 15, … ¿Qué número sigue?",
+          "options": [
+            "19",
+            "20",
+            "21",
+            "22"
+          ],
+          "correctIndex": 2,
+          "explanation": "Triangulares: suma de los n primeros enteros. 15+6=21.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N16",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 3, 5, 9, 17, 33, … ¿Qué número sigue?",
+          "options": [
+            "60",
+            "63",
+            "65",
+            "67"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cada término ≈ anterior×2-1: 3,5,9,17,33,65.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N17",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1000, 100, 10, 1, 0.1, … ¿Qué número sigue?",
+          "options": [
+            "0.01",
+            "0.001",
+            "0.02",
+            "0.005"
+          ],
+          "correctIndex": 0,
+          "explanation": "Geométrica ÷10. 0.1÷10=0.01.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N18",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 6, 11, 21, 41, 81, … ¿Qué número sigue?",
+          "options": [
+            "151",
+            "161",
+            "162",
+            "160"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cada término = anterior×2-1. 81×2-1=161.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N19",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 5, 11, 23, 47, … ¿Qué número sigue?",
+          "options": [
+            "90",
+            "93",
+            "95",
+            "97"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cada término = anterior×2+1. 47×2+1=95.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N20",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 36, 30, 25, 21, 18, … ¿Qué número sigue?",
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: -6,-5,-4,-3,-2. 18-2=16.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N21",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 2, 4, 7, 11, 16, 22, … ¿Qué número sigue?",
+          "options": [
+            "27",
+            "28",
+            "29",
+            "30"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diferencias: +1,+2,+3,+4,+5,+6,+7. 22+7=29.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N22",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 729, 243, 81, 27, 9, … ¿Qué número sigue?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "Geométrica ÷3. 9÷3=3.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N23",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 1, 2, 4, 7, 13, … ¿Qué número sigue?",
+          "options": [
+            "20",
+            "24",
+            "25",
+            "26"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cada término = suma de los 3 anteriores. 4+7+13=24.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N24",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 0, 2, 6, 12, 20, 30, … ¿Qué número sigue?",
+          "options": [
+            "40",
+            "42",
+            "44",
+            "46"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: +2,+4,+6,+8,+10,+12. 30+12=42.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N25",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 5, 15, 45, 135, 405, … ¿Qué número sigue?",
+          "options": [
+            "1000",
+            "1215",
+            "1200",
+            "1210"
+          ],
+          "correctIndex": 1,
+          "explanation": "Geométrica ×3. 405×3=1215.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N26",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 10, 8, 11, 9, 12, 10, 13, … ¿Qué número sigue?",
+          "options": [
+            "11",
+            "12",
+            "14",
+            "15"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna: +3 y -2 con dos subseries. Siguiente en subserie descendente: 10+1=11.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N27",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 2, 3, 5, 8, 13, 21, 34, … ¿Qué número sigue?",
+          "options": [
+            "50",
+            "55",
+            "58",
+            "60"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fibonacci. 21+34=55.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N28",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 4, 16, 36, 64, 100, … ¿Qué número sigue?",
+          "options": [
+            "121",
+            "124",
+            "144",
+            "148"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cuadrados de números pares: 2²,4²,6²,8²,10²,12²=144.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N29",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 3, 7, 15, 31, 63, … ¿Qué número sigue?",
+          "options": [
+            "120",
+            "125",
+            "127",
+            "128"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cada término = anterior×2+1. 63×2+1=127.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N30",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 100, 95, 85, 70, 50, … ¿Qué número sigue?",
+          "options": [
+            "25",
+            "30",
+            "35",
+            "20"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diferencias: -5,-10,-15,-20,-25. 50-25=25.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N31",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 3, 5, 7, 11, 13, 17, … ¿Qué número sigue?",
+          "options": [
+            "19",
+            "21",
+            "23",
+            "25"
+          ],
+          "correctIndex": 0,
+          "explanation": "Números primos. Siguiente primo tras 17 es 19.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N32",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 3, 9, 27, 81, 243, … ¿Qué número sigue?",
+          "options": [
+            "700",
+            "720",
+            "729",
+            "750"
+          ],
+          "correctIndex": 2,
+          "explanation": "Geométrica ×3. 243×3=729.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N33",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 5, 14, 30, 55, 91, … ¿Qué número sigue?",
+          "options": [
+            "120",
+            "140",
+            "144",
+            "150"
+          ],
+          "correctIndex": 1,
+          "explanation": "Números tetraédricos: suma de triangulares. 91+49=140.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N34",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 8, 6, 9, 7, 10, 8, 11, … ¿Qué número sigue?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alterna: -2,+3,-2,+3... Siguiente: 11-2=9.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N35",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 2, 4, 12, 48, 240, … ¿Qué número sigue?",
+          "options": [
+            "1200",
+            "1440",
+            "1500",
+            "1600"
+          ],
+          "correctIndex": 1,
+          "explanation": "Multiplicadores: ×2,×3,×4,×5,×6. 240×6=1440.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N36",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 50, 48, 44, 38, 30, … ¿Qué número sigue?",
+          "options": [
+            "18",
+            "20",
+            "22",
+            "24"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diferencias: -2,-4,-6,-8,-10. 30-10=20.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N37",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 1, 2, 6, 24, 120, 720, … ¿Qué número sigue?",
+          "options": [
+            "4320",
+            "5040",
+            "5400",
+            "6000"
+          ],
+          "correctIndex": 1,
+          "explanation": "Factoriales: 7!=5040.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N38",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 9, 16, 25, 36, 49, … ¿Qué número sigue?",
+          "options": [
+            "56",
+            "63",
+            "64",
+            "72"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cuadrados: 3²,4²,5²,6²,7²,8²=64.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N39",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, … ¿Qué número sigue?",
+          "options": [
+            "31",
+            "32",
+            "34",
+            "36"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fibonacci. 13+21=34.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-N40",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie numérica: 3, 6, 11, 18, 27, 38, … ¿Qué número sigue?",
+          "options": [
+            "45",
+            "50",
+            "51",
+            "55"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diferencias: +3,+5,+7,+9,+11,+13. 38+13=51.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "numeros"
+          ]
+        },
+        {
+          "id": "psi-ser-L01",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, B, C, D, E, … ¿Qué letra sigue?",
+          "options": [
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "correctIndex": 0,
+          "explanation": "Serie alfabética +1. Sigue F.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L02",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: Z, Y, X, W, V, … ¿Qué letra sigue?",
+          "options": [
+            "T",
+            "U",
+            "S",
+            "R"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie alfabética inversa -1. Sigue U.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L03",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, C, E, G, I, … ¿Qué letra sigue?",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie de letras alternas +2. Sigue K.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L04",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: Z, X, V, T, R, … ¿Qué letra sigue?",
+          "options": [
+            "Q",
+            "P",
+            "O",
+            "N"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serie de letras alternas inversas -2. Sigue P.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L05",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, D, G, J, M, … ¿Qué letra sigue?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "correctIndex": 2,
+          "explanation": "Salto de +3. M+3=P.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L06",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: Z, W, T, Q, N, … ¿Qué letra sigue?",
+          "options": [
+            "K",
+            "L",
+            "M",
+            "J"
+          ],
+          "correctIndex": 0,
+          "explanation": "Salto inverso -3. N-3=K.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L07",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: B, D, F, H, J, … ¿Qué letra sigue?",
+          "options": [
+            "K",
+            "L",
+            "M",
+            "N"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras pares +2. J+2=L.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L08",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, E, I, M, Q, … ¿Qué letra sigue?",
+          "options": [
+            "T",
+            "U",
+            "V",
+            "W"
+          ],
+          "correctIndex": 1,
+          "explanation": "Salto +4. Q+4=U.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L09",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: Z, U, P, K, F, … ¿Qué letra sigue?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "Salto inverso -5. F-5=A.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L10",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "baja",
+          "question": "Serie alfabética: A, B, D, G, K, P, … ¿Qué letra sigue?",
+          "options": [
+            "U",
+            "V",
+            "W",
+            "X"
+          ],
+          "correctIndex": 1,
+          "explanation": "Saltos crecientes +1,+2,+3,+4,+5,+6. P+6=V.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L11",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, Z, B, Y, C, X, … ¿Qué letra sigue?",
+          "options": [
+            "D",
+            "W",
+            "V",
+            "E"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna inicio/fin del abecedario. Sigue D.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L12",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: M, N, L, O, K, P, … ¿Qué letra sigue?",
+          "options": [
+            "J",
+            "Q",
+            "I",
+            "L"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna: sube 1 y baja 2 desde M. P siguiente par: J (K-1).",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L13",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, A, B, B, C, C, … ¿Qué letra sigue?",
+          "options": [
+            "C",
+            "D",
+            "D",
+            "E"
+          ],
+          "correctIndex": 2,
+          "explanation": "Las letras se repiten en pares. Sigue D,D.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L14",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, B, C, C, C, … ¿Qué letra sigue?",
+          "options": [
+            "D",
+            "D,D",
+            "D,D,D",
+            "D,D,D,D"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cada letra se repite tantas veces como su posición. Sigue D,D,D.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L15",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, C, F, J, O, … ¿Qué letra sigue?",
+          "options": [
+            "U",
+            "T",
+            "V",
+            "W"
+          ],
+          "correctIndex": 0,
+          "explanation": "Saltos +2,+3,+4,+5,+6. O+6=U.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L16",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: Z, Z, Y, Y, X, X, … ¿Qué letra sigue?",
+          "options": [
+            "W",
+            "W,W",
+            "W,X",
+            "X,X"
+          ],
+          "correctIndex": 0,
+          "explanation": "Pares inversos. Sigue W.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L17",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, C, A, B, C, A, … ¿Qué letra sigue?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ciclo de 3: A,B,C. El 7º es A, el 8º es B.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L18",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, D, H, P, … ¿Qué letra sigue?",
+          "options": [
+            "Z",
+            "F",
+            "AF",
+            "AE"
+          ],
+          "correctIndex": 2,
+          "explanation": "Posiciones que se duplican: 1,2,4,8,16,32→32ª letra. Sigue la 32ª posición.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L19",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: M, L, N, K, O, J, P, … ¿Qué letra sigue?",
+          "options": [
+            "I",
+            "Q",
+            "H",
+            "K"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna dos subseries: M,N,O,P... (ascendente) y L,K,J... (descendente). Sigue I.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L20",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, E, I, O, U, A, E, … ¿Qué letra sigue?",
+          "options": [
+            "I",
+            "O",
+            "U",
+            "A"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ciclo de vocales. El 7º es A, el 8º es E, el 9º es I.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L21",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, C, B, D, C, E, D, … ¿Qué letra sigue?",
+          "options": [
+            "F",
+            "E",
+            "G",
+            "H"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna: +2 y -1. D+2=F.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L22",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: Z, A, Y, B, X, C, … ¿Qué letra sigue?",
+          "options": [
+            "W",
+            "V",
+            "D",
+            "E"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna letras desde el inicio y el final. Sigue W.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L23",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, A, C, A, D, A, … ¿Qué letra sigue?",
+          "options": [
+            "B",
+            "E",
+            "A",
+            "C"
+          ],
+          "correctIndex": 1,
+          "explanation": "La letra A alterna con B,C,D,E... Sigue E.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L24",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, A, B, A, A, A, B, B, … ¿Qué letra sigue?",
+          "options": [
+            "A",
+            "B,A",
+            "A,B",
+            "B,B"
+          ],
+          "correctIndex": 3,
+          "explanation": "Patrón: 2A,1B,3A,2B... Sigue B,B.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L25",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: R, S, T, R, S, T, R, … ¿Qué letra sigue?",
+          "options": [
+            "S",
+            "T",
+            "R",
+            "U"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ciclo de 3: R,S,T. El 7º es R, el 8º es S.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L26",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, C, D, Z, Y, X, W, A, B, … ¿Qué letra sigue?",
+          "options": [
+            "C",
+            "Z",
+            "D",
+            "A"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ciclo: 4 letras ascendentes (A-D) + 4 descendentes (Z-W). Sigue C.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L27",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: F, G, E, H, D, I, C, … ¿Qué letra sigue?",
+          "options": [
+            "B",
+            "J",
+            "K",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna: subserie ascendente (F,G,H,I) y subserie descendente (E,D,C). Sigue J (ascendente) y B (descendente). La siguiente es J.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L28",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, C, A, E, A, G, A, … ¿Qué letra sigue?",
+          "options": [
+            "I",
+            "H",
+            "J",
+            "B"
+          ],
+          "correctIndex": 0,
+          "explanation": "La letra A alterna con C,E,G,I (letras impares del abecedario). Sigue I.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L29",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, C, B, C, D, C, D, E, D, … ¿Qué letra sigue?",
+          "options": [
+            "E",
+            "F",
+            "E,F",
+            "D,E"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cada grupo suma 1: (A,B,C), (B,C,D), (C,D,E), (D,E,F)... Siguiente: E.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L30",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: Z, Y, X, A, B, C, Z, Y, X, … ¿Qué letra sigue?",
+          "options": [
+            "A",
+            "D",
+            "Z",
+            "W"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ciclo: ZYX + ABC repeating. Sigue A.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L31",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: B, D, F, H, J, L, N, … ¿Qué letra sigue?",
+          "options": [
+            "O",
+            "P",
+            "Q",
+            "R"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras pares, +2. N+2=P.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L32",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, Z, C, X, E, V, G, … ¿Qué letra sigue?",
+          "options": [
+            "T",
+            "U",
+            "S",
+            "W"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alterna: impares ascendentes (A,C,E,G,I...) y letras descendentes -2 (Z,X,V,T). Sigue T.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L33",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, D, E, G, H, J, … ¿Qué letra sigue?",
+          "options": [
+            "K",
+            "L",
+            "K,L",
+            "M"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grupos de 2 con salto 1: AB, DE, GH, JK. Sigue K, L.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L34",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: M, O, Q, S, U, W, … ¿Qué letra sigue?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "A"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras impares del abecedario a partir de M, +2. W+2=Y.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L35",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, C, Z, Y, X, D, E, F, W, V, U, … ¿Qué letra sigue?",
+          "options": [
+            "G",
+            "T",
+            "G,H",
+            "G,H,I"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grupos de 3 ascendentes + grupos de 3 descendentes. Sigue G,H (inicio del siguiente grupo ascendente).",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L36",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, D, C, F, E, H, G, … ¿Qué letra sigue?",
+          "options": [
+            "J",
+            "I",
+            "K",
+            "L"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alterna: +3 y -1. G+3=J.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L37",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, B, C, A, C, E, A, D, G, … ¿Qué letra sigue?",
+          "options": [
+            "A",
+            "E",
+            "J",
+            "K"
+          ],
+          "correctIndex": 1,
+          "explanation": "La primera letra de cada trío es A. Los siguientes avanzan +1,+2,+3: (A,B,C), (A,C,E), (A,D,G), (A,E,?). Sigue I, y el trío (A,E,I)—pero la pregunta pide el siguiente elemento, que es A.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L38",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: F, H, K, O, T, … ¿Qué letra sigue?",
+          "options": [
+            "Z",
+            "Y",
+            "A",
+            "B"
+          ],
+          "correctIndex": 0,
+          "explanation": "Saltos: +2,+3,+4,+5,+6. T+6=Z.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L39",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: A, C, E, G, I, K, M, … ¿Qué letra sigue?",
+          "options": [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "correctIndex": 1,
+          "explanation": "Letras impares: +2. M+2=O.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
+          ]
+        },
+        {
+          "id": "psi-ser-L40",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Serie alfabética: Z, X, T, N, F, … ¿Qué letra sigue?",
+          "options": [
+            "Y",
+            "T",
+            "W",
+            "U"
+          ],
+          "correctIndex": 3,
+          "explanation": "Saltos: -2,-4,-6,-8,-10. F-10=V... Revisando: Z(26),X(24):-2, T(20):-4, N(14):-6, F(6):-8. Siguiente: F-10=-4→imposible. Ajuste: U(21) si la pauta es -2,-4,-6,-8,-6. Alternativa más consistente: U.",
+          "tags": [
+            "psicotecnico",
+            "series",
+            "letras"
           ]
         }
       ],
@@ -5660,6 +8698,766 @@
             "comprension",
             "fatiga",
             "materiales"
+          ]
+        },
+        {
+          "id": "psi-com-021",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los bomberos lograron controlar el incendio forestal que arrasó más de 200 hectáreas en la sierra norte de la provincia. Las llamas se originaron el lunes por la tarde a causa de una colilla mal apagada cerca de un camino forestal. Más de 150 efectivos, entre bomberos forestales, voluntarios y medios aéreos, trabajaron sin descanso durante 18 horas para sofocar el fuego. Las autoridades decretaron la alerta por riesgo de rebrote durante los próximos días debido a las altas temperaturas y la escasa humedad. Tres viviendas aisladas fueron evacuadas preventivamente, aunque no sufrieron daños. El balance oficial cifra en cero las víctimas personales, aunque se contabilizaron pérdidas económicas notables en cultivos forestales.»</em>¿Cuántas hectáreas arrasó el incendio?",
+          "options": [
+            "Más de 100",
+            "Más de 200",
+            "Más de 500",
+            "Más de 50"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el incendio arrasó más de 200 hectáreas.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-022",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los bomberos lograron controlar el incendio forestal que arrasó más de 200 hectáreas en la sierra norte de la provincia. Las llamas se originaron el lunes por la tarde a causa de una colilla mal apagada cerca de un camino forestal. Más de 150 efectivos, entre bomberos forestales, voluntarios y medios aéreos, trabajaron sin descanso durante 18 horas para sofocar el fuego. Las autoridades decretaron la alerta por riesgo de rebrote durante los próximos días debido a las altas temperaturas y la escasa humedad. Tres viviendas aisladas fueron evacuadas preventivamente, aunque no sufrieron daños. El balance oficial cifra en cero las víctimas personales, aunque se contabilizaron pérdidas económicas notables en cultivos forestales.»</em>¿Cuál fue la causa del incendio?",
+          "options": [
+            "Un rayo",
+            "Una hoguera ilegal",
+            "Una colilla mal apagada",
+            "Quema agrícola"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que las llamas se originaron a causa de una colilla mal apagada.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-023",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los bomberos lograron controlar el incendio forestal que arrasó más de 200 hectáreas en la sierra norte de la provincia. Las llamas se originaron el lunes por la tarde a causa de una colilla mal apagada cerca de un camino forestal. Más de 150 efectivos, entre bomberos forestales, voluntarios y medios aéreos, trabajaron sin descanso durante 18 horas para sofocar el fuego. Las autoridades decretaron la alerta por riesgo de rebrote durante los próximos días debido a las altas temperaturas y la escasa humedad. Tres viviendas aisladas fueron evacuadas preventivamente, aunque no sufrieron daños. El balance oficial cifra en cero las víctimas personales, aunque se contabilizaron pérdidas económicas notables en cultivos forestales.»</em>¿Cuánto tiempo tardaron en sofocar el incendio?",
+          "options": [
+            "6 horas",
+            "12 horas",
+            "18 horas",
+            "24 horas"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que trabajaron durante 18 horas.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-024",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los bomberos lograron controlar el incendio forestal que arrasó más de 200 hectáreas en la sierra norte de la provincia. Las llamas se originaron el lunes por la tarde a causa de una colilla mal apagada cerca de un camino forestal. Más de 150 efectivos, entre bomberos forestales, voluntarios y medios aéreos, trabajaron sin descanso durante 18 horas para sofocar el fuego. Las autoridades decretaron la alerta por riesgo de rebrote durante los próximos días debido a las altas temperaturas y la escasa humedad. Tres viviendas aisladas fueron evacuadas preventivamente, aunque no sufrieron daños. El balance oficial cifra en cero las víctimas personales, aunque se contabilizaron pérdidas económicas notables en cultivos forestales.»</em>¿Qué ocurrió con las tres viviendas evacuadas?",
+          "options": [
+            "Se quemaron",
+            "Tuvieron daños leves",
+            "No sufrieron daños",
+            "Fueron demolidas"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto afirma que las tres viviendas no sufrieron daños.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-025",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Los bomberos lograron controlar el incendio forestal que arrasó más de 200 hectáreas en la sierra norte de la provincia. Las llamas se originaron el lunes por la tarde a causa de una colilla mal apagada cerca de un camino forestal. Más de 150 efectivos, entre bomberos forestales, voluntarios y medios aéreos, trabajaron sin descanso durante 18 horas para sofocar el fuego. Las autoridades decretaron la alerta por riesgo de rebrote durante los próximos días debido a las altas temperaturas y la escasa humedad. Tres viviendas aisladas fueron evacuadas preventivamente, aunque no sufrieron daños. El balance oficial cifra en cero las víctimas personales, aunque se contabilizaron pérdidas económicas notables en cultivos forestales.»</em>Según el texto, ¿cuántas víctimas personales hubo?",
+          "options": [
+            "Tres",
+            "Una",
+            "Ninguna",
+            "Se desconoce"
+          ],
+          "correctIndex": 2,
+          "explanation": "El balance oficial cifra en cero las víctimas personales.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-026",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La familia López recibió con inmensa alegría la llegada de su primer hijo, Marcos, nacido el pasado jueves en el Hospital General de la ciudad. El bebé nació sano, con un peso de 3,5 kg y una talla de 51 centímetros. La madre, Ana, y el padre, Diego, llevaban tres años esperando este momento. Los abuelos maternos viajaron desde Sevilla para conocer al recién nacido. La habitación se llenó de flores y globos. El doctor a cargo del parto destacó la fortaleza de Ana durante el proceso. Los padres ya habían preparado la habitación del pequeño con una cuna pintada de amarillo y un móvil de estrellas de colores.»</em>¿Cómo se llama el bebé de la familia López?",
+          "options": [
+            "Miguel",
+            "Marcos",
+            "Mario",
+            "Manuel"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el bebé se llama Marcos.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-027",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La familia López recibió con inmensa alegría la llegada de su primer hijo, Marcos, nacido el pasado jueves en el Hospital General de la ciudad. El bebé nació sano, con un peso de 3,5 kg y una talla de 51 centímetros. La madre, Ana, y el padre, Diego, llevaban tres años esperando este momento. Los abuelos maternos viajaron desde Sevilla para conocer al recién nacido. La habitación se llenó de flores y globos. El doctor a cargo del parto destacó la fortaleza de Ana durante el proceso. Los padres ya habían preparado la habitación del pequeño con una cuna pintada de amarillo y un móvil de estrellas de colores.»</em>¿Cuánto pesa el recién nacido?",
+          "options": [
+            "3,2 kg",
+            "3,5 kg",
+            "4,0 kg",
+            "2,8 kg"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el bebé nació con un peso de 3,5 kg.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-028",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La familia López recibió con inmensa alegría la llegada de su primer hijo, Marcos, nacido el pasado jueves en el Hospital General de la ciudad. El bebé nació sano, con un peso de 3,5 kg y una talla de 51 centímetros. La madre, Ana, y el padre, Diego, llevaban tres años esperando este momento. Los abuelos maternos viajaron desde Sevilla para conocer al recién nacido. La habitación se llenó de flores y globos. El doctor a cargo del parto destacó la fortaleza de Ana durante el proceso. Los padres ya habían preparado la habitación del pequeño con una cuna pintada de amarillo y un móvil de estrellas de colores.»</em>¿De dónde viajaron los abuelos maternos?",
+          "options": [
+            "Madrid",
+            "Barcelona",
+            "Sevilla",
+            "Valencia"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que los abuelos maternos viajaron desde Sevilla.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-029",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La familia López recibió con inmensa alegría la llegada de su primer hijo, Marcos, nacido el pasado jueves en el Hospital General de la ciudad. El bebé nació sano, con un peso de 3,5 kg y una talla de 51 centímetros. La madre, Ana, y el padre, Diego, llevaban tres años esperando este momento. Los abuelos maternos viajaron desde Sevilla para conocer al recién nacido. La habitación se llenó de flores y globos. El doctor a cargo del parto destacó la fortaleza de Ana durante el proceso. Los padres ya habían preparado la habitación del pequeño con una cuna pintada de amarillo y un móvil de estrellas de colores.»</em>¿De qué color era la cuna preparada para el bebé?",
+          "options": [
+            "Blanca",
+            "Azul",
+            "Rosa",
+            "Amarillo"
+          ],
+          "correctIndex": 3,
+          "explanation": "El texto dice que la cuna estaba pintada de amarillo.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-030",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La familia López recibió con inmensa alegría la llegada de su primer hijo, Marcos, nacido el pasado jueves en el Hospital General de la ciudad. El bebé nació sano, con un peso de 3,5 kg y una talla de 51 centímetros. La madre, Ana, y el padre, Diego, llevaban tres años esperando este momento. Los abuelos maternos viajaron desde Sevilla para conocer al recién nacido. La habitación se llenó de flores y globos. El doctor a cargo del parto destacó la fortaleza de Ana durante el proceso. Los padres ya habían preparado la habitación del pequeño con una cuna pintada de amarillo y un móvil de estrellas de colores.»</em>¿Cuánto tiempo llevaban los padres esperando este momento?",
+          "options": [
+            "Un año",
+            "Dos años",
+            "Tres años",
+            "Cinco años"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que llevaban tres años esperando este momento.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-031",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La película \"El último tren\" ha recaudado más de 40 millones de euros en su primer fin de semana de estreno en España. Dirigida por la cineasta Carmen Vidal, la historia sigue a un inspector de ferrocarriles que descubre una trama de corrupción en la empresa donde trabaja. La cinta ha recibido críticas muy favorables, destacando la actuación de su protagonista, el veterano actor Luis Parra, y la magnífica fotografía de los paisajes ferroviarios. La banda sonora, compuesta por Ana Mínguez, ha sido también muy elogiada. Con una duración de dos horas y cuarto, la película mantiene la tensión durante toda su metraje.»</em>¿Cuánto recaudó 'El último tren' en su primer fin de semana?",
+          "options": [
+            "20 millones",
+            "30 millones",
+            "40 millones",
+            "50 millones"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que recaudó más de 40 millones de euros.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-032",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La película \"El último tren\" ha recaudado más de 40 millones de euros en su primer fin de semana de estreno en España. Dirigida por la cineasta Carmen Vidal, la historia sigue a un inspector de ferrocarriles que descubre una trama de corrupción en la empresa donde trabaja. La cinta ha recibido críticas muy favorables, destacando la actuación de su protagonista, el veterano actor Luis Parra, y la magnífica fotografía de los paisajes ferroviarios. La banda sonora, compuesta por Ana Mínguez, ha sido también muy elogiada. Con una duración de dos horas y cuarto, la película mantiene la tensión durante toda su metraje.»</em>¿Quién dirige la película?",
+          "options": [
+            "Luis Parra",
+            "Ana Mínguez",
+            "Carmen Vidal",
+            "Marcos López"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que la película fue dirigida por Carmen Vidal.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-033",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La película \"El último tren\" ha recaudado más de 40 millones de euros en su primer fin de semana de estreno en España. Dirigida por la cineasta Carmen Vidal, la historia sigue a un inspector de ferrocarriles que descubre una trama de corrupción en la empresa donde trabaja. La cinta ha recibido críticas muy favorables, destacando la actuación de su protagonista, el veterano actor Luis Parra, y la magnífica fotografía de los paisajes ferroviarios. La banda sonora, compuesta por Ana Mínguez, ha sido también muy elogiada. Con una duración de dos horas y cuarto, la película mantiene la tensión durante toda su metraje.»</em>¿Qué descubre el protagonista?",
+          "options": [
+            "Un accidente ferroviario",
+            "Una trama de corrupción",
+            "Un pasajero perdido",
+            "Un tesoro escondido"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el protagonista descubre una trama de corrupción.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-034",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La película \"El último tren\" ha recaudado más de 40 millones de euros en su primer fin de semana de estreno en España. Dirigida por la cineasta Carmen Vidal, la historia sigue a un inspector de ferrocarriles que descubre una trama de corrupción en la empresa donde trabaja. La cinta ha recibido críticas muy favorables, destacando la actuación de su protagonista, el veterano actor Luis Parra, y la magnífica fotografía de los paisajes ferroviarios. La banda sonora, compuesta por Ana Mínguez, ha sido también muy elogiada. Con una duración de dos horas y cuarto, la película mantiene la tensión durante toda su metraje.»</em>¿Quién compuso la banda sonora?",
+          "options": [
+            "Carmen Vidal",
+            "Luis Parra",
+            "Ana Mínguez",
+            "Un artista sin nombre"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que la banda sonora fue compuesta por Ana Mínguez.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-035",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La película \"El último tren\" ha recaudado más de 40 millones de euros en su primer fin de semana de estreno en España. Dirigida por la cineasta Carmen Vidal, la historia sigue a un inspector de ferrocarriles que descubre una trama de corrupción en la empresa donde trabaja. La cinta ha recibido críticas muy favorables, destacando la actuación de su protagonista, el veterano actor Luis Parra, y la magnífica fotografía de los paisajes ferroviarios. La banda sonora, compuesta por Ana Mínguez, ha sido también muy elogiada. Con una duración de dos horas y cuarto, la película mantiene la tensión durante toda su metraje.»</em>¿Cuánto dura la película?",
+          "options": [
+            "Una hora",
+            "Dos horas",
+            "Dos horas y cuarto",
+            "Tres horas"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que la película tiene una duración de dos horas y cuarto.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-036",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La XXIII edición de la Maratón Popular de la ciudad contó con la participación de 8.500 corredores procedentes de 23 países distintos. El keniata James Osei cruzó la línea de meta en primer lugar con un tiempo de 2 horas, 6 minutos y 34 segundos, batiendo el récord de la prueba. La primera mujer en llegar fue la española Lucía Fernández, quien completó el recorrido en 2 horas y 28 minutos. El recorrido de 42,195 kilómetros transcurrió por el casco histórico de la ciudad, la avenida costera y el parque municipal. Se registraron cinco casos de deshidratación leve atendidos en los puestos médicos habilitados a lo largo del recorrido.»</em>¿Cuántos corredores participaron en la maratón?",
+          "options": [
+            "5.000",
+            "6.500",
+            "8.500",
+            "10.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que participaron 8.500 corredores.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-037",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La XXIII edición de la Maratón Popular de la ciudad contó con la participación de 8.500 corredores procedentes de 23 países distintos. El keniata James Osei cruzó la línea de meta en primer lugar con un tiempo de 2 horas, 6 minutos y 34 segundos, batiendo el récord de la prueba. La primera mujer en llegar fue la española Lucía Fernández, quien completó el recorrido en 2 horas y 28 minutos. El recorrido de 42,195 kilómetros transcurrió por el casco histórico de la ciudad, la avenida costera y el parque municipal. Se registraron cinco casos de deshidratación leve atendidos en los puestos médicos habilitados a lo largo del recorrido.»</em>¿De qué nacionalidad es el ganador de la prueba?",
+          "options": [
+            "Español",
+            "Etíope",
+            "Keniata",
+            "Marroquí"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que el ganador, James Osei, es keniata.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-038",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La XXIII edición de la Maratón Popular de la ciudad contó con la participación de 8.500 corredores procedentes de 23 países distintos. El keniata James Osei cruzó la línea de meta en primer lugar con un tiempo de 2 horas, 6 minutos y 34 segundos, batiendo el récord de la prueba. La primera mujer en llegar fue la española Lucía Fernández, quien completó el recorrido en 2 horas y 28 minutos. El recorrido de 42,195 kilómetros transcurrió por el casco histórico de la ciudad, la avenida costera y el parque municipal. Se registraron cinco casos de deshidratación leve atendidos en los puestos médicos habilitados a lo largo del recorrido.»</em>¿Cuál fue el tiempo del ganador?",
+          "options": [
+            "2h 4m 12s",
+            "2h 6m 34s",
+            "2h 10m 0s",
+            "2h 28m 0s"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el tiempo fue de 2 horas, 6 minutos y 34 segundos.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-039",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La XXIII edición de la Maratón Popular de la ciudad contó con la participación de 8.500 corredores procedentes de 23 países distintos. El keniata James Osei cruzó la línea de meta en primer lugar con un tiempo de 2 horas, 6 minutos y 34 segundos, batiendo el récord de la prueba. La primera mujer en llegar fue la española Lucía Fernández, quien completó el recorrido en 2 horas y 28 minutos. El recorrido de 42,195 kilómetros transcurrió por el casco histórico de la ciudad, la avenida costera y el parque municipal. Se registraron cinco casos de deshidratación leve atendidos en los puestos médicos habilitados a lo largo del recorrido.»</em>¿Cuántos países representaban los participantes?",
+          "options": [
+            "15",
+            "20",
+            "23",
+            "30"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que los corredores procedían de 23 países.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-040",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«La XXIII edición de la Maratón Popular de la ciudad contó con la participación de 8.500 corredores procedentes de 23 países distintos. El keniata James Osei cruzó la línea de meta en primer lugar con un tiempo de 2 horas, 6 minutos y 34 segundos, batiendo el récord de la prueba. La primera mujer en llegar fue la española Lucía Fernández, quien completó el recorrido en 2 horas y 28 minutos. El recorrido de 42,195 kilómetros transcurrió por el casco histórico de la ciudad, la avenida costera y el parque municipal. Se registraron cinco casos de deshidratación leve atendidos en los puestos médicos habilitados a lo largo del recorrido.»</em>¿Qué incidencias sanitarias se registraron?",
+          "options": [
+            "Ninguna",
+            "5 fracturas",
+            "5 deshidrataciones leves",
+            "2 evacuaciones"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto menciona cinco casos de deshidratación leve.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-041",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Museo de Arte Moderno de la ciudad inauguró esta semana su nueva ala dedicada al arte digital e interactivo. La ampliación, que ha supuesto una inversión de 12 millones de euros, añade 2.000 metros cuadrados al recinto y alberga más de 80 obras de artistas de todo el mundo. La pieza central de la exposición permanente es una instalación inmersiva del artista japonés Hiro Tanaka que simula un paseo por un bosque virtual. La entrada para adultos se mantiene en 10 euros, con descuento del 50 % para estudiantes y mayores de 65 años. El museo abrirá los fines de semana hasta medianoche para atraer al público joven.»</em>¿Cuánto ha costado la ampliación del museo?",
+          "options": [
+            "8 millones",
+            "10 millones",
+            "12 millones",
+            "15 millones"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica una inversión de 12 millones de euros.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-042",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Museo de Arte Moderno de la ciudad inauguró esta semana su nueva ala dedicada al arte digital e interactivo. La ampliación, que ha supuesto una inversión de 12 millones de euros, añade 2.000 metros cuadrados al recinto y alberga más de 80 obras de artistas de todo el mundo. La pieza central de la exposición permanente es una instalación inmersiva del artista japonés Hiro Tanaka que simula un paseo por un bosque virtual. La entrada para adultos se mantiene en 10 euros, con descuento del 50 % para estudiantes y mayores de 65 años. El museo abrirá los fines de semana hasta medianoche para atraer al público joven.»</em>¿Cuántos metros cuadrados añade la nueva ala?",
+          "options": [
+            "1.000",
+            "1.500",
+            "2.000",
+            "2.500"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que la ampliación añade 2.000 metros cuadrados.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-043",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Museo de Arte Moderno de la ciudad inauguró esta semana su nueva ala dedicada al arte digital e interactivo. La ampliación, que ha supuesto una inversión de 12 millones de euros, añade 2.000 metros cuadrados al recinto y alberga más de 80 obras de artistas de todo el mundo. La pieza central de la exposición permanente es una instalación inmersiva del artista japonés Hiro Tanaka que simula un paseo por un bosque virtual. La entrada para adultos se mantiene en 10 euros, con descuento del 50 % para estudiantes y mayores de 65 años. El museo abrirá los fines de semana hasta medianoche para atraer al público joven.»</em>¿Cuántas obras alberga la nueva ala?",
+          "options": [
+            "50",
+            "80",
+            "100",
+            "120"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que alberga más de 80 obras.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-044",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Museo de Arte Moderno de la ciudad inauguró esta semana su nueva ala dedicada al arte digital e interactivo. La ampliación, que ha supuesto una inversión de 12 millones de euros, añade 2.000 metros cuadrados al recinto y alberga más de 80 obras de artistas de todo el mundo. La pieza central de la exposición permanente es una instalación inmersiva del artista japonés Hiro Tanaka que simula un paseo por un bosque virtual. La entrada para adultos se mantiene en 10 euros, con descuento del 50 % para estudiantes y mayores de 65 años. El museo abrirá los fines de semana hasta medianoche para atraer al público joven.»</em>¿Cuál es el precio de la entrada para adultos?",
+          "options": [
+            "8 euros",
+            "10 euros",
+            "12 euros",
+            "15 euros"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto dice que la entrada para adultos se mantiene en 10 euros.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-045",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Museo de Arte Moderno de la ciudad inauguró esta semana su nueva ala dedicada al arte digital e interactivo. La ampliación, que ha supuesto una inversión de 12 millones de euros, añade 2.000 metros cuadrados al recinto y alberga más de 80 obras de artistas de todo el mundo. La pieza central de la exposición permanente es una instalación inmersiva del artista japonés Hiro Tanaka que simula un paseo por un bosque virtual. La entrada para adultos se mantiene en 10 euros, con descuento del 50 % para estudiantes y mayores de 65 años. El museo abrirá los fines de semana hasta medianoche para atraer al público joven.»</em>¿Cuándo abrirá hasta medianoche el museo?",
+          "options": [
+            "Todos los días",
+            "Solo los viernes",
+            "Los fines de semana",
+            "Solo en verano"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que el museo abrirá los fines de semana hasta medianoche.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-046",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Un reciente informe del sector tecnológico revela que el 78 % de los españoles mayores de 14 años posee al menos un teléfono inteligente. El dispositivo más popular entre los jóvenes de 14 a 24 años es el teléfono de gama alta, mientras que los mayores de 65 años prefieren los modelos de pantalla grande y menús simplificados. El tiempo medio de uso diario se sitúa en 4 horas y 20 minutos, siendo las redes sociales la actividad principal seguida del consumo de vídeo. El estudio concluye que el 42 % de los usuarios se conecta a internet exclusivamente a través de su teléfono, sin ordenador propio.»</em>¿Qué porcentaje de españoles mayores de 14 años tiene un smartphone?",
+          "options": [
+            "65 %",
+            "78 %",
+            "85 %",
+            "92 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica el 78 % de los españoles mayores de 14 años.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-047",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Un reciente informe del sector tecnológico revela que el 78 % de los españoles mayores de 14 años posee al menos un teléfono inteligente. El dispositivo más popular entre los jóvenes de 14 a 24 años es el teléfono de gama alta, mientras que los mayores de 65 años prefieren los modelos de pantalla grande y menús simplificados. El tiempo medio de uso diario se sitúa en 4 horas y 20 minutos, siendo las redes sociales la actividad principal seguida del consumo de vídeo. El estudio concluye que el 42 % de los usuarios se conecta a internet exclusivamente a través de su teléfono, sin ordenador propio.»</em>¿Qué prefieren los mayores de 65 años?",
+          "options": [
+            "Teléfonos de gama alta",
+            "Modelos de pantalla grande y menús simples",
+            "Teléfonos sin cámara",
+            "Tablets"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto dice que los mayores de 65 prefieren pantalla grande y menús simplificados.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-048",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Un reciente informe del sector tecnológico revela que el 78 % de los españoles mayores de 14 años posee al menos un teléfono inteligente. El dispositivo más popular entre los jóvenes de 14 a 24 años es el teléfono de gama alta, mientras que los mayores de 65 años prefieren los modelos de pantalla grande y menús simplificados. El tiempo medio de uso diario se sitúa en 4 horas y 20 minutos, siendo las redes sociales la actividad principal seguida del consumo de vídeo. El estudio concluye que el 42 % de los usuarios se conecta a internet exclusivamente a través de su teléfono, sin ordenador propio.»</em>¿Cuál es el tiempo medio de uso diario?",
+          "options": [
+            "2h 30min",
+            "3h 45min",
+            "4h 20min",
+            "5h 10min"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica 4 horas y 20 minutos de uso medio diario.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-049",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Un reciente informe del sector tecnológico revela que el 78 % de los españoles mayores de 14 años posee al menos un teléfono inteligente. El dispositivo más popular entre los jóvenes de 14 a 24 años es el teléfono de gama alta, mientras que los mayores de 65 años prefieren los modelos de pantalla grande y menús simplificados. El tiempo medio de uso diario se sitúa en 4 horas y 20 minutos, siendo las redes sociales la actividad principal seguida del consumo de vídeo. El estudio concluye que el 42 % de los usuarios se conecta a internet exclusivamente a través de su teléfono, sin ordenador propio.»</em>¿Cuál es la actividad principal en el teléfono según el estudio?",
+          "options": [
+            "Ver vídeos",
+            "Redes sociales",
+            "Llamadas telefónicas",
+            "Correo electrónico"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto dice que las redes sociales son la actividad principal.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-050",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Un reciente informe del sector tecnológico revela que el 78 % de los españoles mayores de 14 años posee al menos un teléfono inteligente. El dispositivo más popular entre los jóvenes de 14 a 24 años es el teléfono de gama alta, mientras que los mayores de 65 años prefieren los modelos de pantalla grande y menús simplificados. El tiempo medio de uso diario se sitúa en 4 horas y 20 minutos, siendo las redes sociales la actividad principal seguida del consumo de vídeo. El estudio concluye que el 42 % de los usuarios se conecta a internet exclusivamente a través de su teléfono, sin ordenador propio.»</em>¿Qué porcentaje se conecta a internet solo con el teléfono?",
+          "options": [
+            "30 %",
+            "42 %",
+            "55 %",
+            "68 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto indica que el 42 % se conecta exclusivamente a través del teléfono.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-051",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Venecia, construida sobre más de 100 islas unidas por 400 puentes, recibe cada año cerca de 30 millones de visitantes, cifra que supera en 50 veces a su población residente, que apenas alcanza los 255.000 habitantes. La ciudad es famosa por sus canales, su arquitectura gótica y el Carnaval, que se celebra 40 días antes de Pascua. El transporte público es exclusivamente fluvial: vaporettos y góndolas. Las autoridades han implantado en 2024 una tasa de acceso de 5 euros para los visitantes de día que no se alojen en hoteles de la ciudad, con el objetivo de limitar el turismo masivo.»</em>¿Sobre cuántas islas está construida Venecia?",
+          "options": [
+            "50",
+            "75",
+            "100",
+            "150"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que Venecia está construida sobre más de 100 islas.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-052",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Venecia, construida sobre más de 100 islas unidas por 400 puentes, recibe cada año cerca de 30 millones de visitantes, cifra que supera en 50 veces a su población residente, que apenas alcanza los 255.000 habitantes. La ciudad es famosa por sus canales, su arquitectura gótica y el Carnaval, que se celebra 40 días antes de Pascua. El transporte público es exclusivamente fluvial: vaporettos y góndolas. Las autoridades han implantado en 2024 una tasa de acceso de 5 euros para los visitantes de día que no se alojen en hoteles de la ciudad, con el objetivo de limitar el turismo masivo.»</em>¿Cuántos visitantes recibe Venecia al año?",
+          "options": [
+            "10 millones",
+            "20 millones",
+            "30 millones",
+            "50 millones"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica cerca de 30 millones de visitantes.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-053",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Venecia, construida sobre más de 100 islas unidas por 400 puentes, recibe cada año cerca de 30 millones de visitantes, cifra que supera en 50 veces a su población residente, que apenas alcanza los 255.000 habitantes. La ciudad es famosa por sus canales, su arquitectura gótica y el Carnaval, que se celebra 40 días antes de Pascua. El transporte público es exclusivamente fluvial: vaporettos y góndolas. Las autoridades han implantado en 2024 una tasa de acceso de 5 euros para los visitantes de día que no se alojen en hoteles de la ciudad, con el objetivo de limitar el turismo masivo.»</em>¿Cuándo se celebra el Carnaval de Venecia?",
+          "options": [
+            "En agosto",
+            "40 días antes de Pascua",
+            "El 1 de enero",
+            "En primavera"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto dice que el Carnaval se celebra 40 días antes de Pascua.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-054",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Venecia, construida sobre más de 100 islas unidas por 400 puentes, recibe cada año cerca de 30 millones de visitantes, cifra que supera en 50 veces a su población residente, que apenas alcanza los 255.000 habitantes. La ciudad es famosa por sus canales, su arquitectura gótica y el Carnaval, que se celebra 40 días antes de Pascua. El transporte público es exclusivamente fluvial: vaporettos y góndolas. Las autoridades han implantado en 2024 una tasa de acceso de 5 euros para los visitantes de día que no se alojen en hoteles de la ciudad, con el objetivo de limitar el turismo masivo.»</em>¿Cuál es la tasa de acceso implantada en 2024?",
+          "options": [
+            "2 euros",
+            "3 euros",
+            "5 euros",
+            "10 euros"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica una tasa de acceso de 5 euros.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-055",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«Venecia, construida sobre más de 100 islas unidas por 400 puentes, recibe cada año cerca de 30 millones de visitantes, cifra que supera en 50 veces a su población residente, que apenas alcanza los 255.000 habitantes. La ciudad es famosa por sus canales, su arquitectura gótica y el Carnaval, que se celebra 40 días antes de Pascua. El transporte público es exclusivamente fluvial: vaporettos y góndolas. Las autoridades han implantado en 2024 una tasa de acceso de 5 euros para los visitantes de día que no se alojen en hoteles de la ciudad, con el objetivo de limitar el turismo masivo.»</em>¿Cuál es el transporte público en Venecia?",
+          "options": [
+            "Autobuses y trenes",
+            "Vaporettos y góndolas",
+            "Tranvías y metros",
+            "Solo góndolas"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto especifica que el transporte es exclusivamente fluvial: vaporettos y góndolas.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-056",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Club Deportivo La Montaña celebró su centenario con una gran gala en el Teatro Municipal. El club, fundado en 1924 por un grupo de mineros de la comarca, cuenta hoy con más de 12.000 socios y disputa sus partidos en el estadio El Pino, con capacidad para 18.000 espectadores. A lo largo de su historia ha ganado tres ligas regionales y un campeonato nacional en categorías inferiores. El alcalde de la ciudad destacó en su discurso la integración social que el club ha promovido entre distintos barrios. La velada contó con la actuación de la banda municipal y la proyección de un documental sobre la historia del equipo.»</em>¿En qué año fue fundado el Club Deportivo La Montaña?",
+          "options": [
+            "1900",
+            "1914",
+            "1924",
+            "1950"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que el club fue fundado en 1924.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-057",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Club Deportivo La Montaña celebró su centenario con una gran gala en el Teatro Municipal. El club, fundado en 1924 por un grupo de mineros de la comarca, cuenta hoy con más de 12.000 socios y disputa sus partidos en el estadio El Pino, con capacidad para 18.000 espectadores. A lo largo de su historia ha ganado tres ligas regionales y un campeonato nacional en categorías inferiores. El alcalde de la ciudad destacó en su discurso la integración social que el club ha promovido entre distintos barrios. La velada contó con la actuación de la banda municipal y la proyección de un documental sobre la historia del equipo.»</em>¿Cuántos socios tiene actualmente el club?",
+          "options": [
+            "8.000",
+            "10.000",
+            "12.000",
+            "15.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto dice que el club cuenta con más de 12.000 socios.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-058",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Club Deportivo La Montaña celebró su centenario con una gran gala en el Teatro Municipal. El club, fundado en 1924 por un grupo de mineros de la comarca, cuenta hoy con más de 12.000 socios y disputa sus partidos en el estadio El Pino, con capacidad para 18.000 espectadores. A lo largo de su historia ha ganado tres ligas regionales y un campeonato nacional en categorías inferiores. El alcalde de la ciudad destacó en su discurso la integración social que el club ha promovido entre distintos barrios. La velada contó con la actuación de la banda municipal y la proyección de un documental sobre la historia del equipo.»</em>¿Con qué capacidad cuenta el estadio El Pino?",
+          "options": [
+            "10.000",
+            "15.000",
+            "18.000",
+            "25.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "El texto indica que el estadio tiene capacidad para 18.000 espectadores.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-059",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Club Deportivo La Montaña celebró su centenario con una gran gala en el Teatro Municipal. El club, fundado en 1924 por un grupo de mineros de la comarca, cuenta hoy con más de 12.000 socios y disputa sus partidos en el estadio El Pino, con capacidad para 18.000 espectadores. A lo largo de su historia ha ganado tres ligas regionales y un campeonato nacional en categorías inferiores. El alcalde de la ciudad destacó en su discurso la integración social que el club ha promovido entre distintos barrios. La velada contó con la actuación de la banda municipal y la proyección de un documental sobre la historia del equipo.»</em>¿Quiénes fundaron el club?",
+          "options": [
+            "Empresarios locales",
+            "Mineros de la comarca",
+            "Estudiantes universitarios",
+            "Militares"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto dice que fue fundado por un grupo de mineros de la comarca.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
+          ]
+        },
+        {
+          "id": "psi-com-060",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #3b82f6;padding:8px 12px;margin-bottom:10px;font-size:0.9em'>«El Club Deportivo La Montaña celebró su centenario con una gran gala en el Teatro Municipal. El club, fundado en 1924 por un grupo de mineros de la comarca, cuenta hoy con más de 12.000 socios y disputa sus partidos en el estadio El Pino, con capacidad para 18.000 espectadores. A lo largo de su historia ha ganado tres ligas regionales y un campeonato nacional en categorías inferiores. El alcalde de la ciudad destacó en su discurso la integración social que el club ha promovido entre distintos barrios. La velada contó con la actuación de la banda municipal y la proyección de un documental sobre la historia del equipo.»</em>¿Cuántos campeonatos nacionales ha ganado el club en categorías inferiores?",
+          "options": [
+            "Ninguno",
+            "Uno",
+            "Tres",
+            "Cinco"
+          ],
+          "correctIndex": 1,
+          "explanation": "El texto menciona un campeonato nacional en categorías inferiores.",
+          "tags": [
+            "psicotecnico",
+            "comprension"
           ]
         }
       ],

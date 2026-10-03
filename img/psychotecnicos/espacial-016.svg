@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
+  <rect width="300" height="180" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Silueta — ¿Qué figura genera esta sombra?</text>
+  <!-- Shadow / silhouette -->
+  <ellipse cx="80" cy="95" rx="40" ry="55" fill="#374151" opacity="0.85"/>
+  <text x="80" y="162" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Sombra</text>
+  <!-- Options -->
+  <!-- A: sphere (correct for oval shadow) -->
+  <circle cx="170" cy="80" r="35" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <ellipse cx="170" cy="80" rx="35" ry="35" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <!-- Sphere shading -->
+  <circle cx="158" cy="68" r="8" fill="white" opacity="0.5"/>
+  <text x="170" y="132" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">A — esfera</text>
+  <!-- B: cylinder -->
+  <ellipse cx="255" cy="65" rx="25" ry="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="230" y="65" width="50" height="35" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <ellipse cx="255" cy="100" rx="25" ry="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="255" y="132" text-anchor="middle" font-size="10" fill="#d97706" font-family="Arial">B — cilindro</text>
+  <text x="150" y="155" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">¿Qué sólido produce una sombra elíptica?</text>
+</svg>

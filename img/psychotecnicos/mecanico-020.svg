@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Freno de disco — Fricción</text>
+  <!-- Wheel/disc -->
+  <circle cx="150" cy="110" r="65" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+  <circle cx="150" cy="110" r="50" fill="#d1d5db" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="150" cy="110" r="10" fill="#374151"/>
+  <!-- Rotation arrow -->
+  <path d="M 200,75 A 60,60 0 0,1 215,110" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a20)"/>
+  <!-- Brake caliper top -->
+  <rect x="90" y="38" width="120" height="22" fill="#fbbf24" stroke="#d97706" stroke-width="2" rx="3"/>
+  <text x="150" y="53" text-anchor="middle" font-size="10" fill="#78350f" font-family="Arial">Mordaza (caliper)</text>
+  <!-- Brake pad top -->
+  <rect x="115" y="58" width="70" height="10" fill="#ef4444" stroke="#dc2626" stroke-width="1.5" rx="1"/>
+  <!-- Clamp force arrows -->
+  <line x1="150" y1="38" x2="150" y2="25" stroke="#ef4444" stroke-width="2.5"/>
+  <polygon points="150,22 144,35 156,35" fill="#ef4444"/>
+  <text x="175" y="20" text-anchor="start" font-size="9" fill="#ef4444" font-family="Arial">F (presión)</text>
+  <!-- Friction force arrow -->
+  <line x1="85" y1="90" x2="65" y2="90" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="63,90 77,84 77,96" fill="#2563eb"/>
+  <text x="50" y="85" text-anchor="middle" font-size="9" fill="#2563eb" font-family="Arial">f</text>
+  <defs><marker id="a20" markerWidth="7" markerHeight="7" refX="3" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6b7280"/></marker></defs>
+  <text x="150" y="185" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">f = μ × F (coef. rozamiento × fuerza normal)</text>
+</svg>

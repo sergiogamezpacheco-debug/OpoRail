@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
+  <rect width="300" height="180" fill="#f9fafb"/>
+  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Tornillo — Avance por paso de rosca</text>
+  <!-- Screw body -->
+  <rect x="80" y="55" width="140" height="50" fill="#e5e7eb" stroke="#6b7280" stroke-width="2" rx="3"/>
+  <!-- Thread lines -->
+  <line x1="100" y1="55" x2="100" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="115" y1="55" x2="115" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="130" y1="55" x2="130" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="145" y1="55" x2="145" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="160" y1="55" x2="160" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="175" y1="55" x2="175" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="190" y1="55" x2="190" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <!-- Head -->
+  <rect x="65" y="45" width="30" height="65" fill="#9ca3af" stroke="#6b7280" stroke-width="2" rx="3"/>
+  <!-- Head slot -->
+  <rect x="75" y="48" width="10" height="8" fill="#6b7280" rx="1"/>
+  <!-- Rotation arrow -->
+  <path d="M 75,25 A 25,25 0 0,1 95,18" fill="none" stroke="#ef4444" stroke-width="2" marker-end="url(#a15)"/>
+  <!-- Forward arrow -->
+  <line x1="220" y1="80" x2="255" y2="80" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="257,80 243,74 243,86" fill="#2563eb"/>
+  <text x="270" y="84" text-anchor="start" font-size="9" fill="#2563eb" font-family="Arial">+p</text>
+  <!-- Pitch label -->
+  <line x1="145" y1="112" x2="160" y2="112" stroke="#16a34a" stroke-width="1.5"/>
+  <polygon points="161,112 155,108 155,116" fill="#16a34a"/>
+  <text x="148" y="125" text-anchor="middle" font-size="9" fill="#16a34a" font-family="Arial">paso p</text>
+  <text x="150" y="155" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">1 vuelta → avance = p (paso de rosca)</text>
+  <defs><marker id="a15" markerWidth="7" markerHeight="7" refX="3" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#ef4444"/></marker></defs>
+</svg>
