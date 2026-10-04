@@ -1,42 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" width="300" height="160">
-  <rect width="300" height="160" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Dominó — La suma de cada ficha es constante</text>
-  <!-- [2|5]  [3|4]  [1|6]  [0|?] -->
-  <g transform="translate(10,35)">
-    <!-- [2|5] -->
-    <rect x="0" y="0" width="60" height="28" fill="white" stroke="#374151" stroke-width="2" rx="3"/>
-    <line x1="30" y1="0" x2="30" y2="28" stroke="#374151" stroke-width="1.5"/>
-    <circle cx="15" cy="10" r="4" fill="#374151"/><circle cx="15" cy="20" r="4" fill="#374151"/>
-    <circle cx="38" cy="8" r="3.5" fill="#374151"/><circle cx="48" cy="14" r="3.5" fill="#374151"/>
-    <circle cx="38" cy="20" r="3.5" fill="#374151"/><circle cx="48" cy="8" r="3.5" fill="#374151"/>
-    <circle cx="48" cy="20" r="3.5" fill="#374151"/>
-    <text x="30" y="42" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[2|5]=7</text>
-
-    <!-- [3|4] -->
-    <rect x="70" y="0" width="60" height="28" fill="white" stroke="#374151" stroke-width="2" rx="3"/>
-    <line x1="100" y1="0" x2="100" y2="28" stroke="#374151" stroke-width="1.5"/>
-    <circle cx="85" cy="8" r="3.5" fill="#374151"/><circle cx="80" cy="14" r="3" fill="#374151"/>
-    <circle cx="85" cy="20" r="3.5" fill="#374151"/>
-    <circle cx="108" cy="7" r="3.5" fill="#374151"/><circle cx="116" cy="7" r="3.5" fill="#374151"/>
-    <circle cx="108" cy="14" r="3.5" fill="#374151"/><circle cx="116" cy="14" r="3.5" fill="#374151"/>
-    <text x="100" y="42" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[3|4]=7</text>
-
-    <!-- [1|6] -->
-    <rect x="140" y="0" width="60" height="28" fill="white" stroke="#374151" stroke-width="2" rx="3"/>
-    <line x1="170" y1="0" x2="170" y2="28" stroke="#374151" stroke-width="1.5"/>
-    <circle cx="155" cy="14" r="4.5" fill="#374151"/>
-    <circle cx="178" cy="5" r="3.5" fill="#374151"/><circle cx="186" cy="5" r="3.5" fill="#374151"/>
-    <circle cx="178" cy="14" r="3.5" fill="#374151"/><circle cx="186" cy="14" r="3.5" fill="#374151"/>
-    <circle cx="178" cy="23" r="3.5" fill="#374151"/><circle cx="186" cy="23" r="3.5" fill="#374151"/>
-    <text x="170" y="42" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[1|6]=7</text>
-
-    <!-- [0|?] -->
-    <rect x="210" y="0" width="60" height="28" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5" rx="3"/>
-    <line x1="240" y1="0" x2="240" y2="28" stroke="#374151" stroke-width="1.5"/>
-    <text x="225" y="18" text-anchor="middle" font-size="10" fill="#9ca3af" font-family="Arial">0</text>
-    <text x="255" y="18" text-anchor="middle" font-size="22" fill="#16a34a" font-weight="bold" font-family="Arial">?</text>
-    <text x="240" y="42" text-anchor="middle" font-size="9" fill="#16a34a" font-family="Arial">[0|?]=7</text>
-  </g>
-  <text x="150" y="100" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">Todas las fichas suman 7. Si la primera parte es 0, ¿cuánto vale ?</text>
-  <text x="150" y="120" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">a) 6   b) 7   c) 8   d) 0</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>9. Papel doblado, se corta un triángulo — ¿qué forma aparece al desdoblar?</text>
+  <rect x='50' y='90' width='150' height='100' fill='#fffbe6' stroke='#c8a000' stroke-width='2'/><text x='125' y='210' font-family='Arial' font-size='12' text-anchor='middle' fill='#555' font-weight='normal'>1. Hoja</text><line x1='125' y1='90' x2='125' y2='190' stroke='#c00' stroke-width='2' stroke-dasharray='5 3'/><rect x='250' y='90' width='75' height='100' fill='#ffe0a0' stroke='#c8a000' stroke-width='2'/><rect x='325' y='90' width='75' height='100' fill='#ffe0a0' stroke='#c8a000' stroke-width='2' opacity='0.4'/><text x='300' y='210' font-family='Arial' font-size='12' text-anchor='middle' fill='#555' font-weight='normal'>2. Doblar</text><rect x='430' y='90' width='75' height='100' fill='#ffe0a0' stroke='#c8a000' stroke-width='2'/><polygon points='467,115 505,190 430,190' fill='#ccc' stroke='#444' stroke-width='1.5' stroke-dasharray='3 2'/><text x='468' y='210' font-family='Arial' font-size='12' text-anchor='middle' fill='#555' font-weight='normal'>3. Cortar △</text><polygon points='610,130 650,190 610,250 570,190' fill='none' stroke='#2a5a2a' stroke-width='3'/><text x='610' y='275' font-family='Arial' font-size='12' text-anchor='middle' fill='#2a5a2a' font-weight='normal'>4. Desdoblar →</text><text x='610' y='293' font-family='Arial' font-size='13' text-anchor='middle' fill='#2a5a2a' font-weight='bold'>Rombo ◇</text><text x='360' y='370' font-family='Arial' font-size='13' text-anchor='middle' fill='#333' font-weight='normal'>El triángulo cortado → al desdoblar aparecen 2 triángulos = rombo</text>
 </svg>

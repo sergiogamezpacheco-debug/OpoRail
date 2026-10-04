@@ -20,7 +20,7 @@
   <rect x='290' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <polygon points='345.0,400.0 336.2,377.1 311.7,375.8 330.7,360.4 324.4,336.7 345.0,350.0 365.6,336.7 359.3,360.4 378.3,375.8 353.8,377.1' fill='#333' stroke='#333' stroke-width='1'/>
   <text x='345' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>c</text>
-  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
+  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <polygon points='445.3,389.7 455.2,367.3 438.8,349.1 463.2,351.6 475.5,330.4 480.6,354.4 504.6,359.5 483.4,371.8 485.9,396.2 467.7,379.8' fill='#333' stroke='#333' stroke-width='1'/>
-  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>d</text>
+  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>d</text>
 </svg>

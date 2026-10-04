@@ -1,24 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
-  <rect width="300" height="200" fill="#f0f9ff"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Sifón — Transferencia de líquido</text>
-  <!-- Left container (full) -->
-  <rect x="30" y="50" width="70" height="110" fill="none" stroke="#6b7280" stroke-width="2"/>
-  <rect x="31" y="80" width="68" height="79" fill="#93c5fd" opacity="0.7"/>
-  <text x="65" y="70" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Dep. A (alto)</text>
-  <!-- Right container (low) -->
-  <rect x="200" y="90" width="70" height="70" fill="none" stroke="#6b7280" stroke-width="2"/>
-  <rect x="201" y="140" width="68" height="19" fill="#93c5fd" opacity="0.7"/>
-  <text x="235" y="82" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Dep. B (bajo)</text>
-  <!-- Siphon tube -->
-  <path d="M 80,85 L 80,30 L 220,30 L 220,140" fill="none" stroke="#374151" stroke-width="4"/>
-  <!-- Flow arrows along siphon -->
-  <polygon points="130,30 120,24 120,36" fill="#ef4444"/>
-  <polygon points="220,100 214,86 226,86" fill="#ef4444"/>
-  <text x="150" y="22" text-anchor="middle" font-size="10" fill="#ef4444" font-family="Arial">→ flujo</text>
-  <!-- Height labels -->
-  <line x1="22" y1="80" x2="22" y2="160" stroke="#2563eb" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="10" y="120" text-anchor="middle" font-size="9" fill="#2563eb" font-family="Arial" transform="rotate(-90,10,120)">h₁</text>
-  <line x1="280" y1="140" x2="280" y2="160" stroke="#16a34a" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="290" y="152" text-anchor="start" font-size="9" fill="#16a34a" font-family="Arial">h₂</text>
-  <text x="150" y="180" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Fluye mientras h₁ &gt; h₂ y el tubo esté lleno</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>19. ¿Qué acoplamiento absorbe desalineaciones de ejes?</text>
+  <rect x='80' y='195' width='180' height='30' fill='#9090a0' stroke='#555' stroke-width='2'/><rect x='460' y='195' width='180' height='30' fill='#9090a0' stroke='#555' stroke-width='2'/><rect x='255' y='180' width='60' height='60' rx='6' fill='#e0c080' stroke='#a07020' stroke-width='3'/><rect x='275' y='180' width='20' height='60' rx='3' fill='#c0a060' stroke='none'/><line x1='315' y1='210' x2='460' y2='215' stroke='#9090a0' stroke-width='4' stroke-dasharray='6 4'/><line x1='460' y1='195' x2='460' y2='205' stroke='#c00' stroke-width='2.5'/><polygon points='460.0,205.0 454.0,193.0 466.0,193.0' fill='#c00'/><text x='470' y='195' font-family='Arial' font-size='13' fill='#c00'>Desalineación</text><text x='470' y='205' font-family='Arial' font-size='12' text-anchor='start' fill='#c00' font-weight='normal'>← desviación</text><text x='360' y='280' font-family='Arial' font-size='15' text-anchor='middle' fill='#333' font-weight='bold'>Acoplamiento flexible / elástico</text><text x='360' y='305' font-family='Arial' font-size='13' text-anchor='middle' fill='#555' font-weight='normal'>Absorbe desalineaciones angulares y paralelas</text><text x='360' y='330' font-family='Arial' font-size='12' text-anchor='middle' fill='#777' font-weight='normal'>e.g. acoplamiento de araña, cardan, oldham</text>
 </svg>

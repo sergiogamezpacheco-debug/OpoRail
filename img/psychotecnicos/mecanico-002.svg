@@ -1,23 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
-  <rect width="300" height="180" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Palanca de 1er grado — Fulcro central</text>
-  <!-- Beam -->
-  <rect x="30" y="88" width="240" height="8" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5" rx="2"/>
-  <!-- Fulcrum (triangle) -->
-  <polygon points="150,96 135,130 165,130" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
-  <line x1="120" y1="130" x2="180" y2="130" stroke="#374151" stroke-width="2"/>
-  <!-- Force arrow left (down = effort) -->
-  <line x1="60" y1="50" x2="60" y2="86" stroke="#ef4444" stroke-width="2.5"/>
-  <polygon points="60,86 54,72 66,72" fill="#ef4444"/>
-  <text x="60" y="44" text-anchor="middle" font-size="11" font-weight="bold" fill="#ef4444" font-family="Arial">F</text>
-  <!-- Load right (down) -->
-  <line x1="240" y1="50" x2="240" y2="86" stroke="#2563eb" stroke-width="2.5"/>
-  <polygon points="240,86 234,72 246,72" fill="#2563eb"/>
-  <text x="240" y="44" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb" font-family="Arial">P</text>
-  <!-- Dimension lines -->
-  <line x1="60" y1="140" x2="150" y2="140" stroke="#d1d5db" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="105" y="155" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">brazo F = 90 cm</text>
-  <line x1="150" y1="140" x2="240" y2="140" stroke="#d1d5db" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="195" y="155" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">brazo P = 90 cm</text>
-  <text x="150" y="170" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">F × brazo_F = P × brazo_P</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>2. Palanca 1er género: brazo motor 60 cm, brazo resistente 30 cm</text>
+  <line x1='80' y1='220' x2='620' y2='220' stroke='#555' stroke-width='8'/><polygon points='440,220 418,265 462,265' fill='#888' stroke='#444' stroke-width='2'/><line x1='400' y1='270' x2='480' y2='270' stroke='#666' stroke-width='3'/><line x1='80' y1='150' x2='80' y2='215' stroke='#c00' stroke-width='2.5'/><polygon points='80.0,215.0 74.0,203.0 86.0,203.0' fill='#c00'/><text x='80' y='145' font-family='Arial' font-size='13' text-anchor='middle' fill='#c00' font-weight='normal'>F (esfuerzo)</text><line x1='620' y1='295' x2='620' y2='225' stroke='#2a5a2a' stroke-width='2.5'/><polygon points='620.0,225.0 626.0,237.0 614.0,237.0' fill='#2a5a2a'/><text x='620' y='310' font-family='Arial' font-size='13' text-anchor='middle' fill='#2a5a2a' font-weight='normal'>R (resistencia)</text><line x1='80' y1='290' x2='440' y2='290' stroke='#666' stroke-width='1.5' stroke-dasharray='4 3'/><text x='260' y='308' font-family='Arial' font-size='13' text-anchor='middle' fill='#555' font-weight='normal'>Brazo motor: 60 cm</text><line x1='440' y1='290' x2='620' y2='290' stroke='#666' stroke-width='1.5' stroke-dasharray='4 3'/><text x='530' y='308' font-family='Arial' font-size='13' text-anchor='middle' fill='#555' font-weight='normal'>Brazo resistente: 30 cm</text><text x='360' y='380' font-family='Arial' font-size='14' text-anchor='middle' fill='#333' font-weight='normal'>Palanca 1er género — ventaja mecánica = 60/30 = 2</text>
 </svg>

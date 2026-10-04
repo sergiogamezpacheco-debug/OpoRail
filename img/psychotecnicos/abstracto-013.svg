@@ -41,7 +41,7 @@
   <circle cx='310' cy='400' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <circle cx='334' cy='400' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <text x='345' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>c</text>
-  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
+  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <circle cx='435' cy='328' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <circle cx='435' cy='352' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <circle cx='459' cy='352' r='10' fill='#222' stroke='#222' stroke-width='2'/>
@@ -52,5 +52,5 @@
   <circle cx='459' cy='400' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <circle cx='483' cy='400' r='10' fill='#222' stroke='#222' stroke-width='2'/>
   <circle cx='507' cy='400' r='10' fill='#222' stroke='#222' stroke-width='2'/>
-  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>d</text>
+  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>d</text>
 </svg>

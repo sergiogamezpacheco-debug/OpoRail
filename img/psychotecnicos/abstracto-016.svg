@@ -14,10 +14,10 @@
   <text x='470' y='147' font-family='Arial' font-size='48' text-anchor='middle' fill='#888'>?</text>
   <line x1='30' y1='285' x2='870' y2='285' stroke='#ccc' stroke-width='1'/>
   <text x='30' y='300' font-family='Arial' font-size='17' fill='#666'>Opciones:</text>
-  <rect x='40' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
+  <rect x='40' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <circle cx='68' cy='365' r='18' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='100' y='347' width='36' height='36' fill='#222' stroke='#222' stroke-width='2'/>
-  <text x='95' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>a</text>
+  <text x='95' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>a</text>
   <rect x='165' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <circle cx='193' cy='365' r='18' fill='#222' stroke='#222' stroke-width='2'/>
   <polygon points='243.0,385.0 225.7,355.0 260.3,355.0' fill='#222' stroke='#222' stroke-width='2'/>

@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+  <rect width='100%' height='100%' fill='#f6f7f9'/>
+  <text x='30' y='42' font-family='Arial' font-size='22' font-weight='700' fill='#1f4a73'>037. Vistas ortogonales: frente=□, planta=▭, lateral=△. ¿Qué sólido es?</text>
+  <rect x='40' y='80' width='120' height='120' fill='white' stroke='#333' stroke-width='2'/><text x='100' y='72' font-family='Arial' font-size='14' text-anchor='middle' fill='#555'>Frente</text><rect x='68' y='100' width='64' height='64' fill='none' stroke='#222' stroke-width='2'/><rect x='185' y='80' width='120' height='120' fill='white' stroke='#333' stroke-width='2'/><text x='245' y='72' font-family='Arial' font-size='14' text-anchor='middle' fill='#555'>Planta (arriba)</text><rect x='210' y='110' width='70' height='50' fill='none' stroke='#222' stroke-width='2'/><rect x='330' y='80' width='120' height='120' fill='white' stroke='#333' stroke-width='2'/><text x='390' y='72' font-family='Arial' font-size='14' text-anchor='middle' fill='#555'>Lateral</text><polygon points='390,100 350,164 430,164' fill='none' stroke='#222' stroke-width='2'/><text x='30' y='230' font-family='Arial' font-size='14' fill='#333'>Con frente □, planta rectangular, lateral △ → ¿Qué sólido es?</text><line x1='30' y1='245' x2='870' y2='245' stroke='#ccc' stroke-width='1'/><text x='30' y='263' font-family='Arial' font-size='16' fill='#666'>Opciones:</text><rect x='40' y='265' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='95,280 55,360 135,360' fill='none' stroke='#222' stroke-width='2'/>
+<line x1='95' y1='280' x2='80' y2='340' stroke='#aaa' stroke-dasharray='4 3' stroke-width='1.5'/>
+<line x1='95' y1='280' x2='110' y2='340' stroke='#222' stroke-width='1.5'/>
+<ellipse cx='95' cy='355' rx='40' ry='12' fill='none' stroke='#222' stroke-width='2'/>
+  <text x='95' y='395' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>a</text><rect x='165' y='265' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <rect x='185' y='285' width='70' height='70' fill='none' stroke='#222' stroke-width='2'/>
+  <text x='220' y='395' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>b</text><rect x='290' y='265' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <ellipse cx='345' cy='325' rx='40' ry='40' fill='none' stroke='#222' stroke-width='2'/><line x1='345' y1='285' x2='345' y2='365' stroke='#ccc' stroke-dasharray='3 3' stroke-width='1'/>
+  <text x='345' y='395' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>c</text><rect x='415' y='265' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='470,285 430,365 510,365' fill='none' stroke='#222' stroke-width='2'/>
+  <text x='470' y='395' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>d</text>
+</svg>

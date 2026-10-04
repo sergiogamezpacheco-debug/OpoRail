@@ -1,22 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
-  <rect width="300" height="180" fill="#f0f9ff"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Presión del viento sobre una superficie</text>
-  <!-- Wind arrows left to right -->
-  <line x1="20" y1="70" x2="80" y2="70" stroke="#60a5fa" stroke-width="2.5"/>
-  <polygon points="82,70 70,64 70,76" fill="#60a5fa"/>
-  <line x1="20" y1="90" x2="80" y2="90" stroke="#60a5fa" stroke-width="2.5"/>
-  <polygon points="82,90 70,84 70,96" fill="#60a5fa"/>
-  <line x1="20" y1="110" x2="80" y2="110" stroke="#60a5fa" stroke-width="2.5"/>
-  <polygon points="82,110 70,104 70,116" fill="#60a5fa"/>
-  <text x="40" y="55" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">viento →</text>
-  <!-- Vertical sail -->
-  <rect x="110" y="40" width="20" height="110" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-  <!-- Resulting force arrow (perpendicular to sail = horizontal) -->
-  <line x1="130" y1="95" x2="200" y2="95" stroke="#ef4444" stroke-width="3"/>
-  <polygon points="202,95 188,89 188,101" fill="#ef4444"/>
-  <text x="220" y="99" text-anchor="start" font-size="10" fill="#ef4444" font-family="Arial">F resultante</text>
-  <!-- Pressure formula -->
-  <text x="150" y="165" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">F = P_din × A (P_din = ½ρv²)</text>
-  <!-- Inclined sail reference -->
-  <text x="60" y="165" text-anchor="middle" font-size="9" fill="#2563eb" font-family="Arial">↓ viento</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>14. Correa dentada: poleas 100mm y 200mm, A=600rpm → B=?</text>
+  <circle cx='180' cy='210' r='50' fill='#d0d8e8' stroke='#3a5a8c' stroke-width='4'/><circle cx='180' cy='210' r='12' fill='#3a5a8c'/><text x='180' y='275' font-family='Arial' font-size='13' text-anchor='middle' fill='#333' font-weight='normal'>A  Ø100 mm</text><text x='180' y='293' font-family='Arial' font-size='13' text-anchor='middle' fill='#c00' font-weight='normal'>600 rpm</text><circle cx='480' cy='210' r='100' fill='#d8e8d0' stroke='#2a5a3c' stroke-width='4'/><circle cx='480' cy='210' r='20' fill='#2a5a3c'/><text x='480' y='325' font-family='Arial' font-size='13' text-anchor='middle' fill='#333' font-weight='normal'>B  Ø200 mm</text><text x='480' y='343' font-family='Arial' font-size='13' text-anchor='middle' fill='#2a5a2a' font-weight='normal'>? rpm</text><line x1='180' y1='160' x2='480' y2='110' stroke='#555' stroke-width='5'/><line x1='180' y1='260' x2='480' y2='310' stroke='#555' stroke-width='5'/><rect x='80' y='370' width='560' height='30' rx='6' fill='#fffbe6' stroke='#c8a000' stroke-width='1.5'/><text x='360' y='390' font-family='Arial' font-size='14' text-anchor='middle' fill='#333' font-weight='normal'>nB = nA × dA/dB = 600 × 100/200 = 300 rpm</text>
 </svg>

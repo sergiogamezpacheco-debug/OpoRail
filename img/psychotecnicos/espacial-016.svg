@@ -1,20 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
-  <rect width="300" height="180" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Silueta — ¿Qué figura genera esta sombra?</text>
-  <!-- Shadow / silhouette -->
-  <ellipse cx="80" cy="95" rx="40" ry="55" fill="#374151" opacity="0.85"/>
-  <text x="80" y="162" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">Sombra</text>
-  <!-- Options -->
-  <!-- A: sphere (correct for oval shadow) -->
-  <circle cx="170" cy="80" r="35" fill="none" stroke="#2563eb" stroke-width="2"/>
-  <ellipse cx="170" cy="80" rx="35" ry="35" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-  <!-- Sphere shading -->
-  <circle cx="158" cy="68" r="8" fill="white" opacity="0.5"/>
-  <text x="170" y="132" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">A — esfera</text>
-  <!-- B: cylinder -->
-  <ellipse cx="255" cy="65" rx="25" ry="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <rect x="230" y="65" width="50" height="35" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-  <ellipse cx="255" cy="100" rx="25" ry="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
-  <text x="255" y="132" text-anchor="middle" font-size="10" fill="#d97706" font-family="Arial">B — cilindro</text>
-  <text x="150" y="155" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">¿Qué sólido produce una sombra elíptica?</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>16. ¿Cuántos planos de simetría tiene una esfera?</text>
+  <circle cx='250' cy='210' r='130' fill='#d0e0f8' stroke='#334' stroke-width='3'/><ellipse cx='250' cy='210' rx='130' ry='43' fill='none' stroke='#557' stroke-width='1.5' stroke-dasharray='5 3'/><line x1='120.0' y1='210.0' x2='380.0' y2='210.0' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><line x1='137.4' y1='145.0' x2='362.6' y2='275.0' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><line x1='185.0' y1='97.4' x2='315.0' y2='322.6' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><line x1='250.0' y1='80.0' x2='250.0' y2='340.0' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><line x1='315.0' y1='97.4' x2='185.0' y2='322.6' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><line x1='362.6' y1='145.0' x2='137.4' y2='275.0' stroke='#c00' stroke-width='1' stroke-dasharray='4 3' opacity='0.6'/><text x='500' y='185' font-family='Arial' font-size='15' text-anchor='middle' fill='#333' font-weight='normal'>∞ planos de</text><text x='500' y='215' font-family='Arial' font-size='20' text-anchor='middle' fill='#c00' font-weight='bold'>simetría</text><text x='500' y='250' font-family='Arial' font-size='12' text-anchor='middle' fill='#555' font-weight='normal'>(cualquier plano que</text><text x='500' y='270' font-family='Arial' font-size='12' text-anchor='middle' fill='#555' font-weight='normal'>pase por el centro)</text><text x='360' y='380' font-family='Arial' font-size='13' text-anchor='middle' fill='#333' font-weight='normal'>Esfera: infinitos planos de simetría que pasen por el centro</text>
 </svg>

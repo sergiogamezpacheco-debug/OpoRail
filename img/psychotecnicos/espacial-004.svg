@@ -1,33 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" width="300" height="160">
-  <rect width="300" height="160" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Dominó — ¿Qué ficha sigue en la serie?</text>
-  <!-- Sequence: [1|2] [2|3] [3|4] [4|?] -->
-  <!-- Domino 1: [1|2] horizontal -->
-  <rect x="10" y="45" width="65" height="30" fill="white" stroke="#374151" stroke-width="2" rx="4"/>
-  <line x1="42" y1="45" x2="42" y2="75" stroke="#374151" stroke-width="1.5"/>
-  <circle cx="26" cy="60" r="5" fill="#374151"/>
-  <circle cx="52" cy="54" r="4.5" fill="#374151"/><circle cx="62" cy="68" r="4.5" fill="#374151"/>
-  <text x="42" y="92" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[1|2]</text>
-  <!-- Domino 2: [2|3] -->
-  <rect x="83" y="45" width="65" height="30" fill="white" stroke="#374151" stroke-width="2" rx="4"/>
-  <line x1="115" y1="45" x2="115" y2="75" stroke="#374151" stroke-width="1.5"/>
-  <circle cx="99" cy="54" r="4.5" fill="#374151"/><circle cx="109" cy="68" r="4.5" fill="#374151"/>
-  <circle cx="123" cy="54" r="4" fill="#374151"/><circle cx="128" cy="64" r="4" fill="#374151"/><circle cx="123" cy="72" r="4" fill="#374151"/>
-  <text x="115" y="92" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[2|3]</text>
-  <!-- Domino 3: [3|4] -->
-  <rect x="156" y="45" width="65" height="30" fill="white" stroke="#374151" stroke-width="2" rx="4"/>
-  <line x1="188" y1="45" x2="188" y2="75" stroke="#374151" stroke-width="1.5"/>
-  <circle cx="170" cy="54" r="4" fill="#374151"/><circle cx="178" cy="64" r="4" fill="#374151"/><circle cx="170" cy="72" r="4" fill="#374151"/>
-  <circle cx="198" cy="51" r="4" fill="#374151"/><circle cx="207" cy="51" r="4" fill="#374151"/>
-  <circle cx="198" cy="67" r="4" fill="#374151"/><circle cx="207" cy="67" r="4" fill="#374151"/>
-  <text x="188" y="92" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">[3|4]</text>
-  <!-- Domino 4: [4|?] -->
-  <rect x="229" y="45" width="65" height="30" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5" rx="4"/>
-  <line x1="261" y1="45" x2="261" y2="75" stroke="#374151" stroke-width="1.5"/>
-  <circle cx="243" cy="51" r="4" fill="#374151"/><circle cx="252" cy="51" r="4" fill="#374151"/>
-  <circle cx="243" cy="67" r="4" fill="#374151"/><circle cx="252" cy="67" r="4" fill="#374151"/>
-  <text x="277" y="60" text-anchor="middle" font-size="20" fill="#16a34a" font-weight="bold" font-family="Arial">?</text>
-  <text x="261" y="92" text-anchor="middle" font-size="9" fill="#16a34a" font-family="Arial">[4|?]</text>
-  <text x="150" y="120" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">Patrón: cada ficha suma 1 a cada mitad</text>
-  <text x="150" y="140" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">a) [4|5]   b) [5|4]   c) [4|6]   d) [5|5]</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>4. En un 3×3×3, ¿cuántos cubitos ven exactamente 3 caras externas?</text>
+  <polygon points='260.0,80.0 380.0,140.0 260.0,200.0 140.0,140.0' fill='#d0d8e8' stroke='#334' stroke-width='2'/><polygon points='140.0,140.0 260.0,200.0 260.0,320.0 140.0,260.0' fill='#a8b8c8' stroke='#334' stroke-width='2'/><polygon points='380.0,140.0 260.0,200.0 260.0,320.0 380.0,260.0' fill='#bfcfdf' stroke='#334' stroke-width='2'/><circle cx='150' cy='155' r='16' fill='#ffdd88' stroke='#c08010' stroke-width='2'/><circle cx='375' cy='155' r='16' fill='#ffdd88' stroke='#c08010' stroke-width='2'/><circle cx='260' cy='100' r='16' fill='#ffdd88' stroke='#c08010' stroke-width='2'/><text x='500' y='190' font-family='Arial' font-size='20' text-anchor='middle' fill='#c00' font-weight='bold'>8 esquinas</text><text x='500' y='215' font-family='Arial' font-size='13' text-anchor='middle' fill='#555' font-weight='normal'>(vértices del cubo)</text><text x='500' y='240' font-family='Arial' font-size='14' text-anchor='middle' fill='#333' font-weight='normal'>Cada esquina ve</text><text x='500' y='260' font-family='Arial' font-size='14' text-anchor='middle' fill='#c00' font-weight='bold'>3 caras externas</text><text x='360' y='370' font-family='Arial' font-size='13' text-anchor='middle' fill='#333' font-weight='normal'>3×3×3 → 8 cubitos en esquinas con exactamente 3 caras visibles</text>
 </svg>

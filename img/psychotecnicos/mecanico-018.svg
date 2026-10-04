@@ -1,35 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
-  <rect width="300" height="220" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Polipasto — Sistema de 4 poleas</text>
-  <!-- Ceiling -->
-  <rect x="60" y="22" width="180" height="8" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5"/>
-  <!-- Fixed block (2 pulleys at top) -->
-  <rect x="105" y="30" width="90" height="22" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5" rx="3"/>
-  <circle cx="125" cy="41" r="9" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5"/>
-  <circle cx="125" cy="41" r="3" fill="#374151"/>
-  <circle cx="175" cy="41" r="9" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5"/>
-  <circle cx="175" cy="41" r="3" fill="#374151"/>
-  <!-- Mobile block (2 pulleys at bottom) -->
-  <rect x="105" y="135" width="90" height="22" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5" rx="3"/>
-  <circle cx="125" cy="146" r="9" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
-  <circle cx="125" cy="146" r="3" fill="#1e40af"/>
-  <circle cx="175" cy="146" r="9" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
-  <circle cx="175" cy="146" r="3" fill="#1e40af"/>
-  <!-- Rope segments (4 vertical) -->
-  <line x1="116" y1="52" x2="116" y2="135" stroke="#374151" stroke-width="2"/>
-  <line x1="134" y1="52" x2="134" y2="135" stroke="#374151" stroke-width="2"/>
-  <line x1="166" y1="52" x2="166" y2="135" stroke="#374151" stroke-width="2"/>
-  <line x1="184" y1="52" x2="184" y2="135" stroke="#374151" stroke-width="2"/>
-  <!-- Load hanging below -->
-  <line x1="150" y1="157" x2="150" y2="175" stroke="#374151" stroke-width="2"/>
-  <rect x="125" y="175" width="50" height="28" fill="#fecaca" stroke="#ef4444" stroke-width="1.5" rx="2"/>
-  <text x="150" y="193" text-anchor="middle" font-size="10" fill="#991b1b" font-family="Arial">P = 400 N</text>
-  <!-- Effort rope -->
-  <line x1="195" y1="146" x2="250" y2="90" stroke="#374151" stroke-width="2"/>
-  <line x1="250" y1="90" x2="250" y2="55" stroke="#374151" stroke-width="2"/>
-  <!-- Effort arrow -->
-  <line x1="250" y1="53" x2="250" y2="35" stroke="#ef4444" stroke-width="2.5"/>
-  <polygon points="250,33 244,48 256,48" fill="#ef4444"/>
-  <text x="265" y="50" text-anchor="start" font-size="10" fill="#ef4444" font-family="Arial">F=P/4?</text>
-  <text x="150" y="212" text-anchor="middle" font-size="9" fill="#6b7280" font-family="Arial">4 tramos = VM 4 → F = P/4 = 100 N</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>18. F = m × a — ¿Qué ley física describe esta ecuación?</text>
+  <rect x='200' y='210' width='320' height='100' rx='6' fill='#c8d0d8' stroke='#445' stroke-width='3'/><text x='360' y='267' font-family='Arial' font-size='15' text-anchor='middle' fill='#333' font-weight='normal'>m = 10 kg</text><line x1='120' y1='310' x2='600' y2='310' stroke='#777' stroke-width='3'/><line x1='120' y1='260' x2='200' y2='260' stroke='#c00' stroke-width='2.5'/><polygon points='200.0,260.0 188.0,266.0 188.0,254.0' fill='#c00'/><text x='90' y='258' font-family='Arial' font-size='16' text-anchor='middle' fill='#c00' font-weight='bold'>F</text><line x1='520' y1='260' x2='620' y2='260' stroke='#2a5a2a' stroke-width='2.5'/><polygon points='620.0,260.0 608.0,266.0 608.0,254.0' fill='#2a5a2a'/><text x='640' y='264' font-family='Arial' font-size='16' text-anchor='middle' fill='#2a5a2a' font-weight='bold'>a</text><rect x='160' y='340' width='400' height='60' rx='10' fill='#e0f0e8' stroke='#2a5a2a' stroke-width='2'/><text x='360' y='368' font-family='Arial' font-size='22' text-anchor='middle' fill='#2a5a2a' font-weight='bold'>F = m × a</text><text x='360' y='392' font-family='Arial' font-size='13' text-anchor='middle' fill='#2a5a2a' font-weight='normal'>2ª Ley de Newton</text><text x='360' y='130' font-family='Arial' font-size='15' text-anchor='middle' fill='#333' font-weight='normal'>¿Qué ley enuncia que la fuerza neta = masa × aceleración?</text>
 </svg>

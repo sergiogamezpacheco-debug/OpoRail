@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+  <rect width='100%' height='100%' fill='#f6f7f9'/>
+  <text x='30' y='42' font-family='Arial' font-size='22' font-weight='700' fill='#1f4a73'>021. ¿Qué figura sigue la serie? (pentágono → cuadrado → triángulo → ?)</text>
+  <rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/><polygon points='95.0,93.0 55.1,122.0 70.3,169.0 119.7,169.0 134.9,122.0' fill='none' stroke='#222' stroke-width='3'/><rect x='165' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/><polygon points='220.0,93.0 178.0,135.0 220.0,177.0 262.0,135.0' fill='none' stroke='#222' stroke-width='3'/><rect x='290' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/><polygon points='345.0,97.0 312.1,154.0 377.9,154.0' fill='none' stroke='#222' stroke-width='3'/><rect x='415' y='80' width='110' height='110' fill='none' stroke='#999' stroke-dasharray='10 8' stroke-width='2'/><text x='470' y='148' font-family='Arial' font-size='44' text-anchor='middle' fill='#888'>?</text><line x1='30' y1='280' x2='870' y2='280' stroke='#ccc' stroke-width='1'/><text x='30' y='298' font-family='Arial' font-size='16' fill='#666'>Opciones:</text><rect x='40' y='300' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <circle cx='95' cy='355' r='42' fill='none' stroke='#222' stroke-width='3'/>
+  <text x='95' y='430' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>a</text><rect x='165' y='300' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='220.0,317.0 187.1,336.0 187.1,374.0 220.0,393.0 252.9,374.0 252.9,336.0' fill='none' stroke='#222' stroke-width='3'/>
+  <text x='220' y='430' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>b</text><rect x='290' y='300' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='345.0,315.0 316.7,326.7 305.0,355.0 316.7,383.3 345.0,395.0 373.3,383.3 385.0,355.0 373.3,326.7' fill='none' stroke='#222' stroke-width='3'/>
+  <text x='345' y='430' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>c</text><rect x='415' y='300' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+  <polygon points='470.0,317.0 437.1,374.0 502.9,374.0' fill='none' stroke='#222' stroke-width='3'/>
+  <text x='470' y='430' font-family='Arial' font-size='20' font-weight='normal' fill='#333' text-anchor='middle'>d</text>
+</svg>

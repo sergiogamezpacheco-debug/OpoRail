@@ -1,22 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
-  <rect width="300" height="180" fill="#f9fafb"/>
-  <text x="150" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Plano inclinado — Ventaja mecánica</text>
-  <!-- Inclined plane -->
-  <polygon points="40,150 260,150 260,60" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
-  <!-- Ground -->
-  <line x1="20" y1="150" x2="280" y2="150" stroke="#374151" stroke-width="2"/>
-  <!-- Object on plane -->
-  <rect x="175" y="92" width="30" height="20" fill="#fbbf24" stroke="#d97706" stroke-width="1.5" rx="2" transform="rotate(-20,190,100)"/>
-  <text x="190" y="102" text-anchor="middle" font-size="10" fill="#78350f" font-family="Arial">P</text>
-  <!-- Force arrow along slope -->
-  <line x1="160" y1="112" x2="130" y2="128" stroke="#ef4444" stroke-width="2.5"/>
-  <polygon points="128,130 138,115 120,120" fill="#ef4444"/>
-  <text x="118" y="140" text-anchor="middle" font-size="10" fill="#ef4444" font-family="Arial">F</text>
-  <!-- Height label -->
-  <line x1="265" y1="60" x2="265" y2="150" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <text x="278" y="108" text-anchor="middle" font-size="9" fill="#2563eb" font-family="Arial">h</text>
-  <!-- Length label -->
-  <line x1="40" y1="155" x2="260" y2="155" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <text x="150" y="168" text-anchor="middle" font-size="9" fill="#16a34a" font-family="Arial">L (longitud)</text>
-  <text x="80" y="90" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">VM = L/h</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>5. Si A gira en sentido horario, ¿en qué sentido gira B?</text>
+  <polygon points='269.5,210.0 284.8,208.9 284.8,221.1 269.5,220.0 268.1,229.8 283.1,233.1 279.6,244.7 265.3,239.4 261.2,248.4 274.6,255.7 268.0,265.9 255.8,256.8 249.3,264.3 260.1,275.1 250.9,283.0 241.8,270.8 233.4,276.2 240.7,289.6 229.7,294.6 224.4,280.3 214.8,283.1 218.1,298.1 206.1,299.8 205.0,284.5 195.0,284.5 193.9,299.8 181.9,298.1 185.2,283.1 175.6,280.3 170.3,294.6 159.3,289.6 166.6,276.2 158.2,270.8 149.1,283.0 139.9,275.1 150.7,264.3 144.2,256.8 132.0,265.9 125.4,255.7 138.8,248.4 134.7,239.4 120.4,244.7 116.9,233.1 131.9,229.8 130.5,220.0 115.2,221.1 115.2,208.9 130.5,210.0 131.9,200.2 116.9,196.9 120.4,185.3 134.7,190.6 138.8,181.6 125.4,174.3 132.0,164.1 144.2,173.2 150.7,165.7 139.9,154.9 149.1,147.0 158.2,159.2 166.6,153.8 159.3,140.4 170.3,135.4 175.6,149.7 185.2,146.9 181.9,131.9 193.9,130.2 195.0,145.5 205.0,145.5 206.1,130.2 218.1,131.9 214.8,146.9 224.4,149.7 229.7,135.4 240.7,140.4 233.4,153.8 241.8,159.2 250.9,147.0 260.1,154.9 249.3,165.7 255.8,173.2 268.0,164.1 274.6,174.3 261.2,181.6 265.3,190.6 279.6,185.3 283.1,196.9 268.1,200.2' fill='#d0d8e8' stroke='#3a5a8c' stroke-width='2'/><circle cx='200' cy='215' r='24' fill='#3a5a8c'/><text x='200' y='327' font-family='Arial' font-size='14' text-anchor='middle' fill='#333'>A (horario ↻)</text><polygon points='433.0,209.8 444.7,208.6 444.7,221.4 433.0,220.2 431.0,230.5 442.2,233.9 437.3,245.6 427.0,240.1 421.2,248.8 430.2,256.2 421.2,265.2 413.8,256.2 405.1,262.0 410.6,272.3 398.9,277.2 395.5,266.0 385.2,268.0 386.4,279.7 373.6,279.7 374.8,268.0 364.5,266.0 361.1,277.2 349.4,272.3 354.9,262.0 346.2,256.2 338.8,265.2 329.8,256.2 338.8,248.8 333.0,240.1 322.7,245.6 317.8,233.9 329.0,230.5 327.0,220.2 315.3,221.4 315.3,208.6 327.0,209.8 329.0,199.5 317.8,196.1 322.7,184.4 333.0,189.9 338.8,181.2 329.8,173.8 338.8,164.8 346.2,173.8 354.9,168.0 349.4,157.7 361.1,152.8 364.5,164.0 374.8,162.0 373.6,150.3 386.4,150.3 385.2,162.0 395.5,164.0 398.9,152.8 410.6,157.7 405.1,168.0 413.8,173.8 421.2,164.8 430.2,173.8 421.2,181.2 427.0,189.9 437.3,184.4 442.2,196.1 431.0,199.5' fill='#e8d8d0' stroke='#8c3a3a' stroke-width='2'/><circle cx='380' cy='215' r='19' fill='#8c3a3a'/><text x='380' y='307' font-family='Arial' font-size='14' text-anchor='middle' fill='#333'>B (?)</text><text x='282' y='262' font-family='Arial' font-size='20' text-anchor='middle' fill='#c00'>↻</text><text x='153' y='297' font-family='Arial' font-size='20' text-anchor='middle' fill='#c00'>↻</text><text x='118' y='168' font-family='Arial' font-size='20' text-anchor='middle' fill='#c00'>↻</text><text x='360' y='375' font-family='Arial' font-size='15' text-anchor='middle' fill='#333' font-weight='normal'>¿En qué sentido gira B?</text><text x='360' y='400' font-family='Arial' font-size='13' text-anchor='middle' fill='#555' font-weight='normal'>Engranajes en contacto → giro opuesto</text>
 </svg>

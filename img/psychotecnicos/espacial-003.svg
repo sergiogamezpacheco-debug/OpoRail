@@ -1,28 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
-  <rect width="320" height="180" fill="#f9fafb"/>
-  <text x="160" y="16" text-anchor="middle" font-size="11" fill="#374151" font-family="Arial">Rotación de figura — ¿Cuál es la figura girada 90°?</text>
-  <!-- Original shape: L-shape -->
-  <g transform="translate(30,40)">
-    <polygon points="0,0 30,0 30,20 10,20 10,60 0,60" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-    <text x="15" y="78" text-anchor="middle" font-size="10" fill="#374151" font-family="Arial">Original</text>
-  </g>
-  <text x="80" y="85" font-size="18" fill="#374151">→</text>
-  <!-- Option A: L rotated 90° CW (correct) -->
-  <g transform="translate(100,40)">
-    <polygon points="0,30 60,30 60,60 20,60 20,40 0,40" fill="#d1fae5" stroke="#16a34a" stroke-width="2"/>
-    <text x="30" y="78" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">A</text>
-  </g>
-  <!-- Option B: L flipped (wrong) -->
-  <g transform="translate(180,40)">
-    <polygon points="30,0 60,0 60,60 50,60 50,20 30,20" fill="#fee2e2" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
-    <text x="30" y="78" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">B</text>
-  </g>
-  <!-- Option C: L rotated 180° (wrong) -->
-  <g transform="translate(260,40)">
-    <polygon points="0,0 10,0 10,40 30,40 30,60 0,60" fill="#fee2e2" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
-    <text x="15" y="78" text-anchor="middle" font-size="10" fill="#2563eb" font-family="Arial">C</text>
-  </g>
-  <text x="160" y="115" text-anchor="middle" font-size="10" fill="#6b7280" font-family="Arial">Giro de 90° en sentido horario</text>
-  <text x="160" y="132" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">La figura original es una L. Rotada 90° CW se convierte en</text>
-  <text x="160" y="148" text-anchor="middle" font-size="9" fill="#374151" font-family="Arial">una forma horizontal con el palo hacia arriba a la izquierda.</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='420' viewBox='0 0 720 420'>
+  <rect width='100%' height='100%' fill='#f8f9fa'/>
+  <text x='20' y='35' font-family='Arial' font-size='17' font-weight='700' fill='#1a3a5c'>3. Cubo 3×3×3 pintado arriba+abajo: ¿cuántos cubitos sin pintar?</text>
+  <polygon points='120.0,145.0 175.0,173.0 120.0,200.0 65.0,173.0' fill='#ffaaaa' stroke='#334' stroke-width='2'/><polygon points='65.0,173.0 120.0,200.0 120.0,255.0 65.0,227.0' fill='#dd7777' stroke='#334' stroke-width='2'/><polygon points='175.0,173.0 120.0,200.0 120.0,255.0 175.0,227.0' fill='#ee8888' stroke='#334' stroke-width='2'/><text x='120' y='280' font-family='Arial' font-size='12' text-anchor='middle' fill='#333' font-weight='normal'>Superior (ROJO)</text><polygon points='280.0,145.0 335.0,173.0 280.0,200.0 225.0,173.0' fill='#d0d8e8' stroke='#334' stroke-width='2'/><polygon points='225.0,173.0 280.0,200.0 280.0,255.0 225.0,227.0' fill='#a8b8c8' stroke='#334' stroke-width='2'/><polygon points='335.0,173.0 280.0,200.0 280.0,255.0 335.0,227.0' fill='#bfcfdf' stroke='#334' stroke-width='2'/><text x='280' y='280' font-family='Arial' font-size='12' text-anchor='middle' fill='#333' font-weight='normal'>Medio (sin pintar)</text><polygon points='440.0,145.0 495.0,173.0 440.0,200.0 385.0,173.0' fill='#ffaaaa' stroke='#334' stroke-width='2'/><polygon points='385.0,173.0 440.0,200.0 440.0,255.0 385.0,227.0' fill='#dd7777' stroke='#334' stroke-width='2'/><polygon points='495.0,173.0 440.0,200.0 440.0,255.0 495.0,227.0' fill='#ee8888' stroke='#334' stroke-width='2'/><text x='440' y='280' font-family='Arial' font-size='12' text-anchor='middle' fill='#333' font-weight='normal'>Inferior (ROJO)</text><text x='360' y='340' font-family='Arial' font-size='14' text-anchor='middle' fill='#333' font-weight='normal'>3×3×3 = 27 cubitos totales</text><text x='360' y='365' font-family='Arial' font-size='13' text-anchor='middle' fill='#c00' font-weight='normal'>Capa top: 9 pintados | Capa bottom: 9 pintados</text><text x='360' y='388' font-family='Arial' font-size='14' text-anchor='middle' fill='#1a5c2a' font-weight='bold'>Capa MEDIA (9 cubitos): sin pintar = 9</text>
 </svg>

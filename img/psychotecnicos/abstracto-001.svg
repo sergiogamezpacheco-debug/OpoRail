@@ -26,8 +26,8 @@
   <line x1='345.0' y1='350.0' x2='345.0' y2='380.0' stroke='#222' stroke-width='3'/>
   <polygon points='345.0,380.0 335.4,368.5 354.6,368.5' fill='#222' stroke='#222'/>
   <text x='345' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>c</text>
-  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#d1d5db' stroke-width='4'/>
+  <rect x='415' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <line x1='485.0' y1='365.0' x2='455.0' y2='365.0' stroke='#222' stroke-width='3'/>
   <polygon points='455.0,365.0 466.5,355.4 466.5,374.6' fill='#222' stroke='#222'/>
-  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle' fill='#d1d5db'>d</text>
+  <text x='470' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>d</text>
 </svg>
