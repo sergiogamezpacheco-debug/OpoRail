@@ -1,7 +1,6 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='460' viewBox='0 60 900 460'>
   <rect width='100%' height='100%' fill='#f6f7f9'/>
-  <text x='30' y='45' font-family='Arial' font-size='24' font-weight='700' fill='#1f4a73'>20. ¿Qué figura completa la serie? (traslación circular)</text>
-  <rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
+<rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
   <rect x='52' y='92' width='28' height='28' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='165' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
   <rect x='235' y='92' width='28' height='28' fill='#222' stroke='#222' stroke-width='2'/>
@@ -9,9 +8,7 @@
   <rect x='360' y='150' width='28' height='28' fill='#222' stroke='#222' stroke-width='2'/>
   <rect x='415' y='80' width='110' height='110' fill='none' stroke='#999' stroke-width='3' stroke-dasharray='10 8'/>
   <text x='470' y='147' font-family='Arial' font-size='48' text-anchor='middle' fill='#888'>?</text>
-  <line x1='30' y1='285' x2='870' y2='285' stroke='#ccc' stroke-width='1'/>
-  <text x='30' y='300' font-family='Arial' font-size='17' fill='#666'>Opciones:</text>
-  <rect x='40' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='40' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <rect x='52' y='380' width='28' height='28' fill='#222' stroke='#222' stroke-width='2'/>
   <text x='95' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>a</text>
   <rect x='165' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>

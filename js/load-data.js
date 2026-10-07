@@ -778,6 +778,59 @@ function getPsychotechnicalTests(questionBank) {
   });
 }
 
+function renderInstruccionesSubgrupos(test, courseId) {
+  const subgrupos = [
+    {
+      id: 'Interruptores',
+      label: 'Interruptores',
+      icon: '🔌',
+      desc: 'Determina el estado de interruptores según tablas de reglas.',
+    },
+    {
+      id: 'Semáforos',
+      label: 'Semáforos',
+      icon: '🚦',
+      desc: 'Identifica el aspecto del semáforo y el orden de luces encendidas.',
+    },
+    {
+      id: 'Órdenes con figuras',
+      label: 'Órdenes con figuras',
+      icon: '🔷',
+      desc: 'Aplica reglas de transformación de figuras geométricas.',
+    },
+  ];
+  return `
+    <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
+      <div>
+        <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
+        <p class="text-sm text-gray-600">Tiempo disponible: ${test.duration}</p>
+        <p class="text-sm text-gray-600 mt-1">${test.info}</p>
+      </div>
+      <div class="grid grid-cols-1 gap-2 mt-3">
+        ${subgrupos.map((sg) => `
+          <div class="border border-purple-200 rounded-lg p-3 flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <span class="text-xl">${sg.icon}</span>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm">${sg.label}</p>
+                <p class="text-xs text-gray-500">${sg.desc}</p>
+              </div>
+            </div>
+            <div class="flex gap-2 shrink-0">
+              <a class="inline-flex items-center justify-center bg-emerald-600 text-white px-2 py-1 rounded-lg font-semibold text-xs hover:bg-emerald-700 transition" href="/test-info.html?course=${courseId}&test=${test.id}&subgrupo=${encodeURIComponent(sg.id)}">
+                Historial
+              </a>
+              <a class="inline-flex items-center justify-center bg-purple-700 text-white px-2 py-1 rounded-lg font-semibold text-xs hover:bg-purple-800 transition" href="/test-run.html?course=${courseId}&test=${test.id}&subgrupo=${encodeURIComponent(sg.id)}">
+                Hacer test
+              </a>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </article>
+  `;
+}
+
 function renderTestSection(title, tests, courseId, compact = false) {
   return `
     <section class="mt-10 bg-white border-2 border-purple-500 rounded-xl p-6">
@@ -785,7 +838,12 @@ function renderTestSection(title, tests, courseId, compact = false) {
       <div class="grid md:grid-cols-2 gap-4">
         ${tests
           .map(
-            (test) => `
+            (test) => {
+              // Special rendering for instruccionesComplejas: show subgroup cards
+              if (test.id === 'psy-instruccionesComplejas') {
+                return renderInstruccionesSubgrupos(test, courseId);
+              }
+              return `
           <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
             <div class="flex items-start justify-between gap-3">
               <div>
@@ -814,7 +872,8 @@ function renderTestSection(title, tests, courseId, compact = false) {
               </a>
             </div>
           </article>
-        `,
+        `;
+            },
           )
           .join('')}
       </div>
@@ -1208,6 +1267,7 @@ if (testRunner) {
   const params = new URLSearchParams(window.location.search);
   const courseId = Number(params.get('course'));
   const testId = params.get('test');
+  const subgrupoFilter = params.get('subgrupo') || null; // e.g. "Interruptores"
 
   Promise.all([fetch(resolveDataPath('courses.json')), fetchQuestionPayload()])
     .then(async ([coursesRes, testPayload]) => {
@@ -1264,7 +1324,12 @@ if (testRunner) {
         }
         if (activeTest.id.startsWith('psy-')) {
           const key = activeTest.id.replace('psy-', '');
-          return questionBank.psicotecnicos?.[key] || [];
+          const pool = questionBank.psicotecnicos?.[key] || [];
+          // Filter by subgrupo if provided (used for instruccionesComplejas sub-tests)
+          if (subgrupoFilter && pool.length > 0 && pool[0].subgrupo !== undefined) {
+            return pool.filter((q) => q.subgrupo === subgrupoFilter);
+          }
+          return pool;
         }
         if (activeTest.id.startsWith('comunes')) {
           return questionBank['test-comun'] || [];
@@ -1508,17 +1573,32 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
         const start = currentPage * questionsPerPage;
         const pageQuestions = trimmedQuestions.slice(start, start + questionsPerPage);
 
+        // Detect persistent group image — same groupId across all page questions
+        const pageGroupImage = pageQuestions.length > 0 && pageQuestions[0].groupImage
+          ? pageQuestions[0].groupImage
+          : null;
+        const pageGroupId = pageGroupImage ? pageQuestions[0].groupId : null;
+        // Only show group image if ALL current page questions share the same groupId
+        const showGroupImage = pageGroupImage && pageQuestions.every((q) => q.groupId === pageGroupId);
+
         testRunner.innerHTML = `
           <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
             <div class="flex flex-wrap items-center justify-between gap-4">
               <div>
-                <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}</h1>
+                <h1 class="text-3xl font-bold text-purple-700">${activeTest.title}${subgrupoFilter ? ` — ${subgrupoFilter}` : ''}</h1>
                 <p class="text-sm text-gray-600">Tiempo disponible: ${activeTest.duration}</p>
               </div>
             </div>
             <p class="mt-3 text-sm text-gray-600">Tiempo restante: <span id="test-timer" class="font-semibold text-purple-700">${formatTime(remainingSeconds)}</span></p>
             <p class="text-sm text-gray-600">Preguntas: ${totalQuestions} · Página ${currentPage + 1} / ${Math.ceil(totalQuestions / questionsPerPage)}</p>
           </section>
+
+          ${showGroupImage ? `
+          <section class="mt-4 bg-white border border-purple-200 rounded-xl p-4 sticky top-0 z-10 shadow-sm">
+            <p class="text-xs text-purple-600 font-semibold mb-2 uppercase tracking-wide">Imagen de referencia (visible en todas las páginas)</p>
+            <img src="${pageGroupImage}" alt="Referencia del grupo" class="w-full max-w-3xl mx-auto rounded-lg border border-gray-200" loading="lazy">
+          </section>
+          ` : ''}
 
           <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
             <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>

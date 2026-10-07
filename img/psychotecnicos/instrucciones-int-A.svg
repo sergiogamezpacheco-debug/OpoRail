@@ -1,0 +1,347 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='820' height='820' viewBox='0 0 820 820' font-family='Arial,sans-serif'>
+  <rect width='100%' height='100%' fill='#f0f4f8'/>
+  <text x='410' y='36' font-size='20' font-weight='700' fill='#1f4a73' text-anchor='middle'>Instrucciones — Interruptores (Tabla de referencia A)</text>
+
+  <text x='410' y='58' font-size='13' fill='#455a64' text-anchor='middle'>3 señales (A, B, C) · 4 bombillas · 3 formas · 3 colores — ¿estado del interruptor?</text>
+  <rect x='20' y='80' width='130' height='22' fill='#1f4a73'/>
+  <text x='85' y='95' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Posición</text>
+  <rect x='155' y='80' width='90' height='22' fill='#1f4a73'/>
+  <text x='200' y='95' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Forma</text>
+  <rect x='250' y='80' width='80' height='22' fill='#1f4a73'/>
+  <text x='290' y='95' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Color</text>
+  <rect x='335' y='80' width='110' height='22' fill='#1f4a73'/>
+  <text x='390' y='95' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Interruptor</text>
+  <rect x='20' y='102' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='102' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='102' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='102' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='114' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='114' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='114' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='114' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='120' width='130' height='18' fill='white'/>
+  <rect x='155' y='120' width='90' height='18' fill='white'/>
+  <rect x='250' y='120' width='80' height='18' fill='white'/>
+  <rect x='335' y='120' width='110' height='18' fill='white'/>
+  <text x='85' y='132' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='132' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='132' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='132' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='138' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='138' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='138' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='138' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='150' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='150' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='150' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='150' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='156' width='130' height='18' fill='white'/>
+  <rect x='155' y='156' width='90' height='18' fill='white'/>
+  <rect x='250' y='156' width='80' height='18' fill='white'/>
+  <rect x='335' y='156' width='110' height='18' fill='white'/>
+  <text x='85' y='168' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='168' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='168' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='168' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='174' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='174' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='174' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='174' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='186' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='186' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='186' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='186' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='192' width='130' height='18' fill='white'/>
+  <rect x='155' y='192' width='90' height='18' fill='white'/>
+  <rect x='250' y='192' width='80' height='18' fill='white'/>
+  <rect x='335' y='192' width='110' height='18' fill='white'/>
+  <text x='85' y='204' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='204' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='204' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='204' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='210' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='210' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='210' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='210' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='222' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='222' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='222' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='222' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='228' width='130' height='18' fill='white'/>
+  <rect x='155' y='228' width='90' height='18' fill='white'/>
+  <rect x='250' y='228' width='80' height='18' fill='white'/>
+  <rect x='335' y='228' width='110' height='18' fill='white'/>
+  <text x='85' y='240' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='240' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='240' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='240' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='246' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='246' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='246' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='246' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='258' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='258' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='258' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='258' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='264' width='130' height='18' fill='white'/>
+  <rect x='155' y='264' width='90' height='18' fill='white'/>
+  <rect x='250' y='264' width='80' height='18' fill='white'/>
+  <rect x='335' y='264' width='110' height='18' fill='white'/>
+  <text x='85' y='276' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='276' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='276' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='276' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='282' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='282' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='282' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='282' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='294' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='294' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='294' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='294' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='300' width='130' height='18' fill='white'/>
+  <rect x='155' y='300' width='90' height='18' fill='white'/>
+  <rect x='250' y='300' width='80' height='18' fill='white'/>
+  <rect x='335' y='300' width='110' height='18' fill='white'/>
+  <text x='85' y='312' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='312' font-size='11' fill='#1a2332' text-anchor='middle'>Cuadrado</text>
+  <text x='290' y='312' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='312' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='318' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='318' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='318' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='318' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='330' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='330' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='330' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='330' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='336' width='130' height='18' fill='white'/>
+  <rect x='155' y='336' width='90' height='18' fill='white'/>
+  <rect x='250' y='336' width='80' height='18' fill='white'/>
+  <rect x='335' y='336' width='110' height='18' fill='white'/>
+  <text x='85' y='348' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='348' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='348' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='348' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='354' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='354' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='354' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='354' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='366' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='366' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='366' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='366' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='372' width='130' height='18' fill='white'/>
+  <rect x='155' y='372' width='90' height='18' fill='white'/>
+  <rect x='250' y='372' width='80' height='18' fill='white'/>
+  <rect x='335' y='372' width='110' height='18' fill='white'/>
+  <text x='85' y='384' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='384' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='384' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='384' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='390' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='390' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='390' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='390' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='402' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='402' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='402' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='402' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='408' width='130' height='18' fill='white'/>
+  <rect x='155' y='408' width='90' height='18' fill='white'/>
+  <rect x='250' y='408' width='80' height='18' fill='white'/>
+  <rect x='335' y='408' width='110' height='18' fill='white'/>
+  <text x='85' y='420' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='420' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='420' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='420' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='426' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='426' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='426' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='426' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='438' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='438' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='438' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='438' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='444' width='130' height='18' fill='white'/>
+  <rect x='155' y='444' width='90' height='18' fill='white'/>
+  <rect x='250' y='444' width='80' height='18' fill='white'/>
+  <rect x='335' y='444' width='110' height='18' fill='white'/>
+  <text x='85' y='456' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='456' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='456' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='456' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='462' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='462' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='462' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='462' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='474' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='474' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='474' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='474' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='480' width='130' height='18' fill='white'/>
+  <rect x='155' y='480' width='90' height='18' fill='white'/>
+  <rect x='250' y='480' width='80' height='18' fill='white'/>
+  <rect x='335' y='480' width='110' height='18' fill='white'/>
+  <text x='85' y='492' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='492' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='492' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='492' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='498' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='498' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='498' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='498' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='510' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='510' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='510' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='510' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='516' width='130' height='18' fill='white'/>
+  <rect x='155' y='516' width='90' height='18' fill='white'/>
+  <rect x='250' y='516' width='80' height='18' fill='white'/>
+  <rect x='335' y='516' width='110' height='18' fill='white'/>
+  <text x='85' y='528' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='528' font-size='11' fill='#1a2332' text-anchor='middle'>Círculo</text>
+  <text x='290' y='528' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='528' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='534' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='534' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='534' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='534' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='546' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='546' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='546' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='546' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='552' width='130' height='18' fill='white'/>
+  <rect x='155' y='552' width='90' height='18' fill='white'/>
+  <rect x='250' y='552' width='80' height='18' fill='white'/>
+  <rect x='335' y='552' width='110' height='18' fill='white'/>
+  <text x='85' y='564' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='564' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='564' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='564' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='570' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='570' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='570' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='570' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='582' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='582' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='582' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='582' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='588' width='130' height='18' fill='white'/>
+  <rect x='155' y='588' width='90' height='18' fill='white'/>
+  <rect x='250' y='588' width='80' height='18' fill='white'/>
+  <rect x='335' y='588' width='110' height='18' fill='white'/>
+  <text x='85' y='600' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='600' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='600' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>rojo</text>
+  <text x='390' y='600' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='606' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='606' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='606' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='606' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='618' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='618' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='618' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='618' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='624' width='130' height='18' fill='white'/>
+  <rect x='155' y='624' width='90' height='18' fill='white'/>
+  <rect x='250' y='624' width='80' height='18' fill='white'/>
+  <rect x='335' y='624' width='110' height='18' fill='white'/>
+  <text x='85' y='636' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='636' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='636' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='636' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='642' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='642' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='642' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='642' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='654' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='654' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='654' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='654' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='660' width='130' height='18' fill='white'/>
+  <rect x='155' y='660' width='90' height='18' fill='white'/>
+  <rect x='250' y='660' width='80' height='18' fill='white'/>
+  <rect x='335' y='660' width='110' height='18' fill='white'/>
+  <text x='85' y='672' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='672' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='672' font-size='11' font-weight='700' fill='#1565C0' text-anchor='middle'>azul</text>
+  <text x='390' y='672' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='678' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='678' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='678' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='678' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='690' font-size='11' fill='#1a2332' text-anchor='middle'>1º</text>
+  <text x='200' y='690' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='690' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='690' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='696' width='130' height='18' fill='white'/>
+  <rect x='155' y='696' width='90' height='18' fill='white'/>
+  <rect x='250' y='696' width='80' height='18' fill='white'/>
+  <rect x='335' y='696' width='110' height='18' fill='white'/>
+  <text x='85' y='708' font-size='11' fill='#1a2332' text-anchor='middle'>2º</text>
+  <text x='200' y='708' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='708' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='708' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <rect x='20' y='714' width='130' height='18' fill='#eaf0fb'/>
+  <rect x='155' y='714' width='90' height='18' fill='#eaf0fb'/>
+  <rect x='250' y='714' width='80' height='18' fill='#eaf0fb'/>
+  <rect x='335' y='714' width='110' height='18' fill='#eaf0fb'/>
+  <text x='85' y='726' font-size='11' fill='#1a2332' text-anchor='middle'>3º</text>
+  <text x='200' y='726' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='726' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='726' font-size='11' font-weight='600' fill='#2e7d32' text-anchor='middle'>Encendido</text>
+  <rect x='20' y='732' width='130' height='18' fill='white'/>
+  <rect x='155' y='732' width='90' height='18' fill='white'/>
+  <rect x='250' y='732' width='80' height='18' fill='white'/>
+  <rect x='335' y='732' width='110' height='18' fill='white'/>
+  <text x='85' y='744' font-size='11' fill='#1a2332' text-anchor='middle'>4º</text>
+  <text x='200' y='744' font-size='11' fill='#1a2332' text-anchor='middle'>Triángulo</text>
+  <text x='290' y='744' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>amarillo</text>
+  <text x='390' y='744' font-size='11' font-weight='600' fill='#b71c1c' text-anchor='middle'>Apagado</text>
+  <line x1='20' y1='80' x2='430' y2='80' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='102' x2='430' y2='102' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='120' x2='430' y2='120' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='138' x2='430' y2='138' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='156' x2='430' y2='156' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='174' x2='430' y2='174' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='192' x2='430' y2='192' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='210' x2='430' y2='210' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='228' x2='430' y2='228' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='246' x2='430' y2='246' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='264' x2='430' y2='264' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='282' x2='430' y2='282' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='300' x2='430' y2='300' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='318' x2='430' y2='318' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='336' x2='430' y2='336' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='354' x2='430' y2='354' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='372' x2='430' y2='372' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='390' x2='430' y2='390' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='408' x2='430' y2='408' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='426' x2='430' y2='426' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='444' x2='430' y2='444' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='462' x2='430' y2='462' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='480' x2='430' y2='480' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='498' x2='430' y2='498' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='516' x2='430' y2='516' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='534' x2='430' y2='534' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='552' x2='430' y2='552' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='570' x2='430' y2='570' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='588' x2='430' y2='588' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='606' x2='430' y2='606' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='624' x2='430' y2='624' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='642' x2='430' y2='642' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='660' x2='430' y2='660' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='678' x2='430' y2='678' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='696' x2='430' y2='696' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='714' x2='430' y2='714' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='732' x2='430' y2='732' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='750' x2='430' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='20' y1='80' x2='20' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='155' y1='80' x2='155' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='250' y1='80' x2='250' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='335' y1='80' x2='335' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <line x1='445' y1='80' x2='445' y2='750' stroke='#b0bec5' stroke-width='0.5'/>
+  <rect x='20' y='80' width='410' height='670' fill='none' stroke='#1f4a73' stroke-width='1.5'/>
+  <text x='20' y='770' font-size='12' fill='#546e7a'>Aplica la tabla para determinar el estado de cada interruptor según la señal indicada.</text>
+</svg>

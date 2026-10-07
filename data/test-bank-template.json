@@ -3639,7 +3639,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3647,7 +3647,7 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
+          "explanation": "rotación 90°. La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3660,7 +3660,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3668,7 +3668,7 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
+          "explanation": "alternancia relleno/hueco. La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3681,7 +3681,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3689,7 +3689,7 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
+          "explanation": "simetría axial. La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3702,7 +3702,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3710,7 +3710,7 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
+          "explanation": "traslación circular. La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3723,7 +3723,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3731,7 +3731,7 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
+          "explanation": "conteo progresivo. La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3744,7 +3744,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3752,7 +3752,7 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
+          "explanation": "inversión espejo. La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3765,7 +3765,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3773,7 +3773,7 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
+          "explanation": "cambio de orientación. La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3786,7 +3786,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3794,7 +3794,7 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
+          "explanation": "sustitución de pieza. La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3807,7 +3807,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3815,7 +3815,7 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
+          "explanation": "rotación 90°. La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3828,7 +3828,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3836,7 +3836,7 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
+          "explanation": "alternancia relleno/hueco. La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3849,7 +3849,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3857,7 +3857,7 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
+          "explanation": "simetría axial. La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3870,7 +3870,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3878,7 +3878,7 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
+          "explanation": "traslación circular. La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3891,7 +3891,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (conteo progresivo).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3899,7 +3899,7 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
+          "explanation": "conteo progresivo. La serie sigue el criterio de aumenta en una unidad el número de marcas internas; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3912,7 +3912,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (inversión espejo).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3920,7 +3920,7 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
+          "explanation": "inversión espejo. La serie sigue el criterio de la tercera figura es espejo de la primera con una modificación final; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3933,7 +3933,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (cambio de orientación).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3941,7 +3941,7 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
+          "explanation": "cambio de orientación. La serie sigue el criterio de la orientación gira 45° por paso y se conserva el patrón de fondo; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3954,7 +3954,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (sustitución de pieza).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3962,7 +3962,7 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
+          "explanation": "sustitución de pieza. La serie sigue el criterio de se reemplaza una subfigura siguiendo el orden cíclico; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3975,7 +3975,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (rotación 90°).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -3983,7 +3983,7 @@
             "d"
           ],
           "correctIndex": 3,
-          "explanation": "La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
+          "explanation": "rotación 90°. La serie sigue el criterio de la figura rota 90° en sentido horario en cada paso; por eso la respuesta válida es d.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -3996,7 +3996,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Observa la secuencia visual y elige la opción correcta (alternancia relleno/hueco).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -4004,7 +4004,7 @@
             "d"
           ],
           "correctIndex": 2,
-          "explanation": "La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
+          "explanation": "alternancia relleno/hueco. La serie sigue el criterio de se alterna relleno y contorno entre posiciones consecutivas; por eso la respuesta válida es c.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4017,7 +4017,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (simetría axial).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -4025,7 +4025,7 @@
             "d"
           ],
           "correctIndex": 1,
-          "explanation": "La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
+          "explanation": "simetría axial. La serie sigue el criterio de se mantiene simetría vertical y cambia la pieza opuesta; por eso la respuesta válida es b.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4038,7 +4038,7 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia visual y elige la opción correcta (traslación circular).",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
             "a",
             "b",
@@ -4046,7 +4046,7 @@
             "d"
           ],
           "correctIndex": 0,
-          "explanation": "La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
+          "explanation": "traslación circular. La serie sigue el criterio de el elemento principal avanza una posición en sentido horario; por eso la respuesta válida es a.",
           "tags": [
             "psicotecnico",
             "abstracto",
@@ -4059,15 +4059,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Observa la secuencia de figuras: cada figura pierde un lado respecto a la anterior (pentágono → cuadrado → triángulo). ¿Qué figura sigue después del triángulo?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Círculo",
-            "Línea recta",
-            "Hexágono",
-            "Cuadrado"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La secuencia resta un lado: 5→4→3→2 (línea) o simbólicamente se llega al círculo al perder todos los lados rectos. La respuesta convencional es el círculo.",
+          "explanation": "Observa la secuencia de figuras: cada figura pierde un lado respecto a la anterior (pentágono → cuadrado → triángulo). ¿Qué figura sigue después del triángulo?. La secuencia resta un lado: 5→4→3→2 (línea) o simbólicamente se llega al círculo al perder todos los lados rectos. La respuesta convencional es el círculo.",
           "image": "/img/psychotecnicos/abstracto-021.svg",
           "tags": [
             "psicotecnico",
@@ -4080,15 +4080,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En una matriz 3×3, la primera fila tiene figuras con 1, 2 y 3 puntos; la segunda fila 4, 5 y 6 puntos; en la tercera fila aparecen figuras con 7 y 8 puntos. ¿Cuántos puntos tiene la figura que falta?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "9",
-            "10",
-            "8",
-            "7"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "El patrón es secuencial +1 por celda. La posición 9 tiene 9 puntos.",
+          "explanation": "En una matriz 3×3, la primera fila tiene figuras con 1, 2 y 3 puntos; la segunda fila 4, 5 y 6 puntos; en la tercera fila aparecen figuras con 7 y 8 puntos. ¿Cuántos puntos tiene la figura que falta?. El patrón es secuencial +1 por celda. La posición 9 tiene 9 puntos.",
           "image": "/img/psychotecnicos/abstracto-022.svg",
           "tags": [
             "psicotecnico",
@@ -4102,15 +4102,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Cada columna de la matriz contiene exactamente tres figuras diferentes: triángulo, cuadrado y círculo. Las dos primeras columnas están completas. En la tercera columna hay un triángulo y un círculo. ¿Qué falta?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Triángulo",
-            "Círculo",
-            "Cuadrado",
-            "Pentágono"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "La regla es que cada columna tiene las tres figuras exactamente una vez. Faltan cuadrado.",
+          "explanation": "Cada columna de la matriz contiene exactamente tres figuras diferentes: triángulo, cuadrado y círculo. Las dos primeras columnas están completas. En la tercera columna hay un triángulo y un círculo. ¿Qué falta?. La regla es que cada columna tiene las tres figuras exactamente una vez. Faltan cuadrado.",
           "image": "/img/psychotecnicos/abstracto-023.svg",
           "tags": [
             "psicotecnico",
@@ -4123,15 +4123,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "La figura interior de la celda rota 45° por cada celda hacia la derecha. La celda inicial muestra un cuadrado orientado verticalmente (0°). La tercera celda (90°) está completa. ¿Qué orientación tiene la quinta celda?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "0°",
-            "90°",
-            "180°",
-            "270°"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "Rotación acumulada: 0°, 45°, 90°, 135°, 180°. La quinta celda tiene la figura a 180° (girada).",
+          "explanation": "La figura interior de la celda rota 45° por cada celda hacia la derecha. La celda inicial muestra un cuadrado orientado verticalmente (0°). La tercera celda (90°) está completa. ¿Qué orientación tiene la quinta celda?. Rotación acumulada: 0°, 45°, 90°, 135°, 180°. La quinta celda tiene la figura a 180° (girada).",
           "image": "/img/psychotecnicos/abstracto-024.svg",
           "tags": [
             "psicotecnico",
@@ -4145,15 +4145,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En una secuencia, las figuras alternan entre llenas (negras) y vacías (blancas), y rotan 90° entre cada par. La secuencia es: llena-0°, vacía-90°, llena-180°, vacía-270°, llena-0°... ¿Cuál es la 7ª figura?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Vacía a 90°",
-            "Llena a 180°",
-            "Llena a 0°",
-            "Vacía a 0°"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "El patrón se repite cada 4 posiciones: pos 1=llena-0°, 5=llena-0°, 7=llena-0°. La 7ª es igual a la 1ª y 5ª.",
+          "explanation": "En una secuencia, las figuras alternan entre llenas (negras) y vacías (blancas), y rotan 90° entre cada par. La secuencia es: llena-0°, vacía-90°, llena-180°, vacía-270°, llena-0°... ¿Cuál es la 7ª figura?. El patrón se repite cada 4 posiciones: pos 1=llena-0°, 5=llena-0°, 7=llena-0°. La 7ª es igual a la 1ª y 5ª.",
           "image": "/img/psychotecnicos/abstracto-025.svg",
           "tags": [
             "psicotecnico",
@@ -4166,15 +4166,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Cada fila de la matriz aplica la misma operación a las figuras: fila 1 superpone las dos primeras para obtener la tercera. Fila 1: cuadrado + triángulo = estrella de 4 puntas. Fila 2: círculo + cuadrado = ? ¿Qué figura se obtiene?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Cuadrado con círculo interior",
-            "Círculo con esquinas",
-            "Estrella circular",
-            "Elipse"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La operación combina los bordes de las dos figuras anteriores. Círculo + cuadrado genera una figura con los bordes curvos del círculo pero con las esquinas del cuadrado marcadas.",
+          "explanation": "Cada fila de la matriz aplica la misma operación a las figuras: fila 1 superpone las dos primeras para obtener la tercera. Fila 1: cuadrado + triángulo = estrella de 4 puntas. Fila 2: círculo + cuadrado = ? ¿Qué figura se obtiene?. La operación combina los bordes de las dos figuras anteriores. Círculo + cuadrado genera una figura con los bordes curvos del círculo pero con las esquinas del cuadrado marcadas.",
           "image": "/img/psychotecnicos/abstracto-026.svg",
           "tags": [
             "psicotecnico",
@@ -4187,15 +4187,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la secuencia, el número de lados de la figura aumenta en 1 y la figura se rellena de negro cada vez que tiene un número par de lados. Cuadrado (4, negro) → Pentágono (5, vacío) → Hexágono (6, negro) → ? ¿Qué sigue?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Heptágono negro",
-            "Heptágono vacío",
-            "Octógono negro",
-            "Octógono vacío"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Heptágono tiene 7 lados (impar) → vacío. La siguiente figura es heptágono vacío.",
+          "explanation": "En la secuencia, el número de lados de la figura aumenta en 1 y la figura se rellena de negro cada vez que tiene un número par de lados. Cuadrado (4, negro) → Pentágono (5, vacío) → Hexágono (6, negro) → ? ¿Qué sigue?. Heptágono tiene 7 lados (impar) → vacío. La siguiente figura es heptágono vacío.",
           "image": "/img/psychotecnicos/abstracto-027.svg",
           "tags": [
             "psicotecnico",
@@ -4208,15 +4208,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la matriz 3×3, la diagonal principal contiene siempre la misma figura (estrella). Las dos diagonales secundarias tienen círculos. Los extremos de las filas tienen cuadrados. ¿Qué figura va en el centro?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Estrella",
-            "Círculo",
-            "Cuadrado",
-            "Triángulo"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "El centro pertenece a la diagonal principal, que contiene estrellas.",
+          "explanation": "En la matriz 3×3, la diagonal principal contiene siempre la misma figura (estrella). Las dos diagonales secundarias tienen círculos. Los extremos de las filas tienen cuadrados. ¿Qué figura va en el centro?. El centro pertenece a la diagonal principal, que contiene estrellas.",
           "image": "/img/psychotecnicos/abstracto-028.svg",
           "tags": [
             "psicotecnico",
@@ -4230,15 +4230,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "La figura crece en área: en la fila 1 ocupa 1 celda, en la fila 2 ocupa 4 celdas, en la fila 3 ocupa 9 celdas. ¿Cuántas celdas ocupará en la fila 4?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "12",
-            "14",
-            "16",
-            "18"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "El área sigue la secuencia de cuadrados perfectos: 1², 2², 3², 4² = 16 celdas.",
+          "explanation": "La figura crece en área: en la fila 1 ocupa 1 celda, en la fila 2 ocupa 4 celdas, en la fila 3 ocupa 9 celdas. ¿Cuántas celdas ocupará en la fila 4?. El área sigue la secuencia de cuadrados perfectos: 1², 2², 3², 4² = 16 celdas.",
           "image": "/img/psychotecnicos/abstracto-029.svg",
           "tags": [
             "psicotecnico",
@@ -4251,15 +4251,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Regla oculta: la figura de la celda C = A XOR B (solo las partes que están en A o en B, pero no en ambas). A=cuadrado, B=rombo que encaja en el cuadrado. C=?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Cuadrado vacío",
-            "Rombo interior resaltado",
-            "Marco exterior del cuadrado sin la zona del rombo",
-            "Solo el rombo"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 2,
-          "explanation": "XOR lógico de figuras superpuestas: se conservan solo las zonas exclusivas de cada figura. El cuadrado externo sin la zona compartida con el rombo.",
+          "explanation": "Regla oculta: la figura de la celda C = A XOR B (solo las partes que están en A o en B, pero no en ambas). A=cuadrado, B=rombo que encaja en el cuadrado. C=?. XOR lógico de figuras superpuestas: se conservan solo las zonas exclusivas de cada figura. El cuadrado externo sin la zona compartida con el rombo.",
           "image": "/img/psychotecnicos/abstracto-030.svg",
           "tags": [
             "psicotecnico",
@@ -4273,15 +4273,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Las figuras de la secuencia siguen dos reglas simultáneas: (1) giran 90° a la derecha, (2) duplican el número de lados con cada giro. Triángulo (3 lados) → ? → ? → ?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Hexágono a 90°",
-            "Hexágono a 180°",
-            "Heptágono a 90°",
-            "Triángulo a 90°"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Paso 1: triángulo→hexágono (×2=6 lados) y gira 90°. Paso 2: hexágono→dodecágono (×2=12 lados) y gira 180°. El segundo elemento es hexágono a 90°... Revisando: la pregunta es por el segundo elemento: hexágono a 90°.",
+          "explanation": "Las figuras de la secuencia siguen dos reglas simultáneas: (1) giran 90° a la derecha, (2) duplican el número de lados con cada giro. Triángulo (3 lados) → ? → ? → ?. Paso 1: triángulo→hexágono (×2=6 lados) y gira 90°. Paso 2: hexágono→dodecágono (×2=12 lados) y gira 180°. El segundo elemento es hexágono a 90°... Revisando: la pregunta es por el segundo elemento: hexágono a 90°.",
           "image": "/img/psychotecnicos/abstracto-031.svg",
           "tags": [
             "psicotecnico",
@@ -4294,15 +4294,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la serie, la sombra de la figura gira en sentido contrario a la figura principal. Si la figura está a 0° y su sombra a 180°, en el siguiente paso la figura está a 45° y la sombra a...?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "225°",
-            "135°",
-            "315°",
-            "90°"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "La sombra se mueve en dirección contraria: si la figura avanza +45°, la sombra retrocede -45° desde 180° → 180-45=135°.",
+          "explanation": "En la serie, la sombra de la figura gira en sentido contrario a la figura principal. Si la figura está a 0° y su sombra a 180°, en el siguiente paso la figura está a 45° y la sombra a...?. La sombra se mueve en dirección contraria: si la figura avanza +45°, la sombra retrocede -45° desde 180° → 180-45=135°.",
           "image": "/img/psychotecnicos/abstracto-032.svg",
           "tags": [
             "psicotecnico",
@@ -4315,15 +4315,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Cada figura de la cuadrícula tiene un número de puntos igual a (fila × columna). La posición fila 3, columna 4 estará vacía. ¿Cuántos puntos tiene?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "7",
-            "9",
-            "10",
-            "12"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Fila 3 × columna 4 = 12 puntos.",
+          "explanation": "Cada figura de la cuadrícula tiene un número de puntos igual a (fila × columna). La posición fila 3, columna 4 estará vacía. ¿Cuántos puntos tiene?. Fila 3 × columna 4 = 12 puntos.",
           "image": "/img/psychotecnicos/abstracto-033.svg",
           "tags": [
             "psicotecnico",
@@ -4337,15 +4337,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la secuencia, las figuras siguen un código de color: rojo=mueve arriba 1, azul=mueve abajo 1, verde=mueve derecha 1. La secuencia de colores es R-A-V-R. Una pieza comienza en (2,2). ¿Posición final?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "(3,3)",
-            "(2,3)",
-            "(3,2)",
-            "(1,3)"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "(2,2)+R→(1,2)+A→(2,2)+V→(2,3)+R→(1,3)... Revisando con (fila,col): R=fila-1, A=fila+1, V=col+1. Start(2,2): R→(1,2), A→(2,2), V→(2,3), R→(1,3). Posición final: (1,3). Opción d).",
+          "explanation": "En la secuencia, las figuras siguen un código de color: rojo=mueve arriba 1, azul=mueve abajo 1, verde=mueve derecha 1. La secuencia de colores es R-A-V-R. Una pieza comienza en (2,2). ¿Posición final?. (2,2)+R→(1,2)+A→(2,2)+V→(2,3)+R→(1,3)... Revisando con (fila,col): R=fila-1, A=fila+1, V=col+1. Start(2,2): R→(1,2), A→(2,2), V→(2,3), R→(1,3). Posición final: (1,3). Opción d).",
           "image": "/img/psychotecnicos/abstracto-034.svg",
           "tags": [
             "psicotecnico",
@@ -4359,15 +4359,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "La matriz aplica la regla: celda(i,j) = celda(i-1,j) + celda(i,j-1). Fila 1: [1,1,1]. Fila 2: [1,?,?]. ¿Cuáles son los valores que faltan en fila 2?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "[2,2]",
-            "[2,3]",
-            "[1,2]",
-            "[3,3]"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "celda(2,2)=celda(1,2)+celda(2,1)=1+1=2. celda(2,3)=celda(1,3)+celda(2,2)=1+2=3. Fila 2: [1,2,3].",
+          "explanation": "La matriz aplica la regla: celda(i,j) = celda(i-1,j) + celda(i,j-1). Fila 1: [1,1,1]. Fila 2: [1,?,?]. ¿Cuáles son los valores que faltan en fila 2?. celda(2,2)=celda(1,2)+celda(2,1)=1+1=2. celda(2,3)=celda(1,3)+celda(2,2)=1+2=3. Fila 2: [1,2,3].",
           "image": "/img/psychotecnicos/abstracto-035.svg",
           "tags": [
             "psicotecnico",
@@ -4380,15 +4380,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Secuencia de figuras: un reloj muestra 12:00 → 3:00 → 6:00 → 9:00 → ¿? La manecilla horaria avanza 90° cada vez.",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "12:00",
-            "3:00",
-            "6:00",
-            "9:00"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "El ciclo es 12→3→6→9→12. El 5º elemento vuelve a 12:00.",
+          "explanation": "Secuencia de figuras: un reloj muestra 12:00 → 3:00 → 6:00 → 9:00 → ¿? La manecilla horaria avanza 90° cada vez. El ciclo es 12→3→6→9→12. El 5º elemento vuelve a 12:00.",
           "image": "/img/psychotecnicos/abstracto-036.svg",
           "tags": [
             "psicotecnico",
@@ -4401,15 +4401,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "Una figura cúbica se ve desde distintos ángulos. Vista de frente: cuadrado. Vista desde arriba: rectángulo. Vista lateral: triángulo. ¿Qué sólido es?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "Cubo",
-            "Cilindro",
-            "Prisma triangular",
-            "Pirámide cuadrangular"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "Una pirámide cuadrangular vista de frente y de arriba muestra un cuadrado; de lado muestra un triángulo.",
+          "explanation": "Una figura cúbica se ve desde distintos ángulos. Vista de frente: cuadrado. Vista desde arriba: rectángulo. Vista lateral: triángulo. ¿Qué sólido es?. Una pirámide cuadrangular vista de frente y de arriba muestra un cuadrado; de lado muestra un triángulo.",
           "image": "/img/psychotecnicos/abstracto-037.svg",
           "tags": [
             "psicotecnico",
@@ -4423,15 +4423,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la cuadrícula, los símbolos siguen la regla: ♦ en diagonal principal, ■ en diagonal secundaria, ● en el resto. ¿Qué símbolo va en la posición fila 2, columna 2 de una cuadrícula 3×3?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "♦",
-            "■",
-            "●",
-            "Ninguno"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 0,
-          "explanation": "La diagonal principal de una cuadrícula 3×3 pasa por (1,1), (2,2) y (3,3). La posición (2,2) es ♦.",
+          "explanation": "En la cuadrícula, los símbolos siguen la regla: ♦ en diagonal principal, ■ en diagonal secundaria, ● en el resto. ¿Qué símbolo va en la posición fila 2, columna 2 de una cuadrícula 3×3?. La diagonal principal de una cuadrícula 3×3 pasa por (1,1), (2,2) y (3,3). La posición (2,2) es ♦.",
           "image": "/img/psychotecnicos/abstracto-038.svg",
           "tags": [
             "psicotecnico",
@@ -4445,15 +4445,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la serie temporal, cada figura añade un elemento nuevo en la esquina superior izquierda. Figura 1: un punto. Figura 2: dos puntos. Figura 3: cuatro puntos. Figura 4: ¿cuántos puntos?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 3,
-          "explanation": "La secuencia duplica los puntos: 1,2,4,8. La figura 4 tiene 8 puntos.",
+          "explanation": "En la serie temporal, cada figura añade un elemento nuevo en la esquina superior izquierda. Figura 1: un punto. Figura 2: dos puntos. Figura 3: cuatro puntos. Figura 4: ¿cuántos puntos?. La secuencia duplica los puntos: 1,2,4,8. La figura 4 tiene 8 puntos.",
           "image": "/img/psychotecnicos/abstracto-039.svg",
           "tags": [
             "psicotecnico",
@@ -4467,15 +4467,15 @@
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "alta",
-          "question": "En la serie, el número de segmentos negros de la figura sigue el patrón 1,3,5,7... (impares). ¿Cuántos segmentos tiene la 5ª figura?",
+          "question": "Completa la serie o elige la respuesta correcta.",
           "options": [
-            "8",
-            "9",
-            "10",
-            "11"
+            "a",
+            "b",
+            "c",
+            "d"
           ],
           "correctIndex": 1,
-          "explanation": "Secuencia de impares: 1,3,5,7,9. La 5ª figura tiene 9 segmentos.",
+          "explanation": "En la serie, el número de segmentos negros de la figura sigue el patrón 1,3,5,7... (impares). ¿Cuántos segmentos tiene la 5ª figura?. Secuencia de impares: 1,3,5,7,9. La 5ª figura tiene 9 segmentos.",
           "image": "/img/psychotecnicos/abstracto-040.svg",
           "tags": [
             "psicotecnico",
@@ -4909,46 +4909,454 @@
       ],
       "instruccionesComplejas": [
         {
-          "id": "psi-ins-001",
+          "id": "psi-ins-101",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
-          "question": "Regla: si el interruptor A está ON, la bombilla X se enciende. Si X está encendida, la alarma Y suena. A está ON. ¿Qué ocurre?",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, La señal muestra una bombilla cuadrada en la tercera posición de color rojo. ¿Cuál es el estado del interruptor?",
           "options": [
-            "X apagada, Y en silencio",
-            "X encendida, Y en silencio",
-            "X encendida, Y suena",
-            "X apagada, Y suena"
-          ],
-          "correctIndex": 2,
-          "explanation": "A=ON → X encendida → Y suena. Resultado: X encendida y Y sonando.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "logica"
-          ],
-          "subgrupo": "Interruptores"
-        },
-        {
-          "id": "psi-ins-002",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla: el semáforo muestra VERDE si la vía está libre Y el tren se ha detenido. La vía está ocupada. ¿Color del semáforo?",
-          "options": [
-            "Verde",
-            "Amarillo",
-            "Rojo",
+            "Encendido",
+            "Apagado",
+            "Encendido",
             "Apagado"
           ],
           "correctIndex": 2,
-          "explanation": "Para VERDE se necesitan ambas condiciones: vía libre Y tren detenido. Al estar la vía ocupada, se muestra ROJO.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo"
+          "explanation": "Según la tabla: forma=Cuadrado, posición=3ª, color=rojo → Encendido."
+        },
+        {
+          "id": "psi-ins-102",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, La bombilla circular en la segunda posición tiene color azul. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Apagado",
+            "Apagado"
           ],
-          "subgrupo": "Semáforos"
+          "correctIndex": 2,
+          "explanation": "Según la tabla: forma=Círculo, posición=2ª, color=azul → Apagado."
+        },
+        {
+          "id": "psi-ins-103",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Se observa una bombilla triangular amarilla en la cuarta posición. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Apagado",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: forma=Triángulo, posición=4ª, color=amarillo → Apagado."
+        },
+        {
+          "id": "psi-ins-104",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Bombilla cuadrada amarilla en posición 1. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: forma=Cuadrado, posición=1ª, color=amarillo → Encendido."
+        },
+        {
+          "id": "psi-ins-105",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, La tercera bombilla es un círculo de color amarillo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: forma=Círculo, posición=3ª, color=amarillo → Encendido."
+        },
+        {
+          "id": "psi-ins-106",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Bombilla triangular roja en la segunda posición. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: forma=Triángulo, posición=2ª, color=rojo → Encendido."
+        },
+        {
+          "id": "psi-ins-107",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Cuarta bombilla: cuadrado azul. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Apagado",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: forma=Cuadrado, posición=4ª, color=azul → Apagado."
+        },
+        {
+          "id": "psi-ins-108",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Primera bombilla: círculo rojo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: forma=Círculo, posición=1ª, color=rojo → Encendido."
+        },
+        {
+          "id": "psi-ins-109",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Tercera posición, triángulo, color azul. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Encendido",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: forma=Triángulo, posición=3ª, color=azul → Encendido."
+        },
+        {
+          "id": "psi-ins-110",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Segunda posición, cuadrado, color rojo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Apagado",
+            "Apagado"
+          ],
+          "correctIndex": 2,
+          "explanation": "Según la tabla: forma=Cuadrado, posición=2ª, color=rojo → Apagado."
+        },
+        {
+          "id": "psi-ins-111",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Cuarta posición, círculo, color azul. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: forma=Círculo, posición=4ª, color=azul → Encendido."
+        },
+        {
+          "id": "psi-ins-112",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Primera posición, triángulo, color amarillo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: forma=Triángulo, posición=1ª, color=amarillo → Apagado."
+        },
+        {
+          "id": "psi-ins-113",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Tercera posición, cuadrado, color azul. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: forma=Cuadrado, posición=3ª, color=azul → Encendido."
+        },
+        {
+          "id": "psi-ins-114",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Segunda posición, círculo, color amarillo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Encendido",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: forma=Círculo, posición=2ª, color=amarillo → Apagado."
+        },
+        {
+          "id": "psi-ins-115",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Según la tabla de referencia, Cuarta posición, triángulo, color rojo. ¿Cuál es el estado del interruptor?",
+          "options": [
+            "Apagado",
+            "Apagado",
+            "Encendido",
+            "Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: forma=Triángulo, posición=4ª, color=rojo → Apagado."
+        },
+        {
+          "id": "psi-ins-201",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Observando el semáforo de referencia, el tren debe detenerse obligatoriamente. ¿Qué luz está encendida?",
+          "options": [
+            "Rojo (superior)",
+            "Ámbar (central)",
+            "Verde (inferior)",
+            "Ninguna"
+          ],
+          "correctIndex": 0,
+          "explanation": "La luz roja encendida indica PARADA OBLIGATORIA. Es la luz superior del semáforo ferroviario."
+        },
+        {
+          "id": "psi-ins-202",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "El semáforo indica PRECAUCIÓN — el maquinista debe reducir la velocidad. ¿Qué luz está encendida?",
+          "options": [
+            "Rojo (superior)",
+            "Ámbar (central)",
+            "Verde (inferior)",
+            "Rojo y ámbar simultáneamente"
+          ],
+          "correctIndex": 1,
+          "explanation": "La luz ámbar (central) indica PRECAUCIÓN. El tren debe reducir la velocidad para poder detenerse en el próximo semáforo si fuera necesario."
+        },
+        {
+          "id": "psi-ins-203",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "El semáforo indica VÍA LIBRE — el tren puede circular a la velocidad autorizada. ¿Qué luz está encendida?",
+          "options": [
+            "Rojo (superior)",
+            "Ámbar (central)",
+            "Verde (inferior)",
+            "Ámbar y verde simultáneamente"
+          ],
+          "correctIndex": 2,
+          "explanation": "La luz verde (inferior) indica VÍA LIBRE. El tren puede circular a la velocidad máxima autorizada para esa sección."
+        },
+        {
+          "id": "psi-ins-204",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "¿Cuál es el orden correcto de las luces en el semáforo ferroviario, de arriba a abajo?",
+          "options": [
+            "a- rojo · ámbar · verde",
+            "b- verde · ámbar · rojo",
+            "c- ámbar · rojo · verde",
+            "d- verde · rojo · ámbar"
+          ],
+          "correctIndex": 0,
+          "explanation": "El orden estándar en el semáforo ferroviario es: rojo (superior), ámbar (central), verde (inferior), de arriba hacia abajo."
+        },
+        {
+          "id": "psi-ins-205",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-B",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-B.svg",
+          "question": "En la imagen de los tres semáforos en cascada, S1 muestra PARADA. ¿Qué indica S2?",
+          "options": [
+            "a- Vía libre",
+            "b- Precaución",
+            "c- Parada también",
+            "d- Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cuando S1 muestra parada, S2 anticipa esa parada mostrando PRECAUCIÓN para que el maquinista pueda reducir la velocidad."
+        },
+        {
+          "id": "psi-ins-206",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-B",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-B.svg",
+          "question": "En la cascada de semáforos, S3 muestra VÍA LIBRE y S2 muestra PRECAUCIÓN. ¿Qué muestra S1?",
+          "options": [
+            "a- verde · ámbar · rojo",
+            "b- rojo · ámbar · verde",
+            "c- ámbar · rojo · verde",
+            "d- verde · rojo · ámbar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Con S3 en vía libre y S2 en precaución, S1 muestra PARADA (rojo encendido). El orden de luces de S1, de arriba a abajo: rojo · ámbar · verde, con el rojo encendido."
+        },
+        {
+          "id": "psi-ins-207",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-B",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-B.svg",
+          "question": "El tren ve el semáforo S2 con la luz ámbar encendida. ¿Cuál es la acción correcta?",
+          "options": [
+            "a- Detener el tren inmediatamente",
+            "b- Reducir la velocidad para poder detenerse en S1 si es necesario",
+            "c- Continuar a la misma velocidad",
+            "d- Acelerar para superar la zona"
+          ],
+          "correctIndex": 1,
+          "explanation": "La luz ámbar (precaución) indica que el próximo semáforo puede estar en parada. El maquinista debe reducir la velocidad para poder detenerse."
+        },
+        {
+          "id": "psi-ins-208",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "¿Qué aspecto del semáforo ferroviario indica que el tren puede circular a la velocidad máxima autorizada sin restricciones?",
+          "options": [
+            "a- rojo · ámbar · verde (rojo encendido)",
+            "b- rojo · ámbar · verde (ámbar encendido)",
+            "c- rojo · ámbar · verde (verde encendido)",
+            "d- todos apagados"
+          ],
+          "correctIndex": 2,
+          "explanation": "El verde encendido (luz inferior) indica VÍA LIBRE: el tren puede circular a la velocidad máxima autorizada."
+        },
+        {
+          "id": "psi-ins-209",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Un semáforo muestra ANUNCIO DE PARADA (rojo y ámbar encendidos simultáneamente). ¿Cuál es la secuencia de luces encendidas?",
+          "options": [
+            "a- solo rojo",
+            "b- rojo y ámbar",
+            "c- solo ámbar",
+            "d- ámbar y verde"
+          ],
+          "correctIndex": 1,
+          "explanation": "El aspecto de ANUNCIO DE PARADA se indica con rojo y ámbar encendidos simultáneamente. Anticipa que el siguiente semáforo estará en parada."
+        },
+        {
+          "id": "psi-ins-210",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-B",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-B.svg",
+          "question": "Observando la cascada de semáforos: S3=Verde, S2=Verde, S1=Verde. ¿Qué indica esta situación?",
+          "options": [
+            "a- Los tres semáforos están averiados",
+            "b- La vía está libre en todos los tramos",
+            "c- El tren debe detenerse",
+            "d- Solo S1 es relevante"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cuando todos los semáforos muestran verde (vía libre), la vía está completamente despejada y el tren puede circular a la velocidad máxima autorizada."
         },
         {
           "id": "psi-ins-003",
@@ -4969,7 +5377,9 @@
             "instrucciones",
             "logica"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-004",
@@ -4990,7 +5400,9 @@
             "instrucciones",
             "condicion-and"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-005",
@@ -5011,7 +5423,9 @@
             "instrucciones",
             "condicion-or"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-006",
@@ -5032,49 +5446,9 @@
             "instrucciones",
             "secuencia"
           ],
-          "subgrupo": "Órdenes con figuras"
-        },
-        {
-          "id": "psi-ins-007",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla: si sensor S1=1 Y sensor S2=0, activar relé R. S1=1, S2=0. ¿Se activa R?",
-          "options": [
-            "Sí",
-            "No",
-            "Solo S1",
-            "Solo S2"
-          ],
-          "correctIndex": 0,
-          "explanation": "Ambas condiciones se cumplen: S1=1 (V) y S2=0 (la condición pide que S2=0, que es V). Se activa R.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "relay"
-          ],
-          "subgrupo": "Interruptores"
-        },
-        {
-          "id": "psi-ins-008",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Instrucciones: X se activa si A=1 y B=0. Y se activa si X=1 o C=1. A=1, B=0, C=0. ¿Estado de Y?",
-          "options": [
-            "Y=0",
-            "Y=1",
-            "X=0, Y=0",
-            "Indeterminado"
-          ],
-          "correctIndex": 1,
-          "explanation": "A=1 y B=0 → X=1. Como X=1, la condición OR de Y se cumple → Y=1.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "logica-encadenada"
-          ],
-          "subgrupo": "Interruptores"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-009",
@@ -5095,7 +5469,9 @@
             "instrucciones",
             "prioridad"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-010",
@@ -5116,71 +5492,9 @@
             "instrucciones",
             "codigo"
           ],
-          "subgrupo": "Órdenes con figuras"
-        },
-        {
-          "id": "psi-ins-011",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla de semáforo: VERDE si libre, AMARILLO si precaución requerida, ROJO si peligro. Hay una fuga de gas. ¿Cuál es la señal correcta?",
-          "options": [
-            "Verde",
-            "Amarillo",
-            "Rojo",
-            "Apagado"
-          ],
-          "correctIndex": 2,
-          "explanation": "Una fuga de gas es una situación de peligro que requiere señal ROJA.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo",
-            "seguridad"
-          ],
-          "subgrupo": "Interruptores"
-        },
-        {
-          "id": "psi-ins-012",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Secuencia: si el contador C es par, sumar 10; si es impar, restar 5. C empieza en 4. ¿Valor de C tras dos pasos?",
-          "options": [
-            "14",
-            "9",
-            "19",
-            "24"
-          ],
-          "correctIndex": 3,
-          "explanation": "Paso 1: C=4 (par) → C=4+10=14. Paso 2: C=14 (par) → C=14+10=24. Resultado: 24.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "contador"
-          ],
-          "subgrupo": "Interruptores"
-        },
-        {
-          "id": "psi-ins-013",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Instrucción: mover objeto a almacén A si pesa < 10 kg, a almacén B si pesa ≥ 10 kg y < 50 kg, a almacén C si pesa ≥ 50 kg. Peso=35 kg. ¿Destino?",
-          "options": [
-            "Almacén A",
-            "Almacén B",
-            "Almacén C",
-            "Sin destino"
-          ],
-          "correctIndex": 1,
-          "explanation": "35 kg ≥ 10 y < 50 → almacén B.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "clasificacion"
-          ],
-          "subgrupo": "Semáforos"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-014",
@@ -5201,7 +5515,9 @@
             "instrucciones",
             "condicion-or"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-015",
@@ -5222,7 +5538,9 @@
             "instrucciones",
             "posicion"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-016",
@@ -5243,49 +5561,9 @@
             "instrucciones",
             "interruptores"
           ],
-          "subgrupo": "Órdenes con figuras"
-        },
-        {
-          "id": "psi-ins-017",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Instrucción encadenada: si A→B y B→C y C→¬A, ¿puede A ser verdadero indefinidamente?",
-          "options": [
-            "Sí, siempre",
-            "No, A se vuelve falso",
-            "Solo al inicio",
-            "Depende de B"
-          ],
-          "correctIndex": 1,
-          "explanation": "A→B→C→¬A: si A=V, se genera C=V que hace A=F. Por tanto, A no puede mantenerse verdadero.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "logica-recursiva"
-          ],
-          "subgrupo": "Interruptores"
-        },
-        {
-          "id": "psi-ins-018",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla de acceso: se permite la entrada si el código es correcto Y el turno es de día Y la zona no está restringida. Código correcto, turno de noche, zona libre. ¿Se permite la entrada?",
-          "options": [
-            "Sí",
-            "No",
-            "Solo con supervisor",
-            "Solo en emergencias"
-          ],
-          "correctIndex": 1,
-          "explanation": "La condición AND requiere los tres factores. El turno es de noche, no de día → acceso denegado.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "acceso"
-          ],
-          "subgrupo": "Semáforos"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-019",
@@ -5306,7 +5584,9 @@
             "instrucciones",
             "estado"
           ],
-          "subgrupo": "Órdenes con figuras"
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-020",
@@ -5327,230 +5607,9 @@
             "instrucciones",
             "tabla-verdad"
           ],
-          "subgrupo": "Órdenes con figuras"
-        },
-        {
-          "id": "psi-ins-021",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Señal A activa la bombilla 1ª (rojo) y 3ª (azul). Señal B activa la 2ª (rojo) y 4ª (azul). Señal C activa la 1ª (amarillo) y 2ª (azul).<br><strong>Tabla de interruptores:</strong> Bombilla 1ª rojo→Apagado, 2ª rojo→Apagado, 3ª rojo→Encendido, 4ª rojo→Encendido. Bombilla 1ª azul→Apagado, 2ª azul→Encendido, 3ª azul→Encendido, 4ª azul→Apagado. Bombilla 1ª amarillo→Encendido, 2ª amarillo→Encendido, 3ª amarillo→Apagado, 4ª amarillo→Apagado.</em>Si se activa la Señal A (1ª rojo y 3ª azul), ¿cuál es el estado de sus interruptores?",
-          "options": [
-            "A:Encendido, B:Encendido, C:Apagado",
-            "A:Apagado, B:Encendido, C:Apagado",
-            "A:Encendido, B:Apagado, C:Encendido",
-            "A:Apagado, B:Apagado, C:Encendido"
-          ],
-          "correctIndex": 1,
-          "explanation": "1ª rojo→Apagado (según tabla). 3ª azul→Encendido. La señal A produce: interruptor 1ª rojo=Apagado, interruptor 3ª azul=Encendido. Estado general A=Apagado, B=Encendido, C=Apagado.",
-          "image": "/img/psychotecnicos/instruc-interruptores.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ]
-        },
-        {
-          "id": "psi-ins-022",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Interruptores",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>3 señales (A, B, C) con 4 bombillas y 3 colores (rojo, azul, amarillo). Tabla: 1ª rojo=Apagado, 2ª rojo=Apagado, 3ª rojo=Encendido, 4ª rojo=Encendido. 1ª azul=Apagado, 2ª azul=Encendido, 3ª azul=Encendido, 4ª azul=Apagado. 1ª amarillo=Encendido, 2ª amarillo=Encendido, 3ª amarillo=Apagado, 4ª amarillo=Apagado.</em>Señal A: 1ª rojo. Señal B: 4ª azul. Señal C: 1ª amarillo. ¿Estado de los interruptores?",
-          "options": [
-            "A:Encendido, B:Apagado, C:Apagado",
-            "A:Apagado, B:Apagado, C:Encendido",
-            "A:Encendido, B:Encendido, C:Apagado",
-            "A:Apagado, B:Encendido, C:Encendido"
-          ],
-          "correctIndex": 1,
-          "explanation": "1ª rojo=Apagado → A=Apagado. 4ª azul=Apagado → B=Apagado. 1ª amarillo=Encendido → C=Encendido.",
-          "image": "/img/psychotecnicos/instruc-interruptores.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ]
-        },
-        {
-          "id": "psi-ins-023",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Interruptores",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla. 1ª rojo=Apagado, 2ª rojo=Apagado, 3ª rojo=Encendido, 4ª rojo=Encendido. 1ª azul=Apagado, 2ª azul=Encendido, 3ª azul=Encendido, 4ª azul=Apagado. 1ª amarillo=Encendido, 2ª amarillo=Encendido, 3ª amarillo=Apagado, 4ª amarillo=Apagado.</em>Señal A: 3ª rojo. Señal B: 2ª azul. Señal C: 2ª amarillo. ¿Estado?",
-          "options": [
-            "A:Encendido, B:Encendido, C:Encendido",
-            "A:Encendido, B:Encendido, C:Apagado",
-            "A:Apagado, B:Encendido, C:Encendido",
-            "A:Encendido, B:Apagado, C:Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "3ª rojo=Encendido→A=Encendido. 2ª azul=Encendido→B=Encendido. 2ª amarillo=Encendido→C=Encendido.",
-          "image": "/img/psychotecnicos/instruc-interruptores.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ]
-        },
-        {
-          "id": "psi-ins-024",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Interruptores",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla.</em>Señal A: 4ª rojo. Señal B: 3ª azul. Señal C: 3ª amarillo. ¿Estado?",
-          "options": [
-            "A:Encendido, B:Encendido, C:Apagado",
-            "A:Apagado, B:Encendido, C:Apagado",
-            "A:Encendido, B:Apagado, C:Encendido",
-            "A:Apagado, B:Apagado, C:Encendido"
-          ],
-          "correctIndex": 0,
-          "explanation": "4ª rojo=Encendido→A=Encendido. 3ª azul=Encendido→B=Encendido. 3ª amarillo=Apagado→C=Apagado.",
-          "image": "/img/psychotecnicos/instruc-interruptores.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ]
-        },
-        {
-          "id": "psi-ins-025",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Interruptores",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Misma tabla.</em>Señal A: 2ª rojo. Señal B: 1ª azul. Señal C: 4ª amarillo. ¿Estado?",
-          "options": [
-            "A:Apagado, B:Apagado, C:Apagado",
-            "A:Encendido, B:Apagado, C:Apagado",
-            "A:Apagado, B:Encendido, C:Apagado",
-            "A:Encendido, B:Encendido, C:Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "2ª rojo=Apagado→A=Apagado. 1ª azul=Apagado→B=Apagado. 4ª amarillo=Apagado→C=Apagado.",
-          "image": "/img/psychotecnicos/instruc-interruptores.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ]
-        },
-        {
-          "id": "psi-ins-031",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 3 luces en orden vertical: arriba Rojo, centro Amarillo, abajo Verde. Estado actual: Rojo encendido. La secuencia es: Rojo→(Rojo+Amarillo)→Verde→Amarillo→Rojo...</em>¿Qué fase sigue al Rojo?",
-          "options": [
-            "Verde directamente",
-            "Rojo+Amarillo simultáneo",
-            "Solo Amarillo",
-            "Apagado"
-          ],
-          "correctIndex": 1,
-          "explanation": "En muchos países la secuencia estándar es: Rojo → Rojo+Amarillo (preparación) → Verde → Amarillo → Rojo.",
-          "image": "/img/psychotecnicos/instruc-semaforo.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo"
-          ]
-        },
-        {
-          "id": "psi-ins-032",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Un semáforo de 3 luces tiene la siguiente tabla de estados: FASE 1: rojo, verde, rojo. FASE 2: rojo, rojo, verde. FASE 3: verde, rojo, rojo. El sistema tiene semáforos A, B y C. En la Fase 2 activa.</em>¿En qué semáforo pueden pasar los vehículos?",
-          "options": [
-            "Semáforo A",
-            "Semáforo B",
-            "Semáforo C",
-            "Ninguno"
-          ],
-          "correctIndex": 2,
-          "explanation": "En Fase 2 la tabla indica: A=rojo, B=rojo, C=verde. Solo C tiene verde.",
-          "image": "/img/psychotecnicos/instruc-semaforo.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo"
-          ]
-        },
-        {
-          "id": "psi-ins-033",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Tabla de 3 semáforos y 4 fases: F1=(R,V,R), F2=(R,R,V), F3=(V,R,R), F4=(A,A,A). Duración: F1=30s, F2=30s, F3=30s, F4=5s. El sistema lleva 65 segundos en marcha.</em>¿En qué fase está el sistema a los 65 segundos?",
-          "options": [
-            "Fase 1",
-            "Fase 2",
-            "Fase 3",
-            "Fase 4"
-          ],
-          "correctIndex": 1,
-          "explanation": "Ciclo total=95s. A los 65s: F1(0-30s), F2(30-60s), F3(60-90s). A los 65s estamos en Fase 3 (60-90s). Respuesta correcta: Fase 3.",
-          "image": "/img/psychotecnicos/instruc-semaforo.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo",
-            "tiempo"
-          ]
-        },
-        {
-          "id": "psi-ins-034",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Regla de semáforo: la luz amarilla intermitente indica precaución. Verde fijo = paso libre. Rojo fijo = stop. Verde intermitente = paso con precaución.</em>Un conductor ve verde intermitente. ¿Qué debe hacer?",
-          "options": [
-            "Acelerar y pasar rápido",
-            "Detenerse completamente",
-            "Pasar con precaución, reduciendo la velocidad",
-            "Ignorar la señal"
-          ],
-          "correctIndex": 2,
-          "explanation": "Verde intermitente según las reglas indicadas = paso con precaución.",
-          "image": "/img/psychotecnicos/instruc-semaforo.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo",
-            "conduccion"
-          ]
-        },
-        {
-          "id": "psi-ins-035",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 4 luces verticales: Roja (arriba), Amarilla, Verde, Blanca (abajo). Reglas: Blanca=avance lento, Verde=paso normal, Amarilla=precaución, Roja=stop. Si se enciende la luz número 3 desde arriba, ¿qué indica?</em>",
-          "options": [
-            "Stop",
-            "Precaución",
-            "Paso normal",
-            "Avance lento"
-          ],
-          "correctIndex": 2,
-          "explanation": "Orden: 1ª=Roja, 2ª=Amarilla, 3ª=Verde, 4ª=Blanca. La 3ª desde arriba es Verde = paso normal.",
-          "image": "/img/psychotecnicos/instruc-semaforo.svg",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "semaforo",
-            "posicion"
-          ]
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-041",
@@ -5573,7 +5632,9 @@
             "instrucciones",
             "figuras",
             "orientacion"
-          ]
+          ],
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-042",
@@ -5596,7 +5657,9 @@
             "instrucciones",
             "figuras",
             "calculo"
-          ]
+          ],
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-043",
@@ -5619,7 +5682,9 @@
             "instrucciones",
             "figuras",
             "estados"
-          ]
+          ],
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-044",
@@ -5642,7 +5707,9 @@
             "instrucciones",
             "figuras",
             "coordenadas"
-          ]
+          ],
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         },
         {
           "id": "psi-ins-045",
@@ -5665,217 +5732,9 @@
             "instrucciones",
             "figuras",
             "palancas"
-          ]
-        },
-        {
-          "id": "psi-ins-046",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Un semáforo de vía ferroviaria muestra sus luces en orden vertical de arriba hacia abajo. La secuencia de apertura de vía es: primero se apaga el rojo, luego se enciende el amarillo, finalmente se enciende el verde y se apaga el amarillo. ¿Cuál es el orden correcto de luces durante la fase de apertura?</em>Indica el orden de aparición de las luces durante la secuencia de apertura de vía:",
-          "options": [
-            "a- rojo, amarillo, verde",
-            "b- verde, amarillo, rojo",
-            "c- amarillo, rojo, verde",
-            "d- rojo, verde, amarillo"
           ],
-          "correctIndex": 0,
-          "explanation": "En la secuencia de apertura: primero está activo el rojo, luego aparece el amarillo (transición), finalmente queda el verde. Orden: rojo → amarillo → verde.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-047",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 3 luces (rojo-ámbar-verde de arriba abajo). Regla de cierre de vía: la secuencia de cierre siempre debe ser verde → ámbar → rojo, nunca saltarse fases. El maquinista ve la siguiente secuencia: ámbar, luego rojo directamente (sin pasar por amarillo previo).</em>¿Cuál es el orden CORRECTO de cierre de vía según el reglamento?",
-          "options": [
-            "a- ámbar, rojo",
-            "b- verde, ámbar, rojo",
-            "c- rojo, ámbar, verde",
-            "d- verde, rojo"
-          ],
-          "correctIndex": 1,
-          "explanation": "El reglamento exige la secuencia completa verde → ámbar → rojo. No se puede pasar directamente de ámbar a rojo sin que el verde haya precedido al ámbar.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-048",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "hard",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 4 luces verticales (de arriba abajo): Rojo, Amarillo superior, Verde, Amarillo inferior. Tabla de estados: • Vía libre a velocidad máxima: solo Verde. • Vía libre con precaución: Verde + Amarillo inferior. • Anuncio de parada: Amarillo superior solo. • Parada obligatoria: Rojo solo. </em>El tren se aproxima y el semáforo muestra: Amarillo superior encendido, resto apagado. ¿Qué indica y cuál es el orden de luces que verá a continuación si la vía se cierra?",
-          "options": [
-            "a- Precaución; luego: amarillo superior, rojo",
-            "b- Anuncio de parada; luego: rojo",
-            "c- Anuncio de parada; luego: amarillo inferior, rojo",
-            "d- Vía libre; luego: verde, amarillo inferior"
-          ],
-          "correctIndex": 1,
-          "explanation": "Amarillo superior solo = Anuncio de parada. Cuando la vía se cierra completamente, el siguiente estado es Rojo solo (parada obligatoria). Secuencia observada: amarillo superior → rojo.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-049",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Tres semáforos en una vía: A, B y C (en ese orden de circulación). Regla: cuando un tren pasa por A, el semáforo A cambia a rojo, B a amarillo, C permanece verde. Cuando el tren pasa por B: B cambia a rojo, C cambia a amarillo, A vuelve a verde.</em>¿En qué orden aparecen las luces en el semáforo B desde que el tren pasa A hasta que el tren pasa B?",
-          "options": [
-            "a- verde, amarillo, rojo",
-            "b- rojo, amarillo, verde",
-            "c- amarillo, verde, rojo",
-            "d- verde, rojo, amarillo"
-          ],
-          "correctIndex": 0,
-          "explanation": "Antes de que el tren pase A, B está en verde. Cuando el tren pasa A, B cambia a amarillo. Cuando el tren pasa B, B cambia a rojo. Secuencia en B: verde → amarillo → rojo.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-050",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "hard",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de cabina con 4 aspectos, mostrados en orden de mayor a menor restricción: ROJO (parada), AMARILLO PARPADEANTE (máx 30 km/h), AMARILLO FIJO (máx 60 km/h), VERDE (libre). La secuencia de apertura progresiva de una vía bloqueada es siempre de mayor a menor restricción.</em>¿Cuál es el orden correcto de luces durante la apertura progresiva completa?",
-          "options": [
-            "a- rojo, amarillo parpadeante, amarillo fijo, verde",
-            "b- verde, amarillo fijo, amarillo parpadeante, rojo",
-            "c- rojo, amarillo fijo, amarillo parpadeante, verde",
-            "d- amarillo parpadeante, rojo, verde, amarillo fijo"
-          ],
-          "correctIndex": 0,
-          "explanation": "La apertura progresiva va de mayor a menor restricción: rojo → amarillo parpadeante (30 km/h) → amarillo fijo (60 km/h) → verde (libre).",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-051",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>En un cruce de vías, hay dos semáforos enfrentados: S1 (norte-sur) y S2 (este-oeste). Regla: nunca pueden estar ambos en verde simultáneamente. Secuencia actual de S1: verde (30s) → amarillo (5s) → rojo (35s). S2 se pone en verde cuando S1 pasa a rojo.</em>Si ahora mismo S1 acaba de cambiar a amarillo, ¿en qué orden veremos las luces de S1 y S2 en los próximos 40 segundos?",
-          "options": [
-            "a- S1: amarillo→rojo; S2: rojo→verde",
-            "b- S1: amarillo→verde; S2: verde→rojo",
-            "c- S1: rojo→verde; S2: amarillo→rojo",
-            "d- S1: amarillo→rojo→verde; S2: rojo→verde→rojo"
-          ],
-          "correctIndex": 0,
-          "explanation": "S1 acaba de ponerse en amarillo (5s) y luego irá a rojo (35s). S2 está en rojo y al ponerse S1 en rojo, S2 pasa a verde. En 40s: S1 amarillo→rojo; S2 rojo→verde.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-052",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de vía con 3 posiciones verticales. Código de colores: Posición 1 (superior): Rojo = STOP. Posición 2 (central): Amarillo = PRECAUCIÓN. Posición 3 (inferior): Verde = VÍA LIBRE. El semáforo muestra los colores de abajo hacia arriba en el orden de encendido.</em>Si la vía se bloquea, ¿en qué orden (de abajo a arriba) se encienden y apagan las luces?",
-          "options": [
-            "a- verde (apaga), amarillo (enciende), rojo (enciende)",
-            "b- rojo (enciende), amarillo (enciende), verde (apaga)",
-            "c- amarillo (apaga), verde (enciende), rojo (apaga)",
-            "d- verde (enciende), amarillo (apaga), rojo (apaga)"
-          ],
-          "correctIndex": 0,
-          "explanation": "Al bloquearse la vía: primero se apaga el verde (inferior), luego se enciende el amarillo (central, aviso de transición), finalmente se enciende el rojo (superior). Orden de abajo a arriba: verde se apaga → amarillo enciende → rojo enciende.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-053",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "hard",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Sistema de 3 semáforos de maniobra (M1, M2, M3) con 2 luces cada uno (blanca y roja). Regla de activación en cascada: • Cuando se activa una maniobra: M1 pasa a blanco, M2 permanece rojo, M3 permanece rojo. • Tras confirmación de M1: M1 vuelve a rojo, M2 pasa a blanco. • Tras confirmación de M2: M2 vuelve a rojo, M3 pasa a blanco.</em>¿Cuál es el orden completo de colores de M2 durante toda la maniobra?",
-          "options": [
-            "a- rojo, rojo, blanco, rojo",
-            "b- blanco, rojo, blanco, rojo",
-            "c- rojo, blanco, rojo, blanco",
-            "d- blanco, blanco, rojo, blanco"
-          ],
-          "correctIndex": 0,
-          "explanation": "M2 empieza en rojo. Cuando M1 se activa, M2 sigue en rojo. Al confirmar M1, M2 pasa a blanco. Al confirmar M2, vuelve a rojo. Secuencia M2: rojo (inicio) → rojo (M1 activo) → blanco (M2 activo) → rojo (confirmación).",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-054",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "medium",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Semáforo de 3 luces para gestión de andén. Reglas de la jornada: 07:00 – Apertura: verde. El semáforo cambia a amarillo 2 minutos antes del cierre de puertas. El semáforo cambia a rojo cuando las puertas se cierran. El semáforo vuelve a verde cuando el tren parte y el andén está despejado.</em>¿En qué orden aparecen los colores del semáforo durante la parada y salida completa de un tren?",
-          "options": [
-            "a- verde, amarillo, rojo, verde",
-            "b- rojo, amarillo, verde, rojo",
-            "c- verde, rojo, amarillo, verde",
-            "d- amarillo, verde, rojo, amarillo"
-          ],
-          "correctIndex": 0,
-          "explanation": "Andén abierto (verde) → 2 min antes cierre puertas (amarillo) → puertas cerradas (rojo) → tren parte y andén despejado (verde). Orden: verde → amarillo → rojo → verde.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
-        },
-        {
-          "id": "psi-ins-055",
-          "oepYear": 2024,
-          "source": "OpoRail",
-          "difficulty": "hard",
-          "subgrupo": "Semáforos",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Desvío de vía con semáforo de 4 aspectos. Aspectos posibles: 🔴 Rojo — parada absoluta. 🟡 Amarillo — reducir a 30 km/h. 🟢 Verde — velocidad libre. 🔵 Azul — maniobra autorizada (solo para movimientos de maniobra en zona de cocheras). Secuencia para entrada a cocheras: el tren llega con verde, se le asigna vía de cochera.</em>¿Cuál es el orden de aspectos que verá el maquinista al entrar a cocheras desde vía principal?",
-          "options": [
-            "a- verde, amarillo, azul",
-            "b- verde, azul, rojo",
-            "c- azul, amarillo, verde",
-            "d- rojo, amarillo, azul"
-          ],
-          "correctIndex": 0,
-          "explanation": "El tren llega con verde en vía principal. Al aproximarse a la desviación hacia cocheras, el semáforo pasa a amarillo (reducir velocidad). Al entrar en zona de maniobras, aparece el azul (maniobra autorizada). Orden: verde → amarillo → azul.",
-          "tags": [
-            "instrucciones",
-            "semáforos",
-            "orden-luces"
-          ]
+          "groupId": "ord-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
         }
       ],
       "seriesNumerosLetras": [

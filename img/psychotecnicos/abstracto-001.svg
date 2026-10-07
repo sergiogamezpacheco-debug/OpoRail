@@ -1,7 +1,6 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='460' viewBox='0 60 900 460'>
   <rect width='100%' height='100%' fill='#f6f7f9'/>
-  <text x='30' y='45' font-family='Arial' font-size='24' font-weight='700' fill='#1f4a73'>01. ¿Qué figura completa la serie? (rotación 90°)</text>
-  <rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
+<rect x='40' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
   <line x1='95.0' y1='150.0' x2='95.0' y2='120.0' stroke='#222' stroke-width='3'/>
   <polygon points='95.0,120.0 104.6,131.5 85.4,131.5' fill='#222' stroke='#222'/>
   <rect x='165' y='80' width='110' height='110' fill='white' stroke='#333' stroke-width='3'/>
@@ -12,9 +11,7 @@
   <polygon points='345.0,150.0 335.4,138.5 354.6,138.5' fill='#222' stroke='#222'/>
   <rect x='415' y='80' width='110' height='110' fill='none' stroke='#999' stroke-width='3' stroke-dasharray='10 8'/>
   <text x='470' y='147' font-family='Arial' font-size='48' text-anchor='middle' fill='#888'>?</text>
-  <line x1='30' y1='285' x2='870' y2='285' stroke='#ccc' stroke-width='1'/>
-  <text x='30' y='300' font-family='Arial' font-size='17' fill='#666'>Opciones:</text>
-  <rect x='40' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='40' y='310' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
   <line x1='80.0' y1='365.0' x2='110.0' y2='365.0' stroke='#222' stroke-width='3'/>
   <polygon points='110.0,365.0 98.5,374.6 98.5,355.4' fill='#222' stroke='#222'/>
   <text x='95' y='442' font-family='Arial' font-size='22' font-weight='normal' text-anchor='middle' fill='#333'>a</text>

@@ -1,0 +1,78 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='700' height='480' viewBox='0 0 700 480' font-family='Arial,sans-serif'>
+  <rect width='100%' height='100%' fill='#f0f4f8'/>
+  <text x='350' y='36' font-size='20' font-weight='700' fill='#1f4a73' text-anchor='middle'>Instrucciones — Órdenes con Figuras (Referencia A)</text>
+
+  <text x='350' y='58' font-size='13' fill='#455a64' text-anchor='middle'>Reglas de transformación de figuras — aplica la secuencia correcta</text>
+  <rect x='20' y='80' width='205' height='24' fill='#1f4a73'/>
+  <text x='122' y='96' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Figura inicial</text>
+  <rect x='230' y='80' width='185' height='24' fill='#1f4a73'/>
+  <text x='322' y='96' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Transformación</text>
+  <rect x='420' y='80' width='165' height='24' fill='#1f4a73'/>
+  <text x='502' y='96' font-size='12' font-weight='700' fill='white' text-anchor='middle'>Resultado</text>
+  <rect x='20' y='104' width='205' height='36' fill='#eaf0fb'/>
+  <rect x='230' y='104' width='185' height='36' fill='#eaf0fb'/>
+  <rect x='420' y='104' width='165' height='36' fill='#eaf0fb'/>
+  <text x='122' y='126' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Triángulo ↑</text>
+  <text x='322' y='126' font-size='11' fill='#455a64' text-anchor='middle'>Girar 90° horario</text>
+  <text x='502' y='126' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Triángulo →</text>
+  <text x='222' y='126' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='126' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='140' width='205' height='36' fill='white'/>
+  <rect x='230' y='140' width='185' height='36' fill='white'/>
+  <rect x='420' y='140' width='165' height='36' fill='white'/>
+  <text x='122' y='162' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Triángulo →</text>
+  <text x='322' y='162' font-size='11' fill='#455a64' text-anchor='middle'>Girar 90° horario</text>
+  <text x='502' y='162' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Triángulo ↓</text>
+  <text x='222' y='162' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='162' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='176' width='205' height='36' fill='#eaf0fb'/>
+  <rect x='230' y='176' width='185' height='36' fill='#eaf0fb'/>
+  <rect x='420' y='176' width='165' height='36' fill='#eaf0fb'/>
+  <text x='122' y='198' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Círculo grande</text>
+  <text x='322' y='198' font-size='11' fill='#455a64' text-anchor='middle'>Reducir tamaño</text>
+  <text x='502' y='198' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Círculo pequeño</text>
+  <text x='222' y='198' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='198' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='212' width='205' height='36' fill='white'/>
+  <rect x='230' y='212' width='185' height='36' fill='white'/>
+  <rect x='420' y='212' width='165' height='36' fill='white'/>
+  <text x='122' y='234' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Cuadrado</text>
+  <text x='322' y='234' font-size='11' fill='#455a64' text-anchor='middle'>Añadir diagonal</text>
+  <text x='502' y='234' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Cuadrado con ×</text>
+  <text x='222' y='234' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='234' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='248' width='205' height='36' fill='#eaf0fb'/>
+  <rect x='230' y='248' width='185' height='36' fill='#eaf0fb'/>
+  <rect x='420' y='248' width='165' height='36' fill='#eaf0fb'/>
+  <text x='122' y='270' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Rombo</text>
+  <text x='322' y='270' font-size='11' fill='#455a64' text-anchor='middle'>Rotar 45°</text>
+  <text x='502' y='270' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Cuadrado</text>
+  <text x='222' y='270' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='270' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='284' width='205' height='36' fill='white'/>
+  <rect x='230' y='284' width='185' height='36' fill='white'/>
+  <rect x='420' y='284' width='165' height='36' fill='white'/>
+  <text x='122' y='306' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Flecha →</text>
+  <text x='322' y='306' font-size='11' fill='#455a64' text-anchor='middle'>Invertir dirección</text>
+  <text x='502' y='306' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Flecha ←</text>
+  <text x='222' y='306' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='306' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='320' width='205' height='36' fill='#eaf0fb'/>
+  <rect x='230' y='320' width='185' height='36' fill='#eaf0fb'/>
+  <rect x='420' y='320' width='165' height='36' fill='#eaf0fb'/>
+  <text x='122' y='342' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Estrella 5 p.</text>
+  <text x='322' y='342' font-size='11' fill='#455a64' text-anchor='middle'>Quitar una punta</text>
+  <text x='502' y='342' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Cuadrado</text>
+  <text x='222' y='342' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='342' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='356' width='205' height='36' fill='white'/>
+  <rect x='230' y='356' width='185' height='36' fill='white'/>
+  <rect x='420' y='356' width='165' height='36' fill='white'/>
+  <text x='122' y='378' font-size='12' fill='#1565c0' font-weight='600' text-anchor='middle'>Figura oscura</text>
+  <text x='322' y='378' font-size='11' fill='#455a64' text-anchor='middle'>Invertir relleno</text>
+  <text x='502' y='378' font-size='12' fill='#2e7d32' font-weight='600' text-anchor='middle'>Figura clara</text>
+  <text x='222' y='378' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <text x='412' y='378' font-size='14' fill='#90a4ae' text-anchor='middle'>→</text>
+  <rect x='20' y='80' width='555' height='312' fill='none' stroke='#1f4a73' stroke-width='1.5'/>
+  <text x='350' y='412' font-size='12' fill='#546e7a' text-anchor='middle'>Aplica las reglas de transformación en el orden indicado para obtener la figura final.</text>
+</svg>

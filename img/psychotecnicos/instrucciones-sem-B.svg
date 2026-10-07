@@ -1,0 +1,106 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='780' height='500' viewBox='0 0 780 500' font-family='Arial,sans-serif'>
+  <rect width='100%' height='100%' fill='#f0f4f8'/>
+  <text x='390' y='36' font-size='20' font-weight='700' fill='#1f4a73' text-anchor='middle'>Instrucciones — Semáforos en Cascada (Referencia B)</text>
+
+  <defs>
+    <filter id='glowe53935' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='3' result='blur'/>
+      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+    <filter id='glowFFA000' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='3' result='blur'/>
+      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+    <filter id='glow43A047' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='3' result='blur'/>
+      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
+    </filter>
+  </defs>
+  <text x='390' y='58' font-size='13' fill='#455a64' text-anchor='middle'>Tres semáforos consecutivos (S1, S2, S3) — determina el estado de cada uno</text>
+  <line x1='60' y1='280' x2='720' y2='280' stroke='#616161' stroke-width='4'/>
+  <line x1='60' y1='295' x2='720' y2='295' stroke='#616161' stroke-width='4'/>
+  <line x1='80' y1='278' x2='80' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='110' y1='278' x2='110' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='140' y1='278' x2='140' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='170' y1='278' x2='170' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='200' y1='278' x2='200' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='230' y1='278' x2='230' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='260' y1='278' x2='260' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='290' y1='278' x2='290' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='320' y1='278' x2='320' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='350' y1='278' x2='350' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='380' y1='278' x2='380' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='410' y1='278' x2='410' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='440' y1='278' x2='440' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='470' y1='278' x2='470' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='500' y1='278' x2='500' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='530' y1='278' x2='530' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='560' y1='278' x2='560' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='590' y1='278' x2='590' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='620' y1='278' x2='620' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='650' y1='278' x2='650' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='680' y1='278' x2='680' y2='297' stroke='#795548' stroke-width='3'/>
+  <line x1='710' y1='278' x2='710' y2='297' stroke='#795548' stroke-width='3'/>
+  <rect x='60' y='255' width='60' height='22' rx='3' fill='#1976d2'/>
+  <text x='90' y='270' font-size='9' fill='white' text-anchor='middle'>TREN</text>
+  <rect x='128' y='200' width='4' height='80' fill='#37474f'/>
+  <rect x='106' y='101' width='48' height='108' rx='6' fill='#212121'/>
+  <circle cx='130' cy='123' r='12' fill='#e53935' filter='url(#glowe53935)'  />
+  <circle cx='130' cy='155' r='12' fill='#424242'/>
+  <circle cx='130' cy='187' r='12' fill='#424242'/>
+  <text x='130' y='223' font-size='11' fill='#1a2332' text-anchor='middle'>S1</text>
+  <rect x='368' y='200' width='4' height='80' fill='#37474f'/>
+  <rect x='346' y='101' width='48' height='108' rx='6' fill='#212121'/>
+  <circle cx='370' cy='123' r='12' fill='#424242'/>
+  <circle cx='370' cy='155' r='12' fill='#FFA000' filter='url(#glowFFA000)'  />
+  <circle cx='370' cy='187' r='12' fill='#424242'/>
+  <text x='370' y='223' font-size='11' fill='#1a2332' text-anchor='middle'>S2</text>
+  <rect x='608' y='200' width='4' height='80' fill='#37474f'/>
+  <rect x='586' y='101' width='48' height='108' rx='6' fill='#212121'/>
+  <circle cx='610' cy='123' r='12' fill='#424242'/>
+  <circle cx='610' cy='155' r='12' fill='#424242'/>
+  <circle cx='610' cy='187' r='12' fill='#43A047' filter='url(#glow43A047)'  />
+  <text x='610' y='223' font-size='11' fill='#1a2332' text-anchor='middle'>S3</text>
+  <rect x='20' y='330' width='80' height='22' fill='#1f4a73'/>
+  <text x='60' y='345' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Semáforo</text>
+  <rect x='105' y='330' width='90' height='22' fill='#1f4a73'/>
+  <text x='150' y='345' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Rojo</text>
+  <rect x='200' y='330' width='100' height='22' fill='#1f4a73'/>
+  <text x='250' y='345' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Ámbar</text>
+  <rect x='305' y='330' width='95' height='22' fill='#1f4a73'/>
+  <text x='352' y='345' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Verde</text>
+  <rect x='405' y='330' width='100' height='22' fill='#1f4a73'/>
+  <text x='455' y='345' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Indicación</text>
+  <rect x='20' y='352' width='80' height='24' fill='#eaf0fb'/>
+  <rect x='105' y='352' width='90' height='24' fill='#eaf0fb'/>
+  <rect x='200' y='352' width='100' height='24' fill='#eaf0fb'/>
+  <rect x='305' y='352' width='95' height='24' fill='#eaf0fb'/>
+  <rect x='405' y='352' width='100' height='24' fill='#eaf0fb'/>
+  <text x='60' y='368' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>S1</text>
+  <text x='150' y='368' font-size='11' font-weight='700' fill='#e53935' text-anchor='middle'>ON</text>
+  <text x='250' y='368' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='352' y='368' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='455' y='368' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>Parada obligatoria</text>
+  <rect x='20' y='376' width='80' height='24' fill='white'/>
+  <rect x='105' y='376' width='90' height='24' fill='white'/>
+  <rect x='200' y='376' width='100' height='24' fill='white'/>
+  <rect x='305' y='376' width='95' height='24' fill='white'/>
+  <rect x='405' y='376' width='100' height='24' fill='white'/>
+  <text x='60' y='392' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>S2</text>
+  <text x='150' y='392' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='250' y='392' font-size='11' font-weight='700' fill='#FFA000' text-anchor='middle'>ON</text>
+  <text x='352' y='392' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='455' y='392' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>Precaución – reducir velocidad</text>
+  <rect x='20' y='400' width='80' height='24' fill='#eaf0fb'/>
+  <rect x='105' y='400' width='90' height='24' fill='#eaf0fb'/>
+  <rect x='200' y='400' width='100' height='24' fill='#eaf0fb'/>
+  <rect x='305' y='400' width='95' height='24' fill='#eaf0fb'/>
+  <rect x='405' y='400' width='100' height='24' fill='#eaf0fb'/>
+  <text x='60' y='416' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>S3</text>
+  <text x='150' y='416' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='250' y='416' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>—</text>
+  <text x='352' y='416' font-size='11' font-weight='700' fill='#43A047' text-anchor='middle'>ON</text>
+  <text x='455' y='416' font-size='11' font-weight='normal' fill='#1a2332' text-anchor='middle'>Vía libre</text>
+  <rect x='20' y='330' width='465' height='94' fill='none' stroke='#1f4a73' stroke-width='1.5'/>
+  <text x='390' y='480' font-size='11' fill='#546e7a' text-anchor='middle'>Cada semáforo indica la condición de la sección de vía que protege.</text>
+</svg>
