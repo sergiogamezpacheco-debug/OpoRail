@@ -831,17 +831,67 @@ function renderInstruccionesSubgrupos(test, courseId) {
   `;
 }
 
+function renderSeriesGroupCard(seriesTest, comprensionTest, vocabularioTest, courseId, compact) {
+  const subTests = [seriesTest, comprensionTest, vocabularioTest].filter(Boolean);
+  return `
+    <article class="border-2 border-purple-300 rounded-lg p-4 h-full flex flex-col gap-0">
+      ${subTests.map((test, idx) => `
+        ${idx > 0 ? '<hr class="border-purple-100 my-3">' : ''}
+        <div>
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
+              <p class="text-sm text-gray-600">Tiempo disponible: ${test.duration}</p>
+            </div>
+            ${compact ? '' : `<button class="test-info-btn w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold" data-test-info="${test.id}">i</button>`}
+          </div>
+          ${compact ? '' : `<p class="text-sm text-gray-600 mt-1">${test.info}</p>`}
+          ${compact ? '' : `
+            <div id="test-info-${test.id}" class="hidden text-sm text-gray-700 mt-2">
+              <p class="font-semibold">${test.sample.question}</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
+              </ul>
+              <p class="mt-2 text-xs text-gray-500">Respuesta correcta: ${test.sample.correctAnswer}</p>
+              ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
+            </div>
+          `}
+          <div class="flex gap-2 mt-2">
+            <a class="flex-1 inline-flex items-center justify-center bg-emerald-600 text-white px-3 py-2 rounded-lg font-semibold text-sm hover:bg-emerald-700 transition" href="/test-info.html?course=${courseId}&test=${test.id}">
+              Ver historial
+            </a>
+            <a class="flex-1 inline-flex items-center justify-center bg-purple-700 text-white px-3 py-2 rounded-lg font-semibold text-sm hover:bg-purple-800 transition" href="/test-run.html?course=${courseId}&test=${test.id}">
+              Intentar test
+            </a>
+          </div>
+        </div>
+      `).join('')}
+    </article>
+  `;
+}
+
 function renderTestSection(title, tests, courseId, compact = false) {
+  // Pull out comprensión and vocabulario so they appear inside the series card
+  const comprensionTest = tests.find((t) => t.id === 'psy-comprensionLectora');
+  const vocabularioTest = tests.find((t) => t.id === 'psy-vocabularioAnalogias');
+  const filteredTests = tests.filter(
+    (t) => t.id !== 'psy-comprensionLectora' && t.id !== 'psy-vocabularioAnalogias'
+  );
+
   return `
     <section class="mt-10 bg-white border-2 border-purple-500 rounded-xl p-6">
       <h2 class="text-2xl font-bold text-gray-900 mb-2">${title}</h2>
-      <div class="grid md:grid-cols-2 gap-4">
-        ${tests
+      <div class="grid md:grid-cols-2 gap-4 items-start">
+        ${filteredTests
           .map(
             (test) => {
               // Special rendering for instruccionesComplejas: show subgroup cards
               if (test.id === 'psy-instruccionesComplejas') {
                 return renderInstruccionesSubgrupos(test, courseId);
+              }
+              // Special rendering for seriesNumerosLetras: combine with comprensión and vocabulario
+              if (test.id === 'psy-seriesNumerosLetras') {
+                return renderSeriesGroupCard(test, comprensionTest, vocabularioTest, courseId, compact);
               }
               return `
           <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
@@ -1405,6 +1455,7 @@ if (testRunner) {
                 return `
                 <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                  ${question.groupImage ? `<img src="${question.groupImage}" alt="Tabla de referencia" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
                   ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <ul class="relative space-y-1 text-sm">
@@ -1530,8 +1581,9 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
                   return `
                   <article class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                     <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                    ${question.groupImage ? `<img src="${question.groupImage}" alt="Tabla de referencia" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                     <p class="relative font-semibold text-gray-900 mb-2">${index + 1}. ${question.question}</p>
-                  ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
+                    ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                     <ul class="relative space-y-1 text-sm">
                       ${question.options
                         .map((option, optIndex) => {
@@ -1573,14 +1625,6 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
         const start = currentPage * questionsPerPage;
         const pageQuestions = trimmedQuestions.slice(start, start + questionsPerPage);
 
-        // Detect persistent group image — same groupId across all page questions
-        const pageGroupImage = pageQuestions.length > 0 && pageQuestions[0].groupImage
-          ? pageQuestions[0].groupImage
-          : null;
-        const pageGroupId = pageGroupImage ? pageQuestions[0].groupId : null;
-        // Only show group image if ALL current page questions share the same groupId
-        const showGroupImage = pageGroupImage && pageQuestions.every((q) => q.groupId === pageGroupId);
-
         testRunner.innerHTML = `
           <section class="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
             <div class="flex flex-wrap items-center justify-between gap-4">
@@ -1593,13 +1637,6 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
             <p class="text-sm text-gray-600">Preguntas: ${totalQuestions} · Página ${currentPage + 1} / ${Math.ceil(totalQuestions / questionsPerPage)}</p>
           </section>
 
-          ${showGroupImage ? `
-          <section class="mt-4 bg-white border border-purple-200 rounded-xl p-4 sticky top-0 z-10 shadow-sm">
-            <p class="text-xs text-purple-600 font-semibold mb-2 uppercase tracking-wide">Imagen de referencia (visible en todas las páginas)</p>
-            <img src="${pageGroupImage}" alt="Referencia del grupo" class="w-full max-w-3xl mx-auto rounded-lg border border-gray-200" loading="lazy">
-          </section>
-          ` : ''}
-
           <section class="mt-6 bg-white border border-gray-100 rounded-xl p-6">
             <p class="text-sm text-gray-600 mb-4">${activeTest.info}</p>
             <form id="test-form" class="space-y-6">
@@ -1608,6 +1645,7 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
                   (question, index) => `
                 <div class="relative border border-gray-200 rounded-lg p-4 overflow-hidden">
                   <div class="pointer-events-none absolute inset-0 flex items-center justify-center"><span class="text-5xl md:text-6xl font-extrabold -rotate-12 opacity-10 select-none"><span class="text-[#0b5a2a]">Opo</span><span class="text-purple-700">Rail</span></span></div>
+                  ${question.groupImage ? `<img src="${question.groupImage}" alt="Tabla de referencia" class="relative w-full max-w-3xl mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <p class="relative font-semibold text-gray-900 mb-3">${start + index + 1}. ${question.question}</p>
                   ${question.image ? `<img src="${question.image}" alt="Figura psicotécnica ${start + index + 1}" class="relative w-full ${isAbstractPsychotest ? 'max-w-md bg-white p-2' : 'max-w-3xl'} mx-auto rounded-lg border border-gray-200 mb-3" loading="lazy">` : ''}
                   <div class="relative space-y-2">

@@ -4909,276 +4909,6 @@
       ],
       "instruccionesComplejas": [
         {
-          "id": "psi-ins-101",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, La señal muestra una bombilla cuadrada en la tercera posición de color rojo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 2,
-          "explanation": "Según la tabla: forma=Cuadrado, posición=3ª, color=rojo → Encendido."
-        },
-        {
-          "id": "psi-ins-102",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, La bombilla circular en la segunda posición tiene color azul. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Apagado",
-            "Apagado"
-          ],
-          "correctIndex": 2,
-          "explanation": "Según la tabla: forma=Círculo, posición=2ª, color=azul → Apagado."
-        },
-        {
-          "id": "psi-ins-103",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Se observa una bombilla triangular amarilla en la cuarta posición. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Apagado",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: forma=Triángulo, posición=4ª, color=amarillo → Apagado."
-        },
-        {
-          "id": "psi-ins-104",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Bombilla cuadrada amarilla en posición 1. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: forma=Cuadrado, posición=1ª, color=amarillo → Encendido."
-        },
-        {
-          "id": "psi-ins-105",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, La tercera bombilla es un círculo de color amarillo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Encendido"
-          ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: forma=Círculo, posición=3ª, color=amarillo → Encendido."
-        },
-        {
-          "id": "psi-ins-106",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Bombilla triangular roja en la segunda posición. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Encendido"
-          ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: forma=Triángulo, posición=2ª, color=rojo → Encendido."
-        },
-        {
-          "id": "psi-ins-107",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Cuarta bombilla: cuadrado azul. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Apagado",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: forma=Cuadrado, posición=4ª, color=azul → Apagado."
-        },
-        {
-          "id": "psi-ins-108",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Primera bombilla: círculo rojo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Encendido"
-          ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: forma=Círculo, posición=1ª, color=rojo → Encendido."
-        },
-        {
-          "id": "psi-ins-109",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Tercera posición, triángulo, color azul. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Encendido",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 1,
-          "explanation": "Según la tabla: forma=Triángulo, posición=3ª, color=azul → Encendido."
-        },
-        {
-          "id": "psi-ins-110",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Segunda posición, cuadrado, color rojo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Apagado",
-            "Apagado"
-          ],
-          "correctIndex": 2,
-          "explanation": "Según la tabla: forma=Cuadrado, posición=2ª, color=rojo → Apagado."
-        },
-        {
-          "id": "psi-ins-111",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Cuarta posición, círculo, color azul. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: forma=Círculo, posición=4ª, color=azul → Encendido."
-        },
-        {
-          "id": "psi-ins-112",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Primera posición, triángulo, color amarillo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 1,
-          "explanation": "Según la tabla: forma=Triángulo, posición=1ª, color=amarillo → Apagado."
-        },
-        {
-          "id": "psi-ins-113",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Tercera posición, cuadrado, color azul. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Encendido"
-          ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: forma=Cuadrado, posición=3ª, color=azul → Encendido."
-        },
-        {
-          "id": "psi-ins-114",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Segunda posición, círculo, color amarillo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Encendido",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 1,
-          "explanation": "Según la tabla: forma=Círculo, posición=2ª, color=amarillo → Apagado."
-        },
-        {
-          "id": "psi-ins-115",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Interruptores",
-          "groupId": "int-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
-          "question": "Según la tabla de referencia, Cuarta posición, triángulo, color rojo. ¿Cuál es el estado del interruptor?",
-          "options": [
-            "Apagado",
-            "Apagado",
-            "Encendido",
-            "Apagado"
-          ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: forma=Triángulo, posición=4ª, color=rojo → Apagado."
-        },
-        {
           "id": "psi-ins-201",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
@@ -5735,6 +5465,276 @@
           ],
           "groupId": "ord-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
+        },
+        {
+          "id": "psi-ins-101",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado rojo, Señal B: 4ª Cuadrado azul, Señal C: 2ª Círculo azul. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, rojo) → Apagado; Señal B (Cuadrado, 4ª, azul) → Apagado; Señal C (Círculo, 2ª, azul) → Apagado."
+        },
+        {
+          "id": "psi-ins-102",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 1ª Cuadrado amarillo, Señal B: 3ª Círculo rojo, Señal C: 4ª Círculo rojo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 1ª, amarillo) → Encendido; Señal B (Círculo, 3ª, rojo) → Apagado; Señal C (Círculo, 4ª, rojo) → Apagado."
+        },
+        {
+          "id": "psi-ins-103",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado azul, Señal B: 3ª Cuadrado azul, Señal C: 3ª Triángulo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, azul) → Encendido; Señal B (Cuadrado, 3ª, azul) → Encendido; Señal C (Triángulo, 3ª, amarillo) → Encendido."
+        },
+        {
+          "id": "psi-ins-104",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado rojo, Señal B: 3ª Cuadrado rojo, Señal C: 4ª Triángulo rojo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, rojo) → Apagado; Señal B (Cuadrado, 3ª, rojo) → Encendido; Señal C (Triángulo, 4ª, rojo) → Apagado."
+        },
+        {
+          "id": "psi-ins-105",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado azul, Señal B: 2ª Círculo rojo, Señal C: 3ª Círculo rojo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, azul) → Encendido; Señal B (Círculo, 2ª, rojo) → Encendido; Señal C (Círculo, 3ª, rojo) → Apagado."
+        },
+        {
+          "id": "psi-ins-106",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado rojo, Señal B: 1ª Triángulo amarillo, Señal C: 4ª Triángulo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Encendido"
+          ],
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, rojo) → Apagado; Señal B (Triángulo, 1ª, amarillo) → Apagado; Señal C (Triángulo, 4ª, amarillo) → Apagado."
+        },
+        {
+          "id": "psi-ins-107",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 1ª Círculo rojo, Señal B: 3ª Triángulo rojo, Señal C: 3ª Triángulo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Círculo, 1ª, rojo) → Encendido; Señal B (Triángulo, 3ª, rojo) → Encendido; Señal C (Triángulo, 3ª, amarillo) → Encendido."
+        },
+        {
+          "id": "psi-ins-108",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 3ª Círculo rojo, Señal B: 2ª Círculo azul, Señal C: 1ª Triángulo azul. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Señal A (Círculo, 3ª, rojo) → Apagado; Señal B (Círculo, 2ª, azul) → Apagado; Señal C (Triángulo, 1ª, azul) → Apagado."
+        },
+        {
+          "id": "psi-ins-109",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 1ª Cuadrado rojo, Señal B: 3ª Cuadrado amarillo, Señal C: 4ª Triángulo rojo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 1ª, rojo) → Apagado; Señal B (Cuadrado, 3ª, amarillo) → Apagado; Señal C (Triángulo, 4ª, rojo) → Apagado."
+        },
+        {
+          "id": "psi-ins-110",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado amarillo, Señal B: 2ª Círculo azul, Señal C: 2ª Círculo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, amarillo) → Encendido; Señal B (Círculo, 2ª, azul) → Apagado; Señal C (Círculo, 2ª, amarillo) → Apagado."
+        },
+        {
+          "id": "psi-ins-111",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 3ª Cuadrado azul, Señal B: 2ª Círculo rojo, Señal C: 2ª Círculo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 3ª, azul) → Encendido; Señal B (Círculo, 2ª, rojo) → Encendido; Señal C (Círculo, 2ª, amarillo) → Apagado."
+        },
+        {
+          "id": "psi-ins-112",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado azul, Señal B: 3ª Cuadrado azul, Señal C: 1ª Triángulo rojo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, azul) → Encendido; Señal B (Cuadrado, 3ª, azul) → Encendido; Señal C (Triángulo, 1ª, rojo) → Apagado."
+        },
+        {
+          "id": "psi-ins-113",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 3ª Cuadrado rojo, Señal B: 1ª Círculo azul, Señal C: 3ª Círculo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Encendido"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 3ª, rojo) → Encendido; Señal B (Círculo, 1ª, azul) → Encendido; Señal C (Círculo, 3ª, amarillo) → Encendido."
+        },
+        {
+          "id": "psi-ins-114",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 4ª Cuadrado azul, Señal B: 2ª Triángulo azul, Señal C: 3ª Triángulo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Apagado, Interruptor B: Encendido, Interruptor C: Encendido"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 4ª, azul) → Apagado; Señal B (Triángulo, 2ª, azul) → Encendido; Señal C (Triángulo, 3ª, amarillo) → Encendido."
+        },
+        {
+          "id": "psi-ins-115",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "subgrupo": "Interruptores",
+          "groupId": "int-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-int-A.svg",
+          "question": "Señal A: 2ª Cuadrado azul, Señal B: 1ª Triángulo rojo, Señal C: 4ª Triángulo amarillo. ¿Cuál es el estado de los interruptores A, B y C?",
+          "options": [
+            "Interruptor A: Encendido, Interruptor B: Encendido, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Encendido",
+            "Interruptor A: Apagado, Interruptor B: Apagado, Interruptor C: Apagado",
+            "Interruptor A: Encendido, Interruptor B: Apagado, Interruptor C: Apagado"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Señal A (Cuadrado, 2ª, azul) → Encendido; Señal B (Triángulo, 1ª, rojo) → Apagado; Señal C (Triángulo, 4ª, amarillo) → Apagado."
         }
       ],
       "seriesNumerosLetras": [
