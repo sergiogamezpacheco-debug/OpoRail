@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='500' height='302' viewBox='0 0 500 302' font-family='Arial,sans-serif'>
+<rect width='100%' height='100%' fill='#f6f7f9'/>
+<text x='50' y='24' font-size='11' fill='#666' text-anchor='middle'>Original</text>
+<text x='210' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>A</text>
+<text x='290' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>B</text>
+<text x='370' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>C</text>
+<text x='450' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>D</text>
+<rect x='10' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='32.0' y='50.0' width='36.0' height='36.0' fill='#1565C0'/>
+<rect x='90' y='30' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='73' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>C</text>
+<rect x='170' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='192.0' y='50.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='250' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='272.0' y='50.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='330' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='352.0' y='50.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='410' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='432.0' y='50.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='10' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='50.0,122.0 65.0,144.0 50.0,166.0 35.0,144.0' fill='#1565C0'/>
+<rect x='90' y='106' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='149' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>C</text>
+<rect x='170' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='210.0,122.0 225.0,144.0 210.0,166.0 195.0,144.0' fill='#1a1a1a'/>
+<rect x='250' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='290.0,122.0 305.0,144.0 290.0,166.0 275.0,144.0' fill='#1a1a1a'/>
+<rect x='330' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='370.0,122.0 385.0,144.0 370.0,166.0 355.0,144.0' fill='#1a1a1a'/>
+<rect x='410' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='450.0,122.0 465.0,144.0 450.0,166.0 435.0,144.0' fill='#1a1a1a'/>
+<rect x='10' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='50.0' cy='220.0' r='20.0' fill='#1565C0'/>
+<rect x='90' y='182' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='225' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>G</text>
+<rect x='170' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='210.0' cy='220.0' r='20.0' fill='#1a1a1a'/>
+<rect x='250' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='290.0' cy='220.0' r='20.0' fill='#1565C0'/>
+<rect x='330' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='370.0' cy='220.0' r='11.0' fill='#1565C0'/>
+<rect x='410' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='450.0,198.0 465.0,220.0 450.0,242.0 435.0,220.0' fill='#1565C0'/>
+<text x='210' y='276' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>A</text>
+<text x='290' y='276' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>B</text>
+<text x='370' y='276' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>C</text>
+<text x='450' y='276' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>D</text>
+</svg>

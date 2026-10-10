@@ -4483,6 +4483,426 @@
             "impares",
             "segmentos"
           ]
+        },
+        {
+          "id": "psi-abs-041",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón de la matriz y elige la figura que completa la celda con «?».",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La respuesta correcta es la opción b. En la matriz, la forma rota 90° en cada columna y el relleno varía por filas.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matrix"
+          ],
+          "image": "/img/psychotecnicos/abstracto-041.svg"
+        },
+        {
+          "id": "psi-abs-042",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón de la matriz y elige la figura que completa la celda con «?».",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "La respuesta correcta es la opción c. En la matriz, la forma rota 90° en cada columna y el relleno varía por filas.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matrix"
+          ],
+          "image": "/img/psychotecnicos/abstracto-042.svg"
+        },
+        {
+          "id": "psi-abs-043",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón de la matriz y elige la figura que completa la celda con «?».",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "La respuesta correcta es la opción c. En la matriz, la forma rota 90° en cada columna y el relleno varía por filas.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matrix"
+          ],
+          "image": "/img/psychotecnicos/abstracto-043.svg"
+        },
+        {
+          "id": "psi-abs-044",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón de la matriz y elige la figura que completa la celda con «?».",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "La respuesta correcta es la opción b. En la matriz, la forma rota 90° en cada columna y el relleno varía por filas.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "matrix"
+          ],
+          "image": "/img/psychotecnicos/abstracto-044.svg"
+        },
+        {
+          "id": "psi-abs-045",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: analogy. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "analogy"
+          ],
+          "image": "/img/psychotecnicos/abstracto-045.svg"
+        },
+        {
+          "id": "psi-abs-046",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: analogy. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "analogy"
+          ],
+          "image": "/img/psychotecnicos/abstracto-046.svg"
+        },
+        {
+          "id": "psi-abs-047",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mecánica: analogy. La respuesta correcta es la opción a.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "analogy"
+          ],
+          "image": "/img/psychotecnicos/abstracto-047.svg"
+        },
+        {
+          "id": "psi-abs-048",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: analogy. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "analogy"
+          ],
+          "image": "/img/psychotecnicos/abstracto-048.svg"
+        },
+        {
+          "id": "psi-abs-049",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: progress. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "progress"
+          ],
+          "image": "/img/psychotecnicos/abstracto-049.svg"
+        },
+        {
+          "id": "psi-abs-050",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: progress. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "progress"
+          ],
+          "image": "/img/psychotecnicos/abstracto-050.svg"
+        },
+        {
+          "id": "psi-abs-051",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: progress. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "progress"
+          ],
+          "image": "/img/psychotecnicos/abstracto-051.svg"
+        },
+        {
+          "id": "psi-abs-052",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mecánica: progress. La respuesta correcta es la opción c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "progress"
+          ],
+          "image": "/img/psychotecnicos/abstracto-052.svg"
+        },
+        {
+          "id": "psi-abs-053",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mecánica: nested. La respuesta correcta es la opción a.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "nested"
+          ],
+          "image": "/img/psychotecnicos/abstracto-053.svg"
+        },
+        {
+          "id": "psi-abs-054",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mecánica: nested. La respuesta correcta es la opción d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "nested"
+          ],
+          "image": "/img/psychotecnicos/abstracto-054.svg"
+        },
+        {
+          "id": "psi-abs-055",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mecánica: nested. La respuesta correcta es la opción d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "nested"
+          ],
+          "image": "/img/psychotecnicos/abstracto-055.svg"
+        },
+        {
+          "id": "psi-abs-056",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "muy alta",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mecánica: nested. La respuesta correcta es la opción d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "nested"
+          ],
+          "image": "/img/psychotecnicos/abstracto-056.svg"
+        },
+        {
+          "id": "psi-abs-057",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mecánica: dots. La respuesta correcta es la opción b.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "dots"
+          ],
+          "image": "/img/psychotecnicos/abstracto-057.svg"
+        },
+        {
+          "id": "psi-abs-058",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mecánica: dots. La respuesta correcta es la opción c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "dots"
+          ],
+          "image": "/img/psychotecnicos/abstracto-058.svg"
+        },
+        {
+          "id": "psi-abs-059",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mecánica: dots. La respuesta correcta es la opción c.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "dots"
+          ],
+          "image": "/img/psychotecnicos/abstracto-059.svg"
+        },
+        {
+          "id": "psi-abs-060",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "question": "Analiza el patrón y elige la opción correcta.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mecánica: dots. La respuesta correcta es la opción d.",
+          "tags": [
+            "psicotecnico",
+            "abstracto",
+            "dots"
+          ],
+          "image": "/img/psychotecnicos/abstracto-060.svg"
         }
       ],
       "razonamientoEspacial": [
@@ -5186,15 +5606,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz ámbar encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Parada",
-            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Parada",
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Parada",
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Precaución"
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Precaución"
           ],
-          "correctIndex": 0,
-          "explanation": "Según la tabla: Luz roja → Parada; Luz roja → Parada; Luz roja → Parada."
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz ámbar → Precaución."
         },
         {
           "id": "psi-ins-202",
@@ -5204,15 +5624,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz ámbar encendida, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Parada",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Parada",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Precaución",
-            "Semáforo A: Vía libre, Semáforo B: Vía libre, Semáforo C: Parada"
+            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Parada",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Vía libre, Semáforo D: Precaución"
           ],
           "correctIndex": 1,
-          "explanation": "Según la tabla: Luz verde → Vía libre; Luz ámbar → Precaución; Luz roja → Parada."
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz ámbar → Precaución; Luz ámbar → Precaución; Luz roja → Parada."
         },
         {
           "id": "psi-ins-203",
@@ -5222,15 +5642,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz roja encendida, Semáforo D: Luces roja y ámbar encendidas. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Precaución",
-            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Precaución",
-            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Precaución"
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Anuncio de parada",
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Anuncio de parada",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Anuncio de parada",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Anuncio de parada"
           ],
           "correctIndex": 3,
-          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja → Parada; Luz ámbar → Precaución."
+          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja y ámbar → Anuncio de parada; Luz roja → Parada; Luz roja y ámbar → Anuncio de parada."
         },
         {
           "id": "psi-ins-204",
@@ -5240,15 +5660,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz ámbar encendida, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Parada",
-            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Vía libre"
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Anuncio de parada",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Anuncio de parada",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre"
           ],
           "correctIndex": 0,
-          "explanation": "Según la tabla: Luz roja → Parada; Luz ámbar → Precaución; Luz verde → Vía libre."
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz verde → Vía libre."
         },
         {
           "id": "psi-ins-205",
@@ -5258,15 +5678,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz ámbar encendida, Semáforo C: Luz ámbar encendida, Semáforo D: Luces roja y ámbar encendidas. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Vía libre, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Parada"
+            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Anuncio de parada",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Anuncio de parada",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Anuncio de parada"
           ],
           "correctIndex": 1,
-          "explanation": "Según la tabla: Luz verde → Vía libre; Luz ámbar → Precaución; Luz verde → Vía libre."
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada."
         },
         {
           "id": "psi-ins-206",
@@ -5276,15 +5696,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz verde encendida, Semáforo C: Luz roja encendida, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Parada",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Vía libre",
-            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Vía libre"
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Parada, Semáforo D: Parada",
+            "Semáforo A: Vía libre, Semáforo B: Vía libre, Semáforo C: Parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Precaución"
           ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz ámbar → Precaución; Luz verde → Vía libre."
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz verde → Vía libre; Luz roja → Parada; Luz roja → Parada."
         },
         {
           "id": "psi-ins-207",
@@ -5294,15 +5714,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz verde encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz verde encendida, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Vía libre, Semáforo C: Vía libre",
-            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Parada",
-            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Vía libre"
+            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Parada",
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Anuncio de parada, Semáforo D: Parada",
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Anuncio de parada, Semáforo D: Precaución"
           ],
-          "correctIndex": 3,
-          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz verde → Vía libre; Luz verde → Vía libre."
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz verde → Vía libre; Luz roja y ámbar → Anuncio de parada; Luz roja → Parada."
         },
         {
           "id": "psi-ins-208",
@@ -5312,15 +5732,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz verde encendida, Semáforo C: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz roja encendida, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Precaución",
-            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Precaución",
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Precaución"
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Precaución"
           ],
-          "correctIndex": 2,
-          "explanation": "Según la tabla: Luz roja → Parada; Luz verde → Vía libre; Luz ámbar → Precaución."
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja → Parada; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución."
         },
         {
           "id": "psi-ins-209",
@@ -5330,15 +5750,15 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz roja encendida, Semáforo C: Luz verde encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Parada"
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Vía libre, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Precaución"
           ],
           "correctIndex": 2,
-          "explanation": "Según la tabla: Luz roja → Parada; Luz roja → Parada; Luz verde → Vía libre."
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz roja → Parada; Luz verde → Vía libre; Luz ámbar → Precaución."
         },
         {
           "id": "psi-ins-210",
@@ -5348,393 +5768,825 @@
           "subgrupo": "Semáforos",
           "groupId": "sem-grupo-A",
           "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
-          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Parada",
-            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Vía libre",
-            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Vía libre"
-          ],
-          "correctIndex": 2,
-          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja → Parada; Luz verde → Vía libre."
-        },
-        {
-          "id": "psi-ins-003",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Reglas: A→B, B→C, ¬C→D. Si A es verdadero, ¿cuál es el estado de D?",
-          "options": [
-            "Verdadero",
-            "Falso",
-            "Indeterminado",
-            "C y D ambos verdaderos"
-          ],
-          "correctIndex": 1,
-          "explanation": "A=V → B=V → C=V. Como C es verdadero, ¬C es falso, así que D=Falso.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "logica"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-004",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Instrucción: la palanca P sube si se activan los botones 1 Y 2 simultáneamente. El botón 1 está pulsado, el 2 no. ¿Qué ocurre con P?",
-          "options": [
-            "P sube",
-            "P baja",
-            "P no se mueve",
-            "P oscila"
-          ],
-          "correctIndex": 2,
-          "explanation": "Se necesitan 1 Y 2 activos al mismo tiempo. Si el 2 no está activo, P no se mueve.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "condicion-and"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-005",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla: la válvula V se abre si la presión supera 5 bar O si la temperatura supera 80°C. Presión=4 bar, Temperatura=90°C. ¿Estado de V?",
-          "options": [
-            "V cerrada",
-            "V abierta",
-            "V bloqueada",
-            "V en posición media"
-          ],
-          "correctIndex": 1,
-          "explanation": "Condición OR: basta una condición. Temperatura=90°C > 80°C, así que V se abre.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "condicion-or"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-006",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Secuencia de comandos: [L] apaga luces, [F] frena, [A] abre puertas. Código: F-L-A. ¿Cuál es el orden correcto de acciones?",
-          "options": [
-            "Abre puertas, apaga luces, frena",
-            "Frena, apaga luces, abre puertas",
-            "Apaga luces, frena, abre puertas",
-            "Frena, abre puertas, apaga luces"
-          ],
-          "correctIndex": 1,
-          "explanation": "El código F-L-A indica la secuencia: F=Frena → L=Apaga luces → A=Abre puertas.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "secuencia"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-009",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla de prioridad: si hay avería crítica, actuar PRIMERO en seguridad, luego en comunicaciones, luego en reparación. ¿Cuál es el segundo paso?",
-          "options": [
-            "Seguridad",
-            "Comunicaciones",
-            "Reparación",
-            "Evaluación"
-          ],
-          "correctIndex": 1,
-          "explanation": "El orden de prioridad es: 1º Seguridad, 2º Comunicaciones, 3º Reparación.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "prioridad"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-010",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Código de letras: A=1, B=2, C=3. Instrucción: suma los valores del código 'BAC'. ¿Resultado?",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "correctIndex": 1,
-          "explanation": "B=2, A=1, C=3 → 2+1+3=6.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "codigo"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-014",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Regla: activar alarma si temperatura > 100°C O si la presión > 8 bar. Si temperatura=95°C y presión=9 bar, ¿se activa la alarma?",
-          "options": [
-            "Sí, por temperatura",
-            "Sí, por presión",
-            "No",
-            "Sí, por ambas"
-          ],
-          "correctIndex": 1,
-          "explanation": "Temperatura=95°C (no supera 100), pero presión=9 bar > 8 bar → alarma activada por presión.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "condicion-or"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-015",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Código posicional: en la cadena 'MRTX', la posición 1 es M, 2 es R, 3 es T, 4 es X. ¿Qué letra está en la posición 3?",
-          "options": [
-            "M",
-            "R",
-            "T",
-            "X"
-          ],
-          "correctIndex": 2,
-          "explanation": "Posición 3 → T.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "posicion"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-016",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Interruptores: los interruptores 1 y 3 están en ON; el 2 está en OFF. Regla: la luz se enciende si los tres interruptores están en ON. ¿Está encendida la luz?",
-          "options": [
-            "Sí",
-            "No",
-            "Solo parcialmente",
-            "Parpadea"
-          ],
-          "correctIndex": 1,
-          "explanation": "Se requieren los tres en ON. El interruptor 2 está en OFF, así que la luz NO se enciende.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "interruptores"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-019",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "question": "Secuencia de estados: PARADO → ARRANQUE → MARCHA → PARADA. Si estás en MARCHA y aplicas PARADA, ¿cuál es el estado siguiente?",
-          "options": [
-            "ARRANQUE",
-            "MARCHA",
-            "PARADO",
-            "PARADA"
-          ],
-          "correctIndex": 2,
-          "explanation": "MARCHA + acción PARADA → estado PARADO.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "estado"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-020",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "question": "Tabla de verdad: X=A AND (B OR C). A=1, B=0, C=1. ¿Valor de X?",
-          "options": [
-            "0",
-            "1",
-            "Indefinido",
-            "Depende de A"
-          ],
-          "correctIndex": 1,
-          "explanation": "B OR C = 0 OR 1 = 1. A AND 1 = 1 AND 1 = 1. X=1.",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "tabla-verdad"
-          ],
-          "subgrupo": "Órdenes con figuras",
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-041",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "media",
-          "subgrupo": "Órdenes con figuras",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código de figuras: ■=girar a la derecha, ●=girar a la izquierda, ▲=avanzar, ▼=retroceder. Orden recibida: ▲▲■▲●▼</em>Un robot comienza mirando al Norte. ¿Hacia dónde mira tras ejecutar ▲▲■▲●▼?",
-          "options": [
-            "Norte",
-            "Sur",
-            "Este",
-            "Oeste"
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Anuncio de parada, Semáforo D: Precaución"
           ],
           "correctIndex": 0,
-          "explanation": "■=gira derecha (+90°): N→E. ●=gira izquierda (-90°): E→N. ▲ y ▼ solo mueven sin girar. Resultado: mirando al Norte.",
-          "image": "",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "figuras",
-            "orientacion"
-          ],
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución."
         },
         {
-          "id": "psi-ins-042",
+          "id": "psi-ins-211",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Órdenes con figuras",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código: ♦=sumar 5, ♣=restar 3, ♠=multiplicar por 2, ♥=dividir entre 2. Valor inicial: 10. Secuencia: ♦♠♣♥</em>¿Cuál es el valor final?",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz roja encendida, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
           "options": [
-            "10",
-            "11",
-            "12",
-            "13"
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Precaución, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Vía libre, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Parada, Semáforo D: Parada"
           ],
-          "correctIndex": 1,
-          "explanation": "10+5=15 → 15×2=30 → 30-3=27 → 27÷2=13.5 ≈ 13 (redondeado) ... Revisando: 10→+5=15→×2=30→-3=27→÷2=13.5. Aproximando al entero más cercano: 14. Dado que las opciones incluyen 11, revisamos: 10+5=15, 15×2=30, 30-3=27, 27/2=13.5→aprox 14. Opción más cercana: 13.",
-          "image": "",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "figuras",
-            "calculo"
-          ],
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja → Parada; Luz roja → Parada; Luz roja → Parada."
         },
         {
-          "id": "psi-ins-043",
+          "id": "psi-ins-212",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Parada",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Parada"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz roja y ámbar → Anuncio de parada; Luz roja → Parada."
+        },
+        {
+          "id": "psi-ins-213",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz roja encendida, Semáforo C: Luz ámbar encendida, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Precaución, Semáforo D: Vía libre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz roja → Parada; Luz ámbar → Precaución; Luz verde → Vía libre."
+        },
+        {
+          "id": "psi-ins-214",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz verde encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Precaución"
+          ],
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Luz roja → Parada; Luz roja y ámbar → Anuncio de parada; Luz verde → Vía libre; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-215",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz ámbar encendida, Semáforo C: Luz roja encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Precaución, Semáforo C: Parada, Semáforo D: Vía libre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz roja → Parada; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-216",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luz verde encendida, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Anuncio de parada, Semáforo B: Vía libre, Semáforo C: Parada, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Precaución"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz verde → Vía libre; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-217",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz roja encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Precaución"
+          ],
+          "correctIndex": 1,
+          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja y ámbar → Anuncio de parada; Luz roja → Parada; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-218",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz roja encendida, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Parada",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Parada",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Parada"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz roja → Parada; Luz roja → Parada."
+        },
+        {
+          "id": "psi-ins-219",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz ámbar encendida, Semáforo C: Luz verde encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Precaución, Semáforo B: Precaución, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Vía libre, Semáforo D: Precaución",
+            "Semáforo A: Vía libre, Semáforo B: Precaución, Semáforo C: Parada, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Precaución, Semáforo C: Vía libre, Semáforo D: Precaución"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz roja → Parada; Luz ámbar → Precaución; Luz verde → Vía libre; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-220",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz ámbar encendida, Semáforo D: Luz ámbar encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Vía libre, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Precaución",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Precaución"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz ámbar → Precaución."
+        },
+        {
+          "id": "psi-ins-221",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luz ámbar encendida, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Anuncio de parada",
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja y ámbar → Anuncio de parada; Luz ámbar → Precaución; Luz verde → Vía libre."
+        },
+        {
+          "id": "psi-ins-222",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz roja encendida, Semáforo B: Luz verde encendida, Semáforo C: Luz ámbar encendida, Semáforo D: Luz roja encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Vía libre, Semáforo B: Vía libre, Semáforo C: Anuncio de parada, Semáforo D: Parada",
+            "Semáforo A: Parada, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Parada",
+            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Precaución",
+            "Semáforo A: Parada, Semáforo B: Vía libre, Semáforo C: Precaución, Semáforo D: Parada"
+          ],
+          "correctIndex": 3,
+          "explanation": "Según la tabla: Luz roja → Parada; Luz verde → Vía libre; Luz ámbar → Precaución; Luz roja → Parada."
+        },
+        {
+          "id": "psi-ins-223",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz verde encendida, Semáforo B: Luz roja encendida, Semáforo C: Luz roja encendida, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Parada, Semáforo B: Parada, Semáforo C: Vía libre, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Vía libre",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Parada, Semáforo D: Vía libre",
+            "Semáforo A: Vía libre, Semáforo B: Parada, Semáforo C: Precaución, Semáforo D: Anuncio de parada"
+          ],
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Luz verde → Vía libre; Luz roja → Parada; Luz roja → Parada; Luz verde → Vía libre."
+        },
+        {
+          "id": "psi-ins-224",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luz ámbar encendida, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Vía libre, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Parada, Semáforo D: Anuncio de parada",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Precaución, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Según la tabla: Luz ámbar → Precaución; Luz roja y ámbar → Anuncio de parada; Luz roja y ámbar → Anuncio de parada; Luz verde → Vía libre."
+        },
+        {
+          "id": "psi-ins-225",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Semáforos",
+          "groupId": "sem-grupo-A",
+          "groupImage": "img/psychotecnicos/instrucciones-sem-A.svg",
+          "question": "Semáforo A: Luces roja y ámbar encendidas, Semáforo B: Luces roja y ámbar encendidas, Semáforo C: Luces roja y ámbar encendidas, Semáforo D: Luz verde encendida. ¿Qué indicación muestra cada semáforo?",
+          "options": [
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Parada, Semáforo C: Anuncio de parada, Semáforo D: Vía libre",
+            "Semáforo A: Anuncio de parada, Semáforo B: Anuncio de parada, Semáforo C: Anuncio de parada, Semáforo D: Anuncio de parada",
+            "Semáforo A: Precaución, Semáforo B: Anuncio de parada, Semáforo C: Precaución, Semáforo D: Vía libre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Según la tabla: Luz roja y ámbar → Anuncio de parada; Luz roja y ámbar → Anuncio de parada; Luz roja y ámbar → Anuncio de parada; Luz verde → Vía libre."
+        },
+        {
+          "id": "psi-ins-301",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-301.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+        },
+        {
+          "id": "psi-ins-302",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-302.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "La columna correcta es la A. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+        },
+        {
+          "id": "psi-ins-303",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-303.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+        },
+        {
+          "id": "psi-ins-304",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-304.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+        },
+        {
+          "id": "psi-ins-305",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-305.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica C → color cambiado. Figura B: aplica C → color cambiado. Figura C: aplica G → girada 180°."
+        },
+        {
+          "id": "psi-ins-306",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-306.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+        },
+        {
+          "id": "psi-ins-307",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-307.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "La columna correcta es la A. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+        },
+        {
+          "id": "psi-ins-308",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-308.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+        },
+        {
+          "id": "psi-ins-309",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-309.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica G → girada 180°. Figura B: aplica C → color cambiado. Figura C: aplica C → color cambiado."
+        },
+        {
+          "id": "psi-ins-310",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "fácil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-310.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica G → girada 180°. Figura B: aplica C → color cambiado. Figura C: aplica G → girada 180°."
+        },
+        {
+          "id": "psi-ins-311",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
           "subgrupo": "Órdenes con figuras",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Figuras de acción: ★=abrir puerta, ✦=cerrar puerta, ✚=encender luz, ✖=apagar luz. Secuencia de órdenes: ★✚✖✦. Estado inicial: puerta cerrada, luz apagada.</em>Estado final tras ejecutar la secuencia:",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-311.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
           "options": [
-            "Puerta cerrada, luz apagada",
-            "Puerta cerrada, luz encendida",
-            "Puerta abierta, luz apagada",
-            "Puerta abierta, luz encendida"
+            "A",
+            "B",
+            "C",
+            "D"
           ],
           "correctIndex": 0,
-          "explanation": "★=abre puerta (abierta). ✚=enciende luz (luz encendida). ✖=apaga luz (luz apagada). ✦=cierra puerta (cerrada). Final: puerta cerrada, luz apagada.",
-          "image": "",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "figuras",
-            "estados"
-          ],
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
+          "explanation": "La columna correcta es la A. Figura A: aplica C y A → tamaño aumentadocolor cambiado. Figura B: aplica P y G → tamaño reducidogirada 180°. Figura C: aplica C y A → tamaño aumentadocolor cambiado. Figura D: aplica A y C → tamaño aumentadocolor cambiado."
         },
         {
-          "id": "psi-ins-044",
-          "oepYear": 2025,
-          "source": "elaboracion-oporail",
-          "difficulty": "alta",
-          "subgrupo": "Órdenes con figuras",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Tabla de figuras: △=N, ▷=E, ▽=S, ◁=W. Un agente en la posición (0,0) sigue la secuencia de figuras: △△▷△◁▽. Cada figura=1 paso.</em>¿Posición final del agente (x,y)?",
-          "options": [
-            "(0,2)",
-            "(1,2)",
-            "(0,1)",
-            "(1,1)"
-          ],
-          "correctIndex": 0,
-          "explanation": "△=+y, ▷=+x, ▽=-y, ◁=-x. Inicio(0,0): △(0,1)→△(0,2)→▷(1,2)→△(1,3)→◁(0,3)→▽(0,2). Final: (0,2).",
-          "image": "",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "figuras",
-            "coordenadas"
-          ],
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
-        },
-        {
-          "id": "psi-ins-045",
+          "id": "psi-ins-312",
           "oepYear": 2025,
           "source": "elaboracion-oporail",
           "difficulty": "media",
           "subgrupo": "Órdenes con figuras",
-          "question": "<em style='display:block;background:#f0f4f8;border-left:4px solid #6366f1;padding:8px 12px;margin-bottom:10px;font-size:0.88em'>Código de formas: ○=palanca A, □=palanca B, △=palanca C. Encendido si figura es grande, apagado si es pequeña. Secuencia de órdenes: ○grande, □pequeña, △grande.</em>¿Qué palancas quedan encendidas al final?",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-312.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
           "options": [
-            "A y B",
-            "A y C",
-            "Solo A",
-            "B y C"
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica P y C → tamaño reducidocolor cambiado. Figura B: aplica P y C → tamaño reducidocolor cambiado. Figura C: aplica C y A → tamaño aumentadocolor cambiado. Figura D: aplica C y G → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-313",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-313.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica A y G → tamaño aumentadogirada 180°. Figura B: aplica P y G → tamaño reducidogirada 180°. Figura C: aplica P y C → tamaño reducidocolor cambiado."
+        },
+        {
+          "id": "psi-ins-314",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-314.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "La columna correcta es la A. Figura A: aplica C y A → tamaño aumentadocolor cambiado. Figura B: aplica G y C → color cambiadogirada 180°. Figura C: aplica G y A → tamaño aumentadogirada 180°. Figura D: aplica C y G → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-315",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-315.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica G y C → color cambiadogirada 180°. Figura B: aplica A y C → tamaño aumentadocolor cambiado. Figura C: aplica G y C → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-316",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-316.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica A y G → tamaño aumentadogirada 180°. Figura B: aplica G y A → tamaño aumentadogirada 180°. Figura C: aplica A y C → tamaño aumentadocolor cambiado."
+        },
+        {
+          "id": "psi-ins-317",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-317.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
           ],
           "correctIndex": 1,
-          "explanation": "○grande=A encendida. □pequeña=B apagada. △grande=C encendida. Resultado: A y C encendidas.",
-          "image": "",
-          "tags": [
-            "psicotecnico",
-            "instrucciones",
-            "figuras",
-            "palancas"
+          "explanation": "La columna correcta es la B. Figura A: aplica G y C → color cambiadogirada 180°. Figura B: aplica A y C → tamaño aumentadocolor cambiado. Figura C: aplica C y A → tamaño aumentadocolor cambiado."
+        },
+        {
+          "id": "psi-ins-318",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-318.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
           ],
-          "groupId": "ord-grupo-A",
-          "groupImage": "img/psychotecnicos/instrucciones-ord-A.svg"
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica P y C → tamaño reducidocolor cambiado. Figura B: aplica C y G → color cambiadogirada 180°. Figura C: aplica P y C → tamaño reducidocolor cambiado."
+        },
+        {
+          "id": "psi-ins-319",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-319.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica C y G → color cambiadogirada 180°. Figura B: aplica C y A → tamaño aumentadocolor cambiado. Figura C: aplica P y C → tamaño reducidocolor cambiado."
+        },
+        {
+          "id": "psi-ins-320",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "media",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-320.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "La columna correcta es la A. Figura A: aplica C y A → tamaño aumentadocolor cambiado. Figura B: aplica A y C → tamaño aumentadocolor cambiado. Figura C: aplica G y P → tamaño reducidogirada 180°."
+        },
+        {
+          "id": "psi-ins-321",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-321.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica G y D → girada 180°duplicada. Figura B: aplica G y D → girada 180°duplicada. Figura C: aplica A y D → tamaño aumentadoduplicada. Figura D: aplica D y P → tamaño reducidoduplicada. Figura E: aplica G y C → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-322",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-322.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica D y P → tamaño reducidoduplicada. Figura B: aplica G y D → girada 180°duplicada. Figura C: aplica G y C → color cambiadogirada 180°. Figura D: aplica A y D → tamaño aumentadoduplicada. Figura E: aplica G y D → girada 180°duplicada."
+        },
+        {
+          "id": "psi-ins-323",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-323.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica P y D → tamaño reducidoduplicada. Figura B: aplica D y A → tamaño aumentadoduplicada. Figura C: aplica G y C → color cambiadogirada 180°. Figura D: aplica D y P → tamaño reducidoduplicada. Figura E: aplica C y D → color cambiadoduplicada."
+        },
+        {
+          "id": "psi-ins-324",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-324.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 3,
+          "explanation": "La columna correcta es la D. Figura A: aplica G y C → color cambiadogirada 180°. Figura B: aplica A y D → tamaño aumentadoduplicada. Figura C: aplica C y A → tamaño aumentadocolor cambiado. Figura D: aplica P y D → tamaño reducidoduplicada. Figura E: aplica C y A → tamaño aumentadocolor cambiado."
+        },
+        {
+          "id": "psi-ins-325",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-325.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica C y D → color cambiadoduplicada. Figura B: aplica P y D → tamaño reducidoduplicada. Figura C: aplica G y P → tamaño reducidogirada 180°. Figura D: aplica D y A → tamaño aumentadoduplicada. Figura E: aplica G y C → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-326",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-326.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica G y C → color cambiadogirada 180°. Figura B: aplica P y D → tamaño reducidoduplicada. Figura C: aplica A y D → tamaño aumentadoduplicada. Figura D: aplica P y D → tamaño reducidoduplicada. Figura E: aplica G y C → color cambiadogirada 180°."
+        },
+        {
+          "id": "psi-ins-327",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-327.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica G y P → tamaño reducidogirada 180°. Figura B: aplica A y D → tamaño aumentadoduplicada. Figura C: aplica D y G → girada 180°duplicada. Figura D: aplica D y G → girada 180°duplicada. Figura E: aplica D y G → girada 180°duplicada."
+        },
+        {
+          "id": "psi-ins-328",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-328.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 2,
+          "explanation": "La columna correcta es la C. Figura A: aplica G y D → girada 180°duplicada. Figura B: aplica D y A → tamaño aumentadoduplicada. Figura C: aplica D y G → girada 180°duplicada. Figura D: aplica G y P → tamaño reducidogirada 180°. Figura E: aplica C y D → color cambiadoduplicada."
+        },
+        {
+          "id": "psi-ins-329",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-329.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 0,
+          "explanation": "La columna correcta es la A. Figura A: aplica C y A → tamaño aumentadocolor cambiado. Figura B: aplica D y G → girada 180°duplicada. Figura C: aplica G y D → girada 180°duplicada. Figura D: aplica C y A → tamaño aumentadocolor cambiado. Figura E: aplica D y A → tamaño aumentadoduplicada."
+        },
+        {
+          "id": "psi-ins-330",
+          "oepYear": 2025,
+          "source": "elaboracion-oporail",
+          "difficulty": "difícil",
+          "subgrupo": "Órdenes con figuras",
+          "groupId": "ord-visual-A",
+          "groupImage": "img/psychotecnicos/instrucciones-ord-330.svg",
+          "question": "Observa las figuras originales y los comandos que se aplican a cada una. ¿Cuál de las columnas A, B, C o D muestra el resultado correcto?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctIndex": 1,
+          "explanation": "La columna correcta es la B. Figura A: aplica G y C → color cambiadogirada 180°. Figura B: aplica D y A → tamaño aumentadoduplicada. Figura C: aplica G y C → color cambiadogirada 180°. Figura D: aplica C y A → tamaño aumentadocolor cambiado. Figura E: aplica D y G → girada 180°duplicada."
         }
       ],
       "seriesNumerosLetras": [

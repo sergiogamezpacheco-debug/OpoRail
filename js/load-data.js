@@ -433,7 +433,7 @@ function renderPublicOverview() {
 
       ${renderPublicPsychotechnicalCard()}
 
-      <article class="bg-gray-50 rounded-xl border border-gray-100 p-5">
+      <article class="bg-gray-50 rounded-xl border-2 border-purple-500 p-5">
         <h3 class="text-lg font-bold text-purple-700 mb-2">Simulacro de examen</h3>
         <p class="text-sm text-gray-700 mb-3">Simulacros completos por convocatoria (2022-2025) con informe de resultados.</p>
         <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1">

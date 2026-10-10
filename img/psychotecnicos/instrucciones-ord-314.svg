@@ -1,0 +1,60 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='500' height='378' viewBox='0 0 500 378' font-family='Arial,sans-serif'>
+<rect width='100%' height='100%' fill='#f6f7f9'/>
+<text x='50' y='24' font-size='11' fill='#666' text-anchor='middle'>Original</text>
+<text x='210' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>A</text>
+<text x='290' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>B</text>
+<text x='370' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>C</text>
+<text x='450' y='24' font-size='13' font-weight='700' fill='#333' text-anchor='middle'>D</text>
+<rect x='10' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='32.0' y='50.0' width='36.0' height='36.0' fill='#1565C0'/>
+<rect x='90' y='30' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='73' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>C A</text>
+<rect x='170' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='185.7' y='43.7' width='48.6' height='48.6' fill='#1a1a1a'/>
+<rect x='250' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='290.0,38.3 310.2,68.0 290.0,97.7 269.8,68.0' fill='#1a1a1a'/>
+<rect x='330' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='345.7' y='43.7' width='48.6' height='48.6' fill='#1a1a1a'/>
+<rect x='410' y='30' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='425.7' y='43.7' width='48.6' height='48.6' fill='#1565C0'/>
+<rect x='10' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='32.0' y='126.0' width='36.0' height='36.0' fill='#1565C0'/>
+<rect x='90' y='106' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='149' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>G C</text>
+<rect x='170' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='192.0' y='126.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='250' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='280.1' y='134.1' width='19.8' height='19.8' fill='#1a1a1a'/>
+<rect x='330' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='370.0,122.0 385.0,144.0 370.0,166.0 355.0,144.0' fill='#1a1a1a'/>
+<rect x='410' y='106' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='432.0' y='126.0' width='36.0' height='36.0' fill='#1a1a1a'/>
+<rect x='10' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<rect x='32.0' y='202.0' width='36.0' height='36.0' fill='#1565C0'/>
+<rect x='90' y='182' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='225' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>G A</text>
+<rect x='170' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='185.7' y='195.7' width='48.6' height='48.6' fill='#1565C0'/>
+<rect x='250' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='265.7' y='195.7' width='48.6' height='48.6' fill='#1565C0'/>
+<rect x='330' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='345.7' y='195.7' width='48.6' height='48.6' fill='#1565C0'/>
+<rect x='410' y='182' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<rect x='425.7' y='195.7' width='48.6' height='48.6' fill='#1565C0'/>
+<rect x='10' y='258' width='80' height='76' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='50.0,275.2 30.0,307.2 70.0,307.2' fill='#1565C0'/>
+<rect x='90' y='258' width='80' height='76' fill='#e8edf5' stroke='#aab' stroke-width='1'/>
+<text x='130' y='301' font-size='16' font-weight='700' fill='#1f4a73' text-anchor='middle'>C G</text>
+<rect x='170' y='258' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='210.0,316.8 190.0,284.8 230.0,284.8' fill='#1a1a1a'/>
+<rect x='250' y='258' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='290.0,316.8 270.0,284.8 310.0,284.8' fill='#1a1a1a'/>
+<rect x='330' y='258' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='370.0,316.8 350.0,284.8 390.0,284.8' fill='#1a1a1a'/>
+<rect x='410' y='258' width='80' height='76' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='450.0,316.8 430.0,284.8 470.0,284.8' fill='#1a1a1a'/>
+<text x='210' y='352' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>A</text>
+<text x='290' y='352' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>B</text>
+<text x='370' y='352' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>C</text>
+<text x='450' y='352' font-size='14' font-weight='normal' fill='#333' text-anchor='middle'>D</text>
+</svg>

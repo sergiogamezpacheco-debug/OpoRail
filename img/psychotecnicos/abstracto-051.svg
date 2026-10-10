@@ -1,0 +1,31 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480' font-family='Arial,sans-serif'>
+<rect width='100%' height='100%' fill='#f6f7f9'/>
+<text x='400' y='26' font-size='15' fill='#444' text-anchor='middle'>Encuentra el siguiente elemento de la serie</text>
+<rect x='109' y='45' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='164.0,86.0 151.8,107.0 176.2,107.0' fill='#222' stroke='none'/>
+<text x='164' y='171' font-size='14' fill='#999' text-anchor='middle'>1</text>
+<rect x='227' y='45' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='300.0,100.0 273.0,84.3 273.0,115.7' fill='#222' stroke='none'/>
+<text x='282' y='171' font-size='14' fill='#999' text-anchor='middle'>2</text>
+<rect x='345' y='45' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='400.0,122.0 380.9,89.0 419.1,89.0' fill='#222' stroke='none'/>
+<text x='400' y='171' font-size='14' fill='#999' text-anchor='middle'>3</text>
+<rect x='463' y='45' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='492.0,100.0 531.0,77.4 531.0,122.6' fill='#222' stroke='none'/>
+<text x='518' y='171' font-size='14' fill='#999' text-anchor='middle'>4</text>
+<rect x='581' y='45' width='110' height='110' fill='white' stroke='#333' stroke-width='2' stroke-dasharray='10 6'/>
+<text x='636' y='106' font-size='44' fill='#888' text-anchor='middle'>?</text>
+<text x='636' y='171' font-size='14' fill='#999' text-anchor='middle'>5</text>
+<rect x='156' y='205' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='236.0,255.0 191.0,228.9 191.0,281.1' fill='#222' stroke='none'/>
+<text x='206' y='323' font-size='20' fill='#333' text-anchor='middle'>a</text>
+<rect x='278' y='205' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='328.0,225.0 301.9,270.0 354.1,270.0' fill='#222' stroke='none'/>
+<text x='328' y='323' font-size='20' fill='#333' text-anchor='middle'>b</text>
+<rect x='400' y='205' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='450.0,233.0 430.9,266.0 469.1,266.0' fill='#222' stroke='none'/>
+<text x='450' y='323' font-size='20' fill='#333' text-anchor='middle'>c</text>
+<rect x='522' y='205' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='572.0,285.0 545.9,240.0 598.1,240.0' fill='#222' stroke='none'/>
+<text x='572' y='323' font-size='20' fill='#333' text-anchor='middle'>d</text>
+</svg>

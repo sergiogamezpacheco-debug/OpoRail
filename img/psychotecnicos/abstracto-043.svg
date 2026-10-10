@@ -1,0 +1,34 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480' font-family='Arial,sans-serif'>
+<rect width='100%' height='100%' fill='#f6f7f9'/>
+<text x='400' y='28' font-size='14' fill='#444' text-anchor='middle'>La forma cambia por filas y el tamaño sigue el patrón normal→grande→pequeño</text>
+<rect x='30' y='50' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='80.0' cy='100.0' r='30.0' fill='#222' stroke='none'/>
+<rect x='130' y='50' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='180.0' cy='100.0' r='40.5' fill='#222' stroke='none'/>
+<rect x='230' y='50' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='280.0' cy='100.0' r='21.0' fill='#222' stroke='none'/>
+<rect x='30' y='150' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='80.0,167.0 104.0,200.0 80.0,233.0 56.0,200.0' fill='#222' stroke='none'/>
+<rect x='130' y='150' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='180.0,155.4 212.4,200.0 180.0,244.6 147.6,200.0' fill='#222' stroke='none'/>
+<rect x='230' y='150' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='280.0,176.9 296.8,200.0 280.0,223.1 263.2,200.0' fill='#222' stroke='none'/>
+<rect x='30' y='250' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='50.0,300.0 70.7,271.5 104.3,282.4 104.3,317.6 70.7,328.5' fill='#222'/>
+<rect x='130' y='250' width='100' height='100' fill='white' stroke='#333' stroke-width='2'/>
+<polygon points='139.5,300.0 167.5,261.5 212.8,276.2 212.8,323.8 167.5,338.5' fill='#222'/>
+<rect x='230' y='250' width='100' height='100' fill='white' stroke='#333' stroke-width='2' stroke-dasharray='10 6'/>
+<text x='280' y='306' font-size='44' fill='#888' text-anchor='middle'>?</text>
+<rect x='30' y='380' width='95' height='95' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='77.0,403.9 93.8,427.0 77.0,450.1 60.2,427.0' fill='#222' stroke='none'/>
+<text x='77' y='493' font-size='20' fill='#333' text-anchor='middle'>a</text>
+<rect x='145' y='380' width='95' height='95' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='192.0' cy='427.0' r='21.0' fill='#222' stroke='none'/>
+<text x='192' y='493' font-size='20' fill='#333' text-anchor='middle'>b</text>
+<rect x='260' y='380' width='95' height='95' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='286.0,427.0 300.5,407.0 324.0,414.7 324.0,439.3 300.5,447.0' fill='#222'/>
+<text x='307' y='493' font-size='20' fill='#333' text-anchor='middle'>c</text>
+<rect x='375' y='380' width='95' height='95' fill='white' stroke='#333' stroke-width='1.5'/>
+<polygon points='392.0,427.0 412.7,398.5 446.3,409.4 446.3,444.6 412.7,455.5' fill='#222'/>
+<text x='422' y='493' font-size='20' fill='#333' text-anchor='middle'>d</text>
+</svg>

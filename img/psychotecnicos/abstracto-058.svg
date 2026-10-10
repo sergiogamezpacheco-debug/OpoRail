@@ -1,0 +1,110 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480' font-family='Arial,sans-serif'>
+<rect width='100%' height='100%' fill='#f6f7f9'/>
+<text x='400' y='26' font-size='13' fill='#444' text-anchor='middle'>Los puntos siguen un patrón. ¿Cuántos puntos tiene la última figura? (diferencias crecen: +1,+2,+3,+4,+5)</text>
+<rect x='46' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='101' cy='105' r='4' fill='#222'/>
+<rect x='164' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='213' cy='105' r='4' fill='#222'/>
+<circle cx='225' cy='105' r='4' fill='#222'/>
+<rect x='282' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='331' cy='99' r='4' fill='#222'/>
+<circle cx='343' cy='99' r='4' fill='#222'/>
+<circle cx='331' cy='111' r='4' fill='#222'/>
+<circle cx='343' cy='111' r='4' fill='#222'/>
+<rect x='400' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='443' cy='93' r='4' fill='#222'/>
+<circle cx='455' cy='93' r='4' fill='#222'/>
+<circle cx='467' cy='93' r='4' fill='#222'/>
+<circle cx='443' cy='105' r='4' fill='#222'/>
+<circle cx='455' cy='105' r='4' fill='#222'/>
+<circle cx='467' cy='105' r='4' fill='#222'/>
+<circle cx='443' cy='117' r='4' fill='#222'/>
+<rect x='518' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2'/>
+<circle cx='555' cy='93' r='4' fill='#222'/>
+<circle cx='567' cy='93' r='4' fill='#222'/>
+<circle cx='579' cy='93' r='4' fill='#222'/>
+<circle cx='591' cy='93' r='4' fill='#222'/>
+<circle cx='555' cy='105' r='4' fill='#222'/>
+<circle cx='567' cy='105' r='4' fill='#222'/>
+<circle cx='579' cy='105' r='4' fill='#222'/>
+<circle cx='591' cy='105' r='4' fill='#222'/>
+<circle cx='555' cy='117' r='4' fill='#222'/>
+<circle cx='567' cy='117' r='4' fill='#222'/>
+<circle cx='579' cy='117' r='4' fill='#222'/>
+<rect x='636' y='50' width='110' height='110' fill='white' stroke='#333' stroke-width='2' stroke-dasharray='10 6'/>
+<text x='691' y='111' font-size='44' fill='#888' text-anchor='middle'>?</text>
+<rect x='156' y='210' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='188' cy='242' r='4' fill='#222'/>
+<circle cx='200' cy='242' r='4' fill='#222'/>
+<circle cx='212' cy='242' r='4' fill='#222'/>
+<circle cx='224' cy='242' r='4' fill='#222'/>
+<circle cx='188' cy='254' r='4' fill='#222'/>
+<circle cx='200' cy='254' r='4' fill='#222'/>
+<circle cx='212' cy='254' r='4' fill='#222'/>
+<circle cx='224' cy='254' r='4' fill='#222'/>
+<circle cx='188' cy='266' r='4' fill='#222'/>
+<circle cx='200' cy='266' r='4' fill='#222'/>
+<circle cx='212' cy='266' r='4' fill='#222'/>
+<circle cx='224' cy='266' r='4' fill='#222'/>
+<circle cx='188' cy='278' r='4' fill='#222'/>
+<circle cx='200' cy='278' r='4' fill='#222'/>
+<circle cx='212' cy='278' r='4' fill='#222'/>
+<text x='206' y='328' font-size='20' fill='#333' text-anchor='middle'>a</text>
+<rect x='278' y='210' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='304' cy='242' r='4' fill='#222'/>
+<circle cx='316' cy='242' r='4' fill='#222'/>
+<circle cx='328' cy='242' r='4' fill='#222'/>
+<circle cx='340' cy='242' r='4' fill='#222'/>
+<circle cx='352' cy='242' r='4' fill='#222'/>
+<circle cx='304' cy='254' r='4' fill='#222'/>
+<circle cx='316' cy='254' r='4' fill='#222'/>
+<circle cx='328' cy='254' r='4' fill='#222'/>
+<circle cx='340' cy='254' r='4' fill='#222'/>
+<circle cx='352' cy='254' r='4' fill='#222'/>
+<circle cx='304' cy='266' r='4' fill='#222'/>
+<circle cx='316' cy='266' r='4' fill='#222'/>
+<circle cx='328' cy='266' r='4' fill='#222'/>
+<circle cx='340' cy='266' r='4' fill='#222'/>
+<circle cx='352' cy='266' r='4' fill='#222'/>
+<circle cx='304' cy='278' r='4' fill='#222'/>
+<circle cx='316' cy='278' r='4' fill='#222'/>
+<text x='328' y='328' font-size='20' fill='#333' text-anchor='middle'>b</text>
+<rect x='400' y='210' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='432' cy='242' r='4' fill='#222'/>
+<circle cx='444' cy='242' r='4' fill='#222'/>
+<circle cx='456' cy='242' r='4' fill='#222'/>
+<circle cx='468' cy='242' r='4' fill='#222'/>
+<circle cx='432' cy='254' r='4' fill='#222'/>
+<circle cx='444' cy='254' r='4' fill='#222'/>
+<circle cx='456' cy='254' r='4' fill='#222'/>
+<circle cx='468' cy='254' r='4' fill='#222'/>
+<circle cx='432' cy='266' r='4' fill='#222'/>
+<circle cx='444' cy='266' r='4' fill='#222'/>
+<circle cx='456' cy='266' r='4' fill='#222'/>
+<circle cx='468' cy='266' r='4' fill='#222'/>
+<circle cx='432' cy='278' r='4' fill='#222'/>
+<circle cx='444' cy='278' r='4' fill='#222'/>
+<circle cx='456' cy='278' r='4' fill='#222'/>
+<circle cx='468' cy='278' r='4' fill='#222'/>
+<text x='450' y='328' font-size='20' fill='#333' text-anchor='middle'>c</text>
+<rect x='522' y='210' width='100' height='100' fill='white' stroke='#333' stroke-width='1.5'/>
+<circle cx='548' cy='242' r='4' fill='#222'/>
+<circle cx='560' cy='242' r='4' fill='#222'/>
+<circle cx='572' cy='242' r='4' fill='#222'/>
+<circle cx='584' cy='242' r='4' fill='#222'/>
+<circle cx='596' cy='242' r='4' fill='#222'/>
+<circle cx='548' cy='254' r='4' fill='#222'/>
+<circle cx='560' cy='254' r='4' fill='#222'/>
+<circle cx='572' cy='254' r='4' fill='#222'/>
+<circle cx='584' cy='254' r='4' fill='#222'/>
+<circle cx='596' cy='254' r='4' fill='#222'/>
+<circle cx='548' cy='266' r='4' fill='#222'/>
+<circle cx='560' cy='266' r='4' fill='#222'/>
+<circle cx='572' cy='266' r='4' fill='#222'/>
+<circle cx='584' cy='266' r='4' fill='#222'/>
+<circle cx='596' cy='266' r='4' fill='#222'/>
+<circle cx='548' cy='278' r='4' fill='#222'/>
+<circle cx='560' cy='278' r='4' fill='#222'/>
+<circle cx='572' cy='278' r='4' fill='#222'/>
+<text x='572' y='328' font-size='20' fill='#333' text-anchor='middle'>d</text>
+</svg>
