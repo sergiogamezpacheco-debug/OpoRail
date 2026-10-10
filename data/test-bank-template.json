@@ -6063,8 +6063,8 @@
             "C",
             "D"
           ],
-          "correctIndex": 2,
-          "explanation": "La columna correcta es la C. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+          "correctIndex": 1,
+          "explanation": "La instrucción 'G' (Giro 180°) se aplica a cada figura de la columna Original. La columna B muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-302",
@@ -6081,8 +6081,8 @@
             "C",
             "D"
           ],
-          "correctIndex": 0,
-          "explanation": "La columna correcta es la A. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+          "correctIndex": 2,
+          "explanation": "La instrucción 'C' (Cambiar color) se aplica a cada figura de la columna Original. La columna C muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-303",
@@ -6099,8 +6099,8 @@
             "C",
             "D"
           ],
-          "correctIndex": 1,
-          "explanation": "La columna correcta es la B. Figura A: aplica G → girada 180°. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+          "correctIndex": 0,
+          "explanation": "La instrucción 'P' (Más pequeña) se aplica a cada figura de la columna Original. La columna A muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-304",
@@ -6118,7 +6118,7 @@
             "D"
           ],
           "correctIndex": 3,
-          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+          "explanation": "La instrucción 'A' (Más grande) se aplica a cada figura de la columna Original. La columna D muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-305",
@@ -6136,7 +6136,7 @@
             "D"
           ],
           "correctIndex": 1,
-          "explanation": "La columna correcta es la B. Figura A: aplica C → color cambiado. Figura B: aplica C → color cambiado. Figura C: aplica G → girada 180°."
+          "explanation": "La instrucción 'D' (Duplicar) se aplica a cada figura de la columna Original. La columna B muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-306",
@@ -6153,8 +6153,8 @@
             "C",
             "D"
           ],
-          "correctIndex": 3,
-          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+          "correctIndex": 2,
+          "explanation": "La instrucción 'G' (Giro 180°) se aplica a cada figura de la columna Original. La columna C muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-307",
@@ -6172,7 +6172,7 @@
             "D"
           ],
           "correctIndex": 0,
-          "explanation": "La columna correcta es la A. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica C → color cambiado."
+          "explanation": "La instrucción 'C' (Cambiar color) se aplica a cada figura de la columna Original. La columna A muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-308",
@@ -6190,7 +6190,7 @@
             "D"
           ],
           "correctIndex": 3,
-          "explanation": "La columna correcta es la D. Figura A: aplica C → color cambiado. Figura B: aplica G → girada 180°. Figura C: aplica G → girada 180°."
+          "explanation": "La instrucción 'P' (Más pequeña) se aplica a cada figura de la columna Original. La columna D muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-309",
@@ -6208,7 +6208,7 @@
             "D"
           ],
           "correctIndex": 1,
-          "explanation": "La columna correcta es la B. Figura A: aplica G → girada 180°. Figura B: aplica C → color cambiado. Figura C: aplica C → color cambiado."
+          "explanation": "La instrucción 'A' (Más grande) se aplica a cada figura de la columna Original. La columna B muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-310",
@@ -6225,8 +6225,8 @@
             "C",
             "D"
           ],
-          "correctIndex": 3,
-          "explanation": "La columna correcta es la D. Figura A: aplica G → girada 180°. Figura B: aplica C → color cambiado. Figura C: aplica G → girada 180°."
+          "correctIndex": 2,
+          "explanation": "La instrucción 'D' (Duplicar) se aplica a cada figura de la columna Original. La columna C muestra el resultado correcto de aplicar dicha instrucción a las tres figuras."
         },
         {
           "id": "psi-ins-311",

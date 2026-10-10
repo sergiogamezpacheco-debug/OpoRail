@@ -1393,7 +1393,7 @@ if (testRunner) {
       let normalizedQuestions = testQuestions.length
         ? testQuestions.map((question) => normalizeQuestion(question))
         : [];
-      if (activeTest.id === 'psy-razonamientoAbstracto' && normalizedQuestions.length > 20) {
+      if ((activeTest.id === 'psy-razonamientoAbstracto' || activeTest.id === 'psy-instruccionesComplejas') && normalizedQuestions.length > 20) {
         const shuffled = [...normalizedQuestions].sort(() => Math.random() - 0.5);
         normalizedQuestions = shuffled;
       }
