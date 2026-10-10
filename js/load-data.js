@@ -803,7 +803,7 @@ function renderInstruccionesSubgrupos(test, courseId) {
     },
   ];
   return `
-    <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
+    <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3 h-full flex flex-col">
       <div>
         <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
         <p class="text-sm text-gray-600">Tiempo disponible: ${test.duration}</p>
@@ -884,7 +884,7 @@ function renderTestSection(title, tests, courseId, compact = false) {
   return `
     <section class="mt-10 bg-white border-2 border-purple-500 rounded-xl p-6">
       <h2 class="text-2xl font-bold text-gray-900 mb-2">${title}</h2>
-      <div class="grid md:grid-cols-2 gap-4 items-start">
+      <div class="grid md:grid-cols-2 gap-4 items-stretch">
         ${filteredTests
           .map(
             (test) => {

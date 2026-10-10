@@ -1,62 +1,64 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='780' height='520' viewBox='0 0 780 520' font-family='Arial,sans-serif'>
-  <rect width='100%' height='100%' fill='#f0f4f8'/>
-  <text x='390' y='36' font-size='20' font-weight='700' fill='#1f4a73' text-anchor='middle'>Instrucciones — Semáforos ferroviarios (Referencia A)</text>
-
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='248' viewBox='0 0 640 248' font-family='Arial,sans-serif'>
   <defs>
-    <filter id='glowe53935' x='-50%' y='-50%' width='200%' height='200%'>
-      <feGaussianBlur stdDeviation='3' result='blur'/>
-      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
-    </filter>
-    <filter id='glowFFA000' x='-50%' y='-50%' width='200%' height='200%'>
-      <feGaussianBlur stdDeviation='3' result='blur'/>
-      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
-    </filter>
-    <filter id='glow43A047' x='-50%' y='-50%' width='200%' height='200%'>
-      <feGaussianBlur stdDeviation='3' result='blur'/>
-      <feMerge><feMergeNode in='blur'/><feMergeNode in='SourceGraphic'/></feMerge>
+    <filter id='shadow' x='-20%' y='-20%' width='140%' height='140%'>
+      <feDropShadow dx='2' dy='2' stdDeviation='3' flood-color='#00000033'/>
     </filter>
   </defs>
-  <text x='390' y='58' font-size='13' fill='#455a64' text-anchor='middle'>Aspectos de semáforo • ¿Qué orden de luces corresponde a cada indicación?</text>
-  <rect x='76' y='146' width='48' height='108' rx='6' fill='#212121'/>
-  <circle cx='100' cy='168' r='12' fill='#e53935' filter='url(#glowe53935)'  />
-  <circle cx='100' cy='200' r='12' fill='#424242'/>
-  <circle cx='100' cy='232' r='12' fill='#424242'/>
-  <text x='100' y='272' font-size='12' font-weight='600' fill='#1a2332' text-anchor='middle'>Parada</text>
-  <rect x='216' y='146' width='48' height='108' rx='6' fill='#212121'/>
-  <circle cx='240' cy='168' r='12' fill='#424242'/>
-  <circle cx='240' cy='200' r='12' fill='#FFA000' filter='url(#glowFFA000)'  />
-  <circle cx='240' cy='232' r='12' fill='#424242'/>
-  <text x='240' y='272' font-size='12' font-weight='600' fill='#1a2332' text-anchor='middle'>Precaución</text>
-  <rect x='356' y='146' width='48' height='108' rx='6' fill='#212121'/>
-  <circle cx='380' cy='168' r='12' fill='#424242'/>
-  <circle cx='380' cy='200' r='12' fill='#424242'/>
-  <circle cx='380' cy='232' r='12' fill='#43A047' filter='url(#glow43A047)'  />
-  <text x='380' y='272' font-size='12' font-weight='600' fill='#1a2332' text-anchor='middle'>Vía libre</text>
-  <rect x='496' y='146' width='48' height='108' rx='6' fill='#212121'/>
-  <circle cx='520' cy='168' r='12' fill='#e53935' filter='url(#glowe53935)'  />
-  <circle cx='520' cy='200' r='12' fill='#FFA000' filter='url(#glowFFA000)'  />
-  <circle cx='520' cy='232' r='12' fill='#424242'/>
-  <text x='520' y='272' font-size='12' font-weight='600' fill='#1a2332' text-anchor='middle'>Anuncio</text>
-  <text x='520' y='286' font-size='12' font-weight='600' fill='#1a2332' text-anchor='middle'>parada</text>
-  <rect x='600' y='90' width='110' height='22' fill='#1f4a73'/>
-  <text x='655' y='105' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Aspecto</text>
-  <rect x='710' y='90' width='180' height='22' fill='#1f4a73'/>
-  <text x='800' y='105' font-size='11' font-weight='700' fill='white' text-anchor='middle'>Orden (arriba→abajo)</text>
-  <rect x='600' y='112' width='290' height='26' fill='#eaf0fb'/>
-  <text x='655' y='129' font-size='11' fill='#1a2332' text-anchor='middle'>Parada</text>
-  <text x='800' y='129' font-size='10' fill='#455a64' text-anchor='middle'>rojo · ámbar · verde</text>
-  <rect x='600' y='138' width='290' height='26' fill='white'/>
-  <text x='655' y='155' font-size='11' fill='#1a2332' text-anchor='middle'>Precaución</text>
-  <text x='800' y='155' font-size='10' fill='#455a64' text-anchor='middle'>rojo · ámbar · verde</text>
-  <rect x='600' y='164' width='290' height='26' fill='#eaf0fb'/>
-  <text x='655' y='181' font-size='11' fill='#1a2332' text-anchor='middle'>Vía libre</text>
-  <text x='800' y='181' font-size='10' fill='#455a64' text-anchor='middle'>rojo · ámbar · verde</text>
-  <rect x='600' y='190' width='290' height='26' fill='white'/>
-  <text x='655' y='207' font-size='11' fill='#1a2332' text-anchor='middle'>Anuncio parada</text>
-  <text x='800' y='207' font-size='10' fill='#455a64' text-anchor='middle'>rojo · ámbar · verde</text>
-  <rect x='600' y='216' width='290' height='26' fill='#eaf0fb'/>
-  <text x='655' y='233' font-size='11' fill='#1a2332' text-anchor='middle'>Doble amarillo</text>
-  <text x='800' y='233' font-size='10' fill='#455a64' text-anchor='middle'>amarillo · amarillo</text>
-  <rect x='600' y='90' width='290' height='152' fill='none' stroke='#1f4a73' stroke-width='1.5'/>
-  <text x='390' y='495' font-size='11' fill='#546e7a' text-anchor='middle'>Semáforos ferroviarios: la luz encendida determina la indicación de circulación.</text>
+
+  <rect width='100%' height='100%' fill='#f0f4f8'/>
+  <text x='320' y='34' font-size='18' font-weight='700' fill='#1f4a73' text-anchor='middle'>Instrucciones — Semáforos (Tabla de referencia A)</text>
+  <text x='320' y='56' font-size='13' fill='#455a64' text-anchor='middle'>Aspecto del semáforo según la luz encendida</text>
+
+  <!-- SEMAPHORE 1 — Parada (cx=110, red ON) -->
+  <rect x='86' y='78' width='48' height='108' rx='6' fill='#1a1a1a' filter='url(#shadow)'/>
+  <!-- Red ON -->
+  <circle cx='110' cy='102' r='14' fill='#e53935'/>
+  <!-- Amber OFF -->
+  <circle cx='110' cy='134' r='14' fill='#333'/>
+  <!-- Green OFF -->
+  <circle cx='110' cy='166' r='14' fill='#333'/>
+  <!-- Post -->
+  <rect x='107' y='186' width='6' height='18' fill='#546e7a'/>
+  <!-- Label -->
+  <text x='110' y='216' font-size='12' font-weight='700' fill='#c62828' text-anchor='middle'>Parada</text>
+
+  <!-- SEMAPHORE 2 — Precaución (cx=250, amber ON) -->
+  <rect x='226' y='78' width='48' height='108' rx='6' fill='#1a1a1a' filter='url(#shadow)'/>
+  <!-- Red OFF -->
+  <circle cx='250' cy='102' r='14' fill='#333'/>
+  <!-- Amber ON -->
+  <circle cx='250' cy='134' r='14' fill='#FFA000'/>
+  <!-- Green OFF -->
+  <circle cx='250' cy='166' r='14' fill='#333'/>
+  <!-- Post -->
+  <rect x='247' y='186' width='6' height='18' fill='#546e7a'/>
+  <!-- Label -->
+  <text x='250' y='216' font-size='12' font-weight='700' fill='#E65100' text-anchor='middle'>Precaución</text>
+
+  <!-- SEMAPHORE 3 — Vía libre (cx=390, green ON) -->
+  <rect x='366' y='78' width='48' height='108' rx='6' fill='#1a1a1a' filter='url(#shadow)'/>
+  <!-- Red OFF -->
+  <circle cx='390' cy='102' r='14' fill='#333'/>
+  <!-- Amber OFF -->
+  <circle cx='390' cy='134' r='14' fill='#333'/>
+  <!-- Green ON -->
+  <circle cx='390' cy='166' r='14' fill='#43a047'/>
+  <!-- Post -->
+  <rect x='387' y='186' width='6' height='18' fill='#546e7a'/>
+  <!-- Label -->
+  <text x='390' y='216' font-size='12' font-weight='700' fill='#2e7d32' text-anchor='middle'>Vía libre</text>
+
+  <!-- SEMAPHORE 4 — Anuncio parada (cx=530, red+amber ON) -->
+  <rect x='506' y='78' width='48' height='108' rx='6' fill='#1a1a1a' filter='url(#shadow)'/>
+  <!-- Red ON -->
+  <circle cx='530' cy='102' r='14' fill='#e53935'/>
+  <!-- Amber ON -->
+  <circle cx='530' cy='134' r='14' fill='#FFA000'/>
+  <!-- Green OFF -->
+  <circle cx='530' cy='166' r='14' fill='#333'/>
+  <!-- Post -->
+  <rect x='527' y='186' width='6' height='18' fill='#546e7a'/>
+  <!-- Label (2 lines) -->
+  <text x='530' y='210' font-size='12' font-weight='700' fill='#6a1a6a' text-anchor='middle'>Anuncio</text>
+  <text x='530' y='224' font-size='12' font-weight='700' fill='#6a1a6a' text-anchor='middle'>parada</text>
 </svg>
