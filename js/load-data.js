@@ -1565,10 +1565,10 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
               <p><strong>Tiempo empleado:</strong> ${formatTime(Math.max(0, totalDurationSeconds - remainingSeconds))}</p>
             </div>
             <div class="mt-4 flex flex-wrap gap-3">
-              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">
                 Volver al curso
               </a>
-              <a href="/test-info.html?course=${resolvedCourseId}&test=${activeTest.id}" class="inline-flex bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-800 transition">
+              <a href="/test-info.html?course=${resolvedCourseId}&test=${activeTest.id}" class="inline-flex bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition">
                 Reintentar
               </a>
             </div>
@@ -1668,9 +1668,9 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
                 )
                 .join('')}
               <div class="flex flex-wrap gap-3">
-                <button type="button" id="prev-page" class="btn-ghost" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
-                <button type="button" id="next-page" class="btn-ghost">Siguiente</button>
-                <button type="button" id="finish-test" class="btn">Finalizar test</button>
+                <button type="button" id="prev-page" class="inline-flex items-center px-4 py-2 rounded-lg font-semibold text-white bg-purple-600 hover:bg-purple-700 transition disabled:opacity-40 disabled:cursor-not-allowed" ${currentPage === 0 ? 'disabled' : ''}>Anterior</button>
+                <button type="button" id="next-page" class="inline-flex items-center px-4 py-2 rounded-lg font-semibold text-white bg-green-600 hover:bg-green-700 transition">Siguiente</button>
+                <button type="button" id="finish-test" class="inline-flex items-center px-4 py-2 rounded-lg font-semibold text-white bg-red-600 hover:bg-red-700 transition">Finalizar test</button>
               </div>
               <p id="test-feedback" class="text-sm text-gray-600"></p>
             </form>
@@ -1681,8 +1681,8 @@ ${renderQuestionExplanation(question, isAbstractPsychotest)}
               <h3 class="text-lg font-bold text-gray-900">¿Seguro que quieres terminar el intento?</h3>
               <p class="text-sm text-gray-600 mt-2">Si terminas ahora, se corregirá el test con las respuestas actuales.</p>
               <div class="mt-5 flex gap-3">
-                <button type="button" id="continue-test-btn" class="btn-ghost">Seguir con el Test</button>
-                <button type="button" id="confirm-finish-btn" class="btn">Terminar intento</button>
+                <button type="button" id="continue-test-btn" class="inline-flex items-center px-4 py-2 rounded-lg font-semibold text-white bg-green-600 hover:bg-green-700 transition">Seguir con el Test</button>
+                <button type="button" id="confirm-finish-btn" class="inline-flex items-center px-4 py-2 rounded-lg font-semibold text-white bg-red-600 hover:bg-red-700 transition">Terminar intento</button>
               </div>
             </div>
           </div>
@@ -1807,8 +1807,8 @@ if (testInfo) {
               <p class="text-sm text-gray-600">${activeTest.info}</p>
             </div>
             <div class="flex flex-wrap gap-3">
-              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Volver al curso</a>
-              <button id="start-test" class="inline-flex bg-white border border-purple-700 text-purple-700 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition">Comenzar test</button>
+              <a href="/curso.html?id=${resolvedCourseId}" class="inline-flex bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">Volver al curso</a>
+              <button id="start-test" class="inline-flex bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition">Comenzar test</button>
                           </div>
           </div>
           <p id="free-test-limit-message" class="mt-3 text-sm text-amber-700"></p>
