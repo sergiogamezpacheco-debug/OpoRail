@@ -681,6 +681,9 @@ function normalizeQuestion(question) {
     correctAnswer,
     explanation: question.explanation || '',
     image: question.image || '',
+    groupImage: question.groupImage || '',
+    groupId: question.groupId || '',
+    subgrupo: question.subgrupo || '',
   };
 }
 
@@ -833,11 +836,11 @@ function renderInstruccionesSubgrupos(test, courseId) {
 
 function renderSeriesGroupCard(seriesTest, comprensionTest, vocabularioTest, courseId, compact) {
   const subTests = [seriesTest, comprensionTest, vocabularioTest].filter(Boolean);
+  // Each sub-test gets its own purple-bordered article (stacked in a column)
   return `
-    <article class="border-2 border-purple-300 rounded-lg p-4 h-full flex flex-col gap-0">
-      ${subTests.map((test, idx) => `
-        ${idx > 0 ? '<hr class="border-purple-100 my-3">' : ''}
-        <div>
+    <div class="flex flex-col gap-4">
+      ${subTests.map((test) => `
+        <article class="border-2 border-purple-300 rounded-lg p-4 space-y-3">
           <div class="flex items-start justify-between gap-3">
             <div>
               <h3 class="text-lg font-semibold text-gray-900">${test.title}</h3>
@@ -845,9 +848,9 @@ function renderSeriesGroupCard(seriesTest, comprensionTest, vocabularioTest, cou
             </div>
             ${compact ? '' : `<button class="test-info-btn w-8 h-8 rounded-full border border-purple-200 text-purple-700 font-bold" data-test-info="${test.id}">i</button>`}
           </div>
-          ${compact ? '' : `<p class="text-sm text-gray-600 mt-1">${test.info}</p>`}
+          ${compact ? '' : `<p class="text-sm text-gray-600">${test.info}</p>`}
           ${compact ? '' : `
-            <div id="test-info-${test.id}" class="hidden text-sm text-gray-700 mt-2">
+            <div id="test-info-${test.id}" class="hidden text-sm text-gray-700">
               <p class="font-semibold">${test.sample.question}</p>
               <ul class="list-disc pl-5 mt-2 space-y-1">
                 ${test.sample.options.map((option) => `<li>${option}</li>`).join('')}
@@ -856,7 +859,7 @@ function renderSeriesGroupCard(seriesTest, comprensionTest, vocabularioTest, cou
               ${test.sample.explanation ? `<p class="mt-2 text-xs text-gray-500">Explicación: ${test.sample.explanation}</p>` : ''}
             </div>
           `}
-          <div class="flex gap-2 mt-2">
+          <div class="flex gap-2">
             <a class="flex-1 inline-flex items-center justify-center bg-emerald-600 text-white px-3 py-2 rounded-lg font-semibold text-sm hover:bg-emerald-700 transition" href="/test-info.html?course=${courseId}&test=${test.id}">
               Ver historial
             </a>
@@ -864,9 +867,9 @@ function renderSeriesGroupCard(seriesTest, comprensionTest, vocabularioTest, cou
               Intentar test
             </a>
           </div>
-        </div>
+        </article>
       `).join('')}
-    </article>
+    </div>
   `;
 }
 
